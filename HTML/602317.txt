@@ -1,0 +1,6 @@
+Hi, I would like to be able to connect my wpf project to 2 different data sources (production and test SQL). I have followed a method suggested:
+ This works in general for my.project I can select at startup which datasource I would like to connect to, and that is fine. My project basically has a MainWindow and a load of flip views and items, and the chosen datasource is respected OK.
+The problem I have are the xreports. I assume that because these are not part of mainwindow, then the code I have does not apply.
+I am able to specify at runtime which data source the reports should use  by using the below code when calling the report:
+This works fine, but I need to use in all xreports I use. Is there a better way to implement the selected datasource which would apply to all reports?
+Many thanks 

@@ -1,0 +1,34 @@
+Getting this error when the QueryBuild dialog closes
+An unhandled exception of type 'System.ArgumentNullException' occurred in System.Core.dll
+Additional information: Value cannot be null.
+            var sqlDataSource = new SqlDataSource();
+            sqlDataSource.ConnectionName = _context.ConnectionSettings.ConnectionName;
+            sqlDataSource.ConnectionParameters = new CustomStringConnectionParameters(_context.ConnectionSettings.EvpConnectString);
+            sqlDataSource.Name = "(unnamed)";
+            var queryBuilderContext = new QueryBuilderEditQueryContext()
+            {
+                EnableCustomSql = true
+            };
+            //sqlDataSource.Queries.Add(new DevExpress.DataAccess.Sql.CustomSqlQuery(", report.DataSourceInfo));
+            if (!SqlDataSourceUIHelper.AddQueryWithQueryBuilder(sqlDataSource, queryBuilderContext)) return;
+   at System.Linq.Enumerable.Select[TSource,TResult](IEnumerable`1 source, Func`2 selector)
+   at DevExpress.DataAccess.Native.Sql.SqlQueryHelper.GetDataSchema(CustomSqlQuery query, SqlDataConnection connection, ConnectionOptions connectionOptions, IEnumerable`1 sourceParameters)
+   at DevExpress.DataAccess.Sql.ResultSchemaProvider.GetCustomSqlSchema(CustomSqlQuery customSqlQuery, SqlDataConnection connection, ConnectionOptions connectionOptions, IEnumerable`1 sourceParameters)
+   at DevExpress.DataAccess.UI.Sql.SqlDataSourceUIHelper.GetSqlQueryDataSchema(SqlQuery query, QueryBuilderEditQueryContext context, DBSchema dbSchema)
+   at DevExpress.DataAccess.UI.Sql.SqlDataSourceUIHelper.AddQueryWithQueryBuilder(SqlDataSource dataSource, QueryBuilderEditQueryContext context, QueryBuilderRunnerDelegate createQueryBuilderRunner)
+   at DevExpress.DataAccess.UI.Sql.SqlDataSourceUIHelper.AddQueryWithQueryBuilder(SqlDataSource dataSource, QueryBuilderEditQueryContext context)
+the query is populated - here is the SQL
+select 1
+  from ((("dbo"."Catalog Item" "Catalog Item"
+  left
+  join "dbo"."Catalog Item Availability"
+       "Stock Availability"
+       on ("Stock Availability"."Item ID" = "Catalog Item"."Item ID"))
+  left
+  join "dbo"."Catalog Item Availability"
+       "Overflow Availability"
+       on ("Overflow Availability"."Item ID" = "Catalog Item"."Item ID"))
+  left
+  join "dbo"."Supplier PurchaseOrder Items"
+       "Supplier PurchaseOrder Items"
+       on ("Supplier PurchaseOrder Items"."Item ID" = "Catalog Item"."Item ID"))

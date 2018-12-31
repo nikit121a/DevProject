@@ -1,0 +1,7 @@
+Hello,
+My use case is to convert a CSV file to a TXT file, converting various values in between.  The CSV's format is: Integer, Date, Integer; converting the integer executes fine, but the date value from the source file is trickier.
+I load the worksheet like so:
+The conversion function executes one part rather quickly
+But this part is crazy slow
+I'm thinking that maybe during the first conversion I can build a datacolumn, and just append the column to the worksheet. is that possible/reasonable? Or is there a way to just create a column of a certain length with all the same values?
+ 

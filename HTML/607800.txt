@@ -1,0 +1,7 @@
+Hi, Guys
+I dont know if this happens just because i am using your trial version. 17.2.4 (Latest TRIAL) and DX 10.
+I  am testing a CELL MERGED Column, and It shows pretty well in the cxGrid, but when i try to see it in the dxComponentPrinter or dxComponentPrinterLink it doesnt work.
+for Example taTopJustify is working correctly in cxGrid with Cell Merge, but when you print it from the same cxGrid, then taTopJustify is ignored and taCenter is used.   
+ ?
+Regards
+Karlin 

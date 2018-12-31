@@ -1,0 +1,14 @@
+Hello,
+please can you help me with a query. I am struggling to understand why this is happening or what I am doing wrong.
+I have included a sample project for your attention which demonstrates the error. 
+The scenario is, while I am creating an order I would like to add a dependant to a member. Now I realise I could just create a new dependant using the lookupeditor of the dependant property on the order, but in my real world project this is not possible so please bear with me.
+I have created a viewcontroller with a popup action that opens the member detailview where I can create a new dependant, but it seems that during the save of the member object it is also creating a null member object which is why the firstname validation is failing. if you debug the code you will see this object being created.
+The steps to show this error are
+1. run the application and create a member without dependants.
+2. run the order screen create a new order and select the existing member, and click on the view controller "add dependant"
+3. the member screen opens correctly. 
+4. enter a dependant on the member and save the member
+5. you will see if fails with the first name being empty
+6. this error is not from the current member object but this phantom null member object which is being created at the same time.
+Please let me know if this is a bug or if there is another way to do this, or what needs changing,
+thank you 

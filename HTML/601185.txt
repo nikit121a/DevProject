@@ -1,0 +1,1 @@
+Attached is a report developed using devexpress  reports, if the report is zoomed to 600% the grid lines in the report are not crisp, they tend to have a shadow, can this shadow be removed.

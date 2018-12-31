@@ -1,0 +1,7 @@
+Hi!
+We have implemented your XtraRichEdit.v17.2 into our application and have now stumbled upon a weird bug. 
+When one of our customers open his OpenOffice document inside the XtraRichEdit, some fonts will change and random letters wil be sett as Uppercase. Even some spaces between characters or words seem to disappear. 
+Out of over 2000 customers, it seems weird that only one has reported this issue.  
+Is there some way to force the document to retain its contents format? No changes to fonts or other character/paragrahs changes are made to the documents in our implementation. 
+Thanks in advance!
+-Eirik 

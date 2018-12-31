@@ -1,0 +1,3 @@
+In the attached Project I have two Documents 'Main' and 'Data'. These can be docked but not floating. The other documents belong to the DocumentManager.
+If I drag the Main Window out on the TabbedView and Dock it at the Bottom using the DocumentManager that works fine. If I then try to drag the 'Data' Window and put that into the same window as the 'Main' it won't let me. I have to First Dock it somewhere else in the DockManager, then move it again.
+ 

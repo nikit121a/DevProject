@@ -1,0 +1,11 @@
+I want to bind Grid control to the Store procedure . 
+1. After binding i want one column shows as Combo box column .
+2. if datatype is date then that column should show date time picker.
+3. If anything i have changed in the data gird cell ,and when i hit save, edit delete , it should reflect in database directly if possible 
+More Important please see below thread that i have posted 
+">https://
+In above thread i have faced the Store procedure  parameter  null problem where you suggested pass null value as '?'
+Is this problem solved at your end if so should i need to upgrade my dev express version .?
+can you Please provide the  sample of each of my question and its should made in version 15.1 that is i am using .
+Thanks in advance 
+ 

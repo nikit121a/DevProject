@@ -1,0 +1,8 @@
+
+Hello. 
+Within my XAF solution, there will be no data shown direct after program start.
+When i change the sort-mode, which is set to [oid  last - first] to [oid first -last] all records are shown.
+Now i change agait to [oid  last - first] and the use key [Pos1] (may by [Home]) to go to the first entry in the list.
+How can I change the behavior to change the data displayed in the sort order and the first record (highest oid) is selected directly after the program start?
+Regards
+Juergen

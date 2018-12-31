@@ -1,0 +1,4 @@
+Hello.  I have a Multi-Channel application deployed to an iPhone X (but this applies to other iPhone devices with iOS 11).  When I tap a dxLookup control to display the selection list, everything displays just fine.  However, when I tap on any element in the selection list, the element is highlighted for a brief time and nothing else happens.
+ I have attached a basic project that displays the error.  It is a standard multi-channel application template project with a dxLookup control added to the top of the about view (starting view).
+I'm looking forward to your findings.  We have a client waiting for an update once this is resolved.
+Thanks!

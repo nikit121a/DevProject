@@ -1,0 +1,3 @@
+If I set the type of the dxdatebox to datetime every time I click the button to open the date selector the dialog size has increased.
+I have edited the codepen sample from the documentation to show the problem.
+Just open the data selector a few time to see the dialog width increase.

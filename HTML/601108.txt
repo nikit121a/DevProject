@@ -1,0 +1,7 @@
+Hi Dev Express.
+In my application, I need to show appointements that have a very short duration in a TimeLine view.
+I have already set the SnapToCellsMode property to AppointmentSnapToCellsMode.Disabled (and I really need appointments to be displayed on the same line).
+The documentation says that in this case, the minimum width is one pixel. But, according to the time scale I select, my appointments are hidden.
+I'd like that they stay always visible.
+How an I do that ?
+Thank you.

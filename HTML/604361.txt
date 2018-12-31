@@ -1,0 +1,5 @@
+Hi,
+i'm using an image property to store pictures. 
+since i upgraded from 17.2.3 to 17.2.5 i cannot upload jpg anymore and instead i get the following error:
+Best regards 
+Michael 

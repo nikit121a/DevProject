@@ -1,0 +1,3 @@
+Hello Support,
+Xaf Web model has some specific model properties which Win does not have. We use the model editor in our Win application with the Web model loaded but can not access the specific properties like AdaptivePriority, how can we accomplish this. Our consultants use the model editor in the application to model both Win and Web models.
+Kind regards,

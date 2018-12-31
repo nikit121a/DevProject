@@ -1,0 +1,4 @@
+Dear Sirs
+How can I word wrap texts added to MapOverlay / MapOverlayTextItem so that texts are not cut to the max size of the parent map ?
+Regards
+ 

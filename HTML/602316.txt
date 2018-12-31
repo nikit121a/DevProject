@@ -1,0 +1,5 @@
+Hi,
+If I insert a function on sheet 1 and insert a parameter whose named range is on sheet 2, the dialog will throw an error. See screenshot.
+Thanks,
+Mike
+ 

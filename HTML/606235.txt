@@ -1,0 +1,9 @@
+When I use 
+control a dropdown along with edit box on left appears as shown in attatchment.
+At present when I click on dropdown than Calendar appears and we can select date from it
+What I want is that when we click on left one edit box too, the calendar should appear which is not happening at present  
+i.e. on click of anywhere on 
+control 
+calendar should appear from which I can select date ?
+Also I am not able to find property 
+as suggested by you earlier 

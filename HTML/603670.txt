@@ -1,0 +1,7 @@
+Hi, support team
+When I try to edit the ASPxTreeList node the lines are gone.
+It's important to know that this is my first application that works with DevExpress and CallBacks. Maybe I'm using it the wrong way.
+Help me please.
+Follow video for better understanding 
+Thank you
+ 

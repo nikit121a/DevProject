@@ -1,0 +1,135 @@
+Hello,
+I have a main form which has a dxselectbox that by changing its value, for one specific value I need to have one feild more in form of my popup,
+in main form in  dxselectbox's onSelectionChanged:
+ if ($scope.midformInstance.getEditor("typename").option('value') === '28') {
+                            $scope.trformInstance.itemOption("setprice", 'visible', true); ----------------------------------------> line MAIN
+                        } else if ($scope.midformInstance.getEditor("typename").option('value') != '28') {
+                            $scope.trformInstance.itemOption("setprice", 'visible', false);----------------------------------------> line MAIN
+                        }
+I have this if case to consider this specific value to make the form in popup visible.
+here is my popup form:
+ $scope.trform = {
+        colCount: 3,
+        bindingOptions: {
+            'items[10].editorOptions.dataSource': 'trcl',
+            'items[11].editorOptions.dataSource': 'trsubcl',
+        },
+        items: [
+           .
+           .
+           . 
+            {
+                dataField: "minprice",
+                editorType: "dxNumberBox",
+                label: {
+                    showColon: false,
+                   text: "Min Price"
+                },
+                editorOptions: {
+                },
+                validationRules: [{
+                        type: "required",
+                        message: $scope.screentext.ST200071
+                    },
+                    {type: 'range',
+                        min: 0,
+                        max: 9999999999999999999,
+                        message: 'We submit only the QTY from 0 to 999999999999999.'},
+                    {
+                        type: "stringLength",
+                        max: 19,
+                        message: "Limit exceeded"
+                    }]
+            },
+            {
+                dataField: "maxprice",
+                editorType: "dxNumberBox",
+                editorOptions: {
+                },
+                validationRules: [{
+                        type: "required",
+                        message: $scope.screentext.ST200072
+                    },
+                    {type: 'range',
+                        min: 0,
+                        max: 9999999999999999999,
+                        message: 'We submit only the QTY from 0 to 999999999999999.'},
+                    {
+                        type: "stringLength",
+                        max: 19,
+                        message: "Limit exceeded"
+                    }]
+            },
+            {
+                visible: false,
+                dataField: "setprice",
+                editorType: "dxNumberBox",
+                editorOptions: {
+                },
+                validationRules: [{
+                        type: "required",
+                        message: $scope.screentext.ST200084
+                    },
+                    {type: 'range',
+                        min: 0,
+                        max: 9999999999999999999,
+                        message: 'We submit only from 0 to 999999999999999.'},
+                    {
+                        type: 'pattern',
+                        pattern: '^\\d+([.]\\d{1,2})?$',
+                        message: 'Not a valid price'
+                    }
+                ]
+            },
+            {
+                dataField: "deptno",
+                editorType: "dxSelectBox",
+                editorOptions: {
+                    showClearButton: true,
+                    dataSource: $scope.dept,
+                    valueExpr: "merchandiseNo",
+                    displayExpr: "description",
+                    onSelectionChanged: function (e) {
+                        var dpno = $scope.trformInstance.getEditor("deptno").option('value');----------------------------------------> line 1
+                        $scope.class = [];
+                        $scope.getDealclass(dpno);
+                        $scope.trcl = $scope.class;
+                    }
+                }
+            },
+            {
+                dataField: "classno",
+                editorType: "dxSelectBox",
+                editorOptions: {
+                    showClearButton: true,
+                    dataSource: $scope.trcl,
+                    valueExpr: "merchandiseNo",
+                    displayExpr: "description",
+                    onSelectionChanged: function (e) {
+                        var clno = $scope.trformInstance.getEditor("classno").option('value');----------------------------------------> line 2
+                        console.log("in 2 onSelectionChanged*********classno");
+                        $scope.getDealclass(clno);
+                        $scope.trsubcl = $scope.class;
+                    }
+                }
+            },
+            {
+                dataField: "subclassno",
+                editorType: "dxSelectBox",
+                editorOptions: {
+                    dataSource: $scope.trsubcl,
+                    showClearButton: true,
+                    valueExpr: "merchandiseNo",
+                    displayExpr: "description"
+                }},
+        ],
+        onInitialized: function (e) {
+            $scope.trformInstance = e.component;
+        },
+    };
+I guess my binding option cause this, I have error on line MAIN, line 1 and line 2 whenever I change the value of dxselectbox in main form:
+E1035 - The editor cannot be created because of an internal error: Cannot read property 'option' of undefined.
+As you see the subclass value depends on class value, and class value depends on dept value in the popup form.
+How can I fix it?
+Thank you
+ 

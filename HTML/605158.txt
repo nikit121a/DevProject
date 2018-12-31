@@ -1,0 +1,12 @@
+Hi,
+Is there a quick way to remove ALL the lines in an ASPxGridView so that you dont have to do it in a lot of places like:
+                        <Styles>
+                            <Header Border-BorderWidth="0px">
+                            </Header>
+                            <Cell Border-BorderWidth="0px">
+                            </Cell>
+                            <CommandColumn Border-BorderWidth="0px">
+                            </CommandColumn>
+                        </Styles>
+Regards,
+Patrik Johansson

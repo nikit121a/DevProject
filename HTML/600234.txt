@@ -1,0 +1,25 @@
+How do I make the sort indicator ALWAYS appear to the left of the header caption? I'm already assigning captions to align left, so it would go in the space per my comment:
+$(function(){
+    $("#gridContainer").dxDataGrid({
+        dataSource: customers,
+        customizeColumns: function(columns) {
+                  $.each(columns, function (_, element) {
+                      element.headerCellTemplate = function (header, info) {
+                          $('<div>').html(info.column.caption).appendTo(header);
+                          header.parent().css('text-align', 'left');
+                          /*  CHANGE SORT INDICATOR TO ALIGN LEFT OF CAPTION */ 
+                      }
+                  })
+               },
+        columns: [
+          {
+            dataField: "CompanyName",
+            sortOrder: "desc"
+          }, 
+          "City", 
+          "State", 
+          "Zipcode",
+          "Phone",
+          "Fax"]
+      });
+});

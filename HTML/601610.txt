@@ -1,0 +1,14 @@
+Hi, 
+I'm moving a page that used legacy Scheduler to version 17.2.5. In old version I used ResourceSharing = False
+I'm getting the error "Cannot modify a frozen object" when I try to adjust the ResourceSharing property of the Data Source of the control. This is my XAML:
+ 
+
+
+
+And I load the Appointments from a SQL Server DB, unsing EntityFramework, like this:
+
+
+
+
+Thanks in advance, 
+Jesus

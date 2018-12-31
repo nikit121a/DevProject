@@ -1,0 +1,8 @@
+Hello,
+I would like to be able to show/hide a charts common series labels. 
+I have used the following in the past when there is only one series. However, this isn't working with more than one series. 
+Here is the chart markup:
+How can I let an end user hide the series labels that appears  using a Hide labels checkbox.
+See attached screenshot.
+Thanks,
+David

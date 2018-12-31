@@ -1,0 +1,8 @@
+Hello,
+I need to do following task in several classes:.
+Load an CSV or XSLX File and keep an IWorkbook for a while as a (readonly) datasource to extract part of the data to DataTables:
+Using the workbook after disposing the spreadsheetcontrol cases an Exception, that the workbook is invalid.
+Is there a way to avoid the usage of the SpreadsheetControl (so do it without UI) ?
+I saw, that one can use the Workbook class directly without UI control with an additiional document Server subscription.
+Is this the only way or is there another "trick" ?
+Thanks a lot in advance ! 

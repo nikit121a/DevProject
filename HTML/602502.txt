@@ -1,0 +1,7 @@
+Good morning.
+In a cxGrid at the level of TcxGridDBTableView >> Previously we had the "KeyField"
+I need to know the current correspondence and know what each case means:
+a) DetailKeyFieldNames
+b) KeyFieldNames
+c) MasterKeyFieldNames
+ Thanks

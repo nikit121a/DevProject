@@ -1,0 +1,8 @@
+Hi 
+I have a customer requirement to specify the encoding of a text export. However, when the encoding option is specified, even with an explicit TEncoding.UTF8, the result is an ANSI file.
+Since the environment is using FireDAC and the Oracle instant client , I investigated the database encoding. For this product it is UTF8. As the FireDAC parameter Characterset was blank, I specifically set this to UTF8 at designtime. This did not result in any improvement.
+At one point, NotePad++ Encoding DID say UTF8, but Notepad indicates it is ANSI, as does another encoding checker I downloaded.The customer verified it was not UTF8.
+Even if the data being exported was ANSI, I'd expect an explicit conversion to UTF8 from the ExportGridToText procedure.
+Am I missing something here?
+as an aside, the file format required is actually CSV and we abandoned the CSV-specific export some time back as we could not get ANSI from it. I tried reinstating ExportGridtoCSV, but it  a) is still ANSI and B) contains two quote characters rather than one (eg ""12"").
+ 

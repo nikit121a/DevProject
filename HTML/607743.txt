@@ -1,0 +1,7 @@
+Hello,
+I have a BootstrapGridView with enabled paging:
+However, this only pages data on client side which is not very efficient when you have lots of rows in the grid view. My goal is to filter data (based on page number and page size) on server side, ie. inside controller method when retrieving data (eg.) from database.
+Is there a way how to make a grid view to request only data for the desired page (ie. by passing page number and size to controller)?
+Thanks,
+Jan 
+ 

@@ -1,0 +1,5 @@
+
+Michael,
+I need to filter resources in Events List View. In other words I do not want to display Rousource2 when Resource1 is selected in the popup. The solution still displays the column for Resource2 after filter is applied. 
+The approach described in E1255 does not provide a solution. The only way to filter resources in this example is to subscribe either to ResourceDataSourceCreated or ResourceDataSourceCreating unless there is a way to raise the events from the action controller. I need to filter resources after Events List View was created.
+Thank you.

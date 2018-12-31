@@ -1,0 +1,8 @@
+Dear Support, 
+I often find this error
+ This error comes up when saving. After this error the user can not 
+ or 
+ the inputted data so the data that was inputted is lost.
+So the user must cancel the data and re-input the data. 
+How to avoid this error?
+ 

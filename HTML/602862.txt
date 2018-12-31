@@ -1,0 +1,3 @@
+Hi!
+I tried get the caption from Selected dashboard ITEM.. but I doesn't found the "caption".. look attach, thanks..!
+ 

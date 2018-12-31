@@ -1,0 +1,6 @@
+Project is connected to Oracle database, Entity framework 6.1.3.
+PivotGroupInterval Year and Month grouping data without problem.
+But Quarter and Weeks throwing not supporter exception:
+Recommendations in 
+ have no effect.
+How to make those fields work? 

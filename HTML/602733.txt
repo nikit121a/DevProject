@@ -1,0 +1,5 @@
+Is there a way to implement check box on the header columns to select/unselect all rows?
+Please see the attached image.
+Thanks for your input.
+-Tunji
+ 

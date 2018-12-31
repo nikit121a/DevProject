@@ -1,0 +1,3 @@
+Hi,
+How to put a border in just one grid column?  (See image)
+PS: I don't need to put a border in header column. I need to put a border in column value. 

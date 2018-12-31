@@ -1,0 +1,3 @@
+In DevExtreme 17.2.5 some widgets does not render correctly.
+Please see attached project and screenshots.
+ 

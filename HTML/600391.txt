@@ -1,0 +1,1 @@
+I have DB grid tables with currency columns and footer summaries formatted properly. When default currency symbol is changed on the PC grid columns properly display new currency symbol, however, footers still show default '$' sign. Is there a fix to this other than trying to reformat summaries at run-time?

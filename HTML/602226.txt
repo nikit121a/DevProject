@@ -1,0 +1,5 @@
+
+Attached I send you the new version of the program, "Source" folder, program data, "Database" folder" and file Word ToHelp2 with the procedure step by step, to reproduce the problems. My questions are:
+ 
+   2) How can I change the Edit button text to a any image?
+   Thanks in advance

@@ -1,0 +1,22 @@
+Hi,
+When i try to load an Xml to dash board viewer i get the following exception in the output window. This makes it slow to load the layout .
+Below is the exception.
+Exception thrown: 'DevExpress.Data.Filtering.Helpers.CriteriaCompilerLocalException' in DevExpress.Data.v17.1.dll
+Exception thrown: 'DevExpress.Data.Filtering.CriteriaCompilerException' in DevExpress.Data.v17.1.dll
+I have attached the xml file also.
+Can you please look what is wrong. I did some PDB debugging and it throws exception in the below method
+ public static LambdaExpression Compile(CriteriaCompilerDescriptor descriptor, CriteriaCompilerAuxSettings settings, CriteriaOperator op) {
+ try {
+ CriteriaCompilerRootContext context = new CriteriaCompilerRootContext(descriptor, settings);
+ return Expression.Lambda(new CriteriaCompilerCore(context).Process(op), context.ThisExpression);
+ } catch(CriteriaCompilerLocalException le) {
+ throw new CriteriaCompilerException(op, le.Cause, le.InnerException);
+ } catch(Exception e) {
+ throw new CriteriaCompilerException(op, op, e);
+ }
+ }
+Happens for these two fields.
+ <DataItems>
+        <Measure DataMember="Current year customers" DefaultId="DataItem0" />
+        <Measure DataMember="Last year customers" DefaultId="DataItem1" />
+  </DataItems>

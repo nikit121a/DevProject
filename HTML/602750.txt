@@ -1,0 +1,14 @@
+I'm experiencing problems with tabbing between cells in the MVC GridView in IE 11.  We have the following editor settings:
+settings.SettingsEditing.Mode = GridViewEditingMode.Batch;
+settings.SettingsEditing.BatchEditSettings.EditMode = GridViewBatchEditMode.Cell;
+settings.SettingsEditing.BatchEditSettings.StartEditAction = GridViewBatchStartEditAction.Click;
+And some clientside events wired up, which log their actions to the console.  When tabbing between two cells, the sequence of clientside event calls seems to be broken in IE 11.
+In chrome, when tabbing from a cell called POSCompanyName to one called POSCompanyAddress , I see the event sequence as
+onFocusedCellChanging: POSCompanyAddress
+onFocusedCellChanging: cancelEvent: false
+OnBatchEditEndEditing: currentColumnName: POSCompanyName
+OnBatchEditStartEditing: POSCompanyAddress
+The end result is that the focus and editor moves to the next cell.
+But in IE 11 the event sequence is wrong (see attachment), and the end result is that the editor is lost and cell focus stays on the original cell.  This has been reproduced by multiple users.  Disabling all our clientside events makes no difference.
+Is this a known issue: is there anything we can do?
+ 

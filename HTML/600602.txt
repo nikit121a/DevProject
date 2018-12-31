@@ -1,0 +1,9 @@
+Hi there,
+I was in version 17.1.7 and migrated to 17.2.5.
+I have two custom themes.
+1. Based on MetropolisDark
+2. Based on LightGray.
+I have successfully migrated both themes to version 17.2.5  and able to compile it in WPF Theme editor.
+Unfortunately when I preview the it in WPF Theme editor in case of LightGray theme, it didn't work. and WPF Theme Editor crashed.
+Please find the converted to theme as an attachment.
+ 

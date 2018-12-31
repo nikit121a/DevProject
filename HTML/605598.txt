@@ -1,0 +1,1 @@
+We use these 2 features heavily and today the client is required to load too much data to render the reports.

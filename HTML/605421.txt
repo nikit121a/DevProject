@@ -1,0 +1,6 @@
+Hello,
+I've a Persistent Object of type 'A' that contains a nested XPCollection of type 'B'. But 'B' can be created (on a different View) separately from 'A' without any dependence. 
+The problem starts when I create this 'B' object that It's validating parent object and I don't need this validation. This column will be NULL on this case.
+I've created relation like this:
+ Is there any way not to validate Object 'A' from Object 'B'? 
+Thank you.

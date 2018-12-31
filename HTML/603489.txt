@@ -1,0 +1,6 @@
+Hi Team,
+We have a popup with a combobox and one grid. The grid data is based on the combobox selection.  
+Currently we have given the autopostback true for the combobox. 
+so whenever we select an item in the combobox it performs a postback and fills the grid.
+ Our issue is like, when this postback happens the popup vanishes and reappears. How can we handle this situation. PFA , which explains the issue better than words.
+ Thanks in advance!

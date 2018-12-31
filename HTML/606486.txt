@@ -1,0 +1,4 @@
+Following the Modal Popup Window Demo ( 
+ ), I laid out the form similarly to what is demonstrated in the aspx file and need some additional clarification...
+ What function can be used on the ASPxPopupControl to Find a control that exists in the <dx:LayoutItemNestedControlContainer>? (Currently using DevExpress 17.1.6).
+I can probably work my way down the whole control chain to find the proper controls, but the FindControl function of ASPxPopupControl does not return the proper results (it is null) trying to reference a txtName field. 

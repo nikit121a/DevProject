@@ -1,0 +1,7 @@
+Hello ,
+I have updated version 17.2.3 to version 17.2.5
+Still facing problem with filter criteria. I have to use adddays function in criteria this way .
+ AddDays(Property, Days)
+but i have typed property so days field should be like this AddDays(Property, TypedProperty.Days)
+criteria doesn't accept this way of usage.
+you can see error in attached screenshots 

@@ -1,0 +1,8 @@
+How can I hide the gridview column headers when it is resized in adaptive mode.
+The gridview is using material theme. 
+I try to use below css to override but it did not work; it only worked when the default theme is used instead of material theme.
+.dxgvAdaptiveHeaderPanel {
+             display: none;
+}
+The column headers I want to hide are circled in red in the screenshot.
+Thanks 

@@ -1,0 +1,6 @@
+Hello,
+I'm using DevExtreme.AspNet.Data package (version 1.3.0) to transform data on server before sending it to dxDataGrid on frontend.
+Currently I need to implement custom summary type for string columns and the problem is that DevExtreme.AspNet.Data does not support custom aggregators.
+I've looked at library sources and found that summary types are hardcoded although there is an internal abstract class Aggregator. 
+I've also found the same question on github: 
+Do you plan to support custom aggregators in DevExtreme.AspNet.Data and when?

@@ -1,0 +1,7 @@
+Please tell me I'm not crazy....
+I have a functioning scheduler in version 17.2.3 with the following included in the scheduler settings:
+This triggers my javascript in Chrome
+Without any other changes, after upgrading to version 17.2.5 the javascript above is no longer triggered. 
+Please see if you can reproduce this.
+Thanks
+Robert 

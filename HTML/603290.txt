@@ -1,0 +1,4 @@
+Hi guys, 
+since I've updated to 17.2.4 version everytime I edit my pages with Dev, licenses.licx is added to the Property folder. I remove it manually, and it builds ok on Visual Studio. 
+But it happens (re-adding  the file) everyytime!!! I just got the updated version of the licenses.licx file into there, but even so this issues happens. 
+How to fix it? It's really boring

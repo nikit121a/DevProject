@@ -1,0 +1,3 @@
+The following start-up code worked well for us in 17.2.4 to establish consistent sizing, placement, and layout for our pop-up windows. The 17.2.5 update does not respect these defaults.  Lookup dialogs have reverted to small, centered windows with action buttons at the bottom of the frame.  We need all pop-ups to use 100% of the available height, 80% of the available width, slide in from the right edge, and have action buttons at the top.
+ Please advise.
+Mick

@@ -1,0 +1,4 @@
+Hi There,
+Can the ASPxFileUpload control use the  Shared Access Signature (SAS) URIs in Azure Storage Accounts (rather than the top-level keys?)
+Cheers
+Jason. 

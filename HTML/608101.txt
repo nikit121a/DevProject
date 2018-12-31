@@ -1,0 +1,5 @@
+Guys,
+Im getting a error when trying to save a form with file manager.
+The files are smaller then 1mb and errors occur randomly.
+My application is hosted in Azure. 
+ 

@@ -1,0 +1,35 @@
+Hello,
+What I have:
+PopupControl acting as a login form, lifted straight from your Modal PopupControl demo. It has email and password feels, along with submit and cancel buttons.
+What I want:
+When the user clicks submit button, I have a callback go to the controller .
+Controller takes email and password from textboxes in the LoginPopup and uses them to query my database for a matching user account.
+If a user account is retrieved, I close the modal PopupControl - if no user account exists for the email/password combo, I do not close the popupcontrol.
+How can I do this?
+I currently have everything set up, except I cannot figure out how to close the popup from the controller. Do you have advice as to how to do this? 
+Controller:
+ public ActionResult LoginPopup(string email, string password)
+        {
+            ViewData["UserLoggedIn"] = false;
+            var user = DataAccess.GetUserByEmailAndPassword(email, password);
+            if (user != null)
+            {
+                ViewData["UserLoggedIn"] = true;
+            }   
+            return PartialView();
+        }
+View:
+settings.ShowOnPageLoad = true;
+        object userLoggedIn;
+        if (ViewData.TryGetValue("UserLoggedIn", out userLoggedIn))
+        {
+            if ((bool)userLoggedIn)
+            {
+                settings.ShowOnPageLoad = false;
+            }
+        }
+Thoughts:
+I thought setting ShowOnPageLoad to false would have made this PopupControl disappear, but it doesnt.
+I also thought that maybe I could do something with an EndCallback, but I can't figure out how to pass the boolean from the controller to the EndCallback. 
+I've looked through a lot of help tickets, but none of them seem to be for MVC, and I do not know how to adapt what they suggest, besides the two courses of action I just outlined.
+Any help would be appreciated, thanks.

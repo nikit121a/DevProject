@@ -1,0 +1,10 @@
+Hello! Help to understand Filter Control.
+1. Operation IsBetween. How to work with Node.AdditionalOperands [1]?
+2. Operation IsAnyOf.
+Why is DataContext = null?
+How to get ClauseNode? How do I process the result of a change?
+OperandProperty v = Node.AdditionalOperands[1] as OperandProperty;
+ v.PropertyName = _fieldName;
+ 
+How to implement TwoElementsInSecondOperandTemplate?
+Thank you!

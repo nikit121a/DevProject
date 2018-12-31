@@ -1,0 +1,2 @@
+I want to make the ID column visible in the list but not on the edit form.
+I   make it happens with setting AspxGridView-Columns-GridViewDataTextColumn-EditFormSettings-Visible but couldn't find it for BootstrapGridView.

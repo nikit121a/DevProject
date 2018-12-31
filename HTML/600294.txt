@@ -1,0 +1,1 @@
+I've hidden the File Open button, but CTRL+F opens the dialog via the keyboard. How can I disable keyboard shortcuts for hidden commands?

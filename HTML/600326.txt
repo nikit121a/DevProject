@@ -1,0 +1,2 @@
+Hi.  I am using the code below in Application_Startup to apply my preferred font to DevExpress controls program-wide.  What else am I missing?  What, if anything, can be taken out?  Thanks.  :)
+ 

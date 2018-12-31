@@ -1,0 +1,9 @@
+Goo morning, 
+I am developing my application using XAF. In my web application I am currently creating a custom view with two separate Custom Controls (An ASPxTreeList and an ASPxGridView) that interact between each other. to do this I am tapping into various clientside events, in this case the NodeClick event that calls a custom JS function.
+In this function I need to perform two main things:
+1. Get the data from a hidden column of the clicked node.
+2. Change the focused row and scroll to said row in the grid.
+In the function I created to get the data I am facing an issue I tried to use the "GetNodeValues" function but the browser console is throwing the following error: Object doesn't support property or method 'GetNodeValues'. Bellow is an extract of my code to better understand.
+Also, I am having trouble figuring out how to access the FocusedRowIndex and ScrollToVisibleIndexOnClient properties of the ASPxGridView on the NodeClick callback function. Bellow the markup of my ASPxGridView:
+Thanks, 
+Pablo.

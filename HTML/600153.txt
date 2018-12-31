@@ -1,0 +1,12 @@
+Hi,
+I put a cxGrid and an panel on a TFrame Object. The TFrame has an Init procedure and a Tcolor property
+From the main programm I create three of this Frame-Objects next to each other and set for
+each Frame a new color property.
+
+
+
+The result is, that each Grid on the frames has the same background color. The color is the
+color I set for the last grid but the panels have different colors. That is what I want also for the
+grid.
+What is the problem.
+Thank, you

@@ -1,0 +1,5 @@
+Hi,
+I have a spread that is on a usercontrol. When I place the usercontrol on the main application its ribbon does not get merged into the main application ribbon . How do I get it to merge?
+PS ribbons on other usercontrols does merge fine
+Regards Torben
+ 

@@ -1,0 +1,4 @@
+Hi Team,
+ I'm using column summary in listview to show sum of column values.
+    I dont want label text (it showing Sum=), 
+Thanks 

@@ -1,0 +1,3 @@
+Support, 
+I am trying to remove line under header row of Detail-descriptors but nothing is working style is overridden.  Screenshot is attached with the sample project.  Can you please check and help in this regards.
+Thanks

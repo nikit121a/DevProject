@@ -1,0 +1,16 @@
+Hello,
+I have an angular project which uses controls from devextreme and devextreme-angular packages (version 17.2.5).
+In several components I use devextreme models such as dxDataGridColumn, dxDataGridOptions.
+To use these models I import dx.all.d.ts definition file using following statement:
+Project compiles correctly.
+Now I am trying to add karma/jasmine tests to the project and had received following error while trying to run tests:
+06 02 2018 13:49:10.526:ERROR [source-reader.karma-typescript]: Error parsing code: Unexpected token (9:8)
+in D:/projects/karma-typescript-master/examples/angular2/node_modules/devextreme/bundles/dx.all.d.ts
+at line 9, column 8:
+... global {
+interface JQuery {
+}
+interface JQueryProm ...
+I've prepared a simple example based on karma-typescript project: 
+I've added devextreme and devextreme-angular dependencies and added DevExpress.ui.dxDataGridColumn field to HelloComponent.
+ If you run 'karma start' you'll receive the same error.

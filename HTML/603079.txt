@@ -1,0 +1,6 @@
+
+Any news in this subject ?
+n‍esting layouts using attributes is very important, especially in large views.
+is any chance to use in xaf formatting as described here:
+
+

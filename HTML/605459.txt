@@ -1,0 +1,10 @@
+Hello,
+what is the right way to change edit value of a bounded TextEdit in a custom edit form using code?
+For example i want to change the edit value using the closed event of a checked combobox in the same form:
+sub cbx_closed(...) Handles cbx.closed
+ TextEdit.editvalue = "test"
+end sub
+The edit value is changed in this example. But clicking on the "update" button in the custom edit form has no effect for the bounded record.
+Entering a value manualy in this TextEdit and clicking "update" works ...
+thanks again for help
+Michael

@@ -1,0 +1,10 @@
+Hi,
+I am very excited to discover your new check box column on the grid to help with selecting multiple records, without having to use the keyboard.
+Question: I am trying to make it possible for the user to be able to click anywhere on the line to select it (since that is what they are used to with my previous workaround I implemented).
+I have played with the following properties, but not managed to find the correct combo that does what I need:
+CheckBoxPosition, CheckBoxVisibility, ClearPersistentSelectionOnOutsideClick, MultiSelect, MultiSelectMode, and ShowCheckBoxesDynamically properties 
+It looked like using:
+OptionsSelection.MultiSelectMode := msmPersistent
+was going to do it for me, but that only helps once the line has already been selected. 
+ I need it to keep my previous selection, but then tick/untick my new selection as well as I click on other lines
+Is this possible, or do I need to stick to my old workaround I was using previously? (which involved Mouse Enter/Leave events, and using SendKeys for the Ctrl key char, and gave hassles when click on grid headers for sorting). 

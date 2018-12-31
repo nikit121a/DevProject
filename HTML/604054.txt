@@ -1,0 +1,5 @@
+Hello Alex, 
+That helped, thank you. 
+I have a  related question. I am trying to use StackedBarTotalLabel for the SideBySideStackedBar and I am using the below code snippet to  achieve this. But the information is very cluttered. Is it possible to apply  a common StackedBarTotalLabel to the group as illustrated in the attached image?
+(settings.Diagram as XYDiagram).DefaultPane.StackedBarTotalLabel.Visible = true;
+    (settings.Diagram as XYDiagram).DefaultPane.StackedBarTotalLabel.TextPattern =  "Total" + "{TV}" ;

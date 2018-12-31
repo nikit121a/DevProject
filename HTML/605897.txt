@@ -1,0 +1,2 @@
+
+how can I automatically align the fields without using the mouse? the photo shows the case using TextAlignModItem = AutoSize, however the fields are not aligned and you have to try to achieve it through empty fields, which is not the best solution. I hope you understand my problem.

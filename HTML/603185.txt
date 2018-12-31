@@ -1,0 +1,6 @@
+
+Another question on ASPxTreeList: for using the CustomDataCallback function and the ASPxClientTreeListCustomDataCallbackEventArgs, I need the NameSpace DevExpress.Web.ASPxTreeList.Scripts.
+Trying to add a reference to this NameSpace, it's not in the list (see attached image).
+How to solve this small problem?
+Thanks in advance!
+Cor

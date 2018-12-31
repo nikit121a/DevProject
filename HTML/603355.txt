@@ -1,0 +1,3 @@
+
+Please, refer the attached video. 
+1. When I loaded the page, scheduler layout has been set incorrectly and view switcher also. However, if I zoom in or in this page, the view return to fine looking. How to fix this issue.

@@ -1,0 +1,6 @@
+Hi,
+I see the asp net viewer pdf demo.
+When I change the page number I would like to extract its pdf text. I have create a function to extract text successful on my project. My function has one parameter (current page) 
+My goal is to retrieve the current page, but I don't know how to modify the .ascx to obtain this. I need a new property Get_Page
+Thanks in advance
+William

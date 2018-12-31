@@ -1,0 +1,6 @@
+Hello,
+I'm using the PDFViewer and I try to make a list of all annotations. 
+I added a picture of what i want to achieve (I made a rectangle around it). As you can see, i need all annotations and all of their metadata,
+like the message, the name etc.
+My question is how can i get all this? Are there any variables i can use or something?
+Thank you!

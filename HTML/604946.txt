@@ -1,0 +1,7 @@
+Could you please suggest the way to handle which ToggleSwitch selected from list of them
+Here is list of "ImportModules" and only 
+can be selected. Problem is I'm not able to detect which one is selected (with Mode=TwoWay)
+I have VM:
+and XAML
+ Only one selection works, but "OnIsSelectedChanged" not raises os IsSelected doesn't has any value or Event doesn't raises
+ 

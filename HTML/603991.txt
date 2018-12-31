@@ -1,0 +1,3 @@
+Dear Support,
+Assume i have 5 HTML Pages. I want to create a common Nav bar, which can to be show in each of my 5 Pages. Do you have any solution for me ?  I mean i want to create a single NAV element and use it all of my required HTML pages on TOP as a Position: Fix.
+I hope to listen from you soon. 

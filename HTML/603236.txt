@@ -1,0 +1,6 @@
+Hi, 
+I was wondering if it's possible to customize a little bit more the doughnut's tooltip content (you can see my screenshot)  ?
+I can see the content is directly injected in the svg . 
+I cannot add html or css except font size et weight.  I would like to fluff up the content.
+can you help me ?
+Best regards 

@@ -1,0 +1,12 @@
+I have a problem with Widget.
+I have 200 documents. The control inside document is a GridControl.
+I  click a button to hide 150 of 200 of these documents, but this action is very slow. I see the documents disappear one by one (10 per second).
+I tried to put  view.BeginUpdate(); and view.EndUpdate(); but doesn't work.
+ view.BeginUpdate(); 
+            foreach (Document doc in view.Documents)
+            {
+                    doc.Control.Visible = false;
+            }
+view.EndUpdate();
+Thers is another solution? 
+Thanks

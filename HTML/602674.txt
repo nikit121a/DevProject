@@ -1,0 +1,6 @@
+Quick question, 
+I'm building a website using DevExtreme, angularjs, with datagrids and data sources. Is there an easy way to do an auto-refresh call either with the widget or the data source?
+I have data that's feeding into a Sql table, and I want the Data grid to automatically refresh on a timer. 
+Please reply to jbabey@swe.com
+Thanks!
+-Jake

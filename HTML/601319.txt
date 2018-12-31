@@ -1,0 +1,47 @@
+Hi,
+This is a strange one; I have an applcation that was first written in XE6  & now ported (successfully I thought) to Berlin.
+In this application I am unable to add new commands to the TdxBarManager .  As soon as I press the Modify... button and my mouse hovers over the "Add" menu item, I get an Access Violation.
+I can compile the application, but when my mouse hovers over any TdxBar button (large or small) the Access Violation occurs again (so I'm mostly unable to press any bar buttons)
+The message details and call stack from the MadExcept bugreport is below.   I have managed to replicate the issue by creating a new VCL forms application, and adding 3 units from the original application ---  note that the app doesn't compile, but you can see the Access Violation when using the TdxBarManager component as I describe in the 2nd paragraph.
+This does not happen in any of my other applications  --  I wonder if you could help pin down the problem; presumably it's somewhere in the 3 units included in the attached project?
+MadExcept bug report (runtime exception)
+exception message  : Access violation at address 0059A360 in module 'ocAuthorWin.exe'. Read of address 00000028.
+main thread ($320):
+Vcl.Graphics           TBitmap.GetCanvas
+cxGraphics             TcxBitmap.CopyBitmap
+cxGraphics             TcxAlphaBitmap.DrawShadow
+cxGraphics             DrawImage
+cxGraphics             cxDrawImage
+dxBar                  TransparentDraw
+dxBar                  TdxBarPainter.DrawGlyphAndBkgnd
+dxBar                  TdxBarPainter.DrawGlyph
+dxBar                  TdxBarPainter.DrawButtonLikeControl
+dxBar                  TdxBarButtonLikeControl.DoPaint
+dxBar                  TdxBarItemControl.Paint
+dxBar                  TCustomdxBarControl.DoPaintItem
+dxBar                  TCustomdxBarControl.PaintItem
+dxBar                  TCustomdxBarControl.DrawItems
+dxBar                  TdxBarControl.DoPaint
+dxBar                  TdxBarControl.Paint
+Vcl.Controls           TCustomControl.PaintWindow
+Vcl.Controls           TWinControl.PaintHandler
+Vcl.Controls           TWinControl.WMPaint
+Vcl.Controls           TCustomControl.WMPaint
+dxBar                  TCustomdxBarControl.WMPaint
+Vcl.Controls           TControl.WndProc
+Vcl.Controls           TControl.ClientToScreen
+madExcept              InterceptClassDestroy
+System         4111 +0 TObject.Destroy
+System         4111 +0 TObject.Free
+cxClasses              TcxObjectLinkController.RemoveLink
+cxClasses              cxRemoveObjectLink
+dxBar                  TCustomdxBarControl.WMMouseMove
+Vcl.Controls           TControl.WndProc
+Vcl.Controls           TWinControl.WndProc
+dxBar                  TCustomdxBarControl.WndProc
+dxBar                  TdxBarControl.WndProc
+Vcl.Controls           TWinControl.MainWndProc
+System.Classes         StdWndProc
+                       KiUserCallbackDispatcher
+                       BaseThreadInitThunk
+ 

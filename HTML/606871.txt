@@ -1,0 +1,10 @@
+Hi,
+I build a application with the Devexpress WinForms Components.
+The application is running without any problem on normal PCs,  
+On release the application should run on a terminal server, where the users can connect to with the remote desktop application (RDP).
+The application keeps randomly freezing on the terminal servers for the users connect with RDP.
+Do you know if there are any problems with the UI Components for terminal use?
+I know about the problem with the popup controls and solved it with the following code:
+Are there other configurations or sources of errors I have to consider?
+neither my applicationlogs or the windows eventlogs gave me any useful hints for the reasons behind this freezes.
+Thank you in advance 

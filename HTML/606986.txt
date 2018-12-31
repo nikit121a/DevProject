@@ -1,0 +1,4 @@
+This is a small example of what we are trying to do.  The call to get the json in our real application returns the json as a stream and there will be a lag between actual full objects returned. In the sample it would be as if the first person object arrived in 2 seconds, the second person object is returned 10 seconds later, etc.  Also there may be 1000s of large objects streaming as a chunked post response. 
+I need the ui to update as each item comes in.  I need each row to populate immediately, not after all are returned.
+If you place a break point in MainWindow.xaml.cs line 23, you will see that I "ADD" the item to the ObservableCollection but if you step over the add, the row does not appear in the table.  The rows only show after all results are received.
+Thank you for you help on this issue.

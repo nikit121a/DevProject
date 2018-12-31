@@ -1,0 +1,5 @@
+Hello,
+For some reason, when I change SettingsBehavior/MergeGroupsMode to Always, I'm getting "Error Rendering Control" "An unhandled exception has occurred infos.Length(0) < 2"
+If you turn MergeGroupsMode back to Disabled, the control renders properly.
+ I'm attaching a simple project and screenshot.
+ 

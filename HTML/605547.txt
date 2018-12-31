@@ -1,0 +1,8 @@
+Hi!
+We have  a GridControl bound to a XPCollection of XPO Entity (Oracle table 'Import_Mapping').
+One column is bound to a firm using Combobox. 
+A second column shall be bound to contacts, using Combobox, too.
+The problem is that depending on the selected firm, the list of available contacts must be build.
+We could implement that for visibility with GridColumn.CellTemplate, but we cannot change and store the contact.
+How to do that? How to define the EditTemplate?
+ 

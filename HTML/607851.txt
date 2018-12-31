@@ -1,0 +1,6 @@
+Hello,
+I cannot find any working example on how to confirm delete from client side. 
+I wrote below code but it does nothing because once this confrimation button appears, it is too late, appoitment already deleted!
+Any idea how to do this?
+By the way, I can tell you that documentation on MVC Scheduler is weaker than others. It took my 2 days to add just one extra field on popup window.
+ 

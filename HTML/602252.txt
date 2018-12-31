@@ -1,0 +1,5 @@
+Hello,
+We have a dynamic list of views in a Prism region, of which each contains a single chart. When the user zooms or scrolls one chart, the other charts are supposed to zoom and scroll equally.
+ I have found 
+ related question but it uses code behind and as we use Prism's MVVM I do want to bind either the min and max value of the visual range (which is not possible as they don't exist in AxisX2D.VisualRange and are inaccessible in AxisX2D.ActualVisualRange) to properties or bind a change in the zoom/scroll level to a command (which is not possible as the chart control does not offer a zoom/scroll event) or anything else excluding the code behind and including the view model. In both cases an event passed to the event aggregator could be caught by all the other charts, which then adjust their own visual range accordingly.
+But as said, I don't know how to get this to work as I'm blocked out of the control in critical parts or it's lacking the possiblity.  How may I achieve this?

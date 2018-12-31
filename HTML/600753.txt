@@ -1,0 +1,5 @@
+Hello,
+I have reviewed T593874. However, we also need to take the current resource of the cell into the converter. How can I access it?
+I have seen  the TimelineCellControl - Member "Content", which is of type TimelineCellViewModel, which offers the date interval as well as a Resource. That resource is unfortunatly always set to EmptyResourceItem.
+Regards
+Gabriel 

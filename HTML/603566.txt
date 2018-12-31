@@ -1,0 +1,5 @@
+Hi DevExpress Support Team;
+I want to copy current 17.1 translations to 17.2. but the screen stucks like below photo.
+How can I do it, also I want to protect my current translations as well.
+Thanks.
+ 

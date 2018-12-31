@@ -1,0 +1,6 @@
+I use the following connection string to connect my XPO data layer to a database file:
+This works file, but these days I decided to move my database file to a shared folder:
+It is throwing DevExpress.Xpo.DB.Exceptions.UnableToOpenDatabaseException:
+Erro: 'System.Data.SQLite.SQLiteException (0x80004005): unable to open database file
+How can I connect XPO to a sqlite batabase file stored in a shared folder?
+P.S.: when I map a drive letter to the shared folder and use the mapped path, the connection works. However, I would like to use the shared path.

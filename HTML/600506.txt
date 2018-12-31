@@ -1,0 +1,4 @@
+Hello
+when I press "Dismiss All" and have 100+ events it takes several seconds, but without wait cursor, so it looks strange. My client have 1000+ events and slower computer. He waits one minute or more and application looks frozen.
+I have no idea why it takes so long, but if this is necessary, please add something to better UX.
+Vladim?r

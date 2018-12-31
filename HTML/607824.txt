@@ -1,0 +1,4 @@
+Hi,
+We just upgraded to DE 17.2.5 controls. After upgrading, our gridview headerfilter checkbox labels are overlapping the checkboxes.  See the photo attached.
+When I remove our custom theme, the control displays properly.  Can you help me identify which properties I need to fix in our theme?  The theme builder is a mystery to me.
+CODE:

@@ -1,0 +1,15 @@
+I'm trying to get the ImportWizardModule added to my existing xaf application and i'm getting the following error when running the application.
+Cannot load modules from different platforms
+   at Xpand.Persistent.Base.General.XafApplicationExtensions.CheckPlatform(ModuleBase[] modules, String[] platformStrings)
+   at Xpand.Persistent.Base.General.XafApplicationExtensions.GetPlatform(IEnumerable`1 moduleBases)
+   at Xpand.Persistent.Base.General.XafApplicationExtensions.GetPlatform(XafApplication application)
+   at Xpand.Persistent.Base.General.XpandModuleBase.Executed(String name, ModuleType moduleType)
+   at Xpand.Persistent.Base.General.XpandModuleBase.GetDeclaredControllerTypesCore(IEnumerable`1 declaredControllerTypes)
+   at Xpand.Persistent.Base.General.XpandModuleBase.GetDeclaredControllerTypes()
+   at DevExpress.ExpressApp.ModuleBase.GetControllerTypes()
+   at DevExpress.ExpressApp.ApplicationModulesManager.RegisterControllerTypes()
+   at DevExpress.ExpressApp.ApplicationModulesManager.Load(ITypesInfo typesInfo, Boolean loadTypesInfo)
+   at DevExpress.ExpressApp.XafApplication.Setup(String applicationName, IList`1 objectSpaceProviders, ApplicationModulesManager modulesManager, ISecurityStrategyBase security)
+   at DevExpress.ExpressApp.XafApplication.Setup()
+   at Field_Services_Workflow_Solution.Win.Program.Main() in D:\Users\klish\Documents\Visual Studio 2017\Projects\Field Services Workflow Solution\Field_Services_Workflow_Solution.Win\Program.cs:line 46
+Can I get some help on how to resolve this? 

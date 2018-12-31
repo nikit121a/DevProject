@@ -1,0 +1,6 @@
+Our application has a lot of LookUpEdits to search in objects that have a Code and a Description property. Most of our users know most of the codes, but if not, the ability to search in both Code and Description is very useful.
+If the user knows the code, types this exact code in the search field, the focused row in the grid is the top row, which is not always the one with that exact code. Pressing TAB or enter key in that case leads to the wrong item being selected.
+What the user would like to happen, in the attached example project, is when the user types in '9':
+* All items that have '9' in either code or description are shown (same as it is now)
+* The row with the item with Code '9' and Description '121 - 150 degrees' has focus, so that when the user presses the tab or enter key, the item with Code '9' is selected.
+Is this possible?

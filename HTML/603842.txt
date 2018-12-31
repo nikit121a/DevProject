@@ -1,0 +1,7 @@
+Hi!
+Today I get select rows this way, for "multiple" mode:
+tfiltro1f.GridView.GetSelectedFieldValues(tfiltro1f.KeyFieldName)
+but, for single mode doesn't Works!
+I need a unique solution for both mode!
+thanks!
+ 

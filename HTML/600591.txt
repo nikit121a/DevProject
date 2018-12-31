@@ -1,0 +1,1 @@
+MVC XtraReport Parameters request to submit value for already value attached . Please refer the attached image and give me a solution to avoid this parameters prompting while load the report.

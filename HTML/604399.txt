@@ -1,0 +1,3 @@
+We are developing an App for Android and iOS. For Android, we have been working with the same apk-template for the last couple of weeks. 
+After we now rebuild the apk-template  our application has a much smaller size (3.4 MB instead of >13 MB) does not run anymore on our Android devices. On iOS it works, except the issue with the not showing icon.
+Any recommendations on what might be wrong on our side?

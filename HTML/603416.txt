@@ -1,0 +1,7 @@
+Hello,
+I want to know how to obtain the cell text that actually fits in the visible spreadsheet cell .
+In the attached project, exists the cell D5 with the following text:
+In Excel and  also in the SpreadsheetControl we can see that the Text that actually fits is not showing the Line 4.
+I want to know how the Export to PDF can know that visible text, because I want to export the Spreasheet content to Open Office (XML) as a table, and when I use the "D5" Worksheet["D5"].ExistingCells.FirstOrDefault().DisplayText is giving me all the text of the cell, but I don't know which is the best way to know the Text that actually is visible in the D5 cell height and width...
+Could you help me?
+Thanks in advance!!!

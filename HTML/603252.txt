@@ -1,0 +1,1 @@
+This has been tripping me up for a little bit. For some reason the dxTabPanel contents aren't being displayed in their respective tabs. I can see the contents in the HTML source, but they're hidden away. Can you tell me what I'm doing wrong here?

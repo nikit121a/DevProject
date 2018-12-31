@@ -1,0 +1,4 @@
+Hi
+I am using ASPXTreelist in two places in my project. In one place it works normally when I expand and collapse  nodes at any level. However, on the other one I can expand the first level child but when I try to expand any child at the 2nd level, all child nodes collapse. I am loading similar kind of data on both trees. What could be the problem? 
+Thanks,
+Sanjeev 

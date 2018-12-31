@@ -1,0 +1,5 @@
+Hi support,
+I Need to select all rows of a group row that is child of other grouprow, i already test your example (E1760 - aspxgridview-how-to-implement-select-unselect-for-all-rows-in-a-group-row ) but this only works if grouprow do not have other group row, that means, only works if it is group by one level.
+Can you help me please.
+Regards,
+Bruno Sequeira 

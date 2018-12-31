@@ -1,0 +1,2 @@
+I'm wondering how it would be possible to update a partial view from a gridview call back? In the attached screen shot I have 2 partial views on a form. When I save partial view A, I would like it to update partial view B. When partial view A is submitted, it runs through the List of Errors on partial view B. If the errors are corrected, then they are removed from the list, but if all the errors are not corrected, I would like to show the updated list - how can I do this? The 2 partial views are loaded onto a view in popup with an Ajax form (attached code)
+thank you

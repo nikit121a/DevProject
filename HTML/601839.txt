@@ -1,0 +1,4 @@
+Hi,
+I would like to render the documents uploaded inside MVC Html Editor as thumbnails instead of links, just as in Gmail attachments. Is it possible? 
+Thanks
+Kalyan 

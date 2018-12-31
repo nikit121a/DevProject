@@ -1,0 +1,16 @@
+Please see the below Dashboard markup specially settings.Height = new Unit(98, UnitType.Percentage).
+This setting prevents to display dashboard in Chrome but IE works fine.
+In Chrome, dashboard displays either remove the Height setting or set the height in pixel.
+The reason to have the height set 100% is without this the height IE displays unnecessary vertical scrollbar.
+    @Html.DevExpress().Dashboard(settings =>
+{
+    settings.Name = "Dashboard";
+    settings.InitialDashboardId = ViewBag.DashboardFile;
+    settings.AllowExportDashboardItems = true;
+    settings.AllowExportDashboard = true;
+    settings.Height = new Unit(100, UnitType.Percentage);
+    settings.WorkingMode = DevExpress.DashboardWeb.WorkingMode.Viewer;
+    settings.PdfExportOptions.ChartSizeMode = DevExpress.DashboardCommon.ChartExportSizeMode.Stretch;
+}).GetHtml()
+Can you give me an answer why chrome not displaying with the height percentage set?  
+ 

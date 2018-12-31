@@ -1,0 +1,9 @@
+Hello,
+i use a  Repository CheckedComboBoxEdit in the GridView EditForm where you can insert one or many values to a cell e.g 'A', 'B', 'C', 'D', ..., 'X'.
+Now I'am looking for a filter Option in the GridView, where the user choose the items from the dropdown CheckedComboBox  and the filtercriteria should be:
+Colum Contains ' A' or Contains 'B' or Contains 'X'
+How to achieve this?
+WindowsForms
+C#
+Regards
+Daniel

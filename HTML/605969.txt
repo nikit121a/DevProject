@@ -1,0 +1,23 @@
+Hi:
+    Error in determining the type of query . delphi error message is: Incompatible types: 'TFieldType' and "TdxSpreadSheetFunctionType' .
+    Statements are as follows:
+     okk:='select distinct '+field1+' zz from '+tab1+where1+' order by '+field1+' desc';
+    with query1 do
+    begin
+        close;
+        sql.clear;
+        sql.add(okk);
+        open;
+    end;
+    listbox3.items.Clear;
+    while not query1.eof do
+    begin
+          okk:=query1.fieldbyname('ZZ').asstring;
+          if length(okk)>0 then
+          begin
+                 
+                      okk:=copy(okk,1,4)+copy(okk,6,2)+copy(okk,9,2);
+                listbox3.items.add(okk);
+          end;
+           query1.next;
+    end;

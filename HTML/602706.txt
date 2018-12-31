@@ -1,0 +1,6 @@
+Hi
+i need to programatically load an excel file (xlsx), iterate through all rows to get the value of each column(by specifying column names).
+i would like to do that without having any spredsheet control on my form (i dont need to show the content of the excel file in my app).
+can i do it using devexpress components?
+Can you please help by providing a sample code  please (vb.net)?
+thanks much in advance

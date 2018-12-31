@@ -1,0 +1,7 @@
+I have a tcxGrid with multiple views.  When using a normal view the: 
+CurrentView.StoreToIniFile(LocalDir+'searchresults.ini',
+                                 true,[gsoUseFilter, gsoUseSummary]);
+works great!.
+However when I start with an empty view and create the columns on the fly, it does not save the columns and filters.  Is there something additional I need to do when I create the view on the fly?
+Thank you,
+Linda 

@@ -1,0 +1,17 @@
+I am trying to add a button to clear the selected value of LookupEdit control.  I added a button to the Buttons collection and added code to clear the EditValue and it is working correctly.  However, I'm trying to hide the button if there is no selected value and it is causing the control to behave strangely.  It seems that the drop down is opening and then immediately closing upon each key stroke.
+I am trying to use the EditValueChanged event to trigger the showing/hiding of the button.  Perhaps there is a better way that you can suggest. 
+My event handlers look like this: 
+    Private Sub lookupManualSetup_ButtonClick(sender As Object, e As DevExpress.XtraEditors.Controls.ButtonPressedEventArgs) Handles lookupManualSetup.ButtonClick
+        If e.Button.Kind = DevExpress.XtraEditors.Controls.ButtonPredefines.Clear Then
+            Me.lookupManualSetup.EditValue = Nothing
+        End If
+    End Sub
+    Private Sub lookupManualSetup_EditValueChanged(sender As Object, e As EventArgs) Handles lookupManualSetup.EditValueChanged
+        Dim isVisible As Boolean = lookupManualSetup.ItemIndex > -1
+        If Me.lookupManualSetup.Properties.Buttons(0).Visible <> isVisible Then
+            Me.lookupManualSetup.Properties.Buttons(0).Visible = isVisible
+        End If
+    End Sub
+As I mentioned, the button click event works fine.  The other event works fine if I open the drop-down and then click an item in the list.  But if I try to type, the autocomplete is not working normally.
+Thanks,
+Scott 

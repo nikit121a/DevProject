@@ -1,0 +1,5 @@
+Run the attached project, which contains a 2 node treelist and a BestFitMaxNodeCount set much larger than the number of nodes
+Press the "BestFit" button, note that it properly  handles this case.
+Filter the column so that 1 of the 2 nodes is filtered, with the 2nd one visible
+Press the "BestFit" button  again, note that it does not BestFit properly
+ 

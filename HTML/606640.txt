@@ -1,0 +1,11 @@
+when setting displayformat string on creating datecolumn it still shows deafult formatstring
+same for settingsheaderfilter mode thats not changing either
+this happens in the page.init handler
+
+
+
+
+ i hope you can help
+UPDATE: i just found out that in the database i use a varchar field .
+when i change that to datetime its fixed,
+but i cant change it because it can be text or datetime depends on a setting

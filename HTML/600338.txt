@@ -1,0 +1,1 @@
+I don't know when this started happening but TcxSchedulerDBStorage is not setting the time element of ActualStart and ActualFinish, just the date element.

@@ -1,0 +1,5 @@
+Hello,
+We are using the MVC component UploadControl and are not setting the AllowedFIleExtensions.  It was discovered recently this this configuration allows files without extensions such as "TestFile" (vs "TestFile.txt").  
+Do we need to set the AllowedFileExtensions in order to prevent this scenario?
+Thank you
+ 

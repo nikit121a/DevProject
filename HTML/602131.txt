@@ -1,0 +1,5 @@
+Hi,
+  We want to change the Header color in GridViewDashboardItem, so using below Class name we changed the color in Css. It is working good.
+But in each Dev express version change, we need to update our Css to change Class name, please check the code below. Is there any way to update Header color so that in each dev express version we need not to update our css. 
+Not only Header class, we regularly seeing changes in some of the class name in each Version release. Whether Class name change will be done in each version, can you please give us more detail on this.
+ 

@@ -1,0 +1,4 @@
+I have a cxGridDBTableView column linked to a MemoField in a dataset. The column's Properties is set to PopupEdit, and the PopupControl is set to a cxDBMemo control on my form so that when the user clicks on the column, the editor opens to show the memo contents. All good. 
+I? have also set the column's OnGetDisplayText event so that it displays the beginning of the MemoField's contents in the grid (instead of "(MEMO)"). Also good. 
+E?XCEPT when the user clicks on a cell in the memo field column and the PopupEdit pops open, the selected item goes back to displaying "(MEMO)" instead of showing the MemoField contents. And this display value "(MEMO)" remains if the user closes the PopupEdit. It doesn't return to showing the MemoField contents until the user moves away from that record in the grid. 
+?How can I keep the cell showing the value derived from the MemoField, whether the PopupEdit is activated or not? 

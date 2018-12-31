@@ -1,0 +1,13 @@
+I was wondering if I can enter items into an ASPxGridLookup control that are not contained in the underlying datasource and prevent the control from clearing them.
+In my application, I'm trying to provide the user a multi-select multi-column dropdown list of email addresses.  I would like to allow the user to search and choose multiple items from the list, but ALSO enter an email address "freehand".
+Let's say I have the following data in my aspxgridlookup:
+Email/Company/Type
+ aaa@test.com, aaa corporation, customer email
+bbb@test.com, bbb corporation, vendor email
+ ccc@test.com, ccc corporation, employee email 
+My control now properly says:
+aaa@test.com; ccc@test.com
+If the user were to add:
+;ddd@test.com
+at the end of the string which is not in the list, the "ddd" entry is rejected and cleared because it is not in the lookup.  I would like to allow the user to multi select AND add entries not in the list.
+The aspxCombo Box in DropDown style is close, but does not allow multiselect like the aspxGridLookup does.

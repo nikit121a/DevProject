@@ -1,0 +1,3 @@
+Hi, i have a problem in Solution Explorer Context Menu. The "Add DevExpress" item menu is disabled. Please See attachment.
+Restart computer, install and uninstall DevExpress files, update Visual Studio and remove and re-install DevExpress licence, no work. 
+  don?t help me.

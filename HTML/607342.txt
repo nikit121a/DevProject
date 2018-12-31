@@ -1,0 +1,2 @@
+This is a similar issue to ticket T520296, The 
+. I used the same project and changed the bar type to flat glass with the same error but data needed to be part of the chart.

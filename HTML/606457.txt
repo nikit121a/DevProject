@@ -1,0 +1,7 @@
+Hello,
+I have a question. I want to customize the tab header that it looks like a tile. The text should be align in a central position.
+I have found the option to inherit from the SkinTabPainter, but now I am stuck with it. I have overriden the  DrawHeader method, but my try with DrawString from this example: 
+ does not lead to the wanted solution.
+I have set the FontSize to a higher value than for each tabpage, but it looks like the setting of the tabpage overrides this setting again.
+Could you give me a hint how I can reach my goal?
+Best regards

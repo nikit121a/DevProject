@@ -1,0 +1,5 @@
+Hi Team,
+I am working on Spread Sheet control.
+And here i have an option  to save as in Server or Download a copy.
+But My requirement is instead of download   a copy it will allow me to Save to SharePoint Library.
+ 

@@ -1,0 +1,14 @@
+Hi there,
+I have a dxdatagrid connected to an OData V3 source.  Some columns have boolean sources.  The Possible values are:
+* true
+* false
+* null
+They can only filter for two values
+* true
+* false
+Is it possible to filter for null values as well?
+I have tried the following code but it is not working.  I loop through the columns of the grid. If the datatype is boolean, I extend the datasource of the lookup, and try to handle the undefined value
+This solution works as far as filtering is concerned.  
+Displaying the values, however, has changed.  I no longer see Checkboxes but the text from datasource (True,False, Emptystring for undefined).
+How can I insure that a three state checkbox is displayed ?
+Thank you for your help.

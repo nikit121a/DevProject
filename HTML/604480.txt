@@ -1,0 +1,2 @@
+Hi,
+i am trying to have a progress bar with multiple values represented in different colours. Please suggest me a component which best suits this requirement. I have attached a screen shot for more clarity on my requirement. Want to have this implementation in MVVM pattern.

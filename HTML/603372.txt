@@ -1,0 +1,6 @@
+
+
+Additionally I have a field of memo type 
+Can this field in the edit form increase i t's height automatically as the content increases ?
+Can this memo field in the edit form be resized by the user ?
+Thank you

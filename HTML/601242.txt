@@ -1,0 +1,2 @@
+Hi,
+Today we have realized that the number box controls sets an empty string when the user deletes the value with the clear button. We expact null like manually deleting the value. Please have a look at the following example:

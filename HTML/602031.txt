@@ -1,0 +1,5 @@
+After I upgraded DevExpress Winforms to version 17.2.5. The "Add DevExpress Item" menu item is grayed out within the solution explorer. I can add items for an older version. However, that is not what I want. 
+I ran a DevExpress WinForms installer repair
+I restarted my Windows PC
+I upgraded Visual Studio Community
+Please help me out! 

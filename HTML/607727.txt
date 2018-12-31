@@ -1,0 +1,5 @@
+Hi!
+I'm trying to create events by dragging from a TcxGrid to a TcxScheduler. I want the drag operation to look and feel as if dragged from the scheduler, so with the event being drawn at current mouse pointer position. Attached is a wmv video of our Silverlight application to illustrate. 
+Examples I found are more plain, creating the event when the drag operation finishes e.g.. But lacking the drawing of the event during drag. 
+I have attached a sample project with one approach that seems to be the farthest I've gotten. The access violation when drag finishes is not the main issue.  The issue is that the event is invisible during drag, during debugging I sometimes saw it, but as soon as drag started it is gone again. I'm not confident that this is the correct approach. 
+Any help in accomplishing this task is appreciated. 

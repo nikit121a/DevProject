@@ -1,0 +1,2 @@
+Hi,
+is there an equivalent in DevExtreme (Angular 4) to the DevExpress Full-Width-Submenu Feature?    

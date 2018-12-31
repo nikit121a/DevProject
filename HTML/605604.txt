@@ -1,0 +1,6 @@
+Hi Support Deparment,
+I am asking my self before post the question here. I have a FormLayoutGroup that has property 
+And each GroupItem in the above group I split them into pieces like the code snippet below
+What I want is 
+ 
+ 

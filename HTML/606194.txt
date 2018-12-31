@@ -1,0 +1,6 @@
+In the example attached below there is an interactive graph.
+ 
+I would like to do the same but whilst using databinding.  Eg the XAML code
+ and the ViewModel
+If I use your example the code from the example it modifies the SeriesPoint however it doesn't update the graph.
+ 

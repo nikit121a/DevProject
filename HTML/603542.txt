@@ -1,0 +1,7 @@
+Hello!
+When I try to start a new project with devexpress galery template  i get this error:
+Argument can't be null |
+Parameter name: node
+What's happens?
+Thanks a lot!
+Agnaldo 

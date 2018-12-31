@@ -1,0 +1,7 @@
+Hello
+I filling a gridview who's datasource is a sqldatareader. 
+In database a field is 0 or 1.
+If value is 1 i want to set checkedit in the view to marked and if 0 no mark.
+How can i do this?
+With best regards, 
+Heino 

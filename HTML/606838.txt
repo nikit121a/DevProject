@@ -1,0 +1,5 @@
+Hey!
+Is there any way to get the global index of a node in a TreeList? 
+I know there's GetNodeIndex but that returns the index within its parent. I need something like GetVisibleIndexByNode but which counts the hidden nodes as well and I can't really find anything like this.
+Thank you, 
+Vladimir 

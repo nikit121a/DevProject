@@ -1,0 +1,11 @@
+Hi, I have LookUpEdit with grid with huge datasource. It is impossible to load all data to grid, so grid is bound to ObservableCollection with only a fraction of data. I cannot use server mode because of its limitations.
+I need to achieve this behavior:
+1. User types in value directly into LookUpEdit
+2. Grid opens and with some set post delay searches in database for first X records which satisfy "Contains" condition
+Right now I am struggling to achieve this behavior. I tried to solve this problem with handler on this event:
+ 
+where I just simply set 
+that continues in Grid's OnFilterChanged event, where I am calling 
+for ICollection property which is bound to LookUpEdit's ItemSource. In getter of this property I am loading data from database accordingly to user's condition.
+That works fine, I got ItemSource's list filled with items, but when grid opens I cannot see any items. Everything is working only if I set filter directly in LookUpEdits grid's autofilterow. But I need to be able to filter by direct typing to LookUpEdit's field as well. 
+My LookUpEdit xaml settings looks like this:

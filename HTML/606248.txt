@@ -1,0 +1,8 @@
+Dear support.
+I have a problem with click at once publication 
+In debug mode everything works fine
+When I start exe file from bin/Debug its works fine? but when i publish my Click at one App i get every time  this error
+The application cannot connect to the specified database, because the database doesn't exist, its version is older than that of the application or its schema does not match the ORM data model structure. To avoid this error, use one of the solutions from the 
+ KB Article.
+Inner exception: Exception has been thrown by the target of an invocation.
+Can you please get me solution. 

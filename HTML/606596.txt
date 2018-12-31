@@ -1,0 +1,5 @@
+I have a user model per the attached image. User => UserRoles => Role => RolePermissions => Permission
+I am trying to write the contains operator that selects users with a specific permission for a specific project. I think I am nearly there, but the following doesnt work because the contains query is on the userroles, not the role. I just don't know how to make that last connection - could you please correct it for me?
+I thought it was analogous to 
+ but I am missing something.
+ 

@@ -1,0 +1,3 @@
+Hi
+I want to know how can i export data from a gridview  i want something simple export to pdf and excel.
+thanks. 

@@ -1,0 +1,6 @@
+hi,
+i have a grid with 2 columns. 
+<dxg:GridColumn FieldName="RelatedItemsDisplayString" Header="{Binding DependantFilesHeader}" CellToolTipBinding="{Binding RelatedItemsTooltip}" BestFitArea="Header"/
+            <dxg:GridColumn FieldName="AttachedPrintersCount" Header="{Binding AttachedPrinterNamesHeader}" CellToolTipBinding="{Binding AttachedPrintersTooltip}"/> 
+the second is able to display its content within the cell, so there is no "[value]..." within the cell.
+the first is unable to do that, since the  bestfitarea is set to header, so there is a "[value]..." within the cell, indicating there is an overflow of text within the cell. in this case, CellToolTipBinding is ignored, and the tooltip of that cell is the FieldName. 

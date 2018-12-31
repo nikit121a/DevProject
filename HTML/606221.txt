@@ -1,0 +1,5 @@
+Hi,
+after upgrading from v15.1.8 to v17.1.8 we noticed another change. When scrolling with the mouse wheel, the grid and tree list used to scroll the parent control too. Now, if the grid or tree list has the focus, the parent control is not scrolled anymore. Good if the grid or tree list  has scrollbars too, not so good if they don't.
+So we started to look and found a workaround for grids by throwing the HideException in the MouseWheel event. However this does not work for tree lists. Is there any way to achieve the same behavior in tree lists?
+Best regards,
+Tobias Lingemann

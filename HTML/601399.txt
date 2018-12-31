@@ -1,0 +1,8 @@
+Hi, recently I began to use XPO as my ORM Tool in a new XAF application instead of EntityFramework, but when I create an XPO Object in the Model.xpo, and add a field with the IsNullable property set to False the generated field in the SQL Server Database allows null values, which is wrong.
+If I run the app I can save objects in the Database with null values, the IsNullable property has not effect.
+I have checked the database and I see the fields accepting NULL. The Database was generated using XPO. 
+I have attached an image showing this behavior.
+I have read some threads in the forum like this:
+And this too:
+So, which is the purpose of the IsNullable property in the XPO ORM Designer if the generated database dont reflect this (IsNullable = false)
+? 

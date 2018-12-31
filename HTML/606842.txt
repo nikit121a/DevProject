@@ -1,0 +1,4 @@
+Hello,
+I'm having trouble getting the customLoad for state storing to work with Angular 5 and a Native promise.  The state that is passed to the promise resolve isn't what's loaded into the grid.
+See plunker
+I should note that in my solution I'm loading via http as shown below. 

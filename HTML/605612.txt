@@ -1,0 +1,8 @@
+Context a main "custom usercontrol" as BaseDocument docking in a MDI winform, able to give the list of informations (document parameters) it can answers. A and inner specific usercontrol on this main control to manage reports exploring/ previewing / user design.
+With some Devexpress sample i manage the "Drag And Drop" ability between Treeview (Document parameters), so i can : 
+- detect the dropping treenode and get back the (document parameter) name
+- adding this as XtraReportParameter in XtraReport.Parameters
+- creating a XRLabel, upon the xrdesignpanel, where the draganddrop location
+... but i'm still not able to create a binding between thix XRLabel, and the New xtrareport parameter.
+It seems we need to create a new  DevExpress.XtraReports.Native.Parameters.ParametersDataSource
+but i can't find a sample to do it right. !  

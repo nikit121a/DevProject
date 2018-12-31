@@ -1,0 +1,13 @@
+
+Hi,
+Our application is still on version 14.2.6 and we cannot upgrade to a newer version due to various reasons. Is their a way to fix this issue in version 14.2.6? 
+Using a boolean flag to remember that the event is already processed during the current request does not seem to be a solution.
+When I add trace logging in the SelectionChanged Event handler of my controller I find that the SelectionChanged events are not 'nested'; they are triggered one after another. Hence I do not see how a boolean local variable would help me in this case? I did notice that every time a selection change is made in the listview that for the 
+ SelectionChanged the 
+, whereas for the 
+SelectionChanged the 
+ (My listview only allows a single row to be selected):
+
+
+
+By testing the value of the CurrentObject I can solve the issue for this ListView. Can you explain to me in more detail how and where I would set a local variable to keep track of the current request? Setting it to true at the start of the SelectionChanged and to false at the end of the SelectionChanged event handler will not help me as they are triggered one after another, right?

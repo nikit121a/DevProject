@@ -1,0 +1,3 @@
+As far as I can see these do pretty much the same things.
+1. If there any information on what scenarios suit each control?
+2. What are the main differences? 

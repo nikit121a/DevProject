@@ -1,0 +1,6 @@
+Hi there
+We are using Xaf using XPO. We have specified a baseclass that contains some properties like changedby and changedat etc. How can I exclude this properties from showing up in locking exceptions? I've experimented with setting the optimisticlockingreadbehavior and we have set the trackpropertymodifications property to true in XpoDefault. 
+So how can I exclude the changedby and changedat properties? These properties must be overwriten in any case.
+I also want to note that the behavior around locking exceptions is not wel documented for Xaf. For example: How can I determine wich properties are conflicting when I'm getting a LockingException that cannot be merged? I've made a controller for this and got it working after very much research. But I think this must be a standard feature in Xpo or Xaf.  It is also very unclear wich attributes I can use in my business classes that influence the Locking behavior. In some tickets it is stated that I can use attributes to decorate my classes and properties to change the locking behavior. In other tickets I'm reading that this attributes do not work for Xaf. So can you please clarify if there are any attributes that influence the locking behavior? And can you maybe create a new or update a KB with more information about Locking exceptions and ways to control this is Xaf.
+Thanks,
+Jacob 

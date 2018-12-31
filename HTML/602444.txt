@@ -1,0 +1,7 @@
+Hi, Devexpress Supports:
+ Interesting thing,  I find out when I 4 threads created by below:  
+Threading.ThreadPool.QueueUserWorkItem(New WaitCallback(AddressOf iDeviceConnection), xdevice)
+these threads will continuously loop ...
+then when load a image from a file, using pcitureedit.loadaysn , it will not work, 
+all other components such textbox , grid could be loaded succefully..
+Wood 

@@ -1,0 +1,7 @@
+Hi Devexpress Team,
+I would like to customize the content of the each 
+in AspxreportDesigner,  replacing the name of the field  with a 
+.
+Is it possible ?. And if yes, How.
+Thanks 
+Domenico 

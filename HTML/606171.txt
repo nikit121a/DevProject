@@ -1,0 +1,5 @@
+Hello,
+We are trapping the OnTabChanged event in the TdxRibbon. We want to store the last Tab selected. What tells us the tab number or tab name that was last selected. The passed object to the OnTabChanged is Sender:TdxCustomRibbon.
+We are using the VCL components V13.2.12 and working in Delpji 2007.
+Thank you.
+Maria 

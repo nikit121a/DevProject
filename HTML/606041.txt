@@ -1,0 +1,7 @@
+Hi,
+I have a TimeSpanEdit control in my form and it is setup to show only days, through the following code at the form startup:
+I?m trying to write two subs in VB.Net, one to get the curr ent date value set in the control and another to set a defined amount of days in the control. Both subs return the amount of days in a messagebox.
+This code is working (Read the number of days from the TimeSpanEdit control and shown in a messagebox)
+This code is NOT working for me (Set the number of days in the control - Here I?m trying to set it with exact 4 days)
+When the code above runs, the control is set with a value of 736738 as the number of days, rather than 4 as I expect.
+What am I doing wrong?

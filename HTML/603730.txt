@@ -1,0 +1,8 @@
+Hello Support, 
+Background:
+ASP. Net  Web application 
+DevExpress ASP. Net 14. 2.7
+I have a web application, where I use XtraReport to generate PDF report.  (Pic Attached).  I am using the XtraReportToolbar for "Save to Disk" function.  My question is there a way to display  "Loading"  or some other message like "please wait..processing" as soon the Save to disk icon is clicked. The report file take about 40 secs to generate.  All the other menu icons produce the "Loading" notification except save to disk.  It is difficult for the user to know if they have clicked the icon and if there is any processing going on.  Our customer wants to have some message in there.  
+Is it possible to show some notification?   
+Thanks for your help!
+Veena 

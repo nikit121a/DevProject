@@ -1,0 +1,1 @@
+Is it possible for us to customize the "Query Properties" section in the Query Builder control to hide some of the available properties, specifically the "Select All (*)" property? Sample code will appreciated. Thanks. 

@@ -1,0 +1,10 @@
+Hello Support Team,
+I am working with Jquery wrapper. 
+I have used checkbox dxList .
+Now, I want dataSource of my list.
+So , I used below code to get dataSource in string array format. 
+But in output it returns something different object. Which I attached  below in format of screenshot.
+Please give me some suggestions or demo project.
+Thanks, 
+Vishal M. Bakhtani
+ 

@@ -1,0 +1,3 @@
+I'm currently loading my table columns via 
+ for my QueryBuilder control. However, I would like to be able to load the columns for each table in alphabetical order. I would also like to know how to exclude selected columns in the QueryBuilder.
+This is my code for loading schema and columns:

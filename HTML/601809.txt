@@ -1,0 +1,93 @@
+Open the following demo page: 
+Add the following lines to the BirthDate column definition:
+Editing the date column does not work anymore
+Uncaught TypeError: Cannot read property 'length' of undefined
+    at Object.is24HourFormat (
+)
+    at Object.e.(anonymous function).e.(anonymous function) [as is24HourFormat] (
+)
+    at t._is24HourFormat (
+)
+    at t._renderWidget (
+)
+    at t._renderWidget (
+)
+    at t.renderPopupContent (
+)
+    at t.renderPopupContent (
+)
+    at t.renderPopupContent (
+)
+    at t._renderPopupContent (
+)
+    at t._renderPopupContent (
+)
+    at t._createPopup (
+)
+    at t._renderOpenedState (
+)
+    at t._renderOpenedState (
+)
+    at t._renderOpenedState (
+)
+    at t._optionChanged (
+)
+    at t._optionChanged (
+)
+    at t._optionChanged (
+)
+    at t._optionChanged (
+)
+    at t._notifyOptionChanged (
+)
+    at u (
+)
+    at t.option (
+)
+    at t._toggleOpenState (
+)
+    at t._openHandler (
+)
+    at Object.execute (
+)
+    at t._executeAction (
+)
+    at t.execute (
+)
+    at t.<anonymous> (
+)
+    at t.l [as _clickAction] (
+)
+    at t._executeClickAction (
+)
+    at HTMLDivElement.<anonymous> (
+)
+    at HTMLDivElement.dispatch (
+)
+    at HTMLDivElement.q.handle (
+)
+    at Object.trigger (
+)
+    at HTMLDivElement.<anonymous> (
+)
+    at Function.each (
+)
+    at r.fn.init.each (
+)
+    at r.fn.init.trigger (
+)
+    at Object.trigger (
+)
+    at Object.<anonymous> (
+)
+    at Object.e.(anonymous function).e.(anonymous function) [as trigger] (
+)
+    at Object.I [as fireEvent] (
+)
+    at HTMLDivElement.d (
+)
+    at HTMLDivElement.dispatch (
+)
+    at HTMLDivElement.q.handle (
+)
+ 

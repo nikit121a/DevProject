@@ -1,0 +1,6 @@
+Hello Devexpress
+I have a GridControl with a column  colTest, and i chage the column to checkbox with caption.
+I want to use the following code to change the RepositoryItemCheckEdit caption color to red.
+But it is only show the red color when i click on the grid cell.
+How can i show the RepositoryItemCheckEdit caption color to red after the grid show its data??
+ Thanks

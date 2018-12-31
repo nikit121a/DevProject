@@ -1,0 +1,3 @@
+Hi,
+We tried implementing TableSaw.JS in our native mobile application project using DevExtreme. Tablesaw.js throws some conflict error with DevExtreme JS. But we tried the sample in outside the project its working well.
+But if we include the tablesaw.js in the devextreme project it says some JQuery version conflict with DevExtreme? how to resolve this issue? 

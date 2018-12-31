@@ -1,0 +1,16 @@
+Hi,
+I know that it's possible to have an alternance for the style of detail data. Like the title says, I want to know if it's possible to have that same pattern but for my detail grouped.
+Ex.:
+1$-10$
+White row
+White row
+White row
+11$-20$
+Grey row
+Grey row
+21$-30$
+White row
+White row
+... 
+Thank you,
+David 

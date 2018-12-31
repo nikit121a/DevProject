@@ -1,0 +1,3 @@
+Hello!
+How do we use the popup edit mode to Add a new entry and not close the window, but rather clear it and keep it open for a new entry? Think of it as speed adding. On edit, the standard behavior of closing should apply.
+Thanks! 

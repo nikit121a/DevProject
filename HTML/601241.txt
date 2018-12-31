@@ -1,0 +1,8 @@
+Hello.
+I started using your WebChartControl for a project i have and after some reading and practice i managed to  create and manipulate at run time using a custom dataset, the View, Series, Argument and Values of the chart based on values from some comboboxes and a radiobutton.
+Everything works fine but the problem is that when i change the View to Pie the values on the legend are shown in '%'
+I have attached a video that demonstrates the above problem and also below you can see the code i'm using to initialize the WebChartControl.
+Probably i'm missing something out, or the Pie chart is working differently from the rest.
+Based on the video, how i can replace the % on the legend with Months(like Bar View) and if possible to show value instead of % on Pie chart. 
+Best regards, 
+Christos .

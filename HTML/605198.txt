@@ -1,0 +1,9 @@
+Hello there,
+I am still learning this MVVM thing and getting more familiar with the messenger service. I am currently wondering what is practical to send via the messenger? 
+   
+  I see pretty much all the examples on the devexpress website and support center seem  to pass around messages that only indicate whether an entity has been changed, added,  removed etc.....of which the recipient of the message would then have to  look up/refresh the data from the database or some other source. 
+   
+  I am wondering, why not just pass a whole view model or model object? I  am obviously inexperienced, but it seems like passing whole viewmodels  would save me trips to the database.  One thought I have is that it may cause threading issues...but I'm interested to know why I don't see anybody doing it that way?
+If anyone has any thoughts, I'd be super grateful to discuss it
+Thank you
+John 

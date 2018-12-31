@@ -1,0 +1,3 @@
+When I open this PDF in the PDFViewer I get an Access Violation.
+Edit: Also tried with 17.2.3 version.
+Just create a new project. drop the PDFViewer on the form. create the ribbon controls, and run the project. then open the pdf file.

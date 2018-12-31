@@ -1,0 +1,27 @@
+Hello,
+I could not find a full working sample for uploading multiple files in XAF, so I'm trying on my own.
+Maybe currently its not the perfect solution, but seems it works almost enough.
+But I'm having problems trying to update a nested listview after the FilesUploadComplete() event is called, because it runs outside the View's callback.
+Is it possible to generally update the view via client side? Call something in the current view callback manager in an easy form?
+=========================
+Detailed
+=========================
+The scenario:
+- I've a DetailView for a master object, which contains a NestedListView named Attachments ( IList<Attachment> Attachments )
+- now I've created a PropertyEditor (ASPxPropertyEditor, IComplexViewItem) and put it in that DetailView
+- this PropertyEditor has an ASPXUploadControl with autoupload active
+- on the server, I process that uploader events by saving every file to 'Attachment' domain components [DC] and add it to master collection)
+- after the upload returns, the NestListView (Attachments) is not updated with the DCs created on server
+I'd like to update that NestedListView so it reflects the Attachment DCs I created in the context of uploader callback.
+Is it possible?
+=========================
+Notes
+=========================
+Note that I'm *not* saving the objectSpace. It is intended to user manually save at the end
+Note that I'd like to handle everything inside the PropertyEditor. By creating a ViewController, for example, will just make it impossible to understand how it works in the future, because related functions are spreaded everywhere.
+=========================
+Example code
+=========================
+Below what I've tried (extracted from ):
+
+

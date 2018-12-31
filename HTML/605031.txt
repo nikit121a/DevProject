@@ -1,0 +1,1 @@
+Can you please help me provide users the ability to adjust the Group Interval setting from the Viewer instead of the Designer? I have end users who will only see the viewer but may need to adjust time periods i.e. Month-Year to Quarter-Year. I would like to make these changes in javascript if possible. Please advise. 

@@ -1,0 +1,2 @@
+I have a column which holds the color stored as integer and a repositoryItemColorEdit as the repository control, but the control does not get displayed in the autofilter row as it did with previous versions pre 17.1. And my users will not know the numeric value for the associated colors.
+Is there a way to assign the repository control to the autofilter row? 

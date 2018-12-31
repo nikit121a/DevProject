@@ -1,0 +1,5 @@
+Having just spent a 
+ long time cussing and trying to add a control to a LayoutTable before finally noticing that LayoutMode=Table, could you please improve the designer to support TableLayout better!
+1) Start with showing an overlay on the LayoutGroup its self, showing  the Rows and Columns.
+2)  Dragging and Dropping should highlight the TableLayout cell being dragged over rather than the Regular drag drop hints
+3) When two controls are in a Table Cell, this should be highlighted with help to, say, reduce the extended span of an existing control .

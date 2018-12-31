@@ -1,0 +1,4 @@
+The following method works fine on other browsers but does not refresh the grid for internet explorer
+                   var temp = $("#PeerGroupsGrid").dxDataGrid("instance")
+                    temp.refresh();
+ 

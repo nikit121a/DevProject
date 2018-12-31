@@ -1,0 +1,5 @@
+Dear Dev Express Team,
+We are unable to install Dev Express dll's from Nuget packages into my application. 
+Can you please suggest to me, how to install Dev Express dll's from Nuget packages.
+Thanks & Regards,
+Nageswara Rao Pendela.

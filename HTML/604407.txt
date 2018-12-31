@@ -1,0 +1,1 @@
+Hello Guide! I has a problem,i want to load shape file map Cambodia to on vector map in asp.net core 2.0,i has file shape to u.Please!

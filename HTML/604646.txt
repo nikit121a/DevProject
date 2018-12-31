@@ -1,0 +1,8 @@
+I am using a Behavior<FrameworkElement> based on 
+ to implement custom drag-n-drop behaviour. I would like to disable starting a drag operation when the user accidentally starts the drag from the searchpanel.
+i do the following for disable drag from the scrollbar:
+
+
+
+
+When this returns true i stop the drag operation. How do i test for the search box?

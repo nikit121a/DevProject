@@ -1,0 +1,8 @@
+Hi,
+Some users get the below error on best fit of the pivot grid. Why is this happening and how do we resolve? Thanks
+Specified argument was out of the range of valid values. 
+Parameter name: Incorrect element count (100 != 125) System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. Parameter name: Incorrect element count (100 != 125) 
+at DevExpress.Xpf.PivotGrid.Internal.BestFitLevelFieldValues.UpdateMaxSizes(List`1 dest, List`1 source) 
+at DevExpress.Xpf.PivotGrid.Internal.BestFitter.SetColumnSizesCore(BestFitColumn curColumn, BestFitResult bestFitResult, Boolean fitData) 
+at DevExpress.Xpf.PivotGrid.Internal.BestFitter.BestFitColumns(Boolean fitWidth, Boolean fitHeight) 
+at DevExpress.Xpf.PivotGrid.Internal.BestFitter.BestFit(FieldArea area, Boolean isTreeRowTotalsLocation, Boolean fitWidth, Boolean fitHeight)

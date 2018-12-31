@@ -1,0 +1,3 @@
+I there a control or feature that works like the javascript alert(). I am using the javascript alert() function but there is no way to customize it.
+I want to use the alert from within EndCallback to display some message like "The record is saved" 
+Thanks 

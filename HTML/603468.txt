@@ -1,0 +1,4 @@
+Hello Dear XAF Team,
+I want to turn the red selected area in the attached picture to localize. I added to ASPxReportControl and XtraPrintingControl WebApplication.cs's Collection but which did not work.
+How can i translate it. 
+Thanks for your support. 

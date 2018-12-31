@@ -1,0 +1,9 @@
+Dear DevExpress,
+Accoring to the documentation, the '&' is supposed to perform a bitwise logical AND operation between two integer values.
+See: 
+This does not seem to be working on my system: an expression like '[value] & 128' is not accepted. Expressions like '[value] ^ 128' seem fine.
+See attachment.
+Is this a bug or am I mis-using the & operator?
+Thanks,
+Bob
+ 

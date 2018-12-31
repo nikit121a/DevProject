@@ -1,0 +1,5 @@
+Thanks for your advice
+it worked on ComboBox
+but in grid view SetEditFormTemplateContent
+c.DataItem is a WebDataRow
+how to convert it to its original object 

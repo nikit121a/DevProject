@@ -1,0 +1,7 @@
+Hello we have the following issue:
+We are trying to manage the enability of various button on the ribbon of the spreadsheet, particularly the copy, cut and paste buttons.
+To do so we binded the IsEnabled property to our own value but it seems like our binding is not taken into consideration and is overriden inside the frameworks.
+Is it possible to manage the enability of the different ribbon item ?
+If so what did we missed in our binding to manage it properly ?
+Here is an example of our bindings:
+<dxb:UpdateAction ElementName="{x:Static dxsps:DefaultBarItemNames.RibbonItem_Home_Clipboard_Cut}" PropertyName="IsEnabled" Value="{Binding IsCopyPasteEnabled, Mode=TwoWay}" />  

@@ -1,0 +1,5 @@
+I have a page with a ComboBox and a batch edit GridView. The row content in the grid is determined by the choice made in the combo box. The grid has ShowConfirmOnLosingChanges set to true to warn the user about navigating away from unsaved changes.
+If the grid has unsaved changes, and the value of the combo box is changed, I see I can provide a javascript handler for the combo box's QueryCloseUp event to 
+1) Check if the grid has unsaved changes
+2) Use a javascript confirm function call to warn the user that they are about to lose unsaved changes.
+If the user doesnt want to lose the unsaved changes, this event can cancel the combo box change. But if the user does want to lose the unsaved changes then they will also be shown the ShowConfirmOnLosingChanges when the callback on the grid is performed. Is there a way that I can stop the ShowConfirmOnLosingChanges message for this specific scenario? And have ShowConfirmOnLosingChanges work normally otherwise?

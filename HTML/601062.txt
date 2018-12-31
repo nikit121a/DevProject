@@ -1,0 +1,10 @@
+Hello,
+i´d like to use alternating background colors for ListBoxItems while using different Themes.
+It seems that the alternating background colors are not defined in the Themes? Is that right?
+Should i define the alternating background colors in the Themes Editor?
+If i define them myself, like the code below, it works, but it doesn´t look of course very nice with every theme...
+
+
+
+
+Thanks

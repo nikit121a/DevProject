@@ -1,0 +1,7 @@
+I'd like to be able to specify custom icons to use through out my project.
+i.e. Cut, Copy, Paste etc found in context menus and message box icons
+I have found examples of doing this for controls and message boxes I create but I need to effect all controls and message boxes including the ones create by your controls.
+Example
+Spell checked shows a "Spell checking complete" with the incorrect (for my project) information icon.
+XtraSaveFileDialog also show message boxes with icons I need to change, I also notice this shows a wait form which is not my customized wait form.
+I can imagine this being a lot of work but if we cannot currently do this we cannot use any of the code to customize icons because we introduce an unacceptable inconstancy.

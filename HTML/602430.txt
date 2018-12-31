@@ -1,0 +1,4 @@
+Hi,
+I have an BandedGrid which draw vertical lines at certain columns (see attached image) .
+I am using the Grid.Paint event to draw these lines. And it is working fine when not having any bands fixed. When a band is fixed my lines crosses the fixed bands and it starts messing up when scrolling horizontally (see screenshots attached)
+Any tips for preventing this issue on scroll?

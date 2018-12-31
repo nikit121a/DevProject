@@ -1,0 +1,5 @@
+Hi,
+I'd like to add a conditional appearance to an object of my xaf web application, but what I need is to set the color dynamically. I mean, for instance to set the BackColor property from a function to calculate the color depending on a condition.
+I have a column that show an state configured in my database, and each state has a defined  color, so I want to show the state with the backcolor defined for each state.
+I don't know how to apply this action.
+Thanks. 

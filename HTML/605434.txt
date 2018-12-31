@@ -1,0 +1,6 @@
+Hello Support,
+Please see attached.
+Is there any way to navigate to related field on key press  ?
+For example, If I press Q in keyboard then it should select Quantity.
+There are around 500 fields  in my datasource, so it is very necessary to have above said functionality.
+Thank You. 

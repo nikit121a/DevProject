@@ -1,0 +1,5 @@
+Hi,
+I've created a user control for editing some details of an object. Most of the time I use the black theme als in Visual Studio in my applications. But the RichEditControls that I use to enter a larger description stay white, while all other edit and dropdown boxes adapt to the theme.
+Is ther e a way to make the RichEditControls adapt to the theme?
+Thanks in advance,
+Ronald 

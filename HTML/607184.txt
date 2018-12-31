@@ -1,0 +1,6 @@
+Hi,
+you described in this ticket, on how to add an export action to the actions in a listview. 
+but is it somehow possible to access the dashbaord export options as well?
+would be nice, if you could provide a small example.
+Best regards
+Michael

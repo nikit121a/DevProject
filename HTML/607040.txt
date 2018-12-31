@@ -1,0 +1,5 @@
+Hi, 
+I have a little problem with undocking LayoutGroup  from DockLayoutManager placed to a BackstageTabItem. Run the attached sample please, by mouse undock group "Title" and then try to close MainWindow. An error will appear. 
+Thanks for help.
+Mira
+PS: Sorry - WPF, DE 17.2.5, I forget to specify platform and so on and now it seems impossible to edit these informations...

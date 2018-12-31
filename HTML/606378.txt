@@ -1,0 +1,5 @@
+Good afternoon, 
+I am developing my application using XAF. In my web application I created a custom view that uses an ASPxTreeView where I enabled the search panel but as is it only searches in the visible/expanded nodes. Is there a way to search in all the nodes (even the closed nodes)? 
+Bellow is a snippet of my code to better understand my scenario:
+Thanks, 
+Pablo.

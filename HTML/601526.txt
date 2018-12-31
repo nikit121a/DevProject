@@ -1,0 +1,5 @@
+Hello !
+I need to change my database servername, database name, username and password by class. I was using App.config but I had to change it because I want to hide it to end-users.  So I created a Class and put my connectionstring there. I changed all my projects connection codes easily. When I try to change my reports connectionstring I couldn't do it. I can choose connectionstring from config file by wizard but, I can't do it by class. This is my code to show my reports:
+How can I add my connectionstring class name between these codes? Thanks in advance.
+By the way this is my connection class:
+ 

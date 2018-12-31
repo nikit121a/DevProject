@@ -1,0 +1,2 @@
+Is there are any documentation or example how do I add Control e.g. TextEdit to LayoutGroup inside new LayoutControlItem?
+I have tried this code, but unfortunately there is no any reaction in UI 

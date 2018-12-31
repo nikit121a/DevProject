@@ -1,0 +1,7 @@
+Hi Team,
+We are using DevExpress.Xpf.Docking.DockLayoutManager to display various windows. We have a main window which is docked, and an pop up floating window.  However, our user report if there is another pop up (from other application) showed and get focus and after user close the pop up, instead of returning the focus to main window where user is working with, it will return the focus to floating window.
+I am trying to set ShowActivated as False on Floating window see if that solve the issue, but seems I can't find the  FloatingPaneWindow from LayoutPanel. Could you please advise any way to stop floating window steal focus from main window?
+ var window = DevExpress.Xpf.Core.Native.LayoutHelper.GetTopLevelVisual(windowPanel) as FloatingPaneWindow;
+Thanks,
+Xin 
+ 

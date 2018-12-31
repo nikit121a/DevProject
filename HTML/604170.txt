@@ -1,0 +1,7 @@
+Hi, 
+One of the columns in the cxGrid is ImageComboBox. User will select one picture and that picture's name will be saved into the DB. 
+OnFormShow I want to load png files from some folder and list them in ImageComboBox . 
+My question is how can I load them into ImageList.
+This is the code :
+
+

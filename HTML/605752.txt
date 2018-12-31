@@ -1,0 +1,4 @@
+See the attached video. To replicate, right click a calendar and add a new general appointment, then start typing into the subject field. The apt form disappears. It sometimes comes back if you keep typing or click on various places in the app. Sometimes it never comes back into view.
+This was submitted by a user on a live system. I believe it was running on  a Windows 10 machine dialled into a RDP session also running Win 10. They say the issue has been there since the 17.1 update.
+Cheers - Gerard
+ 

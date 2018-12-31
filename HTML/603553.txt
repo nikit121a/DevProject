@@ -1,0 +1,2 @@
+Hello,
+I've noticed a behaviour with the XtraReport, if I open a report with a simple data parameters,  for example a sales report between 2 date ranges, the report appears correct. If I then make a sale, go back to the report (which was left open) and simply press the 'Submit' button in the parameters panel, the additional sale does not appear, I need to close and open the report. Is there a way to resolve this?

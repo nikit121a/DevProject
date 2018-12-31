@@ -1,0 +1,9 @@
+Dear Michael,
+maybe i need your help again, i hope you can solve my "new problem".
+how can i trigger the "custom summary event" if i click any row in the grid?
+i have found the "SelectionChangedEvent" from the datagrid, this works without problems.
+But how can i fire the "CustomSummaryEvent" if i click a new random row?
+I wann show the selected items in the right corner of the datagrid, like "Selected Rows: 5".
+Can you please help me again?
+thanks,
+mario. 

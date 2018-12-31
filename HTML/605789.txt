@@ -1,0 +1,3 @@
+I was wondering if there is a way of hooking up on a onClick event of the dxCalendar. At first I thought I could subscribe to onValueChanged but I quickly realized that this event doesn't suit me as I might be clicking on an already selected date so this event would not fire.
+My idea is to present the calendar control for each month for the current year and than the user can click on various dates and will get a popup where he can enter the holiday name and description.
+Right now I can deal with that by subscribing to onValueChanged but this only works if I want to select a date that has not yet been selected.If I click on an already selected date, nothing happenes(obviously since no change has been made to the value) .

@@ -1,0 +1,5 @@
+Hi Team
+We would like to have the navigation items similar to the choose skin control as attached in the image.
+ How to achieve this. Could you give a starting point
+Thanks
+ 

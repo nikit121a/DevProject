@@ -1,0 +1,2 @@
+Hi.  I have a GridView control on a view and there are links to additional views.  Is there any way to save the filtering and sorting so that when the user returns to the GirdView view, I can re-apply the filtering and sortings?
+Thank you so much 

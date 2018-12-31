@@ -1,0 +1,4 @@
+Hi Devexpress team,
+We are using XPO Datasource for binding AspxGridview control. We are using devexpress 16.2.6.0 version. In our application, we are using multiple VertPads on a single Aspx page. Each VertPad requires an AspxGridview control. User is allowed to  search records on each VertPad on this apsx page. 
+In this application, we are allowing multiple users to switch  from one database to another. We are required to clear all vertpads on the single aspx page when the end user clicks on the option to switch the DataBase. 
+Can anyone suggest an easy Jquery or another option to clear all data of all VertPads on a single aspx page ?

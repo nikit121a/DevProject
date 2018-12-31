@@ -1,0 +1,5 @@
+Hi,
+I'm building a WinForm Custo mPropertyEditor to edit a property that is of a XPObjectBase descendant type.
+I'm using IComplexViewItem interface to get the ObjectSpace and work with that session.
+The object I'm editing is not in an aggregated relation with the parent, is a 1 to 1 relation. 
+I would like to know if there is an easy way to be notified of the save/delete events of the parent object  to handle the save/delete on the object edited in my custom property editor.

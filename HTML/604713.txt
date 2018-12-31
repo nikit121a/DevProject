@@ -1,0 +1,6 @@
+hi
+I want to create a reporting system where user can login to create/ update / make attachments / register new item and put a note to a product.  
+I prefer to use dev extreme approach as it is much more user friendly with mobile and tablet interfaces.
+it would be very helpful if you can provide me some sample base project that i can start with.
+Thank you  
+ 

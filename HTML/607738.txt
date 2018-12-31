@@ -1,0 +1,8 @@
+Hi
+Xamarin.Forms, XAML and Visual Studio 2017
+I'm not sure if it is something related  to CodeRush or related to Visual Studio.
+Until now, when I was inserting a control (like a button) in the xaml file and added an event then automatically when I was pressing the '=" (equal sign) I was prompted to press the ENTER (if I'm not mistaken) to introduce the event handler in the code behind.
+Now, after some updates (Visual Studio and Code Rush) I don;t see that prompt any more, I'm just left with a code line like the following
+How can I correct this and get back to the status where I was prompted to create the event handler in the code behind?
+Regards
+Dimitris 

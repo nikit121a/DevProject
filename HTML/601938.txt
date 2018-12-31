@@ -1,0 +1,4 @@
+Hi, We had purchase a license of DevExpress, it works fine on my local machine, but it returns error when i deployed it on our local IIS, here is the error it returns.
+"Could not load file or assembly 'DevExpress.Data.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' or one of its dependencies. The system cannot find the file specified. "
+Can someone please help me on this, i'm on a tight schedule.
+Thanks..

@@ -1,0 +1,5 @@
+I have a ComboBox with values in it and some of the values have spaces.
+For some reason the ComboBox posts the desired value, but whenever there is 
+a space in the selected item the ComboBox posts the desired value BUT with additional 
+values separated by commas.
+How can I make the ComboBox post the desired value only?

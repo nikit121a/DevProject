@@ -1,0 +1,9 @@
+Hi there,
+I've a DataListViewController with the code below. How can I achieve, that the action is only visible, if the underlaying business class (the view) is empty. My goal is, to only show the "import data action" only, if there is no data in the view, so that the user can start an initial import.
+I tried to extend 'protected override void UpdateActionActivity(ActionBase action)' method with somethin like this: int count = View.ObjectSpace.GetObjectsCount(typeof(ZipCode), CriteriaOperator.Parse("Count()")); to get the count of rows. But this seems not to work or I do something wrong
+
+
+
+
+thx a lot
+Michael

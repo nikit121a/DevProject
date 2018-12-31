@@ -1,0 +1,5 @@
+Hello, I've been successfully customizing my appointment form so far, using the onAppointmentFormCreated event.
+I'm stuck when it comes to setting the editorOptions.contentTemplate property of a "dxDropDownBox" I added, I aim to accomplish the same as described in this 
+.
+No matter what I try, I always get the same error : "dxTreeView is not a function". I think there must be a more Angular way, which would allow me to define the template in html and use it in my editorOptions from the component.ts, without calling jQuery functions, but can't figure out how exactly.
+Thank you for your time.

@@ -1,0 +1,36 @@
+I tried to get data using Web API in Scheduler and implemented my code based on this URL(
+ ).
+HTTP request and response are working properly(refers attached file), But the 'data' JSON is not displayed in Dev Extreme View. 
+Here is the PartialView
+@(Html.DevExtreme().Scheduler()
+ ...    .Width("100%")
+    .TextExpr("Text")
+    .StartDateExpr("StartDate")
+    .EndDateExpr("EndDate")
+    .AllDayExpr("AllDay")
+)
+ And Demo model
+public class Sample
+    {
+        public int Id { get; set; }
+        public string Text { get; set; }
+        public DateTime StartDate { get; set; }
+        public DateTime EndDate { get; set; }
+        public bool AllDay { get; set; }
+        public string RecurrenceRule { get; set; }
+    }
+ return new List<Sample> {
+                    new Sample{
+                        Id = 1,
+                        Text = "Website Re-Design Plan",
+                        StartDate = new DateTime(2018, 2, 5, 9, 30, 0),
+                        EndDate = new DateTime(2018, 2, 5, 11, 30, 0)
+                    },
+                    new Sample{
+                        Id = 2,
+                        Text = "Book Flights to San Fran for Sales Trip",
+                        StartDate = new DateTime(2018, 2, 7, 12, 0, 0),
+                        EndDate = new DateTime(2018, 2, 7, 13, 0, 0),
+                        AllDay = true
+                    }
+                };

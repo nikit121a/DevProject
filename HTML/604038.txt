@@ -1,0 +1,3 @@
+I like to make it easier to see what time is under the mouse pointer to make it easier to select the right spot when customer have a lot of resources.
+I looked for hint functionality in the properties/events and in demos but cannot find where/how to do thin, can you give  me a hint as to where I get started?
+I like a hint to show eg 14:40 when the mouse is not over an event. (I have separate  hints already over events)

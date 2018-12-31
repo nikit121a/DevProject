@@ -1,0 +1,2 @@
+Open the customization-window by right click on any column and click on "column chooser". The popup with the gridview is now hidden.
+This is since v17.2.5 

@@ -1,0 +1,3 @@
+I would like to add Grouped date filter to pivot grid with including option with null able selection for date. Our database have date fields that are optional and I need to filter records that does not have date specified. Is there an easy way to do that. I don't want to do anything out of box like custom popup or so on. Please give me an advice. 
+I will be using GroupFilterMode="Tree" so the Year Querter Month are grouped together as a tree. Users like that functionality. In my case I can't use CustomFilterPopupItems event handler to update a filter list because it is group filtering not a field filtering.
+ 

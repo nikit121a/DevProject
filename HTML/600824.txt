@@ -1,0 +1,3 @@
+
+
+This is the code that updates on a change and it is having some incredibly slow response times. What can I do to increase the speed of this update?

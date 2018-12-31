@@ -1,0 +1,9 @@
+ Hello DevExpress Team,
+I have a chart with a simple curve. I want to be able to select points, perhaps like this :
+-Display / Hidde two verticale ranges
+-Be able to move it with the mouse
+-Retrieve all the points between it 
+It is possible ?
+Thank you for your help.
+Kind regards,
+Maxime Lozach

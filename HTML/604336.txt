@@ -1,0 +1,7 @@
+
+Thanks for your support.
+I was trying to get the collection's list view so that I can append filter to the data collection source of the list view.
+But everytime  I am trying to get list view from the deatil view , I am getting null value.
+Am I doing anything wrong.?
+Here is the code snippet.
+ListPropertyEditor listedfor=((DetailView )View).FindItem("TaskListCollection") as ListPropertyEditor;

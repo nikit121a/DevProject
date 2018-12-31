@@ -1,0 +1,8 @@
+Hello,
+I've created a UserControl containing a LookUpEdit with a TreeView inside the popup, but I'm having the following problems:
+- the LookUpEdit's EditValue fires on mouse over instead of on click
+- the selection should be valid only for the bottom level items (Children list empty)
+- the LookUpEdit's DisplayMember doesn't show the value for the selected item
+I attached a sample to demonstate the issues.
+Thanks,
+Fabio 

@@ -1,0 +1,3 @@
+Hi - We are using DevExpress Hierarchical Grid to load data for a Report. My first half of the page contains Search Criteria and bottom half has DevExpress Grid. Now my data gets loaded correctly. In my case, we have 3 level of grid and suppose grid gets populated with 1 Parent records having 2 child records and each child having 5 grand child records.
+Now when I click to expand First Child, its grand child gets displayed and then I scroll down to expand  Second Child. As soon as I click to expand my second child, focus automatically shifts to top of the grid and I have to again scroll down to view grand child of second child.
+I have attached a screenshot explaining the sequence of events. Please have a look and suggest a solution for this. 

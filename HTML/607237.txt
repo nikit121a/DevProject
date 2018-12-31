@@ -1,0 +1,16 @@
+Hello
+I have problem with Yaxis title on Chart on the Dashboard. 
+After I use JavaScript like below actual description of Yaxis  is changed on the right side of Yaxis
+function CorrectDashboard(s,e) {
+    if (e.ItemName === "chartDashboardTrend") {
+        var chartClientData = s.GetItemData("chartDashboardTrend");
+        var measureLabel = chartClientData.GetMeasureValue(chartClientData.GetMeasures()[1].Id).GetValue();        
+        var chart = e.GetWidget();
+            chart.option({
+                valueAxis: {
+                    title: measureLabel
+                }
+            });
+    }        
+};
+How to avoid this situation and have Yaxis description on the left side as "should be" on attachment

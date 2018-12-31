@@ -1,0 +1,3 @@
+Hi,
+Run the attached application and try to sort or toggle column filter smart tag on column 'bandedGridColumn1' or 'bandedGridColumn2'. An ArgumentException is raised, any suggestion how to fix the issue is appreciated! 
+Cheers!  

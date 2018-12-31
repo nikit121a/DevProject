@@ -1,0 +1,5 @@
+Hi,
+I have the following problem :
+I have a tcxdbgrid with a tag field (a calculated field) .
+When the user tag a row we call the refresh method in order to invoke the "onCalcFields" so that we can display the check simbol on the "tag field"  but we get an access violation.
+ 

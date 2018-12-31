@@ -1,0 +1,4 @@
+Hi.
+why does only the simpleItem have a help text?
+Is there maybe an undocumented way to use it also for tabbed items?
+best, friede 

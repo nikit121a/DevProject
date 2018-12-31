@@ -1,0 +1,3 @@
+Im using the BootStrapPagecontol on 
+When viewing the page on mobile screens tabpages dissapear and  the ul get a style="display:none"
+<ul class="nav nav-tabs" id="BaseMasterContentPlaceholder_MainContentPlaceholder_ctl03_SubscriptionPageControl_TC" style="display: none;">

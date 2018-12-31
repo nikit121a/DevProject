@@ -1,0 +1,7 @@
+Hi Andrey and DX guys,
+I have tried the hotfix a couple of times and can't get it to 'stick' on my Windows 10 x64 development PC (the one I always use.
+I have attached an image to show you the items which failed to update.
+This may then explain why the supposed changes did not work when I tried an 'Enum' as a parameter in place of the gender string of 'M' and 'F'.
+So at this end we still have the original issue, and maybe more after the failed update.
+HELP - please !  ;-0))
+Phil. 

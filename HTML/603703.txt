@@ -1,0 +1,9 @@
+Hello,
+With the ASPxRichEdit I have a concern with what it does on the server side. T19808 states:
+This is expected behavior. When a document is opened in this ASPxRichEdit, a special session value stores its state on the server. When you modify the document, these changes are stored in this session and displayed in the control all the time the document remains open.
+From what I have read, I am making the assumption the "special session" has a scope to the user's session and not something two or more users will collide on.
+My concern is when the user navigates to another page, the special session remains in tact on the server and could affect scalability. I have a case where the rich edit is in a popup and when the popup closes I can issue a DocumentManager.CloseDocument(ID) in a callback to remove it. In another case the document stays open on a page in read only mode and the user can navigate to a different page. I don't think there is anything we can do if the browser locks up or closes unexpectedly other than wait out the session timeout value.
+I realize this is a secondary question but may be related. What is a best practice for the document ID (Session.SessionID, UserID, "StaticValue" ). I am working with documents stored in a VarBinary on SQL server (could use the primary key of the record).
+Please advise on this.
+Thanks,
+Mike  

@@ -1,0 +1,8 @@
+Hello:
+Please see sample here:
+1) On click of change button, I'm trying to set the itemOption as below:
+it does not like the space in the "Group Two".
+2) However, if I just change the "Group Two" to "GroupTwo" and still keep the space in the "Country info", it does work.
+So, how would I set itemOption when the captions/titles contain spaces and why is the behavior different?
+3) Ideally, I would like to set the itemOption using the dataField name and not by the captions/titles.. Is there an option for this??
+Thanks!

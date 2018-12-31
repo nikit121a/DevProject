@@ -1,0 +1,7 @@
+Hi
+I've found an 
+ where the Scale Factor is exposed in HTML. I would like to add an extra option 125% to that combo box in ASPxWebDocumentViewer. Unfortunately the HTML looks like that:
+ 
+How to do that?
+Thanks
+Maciej

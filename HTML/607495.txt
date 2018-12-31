@@ -1,0 +1,4 @@
+Hello,
+I want to set my all selectBox with deferRendering:false. That's why I'm setting this in defaultOptions. But it's not working.
+When I'm adding deferRendering:false at the time of declaration  then it's working.
+Is there any issue with my declaration? 

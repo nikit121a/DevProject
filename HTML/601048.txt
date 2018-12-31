@@ -1,0 +1,4 @@
+Hi support team,
+I'm working with dx-chart lines graph mode and I'd like to know if it's possible to  start and to end in a specific values. I attach an image where I like to suppress the '0' value and the '7' value in that specific case. I tried with the several options from the API documentation but anyone worked.
+Thanks in advance
+Regards 

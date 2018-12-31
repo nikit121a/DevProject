@@ -1,0 +1,1 @@
+There are RowsRemoving events in the 17.2 version, but there is no event in 15.2. What should I do if I want to get the event before the line is deleted? 

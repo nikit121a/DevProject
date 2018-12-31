@@ -1,0 +1,2 @@
+please provide a simple example (in a visual studio project) which export a gridview to various format like excel, pdf.
+The gridview is in MVC extension. 

@@ -1,0 +1,5 @@
+Hello,
+I have created a Listboxcontrol with a template. I want increase the items font size and set it unter Appearance to 24 pt. But nothing happens, the font is shown in standard size.
+Isn't it possible to change the font size of the items ?
+Thanks and regards
+Uwe 

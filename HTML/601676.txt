@@ -1,0 +1,5 @@
+Hello,
+As submitted in 
+ we had an issue with launching XtraReport Suite in DevExtreme app. Thanks  to your help, now reporting works well. However, now DX Datagrid is gone (even in your sample, sent us back as guide). 
+So, is it possible to use both controls in the same app?
+Thanks :)

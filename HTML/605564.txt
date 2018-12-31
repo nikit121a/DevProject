@@ -1,0 +1,6 @@
+I have a problem with the XtraReports localization.
+I need to generate reports in different languages depending on the user settings, I have all our reports localized, some of the report's labels need to change its text depending on the data, so we have created some DetailReportBand.BeforePrint events that assign these texts , these texts are also localized in an external resource file.
+Before creating the report I set the CurrentThread.CurrentCulture to english for example, then I create the report and load the binded data. The report is shown mainly in english, but the labels whose text has been changed in this BeforePrint events are shown in spanish, so I have report with mixed languages.
+I've set a breakpoint in the BeforePrint event, and I noticed the CurrentThread.CurrentCulture has changed back to spanish ( my UI language ). In my code the CurrentThread.CurrentCulture is not changed anywhere else, so I don't know why the currentculture is being changed before executing the events.
+How can I solve this?
+Thanks.

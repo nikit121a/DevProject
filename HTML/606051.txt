@@ -1,0 +1,9 @@
+Hello,
+I'm struggling on centering the wait form on the parent form.
+I have  a parent form(Form1) for example.
+When I launch the wait form it doesn't display on the center of the parent form. 
+splashScreenManager1.ShowForm(Me, GetType(WaitForm1), False, False, SplashFormStartPosition.Manual, Me.PointToScreen(Me.Location))
+What Am I doing wrong?
+Thanks
+Edil
+ 

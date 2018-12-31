@@ -1,0 +1,2 @@
+I'm having this same issue and the link that you provided doesn't work to fix. The OP is speaking of looking at a DetailView of an object that implements IResource. This shows a scheduler at the bottom of the DetailView, but it isn't recognized by XAF as a ListView when implementing a controller. This is a single object with the Scheduler control at the bottom.
+How do you gain access to the Scheduler control in the DetailView of a Resource? 

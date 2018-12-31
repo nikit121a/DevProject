@@ -1,0 +1,6 @@
+I'm trying to resize (larger) my controls (memo, textbox) in the Gridview PopupEditForm, I searched your database but it seems that in my case all the solutions are not working.
+what did I try:
+- popup width 1000px and controls 100% or *px
+- used a aspxmemo control in EditItemTemplate
+It is working with aspxlabel control
+Attached, screenshot and code Gridview

@@ -1,0 +1,6 @@
+I've added an icon ID to an ASPxButton but when I tried to set the image width to a larger value,
+more than one icon appeared which is weird.
+I've attached how it looks like.
+Below is my code :
+<dx:ASPxButton ID="btnLogIn" runat="server" Text="Log In" CssClass="SignInButton" AutoPostBack="true" OnClick="btnLogIn_Click" Image-IconID="businessobjects_bouser_32x32" Image-Width="100"></dx:ASPxButton>
+ Why is that happening ?

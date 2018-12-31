@@ -1,0 +1,5 @@
+  
+  It strange, but it looks like that dragged column header is dependent on page scroll.
+Please have a look on attached video I hope it will help you detect the problem.
+  
+  

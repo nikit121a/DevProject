@@ -1,0 +1,70 @@
+I have a BootstrapGridView in UpdatePanel. I want to give this list but I can not.
+It is working while out of UpdatePanel?
+I have not found a solution to this issue either. 
+when i try using inside updatepanel throw exception: "The workpiece was being stopped."
+------------js
+<script type="text/javascript">
+        function OnToolbarItemClick(s, e) {
+            if (IsExportToolbarCommand(e.item.name)) {
+                e.processOnServer = true;
+                e.usePostBack = true;
+            }
+        }
+        function IsExportToolbarCommand(command) {
+            return command == "ExportToPDF" || command == "ExportToXLSX" || command == "ExportToXLS" ;
+        }
+    </script>
+-----------
+<asp:UpdatePanel ID="up1" runat="server">
+        <ContentTemplate>
+<dx:BootstrapGridView  ID="gvSiparisler" runat="server" KeyFieldName="ID" EnableCallBacks="false"
+                            OnDataBinding="gvSiparisler_DataBinding"
+                            OnToolbarItemClick="gvSiparisler_ToolbarItemClick">
+                            <ClientSideEvents ToolbarItemClick="OnToolbarItemClick" />
+                            <Toolbars>
+                                <dx:BootstrapGridViewToolbar>
+                                    <Items>
+                                        <dx:BootstrapGridViewToolbarItem Command="Custom" Text="Export To">
+                                            <Items>
+                                                <dx:BootstrapGridViewToolbarMenuItem Name="ExportToPDF" Text="PDF" />
+                                                <dx:BootstrapGridViewToolbarMenuItem Name="ExportToXLSX" Text="XLSX" />
+                                                <dx:BootstrapGridViewToolbarMenuItem Name="ExportToXLS" Text="XLS" />
+                                            </Items>
+                                        </dx:BootstrapGridViewToolbarItem>
+                                    </Items>
+                                </dx:BootstrapGridViewToolbar>
+                            </Toolbars>
+<SettingsBehavior AllowFocusedRow="true" AllowSelectByRowClick="true" />
+                            <Columns>
+                                <dx:BootstrapGridViewCommandColumn ShowSelectCheckbox="True" SelectAllCheckboxMode="AllPages" />
+                                <dx:BootstrapGridViewDataColumn Caption="">
+                                    <Settings AllowAutoFilter="False" />
+                                    <SettingsEditForm Visible="False" />
+                                    <DataItemTemplate>
+                                        <dx:ASPxButton ID="btnDuzenle" runat="server" Text="D?zenle" OnClick="btnDuzenle_Click"></dx:ASPxButton>
+                                    </DataItemTemplate>
+                                </dx:BootstrapGridViewDataColumn>
+                                <dx:BootstrapGridViewDateColumn FieldName="ID" Caption="No" />
+                                <dx:BootstrapGridViewDateColumn FieldName="Tarih" Caption="Tarih" />
+</Columns>
+                        </dx:BootstrapGridView>
+ </ContentTemplate>
+    </asp:UpdatePanel>
+---------------------code-------------
+protected void gvSiparisler_ToolbarItemClick(object sender, BootstrapGridViewToolbarItemClickEventArgs e)
+        {
+            switch (e.Item.Name)
+            {
+                case "ExportToPDF":
+                    gvSiparisler.ExportPdfToResponse();
+                    break;
+                case "ExportToXLS":
+                    gvSiparisler.ExportXlsToResponse();
+                    break;
+                case "ExportToXLSX":
+                    gvSiparisler.ExportXlsxToResponse();
+                    break;
+ default:
+                    break;
+            }
+        }

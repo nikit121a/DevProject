@@ -1,0 +1,6 @@
+Hi Devexpress team
+I need your help urgently please.
+I used version 14 + till last year and then upgraded to 17. x and are now on 17.2.5. Before the upgrade everything where working perfect until I did the upgrade. I attached a sample project and a SQL 2012 database for you to test. Let me explain my issue.
+I have different institution that use my application and I have a letterhead that are created when they click a button. The report is linked to sql and all the information for the letterhead  and letter is supplied via stored procedure. When I am designing the report and click the preview button everything is 100% and you can see the logo on the letterhead(I added a image in the zip file). When I run the app and press the button the pdf is created and all are there except the logo. Originally my image was on the server and I used the ImageUrl and now I saved the image in the database and exactly the same is happening.
+Please check my sample project and see if you can find the problem.
+Thanks 

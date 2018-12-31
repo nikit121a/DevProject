@@ -1,0 +1,8 @@
+Hi DevExpress team,
+currently I'm converting some flash based chart controls to your webchart control and need to keep the layout as close to the original as possible. Thus how do I show a Side-by-Side Stacked Bar and a Side-By-Side Bar in one webchart (see screenshot)? 
+For example, in this code:
+"s/w Systeme" needs to be a side by side bar and next to it,  "Farbsysteme s/w" and "Farbsysteme Farbe" needs to be 
+Side by Side 
+ bar.
+Thanks for your help & kind regards,
+Patrick

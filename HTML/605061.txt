@@ -1,0 +1,3 @@
+Is there any way to add text to a pdf document (such as /T144197/provide-a-capability-to-add-text-on-each-page) so that it is centered or right aligned? Is there a way to determine the correct xy coordinates so that the rendered text will be centered or right aligned?
+Thanks in advance.
+ 

@@ -1,0 +1,8 @@
+Hello!
+I have buttons which are in a callback panel. These buttons are disabled by default but can become enabled (with button "Enable" in attached project). 
+The problem is as following: when I perform a callback of the callback panel  (with button "Callback" in attached project), we can see a flash of the color of the button. But the button is always disabled after a callback (ClientEnabled = false), so it would be always grey.
+In the attached zip file, there are a sample and a video which demonstrate the problem.
+So, how is it possible to prevent this flash after a callback?
+Thanks for your help !
+Best regards!
+Alex 

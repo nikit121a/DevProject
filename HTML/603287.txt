@@ -1,0 +1,22 @@
+Refer to case T598468 for the history around this:
+I have one issue remaining with trying to build this custom control.  I've fixed the properties, figured out how to make the buttons dynamic, animated, etc.
+Long story short, I have two buttons on the right side of the masktextbox.  One to clear the text, one to show in-progress and a pulldown when the search is complete.
+I have a textchange listener on the textbox that invokes timers and etc. to properly handle the workflow.  However, one of the things that is being done is the button visibility changes based on the text.
+Example code in handler:
+         private void SearchTextChanged(object sender, EventArgs e)
+        {
+            TextBoxMaskBox textBox = sender as TextBoxMaskBox;
+            string searchStr = textBox.MaskBoxText;
+            // Since we're here turn the clear button on and off
+            if (String.IsNullOrEmpty(searchStr))
+            {
+                _clearButton.Visible = false;
+                _pulldownButton.Visible = false;
+            }
+            else
+            {
+                _clearButton.Visible = true;
+            }
+......
+Here's the problem.  Typing a character in the text field, when originally empty, makes the clear button appear.  It does. But changing the visibility of the button *clears the text* in the maskbox!  How do I get it to stop doing that?  Because it raises another text change event for '' which clears the button if I don't intercept it and I've lost the first character.
+I tried capturing the text in the inbound event, changing the button and then setting the text but it appears that the MaskBox deprecates the set ability so I can't put the text back... 

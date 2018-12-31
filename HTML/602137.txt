@@ -1,0 +1,6 @@
+Hi Team,
+Could you please help me understand, what's the actual difference between CustomSummary and CustomCellValue events?
+I understand that  CustomCellValue is executed for every cell and it goes after the summary calculation.
+What is the proper usage of those?
+If I want to calculate custom summary I can actually do it in CustomCellValue event handler, then what's the profit of having CustomSummary? 
+Thanks in advance!

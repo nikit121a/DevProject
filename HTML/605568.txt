@@ -1,0 +1,9 @@
+Hello,
+I'm reading an excel file with this lines of code:
+This works in my development machine, but on the target machine where the program has to run, it works only if I compile AnyCpu or x86, while I need x64.
+The machine configuration:
+- Windows Server 2012 R2 Standard 64 bit
+- No Office installed
+- .NET 4.5.2
+Any advice?
+Thakns 

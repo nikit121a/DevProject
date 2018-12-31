@@ -1,0 +1,2 @@
+Thanks.
+The problem is where I did put the displayFormat. After moving it under editorOptions it is working fine. But how do I cange the header of the calendar that pops up. It shows english format of the month (february). 

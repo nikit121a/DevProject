@@ -1,0 +1,4 @@
+
+Hi,
+I have to quick questions regarding the use of an collapsible accordion control
+2) If the layout panels allow resizing, and you resize the panel containing the accordioncontrol and then collapse it, the accordioncontrol will collapse to the left rather than to the right and the size of the panel won't resize

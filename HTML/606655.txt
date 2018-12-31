@@ -1,0 +1,4 @@
+Hello,
+I would like to change background and font color when some text is introduced in some column filter on my DataGrid. My Grid can load custom filters so I want to be able to realize when the grid is filtering data since the beginning. 
+For instance, imagine that I load my web page and I have my grid with 3 columns (Name, Age, City) and at 'Name' column filter there's a 'W' and at 'City' column filter there is a 'C'. In that case, filter cells Name and City should have a different style (only the filter cell). After that, If I clear filters, the style have to change to normal style. Can we change one style for filters when there is text and other one when there isn't or I clear them?
+Thank you.

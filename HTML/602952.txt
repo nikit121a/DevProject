@@ -1,0 +1,7 @@
+
+Sorry to barge in on someone else's Q but why does EndlessPaging require a client-side solution? Is it completely impossible to set the FocusRowIndex to a value (say 1) when using EndlessPaging? I choose 1 because there will be at least 2 (or more then likely) rows.
+ The 
+ for MakeRowVisible makes it clear it doesn't work with EndlessPaging. But 
+ makes no mention of this.
+cheers!
+-randall

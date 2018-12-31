@@ -1,0 +1,7 @@
+Hi. I've upgraded some project from Dx 17.1 to 17.2.5 and after upgrade some of my custom code does not work any more. I'm using xtradiagram with customized DiagramShape. I have also custom DiagramShapeView becouse I do some custom draw inside it.
+After upgrade to 17.2 my custom shapes are not visible on diagram control.
+I've minimized my custom code to represent problem in attachment.  When form is loaded i create two shapes:
+- one simple DiagramShape which is visible
+- one custom Diagram shape which is not visible
+Custom diagram shape has very little custom code so I hope that you can help me quick. 
+Matej 

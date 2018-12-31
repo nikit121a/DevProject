@@ -1,0 +1,7 @@
+Hello,
+We have 1 "main" splitter with 2 panes. The second pane of the "main" splitter contains a div with relative position and a "minor" splitter with 2 other panes. The second pane of the "minor" splitter contains a other div with relative position and a FormLayout with DateEdit. 
+I have remove the relative position attribute of the second pane of the "minor" splitter. Now the calendar isn't truncate in the left part but always in the right part. See file in attachment. 
+It's not possible to remove the relative position attribute of the div in the second pane of the "main" splitter without change a big part of our application. 
+What can I do?
+Best regards
+ 

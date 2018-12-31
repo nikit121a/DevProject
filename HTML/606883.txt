@@ -1,0 +1,4 @@
+Hello, since the update from 15.2.6 to 17.1.8 the TdxGPImage class seems to behave differently.
+Creating a "screenshot" of a form and drawing it like this:
+shows a different result because TdxGPImage.CreateFromHBitmap now checks if the image has a 32bit depth and at least one pixel has a value greater that 0 in the reserved part of the color information. (see TdxCustomSmartImage.CreateHandleFromBitmap)
+It seems impossible the change this behavior, do you have any advice how to restore the old behavior and ignore the rgbReserved information?

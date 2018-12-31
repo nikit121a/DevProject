@@ -1,0 +1,7 @@
+Hello DevExpress support, 
+I have issues with tree list performance, it's too slow when loading huge hierarchical data (like directories structure) and slow nodes expanding performance. 
+The case as follows: I have quite big hierarchic structure in the WinForms app. Users could expand nodes and this state will be saved. Next time user opens the app I need to restore previous expanded state. In my app, it takes up to 10 seconds to expand ~250 nodes (calculated without the parent node) out of ~40000 nodes in total. 
+In my test project loading of 100k nodes takes 200+ sec and expanding of 250 nodes takes 2+ second, which is much less than in real app, but anyway,
+Is there any way to improve the speed of loading and expanding?
+Test project attached. 
+Thanks.    

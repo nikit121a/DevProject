@@ -1,0 +1,6 @@
+Good day,
+Can you tell me if it is possible to use the LookupEdit as a repository item in a DataGrid tile?
+I seem to be able to set the properties but can see how to bind the datasource.
+Regards
+Derek
+ 

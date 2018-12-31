@@ -1,0 +1,4 @@
+Hello,
+Is it possible  to make the caret invisible when a textbox has focus?
+I thought maybe s.SetCaretPosition( -1 ) but no luck...????
+Thanks, Jack 

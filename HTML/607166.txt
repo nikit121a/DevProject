@@ -1,0 +1,4 @@
+Hi, 
+I have a parent container which has two controls inside it I want a splitter to split these two controls panels for that currently I am using DevExpress.XtraEditors.SplitterControl() class object which only provides options to dock this splitter on Right, Left, Top and Bottom of the parent container. If I am giving Right to Docking style, splitter gets stick to the right edge of the parent pane and the right control gets invisible. I want splitter to be in between both the child control panel or we can say in the middle of the parent container. 
+Thanks,
+Vijay

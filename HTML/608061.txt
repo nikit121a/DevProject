@@ -1,0 +1,6 @@
+Hello,
+I am using AutoFilterByColumn to set filter to a gridview column. However there is no reverse method to reverse the filtering to previous state, aka removing the Auto Filter from a specific Column.
+I can use grid.AutoFilterByColumn("Field",null) but i suggest adding a new clientside method to make it easier.
+Take it as a suggestion.
+Thanks
+Onur

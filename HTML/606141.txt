@@ -1,0 +1,4 @@
+Is there a way of mixing LineSeries2D and PointSeries2D for different series in the same chart.
+In other words, is there a way of showing one series with line and marker and another series without line and just marker on the same chart.
+I was unable to remove the Line from  Lineseries2D.
+Thanks

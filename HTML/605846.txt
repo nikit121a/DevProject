@@ -1,0 +1,6 @@
+Hello,
+Could you provide me a sample similar to the one you offered here in the 17.1 version.
+I have can't upgrade the version 10 to 17 because of the framework version.
+I am looking for a bidirectional sync with Outlook.
+Your help and assistance is much appreciated. 
+Thank you. 

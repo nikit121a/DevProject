@@ -1,0 +1,5 @@
+I've got a Dashboard where I want to provide my own data at runtime.
+For the main dashboard data - I'm handling the  dashboardViewer1_DataLoading event, and that works nicely.
+Now, there is a feature in Dashboard where you can add Parameters and even have those be based on a DataSource/Lookup. I want to provide data to the parameters at runtime as well.
+What is the correct way to provide data to the parameter datasource?
+As far as I can tell the dashboardViewer1_DataLoading isn't getting called with the name of the parameter's datasource.  Is there some other event I should handle, or any other trick to be able to set the parameter datasource's data at runtime?

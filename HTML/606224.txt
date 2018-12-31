@@ -1,0 +1,7 @@
+Hi,
+I have installed the product on DELPHI XE
+and when I compile the project, the message
+F2046 out of memory appears.
+Could you help me to solve this problem ?
+Best Regards.
+ 

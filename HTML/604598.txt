@@ -1,0 +1,11 @@
+Dear Support Team,
+I am using DevExtreme MVC DataGrid. I need to calculate column and show in the footer.
+I have checked documentation and based on it did the changes. 
+But it is not doing sum properly.
+Below is the code used for summary:
+you can see the attached image where sum is calculating wrong value.
+One of my column having data decimal with percentage e.g: 2.70 %
+When i applied sum for this column then total calculating sum showing zero.
+Could you please suggest some solution for it?
+Thanks,
+Veera 

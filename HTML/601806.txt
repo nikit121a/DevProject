@@ -1,0 +1,13 @@
+I used the HybridDemo as startingpoint for an application.
+On one form I have a cxGrid just to select the record to work on.
+Data entry should be done via a second cxGrid, the editfields are contained in a DBLayoutview.
+The standard behaviour is that using the mousewheel scrolls the records of the table.
+This is a sure way to confuse the operator if it accidentally selects another record in this way.
+Since I found no other way to prevent this the DBLayoutview is connected to a second table that works as a slave to the main table but provides only the currently selected record.
+So I am sure the user can only scroll records in the selection grid, not in the data entry grid.
+To access all the editfields in the DBLayoutview the user must vertically scroll.
+I specified scrollbars = ssVertical and scrolling in this way (vertical scrollbar) works properly.
+The mousewheel has no function if the cursor is over the data entry grid.
+The question is if there is a way to scroll through the editfields with the mousewheel in addition to the scrollbar.
+Regards
+Gerhard Sachs

@@ -1,0 +1,9 @@
+
+
+Hello, 
+Your solution still works, but not with the new DirectX Support from 17.2.
+The repository is painted as enabled but has no function, same it's disabled.
+I have attached the modified project with the WindowsFormsSettings.ForceDirectXPaint();
+Would be very nice if you can help me. Without DirectX it works same as before.
+Thank you in advance
+Steven

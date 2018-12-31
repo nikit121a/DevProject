@@ -1,0 +1,24 @@
+
+Here is my scenario:
+Other than some SQL contained in RDL (SSRS) reports I do not have any direct references to SecuritySystemUser, so that's not a big deal to take care of.
+I have a custom class (User) derived from SecuritySystemUser
+I do not wish to change Oid to string values on any references or associations to User so seems the CodeProject solution mostly deals with this.
+Questions:
+1. How do I handle in a single pass changing my User class to be derived from PermissionPolicyUser wihtout requiring a 2nd build version to be deployed after conversion?
+2. What are other considerations of having a custom User class and trying to migrate in ModuleUpdater?
+3. I would also like to copy the password, so it does look like part of the CodeProject example would be of benefit for copying just the user objects, especially since I want to preserve the existing Oid values for user objects (not necessarily for roles/permissions) as there are many objects that reference this.
+Making some progress.  I was able to get User and SystemSecurityUser to convert to PermissionPolicyUser and handle all the references....
+However, when it gets to the CopyUser loop, no objects are returned in ObjectSpace.GetObjects<SecuritySystemUser>() even though there is still data there.  I don't get any errors and looking at SQL profiler, nothing is hitting the database.
+
+
+
+
+ 
+
+
+I even added this to my module constructor (although I don't believe it's needed)
+
+
+
+
+So I can log in and I see that it's using the new PermissionPolicyUser object, but I have no roles or permissions

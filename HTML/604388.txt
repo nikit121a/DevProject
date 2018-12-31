@@ -1,0 +1,5 @@
+Hello,
+i'm using a  DevExpress.XtraBars.Ribbon.RibbonForm with a DevExpress.XtraBars.Ribbon.RibbonControl.
+I use the DevExpress Designer (context Menu on RibbonControl -> Run Designer) to create the GUI. I've run into a problem using categories. I can create categories and assign items to them, but on creating new categories and items, the designer confuses different categories in other menus.
+Please see the attached screenshot . In "Designer_Categories.png" you can see two of my categories and their assigned items on the left. On the right you can see the items for the selected category "Fenster". The items shown are part of the category "Fang" though.
+Am i doing something wrong or is the designer not working properly?

@@ -1,0 +1,12 @@
+Hi,
+       I have the following requirements:
+       1. Show selected items with incremental filtering on
+       2. Search with incremental filtering on but retain already selected items
+       
+       For the above requirements, the closest I found is to use 'TokenLookUpEditStyleSettings' but it falls short of the above. Can you please help to achieve the above? I saw one solution suggesting to use extended version of LookupEdit which I don't want to do nor modify the source code and compile.
+Separate Requirements - Can create a separate ticket if needed..
+1. How to change the Foreground of the Null Text? 
+2. How to change the style of the tokens?
+Thanks,
+Manu
+   

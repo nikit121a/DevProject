@@ -1,0 +1,4 @@
+Dear friend:
+I have a problems with tables in RichTextControl: if i save a file made with the control in doc format and i open it with LibreOffice/OpenOffice i lose all
+the tables. Do i need to set some compatibility mode ?
+I attach a file with an example. (The image and the file itself) 

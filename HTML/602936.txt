@@ -1,0 +1,5 @@
+Hi Team,
+My requirement is to highlight the current active menu in Hamurger menu .
+Suppose there is Menu List A, B , C
+If A is active Menu it should be highlighted or some background color change .
+if i move to menu "B " Then that should be highlighted.

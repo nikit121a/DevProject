@@ -1,0 +1,1 @@
+I will use my application with the same Code in different Scenarios. Only the lables on all views must changed. Is there any  easy way to use the same Code but changing the Texts?

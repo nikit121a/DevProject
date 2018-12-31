@@ -1,0 +1,4 @@
+I have a view with a Html.DevExpress().ListBox data editor and a model of type List<SelectListItem>. The listbox is populated by the BindList method, with the model as a parameter. 
+In my action method, I am building a list of  SelectListItems to pass to the view. Some of the SelectListItems have the Selected property set to true.
+I would expect these SelectListItems to show up as being checked when the view is rendered, however they are not.
+What am I missing?  

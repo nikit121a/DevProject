@@ -1,0 +1,6 @@
+Hi,
+We are using AllowHtmlString in a  LabelControl with html markup (for exampole <b>Bold</b>).
+When we access the .Text property we get the text returned with html markup, which makes sense.
+Is there a way to get the text without markup?
+For example, LabelControl.CleanText = "Bold"?
+Rene

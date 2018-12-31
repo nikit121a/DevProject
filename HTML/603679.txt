@@ -1,0 +1,4 @@
+Hi,
+Is there a way to make the Root Item look exactly like the Sub Item (the arrows should be the smaller one and no line after the Root Item) without re-templating the whole control?
+Many Thanks,
+Omer 

@@ -1,0 +1,2 @@
+  Is there an event or is it possible to create some event so that I can detect the
+ PopupMenu "OnPopup" event of  "FixedDataRows"  ?

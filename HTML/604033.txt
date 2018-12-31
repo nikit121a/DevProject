@@ -1,0 +1,6 @@
+Hi there,
+Would you please be able to advise me... I have a requirement that when the user hits "save" on the popup editor of the datagrid, then the user should be prompted via an additional popup to enter some data before the record can be saved.
+For example - If an order's status is being set to confirmed by a user, then they hit save. Then they will be shown a popup which asks them to type in the customer's email address and phone number into fields within the popup before the record can be saved.
+Is this do-able? Please let me know if I can explain better!
+Best wishes
+Matthew 

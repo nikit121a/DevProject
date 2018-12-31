@@ -1,0 +1,3 @@
+Hi,
+I'm using the dxdatagrid component for my Angular4+ project, I have an issue with the animation. The problem is that the dxdatagrid seems to be destroyed before the animation is completed. Is there a way to stop this?
+ I've attached a gif to show the issue.

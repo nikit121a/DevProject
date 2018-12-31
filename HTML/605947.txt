@@ -1,0 +1,4 @@
+Hello,
+Based on click on webchart control bar I want to display the results in grid.When I click on bar then related data should display in grid .
+Here how to handle click event and how to pass web chart bar related value to grid.
+Please suggest. 

@@ -1,0 +1,10 @@
+Hello?
+    Program error Tdxspreadsheet.Enabled = false, the mouse click is of no use. I hope Excel, like Excel, will be able to continue using it when prompted to do something wrong. 
+    Use the wrong statement is as follows:
+    procedure TForm1.Button3Click(Sender: TObject);
+begin
+    spreadsheet1.BeginUpdate();
+    spreadsheet1.ActiveSheetAsTable.Cells[3,3].asfloat:=5/0;
+    spreadsheet1.EndUpdate;
+end;
+  

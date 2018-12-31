@@ -1,0 +1,9 @@
+Dear sir or Madam; 
+I am thinking to high-light one column in wpf GridControl when there are lots of columns.  I changed the Grid row column background color with following: 
+
+
+
+
+I also have a dxg:GridControl.GroupSummary
+                            <dxg:GridSummaryItem FieldName="DailyPnl" SummaryType="Custom" DisplayFormat = " {0:N0}"  /> 
+I hope the P&L column will be highlighted in different color, but for the group summary row, the color is not changed.  When I google, there is a way to change the background for all summary column, but I only want to change one column background.  thanks.  What is the best way to do this?   thanks

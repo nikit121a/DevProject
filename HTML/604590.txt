@@ -1,0 +1,4 @@
+Hi,
+Can you hide or make it possible to hide duplicates displayed in Test Runner when JS tests are written in TypeScript? CR displays both tests, one from JS and one from TS.
+Thank you!
+ 

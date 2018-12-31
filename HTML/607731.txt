@@ -1,0 +1,13 @@
+Hello
+In our XAF web application we often invoke reports directly from Actions.
+We have 2 common situations: a Simple Action that just shows the report preview, and a Popup Window Action that prompts for some details then show the report.
+Since moving to the ReportsV2 module the Popup Window scenario does not work.
+I have attached a sample application but here are the details:
+ In a View Controller I have the following code to show the Print Preview:
+And this is invoked from a popup window action like this:
+When this runs the popup window after the popup window is accepted, the popup window closes and the word 'undefined' appears in the top left of the browser window.
+Is there a different way to invoke the report preview?
+(I have attached a backup of my test db as well, but that is only to get the dummy report, you can create a new one called "Thing Report" if you donlt want to restore that db.)
+Thanks 
+Richard
+ 

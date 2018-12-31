@@ -1,0 +1,7 @@
+In my previous support ticket I asked how to open a form from a hyperlink on a gridview.  I have that working now, although I need to know how to center the popup form.
+Once the popup form is opened, I want to execute some server side code to save the data on the form.  And then close the popup, possibly refreshing the parent gridview.
+1. Would I wrap the popup control (in the parent form) in a callback, and then execute the callback from a client-side button click, followed by a popup.Close()?
+Would I wrap the gridview in a callback control, and then call the gridview_callback to refresh the grid? 
+Do you have an all-purpose sample application that illustrates opening a modal popup, with a Close button that refreshes the parent grid?
+TIA,
+Miles 

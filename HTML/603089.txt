@@ -1,0 +1,5 @@
+I appear to be having the same problem as this case 
+I have attached a modified project and image showing my issue. For the sake of example I am attempting to format the "Quantity" field to display a duration in hours, minutes and seconds.
+If you run the application, you can see that the Amount field formats correctly in both the filter and on the grid. However the Quantity field shows correctly on the grid but incorrectly as an integer value on the filter. Is there a setting that I am missing?
+Thanks,
+Russell.

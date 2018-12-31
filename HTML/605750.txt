@@ -1,0 +1,5 @@
+
+Hello,
+I am working with EntityFeedbackSource for the first time and have a couple of questions.
+ 2. With a regular System.Windows.Forms.BindingSource, there is a CurrentChanged event, which fires when the user selects a row in the grid (when the grid is bound to a regular BindingSource).  What is the corresponding technique for EntityFeedbackSource to tell when the user has selected a new row in the grid?  
+Thanks!

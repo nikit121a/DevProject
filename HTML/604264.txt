@@ -1,0 +1,121 @@
+what I want is displaying appointment to Scheduler. The dump appointment data would not been displayed even though user data has been saw.
+Here is the sample code and let me know what am I should to do.
+    --- View  
+@model Namespace.Models.Demo.SampleData
+@(Html.DevExtreme().Scheduler()
+        .ID("scheduler")
+        .DataSource(Model.Appointments)
+        .Views(v => {
+        v.Add()
+            .Type(DevExtreme.AspNet.Mvc.SchedulerViewType.TimelineWorkWeek)
+            .Name("Week");
+        v.Add()
+            .Type(DevExtreme.AspNet.Mvc.SchedulerViewType.Month);
+        })
+        .CurrentView(DevExtreme.AspNet.Mvc.SchedulerViewType.TimelineWorkWeek)
+        ...
+        .Groups(new string[] { "EmployeeID" })
+        .Resources(res =>
+        {
+        res.Add()
+            .FieldExpr("EmployeeID")
+            .ColorExpr("Color")
+            .DisplayExpr("Text")
+            .ValueExpr("Id")
+            .AllowMultiple(false)
+            .Label("Employee")
+            .DataSource(Model.Users);
+        })
+        ...
+)
+--- Controller
+public ActionResult Sample()
+{
+    var Schedule_Data = new Schedule_Field
+    {
+        Appointments = SampleModel.Appointment_Data,
+        Users = SampleModel.Users_Data
+    };
+    return View(Schedule_Data);
+}
+--- Model
+public class SampleModel
+{
+    public static List<Appointment> Appointment_Data
+    {
+        get { return new List<AppointmentAppointmentAppointment> {
+                    new AppointmentAppointmentAppointment {
+                        Id = 1,
+                        Subject = "Google AdWords Strategy",
+                        OwnerId = new int[] { 2 },
+                        StartDate = new DateTime(2018, 2, 5, 9, 30, 0),
+                        DueDate = new DateTime(2018, 2, 5, 11, 30, 0)
+                    },
+                    new AppointmentAppointment {
+                        Id = 2,
+                        Subject = "New Brochures",
+                        OwnerId = new int[] { 1 },
+                        StartDate = new DateTime(2018, 2, 7, 12, 0, 0),
+                        DueDate = new DateTime(2018, 2, 7, 13, 0, 0)
+                    },
+                    new Appointment {
+                        Id = 3,
+                        Subject = "Brochure Design Review",
+                        OwnerId = new int[] { 3 },
+                        StartDate = new DateTime(2018, 2, 8, 12, 0, 0),
+                        DueDate = new DateTime(2018, 2, 9, 13, 0, 0)
+                    }
+            }
+        };
+    }
+    public static List<User> Users_Data
+    {
+        get
+        {
+            return new List<User>
+            {
+                new User{
+                    Id = 1,
+                    Text = "Namgi Yoon",
+                    Color = "#cb6bb2",
+                    Discipline = "Software Engineer"
+                },
+                new User{
+                    Id = 2,
+                    Text = "Hanwoon Kim",
+                    Color = "#56ca85",
+                    Discipline = "DB Administrator"
+                },
+                 new User{
+                    Id = 3,
+                    Text = "Minju Jung",
+                    Color = "#1e90ff",
+                    Discipline = "Tester"
+                }
+            };
+        }
+    }
+} 
+public class Schedule_Data
+{
+    public List<Appointment> Appointments { get; set; }
+    public List<User> Users { get; set; }
+}
+public class Appointment
+{
+    public int Id { set; get; }
+    public string Subject { set; get; }
+    public DateTime StartDate { set; get; }
+    public DateTime DueDate { set; get; }
+    public string Status { set; get; }
+    public int Completion { set; get; }
+    public int[] OwnerId { get; set; }
+    public string Assigned { get; set; }
+}
+public class User
+{
+    public int Id { get; set; }
+    public string Text { get; set; }
+    public string Color { get; set; }
+    public string Discipline { get; set; }
+}

@@ -1,0 +1,14 @@
+Hello,
+I'm facing an issue, where when I'm entering "12" for hour, if there is a more than 1-sec wait in between I hit the key '1' and '2', instead of getting  "12", I get "2".
+I set my repository this way:
+                string editPattern = DateTimeFormatInfo.CurrentInfo.FullDateTimePattern;
+                editPattern = Regex.Replace(editPattern, "(:ss|:s)", "$1.fff");
+                _datetimeMsEditor = new RepositoryItemTimeEdit();
+                _datetimeMsEditor.Mask.MaskType = MaskType.DateTimeAdvancingCaret;
+                _datetimeMsEditor.Mask.EditMask = editPattern;
+                _datetimeMsEditor.DisplayFormat.FormatType = FormatType.DateTime;
+                _datetimeMsEditor.DisplayFormat.FormatString = fullPattern;
+                _datetimeMsEditor.EditFormat.FormatType = FormatType.DateTime;
+                _datetimeMsEditor.EditFormat.FormatString = editPattern;
+                _datetimeMsEditor.Mask.UseMaskAsDisplayFormat = false;
+please check the attached a video demonstrating the issue (you can open it using a web brower)

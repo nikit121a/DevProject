@@ -1,0 +1,5 @@
+Hi ,
+1.I want autocomplete with dynamically datasource , I have issue When datsource return 5 record  autocomplete suggestion display only 1 record.
+2. autocomplete suggestion display in table format output.
+ 
+ 

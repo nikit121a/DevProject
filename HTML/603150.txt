@@ -1,0 +1,3 @@
+I tried using your solution but it does not work correctly. 
+This does not work when I have multiple row field. the index show up incorrectly when you have multiple row fields. also teh index changes when its in expanded state vs collapsed state. 
+ 

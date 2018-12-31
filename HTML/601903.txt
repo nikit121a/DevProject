@@ -1,0 +1,4 @@
+Hello,
+I noticed weird behavior of TimeEdit control. Everything works and looks fine except OK and Cancel buttons appearance. They're quite small and have no text on it. I attached a picture to clarify. The control works in TouchUI mode. Tried to find something in control's properties, but with no luck.
+May I ask for any help ?
+Andrzej Gorzela 

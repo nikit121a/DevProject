@@ -1,0 +1,5 @@
+Hello, 
+In my WPF application, non-MVVM, I have a Window and code behind:
+The mouse switches to the blue spinning wheel on click, but it's frozen in place. I can't move the mouse, keyboard is stuck (no Ctrl+Alt+Delete), etc. Once the event is done, I can move all throughout the app/OS. Any thoughts on what is happening? 
+I did try a BackgroundWorker(), but it won't fire the UpdateData() command. 
+ 

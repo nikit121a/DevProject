@@ -1,0 +1,15 @@
+I just upgraded 17.1.6 to 17.2.5 and rebuild the project and this message showed up.
+ // Controller
+public FileStreamResult Sample_FileManagerPartialDownload()
+        {
+            //  
+: "FileManagerExtension.DownloadFiles(string, string)" is obsolete: Use The DownloadFiles(settings, rootFolder) method instead'
+            return 
+        }
+    }
+public class 
+    {
+        public const string RootFolder = @"~\FileUpload\FileServer\ProductInformation";
+        public static string Model { get { return RootFolder; } }
+    }
+I could not find the DownloadFiles(settings, rootFolder)  function in given documents. How can I use it? 

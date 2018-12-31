@@ -1,0 +1,5 @@
+Hello,
+I am trying to follow your documentations to customize Scheduler labels and have few problems:
+1. See attached sample solution. I clear predefined labels and successfully create a new one.  I can assign it to an event but endent's background does not change to match label's color as it does with predefined labels. What I am missing?
+2. It is unclear how label storage saves custom labels. I will allow users to create own labels and overwrote the storage using data provided by users and saved in a persistent class.  Since the storage is updated every time scheduler is loaded, how previously saved events know which label to use? It does not seem to use the custom label id but it's own which can change if order of custom labels is changed.
+Thank you. 

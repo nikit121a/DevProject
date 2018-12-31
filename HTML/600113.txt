@@ -1,0 +1,9 @@
+Dear Support,
+i have a question regarding XRPictureBox.
+Currently I am having a list of List<Bitmap> objects which I would like to Show, and everything works fine if I Show only Images...but i am having the following Scenario...
+1 . I am creating one XRTable and filling out the Content from my objects, (the rows in XRTable can be different)
+2. under this table i Need to Show the list of Images, but, if there is some space below the table i should Show two images  (one next to eachother), on the new page i have to Show  Images ( as a Matrix 2x2) and if the Image is bigger of 1000px i should Show only this Image on the page....
+is there any possibility to set up the XRPictureBox holder to be more flexible ?
+Thank you in advance for your time and effort.
+Regards
+Nikola 

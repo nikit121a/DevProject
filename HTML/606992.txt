@@ -1,0 +1,6 @@
+I have 2 grids. Grid A contains a list of counties grouped by region and county (2 levels of grouping). The user can select multiple counties from Grid A using Checkboxes. He then clicks an "Add" button and the selected counties get added to Grid B. After Grid B is updated, 
+ that were just added to Grid B.
+More Info:
+On initial page load, a DataTable is created. That is where the data for Grid B is stored.
+The "Add" button click event adds the selected items from Grid A and then rebinds Grid B to the DataTable.
+ 

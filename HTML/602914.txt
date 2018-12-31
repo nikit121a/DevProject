@@ -1,0 +1,13 @@
+Hi
+I removed the  <property name="Caption"> from the XML layout.
+When restoring, the Caption is reset to FieldName
+I did the same for ToolTip. After restoring the layout, the ToolTip still has the value it had before the restore.
+Why is the Caption not working the same way ?
+I was expecting that if a property is not in the XML layout that the property would keep its current value.
+I have a few properties that I set automatically when the grid loads.
+For instance, the Tooltip comes from a table.
+If I change aToolTip in the table I want this updated Tooltip to always show in the views. I dont want the old tooltips in the layout to be used. 
+That is why I remove the ToolTip property from the layout automatically before saving it.
+It works for ToolTip but not for Caption.
+Is there a workaround ?
+Am I correct in assuming that if a property in not in the layout that this property will keep its current value after the layout is restored ?

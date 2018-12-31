@@ -1,0 +1,5 @@
+Hey Devexpress,
+I've been trying to translate the tooltips of the  RichEditUICommands but can't seem to figure out how to.
+Currently we translate all other controls via  the DXLocalizers, but not only can i not find the right localizer for the job, i can't find the enums either.
+Look at the attached image if in doubt of what property i want translated.
+Help with being pointed in the right direction would be greatly appreciated. 

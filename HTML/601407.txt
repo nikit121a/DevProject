@@ -1,0 +1,22 @@
+I am using this to save Ribbon.Toolbar layout to a user setting.  When I right click on items and say add to Quick Access Toolbar and save, some of the items switch to a different item when layout is reloaded.
+Save Code:
+    Public Sub SaveRibbonQat(ribbon As DevExpress.XtraBars.Ribbon.RibbonControl, userSetting As String)
+        Dim ms As New IO.MemoryStream
+        ribbon.Toolbar.SaveLayoutToStream(ms)
+        Dim sr As IO.StreamReader = New IO.StreamReader(ms)
+        ms.Seek(0, IO.SeekOrigin.Begin)
+        Dim layoutQat As String = sr.ReadToEnd
+        DR_User(userSetting) = layoutQat
+        TA_User.Update(DT_User)
+    End Sub
+Load Code
+    Dim Layout As String = ""
+        Dim cTmp As String = IO.Path.GetTempFileName
+        Dim output As New IO.StreamWriter(cTmp)
+        Layout = DR_User("SeiUserCmoRibbonQat")
+        output.Write(Layout)
+        output.Close()
+        'RibbonControl.Toolbar.RestoreLayoutFromXml(cTmp)
+        Dim str As System.IO.Stream = New MemoryStream(System.Text.Encoding.UTF8.GetBytes(Layout))
+        RibbonControl.Toolbar.RestoreLayoutFromStream(str)
+        str.Seek(0, System.IO.SeekOrigin.Begin)

@@ -1,0 +1,4 @@
+Hi,
+For the DevExtreme datagrid,
+Do you have any examples in angular for how to have different rows of the same column have different cell templates, triggered by some value in that row?
+ 

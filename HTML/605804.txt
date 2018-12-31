@@ -1,0 +1,3 @@
+I have a gridcontrol with an embeddedNavigator to delete records.
+Which event fires when I click on the - to remove the record? I would like to set an Update Button to allow saving of the view.
+ 

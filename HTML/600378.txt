@@ -1,0 +1,11 @@
+I am trying to fill some fields with predefined values, a user clicks on add new row.
+My problem is that I am able to do that when the fields are visible, but my code has no effect when the fields are not visible. 
+My code is 
+        protected void grdxTimings_InitNewRow(object sender, DevExpress.Web.Data.ASPxDataInitNewRowEventArgs e)
+        {
+            e.NewValues["id"] = id;
+            e.NewValues["FieldCategory"] = "TimeSchedule";
+        }
+ 
+Can you help please ?
+ 

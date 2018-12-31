@@ -1,0 +1,2 @@
+Hello,
+I want to copy an  TcxGridChartView (via bitmap) to TdxSpreadSheet (in picture container). It works fine with column-charts, but with line-, area- and pie-charts the captions and axis are missing (not displayed, maybe white). With TdxRichEdit, lines are working fine. Check sample.

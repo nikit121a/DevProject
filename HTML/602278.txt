@@ -1,0 +1,6 @@
+Hi,
+I am working on a project, where in we are using the DiagramControl to plot wiring connections. I am placing components by code, to make the diagrams neat.
+I want to set the connections type & connection points of a DiagramImage or item as shown in the image attached.
+Able to make the connections straight or right angle, but what can be done to make them follow right-angle & some other angle as well, to have a shortest path & neat connection.
+Thanks,
+Kanika 

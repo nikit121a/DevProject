@@ -1,0 +1,10 @@
+Hi,
+We want to integrate Dashboard into our Angular 5 HTML5 application
+So far we have next questions:   
+   
+1) Could we integrate our API with Dashboard? 
+We have an WebAPI which provides data and our application already works with this API to display charts,  
+So Dashboard should read data from this remote API. 
+2) Could we create dashboard in run-time without an editor? 
+For instance, user select items he wants to see on dashboard (in our application this items should be displayed as charts) then we created dashboard and feed it with data from API (see Question #1) 
+Thanks

@@ -1,0 +1,6 @@
+Call me crazy, I own the extended experience and assign to my dev team. I saw diagram control and flipped out. I want to ask if my dev express controls will work with the free version of visual studio?
+w?hat this crazy kids wants to do is build my own app by using VS and the diagram control with 0 code, lol. Can I do it?
+I just love DEV EX for my windows applications. My Dev team could do this for me I assume, but, I am interested in just trying. 
+S?o so whats your advice? Win forms, WPF, lol ?
+b?est, Bill
+p?s, ok to laugh at me. I am good at figuring shit out but I know I wont be a coder anytime soon. 

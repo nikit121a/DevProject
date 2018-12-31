@@ -1,0 +1,4 @@
+Hi -
+I built a dashboard using the ASPxDashboard control .  I'm using the Grid control.  Everything worked fine until I added a new field to the store procedure the grid was reading from.  I can see the new field and I can select the new field but then the grid data disappears and I see an error that says "An error has occurred on an attempt to load data".
+Any assistance would be appreciated. 
+Thanks 

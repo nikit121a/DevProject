@@ -1,0 +1,4 @@
+Hello,
+I am using MVC DocumentViewer in my project.
+I added a toolbox item to my document viewer with the following code.
+How can I add sending email functionality by clicking the new button?

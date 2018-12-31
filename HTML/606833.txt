@@ -1,0 +1,1 @@
+With the Bezier SVG skin, is it possible to set the text color for Tab Header elements based on the tab state (normal, hot, active)?  I don't see the option in the skin editor.  Attached is a screenshot of what I mean.

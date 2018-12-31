@@ -1,0 +1,3 @@
+
+Please, refer the attached video. 
+3. In video, there is Month view. What I want is one calendar with multiple user's assignments. Is It possible to do it ? 

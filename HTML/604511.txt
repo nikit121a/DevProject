@@ -1,0 +1,5 @@
+Hello,
+I'm having an issue similar to the issue described 
+ but this time with the content of a cell defined using GridTemplateColumn. I want to show the tooltip when the user hovers any position inside the cell, not only the content itself, which in this case is small, but this doesn't work fine:
+Tha nks,
+Asier 

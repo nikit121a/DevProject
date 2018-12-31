@@ -1,0 +1,4 @@
+Hi,
+i want to open dashboard developed with your ASP.NET Core Dashboard from a specific url like this
+is ther a way to configure this?
+Thanks 

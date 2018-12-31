@@ -1,0 +1,5 @@
+ is an example of code to highlight matches, we changed it a little:
+But the problem is, text is trimmed and ellipsis is displaying sometimes. See 
+.
+How can we never see ellipsis but always full text even when searching?
+Test project attached. Thank you.

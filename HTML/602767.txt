@@ -1,0 +1,8 @@
+I'm looking at the ASPxCalendar control here :
+.
+I was wondering how I can have the control look like that.
+I want to remove the borders and have a bit of separation between the months  (I've attached how I want it to look like (Capture.png)).
+Another question, is there a way to decrease the font (or the overall size of the control).
+In 1 column, 2 rows mode using my screen, the control isn't fully appearing (attached screenshot : MyScreen.png).
+Regards,
+Bilal 

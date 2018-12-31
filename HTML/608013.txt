@@ -1,0 +1,6 @@
+Using Ionic 3/Angular 5
+I am adding a number of check boxes to a form which works fine using the following:
+However if I add them in a group (as below) I get an E1035 error.
+Is this the correct way to do this?
+ I am using dxo-col-count-by-screen for the other controls but need the checkboxes to be rendered in groups of two per row.
+ 

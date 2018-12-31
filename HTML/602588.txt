@@ -1,0 +1,1 @@
+Thanks. I have noticed when exporting master-details grid the details grids are expanded by default in the excel file. How can we make export to not have expanded details grid. 

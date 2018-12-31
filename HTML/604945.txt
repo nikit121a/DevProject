@@ -1,0 +1,6 @@
+Hi,
+I am trying to style the menu of a PageView. I've found this 
+ where you create a ControlTemplate in Resources. That makes sense, even if I haven't completely understood the ControlTemplate.
+My problem is I can't get rid of the 1px seperator between the items. Where? How? =)
+Many thanks
+Kim 

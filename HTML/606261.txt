@@ -1,0 +1,9 @@
+Hello,
+I would like to manage every events in my scheduler as they are single event despite of they are part of a recurrence.
+This means:
+- Avoid to show the "Open recurring item" dialog and open the starnbdard edit dialog event as default.
+- Remove the "edit series" from the pop-up scheduler men?
+Disable or remove any other action or dialog that refer to a recurrence.
+How is it possible?
+Thank you,
+Davide

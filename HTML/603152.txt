@@ -1,0 +1,7 @@
+Hello,
+It seems that in the case of the MVCxDashboard, when a dashboard parameter is bound to a calculated field the lookup values are not initialized properly. When I check the ExtractDataFlowStorage, I see that it doesn't contain any column.
+Please refer to the archive attached and its content to recreate the dashboard and reproduce the issue. The database used is AdventureWorks2012.
+It is possible to use a calculated field as the display member only IF the calculated field contains only one column and that this column is the column used as the value member. The provided example demonstrates that as well. 
+Thank you very much for fixing this. 
+Have a good day,
+Best regards

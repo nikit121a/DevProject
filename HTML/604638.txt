@@ -1,0 +1,4 @@
+Hi,
+I have an issue with validation message. The error message  appear, but when editor in error lose its focus, message disapear. How to maintain message visible?
+I've joint a sample project (check datetime editor)
+Thanks 

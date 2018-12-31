@@ -1,0 +1,5 @@
+Hello
+1. I am using HTML5 Document Viewer.
+2. In the Parameter Collection Editor, the default action, including the FilterString, is in progress (do not handle events).
+3. What I want to do is to select the second parameter and change the third parameter list. I do not know how.
+ 

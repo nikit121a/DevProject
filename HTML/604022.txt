@@ -1,0 +1,12 @@
+Hi
+I want to add a column with the dataField Property to my grid .
+This works fine for all of my firlds in my class.
+But unfortunately  it does not work with my getter in my class.
+Example:export class Personal {
+
+This works fine:
+This is not working
+How can I archive this?
+I do not want to go with "calculateCellValue" or template, because otherwise I have to implement all callbacks like "calculateFilterExpression" etc.
+Thanks for help
+Andrej

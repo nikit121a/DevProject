@@ -1,0 +1,7 @@
+Hi, 
+I'm using the control SpreadsheetControl in my WPF application and I'm facing an issue.
+If I try to save a file using the "Save As" button and the already existing selected file is locked by another program, the application crashes. 
+Note: same behavior happen in demo app from your demo center.
+Thank you in advance for the help.
+BR,
+Francesco 

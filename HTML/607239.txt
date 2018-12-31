@@ -1,0 +1,2 @@
+Hi,
+We're trying Web Dashboard control and would like to give users option to change the chart type during run time.  I saw some options in winforms using "ChangeView" method, but how is this possible in aspxDashboard? Please help.

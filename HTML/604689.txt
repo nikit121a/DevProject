@@ -1,0 +1,11 @@
+Hi, a question about MVVM WinForm framework.
+I've a viewmodel with 8 properties, all this properties are bound to a gridcontrol on view.
+Reading this 
+ we have add 
+on our grid.
+The check box in not bound to a property model, see enclosed screen shot.
+How could we add new button to this form in order to iterate on all the entity bound to gridcontrol and check if 
+ is selected on gridcontrol.
+Remember check box it's not bound to model.
+Thank you in advance.
+Fabio

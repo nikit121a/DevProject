@@ -1,0 +1,4 @@
+When the height of the data grid is tall enough that it should not require a vertical scrollbar, one appears anyway.  The range of the scrollbar varies between different browsers and different systems- it is almost 0 on my Surface with Chrome, but much larger on IE11.  On another developer's machine, with Chrome it is even larger than my machine with IE, despite loading the same web page.  When this extraneous scrollbar exists, the misaligned column header issue seems to be more common.  The issue can be seen in the attached image, and in this example:
+Can we get a fix in the next release?
+Thanks,
+Justin 

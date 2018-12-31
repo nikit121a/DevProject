@@ -1,0 +1,6 @@
+I have a mvc dashboard with export enabled. 
+When selecting Export to PDF and accept the default values and press OK. (attached picture name: Export PDF Option Window)
+The export PDF doesn't include X-axis labels from bar chart. 
+But if I set/configure some export option values, it displays X-axis labels.
+Is there a way to configure these export option values as default values?
+ 

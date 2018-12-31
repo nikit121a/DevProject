@@ -1,0 +1,14 @@
+Hi,
+I have installed vs2017 and devexpress 17.1.6 since September 2017 
+I was working normally, with some exceptions when the above message obliged me to redesign my projects.
+Since a month I installed 17.2.4 having both devexpress versions, but I worked with the old version.
+Since 3 days it is impossible for me to build any project, even these projects that I have already finished, build and deployed, with the message as below.
+I remove the file licence.licx but the message is still there.
+I am attaching a very simple project (a test one) which is already deployed, on my sharepoint server.
+Can you please advice ?
+Do I have to downgrade to vs2015 ?
+------ Build started: Project: test1, Configuration: Debug Any CPU ------
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(3089,5): warning MSB6002: The command-line for the "LC" task is too long. Command-lines longer than 32000 characters are likely to fail. Try reducing the length of the command-line by breaking down the call to "LC" into multiple calls with fewer parameters per call.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(3089,5): error MSB6003: The specified task executable "lc.exe" could not be run. The filename or extension is too long
+========== Build: 0 succeeded or up-to-date, 1 failed, 0 skipped ==========
+========== Deploy: 0 succeeded, 0 failed, 0 skipped ==========

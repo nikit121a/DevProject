@@ -1,0 +1,4 @@
+hello,
+do you know of a mask or some way to configure a TextEdit control to only allow user to input "safe filename" characters?
+Thanks
+Dan 

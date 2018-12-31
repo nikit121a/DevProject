@@ -1,0 +1,7 @@
+Hi,
+I'm trying to use the localization features of DevExtreme, but I can't make it work.
+There are 2 problems:
+a) loading messages 'fr' does not work. When I right-click on the datagrid headers, I still see the English texts.
+b) the number editor isn't formatting it's value using the current locale (with a komma as a decimal separator)
+I've added a testproject in attachment.
+Note: to be able to import the 'fr' messages as a module, I've had to modify the typings.ts file .

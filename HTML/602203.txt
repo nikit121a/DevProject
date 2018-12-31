@@ -1,0 +1,6 @@
+hello,
+I need help creating correct criteria to filter resource in Scheduler. I use popup action to create a list of resources to show in Scheduler list view. My code is 
+It returns error
+An error occurs while applying the '([StartOn] Between(#2017-12-24#, #2018-06-17#) Or [EndOn] Between(#2017-12-24#, #2018-06-17#) Or [StartOn] <= #2017-12-24# And [EndOn] >= #2018-06-17# Or [Type] = 1 And [StartOn] <= #2018-06-17# Or [Type] = 3) And [Resources][[This] In (##EFObject#xxxxx.Module.resource(409)#)]' criteria: 'Exception has been thrown by the target of an invocation.'
+Thank you.
+ 

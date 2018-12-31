@@ -1,0 +1,4 @@
+Hi,
+I have a problem  with a TileView; my tile should show an image in a 100x100 pixel size, but instead just a small part of the picture is shown. I have set width, repository item settings, image size in tile layout... I attach the result, see lower part of the form.
+Thanks for your help
+Mario 

@@ -1,0 +1,2 @@
+How can I render HTML inside an XRTable in WinForms?  (I see this can be done by embedding an XRRichEdit in ASP.NET, but done see how to do this embedding in WinForms.
+Thanks! 

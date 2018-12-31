@@ -1,0 +1,3 @@
+hey i think im having the same problem.
+I use v17.2.4 of Dev Express yet still encounter that error. 
+need help on this.. screenshot attached 

@@ -1,0 +1,2 @@
+
+Also i want to show only the checked records in the export of pivot grid and don't want to show the un-selected records.

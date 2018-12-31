@@ -1,0 +1,1 @@
+We have a user that inserts PDF and Excel files into an Excel file.  When they edit and save the file using the MVC Spreadsheet, the embedded files are lost.  Is there a way to preserve files like these or at least indicate that there are files that will be lost when the spreadsheet is saved?

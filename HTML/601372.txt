@@ -1,0 +1,4 @@
+Hi 
+I have a custom WinForms HTML property editor which is used in several Detail Views.
+A lot of my forms are made ReadOnly under certain circumstances using an Appearance Attribue
+As you can see from the above TargetItems, I want to disable all controls except Status.  This approach works great for all DevExpress controls, but not on the custom property editor which needs to have its Enabled property set to false.  Is there any way of making this custom property editor respond to the above Appearance Attribute or is there some other way this can be disabled from a view controller or business object? 

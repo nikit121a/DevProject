@@ -1,0 +1,5 @@
+Hi devexpress team, 
+I wondered whether there is a switch on the gallery control to enabe/disable the display of the "color swatch" button, which allows the enduser to customize the bezier theme?
+If not, do you have a small code sample available?
+Best regards, 
+Frank

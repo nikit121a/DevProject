@@ -1,0 +1,6 @@
+Hi folks, 
+I've been looking  on the knowledge base for some examples of how to ripple the changes to a form's look and feel to all controls but haven't found a solution that covers captions on layout control items and grid columns. 
+In the attached example i've used some code from the knowledgebase to update the font on the form but if you click the button on the form an change the font the grid columns/titles and the layout item captions dont change. 
+Whats the correct way to achieve this ? Do I need to walk the control hierarchy and update them ?
+Thanks
+Aidan 

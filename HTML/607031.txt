@@ -1,0 +1,5 @@
+Hello,
+the URI in a PDF-Document opened with XtraPdfViewer differs from Adobe Acrobat. Please look at the attached screenshot.and Test-Document.
+Regards,
+Manfred
+ 

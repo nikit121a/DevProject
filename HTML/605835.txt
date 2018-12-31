@@ -1,0 +1,4 @@
+Hello,
+In a line chart. when my dataset has identical date time argument values, the X axis labels are no longer visible. I have attached a sample project replicating this behavior.
+Thank you for any help regarding this issue.
+ 

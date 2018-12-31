@@ -1,0 +1,4 @@
+For reference:
+Hi all,
+I'm aware of the functionality of the above overflow dropdown. Is there a way to set this drop down to be present at all times? (Even if I'm at full screen where it normally wouldn't be in view)
+ 

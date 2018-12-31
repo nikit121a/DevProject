@@ -1,0 +1,3 @@
+When we uses the recurrence rule on the last day of the month, we encounter a problem on the first next 30 days' month. We have reproduce it on this page : 
+In the example, t he event on September , the 30th isn't shown.
+Thanks in advance.

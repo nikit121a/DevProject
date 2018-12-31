@@ -1,0 +1,2 @@
+
+I am talking about the bootstrap chart, I want to solve the same issue I ha in the WebFormsChart I talked about in this ticket:

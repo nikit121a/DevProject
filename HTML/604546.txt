@@ -1,0 +1,5 @@
+Hi, I'm having troubles with the layout of a simple form, my captions are not properly aligned.
+You can find attached a screen capture (I have just drawn the ideal line in red).
+The aspx code:
+Thanks for your support.
+Max

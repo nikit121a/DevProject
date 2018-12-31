@@ -1,0 +1,6 @@
+Hi,
+What I wanted to achieve is SimpleButton which look a little bit different, so I've come up with this code:
+I have several problems with this code:
+1.) The BIButton doesn't show up in Toolbox, despite setting [ToolboxItem(true)]
+2.) In runtime button looks as expected except AppearanceDisabled.BorderColor value is ignored. It seems that Appearance.BackColor is used instead.
+I tried as well achieve this by creating skin, but couldn't set independent BackColor/ForeColor for activated/deactivated states.

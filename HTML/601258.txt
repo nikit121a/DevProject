@@ -1,0 +1,8 @@
+hey Dev Experts 
+The Scenario:
+we have a report that Groups some details with 2 Boolean values 
+(See report image attach )
+the issue :
+We want at run time to set a label title for each Grouping .  (See report image attach )
+The problem as you can see is that on before print the 1st group value is not working . 
+ 

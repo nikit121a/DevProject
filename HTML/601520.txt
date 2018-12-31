@@ -1,0 +1,12 @@
+I have a pivotGrid and GridControl set up with a date field...
+Both have a RepositoryItem that has a NullValue of 01/01/0001 and a NullText of Opening Balance.
+This displays correctly in the Grid. However when I Export, the Excel file shows
+'00/01/1900' instead of 'Opening  Balance'
+I'm exporting using this
+this.pivotGridControl1.ExportToXlsx(Path.Combine(main,"Pivot.xlsx"));
+this.gridControl1.ExportToXlsx(Path.Combine(main, "Grid.xlsx"));
+If I change to this...
+  this.pivotGridControl1.ExportToXlsx(Path.Combine(main,"Pivot.xlsx"),TextExportMode.Text);
+ XlsxExportOptions options = new XlsxExportOptionsEx(TextExportMode.Text);
+ this.gridControl1.ExportToXlsx(Path.Combine(main, "Grid.xlsx"),options);
+The PivotGrid exports with 'Opening Balance' but the GridControl doesn't

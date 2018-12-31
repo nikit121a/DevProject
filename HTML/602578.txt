@@ -1,0 +1,9 @@
+Hello:
+We are using Delphi Tokyo Update 2 and DevExpress 17.2.3.
+We have the following problem: we have a DLL that shows a TForm working fine . When we add a TcxTreeList component to the form and call it from a testing program we have an access violation message.
+Similar thing happens if we add a TdxS kinController. Access Violation in a different point. We don't know if there are similar problems with other DevExpress components.
+Until last week we where using  Delphi Berlin with DevExpress 16.1.6 without any problem.
+I'm attaching  a sample project group. It has a DLL with a TForm with a TcxTreeList in it, and a Test EXE program that calls this DLL form.
+Our applications are 32 bit.
+Regards...
+ 

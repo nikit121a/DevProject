@@ -1,0 +1,7 @@
+Hi team,
+The aspxSpreadsheet control is quite useful to us. Meanwhile we have some thoughts to beautify it or to make it a nicer look. Therefore we have a few questions here. If you can help or provide some suggestions, that will be appreciated!
+For all these questions, you can always the your online demo for reference
+1. To start with a simple one, can we adjust aspxSpreadsheet width and height?
+Thank you!
+Best,
+Jiong

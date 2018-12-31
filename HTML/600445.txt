@@ -1,0 +1,2 @@
+Hi. How can i print pictureEdit image ?
+If i right click on image i can save, load, copy , paste , but there is no print options. 

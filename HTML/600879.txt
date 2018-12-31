@@ -1,0 +1,4 @@
+Hi I am implementing an image Gallery and when I click on paging or rows per page, I am having a javascript message.
+here is my controller
+here is my partial view
+ 

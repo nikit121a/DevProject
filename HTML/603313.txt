@@ -1,0 +1,8 @@
+Hello Again
+I can fix that. 
+Now, when i click the buttonedit's button. popupcontrol shows up and load my grid values.
+At this point I have another problem :) 
+I want to get a cell value from focused row on grid and set as buttonedit 's text
+here is code:
+I want to set the buttonedit's (named sipariseEkle) text to selected ALISSATIS_NO field of gridview
+ 

@@ -1,0 +1,34 @@
+Hi DevExpress Team,
+I have a project that builds successfully with WPF v14.2 on Win7 Service Pack 1 under Visual Studio 2015, and here're the DLLs used.
+DevExpress.Charts.v14.2.Core.dll
+DevExpress.Data.v14.2.dll
+DevExpress.Mvvm.v14.2.dll
+DevExpress.Printing.v14.2.Core.dll
+DevExpress.Xpf.Charts.v14.2.dll
+DevExpress.Xpf.Controls.v14.2.dll
+DevExpress.Xpf.Core.v14.2.dll
+DevExpress.Xpf.Docking.v14.2.dll
+DevExpress.Xpf.Grid.v14.2.Core.dll
+DevExpress.Xpf.Grid.v14.2.dll
+DevExpress.Xpf.Grid.v14.2.Extensions.dll
+DevExpress.Xpf.Layout.v14.2.Core.dll
+DevExpress.Xpf.LayoutControl.v14.2.dll
+DevExpress.Xpf.Printing.v14.2.dll
+DevExpress.Xpf.Printing.v14.2.Service.dll
+DevExpress.Xpf.Ribbon.v14.2.dll
+DevExpress.Xpf.Themes.Office2010Black.v14.2.dll
+DevExpress.XtraPrinting.v14.2.dl
+In project references, I manually changed reference to these four
+DevExpress.Charts.v14.2.Core.dll
+DevExpress.Data.v14.2.dll
+DevExpress.Mvvm.v14.2.dll
+DevExpress.Printing.v14.2.Core.dll
+to reference their v17.1 counterparties, and the build fails with errors like these two
+Error CS0012 The type 'ColumnSortOrder' is defined in an assembly that is not referenced. You must add a reference to assembly 'DevExpress.Data.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a'. 
+Error CS0012 The type 'SummaryItemType' is defined in an assembly that is not referenced. You must add a reference to assembly 'DevExpress.Data.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a'. 
+besides, I got LINQ related errors like this one
+Error CS1061 'string' does not contain a definition for 'IsEmpty' and no extension method 'IsEmpty' accepting a first argument of type 'string' could be found (are you missing a using directive or an assembly reference?) 
+So I gave up manual upgrade to v17.1 and ran  Project Conveter in VS 2015 to upgrade to v17.1 and got same kinds of errors.
+Do you have similar reported issues? Any suggestions are appreciated.
+Thank you,
+Bill Rong 

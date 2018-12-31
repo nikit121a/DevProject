@@ -1,0 +1,13 @@
+We are converting all our javascript code to typescript, including the code where we utilize devExtreme.
+We are getting errors with the following command 
+function newIOIDataGrid(_config) {
+    return $("#dxDataGridContainer").dxDataGrid(_config).dxDataGrid("instance");
+}
+where _config is a object containing the configuration for the datagrid.
+The error :
+Error TS2339 Property 'dxDataGrid' does not exist on type 'dxDataGrid'. 
+A colleague tried the followiing code to replace the return statement in the above function, but as I expected, that doesn't work
+return (<DevExpress.ui.dxDataGrid>DataGrid).instance();
+Any thoughts on how to deal with this situation. Please note that we currently chain together functions in a similar for a number of different widgets, like dxPopup and dxButton . I suspect the solution would apply to any devExtreme widget.
+Thanks
+ 

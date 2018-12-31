@@ -1,0 +1,4 @@
+Is there a way to force SelectBox to reload data from the DataSource? I am looking something like the refresh method of DataGrid (I have a similar situation like the on described in the link: 
+)
+but with SelectBox not Grid.
+ 

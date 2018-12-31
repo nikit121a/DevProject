@@ -1,0 +1,4 @@
+I'm trying to properly align two layout control items. Here is how it looks right now:
+This is what I am trying to get to. I want the '+' properly centered in lblOrderExpandRow's height and I do NOT want the combo box to extend the length of the LayoutControlGroup:
+How can I get it to operate like that?
+ 

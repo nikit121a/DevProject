@@ -1,0 +1,3 @@
+I found 
+ to draw filled polygons for the winforms version. I have nearly the same graph in mind as depicted in the screenshot in the linked ticket. There is no corresponding example in the demo center for the wpf version. Can the approach somehow be transfered? Or is there another way?
+Volker

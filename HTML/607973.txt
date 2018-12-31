@@ -1,0 +1,12 @@
+Your little change in the "Add" function of the TrackBarLabelCollection causes my application to freeze and windows to complain that the application is not responding any more:
+// DevExpress.XtraEditors.Repository.TrackBarLabelCollection
+ public virtual void Add(TrackBarLabel label)
+ {
+     if (base.List.Contains(label))
+     {
+         return;
+     }
+     base.List.Add(label);
+ }
+Please implement a way to disable the Contains check! Or do it better.
+I have ~400000 items to be added. Before (15.2) it worked just fine. Now it simply never finishes because for each add the ArrayList needs to be iterated completly for each single item which simply explodes! And I am even using AddRange.

@@ -1,0 +1,4 @@
+I have a DXLookup that is being served data from a custom Store. All is working correctly, but I would like to be able to reset the lookup back to its original state ie "Select..."
+I have looked in the documentation and calling the reset() method is not having any effect. I have downloaded the sample as in a previous thread and that one works correctly using the reset() method, but it's datasource is a simple array and not a custom store ( with paging filtering etc... )
+So my question is how do I  reset the lookup when it is supplied data from a custom store?
+thanks in advance 

@@ -1,0 +1,5 @@
+I am trying to alter the background colour of a row based on the contents of one field.  The grid is populated from a datatable without the fields being defined at design time.
+The datatable will not contain any more than about a maximum of 50 rows and 6 columns, mostly less than 20 rows. 
+In the code below, I am checking the one column for the value -1.  Only one row will ever have that value and will usually be the second row but I don't want to assume the data will remain like that so I want to look for it when the grid is displayed.
+Can you give me an idea of why the code below does not work?  Thank you.
+ 

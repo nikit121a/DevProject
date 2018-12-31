@@ -1,0 +1,4 @@
+Dear Support,
+I have a container in the template designer bound to a view on my data base. I can see the shapes being populated.
+  when a user click on a container  - how can I get the content of a field in the selected container?
+Thanks and Regards, Izak.

@@ -1,0 +1,4 @@
+Hi,
+how can I make the vertical lines of the indicator column header not visible. I want only the lines of the indicator column header invisible, the vertical lines of the other column headers should stay visible.
+Is this possible?
+Thanks, Jens 

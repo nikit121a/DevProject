@@ -1,0 +1,7 @@
+Hi,
+When printing an xtra report  using report designer I am facing following issues:
+1) PrintPreview -> DefaultExportFormat setting is not getting applied, no matter what format is selected it only gets exported to pdf in printpreview
+2)Cant we directly print a xtra report without converting it to any other format?
+3)Reports are not printing from edge, there is a small margin on all 4 corners of the print out. I am using a card printer.
+Note: There is no margin in print preview mode. All margins & padding are set to 0 for the report, I have also checked printer settings no additional margins are getting added from there
+Please suggest a solution

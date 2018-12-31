@@ -1,0 +1,5 @@
+Hello,
+We are building an app using DevExtreme framework, and we need to use Xtra reports in it. 
+On our tests both versions of report viewer were working fine in DX environment. Now, after upgrading to 17.2.5, we have problems with HTMLReportViewer version. Insert control wizard works fine, but after building and launching, we got alot of browser errors, mainly related to not defined MVCxClientWebDocumentViewer control. 
+I'm adding little test project with that issue, maybe you can pinpoint where is the problem?
+Thanks in advance. 

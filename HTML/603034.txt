@@ -1,0 +1,15 @@
+I have a data model of entities that represent components and assemblies of components. In this scenario, some attributes of an assembled component depend only on the components that make up the assembly, so database normalization tells me to not duplicate those values.
+Example:
+ - Connector Type A has diameter 100
+ - Connector Type C has diameter 120
+ - Component 1 has a front and a rear connector, in this example Type A (front) and Type C (rear)
+ - Consequently, Component 1 has a front diameter of 100 and a rear diameter of 120
+I've used the Scaffolding Wizard and am trying to adapt the generated views and view models to accomodate my requirements. This is no problem for the collection view models, as I can just add the additional columns in the XAML (ComponentCollectionView.xaml):
+However, this only works partially in the single object view model, where I create and edit components. I've added additional DataLayoutItems to show the nested attributes FrontConnection.Diameter and RearConnection.Diameter, but they are only updated once when the view is opened. So far, I've found no way to update the view when a different connector is selected. Here is the relevant part of ComponentView.xaml I've changed:
+Part of the problem seems to be that the LookUpEdits for front and rear connector are bound to FrontConnectorID and RearConnectorID of the underlying entity, which means that the navigation properties FrontConnector and RearConnector themselves are NOT updated when another connector is selected.
+I've tried a few things, but none of them worked and it would be too long to list them all here. I hope that you can instead point me to an elegant solution ;)
+(Among them was overriding NeedSave() and calling Entity.OnPropertyChanged(...), but that doesn't work for the properties of nested entities.)
+What I want to avoid is implementing a INotifyPropertyChanged on all my entities because they are so many and I can't use Fody to do that for me.
+If no better solution is possible, I'd settle with a way to be notified of selection change in the LookUpEdits and manually refreshing the DataLayoutItems in question. Also, please note that I have this scenario for multiple entities, so a change in the base view model (SingleObjectViewModel) would be better than having to implement proxy properties in quite a few view models.
+I've attached a sample project to demonstrate my problem.
+Thank you!

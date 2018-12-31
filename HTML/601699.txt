@@ -1,0 +1,2 @@
+I understand how a user can easily right click in a footer under a column and add summary information (min, max, sum, etc) to the footer.  But how does a user add summary information to the group header as in the attached picture?
+Car: Toyota Venza

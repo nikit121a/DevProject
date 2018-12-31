@@ -1,0 +1,5 @@
+We have extended the GridView and AdvancedBandedGriv view classes. We just updated to DevExpress 17.2.4 and see a new property, AllowAutoFilterConditionChange.
+How do we set this to false in our custom classes? When we attempt to do so (this.AllowAutoFilterConditionChange = false;) it tells us the property is read only.
+V/R
+Jennifer
+ 

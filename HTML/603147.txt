@@ -1,0 +1,8 @@
+Hello,
+I'm having to work out several problems relative to using the Chrome browser instead of Internet Explorer.
+This particular problem has to do with when a ASPxPopupControl is shown  and the content page has a Callback panel.
+And inside that panel is a table that surrounds other  controls, etc. and is also used get focus onload.
+The focus works in IE and Firefox but not in Chrome and Edge.
+I've attached a test project that displays the problem.
+Thanks, Jack
+ 

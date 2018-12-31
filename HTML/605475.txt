@@ -1,0 +1,7 @@
+Hi ,
+is it possible to create a pie by chart view using Devextreme ? 
+See the attached screenschot as example. 
+If so....or if you have got an idea, could you provide please a devextreme example ? 
+Best Regards 
+Michael 
+   

@@ -1,0 +1,4 @@
+
+Hi,
+I'm trying to use the localization features of DevExtreme, but I can't make it work.
+b) the number editor isn't formatting it's value using the current locale (with a komma as a decimal separator)

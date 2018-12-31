@@ -1,0 +1,13 @@
+I'm trying to replicate the behavior of a .NET DataGridView when EditMode is set to EditOnEnter. I've tried the various OptionsBehavior.EditorShowMode values, but none of them gives me what I need. When set to EditOnEnter, the .NET DataGridView lets me either drag across multiple cells to select them or edit a value immediately when I click a single cell. 
+But the EditorShowMode that lets me a edit a value as soon as I click it (EditorShowMode.MouseDown) prevents me from dragging across multiple cells to select them. I can get it to do either of the DataGridView's behaviors but not both.
+For example, I'd like users to be able to change the value of a single checkbox with one click or drag across a range of checkboxes and change them all by clicking a button.
+I suspect I'm missing another option that has to be set along with the EditorShowMode, but I can't figure out what it is. 
+The current workaround I'm using is to simply change the checkbox value when the editor is shown...
+Private Sub CustomXtraGridView_ShownEditor(sender As Object, e As EventArgs) Handles Me.ShownEditor
+        If Me.OptionsBehavior.EditorShowMode = DevExpress.Utils.EditorShowMode.MouseUp Then
+            If TypeOf Me.ActiveEditor Is DevExpress.XtraEditors.CheckEdit Then
+                Me.SetRowCellValue(Me.FocusedRowHandle, Me.FocusedColumn, Not Me.GetRowCellValue(Me.FocusedRowHandle, Me.FocusedColumn))
+            End If
+        End If
+End Sub
+Thanks.

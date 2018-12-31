@@ -1,0 +1,6 @@
+Hello DevExpress-Team,
+our most recent use case is to format the datagrid by rows instead of columns. 
+We are already colorizing the cells by the given data from the datasourcen within the onCellPrepared event, however, we are not able to set a specific formatter on the cells/rows.
+We already tried to set the element.value, element.text and element.displayValue properties without any success.
+How can we accomplish this case?
+ 

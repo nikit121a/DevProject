@@ -1,0 +1,3 @@
+Hello,
+  If you add a Full HD or 4k background  to TileControl then the hovering/painting of the items will became slow.
+  Attached a background image.

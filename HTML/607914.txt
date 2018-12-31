@@ -1,0 +1,8 @@
+Hello,
+I using WPF MVVM Pattern.
+I Have one View in that I use the Navigation frame and in Navigation frame 
+I place One Button and one Gridview. When click on Button I am getting null value of obj in Method
+But when I place Button outside of Navigation Frame that  time my button command
+works properly means I am not get the null object of Grid table view which is passed in Button Command parameter .
+Please help me as soon as possible.
+Thanks. 

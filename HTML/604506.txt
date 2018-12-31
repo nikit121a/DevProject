@@ -1,0 +1,7 @@
+Hi,
+I want to handle the enabling and disabling of barsubitem based on the enabling disabling of the barbuttonitem under the barsubitem. e.g i want the barsubitem to be disabled when all the barbuttonitem are disabled.
+i have binded the barbuttonitem to composite commands and they are enabled disabled based in the logic
+but the barsubitem, is enabled always
+i want the barsubitem, that contains the barbuttonitems, to be disabled when both barbuttonitems are disabled
+
+

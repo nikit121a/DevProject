@@ -1,0 +1,6 @@
+Hi:
+1?Tdxspreadsheet open 50 rows of 30,000 data Excel file is too slow, it takes 20 seconds.
+2?Tdxspreadsheet is also slow to read this data.
+How to solve these problems?
+thank you very much?
+I use version TdxSpreadsheet VCL 17.2.4

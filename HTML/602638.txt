@@ -1,0 +1,4 @@
+Hello support team,
+Is there a way to determine which group a specific data row belongs to? I am working with a WinExplorerView but I think the view type doesn't matter. My goal is to select (focus) an item row and then click a button to collapse the group where this item is in.
+What I found is the view.GetGroupRowDisplayText(view.FocusedRowHandle) method, which gives me the text of the group row. But I don't need the text but the group row's handle to perform the view.SetRowExpanded() method. Is there something like view.GetGroupRowHandle(rowHandle)?
+Thank you!

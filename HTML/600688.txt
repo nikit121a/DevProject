@@ -1,0 +1,7 @@
+Hello,
+ We have a DropDown bound to an MVVM command, that loads a set of data entries (about 500 points) from a database after the user selects a value. 
+The property ChartData of our view model is bound to a LineSeries2D.
+The ChartDataEntry looks like this:
+The Data gets loaded from the database, which takes less than a second, then it gets loaded into the chart control, which blocks the GUI for multiple seconds and then shows the data as seen in upper part of the attachment. However, it doesn't stop there, instead it keeps blocking the GUI to load for a couple of seconds and then displays the chart in the downsized way you can see in the lower part of the attachment only to load again and show the properly sized Chart. This goes back and forth blocking the UI thread endlessly.
+I've thrown in some breakpoints to see whether the bound data gets modified but it doesn't, so I have no idea what might be causing this behavior.
+ 

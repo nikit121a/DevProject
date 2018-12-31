@@ -1,0 +1,3 @@
+Hello,
+Please look at the attachment - first change of page causes very slow painting images on bottom buttons .
+In our business application, we are using several similar controls on every page, and this situation occurs on every first page change.

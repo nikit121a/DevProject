@@ -1,0 +1,4 @@
+Why when modifying a .docx document with the RichEditDocumentServer control, the properties of the document are modified.
+Before editing: "Before.png"
+After editing: "After.png "
+or how can I change the "name" attribute of the image 

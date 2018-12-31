@@ -1,0 +1,6 @@
+Hello,
+I have a dashboard that has just recently begun to throw the following error when we attempt to render it from a browser:
+Callback request failed due to an internal server error.
+How do I determine the root cause of this error?
+Thanks,
+Jonathan 

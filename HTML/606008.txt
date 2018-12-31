@@ -1,0 +1,34 @@
+Hi,
+Not sure if this is a bug with Treelist, Waitform or Print ?
+i have a button with Waitform code below
+  Private Sub SimpleButton2_Click(sender As Object, e As EventArgs) Handles SimpleButton2.Click
+        'Open Wait Form
+        SplashScreenManager.ShowForm(Me, GetType(WaitForm1), True, True, False)
+        'The Wait Form is opened in a separate thread. To change its Description, use the SetWaitFormDescription method.
+        For i As Integer = 1 To 100
+            SplashScreenManager.Default.SetWaitFormDescription(i.ToString() & "%")
+            Thread.Sleep(12)
+        Next i
+        'Close Wait Form
+        SplashScreenManager.CloseForm(False)
+    End Sub
+The Waitform displays and works when calling node links with Tabpane Pages and gridcontrols
+Example
+If e.Node.Id = 5 Then
+            SimpleButton2.PerformClick()
+            TabPane2.Visible = True
+            TabPane2.SelectedPageIndex = 7
+        End If
+However, calling a node linked to a report displays the Waitform (eventhough it is not called) 
+Example
+ If e.Node.Id = 7 Then
+            Dim report As New PRS_List
+            Dim printtool As ReportPrintTool = New ReportPrintTool(report)
+            Dim lookandfeel As UserLookAndFeel = New UserLookAndFeel(Me)
+            lookandfeel.UseDefaultLookAndFeel = False
+            lookandfeel.SkinName = "Office 2016 Colorful"
+            printtool.ShowRibbonPreview(lookandfeel)
+          
+        End If
+But i would like to display the waitform for my gridcontrol treelist node links (not my report treelist node links). Why is the waitform being called for at Node 7 etc. 
+thanks 

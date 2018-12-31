@@ -1,0 +1,2 @@
+When WindowsFormsSettings.ForceDirectXPaint() is used with a TileView's OptionTiles.ScrollMode set to ScrollButtons, artifacts (the scroll buttons) are present when scrolling through the tiles. Removing the DirectX call solves the issue, so it's related to that.
+Attached is a sample project and video. 

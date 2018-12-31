@@ -1,0 +1,11 @@
+Hello,
+I haven't used Theme Upgrade earlier and got a strange problem.
+I have a custom theme based on Office2016BlackSE, I've modified TrackbarEdit in :
+MyTheme\.td\Sources\Core\Core\Editors\Themes\Office2016BlackSE\TrackBarEdit\TrackBarEditControl.xaml
+MyTheme\.td\Sources\Core\Core\Editors\Themes\Office2016BlackSE\TrackBarEdit\ThumbHorizontal.xaml
+After upgrading from 17.2.4 to 17.2.5 I see that my edits are gone. Theme committed so I can see that Height is back to 3 and my Thumb customization is gone.
+My colors for buttons/etc are still here.
+Am I editing the wrong files?
+Q2: Whats the difference between files in Publish and .td\Sources\Bin folders?
+Right now, I am using the Publish button like the manual says and reference is added to the .dll in the .td\Publish folder.
+I've noticed that VS can compile theme solution if I add it to the project without converting it with the Theme Designer.

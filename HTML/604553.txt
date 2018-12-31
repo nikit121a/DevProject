@@ -1,0 +1,5 @@
+I created a scheduler which always has AllDay set to true since we are only using full-day appointments.
+The problem is, that a three-day-appointment is shown as two days only (two as one, three as two, four as three etc.). 
+The example from the demo center seems to work as expected and doesn't have this issue but I can't find any additional configuration (besides the AllDay property in the appointment) that could have an impact on that.
+Here is my designer code for the scheduler:
+ 

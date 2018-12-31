@@ -1,0 +1,8 @@
+Hello guys,
+I have a table with some lines. I want  to have possibility to choose several lines by clicking to the lines themselves.
+Currently I can do this just by clicking to the selection checkboxes, but I want the same functionality by clicking the lines themselves.
+How can I do this?
+Please see  attache image.
+PS: I use Angular 4 and DevExtreme (HTML JS).
+Thanks,
+Paolo

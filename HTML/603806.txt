@@ -1,0 +1,4 @@
+Hi Team,
+I'm using ASPxHtmlEditor version 10.1.6 in my project and, I have an requirement that I want to restrict user by entering only 50 lines in the editor. The line count should exclude the HTML tags and include only the plain text. Kindly let me know the possible solution for sorting out this requirement.
+Thanks,
+Anandh G 

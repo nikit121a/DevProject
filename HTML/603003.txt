@@ -1,0 +1,7 @@
+Hi,
+I'm looking for a onCellEndEdit-event in devextreme grid in the batch mode.
+I tried something with this demo: 
+I switched to batch-mode, but only the onEditingStart-event fires.
+Is there an onEditingEnd event? 
+regards Jan
+ 

@@ -1,0 +1,6 @@
+Good evening, 
+I am devlepoing my application using XAF. In my web application I have a custom view where I use the ASPxTreeList control in order to display some data. One of my needs is to be able to show the Filter buttons (
+) but if I set the ShowHeaderFilterButton to True, when I run the aplpication and navigate to my vie there is still no filter button. What could be the problem?
+Bellow is the code from my ascx to better contextualize my issue:
+Thanks,
+Pablo.

@@ -1,0 +1,7 @@
+Hello,
+I tried a little poc for a future big app, with devextreme and angular.  I need to create a full page app (spa) and I tried two poc, contained in the devextreme_apps.zip file.
+- The ffsa-pocs presents a simple grid with some fixed zones, and flexbox is used with bootstrap classes.  Il you try it, the columns are more larger than the screen and there is NO horizontal scrollbar, but the grid  goes beyong the right side. If you change the columns defs with these in comment (with widths in percentage), all is all right. Are my classes missused?
+- The ffsa-liste-lics use a similar case, with a grid and a toolbar at the top. Flexbox is used by the angular/flex-layout angular module.  All seems to work correctly, but... if I resize the Navigator, the grid adjusts correctly if I grows the Chrome window, but a scrollbar appears if I try to shrink the Chrome window! Same question : missuse of me or problem? And in contrary with the first sample, horizontal scrollbar works correctly!
+Thanks in advance,
+Bruno
+ 

@@ -1,0 +1,4 @@
+It seems the following attribute works.
+But the appearance Rule still doesn't. :(
+Thanks if you could suggest a solution.
+Peter 

@@ -1,0 +1,2 @@
+i have my xaml code as below: 
+it appear a blank space as shown in my attached image, may i know how to reduce the blank space and make label width fit with the label text. 

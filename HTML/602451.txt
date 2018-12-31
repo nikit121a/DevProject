@@ -1,0 +1,7 @@
+Hello,
+I try to implement the client side dashboard into a Angular cli project. I follow the steps described 
+ . Instead of adding the scripts in the head section of the side, I added them in .angular-cli.json:
+When starting my application I get the following error in dx.dashboard-control.third-party.min.js:
+define(...) is not a function
+Can you help me please?
+S?ren

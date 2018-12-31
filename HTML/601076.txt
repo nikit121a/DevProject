@@ -1,0 +1,7 @@
+Hi,
+I have a dialog with a PivotGridControl and a ChartControl, where the ChartControl's DataSource is bound to the PivotGridControl's ChartDataSource. 
+However, the ChartControl does not show any content when I change the selections in the PivotGridControl. 
+What am I missing?
+Rgds,
+Petter Ballandby
+ 

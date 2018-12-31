@@ -1,0 +1,3 @@
+I have a Data Grid on a web page that tells users how many parts they currently have, and how many parts they still need. However, users want to be able to print this page and have it automatically filter out rows where 0 parts are needed. They only want a printout of the parts they need.
+I've added a mockup of the "normal" (web page) view vs. the print view for clarification.
+How can I change the filter on the Data Grid based  on whether the page is being printed? 

@@ -1,0 +1,2 @@
+Where can I install the demo bootstrap application in my VS? I want to install the app as shown at 
+ 

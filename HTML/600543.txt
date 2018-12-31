@@ -1,0 +1,6 @@
+HI
+my problem is following,
+i had add more then one ASPxGridView in one page inside ASPxPageControl (for tabing view)  and binding data using ObjectDataSource for all grid so what ever method we had made for binding data is calling repeating so we getting speed issue, while fire any call bake take more time to load form.
+so,please give me solution for that.
+Thanks
+ 

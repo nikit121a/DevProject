@@ -1,0 +1,5 @@
+When my program is in 200% DPI mode, checkboxes in a cxGrid,  but also the indicator are not nice sharp images but the look resized from 100% DPI. 
+ I have read the "How to Create a Per-Monitor DPI-Aware Application" but couldn't find a solution.
+ This also is the case with the cxSpinEdit where the arrows are not sharp.
+I have included a screenshot to clearify what I mean.
+ It is not really a bug, but it is also not very nice.

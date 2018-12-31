@@ -1,0 +1,5 @@
+Hi.
+I'm  migrating from an old version of the SpreadSheet component. In the old version if I want to sum a range of cells, for example =SUM(A2:A1) the cell range remains like this.
+In the new version if I do the same when I double click in the cell, the cell range change from =SUM(A2:A1) to =SUM(A1:A2)
+How can I prevent this?
+Thanks. 

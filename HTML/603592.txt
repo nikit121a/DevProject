@@ -1,0 +1,7 @@
+Hi, I'm trying to create a small Chart control showing 2 series of 2 points each. The available space is limited to 200x128px.
+Here's the XAML
+The labels on X axis are not visible, or only Ecc is visible. Is it possible to fix the data to show on axis? And is it a way to change the font-size of the labels on axis?
+Due to the small space, is it possible to reduce the width of each Bar? And the space between two different x-points?
+Finally, how can I modify the color of the Bars of each serie? The automatic color method is fine but I need to use red for the first serie anc blue for the second one.
+Thanks. regards.
+ 

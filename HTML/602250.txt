@@ -1,0 +1,1 @@
+Just updated to 17.2.5 and we are unable to rename our layout panes.  We enter rename mode, type a new name and hit enter and nothing happens.  In 17.2.4 it accepts the new name and works.

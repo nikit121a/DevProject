@@ -1,0 +1,14 @@
+We are having a design problem getting a Color editor in our grids.
+We have requested many things about our grid system in the past. Ultimately all of the columns are auto-generated using pre-determined configuration view models. Even the "Field Name" is bound using a PropertyName so we never even know where the value sits in the RowData.
+Our template for Color type columns is as follows:
+We need all of the various parts in order to satisfy many different parts of the grid, from Auto Filter Rows, to NULL values, to all of the visual configurations of a column.
+The view models for the Column configurations has no connection to the data.
+Right now the problem is that we store all Colors as STRING, we cannot and will not be able to store them as System.Windows.Media.Color objects. So we are getting errors, The FieldName is going to have a binding to PropertyName, and that is the name where the color is found.
+We do not see anywhere we can add a Converter to get in between the value and the color string converter we wrote.
+This is because we have to use the PopupColorEditSetting class which doesn't give a converter for the actual VALUE that will be pumped out, and the GridColumn doesn't provide a place to convert the value that the editor creates into something the cell will get.
+We cannot use the "Binding" instead of "FieldName" because we do not know the property name where the color sits in the Row Data at design time.
+The DisplayMemberBinding doesn't help again because we dot not have the name of the field at design time.
+We do not use any code-behind its full MVVM pattern and templating. So we do not create bindings manually or update bindings at runtime.
+We would certainly appreciate some assistance with this topic.
+NOTE: It would have been easier if the actual PopupColorEditSetting class knew how to have its value operate as a string instead of a Color object. That would have made all of this moot.
+ 

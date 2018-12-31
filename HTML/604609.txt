@@ -1,0 +1,19 @@
+
+                                This example illustrates approaches to set the color of a time cell in a scheduler grouped by resource.
+1. Each resource can have its own color specified by the 
+ property. Uncomment two lines in the MainWindow's XAML to assign the resource color mapping, so that each resource obtains its color from the data source.
+2. Use a custom resource brush schema. Create a 
+ object in MainWindow's XAML resources and assign it to the  
+ property.
+3. Create a 
+'s data template, define a cell style and assign the style to the appropriate property of the desired view:
+- Day view, Work-Week view, Week view - use the 
+ and 
+ properties;
+- Month view - use the 
+ property;
+- Timeline view - use the 
+ property.
+The picture below demonstrates a custom cell style and template applied to the selected cells of the resource with ID=1.  A custom data template displays the time interval contained in the cell's data context.
+
+                            

@@ -1,0 +1,7 @@
+Hi! I found here..
+So,
+Today I use: .....GridView.VisibleRowCount
+for  get total (all) rows count..
+But, If I search something, return 1, for example..
+But I need get all number (count) of rows... how I to do?
+thanks! 

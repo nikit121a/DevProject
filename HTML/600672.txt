@@ -1,0 +1,9 @@
+Hello,  i've a problem with dxRichEditControl!
+I have a .rtf already created, i need to replace a field like "<<BRASAO>>" , and on this place put a picture.
+How can i search for this field? and replace the same! - The field i need replace are in HEADER and FOOTER of this .rtf.
+I'm trying like this...
+
+
+
+
+But nothing happens! Sending the .rtf file!

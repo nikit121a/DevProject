@@ -1,0 +1,7 @@
+I have a document templating system that I have developed using the docvariables in the richedit. My users create a template for their documents, on to which they drag data type descriptors which my application converts to doc variables in the template
+When the user creates correspondence using the template, the calculatedocvariables event is used to replace the fields with the data the user has connected to the field. This all works as expected.
+I have a situation where I want to provide the ability to provide a table for multiple related records - lets say the document is called Order Notification and has a template something like;
+When the docvariable is calculated, I want the items table to populate for every related item. At the moment I just do this by getting the independent variables and separating them with a carriage return, but this has real formatting issues.
+I am aware of the nested merge functionality (per 
+) but I want to make it invisible to the user - maybe a method of extracting any tables that contain fields programatically into a separate document prior calculating the docvariables or something might work?
+Is there a way to do this? Is there someway to hijack a nested merge which is invisible to the user or something similar? Keep in mind that the layout of the table and which fields are in it must remain customizable to the user when creating the template.

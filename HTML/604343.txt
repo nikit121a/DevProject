@@ -1,0 +1,6 @@
+Hello,
+I am using DevAVMVC as a template to build a webapp against. I have been having trouble trying to figure out how the search bar works. Specifically, I would like to know how the Gridview gets the string from the search bar, and uses it to filter the grid/highlight the matching text in the rows. I could not find anything in the scripts.js file that was obviously responsible for filtering/highlighting with the searchbar text. Could you please explain this mechanism?
+(Feel free to ignore this next paragraph if it does not add any clarity)
+Some background, if it helps: I am trying to add the filtering functionality to the girdview, and having it work alongside the searchbar. I am only able to get the searchbar functionality to work when I have the searchbox call the MainCallbackPanel callback, and not when I call a separate action that loads the gridview in the same way. The MainCallbackPanel clears out my filters, while the separate action does not, so I would like to figure out what the difference is, when they are both eventuall loading the grid with the same call: PartialView()
+Thanks for your help!
+-Sean 

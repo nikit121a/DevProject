@@ -1,0 +1,4 @@
+Hello,
+What is the correct way to set bold (to the caption of the tab ) to the active tab.
+Thanks!
+ 

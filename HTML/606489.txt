@@ -1,0 +1,4 @@
+Hello,
+I have a Pivot grid inside a dashboard and I am trying to disable the option "Show Totals"  from one of the items in the values section. Removing the option doesn't seem to make any changes and the total remains in the grid. 
+Could you give some guidance ?
+Image file attached. 

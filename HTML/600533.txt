@@ -1,0 +1,4 @@
+Hello,
+I have encountered a problem if I move a field in a pivottable. When moving the field not all the area is cleared but only a certain number of columns is cleared (it appears that only the first 32 columns). 
+Please see attached video. Do you have any ideas how to solve that?
+Thanks. 

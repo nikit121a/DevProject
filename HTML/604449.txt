@@ -1,0 +1,3 @@
+Hi,
+I have one main form (XtraForm), which has tileContainer. The TileContainer has tiles. When user clicks on tile, it navigates to XtraUserC ontrol page.
+ Is there any way to access Tiles added to WindowsUIView?

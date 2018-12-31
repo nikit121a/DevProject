@@ -1,0 +1,5 @@
+Hello Support-Team
+How can I use the MVC GridView in Server Mode and a TableAdapter? I would like to use a SQL statement from the DLL, if possible.
+Is there a simple(!!!) sample around, how to do that? The DX Demo is too big and not really helpful to spot immediately the connections in between.
+TIA
+Frank 

@@ -1,0 +1,5 @@
+Hello,
+I want to implement a TreeMap chart but it seems there isn't one. Just like the gauge I have to resort to DevExtreme. 
+Are there plans to create one? 
+Kind Regards,
+Heijmen de Raad 

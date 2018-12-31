@@ -1,0 +1,4 @@
+I am talking about 
+ handler.
+I would like to be able to cancel a paste after it gets to that handler. I already know how to completely skip over that handler and others (see 
+ ticket) , but at the point where I would be able to skip over it, the pasted content hasn't yet been "cleaned up" - if it was coming from word, for example, it would still be in a special format that would need to be translated into HTML 5. If I don't skip over your handler, the pasted content will enter the BeforePaste handler and will have been cleaned up by your code, but I have yet to discover a way to cancel the paste from inside that handler. This is important because for numerous reasons I would like to be able to inspect the cleaned up pasted content and then decide whether it should be allowed to be pasted or not. Thank you.

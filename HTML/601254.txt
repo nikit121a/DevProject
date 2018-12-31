@@ -1,0 +1,3 @@
+I have try to display selected date in the DateEdit control with current time.  It always displaying time 12 PM, not displaying current time with date.
+Attached sample project for this issue. Please give me solution to display Date with current time in the DateEdit control.
+ 

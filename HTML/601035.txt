@@ -1,0 +1,3 @@
+I integrated JSLint to my application for increasing the quality of project js files. But when I compiled it throws error of devexpress controls which are mentioned in cshtml file "
+".
+ 

@@ -1,0 +1,3 @@
+I added Dashboard for project but it shows error message "An error has occurred on an attempt to load the list of available data sources" on create new . Wasn't able to reproduce the same on sample project. Using the same configuration on sample project didn't reproduce the same exception.
+What could be wrong with dashboard in Project?
+There are images on debugging: It happens on Crete New click and according to debugging click event is uderfined.

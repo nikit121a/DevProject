@@ -1,0 +1,6 @@
+I am using a DxDataGrid with the popup editor. Inside the editor I need a form with various fields that behave as expected, except for the DxTagBox.
+(see attached image) where it behaves as a radio group  without saving its selection once closed.
+The first thing I tried is to test the same DxTagBox with the same datasource outside this dx-data-grid / dxo-popup / dxo-form context.  It turned out it is working well.
+Here is the code snippet that does not work, I have removed all unecessary fields and columns. 
+May be I set the wrong parameters in the editorOptions ?
+Thank you

@@ -1,0 +1,7 @@
+
+Hello,
+I delphi XE5 is it possible to use a class helper?like this:
+TmycxGridChartColumnDiagram = class helper for  TcxGridChartColumnDiagram
+        function GetViewInfoClass: TcxGridChartDiagramViewInfoClass;
+    end;
+In case, is it possible to have an example?

@@ -1,0 +1,6 @@
+I am using the aspxhtmleditor inside an aspxgridview to edit items as shown here:
+Everything works fine when running the "localhost", but when I upload to the web hosting server, it shows this error when trying to upload an image.
+Request for ConfigurationPermission failed while attempting to access confiiguration section 'system.web/httpRuntime'.  To allow all callers to access the data for this section, set section attribute 'requirePermission' equal 'false' in the configuration file where this section is declared.
+I checked the directory permissions, and modify permission is enabled for files on the server.
+I cannot seem to fine the exact attribute specified in the error.
+Can you help me figure out how to fix this?

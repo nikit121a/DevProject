@@ -1,0 +1,2 @@
+I downloaded the tools for importing Access reports, but the tools are in C+/C# and my app is in VB. I received errors trying to use the calls to the C code because it was not VB. Is there a way to have both VB and C routines in the same app and play together nicely? Are there any workarounds you can recommend? I have scores of reports to import and doing them manually is very hard as they are medical forms with lots of fields in freeform layout.
+thanks 

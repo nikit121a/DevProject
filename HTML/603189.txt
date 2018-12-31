@@ -1,0 +1,2 @@
+I use ASPxUploadControl with custom upload button represented by ASPxButton based on this example 
+. In this case uploading processes well. But if I initiate uploading using ClientSizeEvent-Click for the button placed on ASPxPopup control, nothing happens at the result. What is wrong?

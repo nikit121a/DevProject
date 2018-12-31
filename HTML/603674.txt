@@ -1,0 +1,5 @@
+Hello,
+I'm trying to configure the bootstrap cardview and have a two questions involving formatting (see attached screencapture):
+1. I cannot seem to control the number of cards per page even though I set the "SettingsPager > ItemsPerPage = 1". Its okay until the page approaches full size as on a PC. In this instance I always only have one card but the card item seems to compress to allow more items which causes the formatting issue.
+Thank,
+Eric

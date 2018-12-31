@@ -1,0 +1,6 @@
+I would like to determine whether an InvoiceDate falls within a specific financial period. The financial period has a StartDate and a EndDate.
+How do I filter the table to determine the correct record in VB?
+I've tried the following but it only returns nothing:
+ Dim obj As CustomerStatementPeriod = Session.FindObject(Of CustomerStatementPeriod)(CriteriaOperator.Parse("StartDate <= ? AND EndDate >= ? ", InvoiceDate, InvoiceDate)
+                     
+ 

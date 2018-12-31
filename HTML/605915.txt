@@ -1,0 +1,2 @@
+I am using the scheduler with day view grouped by resources. Is it possible to display a custom tooltip (or a menu) when clicking on an empty cell? That is when the user clicks on an appointment I want to display a tooltip of type 1 (the default behavior is ok) and when clicking on an empty cell I want to display a tooltip of type 2 (or a menu).
+ 

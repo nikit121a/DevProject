@@ -1,0 +1,1 @@
+Can onRowValidation be triggered on onChange event of an dataGrid Cell? Right ow when I press tab of click outside the cell the validation ge3t triggered.

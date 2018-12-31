@@ -1,0 +1,15 @@
+Hi DevExpress Team,
+   
+    We have Gridview with some column Date columns (ColumnType as DateEdit).
+   
+    Header filter for Date columns is not working as expected and throwing NotSupported Exception from entity framework.
+    When clicking on Header filter button, we can see the drop-down, without any FilterValue items.
+    For other type of columns its working fine, and we can see the available filter value,
+    We have already tried the solution from below link, still unable to use Header filter for the Date column. 
+     Version Details -
+      
+     DevExpress version - 16.2.5.0
+     Entity Framework -  6.0.0.0
+   
+Thanks,
+Shanki

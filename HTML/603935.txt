@@ -1,0 +1,2 @@
+Hello,
+When I try to use a pinch gesture to zoom horizontally in a chart, the y-Axis zooms alongside at the same time. How can I get both axes to scroll individually? 

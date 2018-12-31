@@ -1,0 +1,6 @@
+Dear DevExpress support,
+In our application we use the propertygridcontrol without vertical lines, but we still want to use a border....
+But with border, the rowlines makes the Top-border extra thick. I attached a sample to show the dilemma.
+I tried to place the control on a panel control, with negative locations based on BorderlineWidth, but it will be a lot of plumbing and unpredictable results if RowLineWidths and other layoutsettings are changing.
+Is there a solution ?
+With greetings, Ton.

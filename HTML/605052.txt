@@ -1,0 +1,6 @@
+Hi 
+Attached is a simple project containing a ribbon, some buttons and svg icons.  Some have overlays and you'll notice that they appear to have a dark background.   At first I thought that this might bee a problem with the tool used to create the icons so I contacted Axialis about it.  They looked into it and found 
+ which seems to suggest that the problem ought to have been fixed, however as you can see this is a project built with 17.2.5 and clearly it isn't.
+Any idea when it will be fixed.  This makes the use of svg icons problematic at best.
+Regards
+Dom 

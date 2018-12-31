@@ -1,0 +1,19 @@
+Gridview has these settings:
+<Settings ShowFilterBar="Hidden" 
+                ShowFilterRow="False" 
+                ShowFilterRowMenu="True" 
+                ShowFooter="True"  
+                ShowHeaderFilterButton="True" 
+                ShowTitlePanel="True" 
+                ShowPreview="True" 
+                ShowGroupPanel="True" 
+                AutoFilterCondition="Contains" 
+                ShowFilterRowMenuLikeItem="True" />
+ 
+<SettingsBehavior 
+                EnableCustomizationWindow="True" 
+                AllowSort="true" AllowGroup="True" 
+                AllowSelectSingleRowOnly="True" 
+                ColumnResizeMode="NextColumn" />
+There are 3 checkboxes on each row of the gridview. When a filter is applied whether by textbox or column value, the checkbox values are lost. The code that sets them is being executed just prior to the gridview_DataBound being executed. How do I persist these checkbox values?
+When the page is changed of the columns sorted the values are still there.

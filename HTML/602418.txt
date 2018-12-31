@@ -1,0 +1,11 @@
+
+i am using below mentioned PrintableControlLink settings for PDF creation as well as for Docx creation where as PDF is generated perfectly fine but  in Docx the Table of contents are not aligned properly,  please find attached file . could you suggest on this.
+_printableControlLink = new PrintableControlLink(printableControl);
+            _printableControlLink.PaperKind = System.Drawing.Printing.PaperKind.Custom;
+            _printableControlLink.CustomPaperSize = new System.Drawing.Size(755, 885);
+            _printableControlLink.Margins = new System.Drawing.Printing.Margins(20, 20, 0, 20); // new System.Drawing.Printing.Margins(20, 20, 20, 20);
+            _printableControlLink.Margins.Right = 0;
+            _printableControlLink.MinMargins = new System.Drawing.Printing.Margins(0, 0, 0, 0);
+            _printableControlLink.CreateDocumentFinished += _printableControlLink_CreateDocumentFinished;
+we are not using any specific component to generate TOC , inside GridControl we are using TextEdit control to display the Text of each line of TOC , same logic is working fine when we export to PDF from GridControl . But with Same GridControl the alignments are  not showing properly with Export to DOCX. 
+In Printablelink ExportDocx the Table layout is not occupying the complete width of the Document , how set it to occupy complete width of document

@@ -1,0 +1,3 @@
+
+The top line for start is not showing the hour.  ie. 9 AM.  think it will be addressed with #2 above.  
+Thanks

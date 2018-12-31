@@ -1,0 +1,5 @@
+I have a gridcontrol with CustomColumnSort resulting in the right order of my records (see 2018-02-09 14_28_03-Reclassificatie.png).
+When I create a xtraReport I do not know how I can implement  CustomColumnSort code so this actually resulting in a wrong sequence of my records (see 2018-02-09 14_29_16-Preview.png).
+How can I fixed that?
+Code:
+ 

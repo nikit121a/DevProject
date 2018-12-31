@@ -1,0 +1,5 @@
+Hi,
+I have Windows form application with  documentViewer control with standard bar. I change the language and  the main view language is  changed correctly, but the standard bar language is not changed.
+I  attached a sample. I set the language to German and the  main view and status bar is in German but the standard bar remains in  English.
+Thank you in advance.
+Tommaso.

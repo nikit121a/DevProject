@@ -1,0 +1,5 @@
+Hi again,
+I would like to remove the fill color in label position and obtain the result as the image attached
+the actual xaml code is:
+is it possibile?
+Thank you

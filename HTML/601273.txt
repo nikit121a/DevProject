@@ -1,0 +1,6 @@
+Hi,
+I hope you can help me. We use DevXpress to report on XML data. The (simplified) structure is as follows:
+I would like to create a report that shows the two lists of data of a nest line side by side using subreports, but I just can't figure out how to bind the data.
+Can you help?
+thanks
+Olaf 

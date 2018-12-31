@@ -1,0 +1,8 @@
+I use XPO with SQLCE 4.0.
+If I create a new dataobject with decimal?, the value is shown as expected.
+But if I save the object and restart the application, the value is shown with 4 digits after decimal point.
+Example:
+-value: 4 
+-saved: 4.0000
+How can I avoid this behavior without using a mask for the spinedit.
+I made a small example and a video.

@@ -1,0 +1,33 @@
+I've created a Bubble Chart with the appropriate X, Y, and weighted values. The chart shows the bubbleserieslabel for the weighted value.  The code is below.
+Is it possible to have the label show another value, such as the organization name; or in some other way designate the organization name on the chart? The organization name is not the X, Y, or weighted value.
+The organization name is necessary for the chart to have much meaning. Thanks,
+    <dx:WebChartControl ID="WebChartControl1" runat="server" CrosshairEnabled="True" DataSourceID="SDSstatsClergy" Height="1000px" Width="2000px" AutoLayout="True">
+        <DiagramSerializable>
+            <dx:XYDiagram>
+                <AxisX VisibleInPanesSerializable="-1"></AxisX>
+                <AxisY VisibleInPanesSerializable="-1"></AxisY>
+            </dx:XYDiagram>
+        </DiagramSerializable>
+        <Legend Visibility="True" Name="Default Legend"></Legend>
+        <Legends>
+            <dx:Legend Name="Legend1"></dx:Legend>
+        </Legends>
+        <SeriesSerializable>
+            <dx:Series Name="Series 1" ArgumentDataMember="Members" ValueDataMembersSerializable="Members;Gain" LabelsVisibility="True" LegendText="Membership" ArgumentScaleType="Numerical">
+                <ViewSerializable>
+                    <dx:BubbleSeriesView></dx:BubbleSeriesView>
+                </ViewSerializable>
+                <LabelSerializable>
+                    <dx:BubbleSeriesLabel Angle="45" Position="Outside"></dx:BubbleSeriesLabel>
+                </LabelSerializable>
+            </dx:Series>
+            <dx:Series Name="Series 1" ArgumentDataMember="Members" ValueDataMembersSerializable="Attend;AttendPercent" LabelsVisibility="True" LegendText="Attendance">
+                <ViewSerializable>
+                    <dx:BubbleSeriesView></dx:BubbleSeriesView>
+                </ViewSerializable>
+            </dx:Series>
+        </SeriesSerializable>
+        <Titles>
+            <dx:ChartTitle Text="Organization Sample Data" />
+        </Titles>
+    </dx:WebChartControl>

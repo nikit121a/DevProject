@@ -1,0 +1,7 @@
+Dear support,
+Please can you assist.  I am trying to find a way of setting "isEditable" to false at a cellular level.  I need this because I have a column where a specific cell in a column is only editable depending on the value of another datarow field.
+I have searched tickets and found that using  
+info.cellElement.find('input').prop('readonly',true)
+in the cellprepared event stops a user from being able to edit the value, however the cell still simulates the edit cell function, which could be confusing.  I would prefer if it could behave like the column is set to isEditable: false.
+Many thanks
+Les Brinkworth 

@@ -1,0 +1,5 @@
+Hi,
+I set the properties with the GridLookup control, 
+Because the Popup is too big, so I add the following codes
+But the checkbox does not display. Why?
+How can I do that?

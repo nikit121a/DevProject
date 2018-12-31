@@ -1,0 +1,5 @@
+Since i updated my DevExpress from version 17.1.2 to version 17.2.4 i get a memoryleak in cxControls.
+The leak appears if you have a grid and just scroll up and down with the new introduced scrollbars.
+If i set theTouchScrollUIMode property of a LookAndFeelController to FALSE the leaks are gone.
+I attach a  simple projekt to reproduce the leak. Just run the program an scroll up and down.
+In the attached archive i also uploaded the reported leak report from MadExcept. 

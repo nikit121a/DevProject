@@ -1,0 +1,53 @@
+Hi,
+I have an issue with the tooltip that appears when I put the cursor over  an Appointment. It appears normally when I am in Debug mode from Visual Studio.
+But when the application is deployed on our production server the tooltip doesn't show anymore.
+I copied the Devexpress the following DLL inside the application directory on the production environnement.
+-DevExpress.BonusSkins.v17.1.dll
+-DevExpress.Charts.v17.1.Core.dll
+-DevExpress.CodeParser.v17.1.dll
+-DevExpress.Data.v17.1.dll
+-DevExpress.DataAccess.v17.1.dll
+-DevExpress.DataAccess.v17.1.UI.dll
+-DevExpress.Images.v17.1.dll
+-DevExpress.Office.v17.1.Core.dll
+-DevExpress.Pdf.v17.1.Core.dll
+-DevExpress.PivotGrid.v17.1.Core.dll
+-DevExpress.Printing.v17.1.Core.dll
+-DevExpress.RichEdit.v17.1.Core.dll
+-DevExpress.Sparkline.v17.1.Core.dll
+-DevExpress.SpellChecker.v17.1.Core.dll
+-DevExpress.Utils.v17.1.dll
+-DevExpress.Utils.v17.1.UI.dll
+-DevExpress.Web.ASPxThemes.v17.1.dll
+-DevExpress.Web.v17.1.dll
+-DevExpress.Xpo.v17.1.dll
+-DevExpress.XtraBars.v17.1.dll
+-DevExpress.XtraCharts.v17.1.dll
+-DevExpress.XtraCharts.v17.1.Extensions.dll
+-DevExpress.XtraCharts.v17.1.UI.dll
+-DevExpress.XtraCharts.v17.1.Web.dll
+-DevExpress.XtraCharts.v17.1.Wizard.dll
+-DevExpress.XtraEditors.v17.1.dll
+-DevExpress.XtraGauges.v17.1.Core.dll
+-DevExpress.XtraGrid.v17.1.dll
+-DevExpress.XtraLayout.v17.1.dll
+-DevExpress.XtraNavBar.v17.1.dll
+-DevExpress.XtraPivotGrid.v17.1.dll
+-DevExpress.XtraPrinting.v17.1.dll
+-DevExpress.XtraReports.v17.1.dll
+-DevExpress.XtraReports.v17.1.Extensions.dll
+-DevExpress.XtraRichEdit.v17.1.dll
+-DevExpress.XtraRichEdit.v17.1.Extensions.dll
+-DevExpress.XtraScheduler.v17.1.Core.dll
+-DevExpress.XtraScheduler.v17.1.dll
+-DevExpress.XtraScheduler.v17.1.Extensions.dll
+-DevExpress.XtraScheduler.v17.1.Reporting.dll
+-DevExpress.XtraScheduler.v17.1.Reporting.Extensions.dll
+-DevExpress.XtraSpellChecker.v17.1.dll
+-DevExpress.XtraTreeList.v17.1.dll
+-DevExpress.XtraVerticalGrid.v17.1.dll
+I'am wondering if I havn't forgeten to add one assembly?
+Please do you have any idea on how I can analyze to see what's wrong.
+Thank you.
+Vince
+ 

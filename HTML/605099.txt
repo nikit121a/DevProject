@@ -1,0 +1,29 @@
+ I am actually trying to show MarkerModels in the combobox in the grid column
+My piece of code in xaml this
+                        <dxg:GridColumn Header="Marker" 
+                                                x:Name="Marker"  
+                                                AllowResizing="True"
+                                                FixedWidth="True"
+                                               
+                                                Width="80" 
+                                                Fixed="None" 
+                                                AllowMoving="False"
+                                                AutoFilterCondition="Contains"
+                                                AllowColumnFiltering="True"
+                                                ReadOnly="False"
+                                        >
+                            <dxg:GridColumn.EditSettings>
+                                <dxe:ComboBoxEditSettings ShowTooltipForTrimmedText="False"
+                                                                          AutoComplete="True"
+                                                                          ItemsSource="{
+}"/>
+                            </dxg:GridColumn.EditSettings>
+I have attached screen shots of the dialog. It shows the list of images in the dropdown properly, But after selecting
+it does not show the selection .
+ is bound to a property of type Marker2DModel.
+is bound to a property of type List<PredefinedMarker2DModelControl> 
+I see an error Object Must implement Iconvertible
+The text in the edit box of the combobox shows  DevExpress.Xpf.Charts.PolygonMarker2DModelControl
+How can I provide a converter or any way to fix the issue.
+Thanks
+ 

@@ -1,0 +1,5 @@
+Hi DevExpress,
+after chrome update to version 64.0.3282.119, we noticed strange rendering issue (blinking) in grid control. You can see it in attached video. We are using Moderno theme in our project.
+Do you have an idea how to fix it?
+Kind regards
+Peter

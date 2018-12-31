@@ -1,0 +1,10 @@
+Hi,
+I am getting initial error when loading report at first time using 
+ class  in 
+. I have followed step that you mention in your 
+ Documentation.
+When i load report at very first time then i am getting error "
+" . 
+After that inital failure, all WCF calls succeed. Why this happening with your ReportService class.? 
+Please help us to solve this error i have attached screenshot for this error
+Thanks.

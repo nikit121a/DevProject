@@ -1,0 +1,4 @@
+Hi,
+  When Multi select is 'ON', then we are unable to do Drill down, once we uncheck 'MultiSelect' option, then I was able to drill down. Can you please help us to fix this issue, our client needs this feature very urgent
+Thanks,
+Sandhiya J

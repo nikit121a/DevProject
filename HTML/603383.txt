@@ -1,0 +1,9 @@
+Hello
+I have a question to the XtraScheduler-control for WinForms-applications:
+I must Change my Scheduler-Application to write data in a History- Table for appointments-changes. If a date or time is changed, the previous data state should be archived from the appointment.
+Manual changes in the appointment-form, and also drag/drop-changes from an appointment in the Scheduler.
+Is it po ssible to get the original-values from an appointment in the "SchedulerStorage_AppointmentChanging"-Event or the "SchedulerStorage_AppointmentsChanged"-Event?
+Please, have you a clue for my question - how I could best solve this.
+Many thanks in advance for your help && best regards,
+Michael
+ 

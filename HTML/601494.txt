@@ -1,0 +1,8 @@
+Dear Madam/Sir,
+At the moment we are upgrading our scheduler to the latest version v17.2 (
+). The scheduler is using jQuery v1.11. Beside the scheduler we also use other controlers of this suite. But in due course we have to upgrade to a higher version of jQuery (v2.x). 
+1. What are your thoughts regarding upgrading this suite of controls to a another version of jQuery v2.x? 
+2. jQuery v2.x is not backwards compatible with v1.x. Assume a new version of the scheduler uses jQuery v2.x, could we easily upgrade to this version if we keep our scheduler up-to-date?
+Looking forward to you answer. Many thanks in advance,
+Joost Boutkan
+James software

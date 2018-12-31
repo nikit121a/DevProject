@@ -1,0 +1,5 @@
+Hello,
+Is it possible with the TdxPDFViewer to display a pdf document (see attachment) with its annotations and text added with the type writer (like in Acrobat Reader) ?
+Is there a special property to display it ?
+Best regards,
+Didier URBAN 

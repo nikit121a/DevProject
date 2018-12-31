@@ -1,0 +1,5 @@
+Hello guys.
+There are many tickets in your KDB  but I havent found the correct for me.
+I want to sustitute the standar javascript alert by the PopupControl, including confirmation actions, show alert icons (question, error, warning), etc.
+Do you have any sample where implement PopupControl in web forms (#C or VB).
+Something like a "Hello World" sample ;)

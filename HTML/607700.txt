@@ -1,0 +1,2 @@
+I tru convert XLS/XLSX to PDF ang get result in memory stream using this code:
+u?unfortunately while ExportToPdf application hang and nothing happens.waht is wrong ?

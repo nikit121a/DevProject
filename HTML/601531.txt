@@ -1,0 +1,5 @@
+Hi,
+We are not able to add the nuget package DevExpress. Xpo.v12.2.15  as reference inside our project.
+Can you please help us to add the same.
+Regards,
+Manohar 

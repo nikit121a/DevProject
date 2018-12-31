@@ -1,0 +1,8 @@
+Hi,
+I've upgraded from 16.1.7 to 17.2.5 (hotfix version) .
+I found a problem related to call: 
+When I start typing in the autofilter textbox I reveive an error message: Index was out of range.
+I've attached an example with videocast.
+Can you please help me ?
+Kind regards,
+Paul 

@@ -1,0 +1,4 @@
+Hello,
+I am using EntityInstantFeedbackSource to load a grid view.  In the GridView_Focuse dRowChanged event, I am trying to take the focused row from the grid view, and bind controls on a form to that row.
+On the line which invokes GetRow, I get an exception "Unable to cast object of type DevExpress.Data.Async.Helpers.ReadonlyThreadSafeProxyForObjectFromAnotherThread  to type FlexModel.CITYCOD'.  How can I resolve this to get the object which the grid row represents, locate the same record in another EF context and bind the form?  I believe all these steps are necessary to work with the readonly EntityInstantFeedbackSource, but if there is a better way I am open to that as well.
+Thanks! 

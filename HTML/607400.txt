@@ -1,0 +1,3 @@
+Hello,
+  Can you please add "AlphaBlending" to the TdxTileControlItem  and TdxTileControlItemText background ?
+Thank you

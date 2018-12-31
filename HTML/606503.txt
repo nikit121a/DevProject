@@ -1,0 +1,4 @@
+When using the Visual Studio 2013 Blue skin, the down arrow sort icon is incorrectly represented by a second filter icon.
+The down arrow sort icon is shown correctly when using a different skin.
+Please note that this appears to affect other skins too, such as Visual Studio 2013 Light. I'm not going to check them all, but you should.
+See attached video. 

@@ -1,0 +1,7 @@
+Hi,
+It's a follow-up on a previous question. So I use the solution and method aspxSpreadsheet.WorksheetDisplayArea.SetSize () to set fixed columns and rows to show in the window. Just following below example.
+However  there is still one slight display adjustment I like to fix. As noticed in demo above, there are white margin area on the right of last fixed column and area beneath last fixed row. So i wonder how we can remove these margin in the display. 
+More specifically we use the aspxSpreadsheet in-house and fixed column number is 26. so it necessitates a horizontal scroll bar. As attached image shows, when scroll to the right-most, white margin area shows up. I am trying to eliminate the area either by setting fullscreenmode or set height and width. but they don't serve a neat solution here. 
+I wonder if you have any proposal for that. thank you!
+Best,
+Jiong 

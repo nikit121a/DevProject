@@ -1,0 +1,3 @@
+
+Hello again,
+I met small problem with presentation layer. I can't figure out why DevExpress in some cases add label after choosing desired class and in some it does not. I've provided screenshot where you can see chosen R class and it's fields: T,L,S,R,L,W,Z,D. Below I've chosen C class (you can see field W) but there is no label added. It would be nice to add label every time but if it will turn to be too difficult unifying presentation layer (no label for every chosen label) will be enough. 

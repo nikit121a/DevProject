@@ -1,0 +1,15 @@
+Hi support,
+I have 2 tables (2 objects). How to insert a value property for two tables.
+My table structure :
+ProjectActivities
+=================
+NameActivity
+DateOfActivity
+ActivityType
+VWorkDay
+=======
+DateOfActivity
+ActivityType
+WorkDay
+I want to insert DateOfActivity & ActivityType to ProjectActivities and also insert them to VWorkDay. Any reference for this? I was looking for the ticket from others, but not really appropriate for my scenario.
+Thank you.

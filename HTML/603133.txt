@@ -1,0 +1,52 @@
+
+I have HTML & javascript codes as below to generate a percent type control using dxNumberBox widget. Here is the issues I got:
+2. Can't use Del on NumLock area to delete a digit.
+3. After pressing Del on NumLock area at floating point, I cannot enter any digits after the point anymore.
+Please check. Thanks & regards.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+For your information, I am using Jquery-3.2.1.js, IE 11.

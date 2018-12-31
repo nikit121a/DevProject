@@ -1,0 +1,18 @@
+HI.
+I have a datable created at runtime like this.
+ Private Function testDT() As DataTable
+        Dim dataTable = New DataTable
+        dataTable.Columns.Add("Id", GetType(Int32))
+        dataTable.Columns.Add("ParentId", GetType(Int32))
+        dataTable.Columns.Add("Name", GetType(String))
+        dataTable.Rows.Add(New Object() {1, 0, "A"})
+        dataTable.Rows.Add(New Object() {2, 1, "B"})
+        dataTable.Rows.Add(New Object() {3, 1, "C"})
+        dataTable.Rows.Add(New Object() {4, 0, "D"})
+        dataTable.Rows.Add(New Object() {5, 4, "E"})
+        Return dataTable
+    End Function
+So A & D should be root nodes, B&C children under A and E a child under D
+How do I bind this table to the treelist as nodes/subnodes.
+Currently binding this datatable ends up like as shown in attachment.
+Regards 

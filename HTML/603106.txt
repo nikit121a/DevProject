@@ -1,0 +1,1 @@
+ASPXGridView - Links not displaying on first row of Gridview.  An error also displays when I selected the invisible link. Let me know if you need any additional items. 

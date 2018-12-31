@@ -1,0 +1,7 @@
+Hello Team,
+We are using Devexpress SpinEdit control. We have modified the buttons position as per our requirement, After that we are not able to change the data using SpinEdit decrement button and also not able to set focus for decrement button. SpinEdit Increment(Right) button is working perfectly. Please provide us a way to overcome it. Attached a screenshot regarding the issue.
+
+
+
+
+Thankyou.

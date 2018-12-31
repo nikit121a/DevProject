@@ -1,0 +1,13 @@
+Hello Devexpress Team,
+we want to switch from our old Reporting Tool to XtraReports.
+In both ways we create PDF's from the reports.
+Everything we tried works fine so far, but we have one problem.
+We have to find a way to send a report by Fax.
+In our old Solution this works with a Fax-String, which is integrated in the Report.
+The Fax Printer parses that String, which contains the number and does the work.
+This does not work with DX Reports. The Fax String cannot be parsed out of the generated *.ps File.
+Yes, I already read this ticket:
+Is there any way, for example by using a certain report control, to make text readable in the postscript file?
+Or do you have any other suggestions for sending XtraReports by Fax? 
+Best Regards,
+Philipp

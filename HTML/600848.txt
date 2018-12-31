@@ -1,0 +1,5 @@
+Hi
+I have a SelectBox:
+ I'm trying to Cancel the OnChangeEvent under certain conditions:
+How can I achieve this?
+Regards 

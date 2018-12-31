@@ -1,0 +1,4 @@
+Currently my grid is in batch edit mode. So if I click "save changes", then I make changes to all the rows currently in the grid.
+Is it possible for me to update my whole grid at once instead of page by page?
+Example:
+I have 113 rows, and 50 rows per page, so 3 pages total. Is it possible to navigate between pages without saving data, and then click "save changes" to update all 3 pages at once? 

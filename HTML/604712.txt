@@ -1,0 +1,7 @@
+Hi DevExpress Support,
+      I have a scenario where I have a devextreme form and inside of that form is a text field, that text field needs to be unique when the form is submitted that's why there's a server side check that needs to happen, what I want is instead of waiting for the form to be submitted, I want server side validation to kick in real time while the user is typing on the text editor in the form so that every time the user types, a validation is being made and lets the user know if the value that is typed in the editor is unique or not.
+      My initial approach is to have a method in the view model that does the server side checking and this method is the one that should be called inside of the event, I just need to handle the event where the text editor's value is being changed.
+      Do you think this approach is ok ? or do you have a different suggestion or idea ?
+      Can you provide an example ? :) 
+Thanks!
+Jude Alquiza. 

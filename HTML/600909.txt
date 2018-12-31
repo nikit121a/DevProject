@@ -1,0 +1,69 @@
+I'd followed the demo to get the data using Web API. First of all, I Implemented TreeListPartial with .Dat aSource(d  => d.WebApi.Controller("APIControllerName")) and then the action of controller drives into Model.cs to get data and return partialview with the model. Server-side send the data to client, but I found an issue in Client-side. the error message is 'Cannot read property 'createStore' of undefined'. I couldnot find the solution. Here are my codes.
+///////Sample.cshtml////////
+@Html.Action("SampleTreeListPartial", "SAMPLE")
+///////SampleTreeListPartial.cshtm////////// @(Html.DevExtreme().TreeList()
+    .ID("grosssales")
+    //.DataSource(new JS("grossSalesList"))
+    .ItemsExpr("items")
+    .DataStructure(TreeListDataStructure.Tree)
+    .DataSource(d => d.WebApi()
+            .Controller("SampleWebAPI"))
+    .Columns(columns =>
+    {
+        // band 0
+        columns.Add()
+            .IsBand(true);
+ 
+        columns.Add().DataField("Title")
+            .OwnerBand(0)
+            .Caption("Position");
+        columns.Add().DataField("Name")
+            .OwnerBand(0)
+            .Caption("Officer");
+           .ShowRowLines(true)
+    .ColumnAutoWidth(true)
+    .ExpandedRowKeys(new[] { 1 })
+    } 
+///////// SampleWebAPIController.cs //////////////
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.Http;
+using System.Web.Http;
+using DevExtreme.AspNet.Data;
+using DevExtreme.AspNet.Mvc;
+using MyProject.Models.Sample;
+namespace MyProject.Controllers.SAMPLE
+{
+    public class SampleWebAPIController : ApiController
+    {
+        [HttpGet]
+        public HttpResponseMessage Get(DataSourceLoadOptions loadOptions)
+        {
+            return Request.CreateResponse(DataSourceLoader.Load(SampleModels.sample_data, loadOptions));
+        }
+    }
+}
+////// SampleController.cs  //////////////
+ public ActionResult SampleTreeListPartial()
+        {
+            
+            List<sample_field> model = SampleModels.GetSample(GetDBCOM(), "Q" ... );
+            return PartialView("~/Views/SAMPLE/_SampleTreeListPartial.cshtml", model);
+        }
+////// SampleModels.cs  //////////////
+public static ICollection<sample_field> sample_data
+        {
+            get
+            {
+                #region sample_field
+                return new List<sample_field> {
+                    new sample_field{ .... }
+                };
+                #endregion
+            }
+        }
+public static List<sample_field> GetSample( ...)
+        {
+ return (List<sample_field>) sample_data;
+} 

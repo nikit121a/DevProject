@@ -1,0 +1,2 @@
+After I click the print button of report viewer, how can I set the "Page Sizing & Handing" to "Actual size" by default instead of "Fit" in print dialog, so the user don't need to switch it manually every time.
+ 

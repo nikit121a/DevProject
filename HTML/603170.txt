@@ -1,0 +1,6 @@
+Dear Support
+I have been trying to copy a sample on your site whereby in a TreeView, when you click on a Node (Focused Node) then the Select icon changes. I have been able to get it to change by, using the attached sample, clicking on a child node then off clicking the text box so that the treeview looses control focus. It however does not work from Node to Node as the sample shows.
+I have tried the InvalidateNode in the FocusedRowChanged, and this worked to a degree, in respect that as you click each node it changed the icon as you click through the nodes, however once you have clicked the node once, if you came back to it, it would not change twice.
+I have attached a sample
+Kind Regards
+Gary 

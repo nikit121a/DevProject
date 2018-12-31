@@ -1,0 +1,4 @@
+I have a CustomButtonEdit to represent a "Run State" in a grid column. The button image starts out as a run image. When the button is clicked then the image is swapped out to show a "Cancel" image. My editor appears to register correctly and I can select it from lists in the designer. When I run my program the editor shows up correctly in each row. However when I click a button ALL the images change in every row of the column instead of just the cell I click in. I'm sure the answer is simple but I can't come up with it. Can you see what I'm doing wrong?
+I've attached my program.
+Thanks,
+Ed 

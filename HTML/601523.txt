@@ -1,0 +1,6 @@
+Hi,
+user pasted some data to dxSpreadSheet. It looks ok, but when it is previewed or printed: there is rubbish in some cells (looks like unparsed RTF). Screenshots, sample code and xlsx file attached. 
+Steps to reproduce:
+1. put a dxSpreadSheet, dxComponentPrinter  on a form, add item to component printer to indicate spread sheet
+2. put buttons to load and print preview loaded file.
+3. run program, load xlsx file (attached), preview.

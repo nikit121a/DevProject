@@ -1,0 +1,14 @@
+Hello,
+I have a nonpersistent  type MyNonPersistentObject. In the WinApplication constructor I add it to the AdditionalSecuredTypes:
+DevExpress.ExpressApp.Security.SecurityStrategyComplex.AdditionalSecuredTypes.Add(GetType(Solution18.Module.MyNonPersistentObject))
+When checking SecuritySystem.IsGranted(...) I get different results, depending on which function is called:
+returns 
+: SecuritySystem.IsGranted(... .Read)) 
+returns 
+: SecuritySystem.IsGranted(... .Read, bo)) 
+This was different in 17.1: both returned 
+.
+To reproduce this in the attached project, log in as "
+" and click on the "
+2" action. The MyNonPersistentObject_DetailView should show the "protected content" editor, too.
+Olaf

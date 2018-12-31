@@ -1,0 +1,5 @@
+I have xtrareport and xrcrossbandline. 
+When I see the desing the line is OK but when I do debug  the line is longer.
+I attach image
+which is the problem?
+thanks 

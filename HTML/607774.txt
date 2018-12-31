@@ -1,0 +1,2 @@
+When there is a typo in the text typed in the RichTextEditor(RTE), correcting the text in the editor adds RTF control words in between the corrected text. For example if <--urlparam meber.memberId> corrected as <--urlparam member.memberId> then RTE content looks something like <!urlparam me\fs22\cf0mber.memberId>
+Is there a way to remove the RTF control words from the editor content? If I want to search for the text, <--urlparam member.memberId> from the above example in the editor content how can I search ignoring the control words?

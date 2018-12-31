@@ -1,0 +1,7 @@
+Hi
+Im receiving an  error "Cannot read property 'radius' of undefined" if i generate a PieChart without any fields or datasource connected to it (I want to generate it on beforehand and then wait for the user to make a connection for it).
+I also receive the same error if I rebind both the datasource and fields at the same time (or the fields slightly before). 
+This is because I don't use the same but with another source, I switch out both the bound fields and then "wait" for a new source.
+The error is located at the following position (given from console error message):
+return p.getSizeGroupLayout().radius at eval (pie_chart.js:349)
+// Erik 

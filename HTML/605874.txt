@@ -1,0 +1,13 @@
+Hi,
+I have gridview in main screen which show popup form on edit and double click. In popup form, I also have two tabs (using page control). First tab  show edit screen of grid, while second tab allows user to add relevant child entity. 
+e.g. One Institute can be associated with many schools. 
+so on Institute grid, you can open popup edit form where on first tab it will show edit details of Institute and in second tab user can add associate schools.
+While above is perfectly working fine in edit, while adding new record is a problem  currently. before we are adding associated school in second tab, we need to make sure that user save institute data first and thus generate Institute Id first. To achieve this, I need to know
+1) How to save data in database on save button click but do not close screen . I found below ticket most relevant for this:
+But by looking at comments in it, it seems it has lots of issues. Please suggest best approach for this.
+2) As per 1, we are not closing screen on save, so Grid should be refreshed on close button click. Is it implicit or do we need to do anything for this?
+3) Alternative approach is, we hide second tab while adding new record (less prefferable) but would like to know if we go by this approach, how can I hide second tab while adding new record.
+I have attached my working project files here for your reference.
+Thanks,
+Jigar
+ 

@@ -1,0 +1,4 @@
+Hi,
+Please find attached for the screenshot.
+Is that possible to customize the dxlist with checkbox over group header, and once we select the header checkbox, it will automatically selected item within it
+ eg: Checked on Group 1, auto select first and nine attributes.  

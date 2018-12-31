@@ -1,0 +1,9 @@
+Hello
+I have LookUp: Dim vMyLookUp = New MyLookUp
+I have DevExpress.XtraTreeList.TreeList class
+I do Me.Columns(1).ColumnEdit = vMyLookUp
+It's OK i see my LookUp in tree list
+***********
+I want used vMyLookUp in DevExpress.XtraEditors.ComboBoxEdit
+How can i do this ?
+ 

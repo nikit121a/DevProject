@@ -1,0 +1,5 @@
+I noticed there are two choices for ShowDropDownOnFocus (Always or Never).  I am having a hard time deciding between which of these to use.
+I think a nice middle ground would be to use 'Never' with a drop down arrow on the right (similar to ASPxComboBox) -- see attacjed.  
+So my suggestion would be to have an attribute something like...
+DisplayDropDownArrow (default to false to not break existing code). 
+Thanks  

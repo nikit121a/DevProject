@@ -1,0 +1,1 @@
+We are trying to use act.type(selector, "newValue") on a cell in a Syncfusion ejGrid, but it is not performing the type. Setting the text of the cell directly using the same selector is working though.

@@ -1,0 +1,4 @@
+Hi,
+Is it possible to display an action, possible near exception message, if an exception is thrown in a view in XAF Web?
+The action can then either log the message to database or send an email etc.
+Thank you. 

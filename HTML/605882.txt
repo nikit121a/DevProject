@@ -1,0 +1,4 @@
+Hi! I am using a lookup grid inside a grid view edit form template. I'm trying to select a value server side to show the already selected values.
+My aspx page:
+Server side, I have this method:
+It works, because it selects the item. But the selection is not showed in the UI. I can't see the selected values until I select/deselect another item. How could I resolve this problem? Is there an alternative way? Thank you!

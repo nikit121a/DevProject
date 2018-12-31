@@ -1,0 +1,11 @@
+In my WPF application I have a TreeListControl, with hierarchical data* in it along the left column of the UI; and a DataGrid toward the middle of the UI.  The requirements are:
+ 1. the user can drag an item from the DataGrid to anywhere in the Tree
+ 2. the user can drag an item in the Tree to a new location up or down the tree,
+If I do this in the XAML at <dxg:TreeListView... ,
+#1 works
+If I do this in the xaml, 
+#2 works.
+If I do this in the xaml,
+only #2 works.
+What do I need to do so that users can both, drag items from the grid to the tree AND drag items up or down the tree?
+*The data is a different thing at each level of the tree. All the levels of the Tree are NOT Employees, like some of the demos.

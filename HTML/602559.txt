@@ -1,0 +1,4 @@
+Hi,
+ i've configured a GridView in my application with a number of adaptivity settings that will cause it to collapse at a certain window width. Collapsing works fine but in collapsed mode the GridView no longer displays the buttons for expanding/collapsing the detail row of my datasets.
+Is there a setting that will cause the GridView to display the expand/collapse buttons for the detail row also in collapsed mode or any other way that i can expand/collapse the detail row in collapsed mode?
+Thx in advance! 

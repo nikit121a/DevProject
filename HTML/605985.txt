@@ -1,0 +1,8 @@
+Hi,
+DockManager.RestoreLayoutFromXml and DocumentManager.RestoreLayoutFromXml not working as expected when part of a instantiated 
+ user control.
+Since my code was part of a wider solution i created a thin project to show you the problem.
+In resume, i create a user control in a tabbed document.
+That  user control also has a tabbed document. That control RestoreLayoutFromXml doesnt work as expected.
+I included a video and a thin functional code i used in the video.
+Thank you.

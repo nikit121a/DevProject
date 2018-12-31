@@ -1,0 +1,7 @@
+Hello,
+I have a situation where in a newly created database in my XAF application, I set permissions on my types depending on my user roles.
+So in my simple user, I need to hide a couple of objects from my navigation menu. The code I use is like the following:
+In my updater class this runs normally and should hide the WorkOrderCategory from the menu .
+Only problem is my WorkOrderCategory does not inherit from the XPObject but from the BaseObject. That is the only difference I see so far
+from the other objects that behave normally and they are hidden from my menus. I can not change the object now since it is already used so what can I do to hide this object?
+ 

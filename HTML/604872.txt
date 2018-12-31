@@ -1,0 +1,18 @@
+Hello!
+ I got pretty far in what I am trying to accomplish, but there are still some issues left that I am having troubles with.
+It's concerning the appearance of the cells / column and band headers.
+In the attached image you'll see my problem. I added some behaviour to the grid, so you can Drag and Drop multiple cells(extended the example E3533).
+In this decorator the event CustomDrawCell is used to draw the rectangles to indicate the drop area.
+
+
+
+
+I have another decorator where I change the appearence according to the values of the cells. This is done by using the RowCellStyle event
+this is what I do on RowCellStyle(to preserve the standard behaviour on selection I only apply the style to cells that are not selected):
+
+
+
+however whenever a cell appearance is changed with RowCellStyle event, the rectangle isn't drawn anymore.
+is there a better way to do it or any suggestions?
+I have another issue with the CustomDrawColumnHeader and CustomDrawBandHeader, where i simply would like to change the background color, but it seems that this is overridden by some standard - Handler. 
+In general I would like to avoid to set handled to true and implement all the drawing myself...

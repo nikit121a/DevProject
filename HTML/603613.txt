@@ -1,0 +1,1 @@
+Is it possible to set Min and Max value for ValueAxis in PolarChar or only to set MinValueMargin and MaxValueMargin?

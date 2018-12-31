@@ -1,0 +1,9 @@
+Hello,
+my question is, if you see an alternative to  TcxDBGridColumn - OnGetProperties event?
+Our problem is, that in our application data to TcxBridDBTableView are loaded, the number of lines is not fix, varying between 10 and max. 500.
+We have 4 columns, ID, text, datatype and the fourth column  is the one, which can be edited by the user. And here we use OnGetProperties to set the editor depending on datatype-column. So, the datatype can be different from record to record... And, what I should mention, a special datatype requires a SQL-statement, asking the database to fill a drop-down list, so in this case we can not use a defined TcxRepositoryItem, but we create one at run time.
+With this implementation, the loading of data into the TcxBridDBTableView is (depending on the number of records) somestimes very slow.
+Do you have an idea how to change the implementation, probably we could use a different component to solve this issue?
+Thank you in advance,
+best regards,
+Christoph

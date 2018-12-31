@@ -1,0 +1,6 @@
+I have a grid whose columns are dynamically added on load. I am trying the batch edit functionality and wants to save only modified column values in a row. 
+The row updating event provides me old and new values for all columns
+protected void GvRatePlanner_RowUpdating(object sender, DevExpress.Web.Data.ASPxDataUpdatingEventArgs e)
+{
+} 
+How could we find only modified columns values in this event. My number of columns could grow to be hundred with multiple rows, so i don't want to match each column value one by one (this will have a performance hit)  and update only modified values in database.

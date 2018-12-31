@@ -1,0 +1,8 @@
+Hello!
+I have an application with many grid controls and I would like to leverage a resource dictionary so that I only have to define items once.
+I've been able to bind the ColumnsSource  to an array of grid columns, which is great.
+I'm not able to achieve the same thing for the row-level context menu items.
+ Here is my XAML code for one of the grids:
+How do I reference barbuttonitems in a resource dictionary from XAML?
+Thanks!
+Matt 

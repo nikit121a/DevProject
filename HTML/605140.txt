@@ -1,0 +1,2 @@
+How to set RowCount and CaptionLocation for all string (SizeAttribute.Unlimited) property editors runtime. Eq in AddGeneratorUpdaters.
+ 

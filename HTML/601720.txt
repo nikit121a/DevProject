@@ -1,0 +1,7 @@
+Converting approximately 20 solutions from 17.1.3.0 to: 17.2.5.0 is creating by far more work than estimated. All solutions combined contain more than 50 data grids with various data and views. "SettingsCustomizationWindow" is now a major problem. 
+Changelog review: 17.1.3.0 to: 17.2.5.0 does not mention anything about that change/ obsolete setting requiring now changes to be made to every single data grid.
+Documentation in some topics lists  "SettingsCustomizationWindow" as current and valid some show it as obsolete.
+ All documentation sections reference: "SettingsCustomizationWindow" showing: Devexpress.Web.v18.1.dll 
+Guess that some documentation update would be helpful. 
+In addition, documentation states that the default for: SettingsBehavior.EnableCustomizationWindow is False. When that default settings is in place and the obsolete property of: "SettingsCustomizationWindow Enabled = 'True'", the Customization window will open. This behavior was tested and verified using: 17.2.5.0. In my opinion, an obsolete setting/ property should be ignored but it should never change the default setting of any property assumed to be effective.
+ 

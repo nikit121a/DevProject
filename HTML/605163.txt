@@ -1,0 +1,3 @@
+Hi,
+Please refer to the  attached project along with a snapshot of issue i am facing. I am not sure whether this has anything to do with V17.2.3 specifically because this issue was not existing in earlier version i was using V17.1.4.
+The issue is that if a report contains multiple datasources then only one datasource is being listed in the fileds selection box, all others are not being displayed at all. In the attached sample project, i have created to 2 datasources dsEmployee and dsReportSettings, only dsEmployee is seen in the filed selection box and dsReportsettings is not shown at all. 

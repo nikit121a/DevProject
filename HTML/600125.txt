@@ -1,0 +1,9 @@
+Hello there,
+I?ve got the following problem.
+I have a database with an hierarchical table: TableH (ID, ParentID, Name).
+I have a second Table, where Items from TableH are preselected: TableP (ID)
+I want to display the Treelist from root to leaf, but only if any key in this path is present in TableP.
+The problem is that the Items in TableP can be from anywhere from root to 3rd Level but i want to display the tree from the beginning, even if the Item in TableP is in 2nd or 3rd Level.
+I have created a Storedprocedure for a non-virtual Treelist and this is working fine but the loading times are relatively long and im curious if it is possible to do this in virtual mode.
+Kind Regards
+ 

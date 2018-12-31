@@ -1,0 +1,14 @@
+
+VS 2017
+DevX Version : 16.2.4
+Windows 10
+Good Afternoon,
+I am running into a very similar issue when using the ReportPrintTool.PrintDialog();
+If i call this in Debug mode it works fine.  However in Release mode it causes the Application to crash.
+The Reports that I am printing contain no Scripting at all.
+I see no properties in the report or the printing tool to set the above mentioned values.
+I did attempt to modify the App.Config file as stated above to no avail either (Although this could be because it was not nested correctly).
+Could you point me to an example showing how to rectify this please.
+Also does the latest version of DevEx eliminate this issue?
+Thank you,
+Buck

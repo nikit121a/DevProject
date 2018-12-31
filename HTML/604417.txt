@@ -1,0 +1,8 @@
+Hello,
+I'm looking for a solution to provide a design time editor for SvgImage objects (in my own custom controls) for the property grid of Visual Studio.
+The editor provided by DevExpress is doing it very fine, so of course I do not want to reinvent the wheel.
+So, the question is: Can I use the SvgImage Editor for my own controls? 
+Convenient would be a possibility to write code like this:
+Currently this code won't work, because DevExress.Utils.Design.SvgImageEditor doesn't exists. 
+UPDATE:
+Everything is fine and works as expected. My Issue was caused by a missing reference.

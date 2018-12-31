@@ -1,0 +1,5 @@
+Hello,
+Based on a flag , we need to have functionality of including column chooser columns or not while exporting grid data.  Currently, if we export grid data, it only includes visible columns in grid.
+Can you suggest, how we can have this functionality?
+Thanks.
+ 

@@ -1,0 +1,3 @@
+good afternoon 
+I need a help with next question, how can disabled a SnapDocument, by default?, exactly I need that when a user open a SnapCotrol, the system not permit write anything over a document until a user click on new document, that is possible? exists any propertie? or a  a code example? please help me.
+Thanks

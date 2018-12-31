@@ -1,0 +1,3 @@
+Clicking on options such as 'Design in Report Wizard' (definitely happens), Field List (sometimes) and others causes a different window to be highlighted.
+For instance, whilst filling this report flicking back to our application and selecting  "Design in Report Wizard" causes the browser to be re-opened rather than the wizard.  Other times it's our main application from where the designer is launched - so it seems to potentially open the previously active window rather than the expected window.
+We do run the designer in a separate Thread, so it could be that it only does it under these circumstances. 

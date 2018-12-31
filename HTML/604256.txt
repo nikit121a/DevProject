@@ -1,0 +1,7 @@
+Hi, i am facing an issue with the TokenEdit control.
+I initialize the TokenEdit as follows
+ and then i am trying to set the EditValue with data as follows
+and the General classes "Tokens", "TokenListCustomes" and "TokenListCustomer" are the following
+ The problem is that the EditValue has the appropiriate data but it does not show up in the editor. Any help please because i am confused.
+Regards
+Thomas 

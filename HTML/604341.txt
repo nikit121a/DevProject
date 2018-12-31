@@ -1,0 +1,6 @@
+Dear Support,
+i have the following scenario: 
+I am loading the list of objects into the XTraReport DataSource, is there any possibility to set up the Report Template to start from a new page for every item in the DataSource ?
+Thank you in advance for you reply
+Greetings
+Nikola

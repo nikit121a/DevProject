@@ -1,0 +1,4 @@
+Hello, we are currently looking to implement a feature that would limit the number of dashboard elements(widgets) that a user can have per dashboard. In doing this I have been using the DashboardItemControlCreated event, and if adding another widget would exceed the maximum number we have set stop the creation of the new element, and show the user a message explaining what happened. The way I thought at first to do this was to simply dispose of the element that is being added, however this doesn't seem to work.
+The code that I am using is below.
+However, the item is still created. I suspect that this is because that item hasn't been added in yet and thus can't yet be disposed? Regardless, if there is any help as to the proper way of preforming this task I would be very appreciative in any advice that can be given.
+ 

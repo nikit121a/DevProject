@@ -1,0 +1,8 @@
+Hello,
+we use the ThemedWindow  with RibbonControl like this:
+Now we log into a RDP-session (high resolution, high DPI) and start the program. After that we switch the device (other resolution, low/normal DPI) and log into this RDP-session. Windows starts the resize process and after some time the following error occurs:
+Above mentioned error occurs between one and three times before the last error is thrown (Sometimes this error only occurs if you close the window):
+I've attached a sample-project to reproduce this error. The error occurs in DXWindow and DXRibbonWindow too.
+Best regards 
+Sylvio
+ 

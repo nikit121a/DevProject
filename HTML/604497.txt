@@ -1,0 +1,10 @@
+Hi,
+Today we found a issue with the fix point fromat of the number box widget. You can reproduce it with the demo on your homepage (Editors/Number box/Formatting).
+Steps to reproduce:
+1.) delete the default value (13,415.24)
+2.) type 15 into the field
+3.) leave the input field
+4.) give the field the focus
+5.) try to delete the value with backspace
+Now you can on delete until the point the 15 is not possible with backspace.
+ 

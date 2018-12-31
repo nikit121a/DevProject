@@ -1,0 +1,11 @@
+I'm having a weird issue with the DataItemTemplate and binding to properties on my data source specifically after calling the filter builder.
+My grid view is binding via BindToLINQ  to an IQueryable Datasource. Initially the DataBinder.Eval within the template works, however If I use the filter builder button I have enabled in the toolbar and then cancel out of the Filter Builder Window, my DataItemTemplate is missing the DataBinder.Eval data.
+An example would be:
+  
+Initial Grid View render displays the following;
+<a href="/Contact/Edit/123">Test Contact</a>
+After calling the Filter Builder window the column displays the following;
+<a href="/Contact/Edit/">Test Contact</a>
+I see that the field is inserting the value my column's FieldName is set to, specifically ContactName however the Databinder does not seem to evaluate the secondary property on my data source, ContactId.
+All other interactions with the grid is working correctly such as paging, grouping and sorting. This only occurs after calling the Filter Builder.
+ 

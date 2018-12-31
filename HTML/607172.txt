@@ -1,0 +1,6 @@
+In new version something happened with loolups. We use Get text function on dataset to change text to user friendly.
+eg. 
+"This year %yyyy% " => "This year (2018) "
+"Next year %yyyy+1% " => "Next year (2019) "
+Unfortunately after upgrade components we received reports about not formatted values are displayed in lookups. If you dropdown edit then correct value is in list but ones you select some wrong one is in present in edit.
+See my sample project compiled with 16.2.5 (correct)  and 17.2.4 (wrong) 

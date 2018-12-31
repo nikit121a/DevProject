@@ -1,0 +1,20 @@
+I've got a component that displays 3 DxDataGrid. Each grid has its own distinct custom Rest datasource.
+By the first grid,  I have a on/off switch that apply a filter on the first grid.
+When the switch is clicked, the datasource gets reloaded and the grid is expected to be refreshed.
+Instead of displaying the new filtered values of the first grid, all the the 3 grids gets refreshed (each of their data source being queried again !).
+I put some traces and this is what actually happens : 
+1) I click on the switch, on ValueChanged is called and the following code is executed:
+ 2) As a result the data source fetches the correct data from the server, the data is delivered to the browser
+3) It should stop here but it continues and refetch all data of the 3 grids, like if I had click refresh on the browser refresh url button.  I do not understand what happens.
+If I comment the line 
+the filtered data is still fetched from the server, brought back to the browser, but is not displayed in the grid: the grid is not refreshed.
+Hence my question: what is the best approach to refresh a data grid on interactive external filtering ?
+Thank you.
+[EDIT]
+I see now why other data sources are also refreshed: they are indeed linked by look up. Still, I do not understand why once loaded with a filter (clientDataSource.load (... ) ),   it is loaded again after this.
+Would it be possible to add a callback to the load call and do the refresh afterwards ?
+[EDIT2]
+I tried the following : 
+But it only empties the grid : the grid is  filtered but I intend to filter the data from the server via the data source
+Here is the client.component.html file : 
+and the component.ts file : 

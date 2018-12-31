@@ -1,0 +1,8 @@
+Hi,
+I have created a WPF project using scaffolding wizard and selected "Hybrid UI View". I am using "17.2.5" version of DevExpress.
+My ADO.NET Entity model is connected to northwind database which has a "Categories" table..This table has a field "Picture" whose datatype is "image".  
+Scaffolding wizard has created view and View Model for "Categories" table. When I run the project and add a new record with picture, the record get saved in database table. However value of "picture" field is NULL. While adding record when I select image I can see its preview on screen but not sure why the picture is not saved in database. 
+I am attaching source code of my project also copying database "Northwind2010" in root folder.  
+Could you please fix the issue and share the updated source code as soon as possible?
+Thanks
+Lokendra Kushwah 

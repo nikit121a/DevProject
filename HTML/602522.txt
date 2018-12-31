@@ -1,0 +1,14 @@
+Hello,
+I Using WPF MVVM Pattern.
+I Have one Gridview in that bound Employee List.
+I want when I double click on any Row  of Employee List Grid that time Navigate on another view.
+That view include detail information about that employee.
+Your Devexpress Demo have that type of example but that code I don't understand
+This example in Touch Enable Hybrid App. in Employee Tab.I want that type of functionality.
+In my code when I run my application and double click on Grid row I getting that error
+on GetService <INavigationService>
+An exception of type 'DevExpress.Mvvm.POCO.ViewModelSourceException' occurred in DevExpress.Mvvm.v17.2.dll but was not handled in user code
+Here is my code.
+Employee Main View
+Employee Main View Model
+ 

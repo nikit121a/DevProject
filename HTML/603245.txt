@@ -1,0 +1,4 @@
+Does DevExtreme provide a responsive grid system? I want to build an app that designed mobile first but I need the media queries an breakpoints.
+Is there any documentation on this?
+Thank you, 
+OScar 

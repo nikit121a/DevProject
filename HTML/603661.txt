@@ -1,0 +1,14 @@
+Hi,
+ I would like to use the ChartControl SaveToFile / LoadFromFile feature, but every time I try to load the chart layout the following message is displayed :
+ 
+Please use the attached sample to reproduce the problem. 
+Steps to reproduce :
+- Run the application
+- Chose Open  ribbon button and select the 'DashboardChartSample.xml' file
+A chart with data is displayed
+- Clic the 'Restore Chart Layout' button located to the right of the ribbon
+- Select the 'chart_172011_1.xml' and clic Open
+The 'cannot be rendered' message is displayed
+You can try to export and load your own layout file using the 'Save Chart Layout'.
+How can I fix the problem ?
+Thanks

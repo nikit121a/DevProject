@@ -1,0 +1,9 @@
+Hello
+I have a GridColumn 
+
+
+
+
+Passing the correct field name and data context to converter.
+but the FieldName appeares : 
+is it possible to get just the property name "PropertyName"

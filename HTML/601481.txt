@@ -1,0 +1,20 @@
+Hello,
+I'm working on an GridControl with an GridView running in ServerMode per 
+.
+As described in the 
+-Article, I tried to retreive the Value with the OperationCompleted-delegate, but it doesn't get called.
+Is there any Way to retreive the visible Rows Keys that doesn't need to load the full Objects from the Queryable-Source?
+My current (not working) Code is the following: 
+I've another piece of code that iterates the Grid-Handles and forces the Grid to load the Objects. But I can't use this since it's too slow and needs to load the whole Objects anyway.
+I made it to get the visible Entity Ids by using the DevExpress internal classes.
+1. Can I get the IDs without additional queries? 
+    I think the current way how I obtained the ids isn't very good, since the LinqServerModeCore runs multiple queries    
+2. Can I get the IDs with applying the GridView's Column-Sortings?
+    Since the user will use the IDs in the order like displayed in the grid, it's required to get them as display.
+Thank you in advance for your efford.
+Now I made it to get the IDs in the correct Order, depending on the current Filters and Sortings made in the GridView.
+I get the IDs in the correct Order with applied Filtering. Everything behaves same as the GridView. 
+I'm stuck at applying the GridViews groupings to my IQueryable-Source.
+:
+I've tried to merge several OperandProperties with CriteriaOperator.And() but it gives me an Exception while converting it to an Expression.
+Thank you in advance for your efford.

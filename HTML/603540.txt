@@ -1,0 +1,8 @@
+Hello Support,
+Can you please help in finding answers of below questions:
+1. Is it possible to  use scripting with ExecutionMode.Restricted in MVC 5 without going thorough you mentioned here ?
+Basically We do not want to run Report Viewer & Designer in separate domain.
+2. Is it possible to enable scripting in report designer conditional. I want to enable it for only specific users and it should be hidden for rest of the users ?
+3.  Is it possible to implement some sort of validation in script editor, so user can write only report related stuff like lable's BeforePrint event and so on ?
+User should not able to write stuff like delete files, start some new process, etc.
+Than You. 

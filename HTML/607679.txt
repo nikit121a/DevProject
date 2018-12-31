@@ -1,0 +1,5 @@
+I have an application where the selected appointment is highlighted in the Scheduler control but the user wants it to be more eye catching with big and bright border.
+i looked upon the below link for the same but could not get the steps properly.
+ 
+can you provide me the steps for this how to change the width and color of the border of the selected appointment.
+ 

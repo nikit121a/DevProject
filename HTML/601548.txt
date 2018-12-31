@@ -1,0 +1,7 @@
+Hi,
+I am trying to arrange some dxbuttons in a view by using dxResponsiveBox. This works as long as I don't try to use event handlers.
+But as soon as i use an event handler, it get an error claiming that the event handler is not defined.
+This is my .dxview file:
+This is my .js file:
+If I take the button out of the ResponsiveBox, everything works.
+ What am I doing wrong here? 

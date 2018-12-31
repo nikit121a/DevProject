@@ -1,0 +1,4 @@
+Hi,
+I have a dxdatagrid and I use filter row. I want to make a filter about 2 values in the same column.
+How can I do this?
+ 

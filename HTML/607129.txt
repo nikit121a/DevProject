@@ -1,0 +1,6 @@
+Hi,
+I am using your MVC Dashboard, and in the dashboard I have a Grid and a Bubble Map Item.  I enabled Cross-Data-Source-Filtering in the Grid, so when I click a row in the grid, the Bubbles on the map gets updated.
+However, if the map is zoomed to England for example, and then I click a row in the grid, for which the coordinates are in Denmark, then the map is not set and zoomed automatically to Denmark, and the end-user would have to manually zoom out and zoom in to Denmark in order to see the bubbles in Denmark map.
+Is there any way to make this automatic? 
+Best regards,
+Fadi 

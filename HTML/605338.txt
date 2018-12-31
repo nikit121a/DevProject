@@ -1,0 +1,5 @@
+Loading attached html-file:
+MailView.LoadDocument('body.html', TdxRichEditDocumentFormat.Html);
+I get an AV.
+This html File I extract from an eml - file using Indy.
+Frank Reim 

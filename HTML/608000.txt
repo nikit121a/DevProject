@@ -1,0 +1,3 @@
+Hello Dear Andrey,
+I implemented what you say, and it is working but another problem is that; The value I selected by filtering, if a second filter does not contain that value, the filter I first selected disappears. I attached a video which i described.
+Thanks for your help and support. 

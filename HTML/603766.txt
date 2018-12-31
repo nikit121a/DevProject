@@ -1,0 +1,37 @@
+HI.
+I need to add extra columns to an existing ASPxTreelist  at runtime.  I use the code below.
+ Private Sub buildASPxTreeList(ByVal pl As Model.Reports.Report)
+        ASPxTreeList1.Caption = pl.ReportTitles(0).ToString + vbNewLine + pl.ReportTitles(1).ToString + vbNewLine + pl.ReportTitles(2).ToString
+        For i = 1 To pl.Rows.Item(0).Cells.Count - 1
+            If i = 1 Then
+                ASPxTreeList1.Columns.Item(3).Caption = pl.Rows(0).Cells(i).Value
+            Else
+                Dim col As New TreeListTextColumn
+                col.Caption = pl.Rows(0).Cells(i).Value
+                ASPxTreeList1.Columns.TreeList.Columns.Insert(ASPxTreeList1.Columns.Count, col)
+            End If
+        Next
+    End Sub
+My ASPxTreeList is setup as per below.
+<dx:ASPxTreeList ID="ASPxTreeList1" runat="server" ClientInstanceName="treeList" AutoGenerateColumns="False"
+     KeyFieldName="Id" ParentFieldName="ParentId" Width="75%" > <%--these properties--%>
+    <Columns>                
+        <dx:TreeListTextColumn FieldName="Id" VisibleIndex="1" Visible="false">
+        </dx:TreeListTextColumn>
+        <dx:TreeListTextColumn FieldName="ParentId" VisibleIndex="2" Visible="false">
+        </dx:TreeListTextColumn>
+        <dx:TreeListTextColumn FieldName="String" VisibleIndex="3">
+        </dx:TreeListTextColumn>   
+         <dx:TreeListTextColumn FieldName="Value" VisibleIndex="4">
+        </dx:TreeListTextColumn>  
+    </Columns>
+       <Settings GridLines="Horizontal" SuppressOuterGridLines="True" />
+       <Images>
+           <ExpandedButton Width="0px">
+           </ExpandedButton>
+       </Images>
+</dx:ASPxTreeList>
+The issue I have is the frist column added is always in the incorrect place ( First Column), all the rest of the new columns are placed correctly (Last Column) as per atttachment.
+What am I doing wrong?
+Regards
+Phillip 

@@ -1,0 +1,2 @@
+Hi ,
+ I want to save the data from customAppointmentEditForm as well as   It should reflects newly created appointment when hit save button from customAppointmentEditForm . I donot want to reassign the data source to the scheduler control because i have thousands of records so it will take time. Is there any solution for that?

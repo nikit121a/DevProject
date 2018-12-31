@@ -1,0 +1,4 @@
+Hi,
+Would you guide me on how resize and image before storing it to the database. I am have a library that can resize and image and return it in Image format but my question is how do i intercept the uploaded image, resize it and then pass it forward to the database in context of XPO / XAF.
+Below logic is what I thought off. Do you think it is alright to do it like this?
+ 

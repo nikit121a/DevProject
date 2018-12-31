@@ -1,0 +1,5 @@
+Hi,
+I use Devexpress.XtraBars.Bar and I have a problem with event ItemClick.
+How prevent a double click on BartItem ? Because when an user double click on a bartitem, the "ItemClick" event is executed many times.
+Best regards,
+Karim 

@@ -1,0 +1,3 @@
+ Hi
+I wanted to know how to save MVCxGridView.FilterExpression as a string to the database and be able to restore it to the grid, I have tried saving the bottom text that is displayed as a link but applying it to MVCxGridView.FilterExpression does not work its give an error saying the expression has some syntax error, I think this means that that link text is compatible or is not in the syntax that the MVCxGridView.FilterExpression accepts, I also used CriteriaOperator.Parse().
+Thank you 

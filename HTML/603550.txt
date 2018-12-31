@@ -1,0 +1,6 @@
+Hi DevExpress,
+I'm currently testing your Xamarin grid. My goal is to add several buttons to each row. I used your 
+ sample and it seems to be working. However, if grid has set RowEditMode to Popup, ScreenArea or GridArea and I double-tap to invoke the edit mode, I get NullReferenceException exception.
+Attached please find my demo app. Am I missing something or is it a bug? I'm using latest Xamarin.Forms version.
+Kind regards
+Peter 

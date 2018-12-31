@@ -1,0 +1,4 @@
+Hi,
+I ran the sample project below but didn't understand why the changes were not stored upon leaving the cell. Is it something wrong with the code, or am I missing something?
+Thanks and regards,
+JC 

@@ -1,0 +1,11 @@
+Hello,
+We have an issue with the Grid Control FormatCondition when attempting to align the Icon at the left of the text.
+I have seen in a post that you suggest to use the  HorizontalContentAlignment = "Right". This solution does not work. (Left or Right)
+To set the UI, we are using resourcedictionary to add data to the grid control through a dataset.
+DEFAULT GRID COLUMN
+ICON SET TEMPLATE
+The Window in XAML
+How can we align the icon at the left. It used as a visual info  about the content of the cell?
+As you can see in the image below, we are managing background and icons as planned except for the icon position.
+Thank you for your help
+Pierre

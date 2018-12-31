@@ -1,0 +1,4 @@
+
+Hello!
+I have another issue with the CustomDrawColumnHeader and CustomDrawBandHeader, where i simply would like to change the background color, but it seems that this is overridden by some standard - Handler. 
+In general I would like to avoid to set handled to true and implement all the drawing myself...

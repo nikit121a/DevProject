@@ -1,0 +1,8 @@
+Hi,
+I'm using Angular 5 with DevExtreme Angular
+I currently have a button that invokes validation like this via the 'onClick'
+ 
+One of the items being validated is a DxTextBox.    I have recently hooked the 'onEnterKey' from this component.
+I cannot figure out how to invoke the validation group using the  event passed in.   In general how can I invoke the validation group for a page without it be directly called from a button.   Get it from the instance of the button?
+Thanks,
+Nick H 

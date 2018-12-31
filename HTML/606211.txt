@@ -1,0 +1,4 @@
+Hi,
+when I try to change font face to Wingdings 2 using code below it works. But when I load any xlsx file (freshly created in Excel 2007) and try to do the same for any cell, it is not changed. For some other fonts it worked ok.
+Cell stores new font name but is not rendered correctly. It seems that this font is not seen after loading file.
+  

@@ -1,0 +1,8 @@
+Hello, i have problems with memory leak. Can you please assist me address this issue.
+I use SciTech .NET Memory Profiler, and get the following information:
+ 
+The Form (frmLieferantenPlanung) and the XtraGrid.GridControl (DXBandedGrid) is disposed, but cant be collected from GC. The next item not disposed seems to be AdvBandedGridViewInfo..
+I'm using inheritance and complex UserControl mechanics, so i cant simply create a test-application for you to reproduce this...
+I found other issues of this type reported in your forum, and worked through the "solutions", but still cant address my issue.. I'm disposing my UserControls correctly etc.
+Greetings
+Yannik

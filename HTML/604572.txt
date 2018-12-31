@@ -1,0 +1,1 @@
+In English locale there is Day name in the header. But in Danish there is no name, only the number. How to make it display the day name in Danish?

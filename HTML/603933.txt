@@ -1,0 +1,2 @@
+Hi:
+    Iit needs twenty to thirty seconds to open a Excel file of  50*30000 datas,while it only needs one second with the use of  f1book61 .

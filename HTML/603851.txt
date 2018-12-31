@@ -1,0 +1,5 @@
+I have a Grid View and implementing batch editing.
+One column is a bit/bool field called  "Acknowledge" displayed as a checkbox in the grid.
+I want the user to be able to check it but not uncheck it.
+ The logic is that the record can be "acknowledged/completed" but not "Unacknowledged/uncompleted".
+How can I do this? 

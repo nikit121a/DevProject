@@ -1,0 +1,10 @@
+We have a product that was started well before we began using DevExpress. It is a standard .NET WinForms application. Therefore, a lot of the older dialogs and other windows use the regular System WinForms.
+After we began using DevExpress, quite a number of new dialogs/windows have been added using the DevExpress XtraForm type.
+With DevExpress 16.1.7 (our "current" version), both the System WinForms windows and the XtraForm windows have the same look. (The title bars will take on the appearance from the OS.)
+I tried updating to 17.2.5, and with that all the XtraForm windows have the Default "DevExpress Style" look to them, which differentiates them from the rest of the application. I've tried numerous ways to force them back to using the OS appearance, but I have not been successful. (Other than assigning them some "skin" that looks like the OS. But, of course, I'm on Windows 10, many of our clients will be on Windows 7, 8, OR 10. So again, we'd have inconsistencies.) 
+We did not use DevExpress for skins, so this has created a bit of a problem if we decide to carry through with the upgrade.
+So, is there a way to NOT have XtraForm windows use "skins" with 17.2.5?
+Thanks,
+Kurt  Septon
+Software Developer
+Solutelia, LLC 

@@ -1,0 +1,9 @@
+Hi Devextreme support,
+I have read, that it is possible to  have f.x. dash-dot-dash series lines in a SeriesType.StepLine chart in MVC.
+In the documentation it is explained:
+Displays constant lines by repeating the specified combination. For example, 
+.
+In MVC I have tried this: .DashStyle(DashStyle.Dash & DashStyle.Dot & DashStyle.Dash)
+But that is not working, can you please send me an example in MVC with For example, 
+. 
+ 

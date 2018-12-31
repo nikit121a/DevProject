@@ -1,0 +1,6 @@
+Hello,
+I created a form with a tilecontrol. Within the tilecontrol I show directories on a hard disk orderd by a-z. On the  form I also have buttons with the characters a-z. I want to jump to the first tileitem with started with "d" when I presse the "D" button.
+Is there a method availale which allows me to jump to the first "d" tileitem or do I need to go thru all tileitems and check whether it starts with "d" and select it manually ?
+I attached a screenshot how the form looks like.
+Thanks and regards
+Uwe

@@ -1,0 +1,4 @@
+I have a simple DevExpress.XtraBars.Ribbon.RibbonControl with few barbuttonitems in it. It doesnt have borders on left or right. Is there any setting which would give it borders so that it gives a nice enclosing look? Right now it those lines look half-hearted :)
+I am using the theme "Office 2013"
+Please find the screenshot: 
+ 

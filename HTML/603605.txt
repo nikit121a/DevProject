@@ -1,0 +1,8 @@
+hello,
+i have a issue with the cpu load if any wpf-page with datagrid inside is displaying .
+the cpu load ist between 60% to 80% of the UI-thread.
+please see the attached screenshots.
+you know the issue?
+is this ok or what can i do?
+thanks, andy
+ 

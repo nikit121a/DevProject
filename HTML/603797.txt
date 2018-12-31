@@ -1,0 +1,1 @@
+I added a ContextMenu to a form in order to be able to display some options on a button (simplebutton). The button has a setting for Look&Feel, and I set that to DefaultLook&Feel. But the ContextMenu, which I attached to the button, doesn't have a Look&Feel property (that I could find) and therefore doesn't provide the proper colors for the ContextMenu.

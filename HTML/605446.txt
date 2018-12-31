@@ -1,0 +1,10 @@
+When using filters based on a suffix with wildcard (i.e. not just an extension), it seem to ignore the extra information.  A sample is as follows:
+            using (XtraOpenFileDialog of = new XtraOpenFileDialog())
+            {
+                of.Filter = "Archives (*.project.7zip,*.project.txt)|*.project.7zip;*.project.txt";
+                of.ShowDialog();
+                return of.FileName;
+            }
+This results incorrectly in all TXT and 7ZIP files being listed - ignoring the "project" component of the filter.
+:  Using the standard OpenFileDialog works.   
+ 

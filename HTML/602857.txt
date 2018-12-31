@@ -1,0 +1,5 @@
+I want to use flyoutpanel to simulate a popup menu, because i want to add some sepecial items in it. for example, i want to add a search box to filter the menu items. so i create a flyout panel, set it close outer click to true. it works but some small problems.
+1. if it popup, i can't close the form directly(to close form, first click hide the flyoutpanel, second click close the form). i think the flyoutpanel hide the click event for parent form. 
+2. the same as first one, i want to show the flyoutpanel again when i click in the form.but in this case, it just hide the flyoutpanel.
+the demo is my example code, thank you.
+ 

@@ -1,0 +1,2 @@
+Hi, sometimes i accidentaly drag butons from bar in designer. The button is still on form somwhere (i can see it in designer) but i cannot see it anyhwere on bar. 
+How can i link button again to chooser toolbar  ? 

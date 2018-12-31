@@ -1,0 +1,4 @@
+Hello, question, can I use CachedDataStoreService and DataStoreService in same Prozess?
+In my solution I do create in same WindowsService (same process) one WCF web service exposing CachedDataStoreService and another one exposing DataStoreService (with different port and URI)
+The point is, the XpoDefault.DataLayer is initialized once - for both services. Code snippet below, the "helper.Connect" method is ignoring the second call.
+Thanks, BR, Peter

@@ -1,0 +1,29 @@
+I'm following an example for creating a radiobutton column with single selection in a DevExpress gridview/control.  I understand how the code is supposed to work (using an unbound column to determine the boolean state of the selected row), but I cannot get the control/view to call my unbound column data handler.  It's very difficult for me to untangle the code from the data infrastructure, but here are the relevant bits:
+Gridview creation:
+            _gridView = new GridView();
+            // Remove lots of options so that it's mainly just a table
+            _gridView.OptionsView.ShowAutoFilterRow = false;
+            _gridView.OptionsView.ShowDetailButtons = false;
+            _gridView.OptionsView.ShowFilterPanelMode =
+                          DevExpress.XtraGrid.Views.Base.ShowFilterPanelMode.Never;
+            _gridView.OptionsView.ShowFooter = false;
+            _gridView.OptionsView.ShowGroupPanel = false;
+            _gridView.OptionsView.ShowIndicator = false;
+            _gridView.OptionsSelection.EnableAppearanceFocusedCell = false;
+            _gridView.FocusRectStyle = DrawFocusRectStyle.None;
+            _gridView.CustomUnboundColumnData += CustomUnboundColumnData;
+Radio column:
+                _radioItem = new RepositoryItemCheckEdit();
+                _radioItem.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
+                _radioItem.EditValueChanged += RadioSelectionChanged;
+                _radioColumn = new GridColumn();
+                _radioColumn.Caption = "";
+                _radioColumn.ColumnEdit = _radioItem;
+                _radioColumn.OptionsFilter.AllowFilter = false;
+                _radioColumn.MaxWidth = 20;
+                _radioColumn.UnboundType = DevExpress.Data.UnboundColumnType.Boolean;
+                _radioColumn.Visible = true;
+                _gridView.Columns.Add(_radioColumn);
+It creates a gridcontrol with the above view and a 'regular' DataTable containing static row data that is added based on other operations.   It calls _gridView.RefreshData() anytime a new row is added to the data table.
+However, my CustomUnboundColumnData handler is never called.  So, unfortunately, I can't handle the dynamic retrieval and binding of the unbound radio button changes.   The RadioSelectionChanged call does occur (just calls _gridView.PostEditor()) and the radio buttons are there, it just seems that the unbound data mechanism is broken for no apparent reason...
+ 

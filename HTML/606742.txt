@@ -1,0 +1,2 @@
+Hi Team,
+We are planning to host our webapplication with devexpress controls to IBM cloud , will this be supported or do we have any additional settings ? 

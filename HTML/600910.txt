@@ -1,0 +1,5 @@
+I have a combobox with incremental filtering which seems to be adding spaces on either side of the matched substring during dislplay. See attached photo. This makes it hard to read. Is there a way to modify the behavior to ether eliminate the highlight entirely or highlight just the substring without adding any spaces to either side?
+Here is my combobox:
+ 
+And here is my controller to retrieve data:
+Thanks 

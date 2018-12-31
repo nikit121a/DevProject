@@ -1,0 +1,5 @@
+
+
+To complete my use case I would also like drag-and-drop to work within the Accordion (i.e. Rearrange elements).  How can this be done since AccordionControl does not have events DropRecord and DragRecordOver you demonstrated?  Building upon the previous VS solution would be great if possible.
+Thanks again,
+aidesigner

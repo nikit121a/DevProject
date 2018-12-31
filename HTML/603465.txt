@@ -1,0 +1,19 @@
+
+                                This example demonstrates how to use 
+ charts when printing a 
+ containing embedded charts or exporting it to PDF in a 
+ application.
+To accomplish this task, add a reference to the 
+ assembly and register the following services using the 
+ method:
+ 
+ 
+ 
+To print the document or export it to PDF, use the 
+ or 
+  method, respectively.
+The
+ or an additional 
+ is required to use this example in production code. Please refer to the 
+ page for pricing information.
+                            

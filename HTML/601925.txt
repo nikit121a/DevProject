@@ -1,0 +1,2 @@
+In my MVC project, I use DevExpress theme specified in web.config file.
+Is it possible to apply different themes on different areas in my MVC project?

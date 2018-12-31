@@ -1,0 +1,4 @@
+Hello,
+I am working with the Dev Extreme  Scheduler in Angular 5. I have a quick question that the person I asked in the chat window was unable to answer and advised me to contact you. I am looking for a way to set only certain dates/times as selectable or unselectable. Not just a min/max, as I do see that capability, but instead setting it up so, say, an appointment can only be made within a certain block of time on a particular Monday, a different block on a Wednesday, etc? Or, An appointment can be made anytime, *except for during certain blocks of time. How would I go about doing that?
+Thank you,
+Amanda 

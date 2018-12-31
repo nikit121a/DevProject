@@ -1,0 +1,13 @@
+Hai,
+Can i use like shown below.If yes how can I retrive full grid data.And on dropdown box selection change how to set value to row and how can i assign datasource of dropdownbox of different colomn.
+
+
+
+
+
+
+
+
+Please give me a solution as early as possible
+By
+Niyas

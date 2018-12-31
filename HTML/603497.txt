@@ -1,0 +1,9 @@
+Hi, 
+I want to make a scenario with cascading comboboxes. I have a page that i am using for insert and update new data . But there are cascading comboboxes inside it. The inserting is ok but when i try to update the data the model binding is not working that i am expected. 
+I am filling the model and passing it to the combobox partials . I want  to fill all the combobox data and select the id that i sent from my model. 
+This is my first combobox
+In this first combobox i am assigning the value that i get from the model. And on combobox init i perform a callback to other combobox to fill the data 
+But after filling the second combobox i can't assign the value that i get from the model . This is my second combobox
+And this is my screencast 
+Can you provide me a working sample please about this scenario. Thank you so much.
+ 

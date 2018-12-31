@@ -1,0 +1,4 @@
+Hi,
+We are using the xpf navigation controls and wondered how we can reduce the  size of the border around each of the TileNavItem & TileNavSubItem controls.
+If you look at the screen shot below, you will see our preferred layout ,
+Thanks in advance 

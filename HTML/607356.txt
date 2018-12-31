@@ -1,0 +1,4 @@
+Hello!
+I have a problem, while loading the data in the grid, I click on the Add button that is to add records to the grid in the popup, when it finishes loading it shows me the grid all messy, the columns are no longer aligned (in the grid It fit the 14 columns occupying all the space). 
+After I change the page and the problem is again replicated without me pressing any other button. 
+How can I correct it? I attached the video (the same thing happens in Chrome and Firefox).

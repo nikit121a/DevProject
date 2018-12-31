@@ -1,0 +1,12 @@
+Hi,
+I am using filter control in standalone mode. I need to make the column collections to be case insensitive.
+I created one datacolumn collection in datatable with columnames and types
+I bind the datacolumn collection (datatable) to filter control's source control.
+When I make changes in filter field , then the operator dropdown becomes invalid.
+e.g.
+Filterfield : LOANMASTER|FIELD
+DataColumn field : LoanMaster|Field , Type- String.
+In above cases , I need the operator dropdown to be visible in all cases whether the field names are in upper/lower/camel cased.
+Can you please help me in this
+Thanks
+Ajit

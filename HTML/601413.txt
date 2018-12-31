@@ -1,0 +1,23 @@
+Hi,
+I am dynamically generating Document panels as tabs using MVVM.
+I have derived a custom control from DocumentPanel and have added some custom properties to it.  
+public class DynamicDocumentPanel : DocumentPanel
+    {
+        static DynamicDocumentPanel()
+        {
+        }
+    }
+And then added default style to it using resource:  
+ <Style TargetType="{x:Type controls:DynamicDocumentPanel}" BasedOn="{StaticResource {themes:DefaultStyleThemeKey FullName=DevExpress.Xpf.Docking.DocumentPanel}}" >
+        <Setter Property="Caption" Value="{Binding Caption}" />
+        <Setter Property="ShowCloseButton" Value="False" />
+        <Setter Property="IsActive" Value="{Binding IsActive}" />
+        <Setter Property="ClosingBehavior" Value="ImmediatelyRemove" />
+        <Setter Property="CloseCommand" Value="{Binding CloseTickerSnapCommand}"/>
+        <Setter Property="IsTabStop" Value="True"></Setter>
+    </Style>
+Now my question how can I apply this custom DocumentPanel to the document group , so that instead of a list of document panels I get my list of 
+custom document panels.
+Thanks,
+Sanjay
+ 

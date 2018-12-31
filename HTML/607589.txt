@@ -1,0 +1,17 @@
+Hi! I've faced very strange issue with the table being incorrectly rendered when it is split over two pages.
+We are using subreports to crate isolated table-like part with 
+ and 
+ in our reports. 
+When it happens that 
+ does not fit the page - then it and the page header are cut and split across two pages.
+See an attached example. 
+I've fond a lot of similar tickets but none of the approaches helped to solve the issue. I've tried to:
+- set 
+ to Smart on both root report and subreport  - as 
+- set KeepTogether  to True on all tables, table rows and table cells - as 
+ and 
+(we have higher version so I expect that I do not need any patch)
+There is also one 
+, but it is a little bit old. 
+While I was experimenting with this issue I found a strange case - it is not reproduced if there is some content before the subreport control (e.g. other labels). So for now I'm just adding empty label of 5px height (minimum that I was able to achieve) to avoid this. But for me this solution seems not reliable. 
+Could you suggest some better way to fix this issue? 

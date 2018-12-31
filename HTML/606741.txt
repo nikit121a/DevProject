@@ -1,0 +1,21 @@
+Hey
+We're buiding a angular 5 application and are interested in devextreme pivot grid. 
+ When we present a pivot,
+we'd like to use our own components to present data (observable, async) (angular-way)
+Is there a way, or are there plans to do 
+stuff like implemented in  datagrid?
+a really nice approach would be if we could do something like this:
+fields: [{
+                caption: 'Employee',
+                dataField: 'employeeId',
+                area: 'row',
+                 dataType: 'customEmployeeNameType'
+            }]
+<dx-pivot-grid>
+    <div *dxTemplate="let data of 'customEmployeeNameType'">
+        {{(data.value | idToEmployee | async)?.employeeName | displayableNameToString}}
+    </div>
+</dx-pivot-grid>
+We've already seen that we could use  events like format, customizeText, selector etc. but all events have string applied as return type. But we need async stuff...
+Thx in advance
+David 

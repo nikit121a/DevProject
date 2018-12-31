@@ -1,0 +1,13 @@
+Hi ,
+I am using data-grid and in one column I just want user to input numbers. I tried using dataType ="number" but it  allows user to enter decimal point and comma as well. I want to disable user from entering comma in this number field. I tried using numeric type validation rules but it's not applying here. Using 
+approach how can I achieve this?
+In HTML:
+<dxi-column id="gridSpotLength" width="7%"
+ caption="Length of Spot (Seconds)"
+ dataField="lengthOfSpot" dataType="number">
+ <dxi-validation-rule type="pattern"
+ [pattern]="numberPattern"
+ message="Comma and Alphabets are not allowed"></dxi-validation-rule>
+ In .ts (TypeScript) file: 
+numberPattern: any = /^\d+([.]\d+)?$/;
+ 

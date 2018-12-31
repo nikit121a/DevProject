@@ -1,0 +1,5 @@
+Hi
+This looks very interesting with 
+Questions:
+- Anyway to link instead to a Range Filer? I.e. ea customsql or stored procedure parameter to a range filter?
+- If i use the custom parameter, will it automatically add the paramters to the  dashboard?

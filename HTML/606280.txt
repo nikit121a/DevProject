@@ -1,0 +1,14 @@
+Hi,
+I'm using the TcxColorComboBox to display several colors in the drop down menu.
+The TcxColorComboBox is made of two parts, the box filled with the color and its name. This is my situation:
+[ YELLOW ]   clYellow                                     (starting color)
+[ BLACK ]   clBlack
+[ YELLOW  ]   clYellow
+[ RED ]   clRed
+[ LIME ]   clLime
+[ COLOR] By Layer <--------------------------- I need the color box of this row   to be filled with BLACK, YELLOW, RED or LIME named as By Layer.
+In this way, I can have two rows with the same color box but with different names.
+Apparently, the TcxColorComboBox doesn't allow me to display the same color more time in the drop down.
+Is it possible to achieve this?
+Cordially,
+Gianluigi 

@@ -1,0 +1,7 @@
+I have created an repx with a schema datasource that points to CustomEventList (BindingList) class that is returned to the objectdatasource for scheduler.
+ Whether I use ObjectDataSource.Select() or create a new CustomEventList from ObjectDataSource.Select() and pass it to the report DataSource, I get the same results:
+-  If I don't set the DataMember, then only 1 record is shown in the print preview.
+-  If I set the DataMember, then I receive this error message:
+An object assigned to the DataSource property cannot be used as a report's datasource, because it does not implement any of supported interfaces.
+ 
+ 

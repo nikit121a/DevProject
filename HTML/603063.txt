@@ -1,0 +1,11 @@
+Dear,
+I've a simple  ASPxComboBox with AutoPostBack=true and OnValueChanged server side.
+When normally change value of ComboBox  it's works well.
+Now, I must do something on client side, for example with SetSelectedIndex.
+When I must SetSelectedIndex I see combo changed but not fire OnValueChanged server side.
+I've try use call PerformCallback on client side, in this case OnValueChanged server side fired but SelectedItem on server side is null.
+I've try use AutoPostBack=false with SelectedIndexChanged="function(s, e) { e.processOnServer=true; }" /> but i've same effect.  
+Why ?!?
+Regards,
+Rinaldo
+ 

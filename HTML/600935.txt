@@ -1,0 +1,4 @@
+I'd like to put badges on dxBar Submenu Item (type tdxbarbutton) (in order to realiize a classic menu)
+tdxbar -> tdxbarsubitem is shown in Target/path for Badge
+Cannot define / access tdxbarbutton (via tdxbar -> tdxbarsubitem->itemlinks, used to buildd a submenu).
+Any way to achieve this ?

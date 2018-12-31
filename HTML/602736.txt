@@ -1,0 +1,4 @@
+Hi DevExpress,
+I'm using the DateEditPickerStyleSettings and I have defined the MaxValue - Property and I wanted to ask you if it is possible to hide values outside of MaxValue?
+Thanks
+Christian 

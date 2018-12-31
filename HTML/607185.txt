@@ -1,0 +1,7 @@
+Hi,
+I have a problem with the "format" option of a dxDataGrid.
+In a multilingual context, I can not dynamically pass neither the value "currency" nor the value "precision", because they are different for each row of the table.
+At this point I managed the currency in the option "calculateCellValue", with the "formatter" of "Globalize". But when I go to exprtare the data in an excel file, these come back as strings, while I would need to read them as numbers.
+Could you help me to understand how to implement the "format" option passing dynamically both the "currency" and the "precision" option?
+Best regards.
+ 

@@ -1,0 +1,4 @@
+Hi,
+We facing an issue with loading data and filtering data in combo box. Spinning loading icon displaying continuously on dropdown scroll and Filtering the data.  Please find the attachment for code details. 
+Thanks,
+Krishna Kishore

@@ -1,0 +1,2 @@
+Hello!
+What shoud I do if I want to hide a string name of selected color in PopupColorEdit and show only a chip ?

@@ -1,0 +1,6 @@
+Hi,
+I am trying to bind dashboard to sql query
+My code:
+I get no errors, but I also get no data.
+What am I missing ?
+Thanks

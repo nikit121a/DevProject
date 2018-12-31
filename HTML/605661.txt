@@ -1,0 +1,7 @@
+Hi,
+I have created one DevExpress report.
+In a preview mode it works fine. it shows the parameter and gives me the option to select multiple values including select ALL on top.
+but when i run the report in browser, i dont see select all option.
+how can i enable select all option there in parameter.
+i have placed some screen pictures here
+ 

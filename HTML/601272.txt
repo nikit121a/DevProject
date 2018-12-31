@@ -1,0 +1,6 @@
+Hi Devexpress
+We have a render problem with certain docx made with MS Office 2016.
+I can open it with MS Office 2010 et MS Office 2016, but when i try to open it with any version of WPF component of the RichEdit (i even try with the demo of your last version 17.2.5) the render is not the same.
+Please see the attachment and tell us if there is something to do with it ?
+All the Best
+Jean LORDET 

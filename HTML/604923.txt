@@ -1,0 +1,8 @@
+Hi,
+I have following szenario:
+Datasource with List of Devices (ObjectBinding; each has many partitions -> each partition has the properties Name (string), occupied space (int) and free space  (int))
+now I want to create a chart in a snaplist (below the device) which shows for each partion one pie with occupied and free space in relation to each other.
+How can I do this? The whole thing should be possible to be done by the user (so it has to work in the chart designer)
+Thanks in advance for your help
+kind regards
+Stefan

@@ -1,0 +1,3 @@
+After updating to 17.2.4 I notice small vertical bars appearing in front of the appointment captions (e.g. week view). See attached image.
+They are associated with the Free/Busy/... state
+How do I enable/disable these?

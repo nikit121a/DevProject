@@ -1,0 +1,17 @@
+Hi,
+according to the documentation, it should be possible to access all items in the DataSource like this:
+    const items = $("#gridContainer").dxDataGrid("instance").option("dataSource").items();
+BUT I recieve this error:
+myvacantwatches.js:28 Uncaught TypeError: $(...).dxDataGrid(...).option(...).items is not a function     at t.onClick (myvacantwatches.js:28)     at Object.execute (dx.all.js:13)     at t._executeAction (dx.all.js:13)     at t.execute (dx.all.js:13)     at t.<anonymous> (dx.all.js:12)     at t.l [as _clickAction] (dx.all.js:12)     at t._executeClickAction (dx.all.js:25)     at HTMLDivElement.<anonymous> (dx.all.js:25)     at HTMLDivElement.dispatch (jquery-3.2.1.slim.min.js:3)     at HTMLDivElement.q.handle (jquery-3.2.1.slim.min.js:3) 
+The data source object is created this way:
+           fetch(curUrl)
+                  .then(data => {
+                      return data.json();
+                  }).then(result => {
+                    watchesStore = new DevExpress.data.ArrayStore(result);
+                    $("#gridContainer").dxDataGrid("instance").option("dataSource", watchesStore);
+                  });
+And all the data is shown perfectly.
+What am I missing?
+Regards,
+Joar Olsen 

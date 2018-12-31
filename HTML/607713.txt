@@ -1,0 +1,4 @@
+Hi, i change select item repositoryitemlookupedit 1 and change datasource repositoryitemlookupedit 2.
+But its changing all rows. 
+How to solve this problem.
+Thanks. 

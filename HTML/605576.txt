@@ -1,0 +1,4 @@
+We are having troubles to automatically have the focus set back to the dropdown list, when selecting a value from the dropdown.
+You can check it in the a demo provided by your side:
+You can see that when you open the dropdown to make a selection, then use the mouse to select an entry, the dropdown closes, but the focus is not back to the dx-texteditor-input, but it is probably on the element (popup) which is hidden. This means that nothing is focused. When pressing the tab key it will focus the first element on the page.
+ 

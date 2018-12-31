@@ -1,0 +1,6 @@
+Hello,
+I would be happy if you could give an example of what I need -
+My requirement is to let the user define a list of the color he wants as much as he wants.
+I think make a list of popUpColorEdit control so the user can select color and add extra popupcoloredit line and so on ...
+I do not know if I'm clear enough but it's not so important to me, maybe you have better ideas for what I want to know how I can do it with a beautiful view without work
+thanks 

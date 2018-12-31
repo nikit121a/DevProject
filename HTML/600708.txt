@@ -1,0 +1,11 @@
+Hi Experts,
+I have multiple placeholders in the WebPage that is loading user controls based upon the selection.
+Usercontrols contains the chart control.
+Based upon the selection, we need to load the user control in the place holder, there may be a different user control in the place holder at everytime.
+It creates the strange issue.
+Sometime the chart loaded into one place holder, loads the design attributes of other.
+I am confused, why ??
+Please help.
+Thanks
+Lalit Narayan
+ 

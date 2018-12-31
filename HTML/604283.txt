@@ -1,0 +1,8 @@
+Hi DevTeam,
+We are using Analysis report in our XAF application. It came to our notice recently that if a field which is a object property(for instance AssignedTo), is added to the analysis report,  click add button of PivotGrid Field selection dialogue, the pop up tree list will show the AssignedTo node as unselected, its default property of AssignedTo,in this case is Display Name, is selected. If select AssignedTo node again, and click OK button, nothing will be added to the PivotGrid Field selection dialogue. This behavior is misleading, 
+1. Since the I selected AssignedTo, AssignedTo node should be grey out after that. 
+2. Secondly If I select AssignedTo node again, nothing happens, the system should greyout AssignedTo node in the first place.
+Can you review this, see if this behavior is a bug or by-design?
+Regards,
+Tony 
+ 

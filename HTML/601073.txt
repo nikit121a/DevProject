@@ -1,0 +1,2 @@
+
+Now I can able to display an icon But is there any way to apply style to the icon. I need to place the icon to the left side of the column with some padding applied to it.

@@ -1,0 +1,22 @@
+Hello There,
+We are using MVC gridview in our project. One of the column/field have alphanumeric values .. most of the time they will be in a pattern like  abc12 or abc-12 etc .. 
+The issue is that  the order I am getting is like below:
+abc1       
+abc10       
+abc100
+abc1000
+abc1001
+abc1002
+abc101
+abc1010
+abc2 
+but I require like this: abc1
+abc2 
+abc10
+abc100
+abc101 
+abc1000
+abc1001
+abc1002
+abc1010
+Hope my query is clear .. please share suggestions 

@@ -1,0 +1,7 @@
+Hello DevExpress,
+For some reason, I am unable to get the adaptivity work for the below grid... the columns do not shrink or hide...
+Is this because I am setting column widths? If so, is there a way to set some proportions between columns... for instance, have the name double size of phone number....etc?
+Thank you!
+Sherif
+
+

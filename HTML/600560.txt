@@ -1,0 +1,6 @@
+Hi,
+I am using 
+for navigation. I've been trying to open the drop-down of a parent item in code. For example in the image I would like to be able to open the 
+ drop-down and 
+even though the selected element is 
+. Is that possilbe?

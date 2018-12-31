@@ -1,0 +1,9 @@
+Hi Team,
+We have a WPF application based on  the Pivot Grid (current version is 16.2.11) showing quite a lot of data. Users change the columns setup a lot and the amount of RAM consumed grows a lot when there's much data to aggregate. I can't share the original code, but I have created a sample to demonstrate the problem.
+Initially there're 3 columns added to the row area and 5 to the data area.  4 more columns is available to add to the data area.
+Hitting the button on the top will generate 400k records and load them to the grid. The memory consumption goes up to 500-600 MB. Adding one more column to the data area makes it grow to almost 700 MB (screenshot 1).
+In the production application the numbers are much larger (ie the "normal" consumption is 1.5 GB , but if you add more columns it can grow up to 4-5 GB and the performance gets very poor).
+I have analyzed the memory consumption with dotMemory and it looks like the largest part of it is taken by PivotSummaryValue objects (screenshot 2) .
+Please advise if there's a way to optimize the performance. 
+The project and the screenshots are in the attached archive. The code is also available here:
+Thanks!

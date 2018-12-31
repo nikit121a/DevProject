@@ -1,0 +1,10 @@
+Hi Support,
+In my ASPxGridView when the user click Edit, i want to set a value in a column befor the user see the edit form.
+I can see the value if i retrieve it with the e.EditingKeyValue
+How can i update the RowValue for the specific column with a new one before the user see the editor?
+Private Sub DG_StartRowEditing(sender As Object, e As ASPxStartRowEditingEventArgs) Handles DG.StartRowEditing
+    Dim o = e.EditingKeyValue
+    Dim OldValue= DG.GetRowValuesByKeyValue(e.EditingKeyValue, "ActivationCode")
+  End Sub
+Regards,
+Thunis 

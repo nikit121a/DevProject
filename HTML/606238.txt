@@ -1,0 +1,3 @@
+I'm trying to implement keyboard navigation in dxDataGrid. I've succeeded to implement navigation by using Up, Down, Home, and End keys, but the issue is it's only moving through data grid rows without real selection that is when I navigate something should happen - some content should be displayed in content area. But, it doesn't happen. It happens only if I select particular row by mouse.
+My question is - how to make real selection of particular row by using keyboard navigation?
+My JavaScript code looks as following:

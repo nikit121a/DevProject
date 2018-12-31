@@ -1,0 +1,4 @@
+Hi,
+How can I do a dxMap by bounding latitude and longitude coordinates.
+dxMap displayed with the appropriate zoom so that the map fills the bounds defined by those coordinates.
+Regards, 

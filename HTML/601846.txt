@@ -1,0 +1,5 @@
+I have a banded grid control that has several columns that use the spinedit repository items to edit the cells.  Two of the spinedit's are located under a 'Used Material' section and two are located under a 'Return Material' section (see attached image).  I would like to have the spinedit values under the 'Return Material' section automatically updated when the spinedit's under the 'Used Material' section are being changed.  
+if you look at the attached image, I want to be able to subtract  the total of the blue spinedits from the yellow length and fill in the green spinedit.
+I can get the value of the spinedit that has focus and is currently being changed, but cannot figure out how to get the value of the second spinedit that does not have focus.  I also can't figure out how to fill in the values for the other two spinedits.
+Hope this makes sense,
+Thanks,

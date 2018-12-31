@@ -1,0 +1,6 @@
+Hi,
+On the Grid Control, the search control area  is in grey color. How I can change to White color.
+Please find the attached image.
+Please assist me.
+Thanks & Regards,
+Anil 

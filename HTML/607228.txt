@@ -1,0 +1,8 @@
+In picture 'discrete.jpg' only the labels with a value are shown. That`s exactly what I am trying to achieve, except from one thing.
+The problem is all segments between the ticks have the same size, while the datetime interval varies. The perception of time get's lost.
+If the argumentType is set to 'continuous', the spacing between ticks is correct, but it is almost impossible to only display the ticks with a value. 
+I have tried this by using the customizeText propery and setting the tickInterval and axisDivisionFactor to a very low value.
+The problem then is, besides the much longer calculation time, not all labels are shown because empty labels overlap with non-empty labels resulting in no label at all.
+If overlappingBehavior is set to 'none', all labels are shown but labels can overlap with nearby labels.
+'continuous.jpg' is the result I want, but it would be nice if the labels didn't overlap and the calculation time didn't explode because of the low tickInterval.
+Is this combination of showing discrete values in a continuous way possible, or is it possible to implement this as a feature

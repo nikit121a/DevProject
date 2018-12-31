@@ -1,0 +1,6 @@
+Hello Svetlana,
+is there a way to detect the exact click on the text within the href part? 
+I have something like 
+. And I dont want to do the action when I click on the text "- Description of the object."
+Also is there a way to modify the blue color of the hyperlink by other color? I'm using Office 2016 Colorful skin in my app.
+thanks in advance!!!

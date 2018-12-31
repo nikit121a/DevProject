@@ -1,0 +1,4 @@
+Is there a way to export only the selected rows from a WinForms grid control?
+Of course I would want to maintain the formatting, the filtering, and the visible columns as well.
+Thanks!
+- Brian

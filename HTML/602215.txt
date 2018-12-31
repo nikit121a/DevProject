@@ -1,0 +1,25 @@
+Can receive the uncaught exception "System.ArgumentException: Attempting to save the diagram content using an unsupported file extension" when trying to export to PNG using certain file extensions.
+Repro:
+- Create a diagram
+- Choose Export As PNG
+- Name the file "document.xlsx"
+Note that this only happens for certain file extensions, like "xlsx".  If you use "xlsx2", the file will successfully save as "document.xlsx2.png".
+Ideally the user can call the file whatever they want without issue, but at the very least this should be a messagebox telling the user the issue rather than an unhandled exception.
+Stack trace:
+at DevExpress.Diagram.Core.Native.DiagramControlExportActions.GetExportFormat(String path)
+at DevExpress.Diagram.Core.Native.DiagramControlExportActions.ExportDiagram(IDiagramControl diagram, String path)
+at DevExpress.Diagram.Core.Native.DiagramControlExportActions.ExportDiagram(IDiagramControl diagram, DiagramExportFormat exportFormat)
+at DevExpress.Diagram.Core.DiagramCommandsBase.<.cctor>b__6b(DiagramExportFormat format, IDiagramControl x)
+at DevExpress.Diagram.Core.HandlersRegistratorExtensions.<>c__DisplayClass16`1.<RegisterHandler>b__15(Object param, IDiagramControl x, Func`1 getArg, Action baseExecute)
+at DevExpress.Diagram.Core.HandlersRegistratorExtensions.<>c__DisplayClass1.<RegisterHandlerInternal>b__0(Object param, IDiagramControl x, Func`1 getArgs, Action baseExecute)
+at DevExpress.Diagram.Core.DiagramCommandsBase.ExecuteHandlers(Object parameter, IMouseArgs args, IEnumerable`1 handlers)
+at DevExpress.Diagram.Core.DiagramCommandsBase.ExecuteCore(DiagramCommandBase command, Object parameter, IMouseArgs args)
+at DevExpress.Diagram.Core.DiagramCommandsBase.Execute[T](DiagramCommand`1 command, T parameter, IMouseArgs args)
+at DevExpress.Xpf.Diagram.DiagramCommands.<>c__DisplayClass2`1.<CreateCommand>b__0(T x)
+at DevExpress.Mvvm.DelegateCommand`1.Execute(T parameter)
+at DevExpress.Mvvm.CommandBase`1.System.Windows.Input.ICommand.Execute(Object parameter)
+at DevExpress.Xpf.Bars.Native.CommandSourceHelper.Execute(ICommand command, Object commandParameter, IInputElement commandTarget)
+at DevExpress.Xpf.Bars.BarItem.ExecuteCommand(ICommand command, Object commandParameter, IInputElement actualCommandTarget)
+at DevExpress.Xpf.Bars.BarItem.<>c__DisplayClass61.<OnItemClick>b__60()
+at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)

@@ -1,0 +1,7 @@
+Hello,
+we are developping  an Energy Trading System with XPO as ORM Mapper.
+We have customers with about 350000  trades per year. 90% of the trades are assigned to one customer.
+When loading one customer with many trades assigned XPO seems to load the whole trade collection which lasts very long even if the data is not beeing accessed.
+Is there a way to implement lazy loading so that the collection of the trade will be filled when it is being acessed?.
+Thanks
+Michael  

@@ -1,0 +1,7 @@
+I seem to have hit a wall to get my scheduler to work using FetchAppointment delegate and a checkboxList to filter resources. I am following E4717  and  E4130.
+In the case of "filtering resources via checkbox list " the code example shows the following
+That works fine for filtering the displayed resource calendar but it seems to not trigger the FetchAppointment delegate and my appointments all disappear on any callback.
+Meanwhile in the "how to implement Fetch" example, the suggested code is
+This works great to maintain the appointments across all callbacks but the filtering resources functionality is lost.
+How can get both to work at the same time?
+ 

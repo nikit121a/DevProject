@@ -1,0 +1,4 @@
+Hi.  We have a WinExplorerView that shows images selected by a user.  If they add a short image, the context buttons do not show on mouseover.  In our program, this causes the user not to be able to delete or open the image full-screen because the context buttons are the only way to do this.
+I suggest that context buttons should show on hover even if the image is short.   Users can't understand why I can't fix it for them.  Ugh.
+Please see the attached image.  The one on the right does not show context buttons on hover.
+Thanks. 

@@ -1,0 +1,4 @@
+Hi,
+There is an error at scheduler drag-drop mechanism. I reproduced error in example of  timelines view. (
+). I attached screencast about error.
+Thanks.

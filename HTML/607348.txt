@@ -1,0 +1,3 @@
+Is there any way to highlight the negative area of a sparkline? 
+I'd need to indicate to my user once the values turn negative. 
+Thanks 

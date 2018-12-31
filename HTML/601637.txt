@@ -1,0 +1,5 @@
+ HI Team ,
+Could you please let me know how to set  multiple secondary  y-axis for dxChart.
+The Chart type is line as quoted with red line  in the attachment.
+Please refer the attachment.
+ 

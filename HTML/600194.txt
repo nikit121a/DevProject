@@ -1,0 +1,7 @@
+I cannot make  the picture visible on the report atruntime, but I see it in design mode.
+The picture is configured at the imageUrl property of the picturebox with a relative path starting with ~ 
+What should I change?
+Please find attached a simplified version of the project.
+Thanks and regards
+Mariel
+ 

@@ -1,0 +1,3 @@
+i have controller with popupaction
+w?here I want display audit records for current object::
+..and when I run this I get list f audit entries, but I can't export this list to excel or pdf  like on standard listView

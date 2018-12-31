@@ -1,0 +1,8 @@
+Hello,
+I am copying complete layout of an existing report at run-time . but the data-source structure for new report is slightly different ..  now when I am assigning the new datasource  .. in design mode report is showing both datasources .. new one which I am assigining and the old one which the other report already have .. why it is not replacing th datasource?
+Here is what I am doing:
+ Designer is showing two datasources:
+Class2
+Class1
+Please suggest how to completely replace  the data-source with previous one.
+Thanks in advance. 

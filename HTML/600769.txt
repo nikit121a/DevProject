@@ -1,0 +1,15 @@
+Greetings,
+When i use Export to excel inside update panel, its not working. It works well without update panel. below is my code.
+Appreciate your support
+<div class="pull-right">
+          <dx:ASPxGridViewExporter ExportedRowType="All" PrintSelectCheckBox="true" GridViewID="MyAspxGridView" ID="exportGrid" runat="server">
+</dx:ASPxGridViewExporter>
+<br />
+<dx:ASPxButton ID="ExportBtn" runat="server" AutoPostBack="false" OnClick="ExportButton_Click" Theme="SoftOrange"    Text="Export to Excel">
+</dx:ASPxButton>
+</div>
+   protected void ExportButton_Click(object sender, EventArgs e)
+            {
+            exportGrid.WriteXlsxToResponse();
+            }
+ 

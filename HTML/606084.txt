@@ -1,0 +1,5 @@
+Hi,
+I'm trying to add Chart Controls to my WPF application, and am following the instructions here:
+When I get to step 2 and click "Data Source Wizard," Visual Studio's designer says An Exception was thrown:
+Making a change to the XAML or building the project reinitiates the designer to show the chart again, but clicking the Data Source Wizard throws the exception.
+This is happening with a new blank WPF application and in my existing application. Any leads on what the issue might be? Please let me know if I can provide any further information.

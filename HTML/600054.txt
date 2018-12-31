@@ -1,0 +1,7 @@
+I set worksheet WrapText is true, and call AutoFitRow(),
+but,
+when use print or printpriew, 
+SpreadsheetControl cells TextWarp not work!!
+Please~
+Thanks. 
+ 

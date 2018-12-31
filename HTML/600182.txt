@@ -1,0 +1,3 @@
+We are starting to  look at the performance of our application as we near the end of our Phase 1
+What would be really useful is to have some  sort of table GridView of all classes and properties - particularly DelayedLoading
+With around 100 classes and  thousands of properties - many references or association entities - it is extraordinarily painful using the  ORMDataModel Tree View

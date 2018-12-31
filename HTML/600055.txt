@@ -1,0 +1,6 @@
+Hi,
+I'd like to open a report in Frame and not as a Window. How can I do that?
+Best,
+Bojan 
+ I'd like it to display in reportForm.
+ 

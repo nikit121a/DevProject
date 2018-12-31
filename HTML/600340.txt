@@ -1,0 +1,3 @@
+Hi 
+I list the data from SQL each time I press the button. But first I need to clear the ActiveSpreadSheet. When I use "ActiveSpreadSheet.ClearAll;" command, I get "Access violation at address 0162C74C in module....." error. What is the reason? 
+Thanks 

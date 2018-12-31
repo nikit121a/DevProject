@@ -1,0 +1,12 @@
+I was able to setup the diagram control and bind some data to it.
+In the template designer I chose a circle and a n connector template. That works quite fine. All circles are created and connected accordingly to the links I setup.
+My model looks like this:
+I don't understand how I would create multiple design templates which are rendered based on some condition (model type or property)
+For example:
+Now I want to achieve multiple things:
+- I want to put a label on top of the circle bound to each stage  name
+- I would like to render all items within a stage into that circle.
+- Each item should be visualized based on the type, let's say, an arrow for Type == 1 and a circle for Type == 2
+- How would I do the positioning?
+How can I achieve that? 
+Thanks for the help! 

@@ -1,0 +1,10 @@
+Hello,
+We plan to migrate our product ot WPF.
+The current customize layout functionality in Xpf (DevExpress for WPF) be it DXLayoutControl or DXDocking is missing some of its WinForms counterparts.
+More precisely the ability to customize the properties of controls contained in LayoutControlItem if using DXDocking after they have been added. We saw that a 
+ issue was raised 7 years ago. In that issue it was suggested to use DXDocking instead of LayoutControl. In the meantime its dependency (the PropertyGrid) was implemented in DevExpress 13.1.4. but this feature stil lacks in DXDocking customization window in DevExpress 17 (based on demo).
+We'd like to know how we can have roughly the same customizations as in WinForm in XPF also?
+We need the same customization features as in WinForm's LayoutControl i.e:
+- control's property editing (colors, sizes, captions etc.)
+- being able to drag and drop elements from a customization window.
+Thank you.

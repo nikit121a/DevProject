@@ -1,0 +1,7 @@
+Hello there,
+How can I remove the x button just like 
+. 
+I got this screen shot from one of your sample projects, i have attached it.
+In my project the x button is not like that. 
+. 
+Thanks. 

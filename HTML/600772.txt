@@ -1,0 +1,1 @@
+THanks that worked. Further to babove query. can i limit the size of the panel when flys out when we just hover over the pnale name on the right?

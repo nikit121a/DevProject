@@ -1,0 +1,5 @@
+Hello,
+I have seen there is a new patch available for Tokyo 10.2.2.
+Do we need a new version or to recompile the existing components before we can  use them ?
+thanks for the info,
+Bart 

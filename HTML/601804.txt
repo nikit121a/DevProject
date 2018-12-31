@@ -1,0 +1,13 @@
+i have the custom function dialog working well with gridcontrol. 
+is there a way to format a string given a value? when i print values they give me 15 digits of precision.
+            _gridColumn.AllowUnboundExpressionEditor    =true
+            _gridColumn.UnboundExpression               = "Concat('Temperature: ', ToStr([Ch1 Vin+.1.1.1.1]), 'C')"
+also, is there a way for me to insert my own function that would do formating ?
+e.g.
+    ToFormattedStr(double valueString, string formatString)
+{
+  return valueString.ToString(formatString)
+} 
+then end user could do
+     ToFormattedStr(double valueString, 'G')
+ 

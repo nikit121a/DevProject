@@ -1,0 +1,2 @@
+When Print Preview is invoked the spreadsheet is displayed compressed in the upper left hand corner.  It also does not print properly.  An earlier version of the control displays the print dialog and prints the same spreadsheet properly.  See attached.
+Please help ASAP.

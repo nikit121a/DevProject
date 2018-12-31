@@ -1,0 +1,2 @@
+If I create an MDI application with a parent RibbonForm and DocumentManager, and then add a child form with a RichEditControl to the parent form (DocumentManager's 
+ is false), the child form has border padding that I do not want.  However, if I add a RichEditControl to a form, generate the ribbon, and then convert to a RibbonWindow, it does not have this padding.  Is there a way to remove the padding in the MDI case?  Attached are screenshots of what I want and what I don't want.

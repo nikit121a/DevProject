@@ -1,0 +1,5 @@
+I have a .net Core 2.0 project.  I have successfully added Devextreme Core to it by following all of the tutorials. Everything has been working fine and all the controls are working as expected.
+When I add a .Net Core Dashboard to one of the Views, which inherit _Layout where all of my Devextreme scripts are registered the dashboard will not show when the page is loaded.  When I put the dashboard on its own page without the layout it renders and works fine.
+I have narrowed it down to the fact, I believe, that  <script src="~/js/devextreme/dx.all.js"></script>  which is registered on the _Layout Page is the culprit.  When I comment it out the Dashboard now appears correctly, but of course non of my other Devextreme controls work.
+What should I do and what is the work around?
+Thanks so much in advance, 

@@ -1,0 +1,4 @@
+Hi, 
+I was wondering if there is a way to replace the cell double-click  event in the dxScheduler with a custom one?
+Regards,
+Joar Olsen 

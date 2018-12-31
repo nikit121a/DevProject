@@ -1,0 +1,10 @@
+Hello,
+We ran into an issue where the View Variants Module does not take different Data Access Modes into consideration between views. As the documentation states:
+Each View Variant can have an individual 
+ value (see 
+), but this value is ignored. Instead, the value specified for the root varied View is used for all variants.
+ In most cases this makes sense, however, if the variant view's List Editor does not support the data access mode, the collection should be recreated using the new mode. Alternatively, before switching the view, a check should be done to ensure the new editor supports the root data mode and throw a friendly exception if it does not - and prevent the view from being changed.
+In our scenario, we have a large list of calendar items that can be displayed in a GridListEditor with reasonable loading time in Server Mode. However, the variant for the SchedulerListEditor needs to load in Client Mode. When switching between these variants, an exception occurs and the user is stuck.
+While we can do this ourselves with a controller, I'm making the suggestion to provide this capability out of the box.
+Thanks!
+-Dave 

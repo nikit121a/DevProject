@@ -1,0 +1,4 @@
+Hi,
+I need to create a report from a dynamic dataset, that is, the dataset does not always throw the same columns.
+Thank you.
+Joally

@@ -1,0 +1,6 @@
+Hello,
+I am taking reference to this ticket: 
+After testing and some in-depth debugging I have figured out what the problem is:
+When you create a custom Palette using the DevExpress "PaletteEditorForm", the read-only ScaleMode property is set to the "Repeat" value.
+However, this value should be "Extrapolate" to allow for color gradation.
+The only way I know about how to fix this problem is to change the property in the CXP file to the desired value afterwards.

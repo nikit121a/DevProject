@@ -1,0 +1,4 @@
+Hi,
+I'm setting a TdxLayoutGroup's caption to "Pain & Rehab".   I untick ShowAccelChar.  But when I set the parent's group LayoutDirection = ldTabbed, the tab is shown using the accelerator character (in my case "Pain _Rehab")
+Thanks
+Stuart 

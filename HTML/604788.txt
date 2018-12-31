@@ -1,0 +1,4 @@
+In the bootstrap pie chart, when I set the the Label as visible produce the output in the attached file.
+How do I remove the "..." and have it show the proper value?
+ The documentation do not address changing font and font size. The Title is too big for what we'd like. How do we customize it?
+Thanks

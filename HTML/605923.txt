@@ -1,0 +1,5 @@
+Hi DevExpress, 
+I am using  DevExpress ver 12.2 with my SharePoint 2010 environment, we are using some DevExpress controls like Grid, and combo in our ASPX Web form.
+We are suing some other third party  chart solutions in our ASPX web forms, now we want to use DevExpress web charts.
+Please find the attached pdf file. 
+I hope to hear from you soon  and thanks in advance,

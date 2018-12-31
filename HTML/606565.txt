@@ -1,0 +1,9 @@
+I am doing a batch editing in Gridview. I did it several time in my project, but this time, the gridview is included within a splitter + callbackpanel.
+I am getting the following error: Must declare the scalar variable "@ContactName". Shoudn't the 'parameter to grid column' binding be done automatic?
+Please see below an excerpt of my code:
+
+
+
+
+Thanks for your kind support.
+Sherif

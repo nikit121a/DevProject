@@ -1,0 +1,8 @@
+Hi There,
+We are using devexpress 17.2.4 in our win-form application. 
+We are using Visual studio 2013 with SQL Server 2010 in our application. 
+We have used chart control using chart wizard in our application. 
+We want tooltip to show data on hover in our pie chart. We could get tooltip in XY chart but we could not get tooltip in pie chart. 
+Can you please give us sample application or example to resolve above issue. 
+Please find attached screenshot for the same. ("ScreenShot1.PNG" )
+Thanks !

@@ -1,0 +1,3 @@
+Good morning,
+Is it possible for the new DXScheduler to automatically scroll down to the  current time when today is selected? At the moment, the Scheduler won't scroll down automatically and so the user has to scroll down manually to the current time to view current appointments. We had this functionality on the legacy Scheduler.
+Thanks!

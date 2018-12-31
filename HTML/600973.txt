@@ -1,0 +1,2 @@
+Hello, 
+Is there a way to re-organize the items in report designer default toolbar? And I also want to put this BarButton Item IN THE MIDDLE of report group. 

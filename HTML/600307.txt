@@ -1,0 +1,13 @@
+The auto complete property is not 100% what I'm looking for.
+ 
+As the use types, I want the list of items to automatically narrow down to only include the items that start with what the person types.
+So using the examples in the above link ...
+As the user types 'B' I want the list of items to shrink to only include
+   Barcelona
+   Berlin
+with the first item (Barcelona) highlighted
+Then when the user types 'e' the list should filter down to just
+  Berlin 
+I have accomplished something similar using the built in ComboBox property using the AutoCompleteSource property but am not finding the equivalent in your control.
+Thanks
+ 

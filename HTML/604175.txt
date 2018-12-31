@@ -1,0 +1,7 @@
+Hello,
+I am using dxSelectBox with grouping option as indicated in your example 
+. What I need to do is change the sorting of group headers descending (by default it is ascending order).
+Please advise how to do that.
+Thanks
+Balinder
+ 

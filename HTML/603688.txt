@@ -1,0 +1,18 @@
+Hello,
+I'm using the XtraGrid in combination with some custom UserControls. These UserControls depend on the status of the XtraGrid's AutoFilterRow which in my case can be one of the following:
+1) "column filter value transmitted" (when I entered a filter value in the AutoFilterRow of a specific column and pressed enter), 
+2) "column filter value removed" (when I removed the filter value in the editor of the AutoFilterRow of a specific column and pressed enter) or 
+3) "all filter values removed" (when I hide the AutoFilterRow)
+Unfortunately, DevExpress does not provide me with events that can 
+be adapted to 
+.
+But since DevExpress' grid is great, it can be modified in various ways. I managed to customize the grid in order to be able to fire the custom events by doing the following:
+1) Overriding 
+, firing the event for 1), and keeping track of the given filter settings.
+3) Defining a custom event handler for 
+and doing the following:
+2) Defining a custom event handler for 
+and doing the following:
+The custom events fire as expected, everything is working fine.
+I'm still not really satisfied with my implementation, though.
+Do you have any suggestions how I could achieve the custom events in a nicer way?

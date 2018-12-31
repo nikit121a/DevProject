@@ -1,0 +1,19 @@
+Please, refer the attached video. 
+1. When I loaded the page, scheduler layout has been set incorrectly and view switcher also. However, if I zoom in or in this page, the view return to fine looking. How to fix this issue.
+2. How to rename view switcher in MVC Extension? (I already remained this question, but I did not get right answer.)
+EX)
+@(Html.DevExtreme().Scheduler()
+...
+ .Views(v => {
+        v.Add()
+            .Name("Week")
+            .Type(DevExtreme.AspNet.Mvc.SchedulerViewType.TimelineWorkWeek);
+        v.Add()
+            .Name("Month")
+            .Type(DevExtreme.AspNet.Mvc.SchedulerViewType.Month);
+    })
+...
+)
+Above code is not working..
+3. In video, there is Month view. What I want is one calendar with multiple user's assignments. Is It possible to do it ? 
+4. How can I set All-Day appointment automatically? 

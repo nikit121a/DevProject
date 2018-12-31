@@ -1,0 +1,10 @@
+Hi,
+i have a grid with a column with a special celltemplate.
+The celltemplate is build in the oncellprepared event.
+...
+....
+The column is now displayed in special color and a text replacement of the original number value in the column.
+If i now make a grouping with this column, the group header is only the original column value (number).
+Is there any way to get the group header also with the cell template?
+Thanks
+Boris 

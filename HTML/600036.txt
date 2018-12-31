@@ -1,0 +1,3 @@
+Hi,
+I'm trying to add a total to one of the columns in my grid, but the total does not appear. What am I missing? Below is an extract of my code.
+ 

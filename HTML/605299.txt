@@ -1,0 +1,2 @@
+ 
+This solution moves only  "Edit Command" button to right side, but I want hide/remove "Edit Command" Button and move "New & Edit" Command Button Column to right side  

@@ -1,0 +1,5 @@
+Hi,
+I'm looking for some legacy documentation on the DevExtreme  (Phone JS) version 13.1.5. (Knockout) 
+I'm not able to find it online anymore.
+Best regards
+Thomas 

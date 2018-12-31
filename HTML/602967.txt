@@ -1,0 +1,11 @@
+Hi,
+Winforms 
+RichEditControl
+Html Document
+I have a list of messages and next to each it is marked(bullet) that this message is new.
+I need to remove bullet after a certian time of the message,that the user has seen
+and do not remove  the bullet of message, which user did not see before
+(it's inside the scroll bar)
+How can I do that?
+Thanks 
+ 

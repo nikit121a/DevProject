@@ -1,0 +1,28 @@
+Hi Team,
+I'm trying to implement the following feature, but I would like to get your advise how to approach it.
+Here's a description of a sample task:
+I have a PivotGrid with orders. Execution date field is in the column area, price and quantity are in the data area and Client name is in row area.
+So the grid shows the amount of products and their prices ordered by a client on a particular date.
+What I want to achieve is to show the difference between the  current and the previous date value (the delta) for each field instead of showing the actual values. E.g.
+instead of this:
+             Order Date
+             |      01-01-2018  ||  10-01-2018      ||  15-01-2018      |
+             | Quantity | Price || Quantity | Price || Quantity | Price |
+Client1 |   100       |  300  ||   150       |  400  ||  50         |  100   |
+I want to have this:
+             Order Date
+             |      01-01-2018  ||  10-01-2018      ||  15-01-2018      |
+             | Quantity | Price || Quantity | Price || Quantity | Price |
+Client1 |   100       |  300  ||   
+|  
+||  -
+|  -
+|
+*the numbers explanation: 
+ = 150 - 100 | 
+ = 400 - 300 | 
+ = 50 - 150 | 
+ = 100 - 400 
+Please see the screenshot as well.
+I guess I could do this in CustomCellValue event handler, but I'm not sure how to access the other data outside of the current DrillDownDataSource.
+Any help would be greatly appreciated . Thanks!

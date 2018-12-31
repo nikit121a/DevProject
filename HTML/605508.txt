@@ -1,0 +1,14 @@
+Hello,
+I created a mvc project where I have a page with a gridview and scheduler. The gridview contains some unplanned items and can be planned by dragging the item to the scheduler. This is working nicely but the problem is that sometimes the grid is not correctly refreshed. When I set brakepoints in the controller I can see that the callback to refresh the grid is done before the callback to insert the appointment. Therefore the data is still unplanned and thus showing in the grid.
+I don't see a way to influence the execution order of the callbacks so I tried to use the OnSuccess functionality of the performcallback command. This however does not seem to be working. I tried to execute the 'gridview.PerformCallback()' in the OnSuccess but the breakpoint in the controller was never hit. Also the console.log method is not writing anything.
+On the support center I found 
+ ticket where a simular problem was reported for the cardview component but this should be solved in my version.
+Javascript to drop the appointment:
+
+
+
+Controller code:
+
+
+
+Can you please provide me with a solution for this?

@@ -1,0 +1,11 @@
+I am reviewing the following 
+ and had a question about the advanced option.
+I am looking at the following method:
+I am using external filters on the grid, which I am passing via the ClientSide BeginCallback as e.customArgs.
+What I would like to know is whether or not I can access these values from the GridViewModel.
+The model contains a lot of properties and it is difficult to traverse.
+It would be awesome if I could get the values of the customArgs from the GridviewModel.
+How would I do that?
+I have attached an image, and if you need an example, please use code from the demo I referenced.
+Thanks in Advance.
+ 

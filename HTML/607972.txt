@@ -1,0 +1,5 @@
+Hi,
+Our customers report us the memoEdit displays no text in Office 2016 Dark skin when control is disabled.
+I provice an example (attached)
+Thanks
+Denis 

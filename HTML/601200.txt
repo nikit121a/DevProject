@@ -1,0 +1,7 @@
+This approach works perfectly fine.
+In this case, we still need your input for below scenario,
+1. If grid contains 10 records and we click mouse (between 1to10 rows) on blank place at right side of  last removed column ,       row get selected. 
+    How we can avoid this row selection?
+2.  As this even fires all the time, performance issue comes. 
+     How can we avoid firing this event all the times?
+ 

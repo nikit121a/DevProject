@@ -1,0 +1,2 @@
+Hi support, I want to use the codeRush templates, but is not working, even when I set the option in the codeRush setup: 
+ 

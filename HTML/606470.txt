@@ -1,0 +1,5 @@
+This report applies to the situation where a ASPxCardView contains a CardViewDropDownColumn, 
+If you place the card in edit mode, drop down the DropDownEdit control, and then click anywhere in the drop down window (e.g. to select something), the drop down window closes immediately.  
+It appears that the drop down control is not tagging the click event as handled, and it is being propagated up to the Card control and is triggering the BatchEditEndEditing event.
+In the example below, I have attached an Alert to the BatctEditEndEditing event on the Card View.   When you click in the dropped-down window, the Alert box appears.
+ 

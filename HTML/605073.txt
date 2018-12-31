@@ -1,0 +1,4 @@
+I am getting a result I didn't expect when trying to set the scaling of the Y-axis of a bar chart.
+I want the Y-axis to show 0 to 15, regardless of the points, assuming all are <=15.The scale is from 0 to 2.  See the attached image.
+What am I missing?
+Thanks! 

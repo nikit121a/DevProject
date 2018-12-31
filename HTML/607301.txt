@@ -1,0 +1,4 @@
+Hello,
+How to use data of the application database in xaf  spreadsheet property. (in a column?
+Thanks,
+Marcelo

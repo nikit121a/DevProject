@@ -1,0 +1,4 @@
+Hi,
+I have a little problem with the pie charts. In designer mode it creates the series correctly (3 in a row - horizontally). But in runtime it looks like the second screenshot (1 per row). I'm searching for hours now an can't find the solution!?
+thanks in advance
+Stefan

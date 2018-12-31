@@ -1,0 +1,6 @@
+Hi Support,
+I know I've seen a similar ticket to this however I thought I'd shed some more light onto the issue.  I've upgraded laptops, on the previous laptop I had VS2015 with DevExpress 16.2 installed, with a working Add Item menu.  I upgraded that version of VS from 2015 - 2017.  The Add Item menu still appeared fine.
+On the new laptop I just installed VS2017 and 16.2, no Add Item menu.  So the functionality does work in 2017 but the installer doesn't add it to a fresh install of 2017, rather the 2017 install on top of a 2015 install must migrate it.
+Is there a possibility of a workaround for 16.2.3 as updating to a later version isn't going to be realistic over the next 6 months.  Also, when I add a ExtraForm using the template gallery it doesn't have the consistent look and feel of the other forms when added through the Add Item menu.  Strange I know but true.
+Thanks
+Phil

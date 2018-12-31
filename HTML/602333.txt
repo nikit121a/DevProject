@@ -1,0 +1,2 @@
+I've looked through the Range methods and I'm unable to find a simple way to resize a range. For instance, in Excel.Range, you can perform something like this:
+Is there a DevExpress equivalent  to the Excel's Range.Resize?

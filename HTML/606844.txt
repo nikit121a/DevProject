@@ -1,0 +1,11 @@
+I have a grid lookup control that allows the user to search based on either a numeric or string value.  I'm using KeyUp JS on the grid lookup to GetText of the lookup, check the length of text and determine if the text is numeric, then firing the PerformCallback on the grid.  I'm running into two issues:
+1.  PerformCallback is firing before my JS is executed.  I'm not sure if the gridlookup control is already causing a 'behind the scenes' JS function that is built into the control
+2.  I'm sending 2 parameters to the server in PerformCallback() and I'm seeing really weird characters coming through. 
+Currently my client/server code is as follows
+ASP.NET
+ JS
+C#
+Please let me know if this request makes sense and or if you require more detail, etc.
+Thanks
+Kris
+ 

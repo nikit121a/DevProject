@@ -1,0 +1,4 @@
+Hi,
+Im a trying to show my uploader on a new record only - not on the edit .
+this is my code but it does not work!
+ 

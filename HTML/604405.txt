@@ -1,0 +1,3 @@
+I'm using a grid within an DXTabItem and they don't appear but using another control such as CheckBox does show.
+Here is a sample of my code:
+Thanks

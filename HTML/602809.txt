@@ -1,0 +1,10 @@
+Hello,
+In the attached sample there is a Chart with 
+    - Rotated Axis
+    - Rotated Point Labels
+    - rather long Point Label Text
+    
+On the attached result picture see that Point Label Connectors are drawn wrongly    
+Elena Lisenenkova
+R&D
+PDC,  Denmark/Russia

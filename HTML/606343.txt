@@ -1,0 +1,7 @@
+Hi Support,
+I have implemented custom filtering based on an article I found in one of your tickets: 
+The only problem is, in the filter editor it shows the ID of the item where it would be better for the end user to see the Name.
+I have attached a screenshot also. 
+Are you able to suggest how to get the filter to show the name instead of Id?
+Thank you. 
+ 

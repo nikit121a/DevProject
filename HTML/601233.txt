@@ -1,0 +1,10 @@
+Hello,
+How do I remove space between TabControl border and content (picture)? I don't want any distance between tab content and control borders.
+I believe it should be padding in 
+ dxt:DefaultStyleThemeKey FullName=DevExpress.Xpf.Core.DXTabItem 
+I've also tried to change values in
+x:Key="{dxt:DefaultStyleThemeKey FullName=DevExpress.Xpf.Core.DXTabControl}"
+(TabItem.xaml and TabContent.xaml), but it doesn't help.
+I am using it in MVVM pattern and it is bound to VM's.
+/ Best regards
+Dmitri 

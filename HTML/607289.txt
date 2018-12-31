@@ -1,0 +1,3 @@
+Hello,
+I have a gridControl with one gridview in which I fill it with sqlDataSource and I want to get some values (for example name and Vat) inside the lookupedit and when I select one name to filter the gridView based on the id of the lookUpEdit . 
+Is this possilbe?

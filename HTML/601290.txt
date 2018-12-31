@@ -1,0 +1,6 @@
+Hi, I am having some difficulty with the GridView object. Nothing I have tried has successfully Changed the Backcolor of the Column headers.
+I don't understand why these devex objects are sometimes so SOOO difficult to work with. 
+One example is the styling option to set a header back color should not take a masters degree in devexpress objects to be able to make simple changes. Seriously someone there should rethink that. Anyway clearly I'm missing some switch hidden/buried 5 layers deep to make this work. 
+Can anyone tell me how to set the backcolor of a column header at runtime in code?
+Below is some of the code I have tried in the on load of the form. None of the code below changes the backcolor but the forecolor works fine.
+ 

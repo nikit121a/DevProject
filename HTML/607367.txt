@@ -1,0 +1,6 @@
+I am using a 
+which have tabbed panels.
+We have  a 
+ in a tab too that has widgets in it.
+Now when I am on tab1 I create a widget that is floating over window and it is visible in taskbar also as I have set
+ 

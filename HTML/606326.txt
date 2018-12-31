@@ -1,0 +1,5 @@
+Attached is a sample project demonstrating the issue.
+1. Open the Customers ListView.
+2. Open the Customer DetailView.
+3. Click the Show Orders action.
+The ListView should display a single record. Currently, it displays three records.

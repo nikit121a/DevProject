@@ -1,0 +1,8 @@
+Hi,
+ I am using MVC grid with filtering functionality.
+Filter is not getting enable after clearing it if manually disabled last time
+Current Behavior:
+Step 1: Remove tick of filter manually
+Step 2: Clear filter
+Step 3: Search any value from column search
+Filter not applied because last time user had manually removed tick

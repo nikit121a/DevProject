@@ -1,0 +1,6 @@
+Hello,
+in the meantime we have many customers that have different desires.
+Is there a way to enable/disable parts of a given model layout depending on, for example, compiler directives or static boolean variables ?  
+We want to disable a tab, layoutgroup, field or button for customer A, but enable these for customer B and another combination for customer C.
+Thank you
+Michael 

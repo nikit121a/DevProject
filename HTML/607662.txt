@@ -1,0 +1,18 @@
+Hey folks
+i studied your documentation and read many tickets like 
+ or 
+, however i having trouble getting it to work.
+I'm trying to build a ReportDesigner for Win and ASP.net  which supports all kind of 
+ like the ones you supports for your Dashboard Control.
+Win ReportDesigner (without OLAP) works like a charm. But i have enormous problems to get it to work for the ASPxReportDesigner.
+I attached a sample, which shows what i'm trying to do.
+I have to support SQL Databases, XML and Excel/CSV Files.
+I have to support CustomQuerys (
+) for all kind of sql data sources
+It seems there is no wizard like the Excel/CSV Wizard  for handling this kind of Files (I created always a 
+)
+Since i can not define a query for each data source, because i do not know the schema, tables and so on of any(!) data source (data sources are created by End-user) i struggle to get any Table/View/SP item of the data source - although I set the 
+at Application_Start, the "Select data member" and "Select data fields" lists are empty.
+Any help would be greatly appreciated.
+Regards,
+Micha

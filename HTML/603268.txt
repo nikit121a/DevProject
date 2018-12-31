@@ -1,0 +1,4 @@
+Hi, I need to access to an a aspxCombobox on a Edit template, I use the event StartCardEditing but it doesn't work.
+Also i need to get combobox event ItemTextCellPrepared
+ 
+Thanks, Marcelo. 

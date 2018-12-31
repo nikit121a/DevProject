@@ -1,0 +1,4 @@
+Hi,
+Can I add a list of CSS classes to the Element Properties dialog box as like for Insert Image dialog?  Can I also move CSS Class comboBox to Common Settings tab?
+Regards
+/Issa 

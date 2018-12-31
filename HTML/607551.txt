@@ -1,0 +1,8 @@
+Hi Support,
+I implemented the FileUploader like this:
+app.module.ts
+counter.component.ts
+counter.component.html
+The widget shows up, but when I press the Select button nothing happens.
+But the drag and drop option works.
+And I don't see any errors in the console of the browser.

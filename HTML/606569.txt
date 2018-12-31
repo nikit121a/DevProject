@@ -1,0 +1,4 @@
+Hello,
+How do i get the color of the current backstage tab?  I need to match the color for various controls that i am placing on it.
+Thanks,
+Greg 

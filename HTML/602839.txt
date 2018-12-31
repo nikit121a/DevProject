@@ -1,0 +1,5 @@
+What is the difference between
+Dev Express Visual Studio components .
+Dev Express Express editions.
+Dev Express Universal version.
+I need to upgrade the Dev Express VS component 15.1 to 15.2.17. But our company has got license of 15.2.4 VS component version. And other is 15.2.17 or 17.1 Dev Express Express version. 

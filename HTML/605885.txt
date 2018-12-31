@@ -1,0 +1,22 @@
+Hi,
+ 
+ I want to change the background color of the updated cell in the tree-list.
+ 
+ I tried in many ways, but none helped to me.  I am using angular4 typescript.
+ 
+ I used like the below shown sample code.
+ 
+ 
+ <dx-tree-list id="setupTreeList"  (onRowUpdated)="onRowUpdated($event)" >
+ 
+ </dx-tree-list>
+ 
+ 
+ 
+onRowUpdated(e) { 
+      e.cellElement.css('background-color', 'yellow');
+ }
+ 
+onRowUpdated(e) {
+      e.Appearance.BackColor = 'red';
+ } 

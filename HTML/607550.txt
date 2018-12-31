@@ -1,0 +1,3 @@
+Hi,
+I try to export the XtraRichEdit content in it's same Pixel size ( 420x220) to PDF/PNG. What are the necessary steps? If I try it in the following way the format of a PDF is A4 and the content is set to top left:
+ 

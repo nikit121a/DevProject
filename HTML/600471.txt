@@ -1,0 +1,5 @@
+Hi
+Using TreeViewExtension.GetState is it possible to check whether a node is in an indeterminate state?
+When using TreeViewNodeState.Checked I can only see true or false - and it appears that indeterminate means false in this context.
+Thanks,
+Paul 

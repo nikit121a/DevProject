@@ -1,0 +1,12 @@
+Hello everybody,
+I just noticed that the selection of and/or in the Data Filter Collection Editor for charts is not persisted. I did the following:
+1. Add a new chart to a report
+2. In the chart designer, open the Data Filter Collection Editor
+3. Add two filter clauses
+4. Switch from and to or
+5. Close the chart designer
+6. Open it again and open the Data Filter Collection Editor again
+-> the selection has changed back to and
+ I have attached my sample project and a short video. Thank you for your help.
+Best regards
+Christopher

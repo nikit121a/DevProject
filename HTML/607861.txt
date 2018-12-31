@@ -1,0 +1,5 @@
+I am currently using an IDataSourceWizardConnectionStringsProvider to provide a dynamic MySQL connection string to clients using the web report designer. Is there a way for me to run some initial SQL statements once DevExpress uses the connection string to establish a connection?
+To give some context, I am trying to run the following SQL statement after a connection is established:
+SET time_zone = '<some dynamic time zone>';
+Running this statement would allow each client to view timestamp fields within his/her own time zone. I've tried researching a way to run this statement as part of the connection string itself, but to my knowledge,  that is not possible.
+Thanks in advance for any help your support team can provide. 

@@ -1,0 +1,8 @@
+Dear Sir/Madam:
+    Hi,I just bought the product “DevExpressVCLProducts-17.2.4”from your company,and it was really slow to use it to read and write data.It takes fifty seconds to read and write 8500 datas with your product,while it only needs 5 seconds to use “F1Book6”to do this.Usually,we need to deal with tens of thousands or hundreds of thousands data.I do not think it can process anymore in this case.Plase help me to solve this problem?
+The computer language i use?
+
+
+
+
+Thank you very much!

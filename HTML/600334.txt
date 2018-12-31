@@ -1,0 +1,2 @@
+How to change color of scroll bar when 
+DevExpress.XtraEditors.WindowsFormsSettings.ScrollUIMode is ScrollUIMode.Touch  .

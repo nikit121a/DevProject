@@ -1,0 +1,6 @@
+Hello,
+I am trying to bind a data grid to a REST service. I have my service created and returning JSON, however I am unsure how to bind the data correctly. I have tried using the Odata example to try to bind my REST service to the grid, but I am unable to get it working. I keep getting the following error:
+"E4018 - The server has returned a non-numeric value in a response to an item count request. See: 
+ "
+I go to the provided but it didn't lead me to anything useful. Can you point me in the right direction to the documentation that can show me how to do this please :) Thanks,
+Ethan 

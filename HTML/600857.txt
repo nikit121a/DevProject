@@ -1,0 +1,2 @@
+Hi,
+ I'm trying to configure a pivotgrid to when i'm scroolling the scrool bar up or down the row name (in a expanded row) comes together  up or down... How could i do it? And is this configuration on the pivotgrid column configuration, data or cell configuration? 

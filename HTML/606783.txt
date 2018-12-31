@@ -1,0 +1,4 @@
+Hi!
+i place table  in header part (or footer part doesnt matter) and table in detail part. In this two tables i set cell  borders to all and after that 
+in places where this two tables come into contact i see bold borders. I want set all borders to cell but dont get bold border.I cant figure it out how avoid it and I dont understand is it bug or not?
+Thanks..

@@ -1,0 +1,8 @@
+I am using the scaffolding wizards to create a Parent/Child Application.  I have an need to edit the Parent entity and its Children on the same view.  Attached is a simplified example of what I am trying to accomplish.  I have the following scenario:
+1.  The Parent CollectionView displays the list of parents.
+2.  Double-Clicking on a Parent (or clicking on the edit button) will bring up the ParentView.  This contains both data from the Parent as well as associated Children.
+3.  I have created a command called "CascadeSave".
+4.  I track changes in the parent data as well as the child data and update CanCascadeSave as needed.  The idea being that when you make a change to either the parent or child data, the Save button will become active.  This part works as expected.
+5.  If I make changes to the parent data and try to Close the window without saving first, I am prompted to save or cancel my changes.  However If I make changes to my child data, I would also like it to prompt me to save or cancel my changes. 
+Thanks,
+Anand

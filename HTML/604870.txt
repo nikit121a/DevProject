@@ -1,0 +1,5 @@
+Hi,
+I want to get selected item from BarSubItem in viewmodel (MVVM).
+I have populated BarSubItems through observable collection as:-
+in view model :-
+Now I am looking to get selected barsubItem within viewmodel and to open new view respectively but nothing works.

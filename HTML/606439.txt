@@ -1,0 +1,1 @@
+Is there a way to hide the group label.  So instead of Showing "State: NY" I just want to show "NY".

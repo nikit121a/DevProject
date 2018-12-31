@@ -1,0 +1,87 @@
+Hi, I have to make visible some columns of an ASPxGridView before inserting or editing a register. This works fine with this code:
+    protected void RejillaPrincipal_CustomCallback(object sender, DevExpress.Web.ASPxGridView.ASPxGridViewCustomCallbackEventArgs e)
+    {
+        string cmbDeb = "cmbDebito", cmbCre = "cmbCredito";
+        string cmbDebito = cmbDeb + OpalClass.SelectSQLObject("SELECT Debito FROM opalaspx.tipos WHERE ID = " + e.Parameters);
+        string cmbCredito = cmbCre + OpalClass.SelectSQLObject("SELECT Credito FROM opalaspx.tipos WHERE ID = " + e.Parameters);
+        bool ContadorAutomatico = (bool)OpalClass.SelectSQLObject("SELECT ContadorAutomatico FROM opalaspx.tipos WHERE ID = " + e.Parameters);
+        for (Int32 i = 0; i < RejillaPrincipal.Columns.Count; i++)
+        {
+            string Name = RejillaPrincipal.Columns[i].Name.ToString();
+            if (ContadorAutomatico && Name == "Numero")
+            {
+                GridViewDataTextColumn c = (GridViewDataTextColumn)RejillaPrincipal.Columns[i];
+                c.ReadOnly = true;
+                RejillaPrincipal.Settings.ShowStatusBar = GridViewStatusBarMode.Visible;
+                msg = "Info: Este tipo de documentos tiene contador automatico, el numero lo genera el sistema y el campo esta desactivado.";
+                continue;
+            }
+            if (Name.IndexOf(cmbDeb) < 0 && Name.IndexOf(cmbCre) < 0)
+                continue;
+            if (Name == cmbDebito || Name == cmbCredito)
+                RejillaPrincipal.Columns[i].Visible = true;             // HERE I MAKE THE COLUMNS VISIBLE
+            else
+                RejillaPrincipal.Columns[i].Visible = false;
+        }
+    }
+    protected void RejillaPrincipal_StartRowEditing(object sender, DevExpress.Web.Data.ASPxStartRowEditingEventArgs e)
+    {
+        string cmbDeb = "cmbDebito", cmbCre = "cmbCredito";
+        string ID = RejillaPrincipal.GetRowValuesByKeyValue(e.EditingKeyValue, "TipoID").ToString();
+        string cmbDebito = cmbDeb + OpalClass.SelectSQLObject("SELECT Debito FROM opalaspx.tipos WHERE ID = " + ID);
+        string cmbCredito = cmbCre + OpalClass.SelectSQLObject("SELECT Credito FROM opalaspx.tipos WHERE ID = " + ID);
+        bool ContadorAutomatico = (bool)OpalClass.SelectSQLObject("SELECT ContadorAutomatico FROM opalaspx.tipos WHERE ID = " + ID);
+        for (Int32 i = 0; i < RejillaPrincipal.Columns.Count; i++)
+        {
+            string Name = RejillaPrincipal.Columns[i].Name.ToString();
+            if (ContadorAutomatico && Name == "Numero")
+            {
+                GridViewDataTextColumn c = (GridViewDataTextColumn)RejillaPrincipal.Columns[i];
+                c.ReadOnly = true;
+                RejillaPrincipal.Settings.ShowStatusBar = GridViewStatusBarMode.Visible;
+                msg = "Info: Este tipo de documentos tiene contador automatico, el numero lo genera el sistema y el campo esta desactivado.";
+                continue;
+            }
+            if (Name.IndexOf(cmbDeb) < 0 && Name.IndexOf(cmbCre) < 0)
+                continue;
+            if (Name == cmbDebito || Name == cmbCredito)
+                RejillaPrincipal.Columns[i].Visible = true;             // HERE I MAKE THE COLUMNS VISIBLE
+            else
+                RejillaPrincipal.Columns[i].Visible = false;
+        }
+    }
+But after finishing and pressing the update button and returning  to the grid, I would like to make again invisible these columns before rendering the grid. I've tried with different events but no results. Columns remain visible. I have used this events and code:
+    protected void RejillaPrincipal_HtmlRowPrepared(object sender, ASPxGridViewTableRowEventArgs e)
+    {
+        if (e.RowType == GridViewRowType.Data)
+        {
+            if (e.Row.Cells[0].Controls.Count > 0 && e.Row.Cells[0].Controls[0] is DevExpress.Web.ASPxClasses.Internal.InternalImage)
+            {
+                DevExpress.Web.ASPxClasses.Internal.InternalImage image = e.Row.Cells[0].Controls[0] as DevExpress.Web.ASPxClasses.Internal.InternalImage;
+                if (RejillaPrincipal.DetailRows.IsVisible(e.VisibleIndex))
+                    image.ToolTip = "Ocultar detalles";
+                else
+                    image.ToolTip = "Ver detalles";
+            }
+            for (Int32 i = 0; i < RejillaPrincipal.Columns.Count; i++)
+            {
+                string Name = RejillaPrincipal.Columns[i].Name.ToString();
+                if (Name.IndexOf("cmbDebito") >= 0 || Name.IndexOf("cmbCredito") >= 0)
+                    RejillaPrincipal.Columns[i].Visible = false;         // HERE I TRY TO MAKE THE COLUMNS INVISIBLE AGAIN
+            }
+        }
+    }
+    protected void RejillaPrincipal_Init(object sender, EventArgs e)
+    {
+        for (Int32 i = 0; i < RejillaPrincipal.Columns.Count; i++)
+        {
+            string Name = RejillaPrincipal.Columns[i].Name.ToString();
+            if (Name.IndexOf("cmbDebito") >= 0 || Name.IndexOf("cmbCredito") >= 0)
+                RejillaPrincipal.Columns[i].Visible = false;         // HERE I TRY TO MAKE THE COLUMNS INVISIBLE AGAIN
+        }
+    }
+But no sucess with none of these events. Columns remain visible in the rows of the grid.
+Questions: Is it possible to make this? What event do I have to use to make columns invisible before rendering the grid?
+Regards,
+Leonardo Balliache
+ 

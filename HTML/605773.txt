@@ -1,0 +1,8 @@
+Hi there,
+I am using custom repository item in gridview by referring 
+. 
+But somehow i stuck by following issues :
+1.How to Auto-Height the row as per custom repository item's content and
+2.How to trigger event from custom repository item to its parent grid.
+Do you have more simplified way to add custom repository item in v17.2?
+Thanks

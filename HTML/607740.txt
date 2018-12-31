@@ -1,0 +1,3 @@
+Hey guys, I am trying to load data in ef core using ".Include" statements. the data retrieves fine, but when the data is passed to the form and or grid control I get a self referencing loop error. I have setup my Startup.cs "ConfigureServices" as follows:
+I am assuming that the JSON options do not affect your controls, so how do I setup the internal devextreme JSON options so that I do not get this error? 
+HEre is the exception with stack trace:

@@ -1,0 +1,7 @@
+Hello,
+we have the following problem..
+ with the event: ASPxWebDashboardDesignerMain_CustomFilterExpression we are settings new filters to the dashboard:
+ This works fine.
+Now we need to clear these filters at loading a new dashboard or in the dashboard unload event.
+How can we manage these?
+ 

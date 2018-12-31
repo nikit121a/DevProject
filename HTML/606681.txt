@@ -1,0 +1,9 @@
+Hi Guys,
+I believe that I've raised this issue with you before, with no real solutions or answers in error logs.
+Recently my project has been suffering a major issue with it's resource file, every time I closed the project and opened again, none of my form designers would open and reported that my images could not be found, however the project would compile and the images would all be there and working fine, very baffling!
+Eventually I discovered that if I excluded the resource file from the project, deleted the designer file and included the resource file back into the project (forcing it to rebuild the designer file), I could once again open  my forms and reports without errors or VS crashing. This would work for awhile, but after a few hours, the issue would return and I would need to repeat the process.
+10 days ago I decided that enough was enough and determined to find the underlining issue, and I believe I found it. When I save SVG files from the builder and export them as PNG, I get the file name: CheckDBConnection-32x32 .png, this file name contains a '-' and I believe it's this naming convention that has bought about my issue.
+I went through my resources file (after I rebuilt it again) and renamed all the files containing a '-' to exclude it, so CheckDBConnection-32x32 .png becomes CheckDBConnection32x32.png. Ever since I've done this, I've not had a single problem and everything is working as it should. VS is no longer crashing and I can open form designers without issue and without the need to execute my workaround.
+I thought I would pass this information on so you can investigate my theory and maybe help others.
+Regards,
+Richard 

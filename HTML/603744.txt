@@ -1,0 +1,5 @@
+In the remarks for the CustomAllowAppointmentConflicts event, the following note appears:
+  "The common practice is to clear the 
+ collection at the  beginning, and populate it with any appointment if the user's action  should be canceled.  You can even create a fake appointment for this  purpose and add it to the collection."
+This is exactly how I'm implementing the feature right now.  It works well.  But I don't see an obvious way to inform the user of *which* appointment(s) is/are actually causing the conflict.  This is frustrating my users as they're being told there's a conflict, but they're having trouble finding it.
+Is there an example or best practice for how to show the conflicting appointments identified in the CustomAllowAppointmentConflicts event?

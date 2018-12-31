@@ -1,0 +1,15 @@
+Hi
+Some years ago I cloned a simple DevExpress spreadsheet application  and added some of my custom functions.
+I need to convert this to a dxSpreadSheet and am frankly struggling with the number of changes to be made an no obvious help in the current demos.  For example  I have a function which allows only certain values to be entered into a cell, previously I used OnEditing which from the help is defined as below, however there is no clue as to which to unit  TcxCustomEditProperties belongs.  The help below is of no use as when you click on TcxCustomEditProperties you get  'selection is not associated with any topic'
+Do you have a simple dxBased Spreadhseet application from which I may be able to glean some ideas on how to convert my current cx Based application?
+Regards
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

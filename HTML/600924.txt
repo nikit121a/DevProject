@@ -1,0 +1,6 @@
+Hi DevExpress Support,
+        I have this code snippet shown below that sets the selection mode to multiple, but whatever row I select on the grid, it always selects all of the records.
+        can you please check on this.
+Thanks!
+Jude Alquiza.
+ 

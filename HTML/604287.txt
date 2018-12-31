@@ -1,0 +1,8 @@
+Hi,
+I have a batchedit grid that has a number of columns grouped.
+The following setting is turned on.
+DevExpress hangs.
+if I have it turned off  I can expand each row individually.  The problem is for the grid I need it to display all data expanded.  With the batchedit grid and continuous paging I expected that it would just render the pages as I scroll down the list.
+I'm binding the data  using entity framework.
+I've attached an example of the sheet.  The above shows the columns.
+ 

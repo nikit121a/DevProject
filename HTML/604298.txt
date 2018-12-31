@@ -1,0 +1,5 @@
+Hi,
+I have set TreeList column with RepositoryItemCheckEdit . But alignment is not taking taking care even I set for the first column.
+Please find the attached screenshot and let me know how can we set.
+Regards,
+Anil 

@@ -1,0 +1,5 @@
+Hi DevExpress support,
+There is a null reference exception on changing of AllowCustomization.
+Please advice how to avoid it.
+Attaching example.
+Thanks in advance.

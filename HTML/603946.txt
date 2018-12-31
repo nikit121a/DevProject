@@ -1,0 +1,11 @@
+Dear Support,
+I have encountered this issue when upgraded from 17.2.3 to 17.2.5, and a sample project is attached herewith for reference.
+In the attached sample project, I have a XrLabel in the report which is bound to a Report Parameter using Expression as follows:-
+iif([Parameters].[Parameter1]==0,'Hello 0', 'Hello 1')
+When the report is not bound to dataset, the XrLabel can display proper value of "Hello 0" or "Hello 1" with the change of [Parameter1] value. However, once I bind the report datasource to a dataset, the XrLabel binding will not function properly.
+This behavior was not happened in 17.2.3.
+Appreciate your advise.
+Thanks.
+Regads,
+Pang
+ 

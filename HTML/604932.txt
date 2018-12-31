@@ -1,0 +1,5 @@
+Hello,
+I have a TreeList  bound to a TableAdapter. The TableAdapter has an auto increment primary key column Id and a ParentId column which references this Id. These are the Key and Parent fields on which the TreeList is built.
+On AppendNode, I have to set  a temporary Id for the new node which will be overwritten in the database by the Identity (on the Id column), if we create children for this node, they will be linked to this temporary Id, but will not be overwritten with the previously mentioned Id in database (on the ParentId column).
+On the client it is looking fine, but when we save it, we  lose the  relationships between the newly created nodes.
+Do you have a solution that would allow us to insert the newly created identity value into the ParentId as well? 

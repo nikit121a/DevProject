@@ -1,0 +1,2 @@
+I have a Gridview that consists of TextBoxes.  How would I go about making come of the TextBoxes into DropDownList.  I have the control types set to GridViewDataComboBoxColumn but that doesn't appear to be working.
+Thanks 

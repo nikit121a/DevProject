@@ -1,0 +1,3 @@
+Hi,
+i have set date display format in the gridcontrol to dd/MM/yyyy and when i use auto filter and type date in dd/MM/yyyy then i dont get any results. but if i type in MM/dd/yyyy in auto filter the i get result. can you please help here to solve this issue.   please find attached screen shot for this issue. 
+Thanks, 

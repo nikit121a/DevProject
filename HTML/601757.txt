@@ -1,0 +1,8 @@
+Hello Uriah,
+I tested the RolesMergingMode option. It seems to do exactly what I need except one thing - if user belongs to any role that doesn't have any permission for given type defined (even completely empty role), the access to the type is denied.
+For example there are 2 roles - the first allows navigation and read permission to Person type. The second one is empty. User usr1 belongs to both roles. In this configuration, access to Person is denied.
+Please see attached screenshots.
+It would make more sense to me if a role that does not contain any permission for given type would be ignored for permission calculation. 
+Would it be possible to change the permission processing in this way?
+Otherwise, it would be necessary to grant permission to a type in all roles.
+Thank you

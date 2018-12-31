@@ -1,0 +1,4 @@
+Hello I have a problem, when I use 
+ to display a downloaded document, in return
+here an exception is reported?
+(exception:Drag Drop Registration failure),How should I deal with it?

@@ -1,0 +1,4 @@
+Hello,
+I am using a document based database (Couchbase) and I have to display properties of my objects as a flat list, therefore I wrote a Object -> datatable conversion.
+Now I would like to display this datatable in a xtragrid, but nothing is shown? How can i bind an in memory datatable to a xtragrid -> could not find any info on this.
+TY 

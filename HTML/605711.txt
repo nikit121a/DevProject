@@ -1,0 +1,5 @@
+I am having a bit of difficulty understanding the meaning/implementation of the TreeList Selection and the relationship with the FocusedNode.
+It seems the FocusedNode does not even need to be part of the Selection, because I am forced to have a FocusedNode but the Selection can be empty. Why is the FocusedNode not part of the Selection and under what circumstances should I know if it will be included or not?
+Setting a collection of nodes to be selected seems to be a problem as well. If I set FocusedNode = someNode it clears the selection except for that one node, but if I am trying to programmatically set the Selection collection, I may not want to include the old focused node. I have the appearance of the Selected Nodes the same as FocusedNode so this is visually confusing. I cannot change it appearance though because I am required to show what the user has selected the same way.
+Any thoughts on how to overcome these problems?
+Thank you.

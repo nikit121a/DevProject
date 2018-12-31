@@ -1,0 +1,11 @@
+Hello,
+I have a gridview with a column that displays links to a social media site. I would like the user to be able to click the link that is displayed in the column, and open the social media site in a new tab. How can I accomplish this? I was looking at some examples, and tried to piece the functionality together with this: 
+var linkedInCol = settings.Columns.Add("LinkedIn", "LinkedIn", MVCxGridViewColumnType.HyperLink);
+    linkedInCol.Visible = false;
+    HyperLinkProperties properties = linkedInCol.PropertiesEdit as HyperLinkProperties;
+    String urlFormatString = "{0}";
+    properties.NavigateUrlFormatString = HttpUtility.UrlDecode(urlFormatString);
+    properties.TextField = linkedInCol.Caption;
+ but the link was treated as a redirect to an action, rather than an external website.
+Thanks,
+Sean

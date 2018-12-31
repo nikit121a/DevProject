@@ -1,0 +1,5 @@
+Hi,
+I need to show selected images in HtmlEditor ImageSelector. I'm trying to use "
+" - as I did for FileManager - with ImageSelectorSettings, but didn't get any success to achieve same feature. Is it possible to show selected images from Database using CustomFileSystemProvider? Can you give me a sample?
+Regards
+/Issa 

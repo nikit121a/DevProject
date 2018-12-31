@@ -1,0 +1,18 @@
+Hello,
+I cannot get the custom errors when I save a report layout at the test server. I'm always getting the following error:
+0|/*DX*/({error: {message: "Callback request failed due to an internal server error."}, result: "save", id: 0})
+error:{message: "Callback request failed due to an internal server error."}
+message:"Callback request failed due to an internal server error."
+id:0
+result:"save"
+Meanwhile, using my local machine it works perfectly and I can see the custom layout errors, for example:
+0|/*DX*/({error: {,}, result: "save", id: 0})
+error:{,}
+message:"[&quot;O campo \&quot;1&#170; Linha IVA - Incid&#234;ncia\&quot; &#233; obrigat&#243;rio e n&#227;o se encontra presente no relat&#243;rio&quot;]"
+id:0
+result:"save"
+This is how I am returning the errors in the .ASPX:
+ 
+Any ideas what might be the problem ?
+Thank you,
+Best regards

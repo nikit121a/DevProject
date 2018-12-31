@@ -1,0 +1,9 @@
+Hello support team,
+I cannot get the standalone ImageComboBox control binding working with XPO. Perhaps you can give me a direction what I'm doing wrong. This is my code:
+XPO Status has properties: short Oid, string Text
+XPO SomeObject has properties: ..., Status Status, ...
+Then I try to setup the standalone ImageComboBox 'icboStatus' with binding to the SomeObject.Status property:
+Binding of other properties works fine. When setting breakpoints and inspecting the controls everything seems to be okay. ImageCombo is correctly filled with status text and image. But the binding doesn't work. Let's say SomeObject.Status is 'Status1' the combo doesn't show this and remains blank. If I select another status, say 'Status2', the bound field isn't changed in any way.
+When checking the combo in EditValueChanges the EditValue is never of type Status but some XPCollection. I think that's why the binding doesn't work since I have to assign a valid Status object. Am I thinking wrong?
+Thank you
+ 

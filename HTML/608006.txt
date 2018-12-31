@@ -1,0 +1,8 @@
+Hi,
+I have a DataGrid with PopUp edit. 
+I wan't to be able to validate if a user is free in the selected time period. I have created a method to do that, but it is on the serverside. Is it possible to create a similar method like that in JavaScript? Where I can compare the dates, and check if the user is used in another project at that time. If so, which method should I call?
+If not, then how can I show the error message from server?
+The ValidationErrorMessage is never shown. I've read 
+, maybe a similar solution could work? (i'm using MVC, not api)
+Hope you can help :-)
+Regards

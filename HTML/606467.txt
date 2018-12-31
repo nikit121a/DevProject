@@ -1,0 +1,5 @@
+Hi,
+Is it possible to filter a gridview column by the display text (cell) with an EntityServerModeDataSource ?
+My table Customer contains the column DateCreated which is in UTC. In my application, DateCreated is displayed in local datetime.
+Thank you.
+Andy. 

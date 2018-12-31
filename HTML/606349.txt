@@ -1,0 +1,10 @@
+We need to keep track and log to database when a user has printed or exported a report in our XAF apps.
+This is the closest reference I could find: 
+I combined this article's use of the __EVENTTARGET and __EVENTARGUMENT  with a controller that gets the ASPxWebDocumentViewer in this fashion (I'm assuming WebDocViewer will work for this trick as well):
+ 
+I'm blocked, though, because Default.aspx's Page_Load never returns anything for eventtarget or eventargument. If I could get a hold of this information another way I could get the controller linked up with that info however I needed to.  Does that information get posted back anywhere else in the XAF app? 
+Is this even the correct approach?
+I've tried to bind to the Executed events on the actions of the  WebExportController and WebReportsController, but none of those ever seem to fire. I just need one reliable way to capture when a report is printed or exported, and then a way to disable all the others :)
+I also tried this approach to see if I could customize the popup control somehow. Putting this code in either OnActivated or ControlsCreated doesn't capture the event:
+ 
+Any help or advice would be greatly appreciated! Thanks! 

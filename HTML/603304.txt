@@ -1,0 +1,8 @@
+Hi!
+For each DLL that I add in Project, more slow for open Project in deploy mode, for my client.. 
+If I have two dlls, exe open fast..
+but, I have 72 dlls!
+And is very slow for open my exe!
+helpppp
+Exist a way for only load DLL that need in moment??
+ 

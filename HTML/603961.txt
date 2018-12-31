@@ -1,0 +1,7 @@
+Hi,
+This is an extension of a previous ticket I submitted few days ago.
+I?n the project attached, each item has its own icons in the second column.
+Now, I've added some subitems reaching the 4th level and what I'm trying to achieve is the possibility to show the icon "EYE" to all the subitems of the item which icon has been clicked.
+Please, see the pictures attached in the next comment.
+Is there a way to do it?
+Thank you.

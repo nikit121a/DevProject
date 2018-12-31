@@ -1,0 +1,6 @@
+Hi,
+I need some help in setting up a new app. I have spent a long time trying various controls, panels, and spilt containers and panels and it always ends up messy when the window is resized or maximized etc. 
+Please take a look at the attachment which indicates what I am trying to achieve. I am generally aiming for a tabbed interface but the content of each tab must contain it's own nav bar and content area and it should all adapt reasonably to resizing. 
+The only element that would be a fixed size is the control labelled 'XtraTab'. Note that the controls in the area to the right of the NavBar changes when NavBar items are selected. So I presume a user control needs to be used for that area (where XtraTab / Accordion control etc are located).
+If my notes or the attached  pic is confusing let me know.
+Thanks - Gerard

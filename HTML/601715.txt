@@ -1,0 +1,3 @@
+Hello!
+I'm using tree list to display items (subnodes) grouped by categories (root nodes). Each item has a stateImage, and that is not so for categories. This will lead to an offset for each node at a left side for images, and root nodes has a blank offset. Is it possible to hide this blank offset? Attaching an application that illusrates described above.
+Thank you!

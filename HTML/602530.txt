@@ -1,0 +1,3 @@
+hi.
+i included a custom theme and i always get the error seen in the attached image.
+i does not keep my application from working, but i was always wondering what that is. also, trying to load the .woff file takes a bit more than a second ...

@@ -1,0 +1,4 @@
+Hello!
+My use case:
+I have a 2 modules, each with separate  set of a domain components. This domain components does not have cross-module references. The business requirement is to store entities of each module in separate database.Then I have a 3rd module that includes both modules.
+How (and where) setup connection strings to reuse separate databases?

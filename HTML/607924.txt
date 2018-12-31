@@ -1,0 +1,4 @@
+How to display a fixed summary row (as first row of the grid) that will display the summation of values of other rows in that column with some logic (negative value should not be included in summation) ?
+It should not be shorted while shorting.
+Thanks,
+Abhayashis

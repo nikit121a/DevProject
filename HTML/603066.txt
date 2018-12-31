@@ -1,0 +1,3 @@
+The clicked cells don't return the right selected time.
+it seems that it refers to the previous cell.
+As you can see, i show the javascript alert with the selected start date and end date.

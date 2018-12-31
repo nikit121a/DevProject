@@ -1,0 +1,3 @@
+Hello,
+I would like to allow a user to copy all values of a single column for all selected rows to the clipboard. Basically, the gridview displays contact information, and I would like the user to be able to select as many rows as they would like with the command column check box, and then copy all selected values of a single column (email address) to their clipboard. Would this be possible?
+Thanks! 

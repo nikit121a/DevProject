@@ -1,0 +1,6 @@
+Hello,
+I wanto to use custom form for saving xaf collection class. Because user want to data transpoze form in showing if I dont use custom form  how can I able to use vertical grid in XAF.
+1) How can I manipulate XAF Data in Custom Forms and  is that true way .
+2) How can I use vertical grid in XAF without Custom Forms
+Best Regards,
+SERD?N 

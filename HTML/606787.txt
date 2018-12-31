@@ -1,0 +1,7 @@
+Hi Team,
+I am attaching one picture, First Half is a design of same Grid which is in Second Half but as you can see I have used Grid Control of DevExpress but failed to get the same design. 
+Specially Group Header Text is in format {0}:{1} where {0} represents HeaderText and {1} represents Value. I don't want Header text and " : ".
+I need to place Icons too. Please Help me in this. 
+XAML Code is 
+
+

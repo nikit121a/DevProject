@@ -1,0 +1,3 @@
+We've written a report for a client that has a couple of parameters used to control "column" visibility.  When they turn off a column, they want the remaining columns to shift or resize to consume the empty space left by the hidden column.
+I've poked around looking for something to do this, and nothing has jumped out at me.  Is there a script or non-script way to handle this?
+Attached is a screenshot for reference. Imagine the client elects to turn off the "% Of Total" column.  As a result, the client wants the Total and Cost/SQFT columns to shift to the right.

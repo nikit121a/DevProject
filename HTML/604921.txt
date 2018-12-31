@@ -1,0 +1,4 @@
+Hello,
+I need to override the disabled style of the dxe:DateEdit control and I am having trouble figuring out how to do this. I need to control the opacity (text's opacity should be 1) of the TextBox part of the dateEdit control.
+I have tried setting the EditNonEditableContrent and Template with triggers on IsEnabled, but I cannot get it working.
+Thanks!

@@ -1,0 +1,5 @@
+Hi!
+I've customized the Total pivotgrid section using FieldValueDisplayText event and PivotDrillDownDataSource object.
+Data is "correctly" shown , but as you can see in the attachment file, I'd like to create the cells corresponding to columns FLD4, FLD5,FLD6,FLD7 and FLD8 to improve readability (see worksheet "Desired").
+Is it possible?
+ Thanks in advance!

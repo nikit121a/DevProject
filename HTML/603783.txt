@@ -1,0 +1,6 @@
+Hi guys,
+I have searched around for the answer but I haven't been successful. I am trying to change the field list layout to fields section and area side-by-side in code at run time.
+I also need to adjust the width and/or height of the hidden area.
+Can you help?
+Many thanks,
+Joe 

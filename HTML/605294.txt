@@ -1,0 +1,1 @@
+We are in process of implementing global settings to our MVC Devexress grid , as currently we required to do settings manually on every page. Please suggest solution for same. Also please provide Sample project for same if any.  

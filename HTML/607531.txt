@@ -1,0 +1,3 @@
+Hi, I have a DockLayoutManager placed in a BackStageView. After undocking some LayoutPanel and closing the Backstageview I need to keep this FloatGroup visible. OwnsFloatWindows works only in case of minimizing the main window. How can I achieve this behaviour please? I attached the simple app to demonstrate this - just run the app, undock the "Title" LayoutPanel by mouse and close the BackstageView and this LayoutPanel will hide.
+Thanks for help,
+Mira   

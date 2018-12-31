@@ -1,0 +1,11 @@
+Hi,
+I have a pivotGrid in my page.
+I've added to the column array a new attribute "tooltip : xxx" with different value for each column.
+onCelllPrepared I want to add function onhover that will show a tooltip  with value from the tooltip attribute
+My function:
+It works fine.
+I have one problem:
+When i have 2 fields in row area, and i click on the first one to open the second field
+Then the tooltip of the first field stays open
+Please find attached a small video that showsthe problem
+Thanks 

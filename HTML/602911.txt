@@ -1,0 +1,5 @@
+Hi
+In order for Unbound coumns to be restored from a saved layout, we need to set
+But overtime I may add new columns to the dataset and I dont want these new columns to be automatically added to the view when restoring a layout that does not have these columns.
+If I put the AddNewColumns to false, then the new columns will not be part of the view but my unbound columns either.
+Anyway to solve this ?

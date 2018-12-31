@@ -1,0 +1,3 @@
+Hi, 
+I want to catch event, when data changed, but when i grouped data and collapsed results, RowCountChanged dont work, because group count dont change. Whenever refreshing data from table or filtering grid. For now, i need to add two more events, is there any event, that calls after data refreshed?
+Thx

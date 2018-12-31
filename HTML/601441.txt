@@ -1,0 +1,5 @@
+Hi in my server side code in C# I create an instance of a devexpress xtrreport and then call the print method
+ie
+now when I test this on my local desktop pc it prints to my default printer.
+but when I try from our live website it displays a error that no default printer is installed.I have a default printer installed on the web server too.
+I know this is not exactly a devexpress error but any help is appreciated. 

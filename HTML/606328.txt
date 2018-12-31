@@ -1,0 +1,26 @@
+Hello,
+after upgrading from 17.2.4 to 17.2.5  the max-width of the dx-toolbar-label <div> is too small.
+The title of dxPopup is displayed with ellipsis.
+This happens with dx.light.compact.css style.
+Configuration:
+@(Html.DevExtreme().Popup()
+                    .ID("ditta-popup")
+                    .Width("90%")
+                    .Height("90%")
+                    .ShowTitle(true)
+                    .Title("Ditta")
+                    .Visible(false)
+                    .DragEnabled(false)
+                    .CloseOnOutsideClick(true)
+)
+Javascript:
+var popup = $("#ditta-popup").dxPopup("instance");
+            
+popup.show();
+The solutions I found is:
+ $(".dx-toolbar-label").each(function (index, item) {
+                $(item).css("max-width", "50%");
+ }); 
+Could you check that ?
+Thank you.
+Omar Bettin 

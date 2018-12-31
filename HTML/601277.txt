@@ -1,0 +1,4 @@
+Hello,
+In 16.1 and earlier versions I had the following method which put the focus at the end of the text in search field in the grid. It worked well until I upgraded to 17.2.
+Now exception says that 
+field can't be found. I understand some hierarchy/naming has changed. Could you please fix this piece of code so that I can get the same behavior? Or maybe there is already a simpler way to achieve same result?

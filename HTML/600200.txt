@@ -1,0 +1,5 @@
+Hello,
+I have an aspxlistbox with encodehtml false to display fontawesome icons for each items . That works well. I enable the new search feature. The search is working fine. But all the html highlight is deleted. Even if I cancel the search, all the items which were mathcing the search remains without HTML.
+Do you have an idea how to fix this?
+Thanks
+Michael

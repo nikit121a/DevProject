@@ -1,0 +1,6 @@
+Hello,
+I converted project Devexpress version from 14.1.6 to 17.2.5 and I'm getting an error ISupportsExternalPopupManagement naming Interface.
+But I did not get an error from 17.1.6.
+ ISupportsExternalPopupManagement naming interface does not work in 17.2.5
+Can anyone help me about this?
+Thank you

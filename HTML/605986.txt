@@ -1,0 +1,6 @@
+Hello. 
+I'm would like to ask for your recommendation regarding the implementation of a chart. Please look at the attached sample. At the first glance, I would implement the chart using 3 bar series. Each bar will have the same point on the OX axis. 
+A data point has 3 values. A percentage (gray), a numerator (black), a denominator(red). I would like to display each value as a bar.
+But I'm not really sure how the chart will handle bar overlapping.
+Do you have any tips or recommendations, by any chance? 
+Thank you. 

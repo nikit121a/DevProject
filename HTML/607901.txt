@@ -1,0 +1,2 @@
+Hello,
+How to merge two documents with different pages into one document (as sections). For example, I have Doc 1 (A4 page format) and Doc 2 (A3 landscape format). They are both in a file (. DOCX). I need to make a document where the first section will be Doc1 ,and accordingly the second section Doc 2, and I need to save the page formats. (See the attached file for an example). 

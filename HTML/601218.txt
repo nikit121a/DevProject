@@ -1,0 +1,35 @@
+Hi,
+I am trying to show the TimeSpan values in the DevExpress Grid, i will be getting the values like 
+ But i am not getting the result  as i expected which should be (HH:mm:ss). Please find the below code and kindly revert me the required changes.
+For Eg:
+My Model data like as below,
+public TimeSpan EndTime { get; }
+Grid:
+=====
+@{
+    var _gridData = Html.DevExpress().GridView(settings =>
+     {
+    settings.Columns.Add(col =>
+         {
+             col.FieldName = "EndTime";
+             col.Caption = "END TIME";
+             col.ColumnType = MVCxGridViewColumnType.TimeEdit;
+             col.Width = Unit.Pixel(150);
+             //col.PropertiesEdit.DisplayFormatString = "hh:mm:ss";
+             col.Settings.SortMode = DevExpress.XtraGrid.ColumnSortMode.Value;
+             col.SetEditItemTemplateContent(c =>
+             {
+                 Html.DevExpress().TimeEdit(te =>
+                 {
+                     te.Name = "EndTime";
+                     te.Properties.DisplayFormatString = "hh:mm:ss";
+                     //te.Properties.EditFormatString = "HH:mm:ss";
+                     //te.Properties.EditFormat = EditFormat.Time;
+                 }).Bind(c.DataItem, "EndTime").Render();
+             });
+         });
+ });
+}
+@_gridData.Bind(Model).GetHtml()
+Thanks,
+-Mani 

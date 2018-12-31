@@ -1,0 +1,1 @@
+Hello, I create my skin. In cxGrid header painted correct, but in cxTreeList header lost vertical line (see attachment)

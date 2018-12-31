@@ -1,0 +1,4 @@
+Hi Guys,
+we have an controller where we assign shortcuts to the new action items  based on the creatable items. currently this shortcuts only work when the user opens the singlechoice dropdown. is there any workaround? other shortcuts for creatable items work without any problem? attached is a maindemo solution with the said controller.
+thx
+Noxe 

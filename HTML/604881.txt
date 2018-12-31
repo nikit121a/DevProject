@@ -1,0 +1,8 @@
+The attached example project is based on the sample that Alexey provided here :-
+Specifically, I am trying to implement  a MultilineComboBoxEdit component which will allows for any number of lines to be displayed in the EDIT box, but also for 
+items to be allowed (and drawn correctly) in the dropdown list too.
+To achieve this, I  override the 
+ method, and hook in to the 
+ event.
+As you'll see when you run the sample code however, the event never gets fired.
+Please can you tell me if this is a bug or am I doing something wrong? 

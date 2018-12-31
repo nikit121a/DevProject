@@ -1,0 +1,7 @@
+Hi,
+I'm busy with the ASPxTreeList, which has filtering since 17.2.
+After typing some characters in  the filterbox, the nodes are filtered correctly. But while trying to show the next page or to change the filer text, an error appears:
+I've tried a lot of things, I've looked on the internet but I found nothing helping me.
+Please help me!
+Thanks in advance,
+CorBins

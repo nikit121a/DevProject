@@ -1,0 +1,4 @@
+Hi,
+I have a TabbedForm which works really well and allows me to have multiple records open at any one time, however i would like to use a navbar in order to open up new tabs. I understand that this inherits from XtraForm and therefore can't be used on a user control which I could embed on a regular form.
+I can get the nav bar on there, but the tabbed form just goes behind it. Even clicking send to back on the nav bar still causes this issue.
+Is there any solution to allow me to use a TabbedForm with a NavBar or is there a better control to use? 

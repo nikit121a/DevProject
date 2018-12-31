@@ -1,0 +1,7 @@
+I am using a 
+in my code.My requirement is that I want a particular command to execute from my view model when the 
+is 
+from a specific cell in datagrid.
+I tried using following code but it takes the function from code-behind rather than view model
+When tried to do it using interaction trigger it gives an error
+How can I achieve it ?

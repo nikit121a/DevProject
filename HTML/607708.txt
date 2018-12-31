@@ -1,0 +1,47 @@
+Hi Team,
+I'm using below controller for disabling Detailview for ListView.
+public partial class DisableDetailViewController : ViewController<ListView>, IModelExtender
+    {
+        public const string EnabledKeyShowDetailView = "DisableDetailViewController";
+        public DisableDetailViewController()
+        {
+            InitializeComponent();
+            // Target required Views (via the TargetXXX properties) and create their Actions.
+        }
+        protected override void OnActivated()
+        {
+            base.OnActivated();
+            ListViewProcessCurrentObjectController targetController = Frame.GetController<ListViewProcessCurrentObjectController>();
+            targetController.ProcessCurrentObjectAction.Enabled[EnabledKeyShowDetailView] = ((IModelShowDetailView)View.Model).ShowDetailView;
+        }
+        public void ExtendModelInterfaces(DevExpress.ExpressApp.Model.ModelInterfaceExtenders extenders)
+        {
+            extenders.Add<IModelViews, IModelDefaultShowDetailView>();
+            extenders.Add<IModelListView, IModelShowDetailView>();
+        }
+    }
+    public interface IModelDefaultShowDetailView : IModelNode
+    {
+        [DefaultValue(true)]
+        bool DefaultShowDetailViewFromListView { get; set; }
+    }
+    public interface IModelShowDetailView : IModelNode
+    {
+        bool ShowDetailView { get; set; }
+    }
+    [DomainLogic(typeof(IModelShowDetailView))]
+    public static class ModelShowDetailViewLogic
+    {
+        public static bool Get_ShowDetailView(IModelShowDetailView showDetailView)
+        {
+            IModelDefaultShowDetailView defaultShowDetailViewFromListView = showDetailView.Parent as IModelDefaultShowDetailView;
+            if (defaultShowDetailViewFromListView != null)
+            {
+                return defaultShowDetailViewFromListView.DefaultShowDetailViewFromListView;
+            }
+            return true;
+        }
+    }
+But when I click on Listview record. it redirecting to blank Detailview. 
+It should restrict DetailView 
+Thanks. 

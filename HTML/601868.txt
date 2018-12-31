@@ -1,0 +1,4 @@
+We are experiencing a problem with printing from the pdf viewer.  Users will be able to print for a while and then they will lose the ability to print unless they close the application and restart.  After restarting they are able to print again for a while. I attempted to enable legacy printing and that did not help.  I have also gone through our code and tried to make sure the PDFViewer was being disposed when the form or control it is is used on is closed/disposed.
+When the problem occurs no errors are generated.  The print dialog appears briefly and shows the spooling message. Only page 1 is displayed before the dialog closes.  If the print queue manager window is open while this is happening, you can see the print job appears briefly and then quickly disappears.
+Printers:  Kyocera FS-2100DN Driver version: KX Print Driver v7.3.1207
+We have also seen this on an HP printer.

@@ -1,0 +1,2 @@
+Chosen colors in the color table for Pie charts will change from the desktop designer to the web viewer when there are 2 or more Values and a hidden measure in the pie chart. Remove the hidden measure and the colors carry over to the web as they should.
+ 

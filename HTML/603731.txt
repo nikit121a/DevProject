@@ -1,0 +1,4 @@
+I have columns where the data type in a given column is different per cell, e.g some cells are text, other numbers and others booleans.
+I know I can write my own cell template and provide the template in the columns cellTemplate callback. But is it possible to use the existing templates, e.g for the checkbox. If so, how can this be done.
+Note, simply setting the data type doesn't switch the template for the cell, e.g. sometimes I get the text 'true/false/ instead of the checkbox, other times I get a checkbox when the data is an empty string.
+ 

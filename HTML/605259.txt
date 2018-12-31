@@ -1,0 +1,8 @@
+Hi guys,
+I am wondering how to do this.  I have a property in my app called LengthOfTime, of type TimeSpan.
+00:00:00
+I only want the user to be able to enter the "Seconds" of this TextEdit. or SpinEdit.
+For instance, if the user clicks in the box and types 14, it will display, "00:00:14"
+They can only enter between 0 and 60.
+How can I do this and would you have a sample of how to do this?
+Thanks much. 

@@ -1,0 +1,5 @@
+Hi Alexander,
+Here is the xml file which is not achieving fitToDrawing. Image takes half the space of complete page,
+Please let me know what to do next.
+Thanks,
+Kanika   

@@ -1,0 +1,6 @@
+Hi,
+in a XY diagram like the one here:
+How can I set the X axis grid tickmarks every 1 or every 0.5?
+At the moment it appears as on the attachment.
+Thanks, best regards.
+ 

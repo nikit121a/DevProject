@@ -1,0 +1,6 @@
+Dear Support,
+I saw many clients complaint the issue to add New button on many-to-many relationship. 
+1)  I am using the XAF version 14.1.8 .  Following below is the link regarding the Thread link regarding the New button issue on many to many relationship on 8 years ago. Is it the issue following below still resusable for my XAF version or any update for my XAF version ?
+ 
+2) Is it this issue updated or solved with the latest version ?
+Thanks 

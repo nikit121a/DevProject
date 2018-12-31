@@ -1,0 +1,6 @@
+Greetings,
+I recently updated to the latest build of your VCL components.
+My users are now notifying me that when you open the scheduler for the first time the reminder screen is displayed briefly and then disappears behind the scheduler.  If you move the scheduler  to access the reminder dialog it is not there.
+If you close the scheduler, then open it again, this time the reminded it partially in view, but behind the main form.  You cannot click on it to access it and therefore have no ability to dismiss or snooze any of the reminders.
+I have a 34mb Mpeg available to show this if you would like to see it.
+Mike

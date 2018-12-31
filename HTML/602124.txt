@@ -1,0 +1,6 @@
+I am looking for a Container control for my Ribbon form that will allow me to eliminate my Tab Control, put all controls at the front and permit the user to just scroll vertically or horizontally (like a webpage).
+Do you have any suggestions for this?
+[UPDATED]
+I have found the XtraScrollableControl.  That is exactly what I was looking for.
+Now to complement this control is the a Collapsible group control (sort of like the Navigation Bar control that will allow me to have flexible sections of my screen?  This control would go inside of the xtrascroll control and add some sectional depth to my screen.
+Or could I just use the AccordianControl and get best of both worlds?

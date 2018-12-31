@@ -1,0 +1,2 @@
+Is there a way within a Gridview to display the total of the LOS and LOSOpen grouped by the Facility Type and a total for all the LOS and LOSOpen?
+Let me know if additional scripts or items are needed. 

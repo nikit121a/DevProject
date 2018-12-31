@@ -1,0 +1,7 @@
+Hi
+I have started the update of the DevExpress components to ver. 17.2.5
+My PC is a powerful one with a 4.2 Ghz CPU, 32 GB RAM and SSD discs 
+It have run for more than an hour now... that is way to long, since I cannot start to work before this is done.
+The other updates of the documentation, coderush etc. runs fast, no problem here.
+But you really need to optimize the install/update of the components.
+Thanks

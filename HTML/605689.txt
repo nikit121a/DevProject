@@ -1,0 +1,9 @@
+Hi, I'm trying to make a complex query within the query builder for the dashboard module since I can not find another way to enter a query.
+Actually I have a static function in one of my classes that returns a CriteriaOperator based on the parameters passed, to be able to use this would be great, but I'll settle with reproducing the query in the dashboards module.
+The part I'm having trouble reproducing is:
+
+
+
+
+To be more specific the join with the class ChangeInStatus because I need to find if within that class I have a record for the parent within the dates I'm looking, but it seems I can not make this kind of query with the query  builder.
+Please advise.

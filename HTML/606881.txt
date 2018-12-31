@@ -1,0 +1,1 @@
+Hi I have just download v17.2.4 to run with on Delphi 10 Seattle but this removed my old version which was in use by Delphi 2006. I have now downloaded v1.59 as it is compatible with Delphi 2006 but am unsure how I set up the 2006 to read from the older DevExpress

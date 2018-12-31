@@ -1,0 +1,2 @@
+Hi,
+I am having some difficulty trying to get a lookupedit box to act like I would like. Currently we use Autocomplete filtering to limit the list when they type and this works well. However we would like the user to be able to type things not found in the list and use that text instead. Unfortunately, the autocomplete seems to not allow characters to be entered that are not found in the list. Is there a way to keep the current autocomplete filtering dropdown lookupedit while still allowing users to type a custom value? 

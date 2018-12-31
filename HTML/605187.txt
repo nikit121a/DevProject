@@ -1,0 +1,5 @@
+Good Morning Support Team
+In VB2012 I raise Events when Header/Footer starts/end like:
+I need to achieve the same when User selects/unselects the TextBox Frame/Picture. I searched the database but the Solutions shown are much too complicated to achieve (and I did not get it :-(. Hope you have a code-snippet with a simple solution.
+Thank you.
+Best regards, klaus

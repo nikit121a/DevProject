@@ -1,0 +1,1 @@
+Another question, because i have no columns defined and only row area and many data areas, the pivot grid actually looks like a datagrid, is there any way i can paginate this instead of using virtual scrolling?

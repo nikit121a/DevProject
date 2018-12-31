@@ -1,0 +1,4 @@
+
+Thanks for the info. Both a textarea and standard TextBox-component works perfectly with Codemirror.
+Unfotunately not so well with ASPxMemo . Start position of the cursor is not placed in the top after a resize of the ASPxMemo-component and the font is not displayed as expected.
+Any recommendations/example how to make existing ASPxMemo-components to work with Codemirror?

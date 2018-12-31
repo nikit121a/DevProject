@@ -1,0 +1,15 @@
+Hi, DevExpress Team!
+ 
+ I'm using XAF Web Application for a while.
+ 
+ I need to create document for print from template (rtf) with SimpleAction. For this I'm using RichEditDocumentServer:
+Since Web App is used, it's not possible to launch the document directly on the client (System.Diagnostics.Process.Start(path);).
+Could you please adwise what is the best way to launch or print the document ?
+I suppose there are two ways:
+1. To create AspxRichEdit PropertyEditor, to add protperty EditorAlias("RTF") to my class and to save my document's data into the protperty:
+ 
+ The only example to create RichEdit PropertyEditor I found  is made for win app, but not for web (
+). So, how can I do it for Web ?
+2. To create WebRichEditUserControl.ascx, called it when the document is created and then open the document in it.
+How can I open WebRichEditUserControl.ascx from code and to input parametrs in to WebRichEditUserControl.ascx (path to the document file) ?
+That do you think ? Can you advise somthing else ?

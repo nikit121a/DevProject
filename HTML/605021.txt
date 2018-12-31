@@ -1,0 +1,4 @@
+Hello,
+Can't you set a popup's offsets on the client using popupHorizontalOffset and/or popupVerticalOffset???
+I can get Horizontal to work but not the Vertical...
+Thanks, Jack 

@@ -1,0 +1,14 @@
+Hello,
+I try to explain a simplified the situation:
+I have a Form with a TextEdit control ..
+And a main RibbonControl with menu and other buttons ...
+If I edit a value on TextEdit and confirm with Enter Key or Tab, every thing works fine.
+And a calculation is done ...
+If a click on Ribbon before to leave the TextEdit the sequence event is
+Ribbon.Click
+TextEdit.Leave
+But this is not good for me because the Edited Value is not confirmed and the calculation start with a not updated value.
+is there a convinient way like to make TextEdit.Leave before Ribbon.Click?
+other suggestions?
+Thankyou 
+Gianluca 

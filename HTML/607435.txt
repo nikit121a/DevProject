@@ -1,0 +1,5 @@
+I want to convert files with Fiele attachments from other types to PDF
+I begun with jpg to pdf:
+but my result data is corrupted . I want to use memory stream (avoid any temporary files). What I do wrong ?
+When I try with temporary file all is ok, but I get temporary file :(
+?

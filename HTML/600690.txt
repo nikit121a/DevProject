@@ -1,0 +1,4 @@
+Good evening, 
+I am developing my application using XAF, In my web application I need to load a custom ascx where I have a tree list, next to a dashboard (in the same page). When editing the Views I noticed that I can add multiple items inside of one view so I was asking myself how I could add the dashboard viewer of the dashboard module (the DashboardData detail view) to my custom dashboard view as a separate item so that I can then edit the layout of both items (the dashboard viewer and the ascx).  Is this something possible? If so would this be the best approach? 
+Thanks,
+Pablo.

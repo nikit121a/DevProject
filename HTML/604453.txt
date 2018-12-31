@@ -1,0 +1,5 @@
+Hi, 
+   I have a DataColumn with fieldname called 
+ in my AspxGridView  where the ReadOnly flag to true but allows the user do a click inside and see the id like a edit mode. I'm using a 
+to fetch some complementary data of the grid in fact is like a cell merge but the columns aren't continuous and also I need to give a kind of nice look & fell. 
+Product Column

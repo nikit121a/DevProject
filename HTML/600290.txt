@@ -1,0 +1,4 @@
+In my grid I have a checkBox column. Whenver I mark or unmark a checkBox, the cell turns green because the value is modified, which is good. However when I undo my action by clicking on the checkBox again, the cell should turn white again but it doesn't.
+For any other cell, if I modify it and then change it back, the green background that denotes a modified cell reverts back to a white background. 
+I've attached a picture showing what I mean, so hopefully that helps.
+What are potential causes of marking a cell as modified?

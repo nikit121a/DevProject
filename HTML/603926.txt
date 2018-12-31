@@ -1,0 +1,2 @@
+Our entity system has a key property of type object. The type of the key is dynamic (string or decimal) but once determined it is always the same for every entity instance.
+When using that key property in the grid we cannot leverage the full extent of your filter and sorting capabilities because the gird does not recognize the exact type of the values . (FieldType is always object). How can we tell the grid that the FieldType is actually a string or number instead of object? 

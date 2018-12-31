@@ -1,0 +1,25 @@
+I have an ASPxGridView with 2 columns.
+Column#1 is an ID:
+ <dx:GridViewDataTextColumn FieldName="ID" ReadOnly="True" VisibleIndex="1" Width="50px">
+                <SettingsHeaderFilter>
+                    <DateRangePickerSettings EditFormatString="" />
+                </SettingsHeaderFilter>
+            </dx:GridViewDataTextColumn>
+Column#2 is a GridViewDataHyperLinkColumn wherein the generated url link includes the ID field as a parameter, whilst displaying a different field  (CompanyName) as the text
+<dx:GridViewDataHyperLinkColumn Caption="Name" FieldName="ID" VisibleIndex="2" Visible="true" Settings-FilterMode="DisplayText">
+                <PropertiesHyperLinkEdit NavigateUrlFormatString="/test.aspx?ID={0}" TextField="CompanyName">
+                </PropertiesHyperLinkEdit>
+                <SettingsHeaderFilter>
+                    <DateRangePickerSettings EditFormatString="" />
+                </SettingsHeaderFilter>
+                <CellStyle HorizontalAlign="Left">
+                </CellStyle>
+            </dx:GridViewDataHyperLinkColumn>
+All good so far.
+My grid has an auto filter row.
+When I type a value into either the ID filter box OR the hyperlink ID filter box, the value I typed in appears in BOTH boxes.
+In the attached Capture.JPG image, I have ONLY typed "b" into the "Name" filter box.
+I can perhaps understand why this is happening, because both columns have "ID" as the field name , but I dont think this can be correct behaviour, especially since the hyperlink column has Settings-FilterMode="DisplayText" so "b" is a valid value for the display text, but not for the ID field values.
+Your advice is appreciated.
+regards
+Chris 

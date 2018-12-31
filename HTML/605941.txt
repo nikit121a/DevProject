@@ -1,0 +1,2 @@
+I'm using GridControl and one of the column’s EditSettings is set to LookUpEditSettings. 
+What I'd like to achieve is that in “non edit” mode »lookup« cell is displayed as hyperlink and a drop down button.

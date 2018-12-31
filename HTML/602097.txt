@@ -1,0 +1,8 @@
+Hello,
+I have a WinUIDialog in our application for which  I defined a WinUIDialogService with a template within the Interaction.Behaviors and call it in our view model as intended.
+However, we also need some notifications in our application (like a loading screen when importing files) . These are supposed to look like the WinUIDialog but I'm unable to get it to work.
+1. The Dialog has to be closed automatically without user interaction after the import is complete, which the WinUIDialog does not seem to offer.
+ 2. I tried to use a WinUIMessageBoxService instead but this does not offer the definition of a template.
+3.  I tried to find out how to use a WinUIMessageBox without the service, which does have a template property, but I couldn't find any hint on it whatsoever.
+4. I tried to use the MVVM notification service, which offers a template but couldn't get it to look like anything close to the WinUIDialog. It doesn't even stretch across the screen but solely resides in the top right corner of the application.
+ So, how can I get a notification looking like a dialog that gets closed automatically? I can't believe the MessageBoxService is so inherently different to the DialogService that it doesn't even offer a template.

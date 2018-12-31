@@ -1,0 +1,3 @@
+I've updated to V17.2.4 and I get now a fatal error when compiling my VCL project:
+[dcc32 Fatal Error] dxSpreadSheetConditionalFormattingRulesManagerDialog.pas(56): F2047 Circular unit reference to 'cxDataControllerConditionalFormattingRulesManagerDialog'
+What's wrong?

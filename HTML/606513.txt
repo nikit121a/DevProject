@@ -1,0 +1,5 @@
+Hi 
+In the attached project which is really no more than a simple preparatory test prior to my building a wizard there is a comboboxedit which is populated from a linq query.  On selection of an item from that combo box another linq query is run which produces a result of type IOrderedEnumerable,XElement>.
+How do I get that into the grid as its Items source.  A simple assignment seems not to do the trick.
+Many thanks
+Dom

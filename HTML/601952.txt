@@ -1,0 +1,1 @@
+In week view when are resources grouped by date day names in day header are displayed incorrectly. As from my review in procedure SchedulerCustomDrawDayHeader value AViewInfo.Datetime does not contain date. Image is taken from CustomDrawDemo

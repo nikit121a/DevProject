@@ -1,0 +1,7 @@
+I was update my DevExpress components from v. 13.2 to 17.2.
+In old version I used WebWindowTemplateHttpHandler,
+but in new version I can't find it.
+What can I use?
+Old code
+WebWindowTemplateHttpHandler.PreferredApplicationWindowTemplateType = DevExpress.ExpressApp.Web.Templates.TemplateType.Horizontal;
+ 

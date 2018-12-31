@@ -1,0 +1,3 @@
+How can I achieve functionality similar to DevAV demo / Empoyees using DevExtreme MVC ?
+I would like to display master data in grid , and detail data on several tabs below.
+Which controls should I use for organizing the view below the grid? How to template each tab with different grid or different functionality (ie grid on one tab, file upload on another etc) ?

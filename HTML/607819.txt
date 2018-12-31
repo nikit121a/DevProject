@@ -1,0 +1,9 @@
+Hi, I have a titleview grid and I want to select the first title when the user opens the form.
+I've tried to do it, using the following code:
+This piece of code I've found on this post:
+I've also tried to use view.MoveLast(); and view.ModeFirst() to see if the first element of my view appears selected, but without any success.
+If you see in the attached prints, I have one screen with the first element selected and another with no element selected, even if I use the code above.
+How can I force the grid to select and appears selected before any user interaction? 
+Using the FocusedRowHandle = 0 seems to select the first element, but the element is not shown as selected.
+Best regards,
+Antonio.

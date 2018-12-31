@@ -1,0 +1,4 @@
+Our grid does not allow word wrap and in our data grid when the data in a cell is too wide the ellipsis is displayed as expected.
+However when the data in the cell is three characters or less under the ellipsis the hover over does not appear.
+In the attached image, above the black bar the hover over is displaying as we expect it to.
+Below the bar, the cell circled in red does not display the hover over, the remainder of the text is "17" 

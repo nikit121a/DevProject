@@ -1,0 +1,1 @@
+Hi, I have a requirement to open the EditForm in the gridview using "CTL and +" and then collapse or dispose the editform using "CTL and -" keys.  Can you pls guide me on this as I am at a loss trying with different key events.

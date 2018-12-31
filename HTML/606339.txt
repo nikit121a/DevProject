@@ -1,0 +1,4 @@
+Hello,
+I've tested the solution from ticket T325576. 
+unfortunately, this solution is not working, when using Display/Edit  Templates, as the ActiveEditor is still the original column editor. Is  there a way to get the templated editor in the event? Using the EditTemplate is necessary in our case, as the DataSource is an EntityInstantFeedbackSource and the GridControl would allow no editing at all.
+ 

@@ -1,0 +1,8 @@
+Hi there
+I am trying to fix a problem with my Visual Studio where the toolbox for the Devexpress 12.2.8 will not populate the tool box on install/repair.  I have done all of the suggested fixes with the tool box patch and tool box creator  but no luck..  I look in the log that gets created and it seems it is ignoring my Visual Studio 2013  with the following lines..
+13/02/2018 13:41:17 >>>>>>>>>>>>> ProductInfo state:
+13/02/2018 13:41:17 ::: PublicName=DXperience FullVersion=12.2.8 DisplayVersion=v12.2
+13/02/2018 13:41:17 ::: Suite=Yes VSVersions=VS90;VS100;VS110 VS2005=Yes SuppressAsmReg=No
+If I run an installer for the version 14 for example I get them installed correctly..  please can you advise, maybe using a newer installer for that version..  
+Many thanks,
+Derek. 

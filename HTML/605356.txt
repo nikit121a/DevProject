@@ -1,0 +1,7 @@
+Hi,
+I am using Angular 4.3.4 with Typescript. Using the npm package devextreme-angular @ 17.1.6.
+In our product we have dynamically generated pie charts, which I have working fine.
+However, when a user clicks on a segment of the pie chart, it should show a popover and display a specific component inside.  I've seen the 'onPointClick' event which works fine, however I am unsure on how to create and display the popover while creating a component within it and passing through data.
+Any help would be appreciated.
+Cheers,
+Cameron

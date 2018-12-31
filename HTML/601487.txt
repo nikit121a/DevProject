@@ -1,0 +1,6 @@
+Hi,
+I have an issue with changing a default color of dxnav:TileBar child elements. (See screenshot).
+ I am able to change color of dxnav:TileBar  itself but not child element (See sample project).
+We are not using theme designer and we are not planing to  introduce it. Please, provide solution winch can override a default color of that particular control or if there is no way of doing that. Please, provide a way to override a default color of the theme.
+Best Regards
+Ioseb 

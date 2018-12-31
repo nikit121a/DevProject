@@ -1,0 +1,6 @@
+Hi DevExpress Support,
+      I have a scenario where in I have a devextreme form shown below
+         and I need to perform the validation manually in javascript when a button is clicked, just want to ask on how to best solve this problem.
+Thanks!
+Jude Alquiza.
+ 

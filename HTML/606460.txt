@@ -1,0 +1,7 @@
+Hello,
+I need to show  Cascading Modal Dialog in vb.net winforms.
+I have one form which have to shown say 5 times at a time with different data. (please refer attached image)
+As we know , that there should be one modal dialog at a time .I tried showing modal dialog as recursively but not possible.
+Please help with the possible solution.
+ 
+Thanks in advance!!!!

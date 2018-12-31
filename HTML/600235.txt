@@ -1,0 +1,6 @@
+Windows has a feature if you drag an application window quickly to the right it will automatically resize the application window to half of the monitor.
+This works fine with my application that uses your Ribbon control. However, when I then minimize the application and immediately restore it, it does NOT return to the previous position of half the monitor. It goes back to its size and position before I did the automatic resize to half the monitor.
+I've tried this on other Delphi Applications that do not use your ribbon control and they work just fine. As such, I'm inclined to think it has something to do with your Ribbon control.
+Any ideas on what's going on or a solution?
+Thanks.
+--Jeff 

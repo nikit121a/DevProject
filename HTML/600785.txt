@@ -1,0 +1,4 @@
+My issue is about 95% same as T588450 except my error is for the dock panels.  As stated on T588450, I'm using Server.Transfer to re-display the page after the user selects a different language.  I have downloaded 17.2.5 to determine whether it fixes my issue and it does not.
+The Home page in my project is similar to the Widget Dock demo except the Master page contains the dropdown list of languages and the event OnSelectedIndexChanged is used to change culture.
+The error occurs on the Server.Transfer(Request.Path) line.
+ 

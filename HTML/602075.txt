@@ -1,0 +1,8 @@
+Hi, there seems to be a problem with custom appointment form from the scheduler control. I simply created a new project, added a scheduler control, and press "Create custom appointment form". Then i selected "Default". Soon after the form is created the form seems to contain an error.
+Here is the code where the error appear:
+    Public Overridable Sub SetMenuManager(menuManager As DevExpress.DevExpress.Utils.Menu.IDXMenuManager)
+        MenuManagerUtils.SetMenuManager(Controls, menuManager)
+        Me.m_menuManager = menuManager
+    End Sub
+Seems to be something with "DevExpress.DevExpress.Utils.Menu.IDXMenuManager"
+I have attached a sample project.

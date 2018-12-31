@@ -1,0 +1,10 @@
+Hello, 
+I'm trying to build an application for getting native popup for allow/deny location service according to device. I'm using cordova plugin.
+I am getting error of "
+" when using some code snippet provided on 
+ for checking location service, I tried code snnipet from 
+.
+I referred the link 
+. I did all the things instructed but still it is not working for me. I don't know what is missing. I've attahced a project copy from where you can get idea of what i am trying to do.
+Please help me kindly
+Thank you 

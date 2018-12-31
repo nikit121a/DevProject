@@ -1,0 +1,5 @@
+Hi guys,
+I am wanting to move all fields to the hidden area  except for date dimensions. I have the below but nothing happens:
+I thought this would work.
+Thanks for your help.
+Joe 

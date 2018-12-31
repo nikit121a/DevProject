@@ -1,0 +1,11 @@
+Hello  Support Team . 
+I am using ASP.NET  MVC Wrapper.
+In my code I declared one select box
+This is code of razor view,
+If you do the html submit, values are not displayed normally.
+     
+If you see the script in debug mode in a web browser, it will look OK.
+But, there was no select.
+Please help me with what went wrong?
+Thank you,
+ 

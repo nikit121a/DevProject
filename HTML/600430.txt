@@ -1,0 +1,6 @@
+I have screen in my application wich is canvas layout and in the canvas there is a collection of wpf controls.
+My requirement to give the user possible to hide elements and take them back.
+I saw that you have a lot of  perfect implementations for this behavior like in the tabs or in the grid's columns that the user can hide column and take it back.
+My question is if I have possible to use with one of your implementation to hide simple microsoft control.
+Do you have a easy way to do that.
+thank a lot of all.

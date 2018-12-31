@@ -1,0 +1,6 @@
+STR
+1. Launch Demo Center -> WinForms -> Pivot Grid -> Excel Style Filtering
+2. Show Field List
+3. Click at first item
+4. Click at another item
+5. Click at first item

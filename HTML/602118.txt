@@ -1,0 +1,4 @@
+I'm trying to print PDF files but without any margins as the PDFs already have margins embedded in them.
+If I set the margins to zero they  seem to get reset back to some default value. The only way I can do it is to set a very small value in which it does work but I'd prefer zero.
+Is there any way of doing this?
+Thanks 

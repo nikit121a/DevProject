@@ -1,0 +1,6 @@
+I have configured a data grid to use Popup editing mode, and assigned a editCellTemplate to the only column on the grid that is editable.
+The popup does not popup, but instead, it is displayed at the bottom of the page where the popup widget is declared, and I get this error :
+Adapter for DevExpressValidator component cannot be configured .
+Neither my data , nor my popup content uses any validator or validation  of any kind.
+Please see the attached screen shots of the page and the error.  Also attached is my view.
+ 

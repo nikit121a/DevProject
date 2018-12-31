@@ -1,0 +1,3 @@
+  
+   Will not remove Bold or Italicized formatting from selected text. Removes      Underline, back color and text color fine.
+  

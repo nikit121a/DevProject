@@ -1,0 +1,2 @@
+Current treeList load childs for visible nodes (to get image for expand-plus-button?)
+how make that  the node has "plus" for expand, but i click him, child noes load and the "plus" hide if no have childs?

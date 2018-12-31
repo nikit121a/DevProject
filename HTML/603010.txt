@@ -1,0 +1,4 @@
+I'm trying to define a template for the items shown in a TokenEdit-style ComboBox. Setting the ComboBox.ItemTemplate doesn't seem to work.
+How can I do this?
+ 
+See attached sample for my attempt. 

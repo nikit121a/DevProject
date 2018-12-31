@@ -1,0 +1,7 @@
+Hi, 
+I host a WPF diagram control inside a Winforms application. 
+The problem I encountered is related to the right click event and the way is fired. When I want to perform a right click for accessing the context menu, I have to click twice in order to display it. This does not happen when the application is not hosted in Winforms . 
+Please take a look at the sample application, where you can check the behaviour in Winforms.
+Also, I attached a video that demonstrates the issue: I set the mouse over each diagram item and I click the right mouse button: for half of them the context menu is not displayed.
+Thanks, 
+Alin 

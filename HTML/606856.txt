@@ -1,0 +1,9 @@
+Hi,
+I am receiving the error: "BIndingSource cannot be its own data source. Do not set the DataSource and DataMember properties to values that refer back to BindingSource:.
+I have a binding source object  "tradeAlertBindingSource1".
+The InitializeComponent() sets it's Data source  to be typeof(TradeAlert);
+(I have just removed this in case it was causing the issue)
+It further sets the GridControl's DataSource to this object.
+I go on to set the DataSource of this binding source in my own code to a list of type: BindingList<TradeAlert>
+ I am not sure if it is the grid throwing the error or something I am doing wrong in the application?
+Note. the  bindingList is receiving new/updated/deleted items on a separate thread.

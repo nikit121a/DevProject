@@ -1,0 +1,6 @@
+Hi,
+I can't find a solution to my angular 2+ problem.
+I have a treeview bound to flat data. Now I want to show a tooltip when hovering a node with specific data from that node (e.g. tooltip value of the flat data row) .
+Any idea how I can solve this using DevExtreme?
+Greetings,
+Sigurd 

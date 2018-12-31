@@ -1,0 +1,4 @@
+I'm saving richeditcontrols content to html to store in the database. Now when the document contains a bullet list the font of the bullets is changed to arial. I know why this is as I read about it on this forum. However the users now store the text to the database and when they reload the data and try to add another bullet, this new bullet is no longer in the desired font. 
+Is there a way to not use arial but the current font, because the content will never be visible online. Or is there another approach that you think I should take (maybe store as RTF, etc.)?
+Thanks,
+Yoni

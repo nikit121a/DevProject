@@ -1,0 +1,2 @@
+Hi, i have a gridcontrol to capture data.   This Grid are bounded to list (by code), in design mode i put columns, and have a strange behavior.
+When first column lost focus, the focus go to 3d column and not to 2o column.   I attach a video. Thanks.  

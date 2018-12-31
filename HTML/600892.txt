@@ -1,0 +1,4 @@
+Hello,
+I have created an inherited version of SearchLookupEdit as described in 
+.  I have a lot of SearchLookupEdit controls on a lot of forms.  I also have a lot of ImageComboBoxEdit controls.  I would like to switch all these controls over to use my CustomSearchLookupEdit, one by one, using the little tasks arrow on the control.  When I click it, I see the option for Change Editor Type.  My CustomSearchLookupEdit appears in the dropdown as one of the available editor types.  However selecting it does nothing.  How can I change an editor type to an inherited type without having to do search and replace in the designer generated code?  I would like to be able to change my controls one by one, using the designer.
+Thanks !

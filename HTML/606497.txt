@@ -1,0 +1,40 @@
+Hello,
+I have some forms in my page, I don't know why when I need to modify a dxform in somewhere else, I have the error,
+for example, I am calling:
+$scope.midformInstance.itemOption("typename", 'disabled', true); 
+in a function, but I have this error:
+dx.all.js:9 E1035 - The editor cannot be created because of an internal error: Cannot read property 'option' of undefined.
+How can I fix this?
+The item is a dxselectbox, and already have a value, and by this $scope.midformInstance.itemOption("typename", 'disabled', true),
+in my function, I want to make the dxselectbox disable in order to not being able to change the value of that.
+Here is how it is implemented in form:
+$scope.middleform = {
+        bindingOptions: {
+            'items[4].editorOptions.dataSource': 'midtype'
+        },
+... ,
+{
+                dataField: "typename",
+                editorType: "dxSelectBox",
+                label: {
+                    showColon: false,
+                    text: "Type"
+                },
+                validationRules: [{
+                        type: "required",
+                       message: "is required" 
+                    }],
+                editorOptions: {
+                    dataSource: $scope.midtype,
+                    showClearButton: true,
+                    valueExpr: "id",
+                    displayExpr: "name",
+                    displayValue: "typedisplay",
+                    onSelectionChanged: function (e) {...}
+...,
+ onInitialized: function (e) {
+            $scope.midformInstance = e.component;
+        }
+    };
+which item[4] is the "typename" field.
+Thank you 

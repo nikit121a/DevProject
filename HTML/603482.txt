@@ -1,0 +1,7 @@
+Hi,
+I have a gridview on my page with the paging section.
+I want to add a button to collapse and expand the paging info section of the gridview in demand of the user.
+Is there any solution for this? 
+I have not found any built in functionality for this.
+Thanks,
+Regards 

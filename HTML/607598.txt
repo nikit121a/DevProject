@@ -1,0 +1,7 @@
+Hi DevExpress !
+I need to speed up the display of a LayoutControl with many controls.
+In my application, the end-users can customize the LayoutControl at their convenience, and so, in the end, a lot of controls are actually hidden.
+Generally, they do it once and for all and most of the time they use the customized layout.
+So, the main idea is now to detect which layout items actually visible and to only restore (and generate edit controls) these ones.
+Could you guide me in this task ?
+Thank you.

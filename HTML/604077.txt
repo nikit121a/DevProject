@@ -1,0 +1,18 @@
+Hi, 
+The requirement is to include a ColorPickEdit into dialog.
+For instance, I can call this code from a button click event. 
+I tried:
+            ColorPickEdit cpe1 = new ColorPickEdit();            
+            using (PopupColorPickEditForm popupForm = new PopupColorPickEditForm(cpe1))
+            {
+                popupForm.StartPosition = FormStartPosition.CenterScreen;
+                 if (popupForm.ShowDialog(cpe1.FindForm()) == System.Windows.Forms.DialogResult.OK)
+                {
+                    Color color = (Color)cpe1.EditValue;                    
+                }
+The problem is that the 
+ does NOT close its dropdown immediately after changing the edited value and everthing freezes.
+How can I solve it ?
+Best Regards,
+Carlos
+ 

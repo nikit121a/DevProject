@@ -1,0 +1,5 @@
+Hi Team,
+I have a use case where I need to hide  column headers (gridView1.OptionsView.ShowColumnHeaders = false), which will restrict users to resize columns. I would like to check with you is there any option to overcome this behavior?
+I have attached a demo project that show this behavior, please help.
+Thanks,
+Hari Prasad  

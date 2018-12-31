@@ -1,0 +1,11 @@
+Hi,
+I'm having trouble with the horizontal alignment of cells in the DataArea in my PivotGrid when I print the grid. On runtime it works fine, i.e. the result values are horizontally aligned to the center. But when I print out the grid and it is visible in the print preview window, the result values are all now horizontally aligned to the left.
+I created a 
+ in code-behind for the printing and I tried to change the alignment there aswell: 
+But this doesn't work either. I've tried changing the CellTemplate to ValueTemplate but that doesn't make any difference. Should I be using PrintCellTemplate? If I try to use that then all the cells for the DataArea disappear in the print preview window.
+I also created a custom field value template which did not work for the alignment when printing.
+What am I missing? Why does work fine on runtime and not when I print?
+Here's a code snippet of the beginning of my pivot grid:
+Looking forward to hear from you!
+Regards,
+Asta

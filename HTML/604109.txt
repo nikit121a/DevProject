@@ -1,0 +1,6 @@
+Hello,
+Im having a problem with the theme designer that when i select any of the controls under "Windows"  im not getting a preview so i cant filter click to get the colors i need. The rest of the control seem to produce a preview though.
+So i cant find where i changed the button colors (Minimize, Maximize and Close butttons). Both for ThemedWindow and the DXMessageBox window. Nor can i find the style for the DXMessageWindow Titlebar text.
+Some help with locating these colors would be appreciated.
+/Thanks
+ 

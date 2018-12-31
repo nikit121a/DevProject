@@ -1,0 +1,1 @@
+i want to import data from excel files by using DataTableExporter.Export Method but it does not consider AutoIncrement/Computed Column  which is additional column in datatable.

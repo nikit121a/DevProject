@@ -1,0 +1,4 @@
+I have just installed the Visual Studio 2017 Community version and then installed the Devexpress 17.2.4. Then I try to start a asp.net core project using the new --> project --> Devexpress core template. After that I try to run the sample application, it comes with the following error message: 
+Severity Code Description Project File Line Suppression State
+Error Assets file 'c:\users\administrator\source\repos\WebApplication1\DXApplication1\coretest1\obj\project.assets.json' not found. Run a NuGet package restore to generate this file. coretest1 C:\Program Files\dotnet\sdk\2.1.4\Sdks\Microsoft.NET.Sdk\build\Microsoft.PackageDependencyResolution.targets 32
+Can you help on this?  

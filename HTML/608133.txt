@@ -1,0 +1,3 @@
+Hi, I want to perform custom paste from clipboard in StringPropertyEditor.
+For example, I want to copy hyperllink from word document and paste its url in StringPropertyEditor.
+What is the best way to accomplish this task? 

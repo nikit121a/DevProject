@@ -1,0 +1,2 @@
+I have a dxDataGrid toolbar where I want to place a button with a logo inside. The logo width gets forced into the default icon size. I have looked at the numerous ways to extend the icon library but I can't seem to find an example on how to place a base64 image inside of the dxButton and specify an image width for the image to scale properly. Please see the attached example. 
+How can I scale the image  inside the dxGrid's toolbar button to be similar to the <img> in my example?

@@ -1,0 +1,7 @@
+Hi,
+I have uesd a  xrChart with that used swift plot diagram. report also have a xrline and xrlabel.
+xrline overides graph.
+I want graph should be on top then xrlabel then xrline at last .
+I want a graph pen thikness  less than 1, is there any wayout to draw graph using own pen where we can set pen width explicitly.  
+Please help urgent.
+PFA 

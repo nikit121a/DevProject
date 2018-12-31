@@ -1,0 +1,2 @@
+In my Ionic 3 solution (using the latest Angular release) I have set up mapping using the following and everything works as expected.
+How do I replace the map with a placeholder (text or image) when the data returns W1006 - The map service returned the 'ZERO_RESULTS'?  

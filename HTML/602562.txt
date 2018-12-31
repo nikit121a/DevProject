@@ -1,0 +1,5 @@
+Hello
+I got a gridcontrol with datetime in a column, but it will only show the date, not the time..
+Do you have a solution for that?
+Regards
+Daniel 

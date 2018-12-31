@@ -1,0 +1,8 @@
+Hi there,
+I would like to use a stacked bar chart in my application.
+You can see the current databaseoutput in the picture attached.
+Now the Problem:
+I want to create a stacked bar based on the VZA value, the organizationalUnits are the Siriesand the ID is ArgumentField.
+The OrganizationalUnits are totally random. In this Example its A,B,C, the next are 15 different integers, the next are 7 differnet alphanumerical and so on.
+Im not sure how to create a stackedbar with these requirements. Any help would be appreciated.
+Kind regards

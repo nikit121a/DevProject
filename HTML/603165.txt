@@ -1,0 +1,8 @@
+
+I'm trying to show a summary of items similar to this 
+. But instead of calculating the results on memory, I'm trying to do it on the database using 
+ And instead of a string property, I'm trying to group by a calculated enum property. It fails with an exception.
+To reproduce: Open "Am Queried" list view, create some objects, on the list view click "Show Summary By Calulated Type"
+Workaround: Create another non browsable calculated string property and group by it, so you still get to use the enum one (possibly with images). Or if there aren't lots of items you could materialize (with 
+ or 
+) the list before grouping and group on the client instead of on the server.

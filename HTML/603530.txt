@@ -1,0 +1,7 @@
+Hi,
+I'm working with Gridview control and want to make a custom grid view as i attach the image.
+How can i dynamically add coulmns in gridview ?
+how can i make checkbox in row Header ? 
+if you can update the solution of this ticket that will be very helpful because it address some of the question.
+Regards,
+KL 

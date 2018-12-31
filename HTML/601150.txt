@@ -1,0 +1,9 @@
+If i want to validate the value column that is edit by user base on the third column(datatype), how should I do that? Or can I only accept numbers  for the cell whose datatype is integer?
+ 
+Name Value  Datatype      
+a    null              String
+b    null              double
+c    null               Integer
+d    null              Long
+e    null              String
+ 

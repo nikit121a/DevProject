@@ -1,0 +1,3 @@
+The property SelectedObject ist bound to the following class wich I want to use to store the settings.
+My problem is now that I can't choose any MarkerModel in my PropertyGridControl.
+What have I done wrong?

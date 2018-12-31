@@ -1,0 +1,2 @@
+Hi, I have a GridView that is bound to a dataset which is populated at runtime. I would like to add an unbound column to this that an user can enter some information into. When they hit a submit button on the form, I would like to traverse the rows and perform actions based on the entered values. (e.g. box contains QTY to time to copy the row)
+I have added an unbound column, but the data I enter isn't being saved when I change the row., which I can see is due to being an unbound column. Do you have any suggestion on how to achieve my goal?

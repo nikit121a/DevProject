@@ -1,0 +1,5 @@
+Hi,
+one of  our customers gets the exception "Printer selected is not valid". He tries to print a scheduler view, so he opens the preview and pushes the print button.
+Any idea, what's wrong?
+Thanks in advance,
+Ollo

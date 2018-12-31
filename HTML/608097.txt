@@ -1,0 +1,6 @@
+Hi, I need to add a custom button nearby the close button of the DXMessageBox, how can I do? 
+I can't use the DXWindow at this time, and I'm unable to find the header items container of the DXMessageBox to add that button. 
+I've also try trough the style but without success. Could you please help me? 
+Thank you in advance.
+Best regards,
+Francesco 

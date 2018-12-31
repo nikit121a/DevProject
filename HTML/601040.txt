@@ -1,0 +1,7 @@
+Hello, 
+After upgrading from 15.2.11 our customers are experiencing problems with printing. 
+This is code for printing:
+      
+Error is attached.
+Regards, Hipokrat
+  

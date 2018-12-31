@@ -1,0 +1,3 @@
+Good morning.
+How can I export a TcxGridDBTableView to XLS or CSV. Is there a possibility to export a grid to a document?
+Thanks

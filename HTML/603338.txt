@@ -1,0 +1,2 @@
+The chart has multiple point in a Single date. The plotted points show  of the same day show different tool tip values.
+Please find the attached video 

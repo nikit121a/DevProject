@@ -1,0 +1,10 @@
+Dear Support Team,
+Currently i am using one DevExtreme MVC data-grid and chart in same page. Currently for both i am using same datasource.
+But for both i have used separate action method. I have also one button for filtering and showing based on the selected text in dropdown.
+When i click on button both should get refreshed. So when it refreshed calling again the defined action methods.
+Can i use only one action method to load  both control? 
+I have found some of the example in jquery.
+But i need to do this for MVC.
+Please suggest.
+Thanks,
+Veera 

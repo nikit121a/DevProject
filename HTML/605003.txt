@@ -1,0 +1,8 @@
+Hi,
+is there anyway to change the find panels settings that it's not necessary to use the + sign to connect two words.
+If you want to find an exact term you have to use quotes, but for an end user who want the search on exactly the two words it is quite annoying to quote everything.
+i can not find a setting to overrule this? There should be a setting to switch between like and contains or something?
+i have found this thread: 
+but i can not find the 
+ method in my gridview descendant... perhaps it is old ?
+thanks 

@@ -1,0 +1,5 @@
+Hi Support,
+Can you provide an sample (vb.net) on how to create Custom Total based on Row Type for each Column in Pivot Grid?
+Please refer to my screen shot.
+Thanks
+ 

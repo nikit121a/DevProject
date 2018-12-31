@@ -1,0 +1,5 @@
+Hi,
+I want to navigate in my application (by a ViewModel Command)  when i click on a link or a button in AppointmentContentPanel. I started a DataTemplate but I really have no idea how to insert a button or a link. This one will have to trigger a viewModel command.
+Since I did not succeed, I tried to trigger this command on the CustomAllowAppointmentEdit event. But that's not really what I wanted.
+regards,
+ 

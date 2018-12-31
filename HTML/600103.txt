@@ -1,0 +1,7 @@
+Hi,
+I am using the DevExtreme controls in a ASP MVC Core project.
+I have a problem with adding/removing a required validator.
+My case: I have a dxForm with some fields.  A dxTextArea is required or not depending on the valua of one of these fields. For example if the value of the field is "A" then the dxTextArea is required. Is the value of the field "B" the dxTextArea is not required.
+I created a test case where I use a dxCheckBox to set the validation. When the dxCheckBox is checked the dxTextArea is required, if not the dxTextArea is not required. the Here I tried to use customValidation. This works only the first time when it validate. Every time the dxCheckBox changed the customValidation must check if the dxTextArea is required or not.
+How do I achieve this? I've attached the test case.
+Thanks in advance

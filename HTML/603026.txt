@@ -1,0 +1,5 @@
+Hi there,
+I am using line chart.
+when I ArgumentScaleType to   DateTime. my line series is not starts from y-axis and i see some gap there.
+Please refer attached screenshot and sample code.
+Could you please let me know how can I start my line series from y-axis. 

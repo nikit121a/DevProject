@@ -1,0 +1,3 @@
+  In Combo box editor i am not able to see all the selected value when i click on "select all" option as data records are too many .
+Here requirement even the data record is too many after selecting "select all" i need to display all the record in combo box editor . 
+below i attached a image which will give you a clear understanding  

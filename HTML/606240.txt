@@ -1,0 +1,3 @@
+Hi,
+I am currently working on the implementation of filter translation on my custom store. This means that I need to create the filter string for my rest api with the informations I get from the DevExpress.data.LoadOptions.filter. Our api does not support all of the available conditions and groups and so I would like to disable some of them. Is this already possible ?
+ 

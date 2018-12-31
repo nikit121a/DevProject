@@ -1,0 +1,14 @@
+I have a - unfortunately very urgent - issue to report.
+I'm using domain components in one of my projects and found a NullReferenceException during my tests.
+The issue occurs if you log in with a non-administrator user where during loading of an object with an aggregated list of other business objects (in my example project and order) ServerPermissionRequestProcessor.GetSelectMemberCriteriaCore tries to find the member Implicit_IProject_Orders on IProject which it doesn't find. I tried to track down the origin of that membername and found that higher in the call stack the member must stem from XPClassInfo but ServerPermissionRequestProcessor.GetSelectMemberCriteriaCore tries to find it on ITypeInfo.
+I have created a test project with the minimum steps of
+1) create xaf web project with complex security (integrated), XPO, no additional modules
+2) Create the 2 domain components IProject and IOrder
+3) Run the application and let the database be created
+4) login as admin, create a project with an order
+5) give the default role read and navigate permissions for project and order
+6) login as user => NullReferenceException
+I'm on 17.2.4 but upgraded to 17.2.5 to check if the error is gone there but no success.
+Here is the callstack of the nullreferenceexception before I rollback to 17.2.4 (a very time consuming process)
+It's quite important for me to solve this very fast (workaround is ok for me as long as it doesn't have bad side effects). This project is under big pressure.
+Thanks a lot!

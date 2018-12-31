@@ -1,0 +1,7 @@
+I have the same problem after upgrading to 17.2.5, but only when an item has been added to the tagBox by another control.
+We are using an Autocomplete to search for people then adding it to the tagbox, this was working in in version 16 I believe.
+I have recreated the problem on codepen: 
+Click on the star button to add the person to the tagbox, then attempt to remove them.
+It's fine if you set the datasource to the Email object.
+Added to this: 
+ 

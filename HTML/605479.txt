@@ -1,0 +1,10 @@
+ Hello. 
+I have problem with Export report to Excel .
+In PDF export works fine, but in xlsx thea are missing object.
+Can you help us?
+Please find attached 3 files :
+report exported to pdf - looks fine
+report exported to xlsx - not fine
+source of report - source.repx
+Thanks
+Bartek. 

@@ -1,0 +1,60 @@
+I am working with C# and WindowsForms version 2017 and with Devexpress 17.2.4. I want to sign a pdf with PdfDocumentProcessor but when I call the method "SaveDocument" (from SignPDF)  I am getting the error "Key does not exist." if I read my certificate with the method below (SelectareCertificat) If I read my certificate from the method "SelectareCertificatPfx" (here i give the exact path of my .pfx file) it works fine.
+I have tried also with a .cer file for certificate but I am facing with the same problem.
+ 
+One of my teem mates remembers that he tried to sign a pdf some weeks ago with the same method I am facing problems and that he succeeded but now it doesn't work anymore. Can you help me please solve my problem? Thank's!
+ void SelectareCertificat(string _pinSmartCard)
+        {
+            try
+            {
+                X509Store store = new X509Store(StoreName.My, StoreLocation.CurrentUser);
+                store.Open(OpenFlags.ReadOnly | OpenFlags.OpenExistingOnly);
+                X509Certificate2Collection certificates = store.Certificates.Find(X509FindType.FindByTimeValid, (object)DateTime.Now, false);
+                X509Certificate2Collection collectionSelection = X509Certificate2UI.SelectFromCollection(certificates, "Semn?tura electronic?", "Selecta?i certificatul cu care dori?i s? semna?i declara?iile", X509SelectionFlag.SingleSelection);
+                if (collectionSelection.Count > 0)
+                {
+                    X509Certificate2Enumerator enumerator = collectionSelection.GetEnumerator();
+                    enumerator.MoveNext();
+                    certificat = new X509Certificate2(enumerator.Current.GetRawCertData(), _pinSmartCard);
+                    idxSmartCard = certificates.IndexOf(certificat);
+                }
+                store.Close();
+            }
+            catch (Exception excep)
+            {
+                ErrorForm.Show(excep);
+            }
+        }
+void SelectareCertificatPfx(string _pinSmartCard)
+        {
+            try
+            {
+                    certificat = new X509Certificate2(@"c:\Users\andreea.PCANDREEA\Desktop\certificat\Nexus_TemporaryKey.pfx", _pinSmartCard);
+            }
+            catch (Exception excep)
+            {
+                ErrorForm.Show(excep);
+            }
+        }
+ public static void SignPDF(Stream streamPDF, ref Stream streamSemnatPDF, X509Certificate2 certificat, string location, string contactInfo, string reason)
+        {
+            try
+            {
+                using (PdfDocumentProcessor documentProcessor = new PdfDocumentProcessor())
+                {
+                    documentProcessor.LoadDocument(streamPDF);
+                    PdfSignature signature = new PdfSignature(certificat)
+                    {
+                        Location = location,
+                        ContactInfo = contactInfo,
+                        Reason = reason
+                    };
+                    if (streamSemnatPDF == null)
+                        streamSemnatPDF =  new System.IO.MemoryStream();
+                  
+                 }
+            }
+            catch (Exception excep)
+            {
+                ErrorForm.Show(excep);
+            }
+        }

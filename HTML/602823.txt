@@ -1,0 +1,4 @@
+Hello
+I have a SuperToolTip with a html-link attached to a BarButtonItem in my RibbonControl. If I place the BarButtonItem directly in the ribbon the link works just fine but if I place that same button in a menu (in a BarSubItem) the HyperlinkClicked-event doesn't fire. I can see the tooltip and the link appears to be clickable but the event wont fire. Is there any way I can get the html-link to work when the button is inside the menu?
+Thank you
+ 

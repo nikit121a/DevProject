@@ -1,0 +1,7 @@
+I have a DataGrid like in example 
+Now I would like to filter the grid by column State
+  .DataField("StateID")
+            .Caption("State")
+It works only, if one state is assigned, but it cannot find records, where searched state is one of the assigbed states
+(ie. Nevada)
+How to implement filtering in such case?

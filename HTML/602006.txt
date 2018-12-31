@@ -1,0 +1,7 @@
+Hi
+It's difficult to get overviews in timeline views when there is a lot of "Appointments". Standard views are too "big" so you have to set on scrolling. This is however quite often not desirable.
+Is there some kind of best practice for  setting sizes/zooming in/out both horizontally and vertically. 
+I have made some scrolling on/off hours on/off and height calculated from count appointments that works, but it's rather primitive.
+Another "issue" is multiple appointments on the same row - The row should grow in height in my opinion. 
+several appointments on the same rows is displayed as thin lines.
+ 

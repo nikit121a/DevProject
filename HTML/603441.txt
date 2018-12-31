@@ -1,0 +1,7 @@
+Dear support,
+My current data bound scheduler implementation uses a custom appointment edit form and business objects for mapping the needed fields. I have the following questions regarding reminders and the "ReminderInfo" property.
+1. On the custom appointment edit form how can I set a default value on all new appointments (e.g. 15 minutes)?
+2. How can I extent the available values on the reminders list? On Outlook there are more options compared with the ones given on the reminder control and I want them to be similar for sync reasons.
+3. On the main form that the scheduler control is located, I'm using the events "AppointmentsInserted", "AppointmentsChanged" and "AppointmentsDeleted" to execute the needed CRUD operations on the corresponding business objects. The problem I'm facing is that I cannot fetch the "ReminderInfo" data to store them in the DB. There is no "ReminderInfo" property under the "Appointment" class to get the needed data. I want them as string and not as XML. Basically, I need something similar like the implementation you have for the "RecurrenceInfo" property.
+Best regards,
+Andreas

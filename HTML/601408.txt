@@ -1,0 +1,6 @@
+I have a general question regarding using the: RowCellStyle(object sender, DevExpress.XtraGrid.Views.Grid.RowCellStyleEventArgs e)
+vs. using format rules.
+I started to notice some funky behavior using RowCellStyle and when I switched to the format rules, it seemed to clear it up.
+Is there a best-practice to follow or a guideline on which to use and when?
+Thanks in advance,
+-Mark

@@ -1,0 +1,9 @@
+Hello support,I've attached a sample project to reproduce this error I'm getting:
+-go to Person
+-go to the detailview in edit mode
+-start inline-editing a Car
+-click on the NextObject action on the top right of the screen to go to the next Person without saving the row you started editing
+-Try creating a new car on the second Person
+It will give ObjectDisposedException. Why?
+Thank you,
+Giuseppe

@@ -1,0 +1,8 @@
+Hello,
+I tried to open a dxMenu bind with knockout programmatically, but without success.
+How can I open a dxMenu?
+Background:
+I create a dx Menu with placeholder content (items) and after I click on it I want to make an ajax call and rebuild the dxMenu.
+User sees the dxMenu for a short time and after that it closes (because it will be rendered again ).
+Example:
+ Thank you for your efforts!

@@ -1,0 +1,32 @@
+I have a databound TreeView populated via a SQL query.
+So far so good. But the data is shown like a datagrid.
+But what i want is to show the data as a real TreeView.
+Like :  
+       Group A 
+           Location G
+                Discipline V
+                     Task 1
+                Discipline W
+                     Task 2
+                     Task 3
+          Location H
+               Discipline X
+                     Task 4
+                Discipline Y
+                     Task 5
+                     Task 6
+       Group B
+           Location I
+                Discipline Z
+                     Task 7
+                Discipline AA
+                     Task 8
+                     Task 9
+          Location H
+               Discipline X
+                     Task 10
+                Discipline Y
+                     Task 11
+                     Task 12
+But all i get is a sheet like view
+ 

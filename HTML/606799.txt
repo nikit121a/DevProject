@@ -1,0 +1,10 @@
+Then How to Fileter creteria apply
+ string EmpId = Convert.ToString(lueEmployee.EditValue);
+                var StartDate = dtFromDate.Text;
+                var EndDate = dtToDate.Text;
+                rptQualityIndividual Report = new rptQualityIndividual(StartDate, EndDate);
+                var xpo = new XPCollection<MMXPO.PropertyCleaningHistory>(uow);
+                xpo.Criteria = CriteriaOperator.Parse("FranchiseCode = ? and (DateVisited IS NOT NULL) and DateVisited <= ? && DateVisited >= ?  and QualityBathrooms != '0' and QualityDusting != '0' and QualityKitchen != '0' and QualityOverall != '0' and QualityVacuuming != '0' and PropertyID.RouteDetails.RouteEmployees.EmployeeNumber = ? ", FranchiseCode, EndDate, StartDate, EmpId);
+ThenGenerate Following Errrors
+An exception of type 'DevExpress.Data.Filtering.Exceptions.InvalidPropertyPathException' occurred in DevExpress.Data.v17.2.dll but was not handled in user code
+Additional information: Property path 'PropertyID.RouteDetails.RouteEmployees.EmployeeNumber' is incorrect for type 'MMXPO.PropertyCleaningHistory' because member 'MMXPO.Property.RouteDetails' does not exist.

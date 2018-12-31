@@ -1,0 +1,5 @@
+Hello, we are using your controls in our application and we need have more information about filter expression and autofilterCondition. 
+We have a grid and when we filter grid from a column autofilter , we save the filter expression like :  Contains([Code], '30')
+When we reload page , we want set the filter by column but the autofilter condition isn't set from  grid.ApplyFilterToColumn.
+He is the code where we set the filter by colunns : 
+ 

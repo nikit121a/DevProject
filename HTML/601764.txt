@@ -1,0 +1,41 @@
+Hi,
+I have upgraded my application to 17.2 but after this report designer is not getting loaded. I am getting below error:
+VM6165:2 Uncaught ReferenceError: MVCxClientReportDesigner is not defined
+    at eval (eval at _aspxRunStartupScriptsCore (DXR.axd?-Wyecg&p=d7a99294:5958), <anonymous>:2:20)
+    at _aspxRunStartupScriptsCore (DXR.axd?-Wyecg&p=d7a99294:5958)
+    at Object._aspxRunStartupScripts [as RunStartupScripts] (DXR.axd?-Wyecg&p=d7a99294:5934)
+    at <anonymous>:1:42
+    at DOMEval (jquery-3.3.1.js:111)
+    at domManip (jquery-3.3.1.js:5762)
+    at a.fn.init.append (jquery-3.3.1.js:5898)
+    at a.fn.init.<anonymous> (jquery-3.3.1.js:5992)
+    at access (jquery-3.3.1.js:3939)
+    at a.fn.init.html (jquery-3.3.1.js:5959)
+I have used below script:
+@Html.DevExpress().GetScripts(
+    new Script { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+    new Script { ExtensionSuite = ExtensionSuite.Spreadsheet },
+    new Script { ExtensionSuite = ExtensionSuite.GridView },
+    new Script { ExtensionSuite = ExtensionSuite.PivotGrid },
+    new Script { ExtensionSuite = ExtensionSuite.Editors },
+    new Script { ExtensionSuite = ExtensionSuite.Chart },
+    new Script { ExtensionSuite = ExtensionSuite.Scheduler },
+    new Script { ExtensionSuite = ExtensionSuite.RichEdit },
+    new Script { ExtensionSuite = ExtensionSuite.Report },
+    new Script { ExtensionType = ExtensionType.WebDocumentViewer },
+    new Script { ExtensionType = ExtensionType.ReportDesigner}
+    )
+ @Html.DevExpress().GetStyleSheets(
+    new StyleSheet { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Editors },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Spreadsheet },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.GridView },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.PivotGrid },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Chart },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Scheduler },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.RichEdit },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Report },
+    new StyleSheet { ExtensionType = ExtensionType.WebDocumentViewer },
+    new StyleSheet { ExtensionType = ExtensionType.ReportDesigner}
+    )
+Please suggest what could be the issue? 

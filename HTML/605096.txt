@@ -1,0 +1,5 @@
+Hello,
+I am trying to upload to a subfolder in Amazon AWS via the InsertImageDialog in the HTmlEditor.
+Currently I can browse, view, and select from the main folder, and all sub-folders in my Amazon bucket.
+For the image upload section, however, I can only get the uploaded file to go into the bucket, not a specific subfolder. 
+How can I target a specific subfolder in the bucket?

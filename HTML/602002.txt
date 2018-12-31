@@ -1,0 +1,13 @@
+Hello there
+I have an issue with a dockpanel not getting focused when it gets clicked on after leaving an editor who is open in a gridview.
+This seems to relate to a setting on the dockmanager : ValidateDockPanelOnDeactivate
+If this setting is true, then after the editor closes upon clicking on another dockpanel, the clicked-on dockpanel does not seem to become "focused".
+In our application I noticed that the dockpanel actually became active, but it did not look "focused" because the titlebar does not look to be enabled .
+Clicking on the dockpanel again caused the "OnActivePanelChanged" on the dockmanager to be fired again (for the same dockpanel).
+I created a sample application to demonstrate the issue and also a video, these are attached in a zip.
+In the video, I start with this setting turned on and demonstrate that the dockpanels do change their title by clicking between them normally. 
+Then the issue is demonstrated where the "dockPanel2 " does not become active after clicking on its titlebar when leaving the editor in the grid in "dockPanel1" (when the editor closes).
+I then turn this setting off by commenting out the line in my test-project and run it again where you now can see the desired behaviour.
+I want to have this setting enabled but still allow the second dockpanel to appear focused when  leaving an editor, how can I accomplish this?
+Cheers
+Olafur Hrafnsson 

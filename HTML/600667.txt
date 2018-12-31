@@ -1,0 +1,14 @@
+I have a project with the tdxSpreadSheet component. 
+In the application the users can to load xls and xlsx files, edit the files using a lot of tdxSpreadSheet actions, formulas, format cell's and save the file on the same path where the file was loaded.
+The users has a template book, that is copy for anothers user for work on it. In sometime, somebody of the users going to save the file on disk and the next exception is raised: 
+26/01/2018 3:39:39 p. m.;PC-VIDEOS1.MBarrero|TfrmBlankBook:SaveToFile:
+(2)Access violation at address 066DAFFF in module 'dxSpreadSheetRS25.bpl'. Read of address 00000020 
+This error has generated that the file size is 0 bytes. When the same user try to load the xlsx file, get the next exception: 
+26/01/2018 3:40:09 p. m.;PC-VIDEOS1.MBarrero|TfrmBlankBook:LoadXLSFromFile:
+Formato de documento no admitido -> Unsupported document format
+"Estadísticas leads MBARRERO.xlsx" is the corrupt file and this is a copy of "Estadísticas leads VMALDONADO.xlsx"
+The log of the user "MBARRERO" is in the "Error MBARRERO.Log" file
+The user "VMALDONADO" continue editing the "Estadísticas leads VMALDONADO.xlsx" file in the same application without raised exception. 
+Important: When the "Estadísticas leads VMALDONADO.xlsx", the performance of the tdxSpreadSheet isn't very good. 
+The code for save and load the xls and xlsx files, is in the attachment sample project.
+Thank you.

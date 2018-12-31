@@ -1,0 +1,10 @@
+
+
+I am also receiving an exception with one of the dashboard items, it is a doughnut pie chart:
+Upon first load on the page, the item displays okay, but when I navigate away and back again, I receive this error in the console:
+
+
+
+
+Thanks,
+Luke

@@ -1,0 +1,4 @@
+Hello,
+I'm testing your WPF components for future using. I'm converting some classes from my WinForms classes. In WinForm classes I have a print preview classes. When I use that class I can get print preview from a GridView with auto column width. When I change margins then columns are fit the new size. But WPF component doesnt. I set AutoWidth and PrintAutoWidth to true of GridControl. When show the print preview first time columns are fit the page but columns dont fit (again) to page when I change margins. Also columns changes (fit again to new size) when I change page oriantation or margins in Page Setup on Print Preview ribbon. I cant find any evets like margins changed in that class. if it is not a bug then how can I do that behavior when the user change the margins lik Winforms Control?
+I attached a sample project.
+and a 

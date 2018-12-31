@@ -1,0 +1,5 @@
+T155518 gives me the following error and warnings when I build:
+ParetoChart\Default.aspx.vb(22,176): error BC31143: Method 'Private Shared Function Pareto(series As Series, argument As Object, functionArguments As String(), values As DataSourceValues()) As SeriesPoint()' does not have a signature compatible with delegate 'Delegate Function SummaryFunction(series As Series, argument As Object, functionArguments As String(), values As DataSourceValues(), colors As Object()) As ISeriesPoint()'.
+ParetoChart\Default.aspx.vb(36,13): warning BC40000: 'Public Overloads Property Visible As Boolean' is obsolete: 'The SeriesBase.Label.Visible property has become obsolete. Use the SeriesBase.LabelsVisibility property instead.'.
+ParetoChart\Default.aspx.vb(37,13): warningerror BC40000: 'Public Overloads Property Visible As Boolean' is obsolete: 'The Marker.Visible property is now obsolete. Use the corresponding marker visibility properties of series view objects that support series point markers instead.'.
+Is it possible to provide a sample that builds cleanly, updated to 17.2.4 please?

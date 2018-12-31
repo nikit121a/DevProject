@@ -1,0 +1,5 @@
+I need to show a simple timeline for a day (12:00 am to 11:59 pm) that shows occupancy of room(s) (usually one room, but some multiple rooms.  I don't need to edit it or do anything fancy with it other than a label and some tooltips showing start/end times, description.  Visually they need to see at what times during the day it is going to be occupied.
+This needs to be shown in the UI (static with occasional updates) and in reports as well.
+Embedding a schedule object with timeline view seems like overkill .  I've got the suite of winforms Tools, is there any guidance one the best way using your tools to show this in winforms and xtrareports?
+Thanks,
+Brian 

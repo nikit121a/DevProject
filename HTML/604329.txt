@@ -1,0 +1,3 @@
+My tree is readonly and I want to expand/collapse nodes when the row is clicked.
+How do I do this?
+Thanks 

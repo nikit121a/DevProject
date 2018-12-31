@@ -1,0 +1,7 @@
+Hello,
+I would like that the popup of the PopupCalcEdit opens when the user clicks on the textbox or by using tabulation.
+When I tried to use 
+event, the popup opens, but I can't close it.
+ And if I add 
+event, I get a 
+Thanks in advance for the help

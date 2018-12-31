@@ -1,0 +1,3 @@
+Hi,
+I try to bu?ild a Spreadsheet dynamically in code. If I add a long formula it doesn't start calculating directly. If I click in the used time cells and leave them the calculating starts directly. I think it has something to do with the given values/format (DateTime):
+ 

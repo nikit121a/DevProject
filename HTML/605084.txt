@@ -1,0 +1,4 @@
+Hi,
+I created a report that needs display 3 datatables I added a unbound detail band to accomplish this action. but when I run the report it doesnt' display the information separately.
+I attached some pictures 
+Thank you in advance 

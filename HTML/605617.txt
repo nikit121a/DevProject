@@ -1,0 +1,13 @@
+Hello everybody,
+I just noticed that filters in on detail report affect charts in a second, separate detail report. In essence, I did the following:
+1. Create a new report (the data source consist of a list and the list elements contain another list)
+2. Add a detail report
+3. Add a nested detail report for for the inner list
+4. Define a filter for the nested detail report
+5. On the top level, add a second detail report
+6. Add a chart to the second detail report which has the inner list as data
+Expected result: the chart contains all data as it is located in a completely separate DetailReport
+Actual result: the data for the chart is filtered according to the filter defined in the nested DetailReport
+I have attached my sample code and a short video which shows how to reproduce the issue. Is this expected behavior? Thank you for your help.
+Best regards,
+Christopher

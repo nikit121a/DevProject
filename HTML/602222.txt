@@ -1,0 +1,4 @@
+In the Filter Editor for the dashboards there is no option for Last Month or Last Year for the 'Date and time constants. Can this be added?
+I have included a picture of the options but the 2 I need are not there.
+Regards,
+Bill 

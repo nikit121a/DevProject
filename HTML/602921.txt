@@ -1,0 +1,3 @@
+How can I customize the batch editing buttons that are created in the grid header toolbar?
+I need to change the icons and sizes.
+ 

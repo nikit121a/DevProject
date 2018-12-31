@@ -1,0 +1,11 @@
+Dear Support,
+I need to avoid selection of disabled item of CheckedListBoxEdit when user click on select All.
+right now if i uncheck that select all check box then user is not able to select that disabled item. it is ok.
+but i also want to stop selection of disabled item on select All check means when user will check Select All check box
+then at that time only enabled item can be selected not disabled.
+Hope you understand my issue.
+for more detail my code snippet like below-
+And List box binding like
+Hope to hear you soon.
+regards
+ 

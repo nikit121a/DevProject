@@ -1,0 +1,6 @@
+Hello,
+I created an XAF Application storing data in a Microsoft SQL Server 2012 Database. One field of a XPObject is edited by a custom property editor handling RichEditUserControl. 
+When i load big Documents(28MB) into the richtext editor in Windows version and try to save this the programm is running out of memory.
+Is there any way to solve this problem?
+I attached a sample project for this error. SQL Server name and password are removed in App.config for Win and in the connectionhelper so you have to add this first for testing.
+Looking forward to your reply!

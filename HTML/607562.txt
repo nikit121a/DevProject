@@ -1,0 +1,2 @@
+Need satellite assemblies for Finnish Lanaguage (fi-FI)
+Localization: WPF Grid Controls _ Finnish (fi-FI) 

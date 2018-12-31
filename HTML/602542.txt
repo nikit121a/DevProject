@@ -1,0 +1,3 @@
+Hello,
+If the property in calculated field contains "," (localized name), expression editor fails. Example of expression: [total, sum]-[costs]
+Thank you, Yuriy

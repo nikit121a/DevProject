@@ -1,0 +1,3 @@
+ does what I want ALMOST.  
+I have updated the solution to loop through the grid so that every row is updated. 
+The issue I am having is that it only updates rows on the current page.  Is there a way to have it update every row even if it is not on the current page? 

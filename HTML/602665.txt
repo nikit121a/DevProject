@@ -1,0 +1,6 @@
+I have two controls in a win form. 
+1. A custom RichTextBox control that inherits from RichTextBox
+2. A  TextEdit control.
+When I invoke the spell checker it brings up the spelling dialog box which takes me through the words that are misspelled. After changing all the misspelled words and going back to the windows form. Neither customRichTextBox nor the TextEdit control are updated with the results.
+What Am I doing wrong?
+Ed 

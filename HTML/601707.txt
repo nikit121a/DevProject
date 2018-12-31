@@ -1,0 +1,6 @@
+Working with the GridView control, I've got a column that only allows selection based on another column value.
+I've managed the binding just fine, but the grid is displaying the Value, rather than the Text field info.
+I bind using the BatchEditStartEditing Client Event, cmb_BagLine.PerformCallback(e.visibleIndex);
+The Callback is defined in the _CellEditorInitialize Server Side Action 
+I found I can get the Text value from the DataItemTemplate, but the Header Filter wasn't working.  I tried to change to Filter by the DisplayText, but it's still only filtering by the ValueField, rather than the TextField.
+Is there a way I can bind the header to the Data Source so it filters correctly? 

@@ -1,0 +1,5 @@
+
+Hi,
+I have two issues which i'll try to describe.
+2.
+When i'm scrolling down form i'm getting stuck when mouse cursor reach LayoutView/MemoEdit. Then cursor focus is set to child object and it is scrolling inside, even if there's nothing to scroll anymore or at all. Is there possibility to force scroll focus be always on a parent form, untill i intentionally click on memoedit or layoutview to scroll inside?

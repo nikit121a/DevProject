@@ -1,0 +1,5 @@
+
+Thanks. That's seems to working.
+I have one more question but it's not about reports its about grid, if I have to open a new question please tell me.
+I have a gridcontrol which I use a dataset to get my data. 
+My problem is that this connection is also made with the parameters I give when I create the dataset. Is there a way to give the same parameters (Ektelonistis.Configuration.Parameters.Config.ConnectionString) as parameters?

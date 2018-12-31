@@ -1,0 +1,7 @@
+On the 
+ page, under the 'Toast Notification Manager' section, it states:
+Toast notifications introduce Windows Modern appearance and behavior, seen in 
+.
+I believe this should instead read as:
+  Toast notifications introduce Windows Modern appearance and behavior, seen in 
+. 

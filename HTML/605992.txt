@@ -1,0 +1,14 @@
+Problem with displaying data in a grid with AutoWidth = true
+Problem: the Wpf form is created, the data is loaded, but the display of the received data in the grid (gridcontrol) does not occur! The application loads one core of the processor as a whole indefinitely. 
+Screenshot 1.
+Here is the data from jetbrains dotTrace for three minutes waiting to display the data in the grid:
+ Screenshot 2.
+If you change the size of the form with the mouse (for example, drag the bottom side of the form down), then columns and data appear in the grid immediately.
+ Screenshot 3.
+On the form of two tabs. On the first tab there is a grid. On the second tab you will see the controls (DateEdit, LookUpEdit, etc.). XAML forms in the attachment.
+The problem does not occur if you run one of the two:
+1. Off AutoWidth, i.e. AutoWidth = false;
+2. The height of the form to do more than necessary to draw controls on the second tab.
+Any of these two decisions don't suit me! What can I do to solve this problem with rendering the grid?
+Thanks,
+Vsevolod

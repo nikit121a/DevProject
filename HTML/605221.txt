@@ -1,0 +1,2 @@
+I am using day view with grouped resources and I want the appointments to occupy the whole width of the resource column.
+Is there a way to increase the width of the appointment? 

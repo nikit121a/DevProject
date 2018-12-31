@@ -1,0 +1,2 @@
+It seems like I've had this issue before and it had to do with the dataset.  The dropdowns for the tblBeds selection are not working properly.  I expect the "True", "False" as was in the original item selected.
+Thanks 

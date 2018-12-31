@@ -1,0 +1,4 @@
+Hi,
+I have a batchedit grid that I'm using to monitor user compliance  documents.
+I would like to add an upload button that allows a number of files to be uploaded for a given row in the batchedit grid.  Do you have any examples of how this may be done.
+ 

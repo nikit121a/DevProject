@@ -1,0 +1,2 @@
+Another thing (maybe you will create another topic, I don't know): 
+I'm using the "moderno" theme but I don't like the watch because it has a blue border, it is possible to customize this color according to my base color (#225940)?

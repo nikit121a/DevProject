@@ -1,0 +1,2 @@
+I'm trying to create a report linked to our XPO classes to wee how it all hangs together, but when I select any of our Xpo classes the designer just sees to ramps up memory until it runs out of memory.
+I suspect that as our objects eventually link back onto themselves it's not recognising that it already has the details of the class it is loading and just loads it all again and so on?

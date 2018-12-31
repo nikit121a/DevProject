@@ -1,0 +1,6 @@
+Hi folks,
+I'm trying to remove the "Template Report" Report Type from the ChooseReportTypePage Wizard Page.
+However, i do not know where to set the available/visible Report Types for my created CustomChooseReportTypePage Wizard Page.
+Best,
+Micha
+P.S. Will ASPxReportDesigner support the "Template Report" Report Type in near future? 

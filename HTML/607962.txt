@@ -1,0 +1,5 @@
+Hi,
+Is there  a way to automatically increase the chart size in Xtrareport.  
+Sometimes it display need to resize charts to display. 
+Thanks
+ 

@@ -1,0 +1,12 @@
+Hi guys,
+We started to work with ASP.NET MVC technology and we decided to use your controls unfortunately we are facing some issues.
+Maybe we are just missing something but we have problems with unobtrusive validation in DateEdit (maybe same problem will be in ComboBox I did not tested it).  I attached sample where you can test our scenario.
+Problem is that when there exists intialized DateTinme property it's value is se to input value of DateEdit control but when we click on button clear OR manually delete text in Input input value is still assigned and thus Unobtrusive validation is not validating properly and whoel valdiating is on server side - this is undesired behavior for us. 
+Use case:
+- Run app
+- Default/Index detail is showed - with predefined SatrtDate property and jquery/jquery-validate/jquery-validate-unobtrusive js files included - using CDN
+-  try to use Clear button OR manually delete value in input and click Save button
+- when Unobtrusive valdiation works only message above  form should tell us "Start date must be assigned!!!" otherwise server side validation redirect us to Default/Error page which is wrong for us.
+Can you please help us? How to achieve that your controls will work correctly with unobtrusive validation - I tried your  samples 
+ but we don't want to use your FormLayout for now because we are using combination of default @Html.Editor controls along with yours. We need to solve this problem ASAP.
+Thanks for  help.

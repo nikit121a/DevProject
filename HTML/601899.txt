@@ -1,0 +1,6 @@
+Hello all.
+Since I put some javascript code  -that devexpress suggested me some days ago to resize the chart depending the browser sizing- the bootstrap pie charts going crazy.
+Since that moment, the pie chart animation effect is not working properly. 
+Please, see the image below, I tried to produce a video, but I could not This image is based in 5 screenshots that I took in the chart animation.
+So far I know this is not the normal behavior. As you cans see in the image, the "complete pie" is growing up. I expected that every slice appears one by one (as yoiur samples).
+ 

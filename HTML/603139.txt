@@ -1,0 +1,6 @@
+Hello Team 
+I want to restrict to the user to enter Blank space in the textbox with an error message in the grid view MVC.
+Please suggest me some idea so that I can archive that.
+I need a solution for Client side validation.
+Thanks In advance
+ 

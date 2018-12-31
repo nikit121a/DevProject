@@ -1,0 +1,7 @@
+Hi,
+I found the memory leak in the application, and when I inspect leak using profiler, I found there everywhere memory leak produce a TreeList component and XtraAnimator is always a first on the root of GC.
+Is it known bug in 17.1.7 version? 
+I attach the screen from memory profiler.
+Thanks
+Denis
+ 

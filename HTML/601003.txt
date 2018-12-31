@@ -1,0 +1,7 @@
+hi,
+i have a simple form with 5 TcxButtons 
+ifi apply McSkin skin then the first button (i guess tab order) is painted with a blue background like it is the default button... 
+even if there is another button the default one...
+(and i'm pretty sure the tab order is the one to blame...)
+thx
+marc 

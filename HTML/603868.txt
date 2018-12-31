@@ -1,0 +1,10 @@
+
+Alexander, 
+While testing this sample projet, I found another glitch:
+- Select all the items, by opening the dropdown part and checking each item.
+- Click 'Ok'
+- Then , quickly, click on the 'delete' button of the first token (it will be correctly removed, and the second token will appears as the first one, repeat).  When done quickly enough, it will cause an Exception (sometimes in the TokenEditor, sometimes in the List<T> class...) 
+I hope to be clear enough, if not I will record a small video...
+It happens more often when launched from Visual Studio, in Debug mode.
+
+

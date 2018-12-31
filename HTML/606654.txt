@@ -1,0 +1,5 @@
+For some reason validating an inserted emailaddress doesn't show the error message. I can see the cursor going back so the validator seems to work ok but the error message is not showing beside the ButtonEdit control.
+When I hit the save button the validating works as expected , it sets the focus and shows the error message.
+I will post some snippets and a video
+Thnx,
+Marcel 

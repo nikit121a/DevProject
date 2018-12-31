@@ -1,0 +1,14 @@
+I didn't find answer for simple solution if it is possible to accomplish.
+Simple model:
+  public class TestModel
+    {
+        public int Id { get; set; }
+        public string Customer { get; set; }
+        public string Country { get; set; }
+        public List<Program> Program { get; set; }
+    }
+Need to bind Program in GridView (not in edit mode) from model, not executing look up table for each row.
+Test project has implementation for binding from look  up value but there is problem with filtering - if it is combobox or list box - filter doesn't recognize values in column, if it is custom displaying - it could be filtered by group of values (ex. Description 1 1, Description 1 2, Description 1 3).
+Is there anyway link column strait to the model and filter by it?
+Thank you.
+ 

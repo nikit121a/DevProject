@@ -1,0 +1,7 @@
+Hi,
+We are looking at changing the design of our application and in the past, we have extensively used CSS to overwrite the default themes supplied by DevExpress. 
+We have found however that some of the updates you supply will then break the styles used so we have to then fix this in our application.
+Would we be better off using the properties available in each control (i.e grids, menu, tab controls etc) or is CSS still the best way to go in terms of styling? We are looking for the best performance and any gain we can make is what we are after.
+If going down the CSS route is what's best for performance, then would we be better off using a theme provided by you and modifying it or creating our own theme? Again we are after the best performance.
+Thanks
+ 

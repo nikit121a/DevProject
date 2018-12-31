@@ -1,0 +1,8 @@
+hi!
+we re using some richeditcontrols bound to the same windows forms binding source.
+the problem occurs if we try to add text to more than one richedit at once.
+we are using 
+and usedeferreddatabindingnotifications is set to false
+if we dont use: databindings[0].WriteValue() then the inserted text gets lost if we try to save.
+the richeditcontrols are in tabcontrols and layoutcontrols etc.
+any suggestions?

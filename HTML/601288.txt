@@ -1,0 +1,4 @@
+Hello,
+I'm having an issue with the DXRibbonWindow title showing over the context  RibbonPageCategory's. The problem seems to only exist when the RibbonPageCategory's come from a MDI Merged ribbon.
+I've created a quick sample project showing the issue i'm encountering. I'm using a DockLayoutManager for the MDI container. The main window has a custom category on it, and the title correctly bounces around the category as it should. However, as soon as the user control is added to the DockLayoutManager, its RibbonPageCategories are merged into the main window. The title doesn't seem to obey the rules for avoiding being over the category for merged categories and interferes with the  category caption.
+ Check out the attached project, click the Add button on the first category to add the control to the DockLayoutManager. Maybe I'm missing something.

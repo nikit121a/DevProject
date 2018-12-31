@@ -1,0 +1,4 @@
+Hi,
+I was wondering if you had any C# examples on how to manipulate a chartcontrol seriespoint value. I found a couple of example online, but I can't seem to get them to work.
+Please see the attachment.
+Thanks,

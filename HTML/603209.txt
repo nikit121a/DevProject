@@ -1,0 +1,14 @@
+Hello,
+When a MVCxDashboard is loaded , a DataLoadingWeb event is raised for each data source to fill the dashboard's data cache and one is raised for each dynamic list used by the dashboard parameters.
+However, when the dashboard's data cache has expired and that an interaction  is executed, a DataLoadingWeb event will be raised for each data source but none will be raised for the parameters. As a consequence, the look up values are not updated and may not match the current data to which they are bound.
+Please, find attached an archive containing a dashboard layout as well as its query text. You'll also find an SQL query that updates data the "Commercial" parameter is bound to.  The database used is AdventureWorks2012.
+To reproduce the issue : 
+- open the dashboard
+- check the lookup values available for the "Commercial " parameter
+- edit the data base using the provided script
+- wait for the cache to expire
+- perform an interaction to trigger the DataLoadingWeb event
+-  once the data are refreshed, you should see that the look up values available for the Commercial parameter have not been updated as they should have.
+Thanks in advance for taking care of this, good luck.
+Have a good afternoon.
+Regards

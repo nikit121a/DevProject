@@ -1,0 +1,5 @@
+I have a GridView and a Toolbar. in the toolbar there is a button to Add rows.
+The GridView is in InLineEdit mode and NewItemRowPosition is set to Bottom.
+How can I bring the new line automatically on the screen? In other words how can I jump automatically (scrolldown) to the new (last) row?
+In the attached picture the Grid is adding a new row but the user can't see it untill he scrolls down.
+ 

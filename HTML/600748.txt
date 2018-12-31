@@ -1,0 +1,1 @@
+I currently have the Timeline set to 5 to show today plus the next 4 days when the calendar opens.  Is there a way to have an end user specify how many days they see.  I have 1 person asking for a 12 day interval.

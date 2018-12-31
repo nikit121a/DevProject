@@ -1,0 +1,7 @@
+Hi,
+All my customer facing the gridview performance degrade badly compare to using version 16.1.8
+There's no changes in source but just update the component version.
+Basically the operation is like this, every row input in grid, it will recalculate it's binded datatable (converted to dataview)  for every row again to get the correct result.
+The performance degrade of adding each row in gridview was significant after 10 rows being added.
+Regards,
+Kenny 

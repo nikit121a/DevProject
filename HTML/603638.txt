@@ -1,0 +1,3 @@
+Hello,
+I receive the following error whenever I try and drag a column within the grid.
+I have included  a sample project which demonstrates this issue.

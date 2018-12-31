@@ -1,0 +1,5 @@
+
+I found it that why i am getting this issue. I have used summary properties in my data grid and i have to show some custom value to the column. The same i have created in sample project and now i am getting the same issue in sample application also.
+PFA of the attached sample project where this issue has been illustrated.
+Thanks,
+Veera

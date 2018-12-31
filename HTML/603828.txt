@@ -1,0 +1,9 @@
+Hello,
+     
+in the example below you see a dxPivotGrid coupled with a dxChart. Each dxPivotGrid data field uses a different formatting for the displayed values.
+In my real app these formatting definitions are not static but derived from some complex conditions. 
+The coupled dxChart is to show the value details in its tooltips. How can I achieve that the values in the tooltips of dxChart use the same formattings
+as the belonging data columns in the pivot grid. The tooltip property allows just a common format definition for all tooltips but not an individual definition
+dependent on the bound data column of the pivot grid.
+Best regards 
+Matthias

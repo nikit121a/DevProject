@@ -1,0 +1,9 @@
+Hi,
+Previously we had a dashboard connected to SQL server using stored procedure with parameters passed to procedure . Now we are moving to OLAP cube for the same dashboard. I have some questions
+ 1)  we have 4 dashboard items; 2 bar charts and 2 grids. 1 chart and 2 grids are loading based on the bar, the user clicks from the first barchart. For this  we have kept a hidden reportid. We kept an invisible parameter through which we were passing the reportid for last 3 item's stored proc using the clientside item click.
+is there any way we can add reportid also along with the value ?
+2) is there any way we can set hidden parameters and pass the reportid w hen the user clicks on the bar to the cube to filter the data.
+3) is there any way to filter the cube data based on another 4 par ameters? I was doing this previously by keeping invisible parameters and setting it's value through the dashboard loaded event.
+4) will the master filtering work for the cube in the same way it works for normal dashboard?
+Thank you
+Veera

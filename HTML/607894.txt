@@ -1,0 +1,4 @@
+Dear DevExpress Support Team,
+After successfully upgrading my ASP.NET Core Bootstrap to the latest version (v17.2.5) , I tried to install NuGet Package "DevExpress.AspNetCore.Bootstrap" to v17.2.5 many times, but never success (the Error Message can be seen in the attached file). It would be very much appreciated, if you could help me solve this problem.
+Thanks and best regards,
+Bounkong 

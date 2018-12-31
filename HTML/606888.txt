@@ -1,0 +1,3 @@
+I have BO resevation and from resrwation I have simple action to add Agreement record. When user add new Reservation, next execute action and add new agreement and save it. Next exit resevaton with no save. This make that agreement exist without reservation.
+I gues, I have to save record before excecute action from detailview
+how to do this ? 

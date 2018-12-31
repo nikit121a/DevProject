@@ -1,0 +1,5 @@
+Hi,
+i'm using the an uri pattern to show a hyperlink in the dashbaord viewer.
+i'm prrety sure this worked in 17.2.3, but it seems, that in 17.2.5 the placeholder is not replace or replace with null, when clicking on the link?!
+Best regards 
+Michael 

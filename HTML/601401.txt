@@ -1,0 +1,4 @@
+HI,
+I was wondering, if i use the your spread sheet item. Does the end user have to have office with excel installed for it to work. Or is it independent. It will work if the end user does not have a office installed.
+Thank You
+Gary 

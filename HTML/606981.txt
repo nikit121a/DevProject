@@ -1,0 +1,5 @@
+The color cell reference color generate issue when a cell is referenced by another in a formula. Access Violation is raised on try to drag and drop the cell 
+1) Create a blank application with Delphi Tokyo 10.2 Update 2 (Delphi 10.2 Version 25.0.29039.2004)
+2) Drop on to the form a TdxSpreadSheet component and set aling to alClient
+3) Run the application and execute the actions like in the attachment video (ErrorCellReference.mp4)
+ 

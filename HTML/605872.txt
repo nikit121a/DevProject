@@ -1,0 +1,1 @@
+In the attached sample is there a way to keep the 'Main' tab visible/active. The application automatically switch to the 'Data' tab

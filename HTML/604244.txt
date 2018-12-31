@@ -1,0 +1,10 @@
+Hello,
+Is there a way to create Scheduler Report that shows Events as vertical column, Dates as horizontal, and resources in the cells or I need to feed data to XtraReports V2 and do it there? Something like
+                 Sun.  2/4  |  Mon 2/5   | Tue 2/6
+              -----------------------------------------------
+Event1  |       Res1   |   Res2       |  Res1
+             |       Res2   |                  |
+             ----------------------------------------------
+Event2  |      Res2    |   Res1      |   Res2
+             |                   |   Res2      |
+Thank you. 

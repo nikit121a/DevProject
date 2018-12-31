@@ -1,0 +1,6 @@
+Hello,
+I have a RibbonForm with the properties RibbonStyle = MacOffice and RightToLeft = Yes
+I Added buttons to the quickaccess toolbar to be at the top-right corner, and I realize that the SuperTips are aligned to the right, and I want them left aligned as I can see always in normal ribbon configurations.
+Please, find attached and image with the result I can see. Even the final dot at the end of my tooltip at design time is shown in the left side.
+Could you help me to configure them to see them left aligned?
+Thanks!!!

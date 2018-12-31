@@ -1,0 +1,2 @@
+Hallo DevExpress Team,
+i like to embed the GridSearchControl into a Toolbar. Doing this by setting the Template of Baritem, maks me unable to bind the GridSearchControl to the View by Elementname. 

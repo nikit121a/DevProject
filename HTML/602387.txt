@@ -1,0 +1,7 @@
+Hi,
+I am having issue modifying attribute to DevExtreme MVC control wrapper by using JS.
+Why do I need to explicitly specify control ID in order to modify the attribute from JS?
+Whenever I use "xxFor", the control ID should auto generate at HTML.
+Or any other setting I need to specify on MVC wrapper?
+Please enlighten me. Thanks.
+ 

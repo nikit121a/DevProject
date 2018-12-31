@@ -1,0 +1,26 @@
+Hello,
+I am having an issue with loading the DataSources into a dashboard.  I have the basics working - I can save and load a dashboard to a database field.  I can launch the dashboard designer and viewer forms.  It works and works well.  However, I am having an issue when loading datasources for the dashboard. 
+In my case - the user runs a SQL query - it generates a DataTable(s) and that/those are used as the datasources for the Dashboard.  I save the SQL and the dashboard definition to a Database record to be used again in the future. This part works well.  
+Now - take the example of SQL1 being run and generating DataTable1.  This is then used to design the dashboard.  
+Then at a later time I rerun SQL1 - but also run SQL2 - generating two DataTables (DataTabl1 and DataTable2).  Then I load the previously designed dashboard into the dashboard designer. I get one of two issues happening - depending on whether I clear the DataSources or not (after I load the saved dashboard). 
+Do not Clear the DataSources:
+At this point I end up with the following DataTables (data sources)
+     DataTable1
+     DataTable1
+     DataTable2
+AND - the dashboard designer displays the data and works as expected.  BUT - that second copy of DataTable1 in the list is confusing for my users
+Clear the DataSoures
+At this point I end up with the following DataTables (data sources)
+     DataTable1
+     DataTable2
+So - the DataSources list is correct - but now there is no data available in the designer and all my dashboard items are blank.
+I realize this has to do with the clearing of the DataSources - and the fact that I am manually loading the DataSources at run time - from the list of available DataTables in a DataSet.  However, I have to admit - I don't understand how this is supposed to function well enough to come up with the proper solution...
+I have attached a zip file with my DashboardDesigner form - and some images to show the issue.  
+In the designer form - I am doing the following
+OnLoad of the Form - I do
+     Load Dashboard from Database  (here I realize I am getting the datasource that was used the last time in the designer)
+     Load Dashboard DataSources  (here I am adding the current ones - if I don't clear I get a duplicate...  If I do clear - the designer does not show data).
+I am guessing that when I clear the datasources - I am screwing up the reference to the DataSource that the Dashboard has from the previous design session. Hence why the dashboard items are blank.   And since the design that is loaded from the DB already has a datasource - and then I try to reload it - I get why I am seeing the duplication.  
+My question is how to do I solve the duplication issue properly???  I think I could not clear the datasources - but only load ones that do not already exist (by comparing the DataSourceName to the DataTableName.  That seems a little like a hack - and I thought I would check with you folks to see if there was a more 'proper' way of doing this???    
+Thank you.
+Bradley

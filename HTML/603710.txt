@@ -1,0 +1,5 @@
+Hello,
+ I have some problem clicking and focusing a BarItem in RibbonControl when I set ThemedWindows's WindowKind property is set to true. 
+Please watch the 
+When I double click that non-focusable area then window enter to maximized state.
+Thanks.

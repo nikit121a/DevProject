@@ -1,0 +1,22 @@
+We have a field of type datetime in our pivot grid. We have added code to dynamically create new grouped field from that datetime field in group interval of 
+, 
+, and 
+. We created a field with groupinterval of Year, added it to column area (as shown in screenshot 2.png), and saved the layout. 
+Then we restored the layout and created another field with groupinterval of Month Year. As soon as we add the new field, the previously added field which was restored from layout malfunctions and no longer displays in format YYYY (as shown in screenshot 3.png). 
+If we add the newly created field to column area and trigger BestFit, the control throws an exception saying "child generated no items" (below I have pasted the stacktrace output).
+After adding new field, if we remove the Date (Year ) field from column area and add the newly created Date (Month Year) field, the header simply shows 
+ instead of the actual dates.
+To add new field to pivot grid, we do the following:
+ -create the new pivotgridfield
+-set the FieldName to the datetime column name
+-set Tag and Caption to the field
+-set to UseNativeFormat to DevExpress.Utils.DefaultBoolean.False
+-set field's GroupInterval to PivotGroupInterval.DateYear or PivotGroupInterval.DateMonthYear.
+-add field by pivotGridControl.Fields.Add(newField)
+For storing layout, we are using following settings:
+For restoring layout, we are using following line:
+pivotGridControl.RestoreLayoutFromStream(stream, DevExpress.Utils.OptionsLayoutBase.FullLayout)
+I have attached the screenshots in the zip file. 
+Stacktrace:
+ 
+   

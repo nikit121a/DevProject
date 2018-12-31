@@ -1,0 +1,5 @@
+Hi, 
+Please check my below code. when I select all items it works fine. when I try to deselect all items It does not work. I have latest version of devextreme. Other grids working fine. Only issue occurring in this grid. It does not display any error.
+/*************** list of cabinet ******************/
+
+

@@ -1,0 +1,4 @@
+
+Thanks. Silly question but how do you add new buttons in code behind? 
+All I'm seeing is this
+Is there another way to create them or do I have to create something called a BaseButtonCollection?

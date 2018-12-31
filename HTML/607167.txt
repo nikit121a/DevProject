@@ -1,0 +1,5 @@
+Hello!
+I need to prevent the user from selecting certain values (these items have tag=1) online.
+I could not find an event like CheckStateChanged.
+P.s. These items must behave like  radioButton. If the user checks the second item, when the first is checked, the first checkState must be unchecked. I will remind, it concerns only those items at which the tag is equal '1'.
+Thank you! 

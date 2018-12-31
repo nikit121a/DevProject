@@ -1,0 +1,16 @@
+We would like to implement true Lazy loading of groupped rows in a DataGrid:
+1) In the first step , we would like to load the highest level of groups. At this moment, we do NOT know the total rows in the entire grid, we only know the total number of items on the highest hierarchy, like this:
++ Group 1
++ Group 2
++ Group 3
+2) When the user expands let's say "Group 2" then we are able to load the level for Group 2. Again, we do NOT know the total number of rows under Group 2 at all nested levels. We only know the number of rows under Group 2, for example:
++ Group 1
+-  Group 2
+       + Group 2.1
+       + Group 2.2
+       + Group 2.3
+       + Group 2.4
+       + Group 2.5
++ Group 3
+ And so on... The loading should really be "lazy", it means that the server is simply not able to construct the entire tree and calculate the number of total rows. However, the server is able to return one level at a time very effectively.
+Is this possible with dxDataGrid + CustomSource? 

@@ -1,0 +1,15 @@
+Hi,
+Sequence contains no element exception is thrown in two cases:
+Blank file:
+- Open print preview
+- set page layout  to two pages
+- show cover page
+Open file:
+- Open print preview
+- set page layout  to two pages
+- show cover page
+- close print preview
+This also happens in the Text Editor control.
+Thanks,
+Michael
+ 

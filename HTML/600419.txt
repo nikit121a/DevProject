@@ -1,0 +1,6 @@
+Hi,
+I do not understand how the Math.Min/Max functions are supposed to be used.
+They takes 2 numeric parameters .
+I am giving it Max(myNumericVariable, 100) but I keep getting  "The expression cannot be evaluated".
+It does not work with variables ?!
+Please find attached screenshot. You can see the field I am using is numeric (by the icon with which it is listed at the left)

@@ -1,0 +1,3 @@
+Hi Team, 
+Could you please provide example for DXchart  for type line chart by preparing series and x,y axis and binding data using data table by using C# code. 
+if possible prepare multiple secondary  yaxis  

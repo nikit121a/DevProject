@@ -1,0 +1,2 @@
+Hi, 
+I am trying to hide/remove the buttons in the document view ribbon in xtra reports in asp.net website but I am not able to do nor was I able to find any tutorials for this. 

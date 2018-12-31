@@ -1,0 +1,18 @@
+
+Hi, 
+I have an angular app in which I have used 
+to localize it into Turkish.
+
+
+
+
+Everything about localization works fine, Except DXNumberBox.
+I Have following NumberBox
+
+
+
+In turkish thousands separator is '
+'  and decimal separator is '
+' . and localization works correctly. 
+When a number which finish with zero then add "," ( decimal separator) then write a number finishes with zero. for example try writing 
+ it changes it to 

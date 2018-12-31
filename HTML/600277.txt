@@ -1,0 +1,11 @@
+Hello,
+I have two source tables looks like tables below:
+Table 1                   Table 2
+Name Value           Name Value
+a    null                    a    1 
+b    null                    b    2
+c    null                    c    3
+d    null                    d    4
+e    null                     e    5
+The gridview is set to batch edit mode. My goal is to gather values from users for table 1.  I need to to pre-populate the values in table 1 using table 2. I tried to bind the data directly to table 2. It does not work because cells under column "Value" is not treat as edited cells so the "save changes" and "Cancel changes" buttons will not work. I believe that I need to bind the data source to table 1 and somehow edit all null values to their corresponding values in table 2. How can I do that in server side page load method?
+Thanks 

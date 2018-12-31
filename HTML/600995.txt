@@ -1,0 +1,20 @@
+I want to insert control in runtime. but it doesn't display.
+Button and display panel are in inner form that place in main form as below
+ - Main Form ( inner Form ( button and display panel) ) ) 
+ Button event handler is 
+testPanel is display panel that I want to display something if button is clicked.
+ private void button1_Click(object sender, EventArgs e)
+        {
+            //((Button)sender).Text = "Test";
+            //ServerMon control = new ServerMon();
+            //testPanel.Controls.Add(control);
+            //control.Dock = DockStyle.Fill;
+            //control.Visible = true;
+            //control.Show();
+            //control.Invalidate();
+            Panel pn = new Panel();
+            pn.Dock = DockStyle.Fill;
+            pn.BackColor = Color.Black;
+            testPanel.Controls.Add(pn);
+        }
+But there is any change on UI. 

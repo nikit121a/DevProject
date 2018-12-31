@@ -1,0 +1,7 @@
+I'm seeing some issues when the ASP.NET FileManager control's root folder  is pointed to a directory that contains a very large number of files and folders -- the root of C:\, for example.  
+In some cases it appears to hang or take an unacceptably long time to render in the client browser.  In other cases, I've gotten an Out of Memory error on the server side.     
+We don't really intend the control to be used this way, but customers have a way of finding anything they can break.  
+At a minimum, I'd like to be able to provide guidance to customers on a recommended maximum number of files/folders the FileManager control can be expected to handle without significant delay in rendering or other issues.   We may need to put some checking in place to count files and folders in the selected path before setting the FileManager's root -- better to show end users a friendly message that they're asking too much than have it hang or error.
+Please provide some guidelines on a safe maximum number of files/folders the control can handle without issue.
+Thanks,
+Michael

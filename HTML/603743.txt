@@ -1,0 +1,3 @@
+I have a gridview that I have 2 columns with numeric values that i want to merge into 1 column and add a hyperlink to one of the values within that merged column. Is that possible to do with a winforms grid control? Im attaching a screen shot of the two cell values within the two columns. Basically, i want the merged value to look like this.
+3893 / 
+ 

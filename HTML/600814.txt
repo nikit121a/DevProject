@@ -1,0 +1,4 @@
+Hi,
+When the flyout is being displayed, and de property CloseOnOuterClick = true, the next click on form is ignored. 
+For example, if I click in close button when the flyout is displayed, then the flyout hides, but the form doesn't close.
+This don't happen in version 17.1

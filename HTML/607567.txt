@@ -1,0 +1,4 @@
+I would like to be able to keep the column headers on screen at all times while the gridview itself is show.
+I don't want the gridview itself to have a scrollbar.
+The page will scroll, at all times while the grid is on page the header would show. as soon as the user scrolls past the gridview the headers would disappear.
+Is it possible? 

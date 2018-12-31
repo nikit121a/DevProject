@@ -1,0 +1,3 @@
+
+Hello. 
+1. When you try to move the rectangle, which describes the value of a formula occurs Access Violation.

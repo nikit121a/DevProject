@@ -1,0 +1,3 @@
+Hello, whenever I expand my tree nodes theres a chance the comboboxedit column gets changed. Is there any reason this might be happening? 
+This is the template I have for it, the adjustment modes is a list of strings and the selectedItem is a string. It keeps trying to set the selectedItem to null when I expand the list which I put a null check for, but it still overwrites it without hitting the setter. 
+Also tried hard coding the value  to "TEST"  in the NodeExpanded event but some of the values are still being overwritten, most of the comboboxEdits do have "TEST" though.

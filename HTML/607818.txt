@@ -1,0 +1,19 @@
+Hello there,
+See in 
+ the difference between my software and DevEx demo control.
+1, the 
+is like a ruler that has the small and big lines in the demo, mine doesn't!
+2,  when the 
+are pressed in the demo the tool tip will show up, mine doesn't!
+    Also, how to make the 
+lil bigger?
+3, how can I customize the 
+to be like the demo? a circle!
+4, the 
+has 
+(0,10,15,20,25,.....), but mine doesn't?
+5, how can I customize the 
+text?
+6, how can I customize the 
+ text?
+Thanks. 

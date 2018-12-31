@@ -1,0 +1,6 @@
+Hi
+i Have text on database
+" lorem ipsum <br /> lorem ipsum"
+a like change <br /> to NewLine when I show in ASPxMemo
+and  ASPxGridView column 
+how to do it 

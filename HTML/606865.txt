@@ -1,0 +1,5 @@
+Hi,
+We are implementing devexpress MVC reports in my project. 
+ Initially in the report all the list of data was blinding without any issues. but while changing the external parameter, its not refreshing the report again it showing same data.
+Please see the attachment , Initially it shows data for Number 72 , i have changed number to 73 and submitted the data but still it shows same data. 
+ Please give us solution build and demonstrate for this issue.

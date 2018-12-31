@@ -1,0 +1,3 @@
+I completely overlooked that on the first issue. It appears to be solved.
+On the second however, I've tried 2 different approaches and one variation. The ASPxGridView2.InitNewRow used to work weeks ago but nothing works anymore.
+ 

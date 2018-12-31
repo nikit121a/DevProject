@@ -1,0 +1,2 @@
+Hi, 
+I'd like to disable (or replace) menu which appears when user clicks second mouse button during editing cell. How to do it? Setting Handled in OnContextPopup event does not work.

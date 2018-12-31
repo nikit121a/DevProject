@@ -1,0 +1,3 @@
+hello I added the report parameter. When I want to view, I just want to choose the date I do not want to choose the time.
+how can I do that.
+ 

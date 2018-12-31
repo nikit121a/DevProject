@@ -1,0 +1,4 @@
+Hi,
+I am adding rows in a XRTable at runt ime; there is a way to remove all added rows? BeginInit does not remove rows.
+Thanks for your help
+Mario 

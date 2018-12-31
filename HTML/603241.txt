@@ -1,0 +1,17 @@
+I am currently using DevExpress V17.2.4 and Visual Studio 2015 and my WinForms application is using the XtraMap Control.
+Occasionally, I see the following exception when re-assigning the data source for the two map layers in my application:
+An unhandled exception of type 'System.InvalidOperationException' occurred in mscorlib.dll
+Additional information: Collection was modified; enumeration operation may not execute.
+ The call stack is as follows:
+mscorlib.dll!System.ThrowHelper.ThrowInvalidOperationException(System.ExceptionResource resource)
+  mscorlib.dll!System.Collections.Generic.List<System.__Canon>.Enumerator.MoveNextRare() Unknown
+  DevExpress.XtraMap.v17.2.dll!DevExpress.XtraMap.Drawing.RendererBase.RenderItems(DevExpress.XtraMap.Drawing.IRenderLayer layer, DevExpress.XtraMap.Drawing.IRenderItemProvider provider)
+  DevExpress.XtraMap.v17.2.dll!DevExpress.XtraMap.Drawing.RenderWorker.RenderItemProvider(DevExpress.XtraMap.LayerBase layer)
+  DevExpress.XtraMap.v17.2.dll!DevExpress.XtraMap.Drawing.RenderWorker.RenderContent(DevExpress.XtraMap.Drawing.IRenderContext context, DevExpress.XtraMap.Drawing.RenderItemEnsureHelper itemEnsureHelper, System.Collections.Generic.IEnumerable<DevExpress.XtraMap.LayerBase> layers)
+  DevExpress.XtraMap.v17.2.dll!DevExpress.XtraMap.Drawing.RenderWorker.Render()
+  mscorlib.dll!System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, object state, bool preserveSyncCtx)
+  mscorlib.dll!System.Threading.ExecutionContext.Run(System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, object state, bool preserveSyncCtx)
+  mscorlib.dll!System.Threading.ExecutionContext.Run(System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, object state)
+  mscorlib.dll!System.Threading.ThreadHelper.ThreadStart()
+I should also point out that I do not have any foreach loop in that part of my application related to this problem that would modify a collection within the foreach loop. Also, I should mention that I have two layers on the map with each containing few thousands map elements. This exception occurs occasional and it does does not happen every time the data source is re-assigned
+I would appreciate any help to identify the source of the problem if it is related to the XtraMap library..

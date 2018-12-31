@@ -1,0 +1,4 @@
+Hi,
+we are using a LayoutControl with a LayoutGroup and LayoutItems as a DataTemplate in a CardTemplate of a GridControl.
+Unfortunately  is it not possible to tab through the TextEdits as normal. We thought this is a standard behavoir?!
+Please take a look at my attached sample. 

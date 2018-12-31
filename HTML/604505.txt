@@ -1,0 +1,4 @@
+Hello,
+I'm looking to replace the dxSelectBox in my dxDataGrid as the selection process is too slow for my end users.  What they don't link is that it takes maybe a second to find the item in the select box prior to being able to tab out as selected.  Is there any way to make the dxSelectBox behave like a native select, such that it selects immediately as you type (all items pre-populated)?
+If not, I've put together a simple sample of a native select box in the edit cell template and am having a problem with giving it focus when a user tabs in to the cell.  Could you tell me how I can send focus in?
+Thank you! 

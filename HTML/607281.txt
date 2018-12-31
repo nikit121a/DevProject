@@ -1,0 +1,3 @@
+Hi
+I'm trying to increase the size of the row indicator programatically depending on the size of the row number so that the use sees the whole row number in the gridview.  The code below is working fine except that the row indicator only increases in size when I click on the row indicator with a mouse click.  Is there anyway that I can get it to increase in size automatically without having to click on it.  I've tried grid refresh and gridview.refresh, but neither seem to work.
+ 

@@ -1,0 +1,8 @@
+Hi,
+DxTagBox is not working as expected when using datasource and hideSelectedItems options.
+In this demo: 
+, if we set the hideSelectedItems to true:
+And in onValueChanged(e), e.component._selectedItems always returns the last selected item instead of the whole selected items. If you remove hideSelectedItems options, it contains the correct array os selected items.
+ Please advise on how to proceed or get the actual correct number of selected items, using the hideSelectedItems option.
+Thank you.
+ 

@@ -1,0 +1,3 @@
+Hi,
+the dxTreeView ignores the style property max-height. If property max-height is set for its container no scrollbar is shown and the treeview "takes as much height as it needs" and no scrollbar is shown. Only if property height is set for the container its height is limited and a scrollbar will be shown.
+ 

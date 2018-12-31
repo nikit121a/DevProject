@@ -1,0 +1,4 @@
+
+Currently only one issue i have, I am using Aqua theme in gridview when page loads then page number is not visible using this theme. Could you please check this issue?
+Thanks,
+Veera

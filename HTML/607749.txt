@@ -1,0 +1,3 @@
+Hello,
+The controller works as exptected but breaks action enable status functionality in the nested listview.
+I have presented the unwanted behavior in the attachment.

@@ -1,0 +1,24 @@
+Hi there DX folks,
+I'm trying to use structures and non-persistent classes in conjuction with DomainComponents on an application with Middle-Tier security. I had have success with this task before on other applications that don't use middle-tier security.
+Thus far I have encountered three problematic scenarios.
+Attached there are Two Solutions with almost identical code, one with Middle-Tier security and the other without it. There is also pictures.
+A DomainComponent  with a property of a type  that is a structure fails with an exception when trying to save the DomainComponent.
+To reproduce: Open "Use Structure" list view click "New", on the detail view "Click Save"
+Workaround: Don't use Structures, they are handy but not strictily necessary, just copy and paste the columns on domain components that needs it, if you only need one reference to the structure per DC you could create a non-persistent base DC to inherit from. It may become a little messy if you had a bunch of them but I'll work.
+A DomainComponent with a property of a type that is non-persistent class fails with an exception is that property is part used in a RuleCombinationOfPropertiesIsUnique when trying to save the DomainComponent.
+To reproduce: Open "Use Non Persistent" list view click "New", on the detail view look for the "Values" nested list, create a new "UseNewPersistent_SpecialValue" object, on the (yet another) detail view click "Save".
+Workaround: In my case I could use for the rule the hidden persistent property that is used to calculate the non-persistent one, but in that case I get the validation error popup, but not the validation indicator on the property.
+Following the 
+ shows an empty list. For some reason the ObjectSpace on the controller is an XPObjectSpace instead of a NonPersistentObjectSpace. I did not leave the example but the same occurs when trying to show a 
+.
+To reproduce: Open "My Value" list view From navigation
+Workaround: Create a Non-Persistent class that contains the list, show the detail view of such class from the navigation. When initializing the object for the detailview create it manually (
+)
+(This is a new scenario, updated code and pictures are attached on a comment)
+I'm trying to show a summary of items similar to this 
+. But instead of calculating the results on memory, I'm trying to do it on the database using 
+ And instead of a string property, I'm trying to group by a calculated enum property. It fails with an exception.
+To reproduce: Open "Am Queried"  list view, create some objects, on the list view click "Show Summary By Calulated Type"
+Workaround: Create another non browsable calculated string property and group by it, so you still get to use the enum one (possibly with images). Or if there aren't lots of items you could materialize (with 
+ or 
+) the list before grouping and group on the client instead of on the server.

@@ -1,0 +1,5 @@
+Dear support,
+Is there any way to tell devextreme not to load your font icons file and replace the icons with font awesome ones?
+Now with font-awesome 5, it possible not to load font files, which is great, but unfortunately,  some of your control depend on your icons, for example, the checkbox and accordino. Given that most of your controls already support font-awesome, it would be great, if there was a possibility just to say to devextreme to directly link your icons to font-awesome icons, like a global property when initializing or something similar. It would be really easy from your side to create a a mapping of your existing icons to the font-awesome ones.
+Regards,
+Andr? 

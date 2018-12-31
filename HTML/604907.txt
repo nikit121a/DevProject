@@ -1,0 +1,8 @@
+Hello,
+Following the demo presented here 
+, I'm locking some collums in my spreadsheet. 
+The problem is that the spreadsheet component is giving a strange behavior with this locking feature.
+ When i edit those locked columns it calls the CallbackRouteValues as you have on your demo(so far so good!), but when i change a value of a different(unlocked) cell, which has a list data validation , it also calls the endpoint defined in CallbackRouteValues.
+This last call is unexpected, since  when i remove this locking feature this call doesn't happen.
+Maybe i'm not understanding who calls the endpoint of the CallbackRouteValues, and i can't find any detailed information about this.
+Can you explain me why this is happening? I really need this locking Feature! 

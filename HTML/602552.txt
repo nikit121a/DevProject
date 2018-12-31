@@ -1,0 +1,5 @@
+HI Team,
+Dev Express icon not visible in IE 11.
+e.g. Export button, column chooser not visible.
+ 
+please help on that. 

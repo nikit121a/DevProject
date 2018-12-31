@@ -1,0 +1,4 @@
+Hello 
+Using the Dashboard viewer - I am seeing some times when changing a view or loading the dashboard can take a good amount of time (5-10 seconds). This may be partially due to the environment of the machine I am running it on.  At this point I am not too concerned about the time.  However, I would like to provide feedback to the user that there is actually something going on - and they should not be clicking on other buttons, etc.  Perhaps even something as simple as changing the mouse cursor to an hourglass, etc. while the changes are taking place.  
+What is the proper way of doing this?  Do I write code in the Loading event of the Dashboard Viewer?   Is there a better place to do this?  
+Bradley  

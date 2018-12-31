@@ -1,0 +1,11 @@
+Hello Svetlana,
+we used your "At the same time, the 
+ mechanism still allows you to apply the 
+ operator to the necessary columns by setting the 
+ property to Like and the 
+ property to DisplayText."
+it works but any other expression column that depends in its calculations to a column changed to FilterMode=DisplayText , gives #Err   
+we are using 17.1.6
+what can we do ?
+thanks
+Bassam 

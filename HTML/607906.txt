@@ -1,0 +1,10 @@
+Hi Support Team,
+I am new to XAF / XPO  and studying your tutorials and examples.
+Two questions came up, where I hardly find an answer:
+Some of your XPO class definition examples have private fields with  public properties:
+Others only have public fields?
+What's recommended in general? Do there is any difference in how the application or database will behave?
+The other question is: 
+I have, that in your examples and Business Class Library  you never use the [Size(n)] annotation for string fields, which results in a nvarchar(100) field in a MS SQL Database. Why? How I can change the size and datatype to varchar?
+I will have very big tables in future where size matters... 
+Thanks Florian 

@@ -1,0 +1,3 @@
+Hello Paul, 
+Ok but when i apply the filter by column , is it a easy way to set the autofilter condition from column with the criteria operator's column ? 
+Thank you !  

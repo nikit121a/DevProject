@@ -1,0 +1,15 @@
+Hi,
+The following behavior looks like a bug.
+We have an application using the DocumentView/TabbedView where each Document is a UserControl that has a Ribbon.  
+- When a document is activated (TabbedView.DocumentActivated), the ribbon of the UserControl is merged into the Ribbon of the Main form 
+- When a document is deactivated (TabbedView.DocumentDeactivated), the ribbon of the Main form is unmerged.  
+Here is what we do to produce a problem:
+- Open a UserControl (UC1) with a Ribbon whose items have no shortcuts
+- Open another UserControl (UC2) with a Ribbon that has an item with a shortcut (CTRL+F5 for example)
+- Switch back to the tab of the first UserControl
+--> Now.. the ribbon of UC1 is visibly merged into the main Ribbon.
+--> However, when I press the Shortcut Key (CTRL+F5 in our example), the Ribbon item on UC2 reacts (even though it is currently not merged)
+Maybe it's reacting because the ribbon of UC2 is still technically there (inside UC2) but not visible.  In that case, we would need a way to temporarily disable shortcuts on a given ribbon object.
+What should we do here?
+Best,
+acl

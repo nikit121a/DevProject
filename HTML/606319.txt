@@ -1,0 +1,6 @@
+Hi,
+When exporting a report to Excel, some texts are not transferred 
+I have added a picture for comparison
+Report and PDF export are complete, in Excel missing data (marked yellow)
+The lines are separated by CRLF
+I have no idea how to fix it. 

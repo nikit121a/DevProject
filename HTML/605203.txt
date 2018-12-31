@@ -1,0 +1,14 @@
+Hi,
+The problem introduction is probably necessary for explaining what I need... (see also the attached image).
+The customer has several locations around the world. They work with ingredients (to be use in industrial production; to be mixed by some recipe) that may have various names around the globe. Because of that they need a rather simple web application for  knowing what is the name of the ingredient in another location -- possibly trying to unify the names.
+There is the internal 
+ unique through the company; so, the task can also be formulated to search for the code when one knows the name. It can possibly be the name used in another location.
+So far, I display all the rows of the ingredients for all the location. The search panel of the grid view works nicely -- see the picture and notice the very last lines with the code 90002. The last lines show the situation when more locations uses the same ingredient and they mostly use the same name for it.
+The user of the application is assigned his/her location code. This way, I would like to display only the rows that are related to the location (in other words, not to clutter the display with the information used in other location.
+However, 
+, the user should be able to access also the rows from the other locations.
+The application is in early stages. So, I can--for example--add a check box like "Show only my location" that would be ignored if the searching was initiated (through some searching event...).
+Is there some suitable mechanism built into the ASPxGridView (like any kind of grouping to show preferably only the location row)? Or, should I keep the flat grid-view with the the different data source parameters passed when the searching is started?
+ Having deep knowledge of your product, can you suggest the right approach? I do not need anything fancy for the eye. It should be as simple as possible for the user, without the need to explain how it works.
+Thanks, and have a nice day,
+Petr

@@ -1,0 +1,13 @@
+Hi,
+Since updating our product from 17.2.3 to 17.2.5 , the export behaviour crash when the customArgs that must be sent to the server is too complex.
+ -Create a gridview that handles client-side exports
+- add a "BeginCallback" client handler
+- in that callback, add a big chunk of data in event.customArgs (an 18k character serialized json in our case)
+- then on the website, call the client-side "exportTo" method.
+- the export callback is called, a file is generated and downloaded by the client
+- the export callback is called but crash, with the following message : "HTTP Error 414. The request URL is too long.". 
+It appears that customArgs are encoded in the form action and therefore have the same restrictions as all GET queries (including max query length). Should'nt it be encoded in the form directly ? It would not have any size restriction and should be easy to implement ("just" dynamically add one hidden input in the export form for each keys in the customArgs). This is what we had in our code while the export did not trigger the BeginCallback event directly (one of bug corrections in either 17.2.4 or 17.2.5) and it worked quite well.
+The "culprit' line in DX Javascript code :
+Is there a way to handle that case elegantly ?
+Kind regards,
+Jean-Christophe Chalt?

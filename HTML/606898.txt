@@ -1,0 +1,2 @@
+Is it possible to disable or prevent recursive node checking on a TcxTreeList?  I know with .NET there seems to be a OptionsBehavior.AllowRecursiveNodeChecking property, but I don't see the equivalent for VCL.
+I could simply add a column of checkboxes, although I'd prefer to use the CheckState property on the nodes if possible since it looks better with a tree structure.

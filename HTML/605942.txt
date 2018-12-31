@@ -1,0 +1,3 @@
+Hi there,
+The select box is not working on iOS. Even on your official demo's. Nothing happens when selecting a item on the drop down list.
+Any workaround or fix available?

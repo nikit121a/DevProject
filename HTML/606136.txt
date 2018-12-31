@@ -1,0 +1,2 @@
+I'm trying to create a left-aligned "Home" button in a DocumentManager's TabbedView in a WinForms MDI application, as shown in the attached (Photoshop) mockup.  From the following support tickets, it doesn't appear that this is possible currently:
+ If it is not possible, is there a different strategy that I could use with DevExpress WinForms tools to achieve the same effect with an MDI application so that I preserve a never-closing, custom-painted, Home tab (or button)?

@@ -1,0 +1,8 @@
+Hi
+I would like to add a default column to each of my datagrids in my application
+ I know that I can do stuff like this in order to set some default options:
+But my issue is to a a default button like this:
+How can I archive this goal?
+Can i wrap the dx-data-grid in my own component called my-data-grid where I can add this columkn but then how do I add the templates like the other columns which are individual on each page?=
+Thanks for help
+Andrej

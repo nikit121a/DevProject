@@ -1,0 +1,6 @@
+Hello!
+I am trying to build scheduling application with unbound DateNavigator. I need some help with choosing the right events. 
+1. DateNavigator: - On visible months changed i want to load list of DateTime to SpecialDates  property, to be able to bold dates, which contain at least one appointment. Please suggest how do I get visible months from DateNavigator and on which event to hook to reload special dates.
+2. DateNavigator  - On selected date changed I want to load appointments just for selected day/week/month to scheduler control. Please provide the right event
+Regards, 
+Hipokrat 

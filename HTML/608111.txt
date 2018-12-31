@@ -1,0 +1,12 @@
+Hi,
+We are using a PivotGrid in our application and we have noticed that when setting the data source (SetDataSourceAsync), the pivot grid is retrieving the data of all the properties defined in the data source, 
+.
+We have some properties defined in our data source aimed to relate a row in the grid to a business object in our application, in order to, for instance, display its properties when selected, but they are not displayed as they are not bound to any column in the grid.
+The problem we are having with this is that it is causing a big impact in performance, as it is, recursively retrieving all the properties of this business object (exposed as a property) in our data source.
+So the question is: How can we prevent the pivot grid to retrieve data for a specific property in the data source?. We have tried several things with no success, among them:
+- Decorating the property with: [Display(AutoGenerateField = false)]
+- Setting the pivotGrid.OptionsData.RetrieveNestedFields to  DefaultBoolean.False
+-  ...
+Any clue?
+Thanks in advance,
+Carlos. 

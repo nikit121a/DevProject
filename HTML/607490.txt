@@ -1,0 +1,1 @@
+For the official demo, when expand the detail datagird of last master row at 1st time, the datagrid only can show half of detail page. After collapse and re-expand the detail page of last master row, then the detail content could show fully. Please help to check. Thank you. 

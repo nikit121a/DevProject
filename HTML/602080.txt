@@ -1,0 +1,9 @@
+Hello
+I have a devexpress gridview and i have several bool fields in the datasource.
+Now i want to display icons instead of the checkbox.
+If the bool is true i want a green tick (apply icon) and if the boolean is false i want to display the red cross in the cell.
+Can i achieve this approach using the gridview's format rules?
+If not, how to?
+Thank you!
+Best regards!
+John 

@@ -1,0 +1,34 @@
+Hello DevExpress
+I have a GridControl with 2 rows
+ColA          ColB          ColC
+Content1    Content2   Content3
+Content4    Content5   Content6
+And I have a XtraReport with a printableComponentContainer and some footer label
+I use 
+ event to insert InsertPageBreak per row.
+And user these to binding data
+report.lblColA.DataBindings.Add("Text", dt, "DTGO.ColA");
+report.lblColB.DataBindings.Add("Text", dt, "DTGO.ColB");
+report.lblColC.DataBindings.Add("Text", dt, "DTGO.ColC");
+It result in two page like this
+---------------------------------------------
+ColA          ColB          ColC
+Content1    Content2   Content3
+ColA:Content1
+ColB:Content2
+ColC:Content3
+----------------------------------------------
+ColA          ColB          ColC
+Content4    Content5   Content6
+ColA:Content1
+ColB:Content2
+ColC:Content3
+-----------------------------------------------
+But I want to the Page2 data like this
+ColA          ColB          ColC
+Content4    Content5   Content6
+ColA:Content4
+ColB:Content5
+ColC:Content6
+What should i do??
+Thanks

@@ -1,0 +1,5 @@
+Hello DevEx Support, 
+I was wondering if DevExpress has an ability to track the changes happened to xtraeditors controls. In other words, how to find out changes happened to each control. For an example: Checkbox - checked to unchecked; TextBox Text changed from "hello"  -"hello world";  GridControl changes too.  
+Please let me know your feedback. 
+Thanks, 
+Lawrence 

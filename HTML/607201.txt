@@ -1,0 +1,3 @@
+Is there anyway to have a LayoutControl where the Layout Groups wrap?
+Basically  we have a reading pane that can be resized. We usually show the data in two columns using your layout control, layout groups and layout items. But depending on the space, it would be good if these Layout Groups could wrap into a single column?
+How might we be able to go about this. This issue has mainly come up because we usually support 1920 x 1080 resolution for some of users are using Microsoft Surfaces now and by default that runs at %200 dpi which effectively reduces horizontal space by like 40%. So mainly to get that back it would be good if we could get this scenario working somehow.

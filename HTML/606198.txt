@@ -1,0 +1,6 @@
+Dear support,
+When searching a value in a dxTagBox widget that isn't present, the popup should open and show the "No data to display" value.
+In this build it opens but closes immediately. This is not desirable and doesn't match the rest of the widgets.
+Is it possible to fix this issue.
+Thanks in advance
+Hans 

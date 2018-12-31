@@ -1,0 +1,9 @@
+
+Thank you!
+And as a quick follow up:
+Is there a way I can entirely replace the string that appears as the caption for that cell? The URLs are longer than the cell is wide, so I would like to replace what is displayed with custom text.
+Currently the best I can do is prepend/append to the field by using 
+    properties.TextFormatString = "foo {0}";
+Whereas
+properties.TextFormatString = "User's profile";
+does not work.

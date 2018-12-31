@@ -1,0 +1,1 @@
+The office application support the function that user can select some text in other tools(ex: notepad) and drag the text to Excel or Word then Excel or Word will paste the text to place, how to do the same function in GridControl, does Devexpress support this?

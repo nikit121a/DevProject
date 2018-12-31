@@ -1,0 +1,44 @@
+
+I have another question,maybe you can help me:
+I work with HTML document.
+private void WriteBodyText(string text)
+{
+using (Stream stream = new MemoryStream())
+{
+TextWriter writer = new StreamWriter(stream);
+writer.Write(text);
+writer.Flush();
+stream.Position = 0;
+richEditControl1.LoadDocument(stream, DocumentFormat.Html);
+}
+when the scroll comes to top,
+I need to add a new HTML text from the start and move scroll to end of new text
+This code:
+Init:
+RichEditViewVerticalScrollController controller;
+int lastScrollPosition;
+onload:
+controller = (RichEditViewVerticalScrollController)richEditControl1.ActiveView.GetType().InvokeMember("VerticalScrollController", BindingFlags.NonPublic | BindingFlags.GetProperty | BindingFlags.Instance, null, richEditControl1.ActiveView, null);
+controller.ScrollBar.Scroll += ScrollBar_Scroll;
+private void ScrollBar_Scroll(object sender, ScrollEventArgs e)
+{
+if (controller.ScrollBar.Value == 0)
+{                    
+string newText=.... //get new text from DB
+//add newText to richEditControl1
+lastScrollPosition=newText.Length;
+SetLastScrollPosition();                    
+}
+}
+private void SetLastScrollPosition()
+{
+controller.ScrollBar.Scroll -= ScrollBar_Scroll; 
+DocumentPosition position = rrichEditControl1.Document.CreatePosition(lastScrollPosition);
+richEditControl1.Document.CaretPosition = position;
+richEditControl1.ScrollToCaret();
+controller.ScrollBar.Scroll += ScrollBar_Scroll;
+}
+After SetLastScrollPosition() CaretPosition is in the right place,
+but ScrollBar all time on top position.
+What am I doing wrong?
+Thanks

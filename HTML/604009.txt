@@ -1,0 +1,9 @@
+I need to add a ToggleButton to DXDocking, I have managed to do most of the work but I have two main issues,
+1- All the overridden ControlTemlates are set in App.xaml, and it's applied to the entire application, when adding the new button, and setting  the DockingSplitLayoutPanel HorizontalAlignment to left, It got applied the entire application as well.
+How could I specify these two changes only on one docking control while keeping the rest of the application as it is.
+2- after adding the button, it hides the shadow of the last tabheader. how to fix this.
+I have attached a sample code which demonstrate  these issues. and i'm using the latest version of devExpress. I couldn't upload the entire project because it exceed the maximum size for attached files.
+please note:
+1- all the templates inside the mainview.xaml are in App.xaml in my application, except the  <Style TargetType="{x:Type ve:TabHeaderControlBoxControl}"> which in the main view.
+2- to make it easier for you to see the changes, every specific change for this view only, and not for the entire application. You will fine <!--Edit--> comment above the changed code.
+please let me know if you need more information. 

@@ -1,0 +1,22 @@
+Hi,
+I have some problems with DevExpress.XtraTreeList.TreeList.
+I have created (inside AutoDesk Inventor) a pannel containing a TreeList.
+When i iterate the collection nodes of my TreeList, .net throw this exception: "Collection was modified; enumeration operation may not execute".
+This is strange because this exception  is thrown by only one of my clients (the iteration works right on all other pc of my clients)! 
+Can you help me to understand where is the problem? Thanks a lot .
+In the attachments, i've attached the whole call stack for more information. 
+ 
+************** Testo dell'eccezione **************
+System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   in System.Collections.ArrayList.ArrayListEnumeratorSimple.MoveNext()
+   in DedNetInv.Forms.DocumentsForm.ReloadStateOnNode(TreeListNode node, Boolean refreshChildren)
+   in DedNetInv.Forms.DocumentsForm.ctrTree_MouseDown(Object sender, MouseEventArgs e)
+   in System.Windows.Forms.MouseEventHandler.Invoke(Object sender, MouseEventArgs e)
+   in System.Windows.Forms.Control.OnMouseDown(MouseEventArgs e)
+   in DevExpress.XtraTreeList.TreeList.OnMouseDown(MouseEventArgs e)
+   in System.Windows.Forms.Control.WmMouseDown(Message& m, MouseButtons button, Int32 clicks)
+   in System.Windows.Forms.Control.WndProc(Message& m)
+   in DevExpress.XtraEditors.Container.EditorContainer.WndProc(Message& m)
+   in DevExpress.XtraTreeList.TreeList.WndProc(Message& m)
+   in System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+ 

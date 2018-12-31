@@ -1,0 +1,4 @@
+Hello,
+I'm using the WinUIDialogService and would like the window that contains it to be resizable.  My main goal is to have the WinUIDialog is a resizable dialog. How can I make this happen?
+Thanks. 
+ 

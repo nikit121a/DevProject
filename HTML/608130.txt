@@ -1,0 +1,8 @@
+Hey folks,
+i created a DashboardView which contains two items (ListView).
+Each ListView comes with a toolbar.
+I want to remove both toolbar s. I read this 
+ but get no "ListPropertyEditor".
+Best,
+Micha
+ 

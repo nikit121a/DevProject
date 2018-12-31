@@ -1,0 +1,3 @@
+Hi,
+How can I configure the dx-validator to re-validate on every input when using pattern validation rule, not just on leave focus? 
+Thanks 

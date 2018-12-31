@@ -1,0 +1,7 @@
+I'm displaying group footer summary values as displayed in the attached screen shot.
+I want to use a click event to detect if a footer is clicked, and then extract the footer dimensions and values .. (in this case there are 2 dimensions).
+The dimensions and values are required as parameters for a further query to an underlying database.
+The 2 dimension/value pairs are circled, plus the value clicked (
+I can trap the click event fine.. but I get an invalid row handle when interrogating the event object and grid view.. using the following code :- 
+Clearly, my approach is off.
+How can I get the summary dimensions and values returned based on the click event ?

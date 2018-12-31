@@ -1,0 +1,6 @@
+Hello,
+I am trying to implement remote paging using the data grid component. While doing so, I face issues when I select and de-select all the items. The out of box checkbox solution of data grid for doing so , seems to be completely broken. Once I select all the curren items , I cannot deselect them. Moreover, the select all checkbox from data grid selects only the contents from the current page.
+The request that gets fired during the paging remote operation has loadOptions as "null", during this ajax call, which leads to invalid request. The select all checkbox only selects the current page records.
+Since I did not any apt example for this on the website of yours, can you please  have a look and provide me with assistance. 
+I have attached the simplified code base for your understanding.I have also attached the screenshot of the checkbox that I am talking about.
+Framework used:- Angular 5 .  

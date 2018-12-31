@@ -1,0 +1,12 @@
+Hello,
+We started using the new Binding Expression  method in the reports.
+When using a parameter in the expression in combination with another string value, something goes wrong:
+Example binding expression on a Label:  
+ With the following result:
+System.Data.DataRowView12000.jpg
+instead of:
+c:\Pictures\12000.jpg
+Are we doing something wrong? 
+ 
+Thanks.  
+Dirk 

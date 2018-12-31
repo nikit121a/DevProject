@@ -1,0 +1,4 @@
+Hi,
+I needed to check out a couple of the Demos, but when I clicked the  'Start the Demo" button I get an error that says "your security settings do not allow this application to be installed on this computer." I've attached a screen shot for your convenience. I upgraded to 17.2.4 from 17.2.3 a couple of weeks ago and still have versions 15.1, 16.1, 16.2, 17.1 and 17.2 installed. I used to be able to run the demos, but now they don't work. I'm running as administrator and can install other programs without an issue.  Any help you can provide to resolve this issue would be appreciated.
+Cheers,
+Larry 

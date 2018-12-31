@@ -1,0 +1,5 @@
+Hello,
+I have GridView that contains group summaries. This grid is supposed to be exportable to Excel file. I'm doing this using GridControl's ExportToXlsx method nad exporting itself works fine. It looks good when ExportType is set to WYSIWYG, but I need DataAware mode, as the file must be useful Excel sheet. In this mode though I see weird issue - group summaries rows are doubled. I provide screenshot illustrating this issue, on which I marked group headers and summaries in corresponding colors (red/green rectangles).
+There is also one issue with this, that may be not connected to the topic, so feel free to create another ticket for this, if you think so. In WYSIWYG the groups are shown nicely, but in DataAware, as is shown in my example screenshot, it is confusing, as it is not clear which summary corresponds to which header. Given massive amount of data that the tables are containing, this is unacceptable. Can I somehow, for example, color group headers and summaries in different colors, depending of nesting level, as it is done in my base grid?
+I'd much appreciate your help.
+Piotr

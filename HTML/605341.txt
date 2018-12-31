@@ -1,0 +1,3 @@
+Hello,
+          I have a custom class named as 
+. I am binding the list of this class to treelist view through BindingSource. But i want to tag the each value in the bindinglist to the treelist node. So how to achieve this ?

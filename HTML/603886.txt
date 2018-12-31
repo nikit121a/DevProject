@@ -1,0 +1,5 @@
+Dear,
+I have a listview 
+, I set the attribute Mast erDetailMode to ListViewandDetailView. But I don't see the detailed listview when I insert a new  request.
+but When I set the option  CollectionsEditMode to Edit, all views in the system is converted to MasterDetailMode which I don't want.
+any suggestions ?? 

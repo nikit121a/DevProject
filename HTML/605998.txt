@@ -1,0 +1,4 @@
+Hi,
+the cuestion is adout ASPxFileManager
+ how can i add a new customcolumn with one field of one sql query
+Regards 

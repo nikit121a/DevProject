@@ -1,0 +1,5 @@
+I'm using the 'ChartControl' to display a strip chart of our analog data acquisition results. I'm using a 'LineSeriesView' type of line.
+After accumulating data for ~1 minute, the chart control starts consolidating data points into (what looks to be) the minor tick spacing. The attached screen shot shows the result.
+How do I turn off this behavior and have the ChartControl draw  a continuous line, regardless of the minor tick settings?
+Thanks,
+Aaron 

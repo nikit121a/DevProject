@@ -1,0 +1,6 @@
+Hello,
+the excel export of dxPivotGrid seems always to produce string values for row or column fields independently of the dataType property of the field definition. I have some special data which contains number or date values as elements of a row or column field.  That works, the aggregation runs fine with that but the excel export produces string data values. You can see that in the attached image. The apostrophe before the number in the expression row of excel (or open office calc) indicates that the value is considered as string. If these values are to be used for excel calculations one must convert that painfully.
+The attached code shows that. Does the dataType property have any meaning at all for row / column area fields or is it just used for data area fields? Do you have any recommendation to provide the right data types on export?
+Best regards
+Matthias
+ 

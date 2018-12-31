@@ -1,0 +1,14 @@
+Hello,
+How can I seperate Tail URL from Header URL in ASPxNewsControl. Enabling ShowHeaderAsLink caused Header and Tail use same URLs.
+I want to use two different URLs for these.
+<dx:ASPxNewsControl OnItemDataBound="ASPxNewsCnt_ItemDataBound" DataSourceID="XmlDtSource" ID="ASPxNewsCnt"  runat="server" NavigateUrlFormatString="{0}"   NameField="Name"    Width="100%"  RowPerPage="5" >
+        <ItemSettings  MaxLength="120" TailText="Details ... " DateVerticalPosition="Header" ShowHeaderAsLink="true" />
+       <PagerSettings  CurrentPageNumberFormat="{0}" NumericButtonCount="5"  PageSizeItemSettings-Visible="true">
+            <NextPageButton Visible="True" />
+            <PrevPageButton Visible="True" />
+        </PagerSettings>
+        <ClientSideEvents TailClick="function(s, e) { OnTailClick(e.name, e.htmlElement); }"
+            BeginCallback="function(s, e) { OnNewsControlBeginCallback(); }" />
+    </dx:ASPxNewsControl>
+Best regards
+ 

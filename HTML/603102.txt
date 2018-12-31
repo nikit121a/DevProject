@@ -1,0 +1,3 @@
+Hi,
+My query is regarding ASPxGridView insert/update. I need to open row data as "EditFormAndDisplayRow " mode but not need to save per row basis instead of I need to save it using another button click which not consist in grid.
+During search about this problem I find one solution "T202419" which partially support my criteria but it is 4 years old and not have any demo application.

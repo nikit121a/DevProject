@@ -1,0 +1,10 @@
+Hi:
+I'm using the following xls export option to export the grid view to excel
+      Dim opt As XtraPrinting.XlsExportOptionsEx = New XtraPrinting.XlsExportOptionsEx
+      opt.ExportType = DevExpress.Export.ExportType.WYSIWYG
+      opt.AllowHyperLinks = DefaultBoolean.False
+      grdView.ExportToXls(dlgSave.FileName, opt)
+one of the grid column has hyperlink, this will cause the column not able to AutoSum in the exported excel. I've set the AllowHyperLinks to False, but still the HyperLink will export.
+Attached is the workbook that export from the gridivew.
+Regards
+JC Voon

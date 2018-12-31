@@ -1,0 +1,9 @@
+Hello
+I am using the Dashboard - and have setup a Card item with drill down enabled (by Year, Quarter, Month, Day, DrugName).  
+I have a small video capture attached showing the issue.  If I choose to drill down on the year for some years - it works perfectly.  But if I drill down on some others it does not allow me to drill down in to the Quarter.  
+In the video I have selected the year 2014 - and it shows that it has 3730 prescriptions for that year.  Then it opens the Quarter view - and I try to click on any of the Quarters - and it does nothing (yet as I noted above - for some other years it seems to work perfectly).  
+NOW - note the highlighting of the Q4 does not work until I move to the top of Q2 - at which time I see that Q4 is now highlighted.  I then click on Q2 - and it opens up Oct, Nov, Dec - which is Q4 breakdown...  
+This seems to happen every time :)  
+Is this a known bug?  Or just some setting I have wrong?  But then why would it work for some drill downs and not others ??
+Thoughts as to what might be happening?
+Bradley  

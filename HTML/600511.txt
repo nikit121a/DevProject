@@ -1,0 +1,6 @@
+Hello
+I have several spin editors in my application to let the user put values from 0.0 to 5.0 values. The probem I have is when There is no value, the editor is shown with blank content insted of 0.0 i would like to used.
+In other hand with values like 0.5 the editor shows .5 and i would like to show 0.5 instead. I have a mask for showing the content like #.#, i don't know if this is right.
+The question is, how to show these zero characters in the editor?? 
+(If the user enters 5.0 or 4.0 it should be also shown)
+Thanks a lot in advance 

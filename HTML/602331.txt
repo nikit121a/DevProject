@@ -1,0 +1,6 @@
+When I delete a row in the grid I got an ORMEntityIsDeletedException in event ShowingEditor,  this did not happen before (I don't know when it starts to fail)
+Scenario is:
+- Delete entity in the grid results in EntityRemoving
+- Entity is deleted from the database
+- Row is deleted form the gridview 
+ 

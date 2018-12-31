@@ -1,0 +1,7 @@
+I have a simple app to learn making mvvm custom dialogs. I am having trouble passing a parameter to my child viewmodel using a ctor.
+I have tried different configurations of code but can't get rid of a null reference exception.
+My parent viewmodel looks like this:
+  My dialog child viewmodel looks like this:
+When I type in the textedit in the options dialog the app crashes having MyOptions = null. But the Create method makes a default  non null instance.
+What is wrong with my structure?
+Ed 

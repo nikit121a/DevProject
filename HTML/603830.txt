@@ -1,0 +1,10 @@
+I'm working the first time with BackstageViewControl, so this is maybe an issue because I don't know it better..
+I added a RibbonControl to my Form and converted the Form to an RibbonForm.
+Then I added a BackstageView via the RibbonControls Action-menu to the Form
+Then I add a BackstageViewTabItem to the BackstageView
+Now I drag a RecentItemControl into the "tabpage"-area of BackStageViewTabItem
+Now I add several (1-2) PinItems to the RecentItemControl and finally an SeparatorItem (All done with the Action menu within the RecentItemControl (see pic attached)
+Now I'm not able to remove the separator anymore, because I can't select it. 
+I can select it with Visual Studios Properties-Panel, but that does not select the element itself.
+Usually (e.g. in other controls with child-elements) there is an "Items"-Property somewhere to open a separate window to add/remove those, but I couldn't find this property for the RecentItemControl.
+I know I can remove it if I delete it the related code in the designer-file, but is there an easier way? If not, please make this a suggestion for the next update.

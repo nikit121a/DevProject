@@ -1,0 +1,5 @@
+Hello,
+I'm finding the way the customize chart x-axis values. I run report from Week-52 2017 to Week-2 2018
+The group interval is DateTimeGroupInterval.WeekOfYear
+The report x-axis is showing 1 2 52 53. But I want to show Week-52 Week-53 Week-01 Week-02
+How can I do that?

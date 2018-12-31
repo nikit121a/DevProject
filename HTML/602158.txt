@@ -1,0 +1,9 @@
+Hi,
+Is it possible to change the "Connection Name" for a SqlDatasource in the Report Designer? (see screenshot below)
+I was used to acess and change this value direct in the .repx file with version 16.2.3:
+            // 
+            // sqlDataSource
+            // 
+            this.sqlDataSource.ConnectionName = "DataPlaygroundCustomConnection";
+but now, as of 17.2.4, it seems that this value is encrypted within the .repx and I'd like to change this values from the designer.
+Thanks in advance,

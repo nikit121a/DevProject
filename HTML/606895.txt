@@ -1,0 +1,4 @@
+Support,
+The data that I am binding my dashboard to has 8 series of monthly data.  In the card view I would like to show the percent difference between the last two data points in each series.  Essentially each card shows the percent change compared to last month.  The data set has 3 columns (Series, Date, Value) I have the Series bound to series and Value bound to Actual and nothing bound to target.  It there a way to either create a calculate field or build and expression that would return the last and previous data points?
+Thanks,
+Mark 

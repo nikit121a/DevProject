@@ -1,0 +1,5 @@
+I have an ASPxSplitter and in the right pane there is an ASPxFileManager that allows ".jpg", ".png", ".gif" and ".pdf" file extensions.
+When thumbails are displayed in the file manager it is possible to "see the con tent" of each file except for PDF files. Thumbnails of PDF files are shown by displaying a white sheet and the Acrobar logo. I have attached a screenshot for your reference.
+Is it possible to show "the content"  of PDF files in thumbails very much the same as "jpg", "pn g" and "gif" images?
+Best regards,
+Jorge Maldonado 

@@ -1,0 +1,6 @@
+Hi Team,
+Need to change the X-Axis values only.
+Please refer "SPLine Chart.png" and guide me how achieve my requirement in dashboard chart.
+Thanks in advance. 
+Regards
+Babu.J 

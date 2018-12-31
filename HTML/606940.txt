@@ -1,0 +1,4 @@
+Our customers use the Next Page button to jump the top of the next page to the top of the viewer.
+They want to be able to use the keyboard shortcut advertised by the ribbon, but unfortunately the viewer seems to handle the keystroke and prevent the button from taking effect.
+Rather than triggering the Next Page functionality, PgDn currently controls the viewer scrollbar which has a very different effect than what our customers want. For almost any zoom level it does not start put the top of the next page at the top of the viewer.
+This issue exists in both the ReportPrintTool and the customizable ribbon preview form.

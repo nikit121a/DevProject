@@ -1,0 +1,4 @@
+Hi,
+can you please send me example how to get the wizard localized in czech language ?  I'd like have buttons NEXT, CANCEL and FINISH translated into czech language. Thank you
+Br
+Vladimir 

@@ -1,0 +1,4 @@
+Could you please allow duplicate document names when documents belong to different categories?
+You should be able to do that beacuse table DocumentBase has Category information.
+In the meanwhile can I modify the index iName_DocumentBase and relax this restriction ?
+Thank you 

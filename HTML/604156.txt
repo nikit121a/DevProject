@@ -1,0 +1,7 @@
+I have a popup that needs to display a different object's data every time it is shown.
+Here is my popup's template function:
+ Controller action:
+The problem is that the template function is only called the first time I call the show() method of the popup , so every time it is shown, I see the same detail data.
+I'm using a tree list and calling ShowDetail in the treeList's selection changed handler.
+Here is my tree list:
+ 

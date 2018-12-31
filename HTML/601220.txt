@@ -1,0 +1,18 @@
+Hi ,i have a two RichEditDocumentserver which is having documents , in run time how to merge these two RichEditDocumentserver documents and 
+create as one RichDocumentEditserver which contains documents of both ,
+  RichEditDocumentServer server = new RichEditDocumentServer();
+         
+            using (MemoryStream stream = new MemoryStream())
+            {
+                new PrintableControlLink(grid.View).ExportToDocx(stream, new DevExpress.XtraPrinting.DocxExportOptions() { ExportMode = DevExpress.XtraPrinting.DocxExportMode.SingleFile });
+                stream.Position = 0;
+                server.LoadDocument(stream, DocumentFormat.OpenXml);
+            }
+ RichEditDocumentServer server1 = new RichEditDocumentServer();
+         
+            using (MemoryStream stream = new MemoryStream())
+            {
+                new PrintableControlLink(grid.View).ExportToDocx(stream, new DevExpress.XtraPrinting.DocxExportOptions() { ExportMode = DevExpress.XtraPrinting.DocxExportMode.SingleFile });
+                stream.Position = 0;
+                server1.LoadDocument(stream, DocumentFormat.OpenXml);
+            }

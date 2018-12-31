@@ -1,0 +1,4 @@
+Good evening, 
+I am developing my application using XAF and in the web side of my application I created a custom view that uses the WebChartControl to visualize data. In this chart though the values between one argument and the other have a very big delta and the bars are therefor extremely high for the one very high value and really low (almost invisible) for all the other values. How can I apply some kind of "leveling" calculation to my series so that the bars represent the value difference in a not so drastic manner? Otherwise, would you suggest an other type of series?
+Thanks,
+Pablo.

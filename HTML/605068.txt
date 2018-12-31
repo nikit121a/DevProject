@@ -1,0 +1,4 @@
+Hi!
+I don't know why this error in one cliente.. in aspxDashboard.
+The foleder JS, CONTENT, is complete , scripts.js is ok..
+some idea? 

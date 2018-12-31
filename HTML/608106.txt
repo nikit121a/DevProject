@@ -1,0 +1,50 @@
+Hi,
+when loading a CSV or Excel file to ExcelDataSource, I have an issue.
+The first column of the Excel/Csv file is called "#ID" and it contains mostly a number, but few of values has a "#" in front of the number (e.g. #123).
+After loading the file, the PropertyDescriptor of the column shows, that the PropertyType is set to Double instead of String (as I would expect because of the "#" in some values).
+This leads to Errors later on (I get a DataTable from the ExcelDataSource and try to add an additional column to the DataTable with an Expression, which uses the #ID column).
+Is there a recommended way to handle the Data Type issue ?
+Here is the source code used:
+// Get the ExcelDataSource from File
+public static ExcelDataSource GetExcelDataSource(string filePath, string sheet)
+{
+ ExcelDataSource excelDS = new ExcelDataSource();
+ excelDS.FileName = filePath;
+ ExcelSourceOptionsBase options = null;
+ if (filePath.ToLower().EndsWith(".csv"))
+    options = new CsvSourceOptions() { DetectEncoding = true, DetectNewlineType = true, DetectValueSeparator = true };
+ else
+    options = new ExcelSourceOptions(new ExcelWorksheetSettings(sheet));
+ excelDS.SourceOptions = options;
+ excelDS.Fill();
+ return excelDS;
+}
+// Extension method to get DataTable from ExcelDataSource
+public static DataTable ToDataTable(this ExcelDataSource excelDS)
+{
+ IList list = ((IListSource)excelDS).GetList();
+ DevExpress.DataAccess.Native.Excel.DataView dataView = (DevExpress.DataAccess.Native.Excel.DataView)list;
+ List<PropertyDescriptor> props = dataView.Columns.ToList<PropertyDescriptor>();
+ DataTable table = new DataTable();
+ for (int i = 0; i < props.Count; i++)
+ {
+    PropertyDescriptor prop = props[i];
+    table.Columns.Add(prop.Name, prop.PropertyType);
+ }
+ object[] values = new object[props.Count];
+ foreach (DevExpress.DataAccess.Native.Excel.ViewRow item in list)
+ {
+    for (int i = 0; i < values.Length; i++)
+    {
+       values[i] = props[i].GetValue(item);
+    }
+    table.Rows.Add(values);
+ }
+ return table;
+}
+// Then an additional column "ID" is created which gets the value from "#ID" 
+string formulaFromUnboundColumn = "Iif(StartsWith([#ID], '#'), Substring([#ID], 1), [#ID])";
+CriteriaOperator co = CriteriaOperator.Parse(formulaFromUnboundColumn);
+string expression = CriteriaToWhereClauseHelper.GetDataSetWhere(co);  // iif(([#ID] like '#%'), Substring([#ID], (1) + 1, Len([#ID]) - (1)), [#ID]
+dataTable.Columns.Add("ID", "String", expression); 
+-> Exception {"Cannot perform 'Like' operation on System.Double and System.String."}

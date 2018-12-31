@@ -1,0 +1,1 @@
+Is there a way to loop through the series in a chart, that are being created via a pivot grid, and set something so that they will show up a regular series in the chart designer. As it is, there isn't a way to set the color, thickness etc. for each series in the chart.

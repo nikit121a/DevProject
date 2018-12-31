@@ -1,0 +1,5 @@
+Hello!
+I got a strange error, "Bitmap Image Not Valid" when i save a picture created in Photoshop. It loads fine into the cxdbimage but when i post i get the error. Strange, if it can load and show the image then why should it not be able to save the image? Dos it try to convert the image before saving?
+If i screendump the same image its fine, but the image gets to 124k from originally 6k...
+I attach a scren showing i can load the picture, the errorcode and one of the pictures that can be loaded but not posted.
+Regards, P?r

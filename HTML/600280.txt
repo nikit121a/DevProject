@@ -1,0 +1,2 @@
+I use Grid Control in my application. I would like to customize the Grid Control for the user. The user can choose what columns to show and what columns are in the Column Chooser. At the end, the user can save the Grid Control preference. I would like to know how to get the collection of columns that are in the column chooser as well as the collection of columns that are in the Grid from the View Model (MVVM pattern).
+Thank you.  

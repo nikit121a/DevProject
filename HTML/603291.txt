@@ -1,0 +1,2 @@
+Good afternoon,
+The default icons seem to have changed for the RichEdit control in this Major release.  Is there an option to change this back somewhere?  Testers have expressed confusion as this is a major change aesthetically and have to hunt down the same buttons they are use to clicking, as they have memorized these options by picture. 

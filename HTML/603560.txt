@@ -1,0 +1,7 @@
+Hi,
+I need to develop a way of prevent users from opening a Task object in DetailView , if the same object is being viewed by another user.
+I will be storing the ID of the user and the Workstation Name in the Task when it is first opened providing the values for these are currently Null.
+I will be using a View Controller and thinking of using the OnViewControlsCreated event to perform this task.
+The part I need help on is when the detail view is opened and I check if User and Workstation are Not Null, how do I then close the detail view after displaying a warning to the User that somebody is currently viewing the Task?
+Secondly, I need a way of setting the User and Workstation to Null when the detail view is closed and commit the changes, so which event should I use for this?
+ 

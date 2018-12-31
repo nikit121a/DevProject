@@ -1,0 +1,5 @@
+Hi,
+I have a pie chart of which I have exploded few points.
+Now, I only want the label on exploded points to be visible.
+For current vs. expected, please view attachment 
+ 

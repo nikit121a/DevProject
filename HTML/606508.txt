@@ -1,0 +1,5 @@
+I am applying conditional formatting to the rows in the dropdown list in this event:
+MyRepositoryItemGridLookUpEdit.
+ But if the user types a few letters 
+ dropping the list down, a subset of the full list appears, which lacks the conditional formatting. What is the proper event to apply the conditional formatting in that situation?
+Thanks 

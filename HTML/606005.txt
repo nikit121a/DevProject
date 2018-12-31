@@ -1,0 +1,10 @@
+  The below TextEdit.EditValue is binding to one variable input.FirstName
+May i know is that anyway it can bind to 2 variables say input.FirstName + input.LastName? 
+Please advise. Thanks a lot
+   <dxlc:LayoutItem Label="Person Name" >
+                    <dxe:TextEdit IsReadOnly="True">
+                        <dxe:TextEdit.EditValue>
+                            <Binding Path="input.FirstName" UpdateSourceTrigger="PropertyChanged" Mode="TwoWay"/>
+                        </dxe:TextEdit.EditValue>
+                    </dxe:TextEdit>
+                </dxlc:LayoutItem>

@@ -1,0 +1,83 @@
+Hi, 
+I would like to programmatically select a row and scroll to this row when the content is ready. I saw many posts on this issue on the forum about scroll to the selected row. I had tried all of them. It seems none of them work. I have the following grid configuration. Please look at the scrollToElement in OnContentReady. Do you have a jsFiddler that can show this? I think it will really help and save the back and forth communication. Thanks.
+ var selectedKeyColumnsForTheRuleDefinition = [];
+        if (selectedKeyColumnsValue.length > 0) {
+            selectedKeyColumnsForTheRuleDefinition = JSON.parse(selectedKeyColumnsValue);
+        }
+ var sourceColumnDataGrid = $("#dm-sourcedata-grid").dxDataGrid({
+            dataSource: sourceColumns,
+            selection: {
+                mode: selectionMode
+            },
+            columns: columnsConfig,
+            height: "100%",
+            loadPanel: {
+                enabled: true,
+                showIndicator: true,
+                height: 150,
+                width: 200,
+                text: "Loading..."
+            },
+            allowColumnResizing: true,
+            columnFixing: {
+                enabled: true
+            },
+            editing: { mode: "cell", allowUpdating: true },
+            showRowLines: true,
+            showBorders: true,
+            showColumnLines: true,
+            columnAutoWidth: false,
+            cellHintEnabled: true,
+            scrolling: {
+                mode: "standard",
+                showScrollbar: "always",
+                useNative: true
+            },
+            sorting: { mode: 'multiple' },
+            paging:{ enabled: false},
+            noDataText: "No Data",
+            onSelectionChanged: function(selectedItems) {
+                var data = selectedItems.selectedRowsData;
+                var keyColumns = [];
+                if (data.length > 0) {
+                    keyColumns = $.map(data,
+                        function(value, index) {
+                            return {
+                                "RuleColumnId": value.RuleColumnId,
+                                "ColumnContents": value.ColumnContents,
+                                "ColumnType": value.ColumnType,
+                                "ColumnOrder": index,
+                                "SqlExpression": value.SqlExpression,
+                                "ColumnFilter": value.ColumnFilter,
+                                "DataType": value.DataType,
+                                "IsCurrent": value.IsCurrent,
+                                "IsActive": value.IsActive,
+                                "IsTemporal": value.IsTemporal,
+                                "SourceRuleColumnItemId": value.SourceRuleColumnItemId
+                            }
+                        });
+                };
+                $selectedKeyColumn.val(JSON.stringify(keyColumns));
+            },
+            onContentReady: function (e) {
+                var selectedRowIndex = [];
+ $.each(e.component.option('dataSource'), function (i, item) {
+ for (var index = 0; index < selectedKeyColumnsForTheRuleDefinition.length; ++index) {
+ if (item.ColumnContents === selectedKeyColumnsForTheRuleDefinition[index].ColumnContents) {
+ selectedRowIndex.push(e.component.getRowIndexByKey(item));
+ break;
+ }
+ }
+ });
+ e.component.selectRowsByIndexes(selectedRowIndex);
+ setTimeout(function() {
+ var scrollable = e.component.getView('rowsView')._scrollable;
+ var selectedRowElements = e.component.element().find('tr.dx-selection');
+ scrollable.scrollToElement(selectedRowElements);
+ },
+ 100);
+            },
+            onDataErrorOccurred: function(e) {
+                alert("Error..");
+        }).dxDataGrid("instance");
+ 

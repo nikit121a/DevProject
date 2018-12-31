@@ -1,0 +1,41 @@
+Hi Team,
+I want to save my collection of images to new and existing Excel sheet (both scenarios). Please find my code mentioned below:
+public static void SaveAsExcel(List<Bitmap> images, Stream stream)
+        {
+            using (SaveFileDialog dialog = new SaveFileDialog())
+            {
+                dialog.Filter = "Excel Files|*.xls;*.xlsx;*.xlsm";
+                dialog.DefaultExt = "xls";
+                if (dialog.ShowDialog() == DialogResult.OK)
+                {   
+                    // Create an exporter instance.
+                    IXlExporter exporter = XlExport.CreateExporter(XlDocumentFormat.Xlsx);
+                    using (FileStream fileStream = new FileStream(dialog.FileName, FileMode.Create, FileAccess.ReadWrite))
+                    {
+                        // Create a new document.
+                        using (IXlDocument document = exporter.CreateDocument(stream))
+                        {
+                            // Specify the document culture.
+                            document.Options.Culture = CultureInfo.CurrentCulture;
+                            // Create a worksheet.
+                            using (IXlSheet sheet = document.CreateSheet())
+                            {
+                                sheet.Name = "Screen Capture";
+                                // Insert a picture from a file and anchor it to cells. 
+                                using (IXlPicture picture = sheet.CreatePicture())
+                                {
+                                    foreach (Bitmap image in images)
+                                    {
+                                        picture.Image = image;
+                                        picture.StretchToCell(new XlCellPosition(1, 1));
+                                    }
+                                }
+                            }
+                        }
+                        fileStream.Dispose();
+                    }
+                }
+            }
+        }
+Thanks,
+Vinos. 

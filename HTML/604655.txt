@@ -1,0 +1,14 @@
+Hello,
+I did some tests with RolesMergingMode in security system and found one thing that I don't fully understand.
+Let's say I want to allow members of one group read access to Person table,
+but I also want to prevent members of second role read access to Name property of Person type.
+I have RolesMergingMode set to GrantedInAnyRole and created 2 roles:
+- Role1 - allow read access to Person Type, Permission policy set to deny all by default
+- Role2 - Permission policy set to Deny all by default, No Person Type permissions, but deny on FirstName and LastName members
+User 'usr1' is member of both roles.
+According to ilustration in the bottom of 
+ page,
+I would expect that member permissions configured in Role2 would take priority over the ones in Role1, but they don't.
+Please could you explain me what is expected behavior in this case?
+Thank you
+Radovan

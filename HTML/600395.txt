@@ -1,0 +1,5 @@
+Hi DevExpress Team
+Thanks for all support.
+I have a ASPxWebDocumentViewer and I need to hide all the export options except the PDF, also I need to export PDF protected for print and with a password.
+How can I do that?
+Thanks a lot. 

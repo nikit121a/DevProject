@@ -1,0 +1,3 @@
+I am working on DevExpress ASPxPivotGrid. i have attached a sample project to this support ticket.
+The way I have implemented pivot grid the grid loading is a bit slow for a lot of data.
+Requesting you to study the way of implementation in the attached solution and suggest any improvements in implementation. 

@@ -1,0 +1,21 @@
+Hi there,
+we've recently noticed that with DevExpress 17.1.6 our CustomDrawAppointmentBackground event handler doen't work as expected anymore. We've developed the code with DevExpress 9.3 and unfortunately I cannot say when it stopped working.
+The objective of the code is,  to draw a custom Image background for DayViewTimeCells in our custom scheduler report. When running with DevExpress 17.1.6 our custom background image is drawn, but the cell text is no longer displayed. It seems like our custom image is now no longer drawn behind the text as a background image but in front of the text, thus painting it over. 
+Our code looks like this:
+            if (image != null)
+            {
+                e.DrawDefault();
+                try
+                {
+                    e.Cache.Paint.DrawImage(e.Cache.Graphics, image, location);                    
+                }
+                catch { } // GDI-Fehler ignorieren
+                e.Handled = true;
+            }
+Your documentation says in the CustomDrawAppointmentBackground topic:
+Note
+Use the CustomDrawObjectEventArgs.Cache property to paint shapes, write a text and insert images. Do not use the CustomDrawObjectEventArgs.Graphics object in Scheduler Reports.
+I believe we should not be using e.Cache.Graphics when calling DrawImage, but what else do we need to to to "insert an image"?
+Thanks in advance.
+Andreas Unverdorben
+ 

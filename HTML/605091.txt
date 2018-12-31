@@ -1,0 +1,6 @@
+In the legacy version of the scheduler I was able to descend from ScheduleControl, like a UserControl:  
+with a default  constructor like
+Then I was able to use both the code behind and the xaml to specify the various resources and behaviors I needed.
+Now, when I try to do this pattern with the new Scheduler, first pass it crashes with a nullref exception on ResourceBrushSchema collection, specifically line 474 of SchedulerControl.cs in the FindResourceBrushSchema method.  So, I manually added this collection and now the control does not crash, but it also never renders its UI.  If I click in the space where it should be, it throws a nullref exception in OnGotKeyboardFocus - so the control is there, but nothing is showing.
+If I don't use this approach and just inherit the class and then put the xaml markup in the containing control where the scheduler is being used, the control renders.
+I would prefer to keep the xaml/code behind pattern, is this possible? 

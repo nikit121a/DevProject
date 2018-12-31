@@ -1,0 +1,5 @@
+In my DayView, I want to show today and the next 7 days, but without the weekend.
+I do not see an ShowWeekend option in DayView.
+If I use WorkWeekView, I also get past days - I don't want that .... only from today and next 7 days.
+How can I do this? 
+Thanks 

@@ -1,0 +1,5 @@
+Hello,
+I attached a sample project.  
+In this project when I select an item from DataGrid, PivotItems property is updating. Pivot is bound to PivotItems, so I expect to see some items on Pivot, but nothing happens.
+Items are only updating when I left click and select "Reload Data".
+How can I solve this problem? 

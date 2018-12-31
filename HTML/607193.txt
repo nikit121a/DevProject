@@ -1,0 +1,6 @@
+Hi,
+I pass image into  XtraReport via Parameters properties
+When I try to edit report in WPF report designer, image is not visible (in design and in print preview). If I show report in DocumentPreviewWindow then image is visible.
+What I must to make that image will be visible in WPF designer?
+Regards,
+Kruno

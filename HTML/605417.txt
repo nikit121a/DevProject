@@ -1,0 +1,15 @@
+
+Hello Uriah,
+I found the wanted labels, but something is wrong.
+If I choose the 'Non Translated' filter, there is no hit at all.
+If I choose the 'Your Translations' filter, it will only find one - but not the Hungarian translation.
+If I choose 'All' filters, then several new lines will appear - but not the Hungarian translation.
+---------------------------------------------------- 
+ 
+I tried to correct the words in the downloaded source code but the build did not run due to the following error message:
+
+
+
+---------------------------------------------------- 
+The same is true for the other problematic texts in the docx file. 
+Any idea how I can translate missing texts?

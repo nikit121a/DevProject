@@ -1,0 +1,3 @@
+Is there a way for the CameraControl to recognize webcams on the client computer when running on a server through a remote desktop connection?
+For example - I have two webcams attached to my computer. If I then  start a remote desktop connection to a different computer, and run an application on that computer that uses the CameraControl, it does not recognize the two webcams that I have on the client.
+Are there any other  limitations to the devices that this control supports?

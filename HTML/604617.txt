@@ -1,0 +1,34 @@
+Dropping a Aspxhtmleditor onto a form as below (not code provided as it has the same issue regardless), when switching between the "Design" and "HTML" tabs, At first the Design tab is blank, switching to the HTML tab it shows
+<html><head>
+    <title>title</title>
+  </head>
+  <body></body></html>
+switching back to the design tab still shows blank, switching back to the HTML tab again it now shows
+<html><head>
+    <title>title</title>
+  </head>
+  <body>
+    title
+  
+  
+</body></html>
+and then switching back to the design tab, it now shows the word title , switching back and forth any more make no further changes.
+If you switch to the HTML tab an then change the HTML to :
+<html>
+  <body>
+  </body></html>
+and then switch back to design and then back to HTML, the html has changed to 
+<html><head>
+    <title>title</title>
+  </head>
+  <body></body></html>
+a further switch back to Design and then HTML now gives
+<html><head>
+    <title>title</title>
+  </head>
+  <body>
+    title
+  
+  
+</body></html>
+ 

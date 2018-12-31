@@ -1,0 +1,11 @@
+Hello, 
+On a XAF View we have a functionality for the user to save, retrieve and apply custom filters to and from a database. 
+Now I want to transfer this functionality to a web application (Anagular 5, to be precise). 
+I've seen some inconsistencies between the filter string of the XAF data grid and the Devextreme one. 
+Specifically, the currently saved filters have the following format: 
+[ColumnName!] = ##XpoObject#Name.Space.To.Entity(ID)# And [ColumnName!] = ##XpoObject#Name.Space.To.Entity(1)# 
+Which comes directly from the GridView.ActiveFilterString property. 
+On the web app however, calling dataGrid.instance.getCombinedFIlter(true)  returns an json-like format:
+ColumnName,contains,Value,and,ColumnName,contains,Value
+Is there a way  of conversion between these two formats or do I have to do it manually?
+Thanks in advance. 

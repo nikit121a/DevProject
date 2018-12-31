@@ -1,0 +1,6 @@
+Hello,
+I have a column in my gridview that is a buttonedit field that I am showing as a glyph. I have the TextEditStyle set as HideTextEditor.
+When the user clicks the glyph, it opens a PDF.    When the user hovers over it, I want it to show the text.   I have tried several setting in the Behavior, Buttons, Glyph, AppearanceHovered section with no success.
+Please send me in the right direction!  I have attached a picture.
+Thanks,
+Karen 

@@ -1,0 +1,5 @@
+Hello,
+I'm trying to follow these instructions without success:
+ 
+But when there's an image and a dropdown arrow they get overlapped (see the root node).
+I'm attaching a demo Project , can you help me?

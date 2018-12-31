@@ -1,0 +1,3 @@
+Hello, 
+We have encountered a problem where changing user sessions causes an InvalidOperationException titled "Freezable Cannot Be Frozen" when a window based on the DXRibbonWindow is open. This happens when the Windows user logs out and logs back in or when a user is disconnected from a Remote Desktop Connection while the app is running. It has also been observed when the Windows DPI scaling changes. 
+To replicate this issue, run the attached demo application. Sign out of the current Windows user account and sign into another. Sign out of that account and back into the first. The app should have crashed during that time.

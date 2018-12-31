@@ -1,0 +1,6 @@
+Hi,
+I have implemented trigger for the Row element. But I am facing some issues:
+1) I am not able to change the text color on the Mouse Over event.
+2)  The background color gets changed in sometime automatically. This could be because as I can notice if I remove the background color setter, a gray background comes by default. So, this could be the reason why the background color gets changes as it gets mixed with gray. But I am not able to remove the default gray color.
+Please refer the screenshot and code. Please let me know if you need more info on this. 
+  

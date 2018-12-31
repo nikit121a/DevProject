@@ -1,0 +1,2 @@
+I have a ribboncontrol with several barbuttonitem, I want to be able to move by the buttons with the dates but I see that the focus does not get control. Is there any way to allow focus to the buttons?
+Thank you very much

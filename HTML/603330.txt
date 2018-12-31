@@ -1,0 +1,10 @@
+Hi. DevExpress SupportTeam.
+When I created a TextEdit style that does not specify a key, I can no longer edit the cells of the grid control.
+The reason is that it does not inherit the default TextEdit I created. I would like to check how much the TextEdit style that does not specify a key affects each editor or grid control.
+ 
+I have summarized the questions in the attached PDF so please take a look.
+We also attach a solution that can confirm the operation.
+ 
+Thank you.
+Ken Watanabe
+ 

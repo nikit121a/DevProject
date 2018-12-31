@@ -1,0 +1,3 @@
+I have dxfileuploader that I want to upload multiple files.
+I want to be able to call a web api controller method once with all the posted files.
+However, the control calls the controller method once for each file uploaded. Is it possible to post all the files at once?

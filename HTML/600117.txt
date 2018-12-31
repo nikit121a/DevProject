@@ -1,0 +1,5 @@
+Good morning.
+I need equivalency component::
+TdxTreeListImageColumn <==>  ???
+TdxTreeListCheckColumn <==>  ???
+thanks

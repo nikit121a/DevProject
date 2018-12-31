@@ -1,0 +1,8 @@
+I have built out a custom DataStoreBase implementation which also implements the ISqlGeneratorFormatterEx interface to handle the formatting of SQL query strings, although I have found some very strange behaviour. 
+If I use the filterString "ID IN (?TargetIds)", with TargetIds being either a QueryParameter with a defined value, or a QueryParameter bound by expression to a ReportParameter, at run-time during report generation the 'TargetIds' parameter is directly subbed with a string representing its values without ANY call to the ISqlGeneratorFormatterEx functions... namely GetParameterName and FormatFunction
+Upon inspection, the FormatFunction's operatorType parameter, of type FunctionOperatorType, does not include a definition for 'IN', nor does the BinaryOperatorType enum, so it appears that the use of 'IN' results in a separate code path to resolve the parameter to its values, WITHOUT making use of the ISqlGeneratorFormatterEx interface methods....
+What gets stranger, is if I append additional conditions to the Filter String, for example "ID IN (?TargetIds) AND 1 = (?TargetIds)", the first condition is handled as described above, however the second condition is correctly passed and formatted by the implementation of ISqlGeneratorFormatterEx!
+Is this a bug? Am I missing an interface implementation that would allow for the handling of the IN operator like all other operators? How can I ensure that the use of IN is handled and formatted like all other functions?
+Many Thanks!
+-Paul
+ 

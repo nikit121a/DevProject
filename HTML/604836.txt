@@ -1,0 +1,7 @@
+Hi,
+We have a problem like 
+.
+Do you have a workaround without changing devex version or applying fixes in ticket 
+.
+It's very important problem for our clients!
+ 

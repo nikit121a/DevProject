@@ -1,0 +1,8 @@
+Good Morning,
+What could you suggest for me to use in the DevExpress toolbox to be able to do the following? is there a built in object that can already do this?
+1. Have 2 List A Source And A Destination List.
+2. Have  Add A single item from Source List to Destination List,
+3. Remove A Single Item from Destination List.
+4. Check if Selected item in the Source List is Already Existing  in the Destination List
+Best Regards,
+Noel Isip 

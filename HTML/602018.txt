@@ -1,0 +1,2 @@
+We have either light or dark themes defined against our individual Dashboard Templates. I have now modified our web viewer to use ASPxDashboard, with callbacks and as a result no longer have to refresh the page when changing dashboard.
+Unfortunately every attempt i've made to alter the theme is not working, is there any way of doing this programatically? 

@@ -1,0 +1,16 @@
+Hi,
+ In your demos of the spell checker, you set the culture to "English (United States)", e.g. 
+ I need to set it to British English, but I have tried different options, e.g. "English (United Kingdom)" without luck. If I do not specify "English (United States)" it will reject all words.
+Since the IntelliSense does not give me a list of options, could you please do so?
+Thank you,
+Veronica
+Here is the main part of the code: 
+  <dx:ASPxHtmlEditor ID="txtKeyTasksResponsibilities" runat="server" Height="370px" Width="100%" Visible="false">
+                            <Settings AllowHtmlView="False" AllowPreview="False" />
+                            <SettingsSpellChecker Culture="English (United States)">
+                                <Dictionaries>
+                                    <dx:ASPxHunspellDictionary Culture="en-GB" GrammarPath="~/dic/en-GB-large.aff" DictionaryPath="~/dic/en-GB-large.dic" />
+                                </Dictionaries>
+                            </SettingsSpellChecker>
+...... 
+ </dx:ASPxHtmlEditor>

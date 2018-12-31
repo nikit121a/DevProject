@@ -1,0 +1,13 @@
+Hello,
+I use a custom property editor(ASPxCombobox) which is inherited from ASPxObjectPropertyEditorBase, I've implemented a custom filtering for this editor by using ItemsRequestedByFilterCondition and ItemRequestedByValue events.
+Filtering does not work correctly when searching with some Turkish characters, these characters are '?' and '?'.
+For example if I have this following objects
+- TEST KL??E
+If i type 'test kli?e', i should find this item. 'i' is the lowercase and '?' is the uppercase in Turkish.
+Same for '?' letter
+- TEST FIRM
+I should find this item if i type 'test f?rm'.    
+If you need to debug and see this issue, I've attached a small sample project. You can search these 2 objects(MT_Firm objects) above in MT_Proposals. 
+I've found a ticket(T566399) which is similar to this issue and tried this solution in my case but it didn't work.
+Can you suggest a solution for this issue please ?
+Regards.

@@ -1,0 +1,3 @@
+In the xlsx (was added to project) on the first sheet  was added the diagram.
+In printing Workbook and preview in DocumentViewer the diagrams on sheet not visible and not printing. 
+How print workbook with visible diagram?

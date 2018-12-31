@@ -1,0 +1,3 @@
+I am trying to use MVVM docking where a parent DockLayoutManager WellDockLayoutManager can have multiple panels each with it's own ItemContentTemplate={StaticResource WellContentTemplate} page (WellView.xaml).  I would like the "InterpLayoutDockManager" in WellView.xaml to bind up to the parent DocumentPanel "WellViewModel.InterpDocuments".
+Thanks,
+Dan 

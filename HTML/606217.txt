@@ -1,0 +1,14 @@
+Dear Team Support ,
+Refer the ticket 
+<
+>
+2. Set the 
+ to False.
+</
+>
+(PS : How to set quote for this ? )
+I want to set TableLayout in report settings but not found. 
+Please guide me. Thanks
+Update Ticket :
+>> 1. Remove all intersections in your Report. This is the recommended way, because it allows you to properly export your reports to formats that use a table structure (e.g., MS Excel); 
+I have follow the tip no 1 but the issue still happen.

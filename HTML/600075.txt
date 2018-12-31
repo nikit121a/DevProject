@@ -1,0 +1,8 @@
+I am using POCO MVVM pattern. The taks is: to save whole ViewModel current state as a xml file and reuse (after restart)
+Here is save method inside using this.GetType --  which returns (because of POCO i think) MainWindowViewModel_4240dffc_6386_4572_bf72_2d11708b458f 
+ As you see MainWindowViewModel has GUID at the end at runtime, and it is changing on each run. 
+When try read back by this method it gives error because type is different even if I'm using MainWindowViewModel as type also
+ 
+When im trying to serialize for save via  `typeof(MainWindowViewModel)` type it gives an error:
+What is the solution you suggest
+ 

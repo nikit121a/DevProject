@@ -1,0 +1,3 @@
+Hi support,
+I have an issue about getting date value from a DateTime property. I made a property (Schedule No) which is for collect or merge (concat) string from few property (No, Activities, DateOfSchedule) and I successfully did it. My issue is can't get only date without time from DateOfSchedule property. I try to create a PersistentAlias and use PadLeft() or GetDate() method, but still get the time. How I can solve it? below I attach the screenshot and piece of code.
+Thank you.

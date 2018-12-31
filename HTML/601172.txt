@@ -1,0 +1,11 @@
+
+Maxim, I really appreciate your time to look into this.  I modified the above sample to show this issue by adding the following setting:
+scrolling: {
+           mode: "infinite"
+        },
+Steps to repo:
+There is also another issue that I am seeing:
+1) Change the setting loadPanel.enabled to false, save and reload the sample page and grid.
+2) Use the grid scroll bar to scroll down and load a complete data set
+3) 
+: The loading indicator is still shown at the bottom of the grid during the loading operation.  Isn't loadPanel.enabled = false supposed to completely disable showing of the loading indicator?  If not, how can the loading indicator be completely disabled from appearing?

@@ -1,0 +1,5 @@
+Hello
+I would like to use the DBVerticalGrid in a project, but it is difficult to spot why the DBVerticalGrid appears to cache the data in my ClientDataset, whereas a bunch of cxDBRadioGroups do not. The attached project should illustrate the problem.
+I look forward to your suggestion.
+Regards
+Peter

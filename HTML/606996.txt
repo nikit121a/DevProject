@@ -1,0 +1,8 @@
+1) Run the Treelist Demo
+2) Select "Excel Style Filtering Demo"
+3) Clear the filter that is enabled by default
+4) Edit a few "Modification" cells so that the column contains blank values
+5) Invoke the column filter on the "Modification" column, and switch to the "Values" tab
+6) Select "Blanks" and  "2.0L H4 5M" filter values, note that the appropriate filter is used
+7) Unselect "Blanks and note that the IsNull filter clause is not removed and that the blanks are still shown
+See the attached image that shows "Blanks" unchecked  but the report still filtering by blanks

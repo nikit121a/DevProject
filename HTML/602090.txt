@@ -1,0 +1,4 @@
+
+Hi!
+I don't know why in one cliente, show this error attach, and I found in this SEMESTER routine.. if I comment code, not show this error more..
+looking for "internal_semester", in 3 points of code..

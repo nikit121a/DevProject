@@ -1,0 +1,2 @@
+Hi, I'm using Sort by colums, save the layoutstring, but when I restore the layoutstring the column comes sorted but without the image in the column as can be seen in the attached image 1.  
+Do you know how I can solve this? 

@@ -1,0 +1,14 @@
+These do not help me.. 
+I have a main report - Daily note
+On it, I have several subreports that need to populate if there is data in the subreports
+1. Order Subreport
+2. Results Subreport
+3. addendum subreport
+If the detail of the subreport is empty, then I do not want to have it Print ANYTHING.  No labels etc that are on the report.  I also want the space the subreport occupies to shrink and disappear.  All fields below the box on the main report to slide up.  
+I see many articles but no solutions on how to do this..
+Please help.
+ The attachment shows: 
+Results: BIG SPACE   
+Order: BIG SPACE
+Addendum Note: BIG SPACE.
+None of these and the space should not be there.. 

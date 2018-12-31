@@ -1,0 +1,9 @@
+Hi,
+When I  run my XAF web solution in my development environment some (stylesheet) links fail to load. 
+Openings these links manually results in this IIS error message:
+HTTP Error 500.0 - An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)The page cannot be displayed because an internal server error has occurred.
+Module   ASPxHttpHandlerModuleNotification   BeginRequestHandler   StaticFileError Code   0x00000000
+URL:
+This error cannot be ignore because our page design becomes completely malformed. Other DXR.axd calls do not cause any server errors. 
+Do you have a solution to this problem?
+ 

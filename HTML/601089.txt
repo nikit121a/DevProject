@@ -1,0 +1,5 @@
+Hi support team,
+I would like to know if it's possible to make a SelectBox  widget in a specific width and the content list in a different width. For example: the SelectBox with 50px and the content list in a 300px container.
+I attach an image from the DevExtreme examples where the list is not visible with the specified width but this is the width I want for the control and I also want the deployed list may have the width to view it correctly.
+Thanks in advance
+Regards 

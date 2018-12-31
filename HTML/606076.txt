@@ -1,0 +1,13 @@
+Hi,
+when user enters value to cell which previously had other font, the font is lost and set to default. Another editing makes cell invisible.
+Steps to reproduce.
+1) put SpreadSheet on a form
+2) run program
+3) enter any text or number to a cell, i.e. Test, press ENTER
+4) change font: use context menu on this cell, select  Format Cells, go to Font, Select Times New Roman, press OK
+- now font has changed
+5) in the same cell enter new value (don't edit previous): abcd, press ENTER
+- font went back to previous one
+Hint: once on the list is Times New Roman, second time it appears as Times New Roman CE.
+If I use Consolas font face, problem does not appear.
+Screen cast attached.

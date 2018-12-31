@@ -1,0 +1,10 @@
+
+Hi
+Thank you very much, it works like a charm! 
+One last question. I cannot seem to navigate to a bookmark in the report.
+I expected the Command attached to each bookmark to go to the relevant page in the report, i.e.:
+
+
+
+But nothing happens. 
+How can I activate the same command that happens when you click on a bookmark in the Document Map?

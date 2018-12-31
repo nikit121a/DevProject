@@ -1,0 +1,6 @@
+Hi 
+I have a combobox with a list, but i want to include a register All
+When the user selects that register he will load all the records in a report.
+Thanks 
+Can you help me
+Regards 

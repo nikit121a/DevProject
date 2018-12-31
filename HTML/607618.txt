@@ -1,0 +1,12 @@
+I have a problem with the LayoutControl.
+I want to add a custom control with a fixed width to the layout control, but it does not behave as I expect.
+My code:
+* I have a custom "FixedWidthControl" where I add buttons.
+* If the custom property Orientation == Orientation.Horizontal, I want the buttons to appear next to eachother and the custom control should then have a fixed height of 22px.
+* If the custom property Orientation == Orientation.Vertical, I want the buttons to appear underneath eachother and the custom control should then have a fixed width of 100px.
+As an example, see the code in attachment. The Form1 has 2 of my custom control inside. One with Horizontal (bottom) and one with Vertical orientation set. What does not work is:
+* In the case of Orientation.Vertcal, the buttons show up like I want, but the LayoutControlItem width is larger than 100px (while the custom control is only 100px). This means that the LayoutControlItem takes up more room, which should be allocated (I expected) to the TextEdit instead.
+See attachment.
+I expect the Action 0 - 2 to align to the right of the form and have the TextEdit (test edit) to be the full width of the form (minus 100px).
+Can you help me or give me some directions where I should look?
+ 

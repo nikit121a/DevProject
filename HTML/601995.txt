@@ -1,0 +1,26 @@
+Hello 
+I have the following problem (web only):
+if i open a detail view with multiple Sub- List-Views in which one has an action connected AND the list is filtered AND the view was started on a different tab then the first one, the action does not enable even if the target criteria is true. 
+Ways to enable the action:
+1. change the filter
+2. de-select / re-select all rows
+3. refresh the view manually
+I have attached a sample project. Please do the following:
+1.  start the web project
+2. enter a "MainObject"
+3. enter a couple of "SubObjects" (only fill in the names)
+4. Save
+5. Switch to the tab "SubObjects2"
+6. Close the MainObject and return to the  MainObject-ListView
+7. Open the MainOject you just created in a detail view
+8. Since the tab "SubObjects2" is now automatically opened - select the first tab
+9. Check all rows with the check box above the list
+10. both actions are disabled
+11. change the filter
+12. Check all rows with the check box above the list
+13. one of the actions is enabled
+This behaviour is found any time a list is not displayed to begin with and has a filter.
+Any ideas?
+Regards
+Chris
+.  

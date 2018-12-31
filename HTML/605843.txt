@@ -1,0 +1,5 @@
+
+                                This example illustrates the use of a 
+ property to retrieve original location of an image and store it in 
+attribute when a document is saved in HTML format.
+                            

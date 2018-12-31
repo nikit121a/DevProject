@@ -1,0 +1,4 @@
+Hello,
+I've implemented the menu in my grid like so
+Now i need item2 to produce a sublist of buttonitems (like a standard menuitem with the arrow to the right opening the menu on the right side) and bind this list to a list i have in my viewmodel. Some help with how to do that would be appreciated.
+Thanks in advance

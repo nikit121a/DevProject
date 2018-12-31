@@ -1,0 +1,21 @@
+Hello Support,
+I'm getting this exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevExpress.XtraPivotGrid.Data.SelectionVisualItems.GetSelectionString()
+   at DevExpress.XtraPivotGrid.PivotGridCells.CopySelectionToClipboard()
+   at OrchestradeClient.Gui.Util.GridViewDefaultMenu.CopyToClipboard(Object sender, EventArgs e) in D:\Orchestrade\trunk\src\client\gui\util\GridMenuHelper.cs:line 1260
+   at DevExpress.Utils.Menu.DXMenuItem.OnClick()
+   at DevExpress.XtraBars.Utils.DXPopupXtraMenu.OnBarMenuClick(Object sender, ItemClickEventArgs e)
+   at DevExpress.XtraBars.BarItem.OnClick(BarItemLink link)
+   at DevExpress.XtraBars.BarButtonItem.OnClick(BarItemLink link)
+   at DevExpress.XtraBars.BarItemLink.OnLinkClick()
+   at DevExpress.XtraBars.BarButtonItemLink.OnLinkAction(BarLinkAction action, Object actionArgs)
+   at DevExpress.XtraBars.ViewInfo.BarSelectionInfo.ClickLink(BarItemLink link)
+   at DevExpress.XtraBars.ViewInfo.BarSelectionInfo.UnPressLink(BarItemLink link)
+   at DevExpress.XtraBars.Controls.CustomLinksControl.OnMouseUp(MouseEventArgs e)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at DevExpress.XtraBars.Controls.CustomControl.WndProc(Message& msg)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+By "hole", I mean that cell has no datasource entry for that row&column value.
+ 

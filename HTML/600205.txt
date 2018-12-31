@@ -1,0 +1,15 @@
+Hello Team,
+I am using card layout in flow mode to display information and I am trying to set the ItemsPerPage property dynamically based on GetDocumentClientWidth(), so that the view is in accordance with the page width. 
+But the ItemsPerPage property is not being updated on PerformCallback and the initial settings are retained.  Please suggest a way to make the card view, update the ItemsPerPage property dynamically. Find the relevant sample code snippets below:
+The view always shows 3 cards (initial setting), even though the ViewBag.ColCount is being changed.
+==============Controller.cs==============
+
+
+
+==============Index.cshtml==============
+
+
+
+==============GridViewPartial.cshtml==============
+
+

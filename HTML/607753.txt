@@ -1,0 +1,7 @@
+Hi Alex,
+Thank you very much for the sample code. that really helps.
+can you please address the issue of click and double click? if I add code on the click event, then double click event is never engaged.
+is there a way to include click and doubleclick events?
+thanks, Izaks
+ 
+ 

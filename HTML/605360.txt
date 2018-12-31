@@ -1,0 +1,5 @@
+After refactoring property "PropA" to a method, the region "Region A" gets duplicated, when there are other regions before and after .
+Code before refactoring:
+ 
+Code after refactoring:
+ 

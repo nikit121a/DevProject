@@ -1,0 +1,4 @@
+Hello,
+I use the DevExpress.ui.notify function  to display multiple notification at the same time (playing with the position option in order stack the notifications)
+I also set the closeOnOutsideClick to allow users to close the notifications but when two or more toasts are displayed the click close only the last opened toast.
+Is it the intended behaviour ? If yes how select all the opened toast (in order to close all of them on the hiding event)? 

@@ -1,0 +1,10 @@
+Dear,
+I my application I use a pivot grid, based on a certain field in the data set i use a specific xtraEditor.
+The application is initially build in devexpress version 16.2.6.0, for a change request we upgraded to devexpress version 17.2.4.0. 
+Since the upgrade the editors in the pivor grid behave different.
+In version 16 the editors mask was also used to display the cell value, even when not editing.
+In version 17 we need to enter the cell to get the corresponding editor to display.
+I have attached 4 screenshots, 2 from version 16 while displaying and while editing, and the same 2 for version 17.
+In the change log I can't find any changes or breaking changes.
+Can you advise on this topic?
+ 

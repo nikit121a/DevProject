@@ -1,0 +1,8 @@
+Good morning,
+I'm having some issues displaying iOS icon in mobile devices.
+I'm using Cordova  v. 4.5.4 and Phonegap cli-8.0.0, update the template and the solution and the version of DevExtreme using your hotfix,  as your instruction in this ticket 
+, but I'm still not seeing the application icon on iOS (11.2).
+Do you have any suggestion? The problem is not completely resolved?
+Thank you,
+Stefano
+ 

@@ -1,0 +1,4 @@
+Hi,
+When you expand/collapse a treenode multiple times with Angular 2+, the animation seems to be broken. It works the first time, but the second time, the children just appear after a while, without the animation. I tried using the latest Chrome and IE versions. Other samples (Javascript, AngularJs) don't seem to have this problem.
+Greetings,
+Sigurd 

@@ -1,0 +1,2 @@
+I'm using the ExcelDataSource.EditDataSource wizard - and I was wondering if it would be possible to customize that wizard with another wizard-page, or add more fields to an existing page.
+I'd like to ask the user about things like 'cell range' and some other options (boolean/checkbox) things - and retrieve the values so that I can store it too. 

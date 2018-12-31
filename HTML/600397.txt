@@ -1,0 +1,15 @@
+Hi,
+We are trying to implement Select All in MVC Gridview using a checkbox column and Update all checked rows..Appreciate your help on this..
+Attaching 3 Views
+index.shtml
+grandresultsRFAPAGridViewPartial.shtml
+grantresultsRFAPAPartial.shtml
+controller
+GrantResultsRFA
+Model
+GrantRFAPAViewModel
+Class
+ GrantUpdate.cs
+Thanks,
+Rajesh
+ 

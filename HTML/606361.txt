@@ -1,0 +1,22 @@
+
+Hi Marion,
+Thanks for the solution, I tried it and it is working as expected.
+One last solution i need from your side is,
+2. I tried to provide sheet name in exported file.
+I tried this solution which is below:
+1st scenario:
+
+
+
+
+Here ps is the object of  PrintingSystem.
+But this event is not getting called.
+I tried also this scenario:
+
+
+
+
+But this scenario is also not working.
+Please suggest.
+Thanks,
+Veera

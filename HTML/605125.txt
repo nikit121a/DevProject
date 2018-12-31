@@ -1,0 +1,6 @@
+Dear Support,
+I have a form with a Search function and a treelist for results.  The search finds relevant data and performs a callback on the treelist to poulate the data.  This all works well EXCEPT the Treelist displays all data collapsed.  This is in spite of the fact that I have:
+settings.SettingsBehavior.AutoExpandAllNodes = true;
+I am sure this is not correct behaviour?
+Regards
+Les

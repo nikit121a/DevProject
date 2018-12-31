@@ -1,0 +1,4 @@
+I have an invoice report. Similar in style to your invoice report in your Demo centre, except I don't have the extra detail report section and no groupings.
+So I have  the Page Header with a table of column headers - Name and Price, the Detail contains the values for these columns, then the Report Footer, contains a total.
+I want the Report Footer to be at the bottom, and the Detail area to stretch to fill the available space (so that the lines go all the way to the bottom regardless of lines.
+How would you recommend solving this problem? Seems quite messy to have to do it all with cross-band boxes etc, especially because I am using tables? 

@@ -1,0 +1,5 @@
+Hello,
+in my xaf application module I have a custom CloneController that inherits from CloneObjectViewController.
+Now I have added the mobile module, so when I try to start mobile application I have this error:
+It seems that in mobile application there is the MobileCloneObjectViewController that inhertis from  CloneObjectViewController, so there are 2 controllers that inherit from CloneObjectViewController. How can I solve this, in xaf mobile app?
+Thank you 

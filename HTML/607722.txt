@@ -1,0 +1,4 @@
+Hello DevExpress Team,
+After saving a document using the RichEditDocumentServer it's footer disappears. Below is a sample code, attached is archive with documents before and after processing.
+Regards,
+Khindikaynen Aleksey 

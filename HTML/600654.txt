@@ -1,0 +1,6 @@
+Hello, I've an issue with printing a report on network.
+I've a report designed for pinting tickets . It has PaperKind to Custom and RollPaper to True. If I print this report on the machine that has already setup the printer, it prints perfect.
+But if I try to do the same on another machine on the same network (sharing printer obviosuly) and using the same report design, it's printed "shifted"  to the right. 
+In sum, if i print on the same machine that has already the printer: OK, if I print on another machine over network: NO OK.
+The printer model it's EPSON TM-70II Receipt. 
+Regards 

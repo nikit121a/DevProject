@@ -1,0 +1,4 @@
+Still on steep learning curve. Shouldn't I see the refresh button with this code? Do I need to do something extra to this generated code that otherwise works well? 
+Regards
+Atle
+ 

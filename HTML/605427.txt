@@ -1,0 +1,5 @@
+Hello Support,
+Please see attached.
+Is there any way to set height of expression editor window ?
+In my case, right now the height of entire report designer  is less than height of expression editor window. So buttons OK and Cancel are not visible due to less height of designer.
+Thank You. 

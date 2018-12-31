@@ -1,0 +1,1 @@
+Your wpf accordion control documentation shows it collapsing to the left when the iscollapsedbuttonvisible is true.  Is there a way of collapsing the winforms accordion control to the left in a similar fashion.  I can't find a property that enables me to switch the collapse direction from vertical to horizontal.

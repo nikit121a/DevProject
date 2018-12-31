@@ -1,0 +1,17 @@
+Hi Guys,
+ I'm not sure what I am doing wrong, although I am unable to restore the filter string when calling RestoreLayoutFromStream.
+I have a grid, with one band and one column.
+If I save the layout,  I can see the filter string in the XML.
+When I restore the layout, it sets some properties, but not the filter string!  
+I have read online that we need to set the band name, that hasn't helped.
+Steps:
+* Load the sample
+* Set a filter via the small icon on the column header
+* Change the column width
+* Save the layout
+* Remove the filter and change the width back
+* Restore from layout
+- Column width is restored, auto filter row is populated with the filter, but the filter is not applied.
+Any ideas?
+Thanks,
+David 

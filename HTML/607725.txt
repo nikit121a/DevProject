@@ -1,0 +1,8 @@
+Hello,
+we're evaluating your Report Suite and are running into some problems. 
+First off we're trying to convert our CrystalReports documents into your format. We tried the converters  we found in this post (
+), but we didn't manage to get it running.
+Our CrystalReports-Version is 13.0 .22 and XtraReports Suite Version is 15.2.16.
+The second problem we are dealing with is, how we can  pass the DB connection-string to the Report Wizard? We are using a InterSystems Cach? Database and tried our "standard-connectionstring" but it didn't work. Can you please provide us a sample custom connection string?
+Regards,
+J?rg 

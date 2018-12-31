@@ -1,0 +1,4 @@
+Hi guys,
+I am trying to add a glyph to a button programatically  but I cannot figure out how to do it.
+Here is what I have however it won't work:
+The only way I can think of is to stream the image, but I don't think it will work properly when it's installed onto an end user pc. Do I need to create an imagecollection? If so could you detail how to do this? 

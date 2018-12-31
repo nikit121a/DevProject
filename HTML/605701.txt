@@ -1,0 +1,2 @@
+I have a base form which contains a gridcontrol. I inherit from this form, and just customize the columns. I have about 8 forms I did around 14 months ago, and they work fine. In (at least) v16, I thought I used to be able to invoke the grid editor. T
+This is now not an option. How can I get the GUI gridview editor on an inherited form containing gridview?

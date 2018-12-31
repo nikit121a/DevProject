@@ -1,0 +1,7 @@
+Hi,
+ I overrode SetValueBeforePost() of TcxSchedulerDBStorage in a derived class to set specific field values.
+I was a bit confused about this, so I set the Rangechecks OFF, and everything went fine
+I couldn't find any explanation for this. AItemIndex seems to be correct.
+ Why do I need to put Rangechecks OFF here?
+Regards,
+Ollo

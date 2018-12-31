@@ -1,0 +1,5 @@
+Hello and thank you for your time.
+I can't seem to get drag and drop events to fire on the BarButtonItem in a ribbon control.  We have a button that open a new rich edit control  and would like to be able to drop an existing document onto the button to have the app open that doc.
+We can do it in winforms but not WPF.
+Is this possible?
+Thank you. 

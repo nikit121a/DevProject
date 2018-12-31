@@ -1,0 +1,7 @@
+Hello!
+I have a SingleChoiceAction with several ChoiceActionItems. I need to open popup window with ListView to let user choose one or many records based on ChoiceActionItem selected by user.
+Im using the following code to open popup window:
+As you see, im checking if user select correct records according to the prior selection of ChoiceActionItem.
+The problem is - if im setting E.Cancel to true, XAF opens detail view of the selected record. I dont need that, i need to simply do nothing if user clicks on record that does not fit certain criteria.
+How i can prevent opening of new popup window when user clicks on record in popup window and DialogController.Accepting event is cancelled?
+Thank you! 

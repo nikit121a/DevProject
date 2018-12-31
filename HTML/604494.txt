@@ -1,0 +1,5 @@
+Hi, I have created a Windows Form Application with a grid control.
+One of the columns is used to create a group
+When the form loads though the group is collapsed. 
+ Is there a way to automatically expand it?
+Thanks 

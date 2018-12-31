@@ -1,0 +1,7 @@
+I have a a grid with many columns.  One of the columns is a GridViewDataTokenColumnBox.  
+When i first run the grid, the value in this cell is Appraisal, Income / Expense  (which is the text, and not the value)
+When i select additional values, and go to save the updates (using the BatchUpdate method), the value is now
+Appraisal, Income / Expense, 4, 6
+4 & 6, are the values of the 2 tokens i added.
+I would expect the values of Appraisal, and Income / Expense to be there instead of the text.
+If possible, can you let me know what could be the issue, or provide an example of how to do batchupdating with a GridViewDataTokenBoxColumn

@@ -1,0 +1,11 @@
+Hi,
+i am using this code in order to set custom selection color for currently selected rows at grid view:
+            ((GridView)gcNotServed.Views[0]).OptionsSelection.EnableAppearanceFocusedCell = true;
+            ((GridView)gcNotServed.Views[0]).OptionsSelection.EnableAppearanceFocusedRow = true;
+            ((GridView)gcNotServed.Views[0]).Appearance.FocusedCell.BackColor = customColor;
+            ((GridView)gcNotServed.Views[0]).Appearance.FocusedRow.BackColor = customColor;
+            ((GridView)gcNotServed.Views[0]).Appearance.SelectedRow.BackColor = customColor;
+            ((GridView)gcNotServed.Views[0]).Appearance.SelectedRow.Options.UseBackColor = true;
+It works but when i select row and then i click for example into different gridView, then selected row color became white. 
+How can i return origin color after (during?) rows deselection?
+Btw: this works perfect if i dont use custom selection color, so i guess there is some function which handles it.

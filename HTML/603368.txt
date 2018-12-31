@@ -1,0 +1,42 @@
+Hello,
+we are using devextreme grid view(17.1.4) in our project.
+In old version(16.2) than this we were using jquery to maintain checkbox states(including check all in header.) 
+Which was working fine. Code we are using is:
+For every checkbox - 
+ if (State == "U") { //To unchecked checkbox
+                Id.removeClass("dx-checkbox-checked");
+                Id.removeClass("dx-checkbox-indeterminate");
+                Id.attr("aria-checked", "false");
+                Id.children().attr("aria-checked", "false");
+                Id.children().children().attr("aria-checked", "false");
+                Id.children().removeClass("dx-checkbox-checked");
+                Id.children().removeClass("dx-checkbox-indeterminate");
+                Id.children().children().removeClass("dx-checkbox-checked");
+                Id.children().children().removeClass("dx-checkbox-indeterminate");
+            }
+            else if (State == "P") { //for Partial check
+                Id.removeClass("dx-checkbox-checked");
+                Id.addClass("dx-checkbox-indeterminate");
+                Id.attr("aria-checked", "mix");
+                Id.children().attr("aria-checked", "mix");
+                Id.children().removeClass("dx-checkbox-checked");
+                Id.children().children().removeClass("dx-checkbox-checked");
+                Id.children().addClass("dx-checkbox-indeterminate");
+                Id.children().children().addClass("dx-checkbox-indeterminate");
+            }
+            else if (State == "F") { //For Fully check
+                Id.addClass("dx-checkbox-checked");
+                Id.removeClass("dx-checkbox-indeterminate");
+                Id.attr("aria-checked", "true");
+                Id.children().attr("aria-checked", "true");
+                Id.children().removeClass("dx-checkbox-indeterminate");
+                Id.children().addClass("dx-checkbox-checked");
+                Id.children().children().addClass("dx-checkbox-checked");
+                Id.children().children().removeClass("dx-checkbox-indeterminate");
+            }
+Where Id -> td id where checkbox present with class - '.dx-command-select'
+But now this code is not working well. So we have to call repaint after any selection change.
+Which is costly and due to that some functionality is not working well.
+I need solution for this. how to set checkbox state manually by jquery.
+Please see attached screenshot for wrong state of selctall checkbox.
+There is no child check and it is calling above code of jquery to uncheck this checkbox. But after our code executed it is again fully checked. This is wrong.

@@ -1,0 +1,8 @@
+
+Hello DevExpress Team,
+Current Project Structure: XPO to "Serializable Object Layer Service" to WPF as Client
+I have below two questions
+ 
+2) I need InsertOnSubmit, DeleteOnsubmit functionality in XPO same as Linq to Sql. 
+Please reply me as soon as possible..
+Thanks in Advance. 

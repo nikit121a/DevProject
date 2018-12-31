@@ -1,0 +1,7 @@
+Hello,
+In some cases the ALT-Key seems to get stuck in the Ribbonmenu.
+The focus is in a TextEdit, that contains text, and you press ALT-TAB to switch to another application (e.g. Chrome-Browser) to copy some text from there.
+When you come back to our application the RibbonMenu behaves as if the ALT-Key is pressed although it's not. We managed to get rid of this behaviour, bei raising a KeyUp for Keys.Menu  when Activating the RibbonForm, but thats like treating the symptoms not the cause of the problem.
+Any ideas on how not to run into this?
+Regards,
+J?rg 

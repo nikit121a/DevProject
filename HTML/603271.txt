@@ -1,0 +1,8 @@
+I am developing a program that has to deal with heating programs.
+Each heating program has a list of steps that the heating program must reach.
+I would like to have a Grid Control where each row is a specific heating test with details about the test.
+In this row I would like to have a cell that when clicked shows a drop down grid of the specific heating steps inside the test.
+I am using datatables for my data sources.
+Is this possible?
+If so, can you give me an example?
+ Thanks.

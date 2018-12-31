@@ -1,0 +1,1 @@
+I need to run some code on the server side but I need to see if the ASPxCardView is empty or has a record first..  How do I do that please.

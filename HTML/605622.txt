@@ -1,0 +1,4 @@
+I noticed, then in every user folder AppData\Local\Apps\2.0\B7OE9YPN.CRZ\ZLD1YWZO.AME\ i have a lot of devexpress libraries. 
+This server works as Internet Server and database server.  Can I delete it? 
+best regards
+Jaroslaw Wiechecki 

@@ -1,0 +1,5 @@
+Hi, I have a simple gridview, the responsive layout is not working.
+You can find attached a screen capture of the browser's windows under the limit.
+This is the aspx code.
+Thanks for your support,
+Max

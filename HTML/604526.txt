@@ -1,0 +1,9 @@
+Hi,
+i try to build a custom ToolTip for a row in a DataGrid based on some conditions.
+Thats works very pretty but unfortunaly the tooltip for the first time is different to the tooltip for the second time.
+You can reproduce it:
+Move the mouse to the row
+Move it away
+Move the mouse to the row again
+We prefer the second one! How is it possible that the first one looks like as the others?
+Please take look at my attached sample. 

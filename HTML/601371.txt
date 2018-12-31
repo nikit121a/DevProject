@@ -1,0 +1,9 @@
+We have a GridControl that allows for filtering via the DataControlBase.FixedFilter (from higher-level filters in the Model) and DataControlBase.FilterCriteria (for user-level filters).  We have a scenario where another control needs to aggregate counts for specific fields based on the same IEnumerable<T> collection the GridControl is pointed at.  But the aggregation needs to include the FilterCriteria (not the fixed filter).
+We have read about  CriteriaToWhereClauseHelper on various support tickets but have concerns.  According to the very last response in this post:
+it is a defunct class.  This would seem to be corroborated by the fact that we can
+ find it in the online documentation:
+My question is how can we take the filter in FilterCriteria and apply it to the IEnumerable?  We do not want to rely on a class that is not maintained or guaranteed to work in all cases, obviously.
+Currently, we create an internal, non-rendered grid to provide the engine but this is obviously less then ideal. Ideally, we would like to have direct access to the filtering engine that the grid control is using - this way we are (reasonably) certain the end result will match the visible grid. Is that possible?  
+Thanks
+Ernie
+ 

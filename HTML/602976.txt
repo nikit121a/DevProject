@@ -1,0 +1,8 @@
+Hi,
+I'm using 2 developments machine.
+First one is under Window 7 x64, second one is under Windows 10 x64.
+With the second one, this line is missing in the designer when I'm using tilenavpane 
+ When it's missing, text and image in every navbutton is uncorrectly drawn.
+Don't know if it can help you , but it occurs every time under windows 10 machine.
+Regards
+ 

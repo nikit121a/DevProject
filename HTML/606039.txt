@@ -1,0 +1,6 @@
+I have the following requirement in my grid...
+1. when the user TABs thru the cells in the row and reaches the last cell, tabbing once more must add a new row in the grid.
+2. TABBING must continue in the new row and cycle should repeat
+3. when user presses ESC, focus must come out of current cell and the context row must be selected.
+4. Pressing TAB again must move focus out of grid to the next control.
+Any idea of how to accomplish this?

@@ -1,0 +1,3 @@
+Hi, 
+tryingo to access event of ImageEditor event changed from MVVM. It is the same XAML as above but modified for this event. But it seems not to work.
+ 

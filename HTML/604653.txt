@@ -1,0 +1,9 @@
+I have another PDF that crashes when loading.
+The file loads fine into a TdxPDFDocument but the crash happens when I go to export it. Even the PDFViewer crashes.
+The file loads fine in acrobat, but in Edge it loads as a solid black page.
+I was also trying to make my program be more graceful when I get a corrupted file, but with this one I have not even been able to trap it without it creating memory issues where I have to crash my program to get it to go away.
+Here is my code for when I am exporting:
+
+
+
+ 

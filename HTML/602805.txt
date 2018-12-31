@@ -1,0 +1,5 @@
+Hello,
+I would like to impose a single expanded node at a time. I found help on AspxTreeList but I can not find anything on AspxTreeView in XAF. It's possible to do it?
+I have this controller but I do not know how to proceed 
+Thanks!
+Adriano

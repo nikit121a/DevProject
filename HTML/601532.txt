@@ -1,0 +1,12 @@
+
+                                This example shows how to execute the Find Next action by pressing the F3 shortcut after an end-user specified search options in the 
+ dialog. 
+To do this, handle the
+ event. If the F3 key is pressed, call the overloaded 
+ method and pass the text to search and search parameters obtained from the
+dialog to this method.  
+The text search settings (e.g, search text, whole words, case sensitive) applied by an end-user in the 
+ dialog can be accessed using the
+ property.
+
+                            

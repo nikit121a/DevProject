@@ -1,0 +1,22 @@
+
+Now I'm getting the following error when I select a file from my hdd:
+Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+   bei DevExpress.ExpressApp.FileAttachments.Win.FileAttachmentsWindowsFormsModule.CreateFileData(IObjectSpace objectSpace, IMemberInfo memberDescriptor)
+   bei DevExpress.ExpressApp.FileAttachments.Win.RepositoryItemFileDataEdit.CreateFileDataObject()
+   bei DevExpress.ExpressApp.FileAttachments.Win.FileDataEdit.OnCreateCustomFileDataObject()
+   bei DevExpress.ExpressApp.FileAttachments.Win.FileDataEdit.FileSelected(String fileName)
+   bei DevExpress.ExpressApp.FileAttachments.Win.FileDataEdit.ShowFileOpenDialog()
+   bei DevExpress.ExpressApp.FileAttachments.Win.FileDataEdit.OnClickButton(EditorButtonObjectInfoArgs buttonInfo)
+   bei DevExpress.XtraEditors.ButtonEdit.OnMouseUp(MouseEventArgs e)
+   bei System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   bei System.Windows.Forms.Control.WndProc(Message& m)
+   bei DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   bei DevExpress.XtraEditors.TextEdit.WndProc(Message& msg)
+   bei System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   bei System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   bei System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+My code
+
+
+
+

@@ -1,0 +1,22 @@
+Starting with version 
+, the XAF Mobile authentication mechanism has been improved and uses an encrypted authentication cookie to store authentication information and transfer it through the network. This approach has the following advantages over the previously used Basic Authentication mechanism:
+    - it allows us to achieve a higher security level.
+    - its behavior can be adjusted according to your individual requirements.
+Here are two examples of possible customization approaches to elaborate on the second statement:
+ You can configure algorithms and keys to use for encryption using the 
+ element in the application configuration file (Web.config). You can learn more about this in the following MSDN article: 
+. 
+NOTE
+ Solution Wizard already adds the predefined configuration, that is intended to make your application scalable. With the default configuration, you will be able to take advantage of the 
+ feature. This configuration is described in the Sharing Authentication Tickets Across Applications section of the 
+ article. 
+ To customize the authentication cookie's behavior, override the 
+ method of the Mobile application's data service. For example, after setting the HttpCookie.Expires parameter, the current user will be redirected to the logon window after the specified period of inactivity:
+
+
+
+
+
+The redirection will happen next time the user interacts with the application with a data request.
+NOTE
+After implementing this feature and deploying the new version to the server, users need to logoff to obtain a new cookie with the short expiration time.

@@ -1,0 +1,10 @@
+Hi!
+I'm using "ShowPrintDialogOnOpen" of "PdfExportOptions" in XtraPrinting - Class in an ASP.NET Webform application. This option working for most browsers but it seems there is an issue if you are using "Safari" (Version 11) browser with native pdf viewer.
+You can verify this issue with one of your examples: 
+Run the 
+ demo (E454 using "Run Online" button) with safari v11 without using a pdf plugin (use the native safari pdf) the printing dialog will open. Now download the example and 
+ and run the demo application again with safari -> no printing dialog will open.
+Around two years ago you have changed the PDF-Exporting. So if you add to "report.aspx.cs" this line
+and run the demo again with v17.2.3 > printing dialog will open. So there must be any error in the new pdf exporting.
+Regards,
+Dominik

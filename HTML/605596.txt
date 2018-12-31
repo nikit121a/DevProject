@@ -1,0 +1,6 @@
+SaveLayoutToXml just seems to have the DataSource as #Ref-0.
+This seems rather strange.
+So in the ReportDesigner I override the default queries that I provide to the report which the actual ones I want to run using the SQL Datasource wizard.
+Make changes to my document, get it all working and then save it to disk so I can then load it in the DocumentViewerControl elsewhere in the program.
+Opening it in the document viewer from the repx file (LoadLayoutFromXml), there's no datasource though!  Queries are gone.
+So, this can't be right, what am I doing wrong? 

@@ -1,0 +1,4 @@
+Hi,
+the Image nearly says it all. When Using a LayoutGroup and setting ItemLabelsAlignment="Local" only LayoutItems with Label != string.Empty are used for aligment. 
+Is this a expected behavior? 
+ 

@@ -1,0 +1,3 @@
+Whenever I try to run a report, I get the following message:
+Method not found: 'Void DevExpress.DataAccess.ObjectBinding.ObjectDataSource..ctor(System.ComponentModel.IContainer)'
+I cannot track down where the problem is.   I can edit the report in Visual Studio, but I just cannot run it.

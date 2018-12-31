@@ -1,0 +1,9 @@
+
+Thanks.. That got me started.. 
+The one I have in mind is similar to: 
+I've added some of that logic.. 
+A few changes
+3) Under the discharge column I would like "Total"
+4) Remove the "Sum=" from both columns
+Thanks.. That really got me started...
+Let me know if any errors occur so that I can send you updated data,,,  I see that the BedEpisodes are not displaying the DB sent. Let me know if these are a must... Had to change the private data, thus the issue...

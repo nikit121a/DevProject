@@ -1,0 +1,2 @@
+I'm exporting data to Excel from an OLAP datasource (MS Analysis Services).
+The resulting file contains all dimensions, but only the measure values that are visible in the browser. I've attached a sample file. 

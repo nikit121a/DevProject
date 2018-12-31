@@ -1,0 +1,5 @@
+Hi 
+By customizing the dxDatagrid delete button, the width of the grid titles does not match the width of the columns in the rows. See the following capture
+In previuos version working fine.
+I use 16.2.12 version of devextreme
+Thanks 

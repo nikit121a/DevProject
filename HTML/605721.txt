@@ -1,0 +1,14 @@
+how to use or what code to use, to use the concept of GenericForenKey, with the code devexpress, you can give me a simple and practical example to learn how to use this concept based on your documentation and / or help
+Currently, I am using some genericforenKey, because in the new classes I add the following code.
+but I have had difficulties to implement it efficiently and correctly.
+Context:
+I have class A; This is my main class and I have a relationship with class B, which is also main.
+but from the class A mapping to an A1 class, and from the Class B Class B1 mapping.
+of the current form that I am reacting requires me to create another relational field in case B1, which contains A1. therefore, I do not use the same relationship that I previously used in A and B.
+and I create that new "Association" to show it in A1, with the New fields that I created in Class B1.
+How do I use the same relationship and do not create another?
+Initial relationship A - B
+Relationship A1-B1 (MapInheritance)
+I know that I am not using the Code correctly, I need to know how I should implement my code in a better way, and that in class A1, I generate the fields and others of Class B1; But I'm still using my Initial Relationship (AB) to APPLY for the "genericForenKey",
+What I have As a consequence in my TABLE of my Database, is of 2 Related Fields "A" and "A1"; when it should be 1 single related field.
+That is, only the related field "A"

@@ -1,0 +1,9 @@
+Hi DevExpress Team
+I?m trying to protect PDF when export but not works the protection settings.
+I?m using information about a few links from DevExpress
+report.ExportOptions.Pdf.PasswordSecurityOptions.PermissionsOptions.EnableCopying = false;
+                    report.ExportOptions.Pdf.PasswordSecurityOptions.PermissionsOptions.PrintingPermissions = DevExpress.XtraPrinting.PrintingPermissions.None;
+                    report.ExportOptions.Pdf.PasswordSecurityOptions.PermissionsOptions.ChangingPermissions = DevExpress.XtraPrinting.ChangingPermissions.None;
+                    report.ExportOptions.Pdf.PasswordSecurityOptions.PermissionsPassword = "password";
+I need to restrict copy content, edit and print.
+Thanks. 

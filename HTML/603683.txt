@@ -1,0 +1,6 @@
+I am designing DevExpress XtraReports to replace currently existing reports, but will continue to use the data that is generated in our current process. To do this, I'm creating Excel spreadsheets with sample data that looks exactly like the real data and binding my XtraReports to the Excel data at design time. At runtime, I switch to the real data by assigning the report.DataSource. This works great when there is only one spreadsheet/data table. I'm not sure how to assign the tables to the report when there are multiples.
+For example, at design time I have the following Excel DataSources:  excelDataSource1, excelDataSource2, excelDataSource3
+At runtime, I have a DataSet with 3 tables. I want the first table in the DataSet to be used in place of excelDataSource1, the second table to be used in place of excelDataSource2, etc.
+When there is just one sheet and DataTable, all I have to do is make the assignment: report.DataSource = DataSetReport1, where DataSetReport1 is the name of the runtime DataSet. What else must I do in the case of multiple tables?
+Thank you for your help!
+ 

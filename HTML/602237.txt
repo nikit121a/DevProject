@@ -1,0 +1,4 @@
+Hello,
+Is there a way to donwload localized ressources for the version 17.2.
+I need the french version.
+Thanks

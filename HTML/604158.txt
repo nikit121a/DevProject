@@ -1,0 +1,2 @@
+I read a related ticket, but I have a question about the ticket. The workaround in the global.asax file works in which version of the Framework?
+T?hank you for your answer in advance.

@@ -1,0 +1,19 @@
+Hi DevExpress,
+We are currently using DevExpress 17.2.4.0. One of our clients have found a bug in the DevExpress XtraGrid control related to Text Filters. I was able to replicate this problem using the DevExpress 17.2 XtraGrid Demo project. 
+I've attached a video to demonstrate the issue.
+Steps to Reproduce
+===============
+1. Open DevExpress 17.2 WinForms Demo project
+2. Select "Data Grid and Editors" demo 
+3. Select "GDI+ Mode" 
+4. Select Grid Views => "Table View" from the left navigation panel
+5. Right click "Product" column and choose "Filter Mode" => "Display Text"
+6.  Click Filter icon
+7. Select  "Text Filters" tab
+8. Click drop down and observe list of options
+9. Type "Does Not B"  and observe autocomplete for "Does Not Begin With"
+10. Type "Does Not E"  and observe autocomplete for "Does Not End With" 
+11. Observe both criteria above can be used as filter criteria, but is not an option in the drop down
+Please review and let me know if this can be resolved in a future release. 
+Kind Regards,
+Ken 

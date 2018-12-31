@@ -1,0 +1,5 @@
+Hi,
+I want to use DxDataBox with two way bindings. I think there is an error. I copied your demo to plunker and changed some code. 
+Plunker link: 
+When I press button first, databox is not shows correct date, in second trigger it shows.  
+Thanks. 

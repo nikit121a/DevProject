@@ -1,0 +1,5 @@
+Dear,
+I have the following not-persistent Class,
+I set one attribute as ImmeditePostData.
+How can I override the OnChange function for it?
+Any suggestions ? 

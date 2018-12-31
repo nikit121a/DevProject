@@ -1,0 +1,17 @@
+I'm experiencing a problem within the dxDatagrid control when a column contains a dxLookup control. This is what happens:
+When a new row is initialized within the datagrid, four of the five columns contain a lookup mechanism to suggest choices (once you enter enough characters). On lookup selection, the cell updates, and the grid row functions as intended. However, when the row is saved, the four columns with lookup mechanisms do not display their value; the 5th column (which does not use a lookup control) displays its value appropriately. 
+I've used alert() functions to read back each column's value, and the values are present. Though invisible, they are correctly populated.
+The invisible behavior continues. When loading the page, and the page model possesses data within the datagrid's datasource, the datagrid is blank (even the 5th column is now invisible). From my debugging, I know that the page model contains data; the datagrid just doesn't display anything. Even more odd, the datagrid suggests there is data as it doesn't display "No data" in the main body of the control.
+Here is a code snippet containing the dxDatagrid control:
+Here is a breakdown of the screenshots included:
+1) dxDatagrid_ColumnsLookups_DataSelected_PriorToRowSave
+Shows the page with controls for a new page object. I've used the lookup controls to populate fields and prepare to save the row.
+2) dxDatagrid_ColumnsLookups_DataSelected_PostSave
+I've saved my new row with all the values selected in the previous photo. You can see only the non-lookup column displays its value.
+3) dxDatagrid_ColumnsLookups_ModelSaved_PageLoad
+Shows a retrieved object after it was saved with datagrid rows, despite the invisibility issues. The datagrid for this segment of the ViewModel possesses data, even though you can't see it.
+4) dxDatagrid_ColumnsWithNoLookups
+I performed another page load of another saved model object, but commented out the ".Lookup(...)" attributes from each of the four columns. You can see that the data is visible.
+---
+What can I do to correct this invisible behavior?
+ 

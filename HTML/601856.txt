@@ -1,0 +1,1 @@
+What I am trying to do is show/hide an ASPxPanel based on the value of a field in a card.  So, when switching to a new card, it will look at the new card to determine whether to show/hide the ASPxPanel.  Any help would be appreciated.

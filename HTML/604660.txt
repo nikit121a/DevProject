@@ -1,0 +1,17 @@
+I wrote a routine to render a DataTable to a Bitmap to include in a SuperTip:
+  If Not IsDBNull(dataRowOver("Data")) Then
+                                Dim gridImageItem As New ToolTipItem()
+--->                           gridImageItem.Image = buildGridImageOfData(dataRowOver("Data"), gridImageItem.Font)
+                                e.Info.SuperTip.Items.Add(gridImageItem)
+End If
+My routine picks up the proper font off the ToolTipItem, but the antialiasing of the text I draw is different than what the DevExpress tooltips draw (see attached  text_rendering_different.png)
+I've attached a fully functional demo project also. - TooltipTextRenderingIssue.zip
+In my routine buildGridImageOfData I do all this:
+     Using g As Graphics = Graphics.FromImage(myBitmap)
+            g.SmoothingMode = SmoothingMode.HighQuality
+            g.InterpolationMode = InterpolationMode.HighQualityBilinear
+            g.PixelOffsetMode = PixelOffsetMode.HighQuality
+            g.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAliasGridFit
+But it just doesn't match. I've tried many permutations and cannot find it.
+Could you modify my demo project to get the texts to match pls?
+ 

@@ -1,0 +1,4 @@
+Hi DevExpress,
+I have a DataGrid with several columns, two of the columns are DateTime, a StartDate and an EndDate. I wan't to validate EndDate, in order for it not to start before StartDate (EndDate > StartDate ). I use the DateGrid with PopUp Edit.
+Regards
+ 

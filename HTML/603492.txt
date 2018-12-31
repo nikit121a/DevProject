@@ -1,0 +1,3 @@
+Hi, I have instance of DevExpress.XtraBars.Navigation.TabPane.
+What I'm trying to do is set Selected PageIndex:
+I've added some watches (screenshot in attachment) - this is the state after executing third line (at this point SelectedPageIndex should be already set to 1, but it isn't. Any ideas?

@@ -1,0 +1,9 @@
+Hi,
+i? have got an issue with a lookupedit and i have tried almost all other knowledge base articles, but i still can't fix it. 
+T?he situation:
+I? have got a user control on which there is a lookupedit. Everything is done in code, so binding, setting the edit value etc etc. The code loads data for the lookupedit into a datatable. After that the lookupedit's datasource, display member and value member are set through code. After that the Editvalue is also set through code. During the setting of the edit value i check the datatype and parse it if needed (like mentioned in another article).
+T?he above works if i just open a form with the control on it and set the edit value. The lookupedit shows the right data. BUT if i then change the edit value of the lookupedit the text show / selected doesn't change. The edit value changed event also doesn't fire.
+I do have found a way to make it work, which could give you some hints on what is going wrong / what i am doing wrong. If i open de lookupedit once, select a different value from the list the edit value changed event of the lookup edit get's fired. After that everything works as expected. So updating the edit value is instantly reflected into the selected text. 
+A?m i doing something wrong when i bind in code? At this moment all i do is set the datasource, display and value member. Should i do some binding stuff with the edit value? Because is that getting done in the control if a select a value from the dropdown?
+R?egards,
+Robert

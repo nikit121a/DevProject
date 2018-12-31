@@ -1,0 +1,4 @@
+Hi,
+Returning to the original problem: I could translate everything and show it well 
+   except for the toolbar menu, it is still English.
+I think this is translated in Hungarian, but it does not appear on the surface for some reason. 

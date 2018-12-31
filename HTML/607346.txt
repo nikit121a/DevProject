@@ -1,0 +1,2 @@
+I'm trying to setup a nested grid as in this example: 
+However, I'd like to block the user from selecting anything in the child grid. I tried the following with no luck.

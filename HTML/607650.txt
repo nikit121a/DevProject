@@ -1,0 +1,2 @@
+Thanks Nikolai!
+Is there any way to cancel the changes when clicking on the 'x' button? Because the changes are always applied on the popup close.

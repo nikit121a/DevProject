@@ -1,0 +1,3 @@
+Hi Support,
+Like in WinForm we are using your 'StateIndicator' component in normally.  But in Devextreme HTML-JS i have not fond the same. I mean can it possible in your Web platform as well ?
+I will be happy if you would please share me a solution on this.  My requirement is, i have a HTML Input element, which gives me the Value as in True or False. I want If the Input value is True, then the StateIndicator will show GREEN, if False then the StateIndicator will show RED simply.

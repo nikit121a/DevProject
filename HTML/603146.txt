@@ -1,0 +1,8 @@
+Try the following steps:
+1?. compile attached sample
+2?. open exe
+3?. "example.rtf" should be loaded automatically in FormCreate
+4. press Button SaveDocument
+5?. compare the output "example.docx" with "example.rtf"
+Y?ou will see, that the images are moved and the Text in the Textbox is not readable anymore (but is there).
+?

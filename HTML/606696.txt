@@ -1,0 +1,7 @@
+
+Hi there again,
+thanks for your great support in this case.
+The next question we have is how to get or set  the size and position of the ColumnChooser-Dialog?
+So is there a way to get/set the size and position of this window or is there a way to overwrite the whole template?
+Regards,
+Martin

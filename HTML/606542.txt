@@ -1,0 +1,7 @@
+One day I will be found dead at my desk and the cause will be excessive head bashing into wall while dealing with these ComboBoxEdit controls... 
+I have window with a simple comboboxedit using a simple datasource from my SQL database. 
+ The comboboxedit works great. I can see all the values just fine. The problem is... I load this page from a grid - mouse doubleclick. I want to pull the data from the GRID into the window so the user can see the values and decide whether to edit the values or not. 
+Inside GetTherapyEditor
+The reader returns the text value EXACTLY like the comboboxedit shows in the drop down. How do I get the text returned from SQL to show in the 
+ComboBoxEdit list - like in the attachment. 
+ 

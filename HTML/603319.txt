@@ -1,0 +1,6 @@
+Hello DevExpress!
+I use the bootstrap webapplication template from build 17.2.5 to create a new website with authentication model Identity.. The site created from the template works as expected. But if I update to the latest  Bootstrap/jQuery 4.00/3.3.1 from NuGet then the menu works fine until the browser window is so small  that the menu is collapsed to a button. When pressing the button nothing happens. Other buttons are not working either.
+Try my test site 
+ Buttons are not working. Reduce the browser window until the menu is collapsed and then press the menu button...
+Any suggestions? 
+Ole

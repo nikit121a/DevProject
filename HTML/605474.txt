@@ -1,0 +1,4 @@
+Hi,
+Is it possible to draw lines between boxes as shown in attached image ? I have to shown number value in each box and thickness of lines between boxes depends on  value number.
+Please reply as soon as possible.
+Thanks in advance.

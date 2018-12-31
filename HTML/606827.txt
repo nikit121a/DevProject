@@ -1,0 +1,4 @@
+Hi guys
+Aspxcallbackpanel css classes afftects a style behaviour in my page. As you can see in the printscreen atached, the text inside the aspxcallbackpanel has a different style of the outside one. 
+This page is simple, only text formatted by bootstrap. I just need the aspxcallback doesnt affect my page's content styles. 
+How can I fix it?  

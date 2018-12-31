@@ -1,0 +1,4 @@
+Hi,
+I'm looking for a Syntax hightlighting control for ASP.NET  like the Windows Control Richtext Editor.
+Thanks for help.
+Regards J?rgen 

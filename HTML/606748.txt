@@ -1,0 +1,5 @@
+In devexpress 13.2.8 aspxgridview gives error 
+Type 'DevExpress.Web.ASPxGridView.GridViewCommandColumn' does not have a public property named 'SelectAllCheckboxMode'.
+shown in below link  
+and above properly working in 16.1
+Please provide solution to use it 13.2.8 

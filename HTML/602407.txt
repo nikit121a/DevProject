@@ -1,0 +1,7 @@
+Hi,
+I have an application with a master-detail view. I try to drag and drop details from 1 master to another (see video). I can't manage to refresh the 2 changed detail-lists after dropping a detail on another master.
+I have tried to collapse and expand all master rows but that turns into a null-reference.
+I have attached my testproject.
+I'm looking forward to your answer.
+Best regards
+Steven 

@@ -1,0 +1,17 @@
+Dear support,
+I am experiencing a problem with dxPopUp : SyntaxError: expected expression, got '<'.
+In the project the problem only occurs when there are not partials views loaded on the page with other DevExtreme items. However I haven't been able to reproduce this behavior in a sample project. So far it has cost me 3 days to  reduce the problem to the contenttemplate of the dxPopUp control.
+As you can see in the sample project on line 16 of the index.cshtml, I used  a TextBoxBuilder.ToString() method to render the text in the content-template. I do this because in the big project it will also happen like this but in a bit more complex manner.
+In the context template  there are 2 buttons to demonstrate that the first button will be rendered, but the second button after the dxTextBox will not be rendered, because of an error in the console: "SyntaxError: expected expression, got '<'".
+I think the source of this problem might be in the rendering of the contect-template, because the code looks like:
+The "</<% %>script>" look a bit strange to me. These are not rendered by the TextBoxBuilder, because it output looks like:
+After discovering this i thought the problem might be with a script tag in the content-template. However if you enable line 17 and put line 16 in comment. You will see that a simple script statement is working without an error, but the rendering is still weird.
+line 17:
+rendering of the pop-up with line 17 enabled:
+But as you can see it is only with the script closing tag.
+I also put in line 33, so you are able to see that rendering of DevExtreme controle is working bij using the ToString() method.
+As I mentioned before in the real project this problem on occurs not always, most of the time it is working when other DevExtreme controls are rendered outside of the pop-up. However I am not able to reproduce this in the sample project. However reproducing the problem is the most important. 
+I looked a number of tickets to see if someone else has this problem as well. I tried different suggestions, but they do not solve this problem.
+ With kind regards,
+Niek-Jan 
+ 

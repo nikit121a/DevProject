@@ -1,0 +1,7 @@
+
+
+Other similar error:
+The "scroll to top" also happens on the Tab Panel
+Open it on the preview in the windowed mode then scroll to the botton, then click on the last visible "More space", it will scroll to the top as well.
+Thank you
+Diogo

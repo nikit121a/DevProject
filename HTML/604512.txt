@@ -1,0 +1,4 @@
+Hi Dears,
+please check the attached snapshot I have numbers bar appear at the right side of the chart control I have the Y axix Alignment Near not far and it appear at the left as expected,
+but I have other numbers appear at the right, what is this and how can I remove it???
+ 

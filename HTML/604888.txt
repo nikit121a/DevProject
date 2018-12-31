@@ -1,0 +1,1 @@
+I have attached a sample application that demonstrates the behavior.  If you run the program as I've delivered it, you will see the bad behavior.  The tabs of the TabControl overlap the window's title bar.  If you add a top margin to the DXTabControl, such as Margin="0,2,0,0", the control will then position itself correctly. 

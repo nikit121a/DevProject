@@ -1,0 +1,4 @@
+Hello.
+I try export some text from TdxRichEditControl as OpenXML format, and found 2 errors
+1) Lost background color in table;
+2) The bottom image is cropped 

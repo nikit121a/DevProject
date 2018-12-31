@@ -1,0 +1,1 @@
+Working with devexpress MVC tools - After publishing and deploying the code in IIS 8.5 server with https call devexpress tools are not getting loaded. Please resolve the above issue.

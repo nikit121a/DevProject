@@ -1,0 +1,3 @@
+Hello,
+ I tried to search on Documentation but i can't find any event for a row deletion(right click + remove).
+Can you give me some hint of how could i do that?

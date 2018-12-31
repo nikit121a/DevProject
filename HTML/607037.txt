@@ -1,0 +1,9 @@
+Hi,
+We've just upgraded our application from DevExpress 15.2 to 17.2.4. We're still using the 
+ in our MVC application, but since the upgrade it seems it doesn't allow linebreaks anymore in the Appointment.Subject. We get the Javascript error 'Invalid or unexpected token" (see screenshot). We didn't change our code at this point during the upgrade. 
+We use a StringBuilder in VB.NET to create the subject string and use StringBuilder.AppendLine to create the linebreaks.
+In the Appointment.Description linebreaks are still allowed, but we want it also in our appointment.subjects.I already tried several things, but it doesn't work
+Can you help us out?
+Best Regards,
+Martijn 
+ 

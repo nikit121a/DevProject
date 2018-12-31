@@ -1,0 +1,5 @@
+Hi,
+I have an application with an asxpscheduler and a aspxgridview displaying and editing the same (appointment) table.
+I would like to refresh one control when the other  finishes editing data.
+Can you recommend some way(s)  please ?
+Thank you  

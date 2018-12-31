@@ -1,0 +1,12 @@
+I  try to implement  refresh for documents of a tabbedView.
+There I have 2 questions.
+1. What is the best way to replace the control of a document?
+2. What is the best way to show the refresh-button at the header of a floated document?
+To replace the control of the document is not possible. There is no setter.
+To replace usercontrol at the controls of the usercontrols parent doesn?t work, because "tabbedView.Manager.GetDocument(userControlNew)" returns null.
+The only way I found, is to create a new document and remove the old.
+But there are a lot of things to do for size, location, groupindex...
+It seems to be a lot of overhead!?
+I made a sample project of my solution.
+Please tell me if there is a better way for question 1 and 2.
+If it is the best way, perhaps the sample can help someone.

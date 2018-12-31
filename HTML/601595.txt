@@ -1,0 +1,11 @@
+Hi!
+In this code that you sent other day.. 
+- the "headers[i].innerText." get the CAPTION NAME of item..
+How I get the ITEMNAME ? (pivot1, gauge1, grid1, grid2..)
+thanks!
+for (i = 0; i < headers.length; i++) {
+                if (headers[i].innerText.indexOf('Grade') != -1) {
+                    // headers[i].style.backgroundColor = fzzbc[k-1];
+                    // headers[i].style.fontSize = "80px";
+                }
+            } 

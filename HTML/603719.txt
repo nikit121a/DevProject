@@ -1,0 +1,3 @@
+Is there any documentation on which DevExpress libraries support .NET Standard and/or .NET Core and which versions they support?
+Specifically does DevExpress.Data support .NET Standard?  If so, which version?
+Thanks!

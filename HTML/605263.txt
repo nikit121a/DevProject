@@ -1,0 +1,7 @@
+Hello,
+I have a grid that will display the results of a SQL Query.  I have no control over what the user will run as a SQL select statement.  
+When I select from a table with an Image field - (Blob) that is used to contain Text - I only see No Image Data in the grid column.  The attached image shows a split screen between two programs.  
+The top gird  shows how I would like it to be displayed.  If there is any data in a Blob field - I would like to display an image in the column - basically showing a document that contains data.  If the field is Null - then I will display a empty document image.  However, the lower part of the image shows what I am currently seeing.  Basically - in the lower part of the image you see how my program currently works.  It shows No Image Data - even if the field is not Null.   This is a little misleading to the user.  
+Do you have any thoughts as to how I might do this?  I realize that I will have to check the column type (database or grid?) - and then check if the field is null or not.  Do I change the columns types on the fly?  
+I don't suppose you already have a sample of how to do something like this? 
+Bradley  

@@ -1,0 +1,7 @@
+Hi,
+I have a BootstrapPolarChart and I am trying to set a min and max for the axis. I have done this for normal line/bar charts
+by adding a axis to valueaxiscollection but it doesn't seem to have one.  It does have a strip collection I added a strip with startvalue and
+endvalue but it doesn't work. 
+Is this possible?
+Kind Regards,
+Heijmen

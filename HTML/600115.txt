@@ -1,0 +1,12 @@
+hello, i want to create a game tool by devexpress, so i need draw some special graphics by direct2d or Gdi+.
+i have creat a simple demo for this,
+first, i create a Form, and drag a xtrascrollablecontrol on this form, set Dock = Fill. then add a panelcontrol to this xtrascrollablecontrol, set panelcontrol's minsize = (1920,1080).
+then add a  picturebox on the panelcontrol, set Dock = Fill.
+i have create a Bitmap, and set PictureBox.Image with this Bitmap .
+on panel Paint event, i draw on this bitmap. 
+This is a lite version of my tool , my tool is more complex.
+i can get the mouse down and mouse up event, by register the events of panelcontrol with PictureBox.enable = false. but i can't find any method to get the key down/key up event. i wan't to make my tool support Ctrl+C/Ctrl +v, so i think i must get these events.
+is there any method to get the events ? Or if there are other alternatives here?
+attachment is a simple demo. 
+ 
+thank you. 

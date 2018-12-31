@@ -1,0 +1,5 @@
+I used one of the examples given for adding "watermark". I load the document into richeditcontrol and the "watermark" covers up the header. But when I save the document as RTF and open in WORD the header is not covered up by the "watermark" image. 
+so by modifying the procedure for adding the "watermark" to put the image lower than the header and made it smaller. in the richeditcontrol it still overlays the header but when saved and opened in WORD it shows the image past the header like I was anticipating. 
+I changed the createposition and the size of the shape object. But in richeditcontrol it still overlays the header.
+I don't care about the position and size as long as it doesn't overlay on top of the header.
+ 

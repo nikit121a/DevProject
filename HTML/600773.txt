@@ -1,0 +1,5 @@
+
+
+Could you help me, as I return the collection of the method AspxFileManager.GetAllItems. How I can select the item on client,
+Is it possible?
+AspxFileManager.GetItems  returns a collection of no more than 300 objects. AspxFileManager.GetAllItems returns a collections with all items, but item(file).SetSelected not working for this item.

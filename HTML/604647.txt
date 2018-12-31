@@ -1,0 +1,1 @@
+Attached please find the image showing the extra padding-right problem in native scrolling mode. I am using native scrolling mode with a filter row. I had custom color for the grid header. Somehow I there is an extra 17px padding-right to align the column. I would like to get rid of the background color which looks weird on UI. Could you please let me know how to do that? thanks

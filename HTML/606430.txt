@@ -1,0 +1,5 @@
+Hi,
+In the attached screenshot, the highlighted control in the screenshot is TextEdit. It is disabled. When the control is disabled, the control looks like focused.
+I set AppearanceDisabled, border color to Navy, even no color it looks focused like the Title textedit control showing (Which is originally focused)
+Regards,
+Anil 

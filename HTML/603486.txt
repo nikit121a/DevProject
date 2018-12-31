@@ -1,0 +1,4 @@
+Hallo
+Using CommandBarStyle="Ribbon" for the SpreadsheetControl, is it possible to use another look for the buttons  other than "flat"?
+Ideally I want the same look that RichEditControl creates.
+Or is the only option to generate the ribbon control?

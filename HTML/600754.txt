@@ -1,0 +1,9 @@
+Hello,
+We have an issue with the "ConvertReportJsonToXml" method of the "ReportDesignerExtension" class.
+Here is the code:
+JSON:
+The result in XML:
+In the generated XML, all report information are lost (bands, etc.)
+Is it a known issue?
+Regards,
+L?o

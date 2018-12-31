@@ -1,0 +1,4 @@
+In the context of the problem 
+, watch the video.
+Here is the code for the example:
+The "Position" and "Department" related by many to many. After adding the "Department" to the collection of "Departments" from the "Position", I expect that the link request in the current transaction will return the collection with the added "Department".

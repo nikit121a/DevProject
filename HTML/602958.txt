@@ -1,0 +1,2 @@
+Dear All,
+I have a Mvc form which has multiselect gridlookup edit. To select record we must use mouse to open and select items. Is there any way to open gridlookup when i focused that control and auto focus to search panel or any best practice to use this control without using mouse. 

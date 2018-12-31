@@ -1,0 +1,15 @@
+Hi Dears , 
+I want to change the size of the caption inside my dashboard Item , i have lots of item such as cards , pie and charts 
+i am using javascript to change label size  and its working fine but i am unable to change caption of the item
+if (e.ItemName == 'pieDashboardItem1')
+     {
+         var chart = e.GetWidget()[0];
+         var chartOptions = chart.option();
+         $.each(chartOptions.series, function (_, series) {
+             if (series.label != undefined) {
+                 series.label.font = { size: 22 };
+             }
+         });
+         chart.option(chartOptions);
+     }
+what can i do to enlarge the caption  size?

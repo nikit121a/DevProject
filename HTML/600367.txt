@@ -1,0 +1,6 @@
+Hello,
+I currently test your AspxDashboard component, and I Try all WorkingMode but I never view the switch button and the dashboard list who apear.
+I want a dashboard view like 
+ (with the viewer button)
+How can I show this?
+Thanke in advance.

@@ -1,0 +1,6 @@
+Hi,
+i used your example:
+to customize my dashboard items.
+My code is:
+When I run it in my development studio it works fine, but when I publish it to IIS then its not working (no filter row for grid etc.)
+Thanks

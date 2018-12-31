@@ -1,0 +1,9 @@
+See example app:
+Reproduction steps:
+1. Open example app
+2. Open browser debug toolbar
+3. Click the button to open the popup
+4. Click the close ("X") button or click the "Toggle" button to close the popup
+5. Debugger should hit breakpoint inside  `popup_onHiding()`
+The defect is that the breakpoint is never hit because ` popup_onHiding()` is never called even though it is bound to the popup:
+ 

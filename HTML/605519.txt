@@ -1,0 +1,15 @@
+Hello,
+I have a dxScheduler with an initial dataSource empty (dataSource: null).
+I would like to populate the scheduler with data depending on a select option, with the following Javascript:
+const myScheduler = document.getElementById("scheduler");
+fetch(calendarDataUrl).then(data => {
+        return data.json();
+    }).then(result => {
+        // the refresh of scheduler data here
+        myScheduler. ????????
+   });
+What is the best way to populate the scheduler with the newly fetched data?
+A related question, we would like to re-populate another scheduler with newly fetched monthly data on a month-change click event. How could this be accomplished?
+NB! We are using straight Javascript/jQuery, no Angular.
+Regards,
+Joar Olsen

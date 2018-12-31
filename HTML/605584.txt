@@ -1,0 +1,4 @@
+Hi,
+In the scheduler, the description not show anymore in the list box (for object dxsch:ResourcesPopupCheckedListBoxControlSettings).  
+Description of selected items still visible on the dropdown header, see attachment  for result exemple with items Unassigned and Albert Sergent have been selected.
+The only property set for the ResourcesPopupCheckedListBoxControlSettings is SchedulerControl="{Binding ElementName=scheduler1}" 

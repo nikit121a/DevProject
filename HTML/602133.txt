@@ -1,0 +1,10 @@
+Hello
+I need to drag a node from one parent to another.   
+For example, in the top part of PictureOne - attache d, I need to move the item at 1. to the position at 2.  At the same time I need to change the data values of these items so that the drag-and-drop is represented in the database.
+That is the problem.  When I make no data changes, the TreeListControl does its thing and the UI looks great - the drag-n-drop is represented as expected.  Of course when I close the app and open it again the changes have not been persisted.
+When I make the data changes in the DropRecord event, the UI looks like the bottom half of the attached image - PictureOne.  It displays that two items have been dragged to the new parent.  The changes are persisted to the database correctly, and when I close the app and re-open it, the results of the drag-and-drop are displayed as expected.
+NOTES:  
+ - the parent and child items in the Tree are different things.  They are not the same things, with different values - they are not all Employees like most of the sample code. 
+ - I am using Entity Framework as the model for the app.
+ - Idea: can I turn off DevExpress' handling of the Drop and let my code and Entity Framework handle that?   However, I love the target pointer thing that tells the use where they are dropping the item.  : - )   If I have to I can do without it. 
+Thanks 

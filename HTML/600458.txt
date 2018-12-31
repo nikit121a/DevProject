@@ -1,0 +1,9 @@
+So i used this to override the click event on a list view row : 
+So it triggers, but i cannot get the current object 
+I tried :
+e.InnerArgs.CurrentObject
+e.InnerArgs.Action.SelectionContext.SelectedObjects[0]
+e.InnerArgs.SelectedObjects[0]
+View.CurrentObject
+All of them return the first row, not the one i click. 
+And there is another problem. After the event is handled all the rows in the list appear selected. Why is that ? Either way, i dont need the user to be able to select multiple rows (because i am showing a list of nonpersistent objects that are in fact report names). 

@@ -1,0 +1,2 @@
+Please see the attached sample, where you can reproduce the problem. When a template is settled in a helper class, a exception is throw.
+Simply run the project and expand the first node.

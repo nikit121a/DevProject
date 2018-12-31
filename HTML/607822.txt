@@ -1,0 +1,3 @@
+Hi,
+I am currently working with a gridcontrol in card view. When I drag one of the cards to a drop point it is removing the card from the gridcontrol. Is there a way to turn that feature off. I want to drag the card to a location and drop, but leave the card in the gridcontrol.
+Thanks,

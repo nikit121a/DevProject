@@ -1,0 +1,5 @@
+Hi Support,
+ I can't seem to find a way to provide a list of connections in code to the end user report designer when creating a new report (screen shot attached). I don't want the end user to fill in the connection wizard for every new report. 
+I assume I need something like the following link but for WPF? 
+Any help is appreciated.  
+Thank you.

@@ -1,0 +1,8 @@
+Hi folks,
+i'm trying to add predefined DataSources to the  Data Source Wizard of the AspxDashboad Control.
+Adding a SQL type database  works like a charm. The question is: How to handle Excel/CSV/XML DataSources. 
+I read this 
+ and your comment:
+ You recommended to create and use "Excel Data Sources". However, i do not know how to integrate this in the DataSourceWizardConnectionStringsProvider? Because the DataSources, which should be added to the wizard, are manually created by the end use, i think i need the DataSourceWizardConnectionStringsProvider for creating the entries in the Data Source Wizard?
+Best,
+Micha 

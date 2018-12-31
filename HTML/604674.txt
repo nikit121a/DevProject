@@ -1,0 +1,4 @@
+Hi,
+I have a GridView that is in batch edit mode.  I'm trying to set up all the event handlers from JavaScript instead of in the Razor page.  I have it all working except for setting ValueChanged on the edit text box.  On the server side, I would do this:
+But when I instead try to set this on the client-side in the  MVCxClientGlobalEvents.AddControlsInitializedEventHandler event, it doesn't seem to work.  The event is not fired when I change the value in the column.
+Thanks for the help.

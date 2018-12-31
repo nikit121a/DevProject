@@ -1,0 +1,6 @@
+Hi There,
+I'm making a site where a user can login and work indirectly with an Azure Storage Account using the FileManager and FileUpload controls. 
+However, once AccountManager.RegisterAzure is set, how can I wipe it a reset it if the user logs off and  on again (with a different username) so they can see a different Azure SA? There doesn't appear to be a .dispose or .clear method for AccountManager. I get 'Account name already exists.'
+How can it be recycled?
+Cheers
+Jason. 

@@ -1,0 +1,8 @@
+Hy Supportteam,
+i am currently testing easytest and recorded a simple script wtih logon and calling about action!
+The Field Mandant in Logon DetailView is a LookUpEdit!
+I always get the error:
+Cannot change the 'Mandant' control's field value. The control is read only, line 5
+How could i fill the Mandant Field?
+Regards,
+Niki

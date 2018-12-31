@@ -1,0 +1,6 @@
+I have a grid that is has some row cell values in some columns that are duplicated.  I would like them to only show for some rows.
+I put together the following code but I am getting an error on e.RowHandle.  The error is 
+"RowHandle is not a member of 'CustomColumnDisplayTextEventArgs'
+What I would like to be able to do is when the cell value of colTransaction on a particular row, is not equal to "Invoice", do not show the value in the cell of the same row in column colInvoiceDate.  Or alternately, only show the invoice date when the transaction is "Invoice".
+Can you give me an idea of what is wrong?  TIA
+  

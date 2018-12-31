@@ -1,0 +1,5 @@
+Hello, I already view 
+, about filters... What I need is to have two or more filters (combos) into the same listview... Is it possible with XAF?
+I'm sending you an screen with a mockup...
+Best regads,
+Daniel

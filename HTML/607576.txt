@@ -1,0 +1,3 @@
+Hello,
+ I have GridControl  and one of the column has a combobox. GridControl is bound the a UserList (User Class ). Combobox is bound to a UserGroupList (UserGroup Class). I want to bind Combobox's SelectedValue to a User Class property but I could not figure it out.
+What should be the XXXX ?I. I could not get the bound user class from GridColumn. 

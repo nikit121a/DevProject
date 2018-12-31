@@ -1,0 +1,4 @@
+In my Angular component template I have a dxDataGrid with a column defined like so:
+What I would like to be able to do is bind 'calculateCellValue' such that it passes the value to an Angular Pipe. If my value was defined as a component property it would have been done like so:
+Ideally I would be able to do something like this:
+The issue is that in the context of this binding I don't know how to get this `columnData` like I would like to. Is there a way to achieve what I would like to do?

@@ -1,0 +1,22 @@
+Hello - I am building a grid from code behind and my add column function looks like this:
+Protected Sub SetGridColumns(ByVal grd As ASPxGridView, ByVal grdColumnCaption As String, ByVal grdFieldName As String, ByVal grdDisplayFormatString As String, ByVal bShowInCustomizationForm As Boolean, bIsVisible As Boolean)
+        Dim bField As DevExpress.Web.GridViewDataTextColumn = New DevExpress.Web.GridViewDataTextColumn
+        bField.Caption = grdColumnCaption
+        bField.FieldName = grdFieldName
+        bField.Visible = bIsVisible
+        If grdDisplayFormatString <> "" Then
+            If grdDisplayFormatString = "d" Then
+                bField.PropertiesEdit.DisplayFormatString = grdDisplayFormatString
+            Else
+                bField.PropertiesEdit.DisplayFormatString = "M/d/yyyy"
+            End If
+        End If
+        bField.ShowInCustomizationForm = bShowInCustomizationForm
+        If bShowInCustomizationForm = False Then
+            bField.Settings.AllowDragDrop = DevExpress.Utils.DefaultBoolean.False
+            bField.Settings.AllowGroup = DevExpress.Utils.DefaultBoolean.False
+        End If
+        grd.Columns.Add(bField)
+    End Sub
+all works fine until I have a column that are dates - its not sorting it correctly - itsonly sorting by the month (first) number?
+ 

@@ -1,0 +1,14 @@
+To help anyone who wants to create encrypted sqlite database. Please make this post public.
+Try sqlitestudio.pl as editor.
+For Database Type, choose System.Data.SQLite while connecting.
+            // Commented due to SQLite connection
+            //if (ConfigurationManager.ConnectionStrings["ConnectionString"] != null) {
+            //    winApplication.ConnectionString = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
+            //}
+            
+            // Create sqlite db file if one does not exists
+            string dbpath = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location) + @"\" + dbname;
+            if (!File.Exists(dbpath)) System.Data.SQLite.SQLiteConnection.CreateFile(dbpath);
+            //connecting to db file.
+            string connectionString = SQLiteConnectionProvider.GetConnectionString(dbname, dbpassword); // Encrypted connection
+            winApplication.ConnectionString = connectionString; 

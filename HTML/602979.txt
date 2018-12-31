@@ -1,0 +1,2 @@
+I have the form with many items located in the layout controls.
+I want to add the Navigation Pane in the right hand side of the form, same way as Visual Studio. When the user click the NavPane,it should auto expanded on top of the layout controls and show items inside such as grid view...I tried but can't get the nave pane to have the size required (to put the grid view there) and stay on top of the layout control group in the left hand side. Please help 

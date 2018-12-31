@@ -1,0 +1,12 @@
+Hi Guys,
+my problem is when I have built a treeview using virtual mode, clicking on the node causes an error.
+I have attached a pared down version of my code. The error only happens on clicking the node text, clicking plus or minus works as expected.
+Server Error in '/' Application.
+An unhandled exception occurred during the execution of the current web request. Please review the stack trace for more information about the error and where it originated in the code. 
+System.InvalidCastException: Unable to cast object of type 'DevExpress.Web.Bootstrap.BootstrapTreeViewVirtualNode' to type 'DevExpress.Web.Bootstrap.BootstrapTreeViewNode'.
+ 
+ 
+ Microsoft .NET Framework Version:4.0.30319; ASP.NET Version:4.7.2556.0
+Cheers,
+Rocky
+ 

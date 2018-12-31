@@ -1,0 +1,3 @@
+Hello,
+I have a gridview without master detail and I want to indent datarows like a tree view based in a column data.
+How can I do it?

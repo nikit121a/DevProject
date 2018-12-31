@@ -1,0 +1,32 @@
+I'm using postgres sql as my datasource.
+I have configured the dashboard(s) to use a ConnectionString defined in App.Config.
+I modify the connection string for different environments (eg development, testing, stage) and the correct string is picked up by the dashboards.
+However.
+Postgres requires you to specify tablenames and/or queries using the catalog prefix:
+eg prefix1.mytablename
+These prefixes change between the different environments I am using.
+Is there any way I can overwrite the specified TableName / SQL for a query  before the dashboard connects to the database for data?
+I have tried with ConfigureDataSource (but I don't get access to the queries) and DataLoading (doesn't fire for SQL data sources)
+eg I want to change this (which is saved in the dashboard file)
+<Query Type="SelectQuery" Name="MyQueryName">
+        <Tables>
+          <Table Name="
+.mytablename" />
+        </Tables>
+        <Columns>
+          <AllColumns Table="
+.mytablename" />
+        </Columns>
+      </Query>
+to the equivalent of this, but in code, at dashboard loading time
+<Query Type="SelectQuery" Name="MyQueryName">
+        <Tables>
+          <Table Name="
+.mytablename" />
+        </Tables>
+        <Columns>
+          <AllColumns Table="
+.mytablename" />
+        </Columns>
+      </Query>
+I also need the user to be able to switch between diff erent dashboards using the viewer and have the correct prefix applied each time, not just for the first default dashboard!

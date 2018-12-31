@@ -1,0 +1,2 @@
+I have a persistent class based on an existing database that doesn't show a selection column in the listview but I've been unable to determine why.
+I've changed the DataAccessMode back to Client and removed all hidden actions but this had no effect. Do you have any suggestions.

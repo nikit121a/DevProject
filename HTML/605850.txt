@@ -1,0 +1,5 @@
+One question more,
+how can I obtain the exact height of a TileView?
+ I use the Skin Office 2016 Colorful, and a TileView within a LayoutControlItem within a LayoutControl, and I set the LayoutControlItem MinimumSize height to this.tileView.OptionsTiles.ItemSize.Height x number of items shown, but it seems that it is not exactly that height.
+Could you help me?
+Thanks!

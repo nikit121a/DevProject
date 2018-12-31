@@ -1,0 +1,5 @@
+Hi,
+We are using xtrareport and exported the report to .docx file. Now if we edit the word file then text are not editable in correct way. The Xrlabel are showing some border or box and adding further text in it got inside the box only. See the attached image
+Let me know what is missing in report.
+Thanks
+Rohit 

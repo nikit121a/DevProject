@@ -1,0 +1,5 @@
+Good morning.
+We'd like to check if a TcxRichEdit control value has changed whenever the user exits. For our TcxMemo we compare EditValue to EditingValue and that works just fine. But when we do a similar comparison for TcxRichEdit we always get a mismatch because one of the two has RTF values in it. 
+We need that comparison because the OnChange function fires all the time and we need to distinguish a true change from a repainting or some other action.
+Could you tell us what the proper comparison is to ascertain equality?
+Thanks!

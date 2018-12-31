@@ -1,0 +1,6 @@
+Hi We recently upgraded from version 13.1 to version 17.1, and there has been a change of behavior that we have some trouble finding an effective solution for...
+We have a grid bound to a DataTable via a BindingSource component, and all seems to be normal 
+BUT.
+In the old version, when typing in filter for a column with the AutoFilterRow, the Position of the BindingSource was automatically set to the first filtered row in the grid, and all other controls changed according to this which was what we wanted.
+Now in version 17.1 when having ImmediateUpdateAutoFilter = True as we want, the grid is filtered as wanted, but the position of the BIndingSource stays the same until I move focus away from the column in the AutoFilterRow
+I have handled it by adding the code below, but it is not extremely effective. Is there any other way to get the old behavior back ?

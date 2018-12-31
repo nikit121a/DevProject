@@ -1,0 +1,2 @@
+How to avoid alphabets and special characters (except :) in the search filters. If the column type is string.
+for more details please  find the attachments.

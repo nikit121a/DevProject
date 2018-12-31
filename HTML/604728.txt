@@ -1,0 +1,7 @@
+Hi Team,
+  
+ Could you please help with this?
+please note:Values for the chart is not fixed. It varies month on month. So whatever fix is given it needs to work when new values are supplied for the chart without developer intervention.
+I have attached the sam ple that mimics the issue.
+Thanks & Regards,
+shwetha

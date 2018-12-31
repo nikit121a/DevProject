@@ -1,0 +1,6 @@
+I want to export the data from a gridcontrol to excel, but what ever I try, it keeps rounding values to 2 decimals??
+I have this code:
+ XlsExportOptions expopt = new XlsExportOptions(TextExportMode.Text, true);
+ expopt.ExportMode = (XlsExportMode) DevExpress.XtraEditors.Repository.ExportMode.DisplayText;
+ grview.ExportToXls(sfd.FileName, expopt);
+ 

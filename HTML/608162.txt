@@ -1,0 +1,4 @@
+Hi, I want to add a parameter to every new report I create with the end user Designer. I tried it with DocumentOpened event, where i add it like this:
+Unfortunately my application crashes if I right click this parameter in the designer.
+If it plays a role I have a custom Report Storage and implementation of IConnectionStorageService. I tried to add the parameter in the CreateNew() Method of IReportStorage but this works only for empty reports from wizard. From Database the parameter will disappear.
+What would be the right way to add a parameter? Thanks!  

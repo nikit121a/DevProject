@@ -1,0 +1,8 @@
+Hello,
+I have two objects which I would like to view in a PropertyGridControl. The second object is a property of the first object and containing three string properties.
+Additonal, I have a List of strings. These strings are the source for a combobox which should be added to any property of the second object.
+To do this I have to go to the correct row of the PropertyGridControl. Then I have to assign the combobox
+The ChildRows Property of a child is always empty. In this case it should contain the three rows of the second object. At the moment, I cannot add the editor to the rows I need.
+I have attached an example project for verification.
+Kind regards
+Alex

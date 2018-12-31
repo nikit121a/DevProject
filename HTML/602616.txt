@@ -1,0 +1,4 @@
+range filter on mobile devices.
+range filter on mobile devices.
+When a panel has the intervalor filter component. Sliding does not work to see another component.
+ 

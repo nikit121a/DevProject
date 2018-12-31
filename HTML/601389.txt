@@ -1,0 +1,6 @@
+When setting the Properties.ReadOnly property of a RadioGroup control (Winforms), I like the current font color look of the radio buttons, as if they are not disabled.  However, when hovering over the radio button, the circle color becomes filled in as if the user has the option to select it and change the value.
+My question is - how do we disable the color change of the radio button (in a radio group control that is set to readonly) when the mouse is hovered over?  
+I know that we can use the skin to set the hover color, but there is only an option to set the hover color that applies to the control whether the it's read only or not (no specific hover color for readonly).  Also, I know that disabling the radio button disables the hover color from changing, but I do not like the light (disabled) appearance of the radio button text and circle and there is no AppearanceReadOnly.BackColor  property that can be set for either the radio button or radio group.
+Thanks,
+Eric
+ 

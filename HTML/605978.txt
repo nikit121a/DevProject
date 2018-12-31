@@ -1,0 +1,6 @@
+Hi,
+How I can refresh text after richeditcontrol resize
+If scroll placing on end of document - a blank space appears at the end of the text
+If scroll is not at the end of the text   - all right
+Attached project with my code
+ 

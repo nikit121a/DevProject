@@ -1,0 +1,7 @@
+Team,
+My Item source of treelist view is bound to data table . I want to change the background color of the selected cell in a row after I change the cell value.
+If I change another cell on the same row , then I want to revert the cell color which I previously altered. So at a time, there will one cell on the row which will have this color change. 
+How can I change this through behavior/Converter in optimized way. I don't want UI Thread to hang for long to revert the color of the row.
+example:
+Row 1 Cell 1 -> Change Value --> Color changed from default background to green
+Row 1(same row) Cell 2 --> Change  Value --> Color change from default background to green . and cell 1 background change back to default.

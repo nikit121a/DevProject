@@ -1,0 +1,5 @@
+I have been playing with a test application to get used to some of the controls.  I've been taking this information and am slowly adding to my application.  I've found I would like to add a new bar so I can have a couple of static labels to sit just below the ribbon control and above the Navbar and document manager area where the documents will show.
+The attached image shows a purple area where I would like to see the bar to show up, moving the rest of the controls down.  The test application is the one Dmitry sent back to me recently in 
+. 
+Can you help me figure out how to add the new bar?  I've tried adding a bar manager and tried to use the current ribbon to add a new bar but nothing shows up under the ribbon, only at the top of the form or bottom.
+Thank you 

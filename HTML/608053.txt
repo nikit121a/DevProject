@@ -1,0 +1,12 @@
+Hi 
+Please find demo attached.
+In scheduler you will see Budget and Journal section for a date. In which Red  one is non editable and green one is editable.
+And you can not move task from budget column to journal column. you can do editing and adding in only Budget column. 
+You can do anything with task in Journal column. Now this is how the demo works.
+Now I am looking to just copy and paste Red one task to Budget section and 
+Ability to move task from Journal-column by dragging a journal entry to the Budget-column. And the one we copy should exist there.
+Its like a copy of Journal-column task.
+How to achieve this. Can you make changes in demo.
+And one more thing how we using keyboard copy and paste task/ or any other options you provide in your control?
+Thanks
+ 

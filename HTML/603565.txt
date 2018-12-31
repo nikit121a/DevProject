@@ -1,0 +1,5 @@
+Hello,
+Hereby i have attached a screenshot of my one report
+I want to fill up the highlighted portion to fit the report output in full page width of browser.
+And at the same time when user exports the same report then the result will exported into A4 size page.
+can you please let me know how can i achieve above ? 

@@ -1,0 +1,14 @@
+Hi,
+After upgrade to 17.2.5 we get an error when trying to retrieve the displayName from our bindings.
+Example:
+this.getBindingValue('parameter_1')[0].displayName();
+The object:
+{displayName: ?, uniqueName: ?}
+displayName:? ()
+uniqueName:? ()
+__proto__:Object
+The function uniqueName() works but not displayName()
+Error message in console:
+Regards
+Jens
+ 

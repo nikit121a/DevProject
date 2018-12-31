@@ -1,0 +1,4 @@
+I'm using GridListEditor in my project.
+In his cells are the ChechekBoxes. One of the columns was to select everything.
+After the DevExpress component is upgraded to version 17.2
+another column became Select All 

@@ -1,0 +1,3 @@
+After upgrading to 17.2.5 I get the following error when the application tries to initialize. How do I fix this?
+It should be referencing 17.2.5 how do I update this information in the build?
+System.IO.FileLoadException: 'Could not load file or assembly 'DevExpress.Persistent.BaseImpl.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)'

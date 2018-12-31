@@ -1,0 +1,5 @@
+I have a grid with an unbound column used to display a running total of the Amount column all rows.  This seems to work properly.
+However, if I change the sort in the grid, the recalculation of the running total does not trigger.
+Can you give me an idea of what I can do to make it trigger when I sort.
+TIA
+ 

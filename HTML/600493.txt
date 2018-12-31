@@ -1,0 +1,3 @@
+
+How about other operations than CRUD?. I want a dynamic Context Menu to call any operation in the Controller.
+Regards

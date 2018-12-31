@@ -1,0 +1,10 @@
+Hello DevExpress Team, 
+I am using a TreeView as a content template for a dropdown box. 
+To make the TreeView update its content automatically depending on the selection of another dropdown box 
+I bound the datasource of the TreeView to a knockout observable. 
+My code works so far as the observable is updated, but the TreeView shown in the dropdown box is not. 
+What are possible issues causing this problem or are there any alternatives to knockout observables?
+Thanks in advance.
+Sincerely 
+Hendrik 
+ 

@@ -1,0 +1,7 @@
+In my expression, I want to convert my field to a value (Users enter data as strings so they can leave blank or enter NT) in the expression.  I tried val(infCL) but no luck.  The example pic shows that the value "4" meets the criteria. 
+Dim objRule As New GridViewFormatConditionHighlight()
+        objRule.FieldName = "infCL"
+        objRule.Expression = "infCL > 3000"
+        objRule.Format = GridConditionHighlightFormat.Custom
+        objRule.CellStyle.ForeColor = System.Drawing.ColorTranslator.FromHtml("#FF0000")
+        ASPxGridView1.FormatConditions.Add(objRule)

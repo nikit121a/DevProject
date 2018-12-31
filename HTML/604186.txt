@@ -1,0 +1,18 @@
+Hello,
+I use 2 date edit in Date Range mode like your demo (
+)
+With the MinDayCount = 1:
+1. I delete the start date text.
+2. I delete the end date text.
+3. I type with my keyboard a new start date.
+4. I type the "tabulator" key => End date edit is selected.
+The end date edit text is filled. It's the normal behavior.
+With the MinDayCount = 0:
+1. I delete the start date text.
+2. I delete the end date text. 
+3. I type with my keyboard a new start date.
+4. I type the "tabulator" key => End date edit is selected.
+Why the end date edit keeps empty ?
+Is it possible to keep the same behavior as the first example? 
+Best regards
+Vincent

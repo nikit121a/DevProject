@@ -1,0 +1,5 @@
+Hi,
+I have a chart which has a datasource specified by an array.
+On a button click (without a server trip) I'd like to apply a filter to the chart based on a column on the datasource.  Is this possible?
+If it's not possible with an array, then could you please explain how it would be best implemented given that I'm using ASP.NET Core MVC as my backend?
+Thanks

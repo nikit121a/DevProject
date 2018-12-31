@@ -1,0 +1,4 @@
+Hi,
+since I updated my version to 17.2.3 our scheduler seems to select the wrong default week.
+But as you can see, the default date is good 30th...
+Please go see attachment .

@@ -1,0 +1,2 @@
+Another problem discovered in new version. ScrollBox is useless in current release. Scroll bars are not present on runtime. This is expected behaviour with new style scrollbars but there is no way how to make them functional. Sometimes they appear for split second but when moving mouse from outside of box into box but it's not usable.
+See attached sample project compiled with 16.2.5 (correct) and 17.2.4 (wrong) 

@@ -1,0 +1,10 @@
+Hi Support,
+I am binding the Scheduler to an Observable collection of my appointment class retrieved from SQL.  There are two bools in my class (IsNew and IsDirty) for tracking what needs to be saved. After handling the AppointmentsUpdated event I send the collection off to be saved. Afterwards I set all items in the list to false for IsNew and IsDirty on a successful save. 
+Trying to set the two bools is generating a NullReference exception and based on research it appears the scheduler disposes the items after binding to the list. 
+My questions are:
+Is it possible to switch this behaviour off ? 
+or
+Is there an event where I can detect when there is a change of appointment or  a new appointment as I don't want to refresh the whole list every time an appointment is added or changed just to reset the IsNew and IsDirty bools. 
+or
+Is the scheduler supposed to be used in a different way?
+Thank you. 

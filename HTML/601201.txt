@@ -1,0 +1,4 @@
+Hi
+How do I display a tooltip for a WPF grid cell?   I've looked at 
+, but it references a non-existent GridColumn attributes, CellToolTipBinding and CellToolTipTemplate.  The closest existing attribute is just called ToolTip, but that unsurprisingly doesn't result in a tooltip being displayed.
+Unfortunately as usual, actual working documentation and examples have been hidden by DevExpress and the implementation made needlessly complex to prevent users from using the controls without submitting support tickets.

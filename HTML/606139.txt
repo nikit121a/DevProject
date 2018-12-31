@@ -1,0 +1,7 @@
+Hello!
+We are trying to make the DevExpress grid custom binding callbacks work with our AJAX posts which require additional setup.
+How can an AjaxOptions object settings (or any type of settings for that matter) be applied to an enitty in CustomBindingRouteValuesCollection?
+Current code:
+We would like the following AJAX options to be applied to the sorting callback:
+How can this be achieved? 
+ 

@@ -1,0 +1,9 @@
+Dear Support Team,
+I am using DevExtreme map where i have to show the location with marker using zip code.
+I tried the below one but it is not showing the location.
+Below is the code used:
+In the above i used latitude and langtitude for the location. i have to show the location for New Jersy. But map is not located.
+How do i show the marker with location in map?
+Thanks,
+Veera
+ 

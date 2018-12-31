@@ -1,0 +1,11 @@
+Hi,
+I used to have a group box control with dozens of radio buttons inside it - Please refer the attached picture. 
+Then I have this function that loops over the radio buttons within a given control, and stores in a variable the name of the checked radio button - If one is checked. When no radio button is checked my variable content is set to 
+. This method works just fine when the parent control for the radio buttons is a std. group box.
+As the number of radio buttons within my original group box grew up, I added a XtraTab control named 
+s to my form, and replaced my line of code from this to this
+If there is any radio button checked within the parent control, the variable 
+ returns the name of the radio button, and my logic takes from there...
+I have 3 similar variables to capture possibly active radio buttons across 3 controls, and they?re populated normally when the control type is a group box. When the parent control is a XtraTab control, the variable content is kept as 
+ even though a radio button is checked in the XtraTab. Because it is kept as nothing, I?m unable to determine if I have a radio button checked within the XtraTab control...
+Below you can see a short version of my function - How can I loop over the radio buttons within a XtraTab control and get the same result I get when I use a std. group box?

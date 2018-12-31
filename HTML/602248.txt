@@ -1,0 +1,3 @@
+Our web application runs as an Azure web app. The following start-up code worked reliably in 17.2.4 but raises an exception in 17.2.5. As a result the print preview action on in-place reports no longer works.
+Please advise.
+Mick

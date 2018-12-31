@@ -1,0 +1,19 @@
+Hello Team,
+I am using tab control as part of my view as illustrated in the demo: "
+" .
+But, I am using it, in a way, where each tab has its own partial view. So, the first tab has a grid view, the second tab has a different grid view and so on. And since there is considerable data in each tab, I would like to load the data only on the tab click. Please suggest a way to achieve this, as I could not find a way to raise a click event on changing the tab. 
+Please find the code snippet below. I am trying to fetch the Grid 2 data only on the tab click. Is there a way to achieve this?
+@Html.DevExpress().PageControl(
+    settings => {
+        settings.Name = "pcFeatures";
+        
+        settings.TabPages.Add("Grid 1").SetContent(() => {
+            ViewContext.Writer.Write("<div style='text-align: left'>");                            Html.RenderPartial("Grid1PartialView", Model.Grid1Details);
+                           ViewContext.Writer.Write("</div>");
+                });
+        settings.TabPages.Add("Grid 2").SetContent(() => {
+            ViewContext.Writer.Write("<div style='text-align: left'>");                            Html.RenderPartial("Grid2PartialView", Model.Grid2Details);
+                           ViewContext.Writer.Write("</div>");
+                });
+        });
+}).GetHtml() 

@@ -1,0 +1,3 @@
+Hi,
+Whit my sucsription ASP.NET Web Forms (with devextreme) can i develop app for smartphone  Android and IOS ?
+What version of devexpress do we need to develop an app for android and IOS cell phones?

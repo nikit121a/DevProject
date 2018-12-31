@@ -1,0 +1,6 @@
+
+
+I had also mentioned about issue with date column in my first query(the selected date is not highlighted in filter popup instead today’s date is highlighted.). Is there a way where we can highlight all the populated dates(populated under Date Column) in the pop up?
+ I have modified the solution to demonstrate the issue. The zip file also contains DateHighlightIssue.png file showing the issue. let me know if you need more info.
+Regards,
+Rahul

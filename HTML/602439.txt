@@ -1,0 +1,4 @@
+Hello Support,
+I am passing a default report to designer and user can edit as per their need. The report layout is in landscape mode and I have added footer section accordingly .. and LockedInUserDesigner property is true. Now when a user edit the report in designer and change the layout to portrait  .. most part of my footer section get cropped .. is there any way to make it adjustable according to report's width.
+Please guide.
+ 

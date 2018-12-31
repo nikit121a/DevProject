@@ -1,0 +1,6 @@
+Hello,
+I am puzzled after reading your examples and the responses you have already given to similar question regarding the compatibility of Web API and your HTML 5 Report Viewer so I will be as precise as I can.
+We want to build a report, within your MVC Report Designer through a web application communicating with db through EF (which is feasible) and later to expose the data of that particular report through the HMTL 5 Report Viewer from within a second web application communicating front to the client through Web API and back to the db with any other ORM (Dapper, ADO .Net, EF).
+Is that possible and how (with a code example)? Could we per say, create the data of the report and export it through a List object from withing the Report Viewer?
+ Thank you in advance.
+Costas 

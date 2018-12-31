@@ -1,0 +1,6 @@
+Hi DevExpress,
+how can I customize text of the grouped column? I tried to handle CustomizeCellDisplayText event, which works fine for normal cells. But is never fired for grouped column (is this on purpose or is it a bug?).
+What I'm trying to achieve: I want to group rows by article id, but show article description in grouped row instead of id. I know that I could bind grouped column to ArticleDescription property instead of ArticleId and it would work. The problem is that 2 articles might have the same description. Therefore I need to group by unique id.
+Kind regards
+Peter
+ 

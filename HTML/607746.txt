@@ -1,0 +1,3 @@
+The method that is described in documentation as cellValue(rowIndex, visibleColumnIndex, value) is implemented as cellValue(rowIndex, columnIdentifier, value) where the column is retrieved in cellValue() with this._columnsController.columnOption(columnIdentifier).
+ColumnOption accepts the index of the column, but not the visibleIndex.
+Therefore the index should be used  as argument for cellValue instead of visibleIndex. 

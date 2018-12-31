@@ -1,0 +1,6 @@
+Hi Guys,
+I am using a dxlc:GroupBox
+If have a dxe:CheckEdit, and if the  CheckEdit is checked, I don't want the GroupBox to be able to expand
+and if it is unchecked the GroupBox will be able to expand.
+Do you have a sample of this please.
+Thanks. 

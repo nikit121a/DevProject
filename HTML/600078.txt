@@ -1,0 +1,1 @@
+NavBarGroupControlContainer has 3 rows of controls and it shows only 2 rows and scrollbar on 144 DPI

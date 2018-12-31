@@ -1,0 +1,11 @@
+Hello,
+We are using various UI widgets from the DevExtreme library in a ASP.NET MVC web application.
+As part of it we are using the SelectBox (dxSelectBox).
+We have noticed an issue when running the web app in iPhone and iPad. The issue can be replicated in both safari and chrome. The problem is that, when you try to select an item from any of the SelectBox controls, nothing gets selected. In other words, the list is presented and when you select any of the items (in this case, touch on any of the items) the actual selection doesn't stick as the selected item in the control.
+The interesting thing is that we were able to replicate the exact same problem in the DevExtreme Demo page  
+Everything works OK running this demo in a desktop (we tested safari, chrome, firefox, ie and edge), However, running this same demo in iPhone or iPad (in both safari or chrome) results in the same problem I just described. When trying make a selection in any of the select boxes, the selction just doesn't work.
+This is a time sensitive issue for us, as we are about to go live with our web site. We are even considering going live with this as a known issue but we need a fix or perhaps a workaround.
+Any help would be greatly appreciated.
+Thanks,
+J. Mirabal
+ 

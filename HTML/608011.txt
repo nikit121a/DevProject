@@ -1,0 +1,4 @@
+We've recently upgraded the Devextreme version from 14.2.15 to 17.2.4. After the upgrade, treeview stopped rendering. After the updated we change our references from dx.webapp.js to  dx.web.js. We noticed that itemTemplate function is not getting executed in newer version.
+Appreciate your quick help
+Thanks,
+Kapil 

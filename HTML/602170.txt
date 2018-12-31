@@ -1,0 +1,16 @@
+@(Html.DevExtreme().DataGrid<DevExtremeMVCandCore.Models.Programs>()
+.ID("gridContainer").Paging(paging => paging.Enabled(false))
+.Editing(editing => { editing.Mode(GridEditMode.Batch); editing.AllowUpdating(true); })
+.Columns(columns => { 
+columns.AddFor(m => m.ProgramId).Width(70); 
+columns.AddFor(m => m.Description); 
+columns.AddFor(m => m.Text).Width(125)
+                       .Lookup(lookup => lookup.DataSource(d => d.WebApi().RouteName("Driver")
+                                                           .LoadAction("DiscountPrograms").LoadParams(new { Program_id = new JS("data.ProgramId") }))
+                       .ValueExpr("Value")
+                       .DisplayExpr("Text"));
+columns.AddFor(m => m.values).ShowEditorAlways(true); })
+.DataSource(d => d.WebApi().RouteName("Driver").LoadAction("DriverDiscounts").LoadParams(new { Subline = new JS("6") }))         )
+i am using the above code to , but i am getting error as Uncaught ReferenceError: data.ProgramId is not defined 
+Can you please help me 
+And i noticed that the Data source attached in lookup working first , then working the Outer data source  is it true , how we can resolve this  

@@ -1,0 +1,5 @@
+Hello,
+i'm using custom edit form in gridcontrol for the first time. Can you please give me an example to show how to populate a combobox  in that custom edit form? I first tried to use the build in edit form and everything works fine. All comboboxes are populated.
+After changing to my custom edit form the comboboxes don't show items anymore, only the value from bounded datatable.
+Thanks for support!
+Michael

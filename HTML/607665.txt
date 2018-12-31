@@ -1,0 +1,24 @@
+Good afternoon
+I am using TreeList to filter some data, in different parts of my project. for 2 instances of the TreeList, I cannot make the editbox in the Find Panel editable. what works sucessfully in other parts, does not work here.
+Unfortunately I cannot submit any part of the code, and what I have compared, both TreeList components, are  created using very same properties. 
+Many thanks in advance for Your assistance
+Marek Jasovsky
+below part of the Designer.cs code...
+AssignedGroups.DataSource = null;
+AssignedGroups.Dock = System.Windows.Forms.DockStyle.Fill;
+AssignedGroups.Location = new System.Drawing.Point(2, 20);
+AssignedGroups.Name = "xxx";
+AssignedGroups.OptionsBehavior.AllowRecursiveNodeChecking = true;
+AssignedGroups.OptionsBehavior.Editable = false;
+AssignedGroups.OptionsFilter.FilterMode = DevExpress.XtraTreeList.FilterMode.Extended;
+AssignedGroups.OptionsFind.AllowIncrementalSearch = true;
+AssignedGroups.OptionsFind.AlwaysVisible = true;
+AssignedGroups.OptionsFind.ExpandNodesOnIncrementalSearch = true;
+AssignedGroups.OptionsFind.FindDelay = 100;
+AssignedGroups.OptionsFind.FindMode = DevExpress.XtraTreeList.FindMode.Always;
+AssignedGroups.OptionsView.ShowCheckBoxes = true;
+AssignedGroups.OptionsView.ShowHorzLines = false;
+AssignedGroups.OptionsView.ShowVertLines = false;
+AssignedGroups.Size = new System.Drawing.Size(236, 495);
+AssignedGroups.TabIndex = 0;
+ 

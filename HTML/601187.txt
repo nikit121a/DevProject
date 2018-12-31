@@ -1,0 +1,6 @@
+Hi 
+I have save description in rtf format and load in RichTextBox with custom RtfFormatter. 
+How to display first fix number of character in rich text box  ex.200 character then ...
+Please find attachment.
+Thanks
+  

@@ -1,0 +1,7 @@
+I have custom appointment form which includes the recurrence form. On saving he appointment I am unable to gather the recurrence form data. It is always null
+Here is my  ScheduleDataHelper.cs
+In my custom appointment form the recurrence objects show up correctly
+In my scheduler controller when the form is submitted I have this:
+Finally in my entity framework save I am using this to map to database fields:
+Can you please indicate where I am off track?
+Thanks.

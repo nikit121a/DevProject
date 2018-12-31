@@ -1,0 +1,11 @@
+Hi,
+I have the following scenario:
+- TokenEdit control with  EditMode set to "Manual"
+- Separators property that contains exclusively ";" 
+Why setting in code EditValue to a string than contains "," ("abc;def;ghi,jkl")  result is splitted into four strings, instead of the three expected ?
+Same behaviour inputting text at runtime. 
+I need that only ";" character determines conversion to text blocks, operating in manual mode
+What I'm doing wrong?
+Please look at attached project 
+Thanks in advance
+Davide 

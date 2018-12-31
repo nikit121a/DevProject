@@ -1,0 +1,4 @@
+Hi, everybody.
+Please tell me how I can set the minimum and maximum values for the datepicker element?
+I need to allow time to be selected in the range from 7 to 21 hours in 10 minute increments.
+ 

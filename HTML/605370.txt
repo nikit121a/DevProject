@@ -1,0 +1,2 @@
+Hi,
+     Required detailed sample code for pivot grid with settings of options filtering data, charts, export , grouping , summing the data total. 

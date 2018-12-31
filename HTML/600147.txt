@@ -1,0 +1,5 @@
+Hi,
+I would like to use the MonthEdit control but with just three letters for each month, such as Jan, Feb, and so on.
+Is  it possible?
+Thanks for your support.
+Eduardo Quintana 

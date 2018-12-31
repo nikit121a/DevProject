@@ -1,0 +1,7 @@
+
+
+Attached is a sample project demonstrating the current progress. Refer to the SearchMyPersonController.actionNext_Execute method. I am trying to get the selected item from the listview and then set it as current object so that the second tab is populated with Person Data.
+The approach suggested in the 
+ ticket does not seem to work. The second tab is always blank. For selected person it adds a dropdown whereas I need the entire object to be displayed in second tab in editable format. That's the reason I had inherited from Person object in the first place. Also SelectedPerson is always null so it goes to IF only and never goes to ELSE.
+ I don't think the functionality required can be implemented as it is too complex for a design like this.
+Anyway thank you for your help.

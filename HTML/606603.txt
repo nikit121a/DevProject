@@ -1,0 +1,43 @@
+Good day,
+I'm trying to bind genders DevExpress.data.ArrayStore (data for it taken from web api controller) into my dxRadioGroup, which inside dxForm, but in form I don't see anything.
+I'm using TypeScript and AngularJS v1.4.5
+Please can you help me, where is my mistake?  Or can you provide code example, where data fetched from remote resource for dxRadioGroup, which inside dxForm.
+Data, which come from server: [{id: 0, name: "None"}, {id: 1, name: "Male"}, {id: 2, name: "Female"}]
+ dataSources = {
+            genders: new DevExpress.data.ArrayStore({
+                data: [],
+                key: "id"
+            }),
+        }
+        options = {
+            formOptions: {
+                bindingOptions: {
+                    'formData': 'page.formModel',
+                    'items[0].editorOptions.dataSource': { dataPath: "dataSources.genders", deep: false }
+                },
+                items: [
+                    {
+                        dataField: "gender",
+                        editorType: "dxRadioGroup",
+                        editorOptions: {
+                            valueExpr: 'id',
+                            displayExpr: 'name',
+                            value: null,
+                        }
+                    },
+                ],
+                labelLocation: 'left'
+            },
+        }
+        methods = {
+            gendersDsInit: () => {
+                this.dataService.get(this.devExpressFormV5PathService.getGenders).then((result: app.models.common.ISelectModel[]) => {
+                    if (result.length > 0) {
+                        for (var i = 0; i < result.length; i++) {
+                            this.dataSources.genders.insert(result[i]);
+                        }
+                    }
+                });
+            }
+        }
+ 

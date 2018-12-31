@@ -1,0 +1,7 @@
+I recently upgraded my project from 17.1.7 to 17.2.5 and context menus no longer display in my treelist control. I generate context menus based upon a selected node and bind them to a BarLinkContainerItem. The context menu is only displayed the first time a right-click is issued and not on successive right-clicks.
+Here is my XAML code: 
+My MenuItems property in the view model:
+Here is a data template I'm using for a context menu button:
+Here is the Output I get after issuing a right-click:
+I'm using Caliburn Micro for my MVVM framework.
+ 

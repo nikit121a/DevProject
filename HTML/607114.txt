@@ -1,0 +1,3 @@
+Hi,
+I have developed desktop application. It has tile container on main form. Each tile animates at particular interval . When I run the application, it consumes 100 MB; But if I keep it idle for longer period of time, then memory consumption reaches 500 MB.
+Is there any way to  reduce the memory consumption?

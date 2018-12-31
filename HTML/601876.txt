@@ -1,0 +1,9 @@
+Hello - I am currently using CSS classes and setting the following properties of the Bootstrap GridView:
+CssClasses-Table
+CssClasses-HeaderRow
+CssClasses-Row
+When I export to Excel, these styles get ignored.  For regular DevExpress GridViews I was able to set this property, which would just apply the styles to match how the GridView  was displayed:
+DevExpress.Export.ExportSettings.DefaultExportType = DevExpress.Export.ExportType.WYSIWYG;
+However this property seems to have no effect on the Bootstrap Gridview.  Then I looked at the tutorial you have here:  
+But this demo sets the styles for each individual column.  This is not practical for us because we have hundreds of grids that would need to be converted to using FormatConditions.  Is there a way to export the data for a Bootstrap Gridview control to Excel using the formatting that gets displayed on the web page(Similar to how WYSIWYG worked)?  Or are there global settings I can use? 
+ 

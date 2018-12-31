@@ -1,0 +1,5 @@
+Hi,
+We have ASPxGridViews and ASPxCardViews that display email addresses (among other things), what is the best way to make those "clickable"?  Ie to display "someone@something.com" as a hyperlink which leads to "mailto:someone@something.com"
+Regards,
+Patrik Johansson
+ 

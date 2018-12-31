@@ -1,0 +1,8 @@
+Hey folks,
+i follow your 
+ to build my own Designer (i need a SDI Interface).
+ The inherited Form is not visible in VS2017 Designer. However i can start the WinForms application without anyproblem. To me it seems like a DesignerHost issue! I need to customize some buttons, so  it is necessary to work on the inherited Form in Visual Studio.
+i uploaded a 
+ to dropbox which shows the issue.
+Thanks,
+Micha

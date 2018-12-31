@@ -1,0 +1,13 @@
+Hello Team,
+I have a model with the information format as below:
+Class 1: 
+# Males = 25 
+# Females = 2 0
+# Passed =  35
+Class 2: 
+# Males = 15 
+# Females = 2 0
+# Passed =  25
+....
+I am trying to show the information in Side-by-Side Stacked Bar format. It is a bit different from the example of Side-by-Side Stacked Bar in the demo, as the two groups are related but different. A basic code snippet, to implement such a requirement would be very helpful. Also, please find attached image to clarify the requirement.
+ 

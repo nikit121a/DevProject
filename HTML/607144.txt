@@ -1,0 +1,8 @@
+I'm having trouble converting a mouse pointer location to a pdf textbox location in a pdf viewer.
+I know i'm close... BUT
+Here is my code... when i let go of the mouse button, i want to get the location and create a textbox at that location.
+I'm using the pdfdocumentprocess and viewer in tandem to attempt this.  But Cursor points to PDF points not working correctly
+I've tried different ways... but the text box either doesn't show up at all OR the textbox shows up in a different place.  Cursor Position is NOT equaling the pdf position.
+Thanks very much for any help!
+Chris
+ 

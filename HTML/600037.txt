@@ -1,0 +1,5 @@
+Hello!
+I'm trying to create a handler for context menus. I have an application with various UserControls docked in main form. Each UserControl have LayoutControl (s) with editors (text, memos, datepickers, grids...).
+I would like to keep standard context menus, but would like to add additional menu items, depending on editor clicked.
+I have alot of layoutItems in layout so I need a way to catch menu before it pops up , check what Type layoutItem is and add additional menu items depending of the editor type.
+Thank you 

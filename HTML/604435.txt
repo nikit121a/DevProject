@@ -1,0 +1,2 @@
+Hi, how can i set MS button for calcedit in grid so it store value globally for whole grid, so if i click in other row i can bring back that value ?
+THQ 

@@ -1,0 +1,6 @@
+When I execute 
+ 'this.inventoryItemsTableAdapter1.Fill(APPATSDataSet.InventoryItems, false, null, null);' 
+I get an Exception thrown with the message
+  "Failed to enable constraints. One or more rows contain values violating non-null, unique, or foreign-key constraints."
+I don't have any constraints on the table at the DB level.
+How can I track down where this error is coming from? 

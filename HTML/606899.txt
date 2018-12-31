@@ -1,0 +1,17 @@
+I want to display error icons in my RibbonForm on different controls. It's working fine with controls on the form, but do nothing on RepositoryItem used in the Ribbon. Do you have a receipt for it ?
+I use a line of code like this to achieve it on the form:
+        myDxErrorProvider.SetError(textEdit1, "some error message", ErrorType.Warning);    // Works fine
+        myDxErrorProvider.SetError(dateEdit1, "some other error message", ErrorType.Critical);    // Works fine
+My difficulty is first to access the editor inside the RepositoryItem. I saw that I can get it by casting the sender in Validating event, but this as no effect. I think that behind the hood such editor (in repositoryItem) are kind of volatile control created on the fly  when editing and maybe discarded immediatly after.
+For RepositoryItem, I tried this on Validating Event of RepositoryItems :
+        private void OnValidating(object sender, CancelEventArgs e)
+        {
+            var baseEdit = sender as BaseEdit;
+            if (baseEdit != null)
+            {
+                  baseEdit.ErrorText = "something";     // works for TextEdit, but disapear when losing focus;  don't works with DateEdit
+                  dxErrorProvider.SetError(baseEdit, "Error in edit...", ErrorType.Warning);   // Do nothing
+            }
+        }
+ 
+ 

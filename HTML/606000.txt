@@ -1,0 +1,12 @@
+Hello
+ Looks like behavior of a grid editor is not correct in this case:
+- multi selection is enabled for  the grid;
+- cell select mode;
+- EditorShowMode == Click;
+- button or combo cell editor.
+First click in a cell make it selected and a button is shown - all is correct. 
+ Then click on the button selects all the text instead of showing a drop down list (or time, color ... picker).
+ You can see it in XtraGrid Suite demo you supplied with the components, the screenshot is attached.
+Is it possible to make the button work  with the first click on it in "Click" EditorShowMode?
+ Best regards,
+Oleksii 

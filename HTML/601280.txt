@@ -1,0 +1,16 @@
+Dear support,
+I got a question on the GridView control.
+How do I get the value of a control which sits in a DataItemTemplate , in an event like a button click (but no button in the grid or a grid-event)?
+For example my GridView:
+I have now in my webpage a button which fires a server-event (regular ASP.NET button). And in that button, I wanna know if the checkbox was checked or not.
+With a regular ASP.NET Gridview I could now do something very easy like:
+And then checking for each row if "chk" is checked or not.
+However, I can't find anything similar in the DevExpress Gridview.
+I know that there's the function FindRowCellTemplateControl but that function returns the checkbox always in state false (unchecked) even if it was checked. 
+Seems like the DevExpress does not save anything in the ASP.NET Viewstate? 
+I already tried rebinding everything in the Page_Load (without the function FindRowCellTemplateControl or even GetRow would always return null) but of course that doesn't help because after the rebind the states of the controls get refreshed.
+Is there any way to get the correct checked state of my control? 
+I can't imagine that DevExpress GridView can't do something that easy.
+Thanks very much,
+Sebastian
+ 

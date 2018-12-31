@@ -1,0 +1,3 @@
+Hi,
+cxGrid should retrive fields while its datasource's dataset is closed. It sould open it automatically and then get the fields...
+take care 

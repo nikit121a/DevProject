@@ -1,0 +1,4 @@
+Hello
+im using visual studio 2017 with asp net core 2.0 and MvvC, i have a form with a grid in which i use an EditCellTemplate to add some buttons to the edit form, it was working fine but after updating i am getting an error and the buttons are not rendered, i have attached a project sample so you can check the problem, just try to add a new record, in the form that opens there should be a button but its not rendered and i get an error on the console.
+have any idea on what could be the issue?
+regards. 

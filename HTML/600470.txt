@@ -1,0 +1,2 @@
+For years I have been struggling with the text offered under the topic "TcxDBDataController.MasterKeyFieldNames"  in the help documentation.
+My head has stopped spinning now, so I thought i'd finally ask: how does the detail grid know about the master grid? I see no property that allows me to set that relationship. Or should I be doing it at the dataset level?

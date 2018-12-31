@@ -1,0 +1,15 @@
+Hello. I put below codes to change tabbed document group of a tabbed document.
+Then, after I got exception as below, when mouse cursor is hovering on the header of the tab changed document.  
+System.NullReferenceException: ?? ??? ??? ????? ???? ?????. 
+   ??: DevExpress.XtraBars.Docking2010.Views.Tabbed.DocumentInfo.CalcTooltip()
+   ??: DevExpress.XtraTab.ViewInfo.BaseTabHeaderViewInfo.GetToolTipInfo(Point point)
+   ??: DevExpress.Utils.ToolTipController.ProcessMouseMove(Object sender, Point p)
+   ??: System.Windows.Forms.MouseEventHandler.Invoke(Object sender, MouseEventArgs e)
+   ??: System.Windows.Forms.Control.OnMouseMove(MouseEventArgs e)
+   ??: System.Windows.Forms.Control.WmMouseMove(Message& m)
+   ??: System.Windows.Forms.Control.WndProc(Message& m)
+   ??: System.Windows.Forms.MdiClient.WndProc(Message& m)
+   ??: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+Actually, I found following info. in the tab changed document "GroupInfo = {DevExpress.XtraBars.Docking2010.Views.Tabbed.DocumentGroupInfo} " has got empty after tabbed group changed.
+The info is private and I cannot handle that.
+Please bring me info. to solve this. 

@@ -1,0 +1,2 @@
+how to apply styles for GridControl(ShowSearchPanelMode) serach box. Also, i need to align the serach box in right side.
+Thanks. 

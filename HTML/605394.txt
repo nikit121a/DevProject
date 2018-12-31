@@ -1,0 +1,12 @@
+So i trying to show some data in a pivot grid.
+The problem is that the value fields are not editable.
+I looked around and found some other tickets but its not clear for me how i am supposed to go about the issue.
+One of them : 
+The thing is that i want to be able to do this in xaf asp .
+From what i understand i would ne ed to have a view controller for the list view where i have the pivot grid, access the pivot grid editor and then add and editor for the value field, and handle the valuechange event.
+So i get the editor like this :
+if ((View as ListView).Editor is ASPxPivotGridListEditor)
+{
+    pivotGrid = ((ASPxPivotGridListEditor)(View as ListView).Editor).PivotGridControl;
+}
+Now how to add the editor ?! 

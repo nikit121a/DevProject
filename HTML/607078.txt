@@ -1,0 +1,10 @@
+Good morning,
+ 
+I am developing my application using XAF. In my web application I created a custom view where I use a BootstrapChart, in this chart I would like to display my data and, when hovering over the bar of my chart, I would like to display a little bit more data other than just the value (such as the name).
+An even better alternative for me could be that of dividing the bars in two different groups (one with the bars that are called SQL and one with the bars that are called Cobol). 
+The ultimate thing would be that of being able to do both things.
+Bellow is my markup to better understand:
+Thanks, 
+Pablo.
+
+

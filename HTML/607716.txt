@@ -1,0 +1,10 @@
+I have a table called "Provision Hold Edits" bound to a grid control. The table has 7 fields:
+1. biHold_id          bigInt            Identity     Not Visible
+2. biPCR_id          bigInt
+3. biClient_id        bigInt 
+4. Description       varchar(200)
+5. biUsePCR         bigInt
+6. bActive              bit
+7. cClaimType       char(1)
+ When the grid control loads the table data, the first row has the focus and all visible columns appear as expected. However, in every row following the first row, the column representing the value in biPCR_id is not appearing but every other value for the other columns in the row do appear. If you move the focus to the next row, the value for the column representing biPCR_id in that row now appears, but the value for biPCR_id for the row you just left, disappears. That same thing happens for every row that you change focus to or from. I cannot figure out why that BigInt value should be any different from any of the other BigInt values in the table that display perfectly.
+Please see my attached documentation. Thanks! 

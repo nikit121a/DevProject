@@ -1,0 +1,4 @@
+Hi,
+I use vertical grid in single record mode. Is it possible to autoheight the rows  to fit the controls space?
+Thanks
+Kevin 

@@ -1,0 +1,4 @@
+Hello,
+you can not open the attached password-protected test.pdf file with ExpressPdfViewer. The file is created in ReportBuilder from 
+. The password is 987654.
+Thank you for your help.

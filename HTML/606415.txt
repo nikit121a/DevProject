@@ -1,0 +1,40 @@
+Hi,
+I am having issues with showing % values with 2 decimal places on the axis labels.
+The attached screen shot shows that the values are between 0 and 1 and when I apply the TextPattern  P2, the axis labels get multiplied by 100.
+What is the possible solution to get to show the same values with 2 decimals and percent sign.
+Thanks,
+Vijay 
+dxc:ChartControl DataSource="{Binding ChartItems}" 
+                      MouseDown="UIElement_OnMouseDown" x:Name="ChartControl">
+        <dxc:ChartControl.Legend>
+            <dxc:Legend UseCheckBoxes="True" VerticalPosition="Center" />
+        </dxc:ChartControl.Legend>
+        <dxc:ChartControl.Diagram>
+            <dxc:XYDiagram2D EnableAxisXNavigation="True" EnableAxisYNavigation="True" SeriesDataMember="SeriesName">
+                <dxc:XYDiagram2D.AxisX>
+                    <dxc:AxisX2D>
+                        <dxc:AxisX2D.WholeRange>
+                            <dxc:Range AutoSideMargins="False" SideMarginsValue="0" />
+                        </dxc:AxisX2D.WholeRange>
+                        <dxc:AxisX2D.Label>
+                            <dxc:AxisLabel TextPattern="{}{A:dd-MMM-yyyy}" />
+                        </dxc:AxisX2D.Label>
+                        <dxc:AxisX2D.DateTimeScaleOptions>
+                            <dxc:ContinuousDateTimeScaleOptions AutoGrid="True" GridAlignment="Day" />
+                        </dxc:AxisX2D.DateTimeScaleOptions>
+                    </dxc:AxisX2D>
+                </dxc:XYDiagram2D.AxisX>
+                <dxc:XYDiagram2D.AxisY>
+                    <dxc:AxisY2D>
+                        <dxc:AxisY2D.Label>
+                            
+                        </dxc:AxisY2D.Label>
+                    </dxc:AxisY2D>
+                </dxc:XYDiagram2D.AxisY>
+                <dxc:XYDiagram2D.SeriesTemplate>
+                    <dxc:LineSeries2D ArgumentDataMember="SeriesDate" ValueDataMember="SeriesPoint" CheckableInLegend="True" CheckedInLegend="True" />
+                </dxc:XYDiagram2D.SeriesTemplate>
+            </dxc:XYDiagram2D>
+        </dxc:ChartControl.Diagram>
+    </dxc:ChartControl>
+ 

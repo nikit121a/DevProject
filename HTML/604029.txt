@@ -1,0 +1,5 @@
+Hi,
+  I have a two question:
+  - I have a grid with Group of two fields and want to hide a Group footer summary line or just hide values for Departments for Position summary line is good, see picture left part red arrow.
+  - when I select text in one cell (cell is TComboBox, grid have a PopupMenu added) and after right click gets some default popup menu, see picture right part, how to hide that menu and show my popup that is connect to grid?
+Best regards.

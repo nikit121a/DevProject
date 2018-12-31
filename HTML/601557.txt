@@ -1,0 +1,6 @@
+Hello,
+I'm trying to use the SetColor method of a Resource in the SchedulerControl. Whenever the method is executed, an error occurs.
+The error says "Cannot convert from System.Int32 to System.Drawing.Color". (See Image)
+Do you have any idea how I can solve this problem?
+Kind regards,
+Frederik 

@@ -1,0 +1,30 @@
+Hi, we've got the following code that compiled in D7, but in D10.2.2 Tokyo, the references to 
+[...] is returning an error E2003: Undeclared identifier: Values
+I can't tell exactly what's going on from the source unit cxSchedulerStorage, so perhaps you can tell me how to refer to this property?
+It's not clear if it's referring to an event or a field or what exactly.
+        if AItem.Parent is TcxSchedulerReportEventCell then
+        begin
+          vRecordIndex := TcxSchedulerReportEventCell(AItem.Parent).Data;
+          vPatNameIndex := Storage.CustomFields.Items[cPT_NAME].Index;
+          vReasonIndex := Storage.CustomFields.Items[cST_DESC].Index;
+          vFGColorIndex := Storage.CustomFields.Items[cFONT_COLOR].Index;
+          vBGColorIndex := Storage.CustomFields.Items[cBKGND_COLOR].Index;
+          vLockedByIndex := Storage.CustomFields.Items[cLOCKED_BY].Index;
+          vChkdInIndex := Storage.CustomFields.Items[cCHECKED_IN].Index;
+          //          vBatchIDIndex := Storage.CustomFields.Items[cBATCH_ID].Index;
+          //          vAmountIndex := Storage.CustomFields.Items[cCK_AMOUNT].Index;
+          //          vRecurIndex := Storage.CustomFields.Items[cRECUR_ID].Index;
+          vPatName := VarToStr(
+[vRecordIndex, vPatNameIndex]);
+          vText := Format('%s%s%s', [vPatName, IfThen(vPatName <> '', ' : '),
+            VarToStr(
+[vRecordIndex, vReasonIndex])]);
+          vFGColor := VarToIntDef(
+[vRecordIndex, vFGColorIndex], clBlack);
+          vBGColor := VarToIntDef(
+[vRecordIndex, vBGColorIndex], clWhite);
+          vLockedBy := VarToStr(
+[vRecordIndex, vLockedByIndex]);
+          vCheckedIn := VarToStr(
+[vRecordIndex, vChkdInIndex]) + ' ';
+ 

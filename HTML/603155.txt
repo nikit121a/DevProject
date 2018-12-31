@@ -1,0 +1,4 @@
+
+A DomainComponent  with a property of a type that is a structure fails with an exception when trying to save the DomainComponent.
+To reproduce: Open "Use Structure" list view click "New", on the detail view "Click Save"
+Workaround: Don't use Structures, they are handy but not strictly necessary, just copy and paste the columns on domain components that needs it, if you only need one reference to the structure per DC you could create a non-persistent base DC to inherit from. It may become a little messy if you had a bunch of them but I'll work.

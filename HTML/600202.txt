@@ -1,0 +1,6 @@
+Hi,
+I have a property list of dataview. While iterating through a list, I map "dataview = table.defaultView". 
+I add this dataview to the list of dataViews( say the property name is ListDataView). On xaml, I bind these properties to itemsource of grid.
+eg :itemsource={ binding  ListDataView}.
+I want to display all the tables in dataset one below the other which are present in dataView List.
+Can you please help me asap, inorder to achieve this. 

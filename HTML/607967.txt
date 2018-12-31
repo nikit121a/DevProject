@@ -1,0 +1,7 @@
+Hy Supportteam,
+i use the SecuredObjectSpaceProvider in a WebApi WebService and my question is, is the SecuritySystem threadsafe?
+In SecuredObjectSpaceProvider initialisation i set the SecuritySystem.SetInstance(security); is there a problem using 
+SecuritySystem in Webservice?
+Thanks,
+Regards
+Niki

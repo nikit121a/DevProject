@@ -1,0 +1,7 @@
+Hello,
+I have changed the color for all the cells of the selected row using this style:
+Using Snoop I saw that the default RowControl background is #FFD8EFFF, but I'd like to change it to another color if possible.
+I tried using this style but nothing changes:
+Thanks,
+Fabio
+ 

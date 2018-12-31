@@ -1,0 +1,1 @@
+Please look at the client column in the uploaded picture, the grid view not wrapping the word with "_"

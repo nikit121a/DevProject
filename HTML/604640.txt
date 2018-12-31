@@ -1,0 +1,2 @@
+I have a grid in the middle of control flow in a window.  when the grid does not have any rows, the keyboard navgation is interrupted and the TAB key does not move forward.
+Is there anyway  to make the empty grid get focus so the TAB key will continue to the next control?

@@ -1,0 +1,5 @@
+Hi,
+I have a so weird problem about AspxGridview.  When I click the button , aspxgridview make a copy below.
+I tried everything. I didnt found  permanent solution to this problem.
+Do you have any suggestions? What is reason?
+Thanks,  

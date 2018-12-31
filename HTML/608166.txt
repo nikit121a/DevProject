@@ -1,0 +1,19 @@
+Narrator does not read the selected TrackBarControl 
+ 
+It only announces "Thumb".
+ 
+It makes it impossible for someone visually impaired to manipulate  the "Trackbar Control"
+I tried to set the Accessibility Name which works on all the other  controls.
+ 
+Repro steps
+1. Create a DevExpress WinForm
+2. Create a TrackBarControl 
+3.Compile and run 
+4. Run Narrator
+5. Set Focus to the TrackBarControl 
+I can upload a sample but the above steps should make it simple enough.
+ 
+Thank you,
+ 
+David Korn
+ 

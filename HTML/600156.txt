@@ -1,0 +1,12 @@
+1. I have the following form (:
+ 
+in which a data grid is used
+2.  I filled the form data and added a number of rows in the data grid.
+3. Next, I made the dimensions of the form (width and length) minimal and moved the data grid cursor to its last line. 
+4.Next, I clicked OK, all data was saved in the database and the form was closed.
+5.Next, I opened the form for the change and all the lines of the data grid are not displayed, and if I click on the scroll button, the data appears (see screenshot).
+6. 
+7. How do I fix this problem?
+P.S.
+I tried to solve this problem in the following way (the result is negative):
+Added a load event for the form:

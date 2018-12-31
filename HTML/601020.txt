@@ -1,0 +1,10 @@
+Hi,
+Sorry if the ticket title it's not very clear ..
+My problem is:
+I have a combo box, it's Data Source has 2 columns, id and description.
+Both are String columns.
+If the selected value is 5+ or 4-, when the combobox displays values formatted with DisplayFormat string, in one case the 5+ becomes 5, in the other case 4- becomes -4.
+But if I click and open the combobox's dropdown, the displayed values becomes correct.
+I can't understand what i have to do to solve this.
+I've attached a screencast and a little example.
+Thanks a lot 

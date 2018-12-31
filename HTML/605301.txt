@@ -1,0 +1,9 @@
+Hello,
+I am currently styling an WPF app with Theme designer and would make a suggestion to show an open button near the element path.
+Like:
+"UICore\VS2017Dark\Shapes_Base.xaml"  | Button icon
+Button should open the selected file in the editor and ideally the right line number as well. It's kind of tricky to navigate to that path as you can't just copy-paste it to explorer.
+At least one should be able to open the right folder from the designer.
+Also, it is unnecessary to open Visual Studio to edit the file so an editor selection would be nice (I prefer VS Code or Notepad++ for small tasks).
+See pict.
+/ Best regards 

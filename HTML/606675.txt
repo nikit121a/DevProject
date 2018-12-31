@@ -1,0 +1,6 @@
+In our application MainWindow with POCO VM which contains  StatusBar
+But other as UserControl opens in document TABs
+How do I set/change bindable CurrentStatus from UserControl or generally from outside
+For example per each save click in UC this Statusbar should react
+From Outlook inspired App example i see each view has own "dxr:RibbonStatusBarControl"  but  because the application more complicated
+What you recommend?

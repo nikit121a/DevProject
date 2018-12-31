@@ -1,0 +1,8 @@
+Dear,
+I've an  ASPxGridView with image in GridViewDataImageColumn.
+I can't set width of column because I'm using adaptive layout.
+But, on some device, the  image become very very little.
+Can I set  width of image in GridViewDataImageColumn without set width of column ?
+Thanks,
+Rinaldo
+ 

@@ -1,0 +1,3 @@
+Hi,
+Mostly in Terminal Enviroments i'm facing the issue that the Column Chooser is not poping up Top Most but hiding behind the Application. What can be done to avoid that? 
+Regards Wolfram

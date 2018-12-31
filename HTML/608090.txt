@@ -1,0 +1,2 @@
+
+For instance, it is impossible to specify the {V:MM/dd/yyyy HH:mm:ss} format to format both labels at once.

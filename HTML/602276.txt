@@ -1,0 +1,1 @@
+Could you please explain how I can make the BootstrapUploadControl a required field.  Please also provide a code sample.  ty

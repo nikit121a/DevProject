@@ -1,0 +1,11 @@
+Hi,
+regarding the order of validating a specific field if I have several validations for this field I have a problem.
+ So I have a field where the user can fill in an image link. I require
+a) that the field is not empty (-> "required") and
+b) I have written my own validation code (which I implement as boolean check, the function returns a "true" or "false") that checks if the link really contains an image.
+In the Model.DesignedDiffs.xaml -> Validation -> Rules the a)-rule is listed first (which makes sense because I want to check first if the field is empty and only if it's not empty check if it's really a link to an image) and the (self-written) boolean b)-rule second. So I expect that the rules are checked in this order.
+I found 
+ but why isn't it simply possible to work through the validation rules in the order listed there (which can be modified by the Index field)? Using 
+ is not the solution I want because if the field is not filled, the resulting error message is wrong (I distinguish between "field not filled" and "field is filled but link is not an image"). And calling the all rules manual in a specific order as in the third example seems to be oversized. Also I would have to maintain the validation rules at two places.
+Thanks in advance!
+Dominik 

@@ -1,0 +1,3 @@
+Hi,
+Having looked at the two samples for Master Detail for the ASPxGridView I feel the solutions are quite strange. 
+Since you use global variables to store the IDs of the masterGrid, how come there isnt a method for that to extract the ID upon expanding the row, so that you don't have to handle that in each detail control? This is especially cumbersome as it seems only the ASPxGridView seemt to expose a usable function for this, GetMasterRowKeyValue().

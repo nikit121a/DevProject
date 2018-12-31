@@ -1,0 +1,3 @@
+I am unable to figure out via the website, documentation and random attempts on how to change the column caption that is empty above Edit and Delete action links when Updating and Deleting are enabled.
+<dxo-editing mode="row" [allowUpdating]="true" [allowDeleting]="true"></dxo-editing>
+Currently this column has an empty value and  I have a requirement to have the column have a caption of "Action".  Can you please show me where to look to find how to set this value?

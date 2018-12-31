@@ -1,0 +1,2 @@
+The issue is not with the default set value. It happens only when I try to enter the number that exceed the maxlength = 16 and then I continue to type decimals. I have no idea where those returned numbers come from.
+In one example: 

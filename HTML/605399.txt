@@ -1,0 +1,10 @@
+Good morning.
+I need to equivalency to:
+ 1. DbGridTableView.FocusedField   (I need to get the focused field )
+ 2. DbGridTableView.FocusedField.DataType (I need to get the focused field your data type field )
+ 3. DbGridTableView.FocusedField.DisplayName(I need to get the focused field your display name field )
+ 4. DbGridTableView.FocusedField.Strings(I need to get the focused field your values of field )
+ 5. DbGridTableView.FocusedColumn(I need to get the focused column )
+ 6. In DbGridTableView get Property of Column cell for readonly
+The old version in delphi was TdxDBGrid <---> TcxGridDBTableView (new version)
+thanks

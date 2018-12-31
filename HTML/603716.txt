@@ -1,0 +1,3 @@
+In the legacy scheduler, the AppointmentDrop event had two arguments, EditedAppointment and SourceAppointment.
+I used this to compare the start and end times to make sure only the resource changed during a drag/drop operation and not the time:
+In the AppointmentDrop event args, there is a collection of ViewModels, but it is unclear how I can achieve the same comparison to determine if the operation should be allowed or not.  

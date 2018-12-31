@@ -1,0 +1,4 @@
+Just reporting this issue that happens randomly both in deployed as in development versions, I'm using a DXWindow descendant opening it as a dialog and waiting for the return value.
+I'm attaching two screenshots from development and below the stacktrace for the same exception coming from a user. Since it happens randomly I cannot point to where the problem lies, just rebuilding makes the problem go away, until it happens again some times. Looks like a threading issue.
+
+

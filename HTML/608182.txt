@@ -1,0 +1,2 @@
+I want to bind an allowEditing property of one column to a knockout observable. Selecting a value should only be possible, if the user selects a specific option in a radio group. However, this doesn't work right now, because allowEditing seems to interpret a knockout observable as true.
+ 

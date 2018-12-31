@@ -1,0 +1,7 @@
+I get this error when I try to render Devextreme controls in my Asp.Core application. 
+Initially when I tried to setup Devextreme, I got some errors which I got resolved by following the instructions here: 
+I was able to get the devextreme controls to work but few days later when I ran the project, I started seeing errors in my browser console (See the image attached)
+I'm attaching the sample project which has Devextreme configured. The page where the controls exist can be found at this location : /Areas/Agency/Views/Dashboard/Index
+Please help me resolve these errors.
+Thanks,
+ 

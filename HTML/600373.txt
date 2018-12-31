@@ -1,0 +1,21 @@
+We're migrating from 
+ to RichEdit. Our users have a library of existing RTFs containing fields created by the old editor. When users work with RTFs in our app, we want the old merge fields to look like new merge fields created by RichEdit. This ticket is about trying to achieve that, whether it means changing existing fields to look like those in RichEdit or making RichEdit fields look like our existing fields. 
+Looking at your demos, we would love to have our fields look like they do in your 
+ demo, where the page field text simply shows 
+ when fields are shown, because that is how they look in our existing templates. How can we achieve this with our own field names? Is there a field object with a text propery I can access? It would be great if someone could show me how to programmatically create that document.
+I've attached a sample document that contains 1 field created by our old editor and two created by RichEdit. When we open it in RichEdit before executing 
+, the field inserted by the old editor looks like 
+ but the new field created by 
+ shows no text while the field created by 
+ shows 
+, as shown in the "before" screenshot. After calling 
+, the old merge field is similar to the new merge field (old shows 
+ and new shows 
+), and the field produced by 
+ shows 
+. See the "after" screenshot. 
+We want to control the text displayed before 
+ so it reads
+such that new fields look like the old fields. Is this possible? 
+If not, can you offer a work around so we can make our old fields look like new fields either before or after 
+? Is there some kind of server-side API to extract all fields so we can replace the old fields with those that look like new fields?

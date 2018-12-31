@@ -1,0 +1,1 @@
+Do you have a simple example how to create a mind map in the Diagram Control from data in a sql table? Can it be a self-referencing table? How is that different from the tree view approach? I find the demo center a bit difficult to dissect. 

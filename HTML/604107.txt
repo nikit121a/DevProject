@@ -1,0 +1,9 @@
+How do I get a <dx-popover> dxTemplate to preserve HTML (entities) when rendering a component variable's content?  I am using Angular 4.
+Example:  The myVariable is a class variable of the component and is assigned a string containing "&nbsp;".  The raw string is being rendered instead of the &nbsp; being rendered as a space.
+<dx-popover>
+  <div *dxTemplate="let data of 'content'">
+    {{ myVariable }}
+  </div>
+</dx-popover>
+Thanks,
+Kelly

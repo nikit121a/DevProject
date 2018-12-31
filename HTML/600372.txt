@@ -1,0 +1,8 @@
+Hi,
+I am using Binary image as an editor and a column editor.
+Column editor works fine (upload, bind, preview).
+Stand alone editor uploads fine, shows the picture and the form sends the picture to database and it is saved.
+But when I open the saved record, the picture is shown only if I remove the edit capabilities of the control.
+Is this by design?
+This is my code:
+Thank you.

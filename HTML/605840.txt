@@ -1,0 +1,6 @@
+Good morning,
+I am developing my application using XAF. In my web application I need to create a custom view with a chart that gets data from a SP and displays the values of each property/column selected. My problem is that I don't understand what property/object I need to add to my WebChartControl to display the data elements in the chart.
+I already created the basis of my view and did the databind but I can't seem to find the appropriate documentation of what properties to edit (I can only find documentation regarding the control use at runtime and not design). 
+Bellow is the code I have so far:
+Thanks,
+Pablo.

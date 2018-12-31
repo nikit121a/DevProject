@@ -1,0 +1,4 @@
+Afternoon,
+Currently I'm testing encryption in SQL and the encryption is working as expected. I'm able to insert encrypted values into my table but I'm having difficulty selecting the decrypted values. If I use SelectCommand="SELECT [password], [username], [id] FROM [encryptionTest]" as my SelectCommand, I get the encrypted values in my table. What is the proper syntax to select the decrypted values using the SelectCommand?
+As a side note, when I use Query Builder on the SelectQuery in the properties when the SelectCommand is selected, the SelectCommand below does return the correct values but when I try to load the aspx page on a browser, it receives a Runtime Error.
+Thanks for any help you can provide.

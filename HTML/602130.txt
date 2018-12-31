@@ -1,0 +1,4 @@
+I have standard security in Xaf application. I want to add ability to run application with specific parameter when application start logged to user from one of parameters i.e:
+c?rm.exe /autologin /admin /SecurityToken
+a?nd application start without login window, run a  method to check security Token , and if checked will be positive login into app as Admin
+?

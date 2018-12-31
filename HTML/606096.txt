@@ -1,0 +1,15 @@
+
+Hi, 
+I would like to render a page on desktop browser and mobile devices (see attachment). I therefore use the following code:
+settings.SettingsAdaptivity.AdaptivityMode = GridViewAdaptivityMode.HideDataCellsWindowLimit;
+settings.SettingsAdaptivity.AdaptiveDetailLayoutProperties.
+= false;
+settings.SettingsAdaptivity.HideDataCellsAtWindowInnerWidth = 500;
+settings.SettingsPopup.HeaderFilter.SettingsAdaptivity.Mode = PopupControlAdaptivityMode.OnWindowInnerWidth;
+settings.SettingsPopup.HeaderFilter.SettingsAdaptivity.SwitchAtWindowInnerWidth = 500;
+settings.SettingsPopup.HeaderFilter.SettingsAdaptivity.MinHeight = 300;
+As you can see on the attachment, I have the following Problems with the device Rendering (right side, green arrows):
+c) I would like to increase the size of my 2 image buttons in the first column, but only for the device width-> how can I achieve this?
+Thanks a lot for your help!
+Best regards,
+Johnny

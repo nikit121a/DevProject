@@ -1,0 +1,8 @@
+
+
+I have to come back to you concerning the SpellCheckerCustomDictionarySource constructor
+As you mentionned, I have changed the custom.dic and custom.txt files to 
+instead of 
+Another consideration is the administrative rights on writing to the program files folder where the application is located. What happens if the user is not allowed to edit file in the program folders.
+As always thank you for your help
+Pierre

@@ -1,0 +1,18 @@
+
+The code before upgrading from 15.1.4 to 17.2.4 is as follows:
+
+
+
+
+In our Gridview when we hover over the MB cell we get a custom table as tooltip with data. See attached picture "Tooltipworking.png".
+The code after implementing the suggestion provided in the 
+ ticket is as follows (the exception will disappear).
+
+
+
+
+But the tooltip is not working anymore when hovering over the MB cell (see picture "TooltipNotworking.png").
+Can you help us to find out what the cause is?
+Thank you in advance.
+Kind regards,
+Shing

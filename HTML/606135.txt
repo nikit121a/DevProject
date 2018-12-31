@@ -1,0 +1,14 @@
+Dear Support,
+How can i bind an image in AppointmentToolTipContentTemplate ?
+Code snap-
+
+
+
+
+And Template like below - 
+
+
+
+
+Hope to hear you soon.
+Regards

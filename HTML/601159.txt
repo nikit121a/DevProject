@@ -1,0 +1,13 @@
+Hello DevExpress Team,
+ we added some SvgImages into the svgImageCollection16:   
+  
+  
+  
+  
+  
+  
+  
+  
+  How can we determine the number of entries. As an example we need to copy and transform the images into a ImageCollection. 
+Kind Regards
+Peter 

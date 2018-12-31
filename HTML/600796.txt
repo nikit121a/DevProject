@@ -1,0 +1,8 @@
+We have a requirement for a custom button to appear along with the "OK" and "Cancel" buttons in a MessageBox.   This button will display special text.
+What I've done.
+1. Created a Form
+2. Added 3 Buttons (OK, Custom Button, Cancel)
+3. Added a TPanel
+4. Put a TLabel on the TPanel.
+The problem I'm having is that the borderlines are appearing around the TLabel (or TPanel) control unlike the Standard Windows MessageBox that do not show borderlines.
+What properties need to be set?

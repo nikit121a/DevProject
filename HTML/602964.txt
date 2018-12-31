@@ -1,0 +1,8 @@
+Hi,
+1. please open 
+  on an iPhone with Safari (11.2.5).
+2. Click on "John Heart" => Lookup will be opened
+3. Click "Arthur Miller" => nothing happens
+As this is a showstopper a workaround would be highly appreciated.
+Thanks, Stefan
+ 

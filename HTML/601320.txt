@@ -1,0 +1,8 @@
+Hi,
+We have a Master/Details DXGrid.
+ItemsSource  of the grid Control is DataTable
+ColumnSource is a collection of model object ColumnInfo that contains properties including string property DisplayFormat
+The Grid control uses  ColumnGeneratorTemplateSelector to generate columns
+Column template defined as:
+The problem is that Detail Grid Control doesn't respect DisplayFormat property  as you can see on the attached picture but it is working same time on  the Masters and other properties from ColumnInfo objects (like Caption) working properly on Master and Details.
+Thank you for your help in advance. 

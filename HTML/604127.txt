@@ -1,0 +1,17 @@
+Hi,
+I want to change the behavior  when I click on the underlined filename in the FileDataPropertyEditor or rightclick on it and click "open".
+I found out how to override the editor, but I couldn't find out how to override the "open file" action.
+    [PropertyEditor(typeof(IFileData), true)]
+    public class CustomFileDataEditor : FileDataPropertyEditor
+    {
+        public CustomFileDataEditor(Type objectType, IModelMemberViewItem model) : base(objectType, model) { }
+        protected override object CreateControlCore()
+        {
+            FileDataEditEx editEx = new FileDataEditEx();
+            return editEx;
+        }
+    }
+    public class FileDataEditEx : FileDataEdit
+    {
+    }
+Thanks

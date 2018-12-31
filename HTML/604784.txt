@@ -1,0 +1,3 @@
+Hello,
+How do I read checkboxes and option buttons from excel?
+See example excel file in debug folder.

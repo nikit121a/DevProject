@@ -1,0 +1,4 @@
+Hello!
+I'm trying to configure a PivotGrid to scrolling rows with data rows synchronously in touch device. How could I do it?
+I've attached video with problematic behavior.
+ 

@@ -1,0 +1,4 @@
+Hello
+How can we add today's date to a Dashboard control? This is important if the item is exported.
+Thanks
+James 

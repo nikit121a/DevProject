@@ -1,0 +1,14 @@
+Hi
+I recently just updated to the version 17.2.5 and when I run the web page, i'm getting this error:
+And the code is:
+@Html.DevExpress().PageControl(
+        settings =>
+        {
+            settings.Name = "pcCallbacks";
+            settings.Width = Unit.Percentage(100);
+            settings.Height = Unit.Percentage(100);
+            settings.TabPosition = TabPosition.Top;
+            settings.EnableTabScrolling = true;
+            settings.TabAlign = TabAlign.Justify;
+            settings.EnableClientSideAPI = true;
+ 

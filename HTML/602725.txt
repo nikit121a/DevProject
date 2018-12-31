@@ -1,0 +1,1 @@
+Please advise on how can we have a button instead of the "+" icon to insert a new row in Dev Extreme Data Grid.

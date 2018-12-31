@@ -1,0 +1,4 @@
+In code using a WinForms GridView control, how do you resize the column where a summary item has been added to the footer via the 'Sum' menu option?
+I tried using the gridview.Column[fieldName].BestFit() methosd, but it resizes to a max width of the values within the column NOT taking into account the newly added text and value in the footer.
+Thanks,
+Eric 

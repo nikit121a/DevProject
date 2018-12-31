@@ -1,0 +1,6 @@
+We are implementing a custom header and sort buttons for a mobile web application, but sorting does not seem to work.
+Here is a jsfiddle to demonstrate the issue. If you set the showColumnHeaders to true, sorting will work. But when it is false, it does not!
+ 
+Can you please let us know how to resolve this issue?
+ Thank you
+Sina 

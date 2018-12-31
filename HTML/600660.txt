@@ -1,0 +1,72 @@
+DevExtreme dx.all.js 17.2.5 - Exception with setting useSpiderWeb to true on PolarChart 
+We currently use version 16 of DevExtreme I am busy evaluating version 17 to upgrade our product..
+Are you aware of an exception thrown when trying to  
+            this.option("useSpiderWeb", bool);
+on a extended polarchart?
+{exception} Unable to get property 'length' of undefined or null reference
+stack "TypeError: Unable to get property 'length' of undefined or null reference\n   at h.prototype.updateData (
+)\n   at Anonymous function (
+)\n   at Array.prototype.forEach (native code)\n   at _repopulateSeries (
+)\n   at _dataSpecificInit (
+)\n   at _dataInit (
+)\n   at _dataSourceChangedHandler (
+)\n   at t._dataSourceChangedHandler (
+)\n   at Anonymous function (
+)\n   at o.prototype._fireCore (
+)"
+[Main Thread]
+h.prototype.updateData [Line: 82, Col: 17945], dx.all.js
+Anonymous function [Line: 80, Col: 11704], dx.all.js
+[Library code]
+_repopulateSeries [Line: 80, Col: 11466], dx.all.js
+_dataSpecificInit [Line: 80, Col: 11067], dx.all.js
+_dataInit [Line: 80, Col: 10998], dx.all.js
+_dataSourceChangedHandler [Line: 80, Col: 10941], dx.all.js
+t._dataSourceChangedHandler [Line: 87, Col: 30079], dx.all.js
+Anonymous function [Line: 21, Col: 27407], dx.all.js
+o.prototype._fireCore [Line: 9, Col: 16925], dx.all.js
+o.prototype.fireWith [Line: 9, Col: 17645], dx.all.js
+fireEvent [Line: 13, Col: 5823], dx.all.js
+e.exports.fireEvent [Line: 13, Col: 5299], dx.all.js
+Anonymous function [Line: 22, Col: 2172], dx.all.js
+fire [Line: 3187, Col: 6], jquery-2.2.4.js
+self.fireWith [Line: 3317, Col: 7], jquery-2.2.4.js
+deferred[] [Line: 3416, Col: 5], jquery-2.2.4.js
+n [Line: 22, Col: 4776], dx.all.js
+_processStoreLoadResult [Line: 22, Col: 5007], dx.all.js
+Anonymous function [Line: 22, Col: 4526], dx.all.js
+fire [Line: 3187, Col: 6], jquery-2.2.4.js
+self.add [Line: 3246, Col: 7], jquery-2.2.4.js
+r [Line: 22, Col: 4365], dx.all.js
+n [Line: 22, Col: 4583], dx.all.js
+fire [Line: 3187, Col: 6], jquery-2.2.4.js
+self.add [Line: 3246, Col: 7], jquery-2.2.4.js
+_loadFromStore [Line: 22, Col: 4617], dx.all.js
+e [Line: 22, Col: 2837], dx.all.js
+Anonymous function [Line: 22, Col: 3100], dx.all.js
+t [Line: 13, Col: 15562], dx.all.js
+n [Line: 13, Col: 15665], dx.all.js
+load [Line: 22, Col: 2887], dx.all.js
+h._loadDataSource [Line: 21, Col: 28026], dx.all.js
+h._refreshDataSource [Line: 21, Col: 26554], dx.all.js
+s._updateDataSource [Line: 87, Col: 30938], dx.all.js
+_reinit [Line: 80, Col: 33], dx.all.js
+_doRefresh [Line: 80, Col: 10512], dx.all.js
+_applyChanges [Line: 80, Col: 8606], dx.all.js
+Anonymous function [Line: 10, Col: 4743], dx.all.js
+_resumeChanges [Line: 80, Col: 17532], dx.all.js
+endUpdate [Line: 80, Col: 21220], dx.all.js
+Anonymous function [Line: 10, Col: 4743], dx.all.js
+Anonymous function [Line: 13, Col: 901], dx.all.js
+option [Line: 80, Col: 21336], dx.all.js
+Anonymous function [Line: 10, Col: 4743], dx.all.js
+PolarChart.prototype.useRadarPlot [Line: 143, Col: 13], polarchart.ts
+PolarChart.prototype.deserialize [Line: 717, Col: 13], polarchart.ts
+AdroitWidgets.prototype.Deserialize [Line: 639, Col: 17], AdroitWidgets.ts
+selectDashBoardPage [Line: 254, Col: 2], PageManager.js
+UpdateDashboardWithUsersSettings [Line: 371, Col: 9], SettingsManager.js
+Anonymous function [Line: 295, Col: 13], SettingsManager.js
+fire [Line: 3187, Col: 6], jquery-2.2.4.js
+self.fireWith [Line: 3317, Col: 7], jquery-2.2.4.js
+done [Line: 8757, Col: 5], jquery-2.2.4.js
+Anonymous function [Line: 9123, Col: 9], jquery-2.2.4.js

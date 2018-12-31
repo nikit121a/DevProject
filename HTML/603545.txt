@@ -1,0 +1,3 @@
+Hi is it possible to drag a file like a Word Document from say the desktop, onto a windows form created with Devexpress.
+And run some code which will get the path and filename and save it to a location?
+Thanks! 

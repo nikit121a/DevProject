@@ -1,0 +1,4 @@
+I have two primary keys for the table, Id and Category .
+For the web form, the semi column is used. But  I couldn't find how to assign the multiple key values for BootstrapGridview in the lamda expression.
+Please advised me. Thanks
+ 

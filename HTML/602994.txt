@@ -1,0 +1,7 @@
+Hi, 
+I am using the Rich Text Control and RichEditDocumentServer to generate a TOC for my Report.
+As shown in the screenshot I am trying to draw some dots between the TOC entry and the page number given the following code:
+The problemn is that the leader dots do not go all the way to the next tabstop. Am I missing some settings?
+What I expected: The dots fill the gap between the text and the "1800" stop.
+Sincerely,
+Bernd Boruttau

@@ -1,0 +1,6 @@
+Hi,
+I noticed that it is not possible to clear an attached file (IFileData).
+THis is happening in a popover window and the only log I have is the following:
+THere is no Exception (I have unchecked Enable Just my Code) 
+Any idea?
+THank you 

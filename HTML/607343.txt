@@ -1,0 +1,5 @@
+Hi,
+I am trying to implement drag  and drop between two grids on the same control using the AllowDragDrop property  in version 17.2.  From what I have read I don't need to use a Drag and Drop Manager.  Both grids are bound to a IList of the same object.  The goal is to have users drag items from on grid that is populated with items to the other grid.  Below is the XAML for the form.
+I can drag items within the first grid but when I try to drag them over the second grid I get the circle with the slash in it showing its not allowed.  I have allowed drop enabled on both and I set up a EventToCommand to handle the drop event.  I looked at the examples in the help but they were not geared towards MVVM.
+Thanks in advance for your help.
+Tom

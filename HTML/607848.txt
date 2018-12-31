@@ -1,0 +1,2 @@
+I ahve BO class scans where I want add new record and attach a file to it in code like below:
+but when I try to load data I get exception. This occurs because file.File is null. What I have to do while adding new record to have right value in FileData property ?

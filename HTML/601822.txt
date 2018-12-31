@@ -1,0 +1,15 @@
+I have upgraded my application to DevEx v17.2. But getting below error:
+1. Batch editing start  edit event not working so unable to add/edit record, getting below exception:
+DXR.axd:62517 Uncaught TypeError: Right-hand side of 'instanceof' is not callable
+    at ret.IsValidDataItem (DXR.axd:62517)
+    at ret.StartEditCore (DXR.axd:61796)
+    at ret.StartEdit (DXR.axd:61792)
+    at ret.ProcessTableClick (DXR.axd:61698)
+    at ret.ProcessTableClick (DXR.axd:37818)
+    at ret.mainTableClickCore (DXR.axd:37792)
+    at ret.mainTableClick (DXR.axd:37772)
+    at Object.ASPx.GTableClick (DXR.axd:40130)
+    at HTMLTableElement.onclick (/#:1)
+2. Getting one more error attaching image.
+Please let me know solution for above issues.
+ 

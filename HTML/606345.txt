@@ -1,0 +1,9 @@
+[FROM 
+]
+Hi,
+I set SetThreadDpiAwarenessContext for my app, and everything looks ok but XtraRibbon now acts very unstable:
+You need to click multiple times in button to get click event
+Also sometimes there is a black box on top of the main form - seems like a bug
+I am using 17.2.5 version
+I am testing in on 4K UHD Laptop
+Any advice?

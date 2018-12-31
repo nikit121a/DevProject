@@ -1,0 +1,5 @@
+Hello,
+how can I "layout" a grid so it looks like the MS Outlook mail message window.
+Attached you can fin the layout i would like to replicate in my applicazion.
+Thnak you,
+Davide

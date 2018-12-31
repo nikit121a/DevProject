@@ -1,0 +1,7 @@
+Hy there.
+I made a report with a pivot grid. The problem is i cannot get the look that i need.
+The main problem is in finding a way to merge text cell that should be places in the columns.
+I have attached a archive containing a xls file with the data i get from my stored procedure, and a picture with how the report should look.
+Can you tell me if its possible to have the header the way its in the picture.
+And one more thing . You will see in the pictures and the data that i have multiple years. I would need that if i go to another the page to have the first two columns show as well (the 2 columns under "Category Type").
+ 

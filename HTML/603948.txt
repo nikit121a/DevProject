@@ -1,0 +1,6 @@
+Hi,
+I've configure the dataSource in code on dashboard loading .
+Now I want to hide the option of selecting\creating etc. dataSources from user
+(Same as AllowCreateNewDashboard = false)
+Is it possible?
+Thanks 

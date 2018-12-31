@@ -1,0 +1,1 @@
+Is there an easy way to center my GridView on my web page. By default it is built on the left margin of my web page.  I cannot find any supporting documents on being able to move the entire MVC GridView.

@@ -1,0 +1,24 @@
+Hello,
+We use WinForms Grid control with DataSource set. 
+DataSet values are doubles, but they should be displayed in a special custom format. 
+To achieve it we use CustomColumnDisplayText event.
+CustomColumnDisplayText(object sender, DevExpress.XtraGrid.Views.Base.CustomColumnDisplayTextEventArgs e) 
+{
+   e.DisplayText = SOMETHING;
+}
+That works fine but not for edit mode.
+In edit mode, editor displays not formatted value. 
+To fix it, we use ShownEditor event and set ActiveEditor Text property explicitly: 
+GridView_ShownEditor(object sender, EventArgs e) {
+   var ae = MyGridView.ActiveEditor as DevExpress.XtraEditors.TextEdit;
+   ae.Text = MyGridView.GetFocusedDisplayText(); 
+}
+That also works. 
+However, there is a problem. ShownEditor event raises at the moment when ActiveEditor already placed something (standard double.ToString in our case representation) in the cell. It leads to double drawing and flickering. 
+Is it possible to avoid double drawing? 
+How can we make ActiveEditor to set Text to proper (formatted) value initially or at least before cell drawing started? 
+Thank you, 
+Alex Zhitlenok
+BudoHoldings, 
+Chicago, USA
+        

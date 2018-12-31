@@ -1,0 +1,5 @@
+Hello,
+We have a web application using XAF with a lot of users. We want to build in a notification popup to let the users know when we are going to publish or restart the server. We want to only click a button as admin and then let the notification popup to each logged in user. I saw a lot of documentation for the windows forms, but none for web.
+If this is possible, please let me know how to do it.
+Best regards
+Rynhart 

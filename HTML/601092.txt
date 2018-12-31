@@ -1,0 +1,5 @@
+Hello. 
+1. When you try to move the rectangle, which describes the value of a formula occurs Access Violation. 
+2. Deleting columns are not displayed correctly in the formula value. 
+And Question
+How to hide the selection of the values of the formula, if the focus is not on the formula? 

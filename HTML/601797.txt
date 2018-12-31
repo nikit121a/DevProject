@@ -1,0 +1,18 @@
+Hello,
+I'm using a ChartControl in a WPF Project, I set all the properties in runtime. This is part of code
+'variable chart is a DevExpress.Xpf.Charts.ChartControl
+Dim diagrama As New XYDiagram2D()
+            chart.Diagram = diagrama
+            Dim series As New BarSideBySideSeries2D
+            series.LabelsVisibility = True
+            series.ColorEach = True
+            series.ArgumentDataMember = "X"
+            series.ValueDataMember = "Y"
+            Dim sl As New SeriesLabel
+            series.Label = sl
+  
+The problema is I cannot set the property of series LabelPosition.
+Can you help me, please?
+I have attached a image with the property in desing time. The others properties of the image, I can set in runtime.
+Thank you very much.
+ 

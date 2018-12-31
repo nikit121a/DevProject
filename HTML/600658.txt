@@ -1,0 +1,3 @@
+SchedulerControl CommandBarStyle="Ribbon" crashes on second use if opened in it's own thread.
+Please find attached an example project.  Run and press the 'Open Window' button TWICE to replicate. 
+This seems to happen on all similar controls with CommandBarStyle also (Spreedsheet, Diagram etc) - may all be the same issue. 

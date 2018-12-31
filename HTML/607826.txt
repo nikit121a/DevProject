@@ -1,0 +1,9 @@
+If you create a LabelControl with:
+ AutoSizeModel Vertical,
+MaximumSize (0, 50), 
+AutoEllipsis True,
+Padding.Bottom = 16,
+Appearance.TextOptions.Trimming EllipsisWord (or any trimming)
+and set the text to several lines or a single line which wraps enough, the top lines disappear and the bottom line overflows into the padding (which should stay blank):
+I would have expected to see:
+Can this be fixed?

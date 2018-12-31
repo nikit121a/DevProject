@@ -1,0 +1,4 @@
+Hello,
+Is there any Devexpress web control (or component) that can be used in web app  and the control allows user to paste mixed texts and screenshots copied from windows (clipboard)? For example, We can capture a screenshot of our desktop and paste into a MS Word document and type something or paste some texts.
+Thanks.
+Anh Nguyen  

@@ -1,0 +1,7 @@
+Hi support...
+Is it possible to "add" to reflection dictionary a real POCO objects without decorating these with [Persistent] attribute? I've tried to do something  like this:
+ReflectionDictionary dict = new ReflectionDictionary();
+var classInfo = dict.GetClassInfo(pocoObject);
+it works fine if pocoObject class is decorated with [Persistent] attribute... however it fails when it miss one.
+Best
+Sebastian Ma?kowski 

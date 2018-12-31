@@ -1,0 +1,5 @@
+Hello,
+In a pivot, I use a DateRecolte field in the row area. I display the week of the year of this Date and I would like to be able to sort on the value Date and not on the value week. Which is illogical, because 2017-12-29 (week 52) is before 2018-01-13 (week 2) if we sort ascending this field. So 52 is before 2 and not the other way around.
+Do you have workaround for this problem.
+See image.
+ 

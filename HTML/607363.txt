@@ -1,0 +1,4 @@
+HI!
+I?s there any change i can keep the AppointmentFlyout from automatically closing when losing the appointment's focus?
+I'm showing a customised user control, and wish to be able to interact with it's contents.
+R?egards,

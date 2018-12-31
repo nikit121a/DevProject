@@ -1,0 +1,7 @@
+I have a DevExtreme dxPopup Widget where the  MVCxDocumentViewer is contained (as partial view).
+The partial view with the report viewer is called by 
+call.
+Now I try to customize the ribbon as it is described 
+.
+Because of the popup widget and the AJAX request I cannot place another element within the same partial view as the report viewer.
+Is there a way to adapt the ribbon by the 'PreRender' event handler?

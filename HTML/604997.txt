@@ -1,0 +1,7 @@
+Hi,
+<LayoutGroup.GroupBoxStyle>
+<Style TargetType ="GroupBox">
+<Setter=padding value=2>
+to all the LayoutGroupBoxs. I am trying to put style in resource section so that I don't need this code in every layoutGroup but I am somehow not able to match the class and targetType.
+Kindly help me,
+Thanks, 

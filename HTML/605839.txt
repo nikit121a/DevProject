@@ -1,0 +1,7 @@
+Hello Support,
+As the subject explains, when I apply a filter to my grid (within a tab control then a navigation frame)  the grid loses the sort and filtering when navigated back. 
+It makes no difference to this issue enabling cache mode on the navigation  and tab control.
+Is this expected?
+I tried looking at saving the grid layout to a stream but the UserControl unloaded event isn't triggered on the viewmodel (POCO) when navigating away. It is triggered on  the code behind but the datacontext is then null so I have no where to save the stream. I don't want to save it to XML as the user could have many instances of the tab open with different layouts / filters.
+Any help is appreciated.  
+Thank you. 

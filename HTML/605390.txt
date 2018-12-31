@@ -1,0 +1,5 @@
+Hi!
+I'm looking for a solution to implement business logic in the datacelltemplate method. The issue is that I need to get data in an async call before the business logic is implemented (remote data), so I need to make sure the data is available in the datacelltemplate method. I'm running the angular (angular2) version. But the datacelltemplate is run very early before I have time to make the call to remote server.
+Is it any way to make an async call before datacelltemplate is rendered by promise of some kind? The only option I can think of is to make the async call and then force update by using repaint-method. But that forces a refresh in the datasource as well. Sounds like a poor solution.
+Best Regards,
+Kim 

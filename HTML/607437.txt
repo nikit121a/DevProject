@@ -1,0 +1,1 @@
+In the dashboard designer, if the user creates a calculated field with an error in it, for example, attempting to convert a an empty string to date, the user is thrown from the designer to an empty page with the error. I would like to allow the user to gracefully handle this error instead of redirecting to another page. What event is thrown when a formula is invalid?

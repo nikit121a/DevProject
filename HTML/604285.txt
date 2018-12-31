@@ -1,0 +1,7 @@
+First of all thank you for answering my question.and I hope to use Chinese communication 
+The following is from Google Translate
+1.Add a new point every 50ms to show 16 data curves for three hours?How to achieve high efficiency refresh?
+2.How to draw a dotted line between two points
+   ? -------- point - - - - -point --------
+   ? -------- point- - - - -point- - - - -point ---------
+3.how to sort x-axis with timespan  

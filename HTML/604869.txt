@@ -1,0 +1,5 @@
+Hello,
+I have a problem with CustomColumnSorting and Dynamic Columns. We use Dynamic Columns Source and want to apply a custom column sorting. However the event seems to be not fired for every column. Every columns is set to Sort Mode Custom.
+I have attached a simple solution to show my issue. In this sample, the breakpoint is never hit on the method
+OnCustomColumnSort(object sender, CustomColumnSortEventArgs e) .
+What am I missing? 

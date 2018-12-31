@@ -1,0 +1,13 @@
+How to reset/remove ControlStyles to all object on the report. 
+For example:
+Struct of report
+DetailReportBand1 -> Table1 ->cellTable1, celltable2, celltable3
+DetailBand1 ->controlstyleGLOBAL - this is name of controlstyle
+Table1 -> controlStyle1
+cellTable1 ->controlStyle1
+cellTable2 -> none
+cellTable3 -> controlStyle2
+and now I want to set up Controlstyle2 for every objet on DetailReportBand1.
+How to do this in simply way?
+Best Regards
+Bartosz S?awi?ski. 

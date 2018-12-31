@@ -1,0 +1,2 @@
+The typings for dxScheduler seem somewhat sparse.  I know it may not be considered part of the public api, but there is multiple support tickets on the dxScheduler that mention using getWorkSpace via javascript.  Unfortunately, getWorkSpace is not part of the typings file so it has to be manually added to prevent typescript errors. 
+There also seems to be quite a few other methods/functions that exist in the js file, but aren't found in the typings.   Would it be possible to get the typings updated with more things specifically for the dxScheduler?

@@ -1,0 +1,4 @@
+Hi,
+ do you have any plan to support RTL and Hebrew in XtraRichEdit.RichEditControl for winform?
+thanks for support
+binyamin

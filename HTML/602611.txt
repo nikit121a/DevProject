@@ -1,0 +1,7 @@
+Hi,
+I am using  Angular 2.x approach.
+I have a dxTextBox component which has custom validation rule that validates the input on server side. The problem is when i click the submit button it starts the validation server side and send the request to server. But submit action does not wait to get answer from the server because validateBarcode() method does not returns anything until get answer from the server. That's why it is not allowing to submit first time even validateBarcode() method validates. if click again it's submitting because it's  already validated in previous click. So i am trying to keep waiting submit action until validator get answer from the server. Is there anyway to achieve this?
+p.s: i have tried to return $.Deferred() object in validateBarcode() method but it's not worked.
+Thanks.
+sample source
+ 

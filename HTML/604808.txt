@@ -1,0 +1,8 @@
+Today I come with a suggestion, which I hope will find an echo.
+When we're working on MDI-like applications, we often use ribbons and status bars. But unlike the rubban, the status bar has no "page" to simulate the concept of content partition. It  is therefore up to the developer to value the MergeOrder property  according to each level of depth (to represent the nesting of Russian  dolls to well imagine the situation of nested control users) so that  this information is presented in order A-> by the left, and the order ZA by the right.
+In  my personal case, which I believe widespread, I have voluntarily  created this notion of "basic component equipped with menu" (ribbon  & status bar) as "basic component" for construction for the  realization of all my user controls. Thus, each of these presentation layer, embarks with him his part of menu, which segment at best the development. And today I see what I quote above. Short. The successive status bar merge, calls for special management of the MergeOrder property of the baritems that compose it.
+Which begs the question about how a ribbonstatusbar mergeorder should be done ...
+So I suggest to devexpress:
+-  either to support a logic identical to the one I describe on the  menu-based components (which would standardize and therefore certainly  facilitate the work of thousands of customers :-)),
+-  or simply support for a special ribbonstatusbar event, for the  definition (or overdefinition) of a global MergeOrder at barItems or a  MergeOrder status bar.
+I join a powerpoint file to illustrate the point. 

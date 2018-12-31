@@ -1,0 +1,6 @@
+Hello
+I already use the tecnique visible 
+ to  customize the new activion item list but in some view I would like to hide the drop-down action button and to have multiple "Add" buttons, one for each item of the new action item list.
+It is possible to achieve this result with some settings of the XAF controller?
+Thanks
+G

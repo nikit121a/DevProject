@@ -1,0 +1,5 @@
+I have a list (a gridview). I want that clicking on a row of the grid I will open a popup where I have the detail of the row. 
+it's possible ? 
+Could you give me an example ?
+Thanks
+ 

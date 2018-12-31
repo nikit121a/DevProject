@@ -1,0 +1,4 @@
+I have a FormatConditionRule3ColorScale rule applied to a BandedGrid.  On the UI, the color scale rule works properly.
+However, when exporting to Excel (Data Aware), the colors appear to be inverted.
+In my attached image, in the BandedGrid (top), the color scale is ordered from Red to Green Descending.  In the Data Aware Excel file (bottom), the color starts with green and ends with red.
+ 

@@ -1,0 +1,6 @@
+Hello Team,
+We use richtext editor mvc extension to open docx files.
+When I click into table,, by default it shows design and layout tabs. I would like to keep those tabs, but do not want to give my users all the formatting options in the design/layout tabs.
+For example, I want to hide table styles. In borders & shading show only borders but remove shading s options.
+Please let me know how can I achieve this. 
+Thanks for your time. 

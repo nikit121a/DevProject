@@ -1,0 +1,1 @@
+I need that when I right click and choose New Appointment on my ASPxScheduler the text located in a ASPxTextBox on the same page will be added to my subject field for the new appointment.

@@ -1,0 +1,7 @@
+I am trying to set the client side visibility of a TextBox and DateEdit control in js based on the value selected in a ComboBox.  I have pasted the code for the controls and my js below.  The alert statements indicate the correct visibility but the controls don't appear.  Please advise.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+

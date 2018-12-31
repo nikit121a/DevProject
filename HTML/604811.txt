@@ -1,0 +1,3 @@
+
+
+From the animation, looks like the graph will be displayed vertically. Is there a way to arrange them based on some autoflow responsive way? 

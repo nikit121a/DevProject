@@ -1,0 +1,9 @@
+Hi,
+I see that there has been change in behavior from 17.1.7 to 17.2.3
+In 17.1 I can set  TreelistColumn.Width to zero while in 17.2.3 it does not make any affect.
+The issue is that in 17.1 the TreeListColumn.Width 
+set is 
+ in 17.2.3 set is
+ 
+Please advise how can I achieve setting Column's width to zero that makes the desired effect.
+Thank you

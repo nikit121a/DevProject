@@ -1,0 +1,6 @@
+I have some elements inside of the dxList itemTemplate that I don't want to trigger a selection such as a context menu activator for mobile.
+My current implementation involves getting the current selected items and then resetting the selected items based off the item that was added/removed.
+This would be solved if there were some form of e.cancel for onSelectionChanged.
+Is there a more elegant solution available that I'm missing now?
+Thanks.
+ 

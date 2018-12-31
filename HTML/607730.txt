@@ -1,0 +1,3 @@
+After upgrade from 16.2.5. to 17.2.5 repositoryItemRichTextEdit produces 7kB bytes for one input word with RTF format. Are we able reduce size back to 16.2.5 version format ? It looks that 17.2.5 version contains big themedata section .. please see attachments.
+Thank you
+Ludek 

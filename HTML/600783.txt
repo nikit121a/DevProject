@@ -1,0 +1,6 @@
+We have a WebChartControl where we are using index values as arguments on the X-Axis.  Using the server-side CustomDrawAxisLabel event, we're replacing these numeric index arguments with more meaningful text strings as X Axis labels.  That all works fine.
+The problem we're having is that the GroupHeader in the Crosshair displays the argument index  value rather than the text string we replaced it with in the X Axis label.  Is there a way to customize the Crosshair to use the Axis labels rather than the argument values in the GroupHeader?  I tried implementing the client-side CustomDrawCrosshair event to see if we could handle it that way, but I don't see that the custom Axis labels are available to us in that event.
+BTW, we are only using index values as arguments on the X-Axis because we need to display labels for empty series.  I don't think that's possible using the Qualitative ScaleType.  If there's a way to maintain a position on the Axis for empty series using the Qualitative ScaleType, that would be the ideal solution.
+Any assistance you might provide would be greatly appreciated. 
+Best,
+Jeff 

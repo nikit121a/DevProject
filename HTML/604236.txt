@@ -1,0 +1,10 @@
+I have added a dxList to that either will contain a list of items or not based upon a user selection from a dxSelectBox.
+The problem is that when the dxList does contain data, the width is millions of pixels wide and pushes content off the viewable capability of most browsers.
+I do not know who is calculating the width to be millions of pixels or where that width is coming from.
+I read one of these other questions about width not being calculated for some reason or other and to set display to block. I tried that in a few places.
+My sample project is a Visual Studio Code project.
+ When you run the project the "Role Name" Select Box drives the data for the 2 dxList objects. Either empty for "DB Admin" or a list of objects for "Does It All".
+When "Does It All" is selected the dxList is driving the width to change to be millions of pixels wide and the "Description" and "Privileges" are completely pushed out of any visible range from the page.
+How can I determine how this million pixel width is being determined?
+How do I rectify the width to fit the widest item content? 
+I do not know the size of the content to set a fixed width as the data for the list will dynamically be loaded at run time when the Role Name SelectBox value is changed. 

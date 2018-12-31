@@ -1,0 +1,5 @@
+Hi,
+I have downloaded DevExpress Extreme and I am trying to add this to my ASP.NET project that I currently have. Unfortunately when I right click on the solution to add DevExpress Extreme the option is not available. I have also tried to add this through the NuGet Package Manager but still no luck in adding DevExpress to my project. I have downloaded the version 13.1.12 from the download page within DevExpress as this is the version the programmer I previously employed was running the project on.
+Would you please be able to provide me advice/assistance on how I can add DevExpress Extreme onto my project to be able to use the full functionality within my project.
+Thanks in advance
+Jonathan Lewis 

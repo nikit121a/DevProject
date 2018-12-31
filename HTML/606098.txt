@@ -1,0 +1,24 @@
+When exporting a GridControl containing a TreeListView with hierarchical data, and a GridColumn with SparklineEditSettings, the export via TreeListView.ExportToXslx(filename) throws a ArgumentOutOfRangeException. See minimal example that reproduces the issue in the attachment (you will have to change the hardcoded filename to match your environment in MainWindow.xaml.cs).
+It would be great if you could provide a fix or workaround.
+Thanks!
+{System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Linq.Enumerable.ElementAt[TSource](IEnumerable`1 source, Int32 index)
+   at DevExpress.Printing.ExportHelpers.Helpers.SparklineExportStrategy`2.CreateSparklineGroup(TCol col, ISparklineInfo sparklineInfo)
+   at DevExpress.Printing.ExportHelpers.Helpers.SparklineByColumnExportStrategy`2.AssignSparklinesToSheet()
+   at DevExpress.Printing.ExportHelpers.Helpers.SparklineExportStrategy`2.Export()
+   at DevExpress.Printing.ExportHelpers.Helpers.SparklineExportHelper`2.Execute()
+   at DevExpress.Printing.DataAwareExport.Export.Utils.ExportHelpersProvider`2.Run()
+   at DevExpress.XtraExport.Helpers.GridViewExcelExporter`2.RunExporters()
+   at DevExpress.XtraExport.Helpers.TreeListExcelExporter`2.ExportData()
+   at DevExpress.XtraExport.Helpers.GridViewExcelExporter`2.ExportOverride()
+   at DevExpress.XtraExport.Helpers.BaseViewExcelExporter`1.DevExpress.XtraExport.Helpers.IExcelExporter.ExportSheet(IXlExport exporter)
+   at DevExpress.XtraExport.Helpers.BaseViewExcelExporter`1.Export(Stream stream)
+   at DevExpress.XtraExport.Helpers.BaseViewExcelExporter`1.Export(String outputpath)
+   at DevExpress.Xpf.Grid.TreeListViewDataAwareExportHelper.Export(String filePath)
+   at DevExpress.Xpf.Grid.ExportHelper`1.ExportData(String filePath, T options)
+   at DevExpress.Xpf.Grid.ExportHelper`1.<>c__DisplayClasse.<Export>b__d()
+   at DevExpress.Xpf.Grid.ExportHelper`1.Export(Action layoutExport, Action dataExport, IDataAwareExportOptions options)
+   at DevExpress.Xpf.Grid.ExportHelper`1.Export(String filePath, T options)
+   at DevExpress.Xpf.Grid.TreeListView.ExportToXlsx(String filePath, XlsxExportOptions options)
+   at PR.Analyzer.Views.Freestyle.ThermControl.FreeStyleStepView.Export(TreeListView table, String file) in C:\projects\nte\PR.Analyzer\Views\Freestyle\ThermControl\FreestyleStepView.xaml.cs:line 128}

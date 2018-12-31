@@ -1,0 +1,9 @@
+hi support team,
+I'm applying the dxFilterBuilder control to my MVC project.
+It worked perfect until I got the trouble when getting its filter string.
+It looks like this:  ["CustomerID", "contains", "DEF"],
+["WarehouseID", "contains", "ABC"]
+How could I parse this condition string so that SQL can understand?
+Please advise.
+Thanks.
+ 

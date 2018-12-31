@@ -1,0 +1,5 @@
+Hello,
+I was wondering, is it expected behaviour that an editable gridview  (OptionsBehavior.Editable = true)  doesn't allow its items to be dragged? 
+I have a few non-editable columns (OptionsColumn.AllowEdit = false), that I thought should be suitable for dragging using the BehaviorManager component (as in 
+).
+How do I do this? 

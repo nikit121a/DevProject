@@ -1,0 +1,1 @@
+HI, are there a control to move text, something like to slider but with text.   I need show announces and want show one then second etc.    Like a marquesine.  Thanks.

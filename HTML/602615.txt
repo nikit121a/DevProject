@@ -1,0 +1,6 @@
+I have implemented a WinExplorerView with a breadcrumb (similar to your demo), although it's not based on files in the local file system. The file and folder records are stored in a database and the physical files are stored in Azure Blob storage. The folders are virtual and are database records only.
+The BreadcrumbEdit control does not deal with duplicate folder names too well although I understand that Windows Explorer doesn't allow duplicates.
+When navigating into a folder which has the same name as another, the Breadcrumb control will treat both folders as the same. This is because to change the Breadcrumb path, you have to set the path which is a string.
+However, behind the scenes I am populating my Breadcrumb with a collection of objects, so each folder has its own id.
+Is there a different way to change paths in the  Breadcrumb control so that it can navigate to a folder's id rather than by name? This is how I change paths at the moment: -
+ 

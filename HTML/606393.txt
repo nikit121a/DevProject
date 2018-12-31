@@ -1,0 +1,6 @@
+
+Thanks for the sample.  I'm currently playing around with the settings.
+With the sample provided, how do I:
+2.  How do I limit the ability to select only certain days.  I want to limit to current day and the next day.
+Thanks,
+Brian

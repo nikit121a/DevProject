@@ -1,0 +1,9 @@
+Hello! Sorry for my bad english.
+I make tree view with single-selection mode and filtering field
+https://plnkr.co/edit/pcRHKtpCksJ7LaDebCXh?p=preview 
+1. go to filter box and write 'plus' - then displayed only items, contains this word
+2. select one item. now give message - item selected. When tree unfocused - this item displayed as gray .
+3. now clear filter box and write 'led'  - then displayed items with this word
+4. select one item - now give message - item selected. When tree unfocused - this new item displayed as gray .
+5. clear filter box - now hilight OLD selected item. No messages about changing selection. 
+IMHO after clearing filter, need hilight NEW item, or generate notification about changing selection to old.

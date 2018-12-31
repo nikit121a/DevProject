@@ -1,0 +1,5 @@
+We need to show PopupContainerControl, when user is editing text in PopupContainerEdit. Focus has to be in PopupContainerEdit to don`t interrupt user input.   
+After update to 17.2.5, the code we were using  before, stopped to work. The PopupContainerControl  is closing when focus moved to PopupContainerEdit. 
+How to keep focus in PopupContainerEdit and have PopupContainerControl opened, while user is typing.
+Please have a look at attached example.
+Thank you.

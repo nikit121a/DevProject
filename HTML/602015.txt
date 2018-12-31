@@ -1,0 +1,6 @@
+Hi 
+When I place a aspxgridview in a splitterpanel.
+I try to resize the gridview column 
+I can resize wider , but I can not resize narrow
+thanks for your help
+Albert 

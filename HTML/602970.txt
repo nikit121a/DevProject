@@ -1,0 +1,4 @@
+hello,
+Can I avoid the unload event to be called when a document  panel is undock (float)?
+Can I set for the document panel to be loaded one time, not every time the user undock or dock it?
+ 

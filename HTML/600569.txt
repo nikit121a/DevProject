@@ -1,0 +1,4 @@
+Hi,
+I'd like to change the background colour of the the bar underneath the toggle switch button to a different color (green) when the switch is on and have it paint normally when the toggle switch is off. In the skin editor this corresponds to the "Solid Image Center"color of the toggle switch, is it possible to edit this programmatically?
+Many thanks
+Sean. 

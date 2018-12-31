@@ -1,0 +1,4 @@
+
+Thanks, the above worked.
+Now, I would also like to check whether the map information (as displayed in google's search result) is available for us to access (ref. highlighted area in 
+)

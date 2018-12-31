@@ -1,0 +1,10 @@
+Hi, 
+when I use dxe:ComboBoxEdit, 
+I hope I can control the direction of Popup window when I clicked the ComboboxEdit.
+for example I want to let popup window display at the top of control when I move this control to some position.
+attached please find the picture.
+How can I do it? 
+thank you!
+Best regards,
+Tian
+ 

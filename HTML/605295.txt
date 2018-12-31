@@ -1,0 +1,49 @@
+Hi,
+I have created an MVC asp.net project with angular js.  When I have added devextreme controls, I got an error which attached in the image.
+<link rel="shortcut icon" href="~/Theme/images/icons/favicon.ico">
+    <link rel="apple-touch-icon" href="~/Theme/images/icons/favicon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="~/Theme/images/icons/favicon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="~/Theme/images/icons/favicon-114x114.png">
+    <!--Loading bootstrap css-->
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700">
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,700,300">
+    <link type="text/css" rel="stylesheet" href="~/Theme/vendors/jquery-ui-1.10.4.custom/css/ui-lightness/jquery-ui-1.10.4.custom.min.css">
+    <link type="text/css" rel="stylesheet" href="~/Theme/vendors/font-awesome/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="~/Theme/vendors/bootstrap/css/bootstrap.min.css">
+    <!--LOADING STYLESHEET FOR PAGE--><!--Loading style vendors-->
+    <link type="text/css" rel="stylesheet" href="~/Theme/vendors/animate.css/animate.css">
+    <link type="text/css" rel="stylesheet" href="~/Theme/vendors/jquery-pace/pace.css">
+    <link type="text/css" rel="stylesheet" href="~/Theme/vendors/iCheck/skins/all.css">
+    <link type="text/css" rel="stylesheet" href="~/Theme/vendors/jquery-news-ticker/jquery.news-ticker.css">
+    <!--Loading style-->
+    <link type="text/css" rel="stylesheet" href="~/Theme/css/themes/style3/pink-blue.css" id="theme-change" class="style-change color-change">
+    <link type="text/css" rel="stylesheet" href="~/Theme/css/style-responsive.css">
+    <script src="~/Scripts/dx.all.js"></script>
+    
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-touch.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-animate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-sanitize.js"></script>
+    <script src="https://rawgit.com/dwmkerr/angular-modal-service/master/dst/angular-modal-service.js"></script>
+    <script src="http://ui-grid.info/docs/grunt-scripts/csv.js"></script>
+    <script src="http://ui-grid.info/docs/grunt-scripts/pdfmake.js"></script>
+    <script src="http://ui-grid.info/docs/grunt-scripts/vfs_fonts.js"></script>
+    
+    <link href="~/Content/dx.light.css" rel="stylesheet" />
+    <link href="~/Content/dx.common.css" rel="stylesheet" />
+    
+    @*<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>*@
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment-with-locales.js"></script>
+    @*<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.1/angular.js"></script>*@
+    <script src="//cdn.rawgit.com/indrimuska/angular-selector/master/dist/angular-selector.js"></script>
+    <link rel="stylesheet" href="//cdn.rawgit.com/indrimuska/angular-selector/master/dist/angular-selector.css">
+    
+    <script src="~/Scripts/ui-grid.js"></script>
+    @*<script src="~/Scripts/select.js"></script>*@
+    <script src="~/Scripts/angular-moment-picker.js"></script>
+    <link type="text/css" href="~/Content/angular-moment-picker.css" rel="stylesheet" />
+    @*<link type="text/css" rel="stylesheet" href="~/Content/select.css" />*@
+    <link rel="stylesheet" href="http://ui-grid.info/release/ui-grid.css" type="text/css">
+    <link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />
+This is my layout design

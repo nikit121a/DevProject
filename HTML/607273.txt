@@ -1,0 +1,7 @@
+Hello,
+1) open  
+ with safari on ios
+2) open a lookup list
+3) try to select one item --> nothing happens
+thanks
+Christoph 

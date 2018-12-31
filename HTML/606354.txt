@@ -1,0 +1,3 @@
+I build application template few months ago and my below code was working perfectly 
+ But now I build again application template with no change in above code & config.xml but now above code doesn't work.(doesn't open camera) Please guide me what is happening? 
+my config.xml is: 

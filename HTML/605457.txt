@@ -1,0 +1,5 @@
+Hi,
+1. I want to know the event which is fired when any filter is removed manually from the gridcontrol column. 
+2. Secondly, I want to know the event  which is fired when all the filters are removed from the grid using the remove button shown in attached snap.
+Thanks,
+vivek 

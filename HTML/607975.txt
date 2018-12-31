@@ -1,0 +1,9 @@
+Hi Team,
+I have two requirements as described below, any help would be greatly appreciated.
+I have a button which is constructed using 
+, when a mouse hover on a button it brings some styles (Typical button states), I understand that this is default behavior of a button. Is there any way to keep the same styling when mouse hover/click happens on a button?  
+I have enclosed a document with screenshot describing expected behavior and sample that I build.
+Please help
+Thanks,
+Hari Prasad
+ 

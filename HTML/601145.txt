@@ -1,0 +1,9 @@
+Dear support,
+in seven years old ticket 
+ told there is no way to use page setup function together with merged reports.
+Is this still the case?
+If not, which criterias need to be fullfilled in order to use the page setup?
+Thanks in advance for your answer.
+Kind regards,
+Iwan
+ 

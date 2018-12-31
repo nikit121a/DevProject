@@ -1,0 +1,15 @@
+Hello   
+I am seeing something I don't understand.   I have two forms that have a splitContainer on them - and I am seeing different property lists...  
+Form 1 (created 10+ months ago)
+  - Standard Xtra Form
+  - Created under an older version of your controls (17.1?)
+  - Older controls are un-installed
+Form 2  (Created today)
+  - Following your videos - this form base class is the RibbonForm
+  - Created under 17.2.3 of your controls (what I currently have installed)
+Note - I am in the process of redeveloping Form 1 - and will be moving everything over to Form 2 over the next few weeks.  Hence when you look at the images - the controls have the same names!! 
+As you can see in the attached images in the Zip file - there are splitContainers on each form - with the same name.  However, when I select them and look at their properties - I do not see the same available properties.  Why would this be?  
+Could it be that the splitContainer created in the older version of the components still has its same value?  This seems more than unlikely - and I don't think it is even possible?  Or could it be that I have some property set somewhere that is causing this?  
+Do you have any thoughts as to what might be causing this?   
+Bradley 
+ 

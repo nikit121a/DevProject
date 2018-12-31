@@ -1,0 +1,14 @@
+Hi,
+This is regarding the Checkbox Selector Column that we can activate in the Grid Control for Row Selection. As needed for this column to appear on the Grid, we use the following things : -
+1. Set the GridControl SelectionMode = "MultipleRow"
+2. Set the GridControl view (a TableView) ShowCheckBoxSelectorColumn = "True"
+All looks pity fine and is working absolutely great till we hit this performance issue.
+if in the Grid you have 
+1. Lots of records (121842 Rows, 35 Columns)
+2. Group by 4 - 5 columns (By Dragging columns to the Group Panel one by one)
+3. Do a Full Expand (Using the Right Click on the Group Panel)
+4. Collapse all groups except the Last One (Only highest level of Groups) (Manually clicking the collapse button on the top level group rows)
+5. Click the Group Row Checkbox on the Last Group (This is the only group left which is full expanded( all nested groupings as well expanded))
+The System hangs and the UI Freezes.
+Kindly help.
+Regards 

@@ -1,0 +1,7 @@
+Hi,
+We want to save reports' layout by application that uses devexpress 15.2 and open it with another application that uses devexpress 10.1.
+In order to implement this we want to alllow the user the option to save the report as lower version(10.1), do you have this capability?
+The reason we need this is because the users want to utilize the SUM function in the report designer (Expression Builder) which is not available in 10.1.
+Alternatively,  is there another way to implement the SUM function so that it will work on 10.1 too?
+Thanks,
+Hadassa K.

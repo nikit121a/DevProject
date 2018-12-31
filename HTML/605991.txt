@@ -1,0 +1,6 @@
+Hello,
+I would like to ask for a bit of help regarding binding DataTable as DataSource of MVC GridVIew.
+According to example 
+  DataTable is a valid type for Grid's DataSource, but because of lack of parameter-less constructor for DataRow it's apparently not possible to add new records. My question is - is it possible to work around that limitation? I could create new object using DataTable.NewRow, but don't know how to provide it to the GridVIew. All I was able to find is InitNewRow event, but this seems to be used only for initializing fields of new object.
+Best regards,
+Sebastian 

@@ -1,0 +1,26 @@
+Hi,
+I'm trying to replace  placeholders in the body of a richeditcontrol with arabic text but the direction of the replaced text is unconsistent (some are correct, some aren't).. The attachment shows a sample (the right panel is the original page which you can check with)
+How can I get the correct direction simultaneously for both the replaced (arabic) and latin/english text?
+Thanks
+Orhan
+            int s?rano = 0;
+            Document document = richEditControl1.Document;
+            DocumentRange[] ranges = document.FindAll("<6>", SearchOptions.None);
+            document.BeginUpdate();
+            if (ranges.Length > 0)
+                for (int i = 0; i < ranges.Length; i++)
+                {
+                    DocumentRange range = ranges[i];
+                    DataRow r = gridView2.DataTable().Rows.Find(++s?rano);
+                    if (r != null)
+                    {
+                        int PrevPosition = range.Start.ToInt();
+                        if (PrevPosition > -1)
+                        {
+                            DocumentPosition psx = document.CreatePosition(PrevPosition);
+                            document.InsertText(psx, "\u202B" + r["Kelime"].ToStr() + "\u202C");
+                            document.Delete(range);
+                        }
+                    }
+                }
+            document.EndUpdate();

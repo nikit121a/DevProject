@@ -1,0 +1,8 @@
+Our application is upgraded to 2015.2.4 some time ago. Now we see that something is not working anymore. By some search work I see that the mechanism of the reportwizard is changed.
+We have a customized report wizard because we only want  the customer to select a label (no datasource for example).
+In the previouw version 2013.x.x we used this mechanism:
+ReportBase is a subclass of XtraReport.
+Now the problem. In the new situatio (at this moment we use 2015.2.4) this is the mechanism to use:
+The problem is that we couldn't check if the user cancels the wizard and that we could provide our subclassed XtraReport instance to the wizard.
+How can we fix this?
+ 

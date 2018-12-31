@@ -1,0 +1,9 @@
+Dear Whom it may concern,
+ 
+We are currently using DevExtreme ver. 15.1
+After upgrading to ver. 17, for the js/localization/dx.all.ko.js, which is seen as Korean language related files we call Globalize.addCultureInfo() Function, which does not support in ver. 17
+Other language file which has been upgraded to ver. 17, the language-related files calling function has been changed. Only the ver.15 and Korean language related files can call the same functions. 
+We would like to know if the language support has been discontinued or if there is an issue regarding the upgrade process. Could you inform us the solution to this problem? 
+If the additional language support has been discontinued, we would like to know if there would be further supporting plan.  
+ 
+Thank you.

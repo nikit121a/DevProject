@@ -1,0 +1,5 @@
+I'm using two 
+and two 
+into one Angular component (with Visual Studio 2017 on a Asp Net Core 2.0 project) and I need to export all this grids into one single xls file. Is it possible?
+If it's possible, can you provide me an example  (if possible also insert a header before each table)?
+Thanks.

@@ -1,0 +1,5 @@
+I am reviewing my logs, and see that one of our customers has some issue that looks to be triggering a flood of events into Logify.  Two questions:
+1.) When this happens, does it count against the number of submissions that are permitted?  
+2.) Is there any version where it wont report the same error more than X times? 
+Example:  
+Thanks.

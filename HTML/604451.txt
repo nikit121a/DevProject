@@ -1,0 +1,6 @@
+Hi,
+Have you got a: mvc popupcontrol adaptive layout example?
+Without the devexpress form layout control.
+I've attached my grid and popup control and screen print to show the issue.
+ Thanks,
+Graham 

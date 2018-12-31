@@ -1,0 +1,3 @@
+Hi Lanette ,
+I am having issue with boot strap to for x-axis is it starting 0 far distance with y-axis 0 point.
+I need x and y axis should start from 0 .Please refer the screen shot and help me to get it done quickly. 

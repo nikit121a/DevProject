@@ -1,0 +1,7 @@
+Hi, 
+I have a grid with a DateTime column.
+I need the "UseMaskBehavoir " attribute to be set to true beacuse i would like to don't make the user digit directly slashes
+But if  "UseMaskBehavoir " attribute is set to true, when i leave the cell after deleting the value (by keyboard or clear-button) the text displayed remains 01/01/0100 instead of blank.
+There's a way to display nothing instead of  01/01/0100 when the field is cleared ?
+Please correct my attached example.
+Thanks  a lot

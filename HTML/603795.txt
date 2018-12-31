@@ -1,0 +1,6 @@
+Hi, We are using XRPivotGrid in a Detail Group of a report. The report has different datasource (TopSupplier), and the pivot grid has different datasource (Customers_Pivot).
+The pivot grid show multiple times based on the grouping (which is ok) , but it should be filtered based on the group field (=CustomerID). So we are using the following code:
+ 
+As you can see, the GetCurrentColumnValue method doesn't get field values from the pivot grid data source (Customers_Pivot) . It gets column values from the data source that is used for the Report data member (TopSupplier).
+Our problem is, for each group, we need customer ID value for that group, and filter the pivot grid datasource by that customer ID value. But we can't get value for any field from pivot grid data source (Customers_Pivot) in the before print method. 
+We have attached the solution that reproduces the problem

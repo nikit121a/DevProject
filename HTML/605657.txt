@@ -1,0 +1,3 @@
+When a form loads I set a NavBarItem caption like this
+ The actual caption when the Form opens is "Limited"
+What could be causing this? 

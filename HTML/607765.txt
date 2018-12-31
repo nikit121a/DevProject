@@ -1,0 +1,8 @@
+Hi.
+ I've got a datagrid with a AdvBandedGridView in my application. 
+I'd like to draw a rectangle around the full focused row. 
+ I've set this : BandedGridView.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFullFocus;
+But I can't find out how to draw a customized rectangle and not only a dotted rectangle. Something with a plain red line could be perfect. 
+Can you please help me ? 
+Thank you. 
+ 

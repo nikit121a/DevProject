@@ -1,0 +1,4 @@
+Hi.
+I have set AlwaysVisible to True for the Find panel in a RepositoryGridLookupEdit in a GridControl, but it does not show.
+How can I show it and set focus to the Find box when the user opens the popup?
+Thanks.

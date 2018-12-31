@@ -1,0 +1,36 @@
+Hi,
+After the upgrade from 2017.1.5 to 2017.2.5 my scheduler control comes up with an ArgumentOutOfRange exception. After some research I found out that the exception was caused by using date range in the scheduler until the max DateTime value in C#. The calendar of the scheduler now tries to add anonther day to the max value which is not allowed.
+So in code we set the LimitInterval like this:
+Stacktrace:
+bij System.DateTime.AddTicks(Int64 value)
+bij DevExpress.Web.ASPxScheduler.Internal.ASPxDateNavigatorCalendar.AssignDateSettings(ASPxScheduler scheduler)
+bij DevExpress.Web.ASPxScheduler.ASPxViewNavigator.CreateGotoDateCalendar(WebControl popupDiv)
+bij DevExpress.Web.ASPxScheduler.ASPxViewNavigator.CreateControlContentHierarchy()
+bij DevExpress.Web.ASPxScheduler.ASPxSchedulerRelatedControlBase.CreateControlHierarchy()
+bij DevExpress.Web.ASPxWebControlBase.CreateChildControls()
+bij DevExpress.Web.ASPxWebControl.CreateChildControls()
+bij System.Web.UI.Control.EnsureChildControls()
+bij DevExpress.Web.Internal.RenderUtils.EnsureChildControlsRecursive(Control control, Predicate
+1 skipControlCondition)
+bij DevExpress.Web.Internal.RenderUtils.EnsureChildControlsRecursive(Control control, Predicate
+1 skipControlCondition)
+bij DevExpress.Web.Internal.RenderUtils.EnsureChildControlsRecursive(Control control, Predicate
+1 skipControlCondition)
+bij DevExpress.Web.Internal.RenderUtils.EnsureChildControlsRecursive(Control control, Predicate
+1 skipControlCondition)
+bij DevExpress.Web.Internal.RenderUtils.EnsureChildControlsRecursive(Control control, Predicate
+1 skipControlCondition)
+bij DevExpress.Web.Internal.RenderUtils.EnsureChildControlsRecursive(Control control, Predicate`1 skipControlCondition)
+bij DevExpress.Web.ASPxWebControlBase.EnsureChildControlsRecursive(Control control)
+bij DevExpress.Web.ASPxWebControlBase.CreateChildControls()
+bij DevExpress.Web.ASPxWebControl.CreateChildControls()
+bij DevExpress.Web.ASPxScheduler.ASPxScheduler.CreateChildControls()
+bij System.Web.UI.Control.EnsureChildControls()
+bij DevExpress.Web.ASPxDataWebControlBase.DataBindInternal()
+bij DevExpress.Web.ASPxWebControl.DataBind()
+bij DevExpress.Web.ASPxScheduler.ASPxScheduler.DataBind()
+I think this is a bug in the new version of DevExpress.
+Regards, 
+Erik
+Thinkwise 
+ 

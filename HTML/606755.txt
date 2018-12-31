@@ -1,0 +1,17 @@
+
+Hi Support,
+How can we set the DetailRowMode of an ASPxGridListEditor in code. We can set via the model, but woud like to set this as via a controller for alllistviews.
+Below the code so far.
+    public partial class DetailRowModeController : ViewController<ListView> {
+        protected override void OnViewControlsCreated() {
+            base.OnViewControlsCreated();
+            if (Frame.Context != TemplateContext.LookupControl & Frame.Context != TemplateContext.LookupWindow) {
+                ASPxGridListEditor gridListEditor = View.Editor as ASPxGridListEditor;
+                if (gridListEditor != null) {
+                    gridListEditor.Grid.SettingsDetail.ShowDetailRow = true;
+                    gridListEditor.Grid.SettingsDetail.ShowDetailButtons = true;
+                    gridListEditor.Grid.SettingsBehavior.ConfirmDelete = true;
+                }
+            }
+        }
+    }

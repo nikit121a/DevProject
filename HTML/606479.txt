@@ -1,0 +1,5 @@
+Hi
+I created a DevExtreme 17.2 project using the template for ASP.Net Core 2. I couldn't update the Bower packages.
+My concern is: the template uses BOWER to manage some packages and VS2017 dropped BOWER and it will be no longer supported.
+I have on development an ASP.Net Core 2 MVC project that uses DevExtreme 17.2.5 with Bower. How can I drop Bower from my actual project and use NPM (recommended by Microsoft)?
+Regards 

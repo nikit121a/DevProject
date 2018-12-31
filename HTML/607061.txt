@@ -1,0 +1,5 @@
+
+Hi there,
+Question: I want to extend the XAF-Webpart with my own Restful-Service, so that users can consume the XAF website or my rest-service to get data. In other words: How can I integrate my existing web-service-project to the XAF-Websolution. Can you provide any ideas, what could be the best approach and give me some links?
+thx a lot
+Michael

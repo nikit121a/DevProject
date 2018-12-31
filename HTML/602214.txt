@@ -1,0 +1,1 @@
+Attached is a model difference file used to reproduce this issue in our Main Demo application. The screenshot below demonstrates the current result. The expected result is that group headers will be aligned with other layout items.

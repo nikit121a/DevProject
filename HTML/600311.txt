@@ -1,0 +1,8 @@
+The new 
+ and 
+ and 
+ dialog classes are great additions.  It would be extremely helpful if these were implemented as a class/control that could be embedded into other forms (as noted here 
+).  That would allow DevExpress to replace cases where I still require using the LogicNP FileView and FolderView control.
+I've attempted to write my own, using 
+ as shown in the 
+ help article.  It does work, though it seems slow and is not in my opinion good enough to actually deploy in our product.  It would be much better if you could provide a XtraFileFolderBrowserControl, especially since it appears you have already done nearly all the work needed.

@@ -1,0 +1,9 @@
+Hi
+I'm trying to catch a keypress when a grid cell is being edited so that I can do something particular if TAB is pressed (rather than end editing).  However, the KeyUp and KeyDown events don't get fired when a key is pressed .  I've tried these events both in the GridColumn and in GridColumn.EditSettings/TextEditSettings .  Whatever is handling the key presses is skipping these events.
+
+
+
+
+How do I go about catching a key press (or key up/down)?
+Thanks
+Craig

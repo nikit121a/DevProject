@@ -1,0 +1,11 @@
+Hi,
+I'm having trouble converting my project from version 15.1.4 to 17.2.5.
+I have used the Project  Converter but got errors executing the application.
+The first errors seemed to have something to do with  my jquery version. Which file do I have to use/reference there?
+The I found this 
+ but it only seemed to change the error.
+At the moment I'm getting the attached error as soon as I start my application.
+If you need any more information about what I am using, please let me know.
+Otherwise some complete instructions about doing the whole upgrade from the beginning to the end would be appreciated.
+Regards
+Manuel 

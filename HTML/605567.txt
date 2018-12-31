@@ -1,0 +1,9 @@
+Hi
+I would like to use the autofilter row  for the resource tree.
+So, I used the following  code:
+ 
+But, as you can see on the attached screenshot, I only have the options "Equal" and "Not Equal".
+If I try to set the filter through the FilterEditor, I also find no "Contains".
+Are there any limitations to this "contains"-option? 
+btw:
+The property "GanzerName"  is of type string.

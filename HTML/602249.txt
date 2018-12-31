@@ -1,0 +1,10 @@
+Hello!
+I'm working with the DataGrid and the visual components seem to perform really well(using Begin- and EndDataUpdate() on the view). However we have some operations to transform large 2-dimensional arrays(column count is variable). So I'm looking for the fastest way from triggering the operation until the transformed data is displayed. My main question is, if I can bind a column to a certain index of a List or Array or any suggestion or if that is not possible, what are the fastest Datatypes(for manipulating all entries) that I can bind my column to.
+Here is what I tried(in chronological order):
+1: System.Data.DataTable as DataSource. 
+    The binding was easy, but to manipulate all entries of a DataTable is ridiciulously slow.
+2: BindingList<BindingList<string>> or similar as DataSource.
+    manipulating all entries of this Datatype would be fast. But I couldn't get the binding to work.(string will not be the final Type for the cell value) - Is something like that even possible?
+3: BindingList<ExpandoObject> as DataSource.
+    Binding works, and a lot faster than DataTable, but also about 6 times slower than the BindingList<BindingList<string>>
+I still have to try BindingList with some static object that holds enough properties to fit my row data into. Probably this is a lot faster than the ExpandoObject, but I would like to avoid this approach.

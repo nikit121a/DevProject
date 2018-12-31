@@ -1,0 +1,4 @@
+Hello
+I binding the filtered rows of gridcontrol to a DataTable in Vm like your code:
+when I  change values in  the visible dataTable, the grid control is not updated.
+How can I change values only of visible rows?

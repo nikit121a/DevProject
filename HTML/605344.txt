@@ -1,0 +1,4 @@
+When I set a column GroupInterval (I tried on Date field with DateMonth and DateYear group interval) the Property 'Get' method fires for all the records even if the column is hidden and the record is  not visible.
+The problem was not present in the version 16.2.4
+Thanks
+  

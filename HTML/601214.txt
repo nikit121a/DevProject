@@ -1,0 +1,1 @@
+An empty Detail band should be added to the opened report automatically if the report has no Detail band specified.

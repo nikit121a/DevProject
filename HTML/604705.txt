@@ -1,0 +1,12 @@
+Hello,
+Is there a way to remove trailing zeros on values displayed on the grid?
+I am using this configuration
+column.dataType = "number";
+column.format = { type: "fixedPoint", precision: 1 };
+column.editorOptions = { format: "#0.#" }
+Value rounding is working correctly, for example,  18.199 is displayed as 18.2
+In a another case, when the value is 18, I would like to show the value without the trailing zero as 18 instead of 18.0
+Thanks for your support!
+Martin Leclerc
+ 
+ 

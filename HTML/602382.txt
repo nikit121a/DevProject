@@ -1,0 +1,1 @@
+Hello. Established the property ButtonGlyph. And now, until an element is focused, it displays three dots, when you focus displays a desired image. When focus is lost again displays three dots. Attach the video to confirm, and also below I will attach a screenshot of the property settings. 

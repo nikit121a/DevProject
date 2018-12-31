@@ -1,0 +1,12 @@
+Hi,
+I am using Angular 4.3.4 at the moment.
+I am trying to give some customised labels and tooltips to a slider , and finding it quite hard to do so.
+In the component, we pass in a model which contains a list of custom labels for our sliders. When the sliders are being displayed, the should show the custom labels instead of the numerical value.
+I try to access the local model in the component (passed in as an @Input) but it's saying that 'this' is undefined.
+I have an example plunker here:
+I think that your [format] input is executing the method in the context of the slider itself? Instead of within the context of the component it's placed inside. If you check the console, it states that it is unable to read 'customLabels' of undefined, even though 'customLabels' is just a property on 'this'.
+Is there a [customizeTooltip] or [customizeText] Input for both the tooltip and label for the DxSlider?
+If not - is there a way I can pass both the value and the array of custom labels into the method? In all of the demos you refrain from specifying the parameters.
+Thanks,
+C
+ 

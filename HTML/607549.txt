@@ -1,0 +1,5 @@
+Hello,
+We are using the CustomerDrawAppointment event to draw certain images on a Scheduler MonthView item like this:
+ 
+Is it possible to draw an SvgImage?
+Thanks. 

@@ -1,0 +1,7 @@
+Hello,
+we are using a CustomDockPanel to hide the caption  as in this thread:
+The problem, and I suspect about the Skin theme "Office 2016 Colorful" of the application, is that when we try to dock a Panel at the top of the document manager, and try to set the height, it cannot be less than 41 pixels (it seems to be the height of the header part even it is not shown when using Office 2016 colorful), and we are trying to put a fixed height of 30 pixels (less to 41) which is the actual height of the user control we want to see at the top.
+I created a mockup to reproduce it isolated, and when office 2016 is not used It works as I want and the top panel has the height I want (30 pixels). When the height is not set finally to 30, currently the code shows a message to locate where the height "problem" is happening:
+XtraMessageBox.Show("The Panel height could not be changed equal to the desired height");
+Could you help me to put the panel to the fixed height I want when no Panel Title-Header is shown (around 30 pixels)?
+Thanks!!!

@@ -1,0 +1,6 @@
+Goodmorning,
+i've a gridview and a datalayoucontrol with some fields.
+I would like to focus a row on gridview and see details in the datalayout.
+Both are connected to a dataset.
+Thanks
+ 

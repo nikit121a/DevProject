@@ -1,0 +1,1 @@
+Hello. Does possible to use data from several Excel sheets in ASPxDashboard? If so please provide the example. Thanks. 

@@ -1,0 +1,5 @@
+Hi There,
+I have a generic Dashboard Web Page which creates and displays specific Dashboard. I need to limit the Stored Procedure shown,  as I have sensitive SP not to be displayed, by user that will be able to create the dashboards themself. For example only allow SP with the key word "sp_Dashboard". 
+Is this a possible solution with your system?
+Eagerly awaiting your reply 
+Thanks 

@@ -1,0 +1,9 @@
+I am loading an excel file.
+Want to remove alle Filters.
+My code doesn't work - please help.
+        Worksheet ws = this.spreadsheetControl1.Document.Worksheets[0];
+            Range usedRange = ws.GetUsedRange();
+            ws.AutoFilter.Clear();
+            ws.AutoFilter.Disable();
+Thanks
+Paul

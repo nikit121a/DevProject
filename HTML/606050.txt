@@ -1,0 +1,9 @@
+TdxForms are in use in the application.
+The IDE is run on a monitor scaled to 120 PPI. Therefore, all forms and fonts have pixelsperinch set to 120.
+A frame instance is created at run time.
+The frame is parented on a form.
+When the frame is loaded, the fonts for the controls on the frame are scaled to the default PPI of 96. (We use style controlers / style sheets which are hosted in datamodules also designed at 120 PPI). This is fine.
+However, the position and dimensions of the controls in the frame are not scaled, and the current PPI is set to 96. The effect of this is that when the frame is parented on a form, the controls within the frame appear with the correct font size, but the position and dimensions are scaled up by 25%.
+I suspect that this is the result of the fact that a TFont has a pixelsperinch property, but a frame does not.
+As a workaround, I tried to scale the frame after it has been loaded, using ChangeScale, however this changes the font scale as well as the position and dimension, so the fonts end up being 25% too small. TControl.ChangeScale uses the default scaling flags which include sfFont.
+I would like to have a way to tell the TdxFrameController what the design time PPI is for a frame, and to have the frame scaled appropriately when it is loaded.

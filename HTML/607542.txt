@@ -1,0 +1,7 @@
+Hi,
+I have requirement to implement a context menu to GridControl which has some MenuItems.
+User should be able to select multiple menuitems as shown in the attached snap.
+Please let me know how to go about implementing the same.
+I am creating BarSubItem and adding it to TableViews RowCellCustomizations.
+Thanks,
+Vivek 

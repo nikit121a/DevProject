@@ -1,0 +1,1 @@
+When running multiple tests, Testcafe is reloading the app data for each test. Is there a way to only load once at the start?

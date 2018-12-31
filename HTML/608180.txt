@@ -1,0 +1,9 @@
+Hi, 
+We are in the process of translating the MVC Dashboard component to Finnish and are nearing the point in time where we are ready to deploy the first version of the localization. 
+We have extracted all resources from the relevant projects in the Localization solution, translated the resources, and inserted the translation into the corresponding *.fi.resx files. 
+Trying to compile the Localization solution, provided when downloading a set of localized satellite assemblies through your localization service, I get a build error stating that the output could not be signed due to the signing key is not available 
+. 
+How to I get around this? 
+Will it work if I disable the signing process? 
+Best
+Jonas

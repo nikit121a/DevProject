@@ -1,0 +1,6 @@
+Hello,
+I was wondering if you could provide or point me in the direction of how to implement filtering like how is done in the DevAV demo. Specifically, I would like to have the two following functionalities:
+1) I want to be able to launch the filter builder popup from a button in the toolbar, rather than a row below the table, like the built in functionality does.
+2) I want to be able to save/persist custom filters - how are the filter expressions persisted, and how can I access this data?
+Thanks!
+-Sean 

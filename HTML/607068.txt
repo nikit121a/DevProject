@@ -1,0 +1,4 @@
+Hi,
+I downloaded the trial version 17.2.5, I installed Report Server. I also wanted to install the worker only on another web server but I can not find the information in the Forms Authentication.  There is no Forms Authentication menu in the Sever Settings menus 
+Thank you,
+Daniele Medone 

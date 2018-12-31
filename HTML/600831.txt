@@ -1,0 +1,7 @@
+So i have to xpo's. Lets say its MasterTable and DetailTable .
+MasterTable has a xpcollection of DetailTable.
+I would like to be able to add data for both tables at the same time, in the same view. So what i came up with is this :
+ - add the fields of the MasterTable in the detail view of DetailTable
+ - in the "AfterConstruction" method of DetailTable i check if this.MasterTable == null and if so i create a new instance this.MasterTable=new DetailTable(this.Session).
+Everything works if i try to create a new entity from the DetailTable list view. The problem is that if i go to a existing MasterTable row, and try to add a new row in the DetailTable collection, when i get to the "AfterConstruction" method of the DetailTable class the line where i check if MasterTable  is null, i see it is still null. Thats because the MasterTable object of the DetailTable new instance is set after the AfterConstruction.
+So my question is this: what would be the recommended way  to go about adding in the same view values for both MasterTable and DetailTable, but still be able to add separately new rows in the DetailTable collection of a MasterTable row (the normal behavior when having master-detail tables)

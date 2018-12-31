@@ -1,0 +1,7 @@
+Hi Guys,
+So I have several user controls that have DXGrids in them. They all have the search panel enabled by default on them. The search is REALLY slow.
+I have done some searching on the site. I have verified that all my columns are bound using FieldNames, I have specified the specific columns to search in, and the grid is bound to an observable collection that is loaded before the search even happens.
+The grid only has about 500 rows in it. Obviously it gets even worse when I load the complete data set. Right now it is user selectable, between viewing all records and viewing only records that aren't archived. Non-archived records are around 500. Complete data sets are around 1300 rows.
+The other odd thing is, it seems to be worse when the user is on wireless Vs. our wired network. I never see the UI stop responding on wired networks, but if the user is using wireless it will cause the entire UI thread to stop responding. I find this really perplexing as the data that is being searched is already loaded from the database. 
+Any guidance would be appreciated. The other odd thing is, I have many other sections of this app that the grid's search very fast. They are all configured the same way, other than different data collections. But all collections are still observable collections in the ViewModel.
+thanks Casey 

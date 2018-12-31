@@ -1,0 +1,6 @@
+Hello, DevExpress support, 
+I have descendant of PopupContainerEdit which is used for searching in the inner grid, just like lookup. 
+And I need that PopupContainerEdit's TextEdit still focused even if popup is opened, which was working perfectly in 17.1.4 when I upgraded to 17.2.5 
+it's not working as intended, popup closes right after text edit got focus. 
+Please check attached project (17.1.4) and compare behavior after update to 17.2.5
+Thanks.   

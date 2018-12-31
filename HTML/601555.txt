@@ -1,0 +1,49 @@
+Hi Team,
+I am having a problem where OnCustomUnboundFieldData event is not working in Dev express 17.1.5 where I want to calculate unbound columns in my AspxPivotGrid. Note I am bounding data to AspxPivotGrid  using Data Source Server Mode (EntityServerModeDataSource). Here is my code sample. Please let me know if you need any other information. Thank You.
+ASPX Page:
+ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------<dx:ASPxPivotGrid ID="pvIncidencePricing" runat="server" Width="100%" Theme="DevEx" OnCustomCellStyle="pvIncidencePricing_OnCustomCellStyle" OnCustomCallback="pvIncidencePricing_CustomCallback"
+                    ClientIDMode="AutoID" ClientInstanceName="pvIncidencePricing" Styles-HeaderStyle-CssClass="Grid_Field_Header" DataSourceID="EntityServerModeDataSource" 
+                    OnCustomUnboundFieldData="pvIncidencePricing_CustomUnboundFieldData" >
+                    <Fields>
+ 
+<dx:PivotGridField Area="DataArea" AreaIndex="100" Caption="CRE EQ_VOL" ID="CRE_EQ_VOL_" FieldName="CRE_EQ_VOL" CellFormat-FormatType="Numeric" CellFormat-FormatString="n0" />
+ 
+<dx:PivotGridField Area="DataArea" AreaIndex="101" Caption="CRE NET REVENUE" ID="CRE_NET_REVENUE_" FieldName="CRE_NET_REVENUE" CellFormat-FormatType="Numeric" CellFormat-FormatString="c0" />
+ <dx:PivotGridField Area="DataArea" AreaIndex="105" Caption="CRE NET_REVENUE/EQ_VOL" ID="CRE_NET_REVENUE_EQ_VOL" FieldName="PY NET_REVENUE/EQ_VOL" CellFormat-FormatType="Numeric" CellFormat-FormatString="c2"     UnboundType="Decimal" />
+ </dx:ASPxPivotGrid>
+ 
+ <dx:EntityServerModeDataSource ID="EntityServerModeDataSource" runat="server" ContextTypeName="SC_IncidencePricingEntities" OnSelecting="EntityServerModeDataSource_Selecting" TableName="tbl_Reporting_BrandView_New" />
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ASPX.cs Page:
+        protected void pvIncidencePricing_CustomUnboundFieldData(object sender, DevExpress.Web.ASPxPivotGrid.CustomFieldDataEventArgs e)
+        {
+            if (object.ReferenceEquals(e.Field, CRE_NET_REVENUE_EQ_VOL))
+            {
+                Decimal value = Convert.ToDecimal(e.GetListSourceColumnValue("CRE_EQ_VOL")) == 0 ? Convert.ToDecimal(e.GetListSourceColumnValue("CRE_NET_REVENUE")) : (Convert.ToDecimal(e.GetListSourceColumnValue("CRE_NET_REVENUE")) / Convert.ToDecimal(e.GetListSourceColumnValue("CRE_EQ_VOL")));
+                e.Value = value;               
+            }
+             // Commented
+            //"Iif([CRE_EQ_VOL] = 0,[CRE_NET_REVENUE],[CRE_NET_REVENUE]/[CRE_EQ_VOL])";
+        }
+         protected void EntityServerModeDataSource_Selecting(object sender, LinqServerModeDataSourceSelectEventArgs e)
+        {
+            e.KeyExpression = "SBS";
+            e.QueryableSource = new SC_IncidencePricingEntities().tbl_Reporting_BrandView_New;
+        }
+        protected void pvIncidencePricing_CustomCallback(object sender, PivotGridCustomCallbackEventArgs e)
+        {
+            pvIncidencePricing.ReloadData();
+        }
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Entity Used for binding Pivot Grid:
+ public partial class tbl_Reporting_BrandView_New
+    {
+        public string SBS { get; set; }
+        public string CGBU { get; set; }       
+        public Nullable<double> CRE_EQ_VOL { get; set; }
+        public Nullable<double> CRE_NET_REVENUE { get; set; }
+        public Nullable<double> CRE_TOT_BILLED_REV { get; set; }
+        public Nullable<double> CRE_TOT_IP_REV { get; set; }
+        public Nullable<double> CRE_IP_SETTLEMENT { get; set; }       
+    }
+ 

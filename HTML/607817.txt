@@ -1,0 +1,7 @@
+Hi,
+I have encountered 404 Not Found problem retrieving css and javascript (.axd) asset publishing your Asp.NET Core Dasboard  under non root app url (for example 
+ ).
+See Attachment for visual description.
+The problem seems the same mentioned in this ticket (but about ASPX Dashboard Module): 
+What about solution in case of Asp.Net Core Dashboard?
+ 

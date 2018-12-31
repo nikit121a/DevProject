@@ -1,0 +1,2 @@
+I tried hard to find the property in SkinEditor where to change the color of the TextHint of a TcxComboBox. For the case it's not a skinned color I even hooked up windows' GetSysColor to change everything into red, but the TextHint-Color didn't changed. Can you hint me into the right direction? Thanks.
+In the attached image you can see, that the text hint is not readable in the lighter theme. 

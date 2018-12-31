@@ -1,0 +1,15 @@
+Hi there,
+I am trying to create a "text box" that has custom syntax highlighting which makes the text between the "{}" blue and bold. The element in the {} are dragged from a tree list.
+I have  tried the Rich Edit Control. I want to be able to bind the text to a variable in the viewmodel, but I have not figure out the way to do it.
+Then I tried to use RichTextBox. I was able  bind the text and use an event handler for "TextChanged" to make the custom syntax highlighting, but there are some very curious things happening.
+Here is my code for the event handler:
+The first drop works fine. But if I do a second drop, all the text after the first "{" will be copies to the end of the line.
+An example would be:
+    Original text: 123
+    Dropping "{Text1}" between 1 and 2: 1{Text1}23
+    Dropping "{Text2}" between 2 and 3: 1{Text1}2{Text2}3{Text1}23
+If I comment out the two "ApplyPropertyValue" lines at the end, the drag and drop works perfectly.
+Could you give some suggestions on what is causing the problem mentioned above? 
+I am trying to learn about RichEditControl, but I haven't got much luck searching online. Could you advise me on how to properly binding string variable in the viewmodel to the RichEditControl?
+Thank you very much for the help.
+ 

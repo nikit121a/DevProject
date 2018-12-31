@@ -1,0 +1,6 @@
+Hi,
+I've got a question about sending parameters to a custom report with ReportServiceController.
+Please view above code .
+How can I send a parameter to my custom Report and use the ReportServiceController.
+Kind regards,
+Paul 

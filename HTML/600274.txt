@@ -1,0 +1,7 @@
+
+Curiously, have there been consideration or perhaps changes to the multiple days selection in Scheduler control? Similar to 
+ we require to select non-sequential dates in monthly view, for example only all weekends, then create appointments for all days selected. Shift + left click or click and drag, only selects adjacent dates, but is there a way to use Ctrl + Left click to select a few different entities?
+But I cannot figure out for the life of me, how to wire your JS code (in particular highlighting) to Settings from partial view 
+@Html.DevExpress().Scheduler(MyGetSchedulerSettings(Html)).Bind(Model.Appointments, Model.Resources).GetHtml()
+I found there's settings.ClientSideEvents.CellClick event string, but cannot stick that function in there, just doesn't work for me. And then I was thinking to try wiring that onto partial appointment form, so that all appointments created with the same data, but on different dates. 
+Thanks again for your help!

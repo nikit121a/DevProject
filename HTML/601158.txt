@@ -1,0 +1,6 @@
+Hi,
+I have upgraded my application from MVC4 to MVC5  but I am getting a run time error as below:
+An exception of type 'System.TypeAccessException' occurred in System.Web.Mvc.dll but was not handled in user code
+Additional information: Attempt by security transparent method 'DevExpress.Web.Mvc.UI.HtmlHelperExtension.DevExpress(System.Web.Mvc.HtmlHelper`1<!!0>)' to access security critical type 'System.Web.Mvc.HtmlHelper`1<ModelType>' failed.
+Assembly 'DevExpress.Web.Mvc.v15.2, Version=15.2.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' is marked with the AllowPartiallyTrustedCallersAttribute, and uses the level 2 security transparency model.  Level 2 transparency causes all methods in AllowPartiallyTrustedCallers assemblies to become security transparent by default, which may be the cause of this exception.
+Can you please suggest what could be the issue and how to solve it? 

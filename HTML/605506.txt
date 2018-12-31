@@ -1,0 +1,19 @@
+Hello Team,
+We need to display PDF print dialog box with 'Actual Size' page size option. 
+We written the below code for open the pdf print dialog box with actual size option but not opening the pdf print dialog box. 
+            Dim objPDFViewer As DevExpress.Xpf.PdfViewer.PdfViewerControl
+            objPDFViewer = New PdfViewerControl()
+            objPDFViewer.OpenDocument("D:\TEMP\text.Pdf")
+            Me.Content = objPDFViewer
+            'Dim printerSettings As New PrinterSettings()
+            'printerSettings.PrinterName = "Microsoft XPS Document Writer"
+            'printerSettings.PrintToFile = True
+            Dim pdfPrinterSettings As New PdfPrinterSettings()
+            'pdfPrinterSettings.PageOrientation = PdfPrintPageOrientation.Auto
+            'pdfPrinterSettings.PageNumbers = New Integer() {1, 3, 4, 5}
+            pdfPrinterSettings.ScaleMode = PdfPrintScaleMode.ActualSize
+            'objPDFViewer.Print()
+            objPDFViewer.Print(pdfPrinterSettings)
+Please resolve my problem asap.
+Regards,
+SivaRamakrishna 

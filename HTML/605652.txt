@@ -1,0 +1,4 @@
+Hello,
+Is it possible to use the nameof operator for the generated ExpressionBinding when using the Report Designer?
+Thank you,
+ Jan

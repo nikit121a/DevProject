@@ -1,0 +1,7 @@
+Dear All,
+I'm missing the "Group row popup menu" on the  TcxGridPopupMenu.
+I have a grid with 2 group footer summary columns and I will select the current summary for sorting via the "Group row popup menu" by rightclicking on the group row.
+But the "Group row popup menu" dosent invoke. Im wondering, because normaly this works very well. Was there any changes in the last time?
+Please find attached a simple test project.
+Tanks 
+Sven  

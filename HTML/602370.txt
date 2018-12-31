@@ -1,0 +1,4 @@
+I have a gridcontrol that is bound to a SQL server database.
+I would like to replace every cell in a column with a dropdown with 2 values so the user is forced to select from the 2.
+Please advise how i can do this ?Thanks,
+ 

@@ -1,0 +1,6 @@
+I'm using a TreeListControl and im binding the data to it. I have attached the sample project of the same.
+I want to achieve two UI customizations
+1) I want to add a label on top of the Control so that it covers only 2nd and 3rd columns. 
+2) The last header columns length should be bigger than the other column headers.
+I have attached the screenshots of the desired output.
+Please modify the sample project and help me in achieving this.

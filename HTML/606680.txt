@@ -1,0 +1,10 @@
+Hello ,
+           i am using gridcontrol for show my data  .
+i have following condition for my grid
+1) want to show vertical scroll bar.
+2) show row indicator.
+3) don't want to select row on mouse click. only row selection from c# code or selected item.
+please tell me how to achieve this.
+if you provide any sample then is is helpful for me.
+please see the attachment for more information.
+ 

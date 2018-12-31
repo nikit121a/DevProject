@@ -1,0 +1,5 @@
+Hi,
+I think my problem statement is clear from the subject. I read few suggestions to solve this problem. Use autowidth and set MinWidth for each column,
+But in my case, i am binding grid to datatable. I am not using gridcolumn and defining column names. Instead I am using autoGenerateColumn=AddNEW.
+How can I achieve this considering in mind all these parameters.
+Thank you 

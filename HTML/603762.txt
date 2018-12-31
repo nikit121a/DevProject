@@ -1,0 +1,10 @@
+Hi,
+Hi,
+I have a  WPF user control which simply put has this structure:
+We use this view to show data in lots of different reports, based on the selected filter options.
+Now I have a request for one report not to show it, but to just export data to csv.. Since I would like to reuse the following structure, I wonder if its possible to set DocumentPreviewControl's Source property to a text message like:
+Successfully exported xxxx records to file.csv
+I know I can use an empty report and place a message in center of it, but it would be less overkill if I can display just a message (like in DocumentPreview itself, or setting a UserControl as DocumentSource, or whatever).
+This would also be useful to show some kind of initial message on empty document preview, like "press button to calculate data and show report".
+Thanks,
+Goran

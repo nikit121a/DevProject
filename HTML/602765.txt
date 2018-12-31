@@ -1,0 +1,4 @@
+So I've created a few reports using your report wizard.  I'm grabbing the report and instantiating it in code, but I'd also like to change the connection string based the machine I'm running from.   All the examples I'm seeing involve an XtraReport object that is created in code. I saw a post about a report being serialized, but the example used an xml file for reference in making adjustments to its settings and I don't have that available.  I have a couple CS files and an RESX file.
+When I reassign the data source, I actually get the right connection string in the connection properties, but the report returns without data.  There seems to be some differences in some of the properties when I reassign the data source manually.  I think I'm close to having the right solution, but I'm just missing something simple.
+-Ryan George
+ 

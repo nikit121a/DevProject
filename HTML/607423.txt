@@ -1,0 +1,4 @@
+Is there a way/event to listen to whenever an user changes the month for the dxScheduler (month view)?
+We would like to fetch new data on a monthly basis for optimization purposes,  since there is quite some processing of the data on the server. 
+Regards,
+Joar Olsen 

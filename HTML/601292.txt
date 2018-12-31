@@ -1,0 +1,4 @@
+I need to customize a  ASPxButton from a specific cell to visible = false or true depending on a criteria.
+I'm using the component below:
+Can I do this on DevExpress in codebehide?
+Tks 

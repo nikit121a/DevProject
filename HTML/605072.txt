@@ -1,0 +1,9 @@
+Hi DevExpress team,
+I'm trying ot sync my scheduler with Google, using business object binding. The current issue is for syncing recurrent events and exceptions.
+Thanks to 
+, I've made quite some progress on the recurrences. However, I'm blocked in the "LinkOccurrencesWithPatterns" method, where I am currently able to create exceptions, but I then need to save the corresponding business object to the database.
+I've created the following routine, where I explain the issues in comments.
+Could you please advise as to how I can get the corresponding source object  for an exception appointment? Or maybe I'm taking it the wrong way?
+Thanks in advance for your help!
+Regards,
+Nik

@@ -1,0 +1,3 @@
+How do I set the background color of the footer cells.. I want to change these so they "pop" out more visually.
+Screenshot of footer attached.
+I want to do this programatically (not xaml).

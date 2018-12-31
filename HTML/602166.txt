@@ -1,0 +1,10 @@
+Hello,
+I want to set yes/no values instead of true/false in exported excel file.
+Code:
+Result:
+Values  IsAddedMaterial shoud be 
+in excel column
+Expected result:
+Values  IsAddedMaterial shoud be y
+ in excel column
+ 

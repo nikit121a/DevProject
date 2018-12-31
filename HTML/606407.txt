@@ -1,0 +1,9 @@
+I have a <dx-number-box> set up with validators. The validation works properly. I have the format option set to "0". I can type negative values in the box, but when I try to remove the "-" it refuses to delete it. Example, type -1 in the box and then try to change it to 1.  I'm using format to force the value to be whole numbers; if there is a better way, I would like know.
+<dx-number-box [(value)]="quantity" format="0" [width]="120">
+    <dx-validator>
+        <dxi-validation-rule type="required" message="Required"></dxi-validation-rule>
+        <dxi-validation-rule type="range" message="Only 1 to 99999" [min]="1" [max]="99999"></dxi-validation-rule>
+    </dx-validator>
+</dx-number-box>
+Thanks,
+Kelly

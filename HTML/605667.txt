@@ -1,0 +1,2 @@
+The XPO Data Model Designer stores the generated code under <MODEL_NAME>Code folder which clashes with our namespace policy. Where can I change the output Folder?
+e.g. MyModel.xpo => to projectroot/ExampleSolution/MyModel instead of projectroot/ExampleSolution/MyModelCode

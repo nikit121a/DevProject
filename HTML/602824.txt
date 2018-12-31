@@ -1,0 +1,2 @@
+Hello,
+As can be seen from the attached image, I changed the size of the toolbar of document viewer. How can I vertically center the buttons and labels of toolbar? 

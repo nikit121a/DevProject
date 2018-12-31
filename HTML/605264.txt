@@ -1,0 +1,7 @@
+
+I get the following error in my project when I apply this:
+ERROR TypeError: e.component.element(...).find is not a function
+Any ideas? 
+I'm trying this in Angular 5...
+element().find is jquery I suppose, not angular 2 or higher, correct?
+So it would be nice if you guys provided more angular 2+ samples like this one

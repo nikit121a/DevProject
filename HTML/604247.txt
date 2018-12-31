@@ -1,0 +1,53 @@
+Hi, 
+We're using code below to change the color of a row and making not visible command buttons. It works fine but after the RejillaPrincipal_CommandButtonInitialize is executed and you try to move over the grid (any kind of movement) the browser display next error: 
+A primary key field specified via the KeyFieldName property is not found in the underlying data source. Make sure the field name is spelled correctly. Pay attention to the character case.
+If you comment the code inside RejillaPrincipal_CommandButtonInitialize the error disapears.
+Any hint?
+Thanks,
+Leonardo Balliache
+    protected void RejillaPrincipal_HtmlRowPrepared(object sender, ASPxGridViewTableRowEventArgs e)
+    {
+        if (e.RowType != GridViewRowType.Data) return;
+        if (e.Row.Cells[0].Controls.Count > 0 && e.Row.Cells[0].Controls[0] is DevExpress.Web.ASPxClasses.Internal.InternalImage)
+        {
+            DevExpress.Web.ASPxClasses.Internal.InternalImage image = e.Row.Cells[0].Controls[0] as DevExpress.Web.ASPxClasses.Internal.InternalImage;
+            if (RejillaPrincipal.DetailRows.IsVisible(e.VisibleIndex))
+                image.ToolTip = "Ocultar detalles";
+            else
+                image.ToolTip = "Ver detalles";
+        }
+        if (e.GetValue("Renglones").ToString() == "SI")
+        {
+            e.Row.BackColor = System.Drawing.Color.Aquamarine;
+            e.Row.ToolTip = "Este documento fue creado por una rutina de documentos con renglones (por ejemplo, una Factura de Servicios o Articulos) y solo puede ser editado o eliminado por la misma rutina por donde fue creado.";
+        }
+    }
+    protected void RejillaPrincipal_CommandButtonInitialize(object sender, ASPxGridViewCommandButtonEventArgs e)
+    {
+        if (e.VisibleIndex == -1) return;
+        switch (e.ButtonType)
+        {
+            case ColumnCommandButtonType.Edit:
+                e.Visible = EditButtonVisibleCriteria((ASPxGridView)sender, e.VisibleIndex);
+                break;
+            case ColumnCommandButtonType.Delete:
+                e.Visible = DeleteButtonVisibleCriteria((ASPxGridView)sender, e.VisibleIndex);
+                break;
+        }
+    }
+    private bool EditButtonVisibleCriteria(ASPxGridView grid, int visibleIndex)
+    {
+        object row = grid.GetRow(visibleIndex);
+        if (row != null)
+            return ((DataRowView)row)["Renglones"].ToString() == "NO";
+        else
+            return false;
+    }
+    private bool DeleteButtonVisibleCriteria(ASPxGridView grid, int visibleIndex)
+    {
+        object row = grid.GetRow(visibleIndex);
+        if (row != null)
+            return ((DataRowView)row)["Renglones"].ToString() == "NO";
+        else
+            return false;
+    }

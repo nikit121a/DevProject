@@ -1,0 +1,3 @@
+Hello,
+Is it somehow possible to filter the ShowCheckBoxSelectorColumn column?
+My grid looks like this and in the ShowCheckBoxSelectorColumn is no filter possible.

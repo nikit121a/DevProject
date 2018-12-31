@@ -1,0 +1,5 @@
+Hi,
+I have a web forms dashboard
+On every click it raises the dataBinding function on the server
+Is it possible to make my dashboard run on client and postBack to server only first time its loading?
+Thanks

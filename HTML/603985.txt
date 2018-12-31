@@ -1,0 +1,3 @@
+Appointments where a subject has a line break in the text display an invalid character. i.e. the text for the appointment is something like this
+$"Some Notes {Environment.NewLine} Some Other Text" 
+Displays like:  Some Notes ? Some Other Text

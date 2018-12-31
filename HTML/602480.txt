@@ -1,0 +1,7 @@
+Dear support,
+My current data bound scheduler implementation uses a custom appointment edit form because of the need to support attendees as well. In database the attendees records are stored in different table (rather in "Appointments") and because of this I added in the custom edit form a "CheckedComboBoxEdit" control.
+During the loading of the appointment form, I'm 1st loading all available attendees records in the control and as a 2nd step I'm fetching the related attendees list linked to the appointment and the control marks the corresponding data. So far so good!
+On the main form that the scheduler control is located, I'm using the events "AppointmentsInserted", "AppointmentsChanged" and "AppointmentsDeleted" to execute the needed CRUD operations.
+The main question now, is from these events how I will get the status on the "CheckedComboBoxEdit" control in order to apply the needed changes on the "Attendees" table? Is it possible through the custom fields mechanism? If yes, how can I do that? Please provide any possible solution.
+Best regards,
+Andreas 

@@ -1,0 +1,8 @@
+Hi,
+When using TextEdit with :
+           this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
+            this.Properties.DisplayFormat.FormatType = FormatType.Numeric;
+The tooltip for warning error is ellipsed see attachment.
+Is there any solution to make it shown entirely  ??
+Thanks 

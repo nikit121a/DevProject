@@ -1,0 +1,6 @@
+Hello Team,
+I'd like to format data in RowArea  but i've no succes !
+I've looked at your DrillDown Demo, and I see the same problem :
+When numeric data are in the RowArea they loose their currency formatting (cfr Attachments)
+In my code, I've a "Calculated" Field (Forecast). If i display it in the rowarea, it appears with 4 decimals ...
+ Thank you for your help !

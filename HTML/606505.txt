@@ -1,0 +1,4 @@
+I have a TTreeView control and I need to print the expanded version of it. I would like to click a button or menu item and be able to view the expanded tree and then print.
+What is the best way to handle this?
+Thank you,
+Thomas Rackley 

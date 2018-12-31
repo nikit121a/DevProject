@@ -1,0 +1,11 @@
+Hi DevEx Support
+Your demo code for ASPxTreeList > Editing > Validation refers (
+)
+Using your sample code, I made one small change: I changed the mode of the editor from "EditFormAndDisplayNode" to "PopupEditForm"
+<SettingsEditing Mode="EditFormAndDisplayNode" />
+<SettingsEditing Mode="PopupEditForm" />
+When validation returns an error condition (i.e. after applying changes), there is a moment that the popup disappears before it becomes visible again to show the error. This causes a flashing effect which is not present in the "EditFormAndDisplayNode" mode.
+ Although it is quite brief in your sample code, in my project the database is quite large and the popup disappears for more than a second or two, which is a bit irritating for the user. Is there any way to force the popup editor to remain in view during validation? Or show Loading message? We really prefer to use the popup editor and not the standard edit form.
+Thanks for looking into this
+Regards
+Conrad

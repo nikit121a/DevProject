@@ -1,0 +1,18 @@
+I have entity 'B' loaded from database. I want convert this object to 'C' and save changes as same record in DB. All data are in once table 'A' in db. How can I do this?
+public abstract class A : XPCustomObject
+{
+    // FIELDS FROM DB
+    // RELATIONS
+}
+[MapInheritance(MapInheritanceType.ParentTable)]
+public class B : A
+{
+    // FIELDS FROM DB
+    // RELATIONS
+}
+[MapInheritance(MapInheritanceType.ParentTable)]
+public class C : A
+{
+    // FIELDS FROM DB
+    // RELATIONS
+}

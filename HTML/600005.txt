@@ -1,0 +1,3 @@
+
+I have two questions:
+ Is it possible and how use/show form (screen 1) of customization filtrs to TcxGridDBTableView to customization filtrs for TcxGridDBChartView. Summarizing I would like use form of customization filtrs for TcxGridDBTableView to customization filtr for TcxGridDBChartView. How I can do it.

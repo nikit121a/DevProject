@@ -1,0 +1,9 @@
+Hey,
+I have the problem, that if I group on a column which has only one value and ungroup it, the first line gets corrupted.
+This is only working with a certain setting of gridview.
+I provided you a demo.Steps to repro:
+Group on TypeTry.
+Ungroup TypeTry.
+You will see the problem in the first column
+Best regards
+Benjamin Schr?der

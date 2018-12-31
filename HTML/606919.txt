@@ -1,0 +1,3 @@
+I have a textedit on a form that the user can't edit directly.  I want him to be able to position the cursor in the textedit and hit enter.  Another form comes up where he can select valid values to put into the textedit.
+I  was hoping I could put something here on the else path so that the only keydown accepted is Enter.
+ 

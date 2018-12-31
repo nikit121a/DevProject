@@ -1,0 +1,1 @@
+The toggle bar on the side of my accordion control moves to the wrong place when the control is toggled. It moves back to the right place if you move the mouse out, and back over.

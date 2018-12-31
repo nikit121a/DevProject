@@ -1,0 +1,15 @@
+Hi support...
+Is it possible to apply DelayedAttribute at runtime?
+I have a following Persitent class
+Next I apply attributes at runtime
+When I try to query the data from database:
+I get an error:
+"Property '<null>' does not exist within type 'DAX.QWorkshop.Domain.Model.Entities.Order'."} DevExpress.Xpo.Exceptions.PropertyMissingException
+If I change 
+to
+I get another error
+"Property 'DAX.QWorkshop.Domain.Model.Entities.SalesOrder.Notes' does not contain an XPDelayedProperty object."
+Any help appreciated :).
+Best
+Sebastian Ma?kowski
+ 

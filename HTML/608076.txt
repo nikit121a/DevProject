@@ -1,0 +1,5 @@
+Hi,
+My app lang Turkish and decimal seperator , but grid default decimal seperator . how can i change for display & edit 
+for example
+number=1000,23 -> i want to display 1.000,23 and when i click edit it will be same
+Thanks 

@@ -1,0 +1,3 @@
+I have been trying to figure out the method that will work like the example in  Ticket T278629  
+I have included a project that I am using to get the correct behavior.  I modeled it after the example here.
+ In this example the RepositoryItemMemoExEdit has a method "AllowClosePopup" that can be overridden.  In RepositoryItemPopupGalleryEdit this method doesn't exist. 

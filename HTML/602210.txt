@@ -1,0 +1,2 @@
+We're trying to achieve the following: By some action the user inserts a RTF document containing a hyperlink. We set the selection of the document to the range of the hyperlink. This works fine but when the user starts typing the caret is somehow moved to the end of the document. We wouldn't expect this. Can you help us?
+A reproduction scenarion is attached. 

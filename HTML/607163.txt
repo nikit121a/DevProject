@@ -1,0 +1,3 @@
+Using an object datasource that has complex objects within it in the fields list, double clicking the ">" (expand) on an object with the base object causes a complete lock up.  Memory does not increase, but the designer is in some kind of code loop from which it is not released.
+Single click to open then close multiple times seems to work, as long as the object property tree has already opened/closed.  Would suggest thread/timing issue.
+We do run the designer in a separate thread, in case this may be the trigger for the issue. 

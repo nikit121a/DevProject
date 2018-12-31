@@ -1,0 +1,1 @@
+If the text is longer than column width it will currently wrap and the row height will increase. Sometimes this will mean that some rows are different heights which can look messy.

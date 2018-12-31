@@ -1,0 +1,5 @@
+Hi,
+is there any way not to display  grouped columns as fixed when AlignGroupSummaryInGroupRow is set?
+It is hard to explain to customers why grouped columns now have to be fixed left for a summary-feature.
+Thanks,
+Chris

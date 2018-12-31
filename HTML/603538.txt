@@ -1,0 +1,3 @@
+ASPXGridView Cell merge , ASPXGridViewExporter ExportType.WYSIWYG The export has blank lines.
+Other ExportType  is OK 
+ 

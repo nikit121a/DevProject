@@ -1,0 +1,8 @@
+Hello,
+I am creating a chart with the daily sales evolution of a product category, and you are asking me to submit a full year.
+There are two problems (see the image in the attachment):
+1. as to the density of vertical lines
+2. Stacking the labels at the bottom of the graph.
+My question is, how can I make so that even by displaying the 365 values of the year, both the rows and the labels are displayed only one for each month?
+Thanks.
+Electivo Zanotto Junior 

@@ -1,0 +1,2 @@
+Hello guys,
+Iam having an issue as "Session Expired"  when 2 users open the same excel file and user1 save it . Then user2 looses the session and get the error "Session Expired  "

@@ -1,0 +1,5 @@
+
+I get the below when a datagrid is refreshed in internet explorer.
+There seems to be an issue with the caching of data and I believe the above error may be causing it. Please advice how to deal with the below error.
+I also get the below error
+ Syntax error, unrecognized expression: unsupported pseudo: Panel

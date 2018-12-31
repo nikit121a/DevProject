@@ -1,0 +1,22 @@
+Hi there,
+I've been trying to find a good solution to track object changes made by the end-user by using the controls on a view. Sadly all solutions  that came to my mind are not sufficient.
+A little bit of a background for a better understanding of my request.
+Let's assume we're trying to make an invoice for one of our customers. Usually we're agree on terms before hand and the customer pays amount x for every product p he's purchasing.
+So we have a  line item in our invoice saying:
+Quantity = 2 | Price per item = 10 | Price = 20 (calculated by PersistentAlias)
+One of the features in the app is that the price per item is automatically refreshed when the agreement changes (for all line items not yet billed).
+So normally the price per item is not allowed to be edited if an agreement was made. But sometimes individual invoices require manual changes to the price per item property. In this case a bool property (Browsable(false)) is set, that the line item was manipulated and should not automatically refresh again (see changing the agreement).
+Forward to my problem:
+How can I track the user making changes to the control bound to the price per item property?
+What I've tried:
+ - Logic in the property set-Method => not working because the automatic algorithm is using that one too
+ - A ViewController like in 
+ => not working because user may customize the layout of another view which links the line item and the view controller isn't activated for this view
+ - Using a custom property editor => may not be the best solution, because the editor can be accidentally switched for a certain view and may not be active in ListEditors other than GridList
+What I'm looking for is a generic solution like a MVVM pattern would give me. Have a clear shot at where the property was edited from.
+I don't want to add another Browsable(false) property to my object which is only used from code and a visible property which is used for the end-user. In addition I want to edit the value directly in my let's say TextEdit and not showing an dialog via an action to control the change.
+This is a feature that really is lacking in XAF. For me there is not a clear possibility to implement logic decoupled from the ui and from model.
+Most logic is implemented directly in the XPObjects, so I can't reuse them in another app.
+Thanks for any feedback and greetings
+Daniel
+  

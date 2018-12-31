@@ -1,0 +1,5 @@
+Hello,
+I have a TcxBarEditItem on the TabAreaToolbar, and it doesn't work (and isn't rendered) correctly since I've changed from Delphi 10.2 to 10.2.2 Release 2.
+I've tried versions 17.2.3 and 17.2.4, but the same result. 
+See images attached. 
+Tamas 

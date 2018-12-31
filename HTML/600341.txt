@@ -1,0 +1,14 @@
+I have a grid with 
+(datum), tk field and some other fields..
+I want to group by datum (inclusive timepart !!) and tk inclusive some subtotals and grand total - see attchement)
+As you can see with my code the result is not what I want  - de sequence is not correct. (I want per day the results of tk sort on time base)
+ I guess the sorting is on TK (alphabetically) and that must be on datum (or id).
+My code - VB.Net !!
+        
+So the correct display should be:
+(first tk10 and then tk 1)
+datum:25/01/2018
+   
+                 896951786008976612140201804008
+   
+                   89770188200897666540201804008897684640201804008 

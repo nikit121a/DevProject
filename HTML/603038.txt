@@ -1,0 +1,6 @@
+Hello,
+in our application we have we have a TreeList with a structure like this:
+IsComment (bool) | Color (Color) | Column 1 (text) | Column 2 (text) | Column3 (string) | ...
+For all columns that are marked as comments, all text columns should merge to one. I found the following sample:
+ The sample actually merges the columns, but the containing editor and text display stays within the bounds of the corresponding column. What we need when merging is that the editor of "Column 1" spans over the other text columns. It should get all available space that is left from the first two columns, which need to stay in any case.
+ Thanks for your help!

@@ -1,0 +1,3 @@
+Hello,
+I can add criteria like 
+ to dashboard content (XML) in DB (DashboardData.Content) and then see this criteria in designer. Please help me to add it using standard way (in the designer) because the end user doesn't have access to DB.

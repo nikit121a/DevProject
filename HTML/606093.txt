@@ -1,0 +1,4 @@
+The updates in DevExtreme 17.2.5 for 
+ resolved the focus rectangle issues with the Data Grid with Chrome using jQuery 3.2.1, but we are still seeing some focus rectangle alignment issues when running Internet Explorer 11.  If we revert to jQuery 2.2.4, the focus rectangle is positioned correctly in both IE11 and Chrome.  Attached is an example.
+Thanks,
+Justin 

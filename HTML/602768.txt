@@ -1,0 +1,5 @@
+Hi
+Is it possible to create a Xtra Reports "Cross Tab" report and display a image  based on the value returned in the cell.
+If so can you point me in the right direction or a link to one of your help files. 
+Thank you
+Jonathan 

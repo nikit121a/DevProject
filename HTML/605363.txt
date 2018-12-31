@@ -1,0 +1,2 @@
+I have a tree where you can right click to make the TreeItem editable. I have a label and text box and change the visibility according to the command.
+and I'm using attached property to select the text once the textbox is visible.

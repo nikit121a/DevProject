@@ -1,0 +1,12 @@
+I receive an uncontrollable exception when a spin edit value (in a grid control) value is cleared.
+In the attached archive file there is a test project demonstrating the issue. It contains also a video showing the exception. here it goes:
+I ensure all .NET exceptions are set (turn off and turn on  run time exception in VS)
+Activate the test project
+In the test project there is grid control bound to a list of object. One column bound to double value which is editable through a spin edit control
+ The spin edit is configured with a regular expression
+When the application is active, I can enter  a new value in the spin editor.
+But if I clear the value (null or empty string?), I get an exception. There are two cases in the video: first I clear the value with delete after selecting the whole value. In the second case just deleted the last digit  in the number, one after the other. After deleting the final (most significant) digit, got the same exception (talking about DateTime value)
+I say uncontrollable exception as I couldn't find any event I can get before the exception is fired.
+After the exception the application continues, and if I turn off break on the exception, I don't even notice it.
+If I comment out the spin edit mask setting by regular expression in the code, there is no exception . Any idea?
+/* BTW, I try to setup a regular expression, in order to control the number of digits after the decimal point - some double values might represent unit based values (length, speed  etc), and these have different magnitudes under metric and imperial unit systems; controlling number sign - in a 3D application, distance can be negative as it refers to a certain 'center of the universe' marked as the 0,0,0 point. If you have a better solution as regular expression, I will be more than happy to use it */

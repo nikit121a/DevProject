@@ -1,0 +1,6 @@
+i heve a dxDateBox binded with knockout to a field named currentValue
+<div data-bind="dxDateBox: {invalidDateMessage:'', width: '100%', value: currentValue, type:'date'}">....
+when i choose date from dropdow all works fine and value is for example Wed Feb 07 2018 00:00:00 GMT+0100 (W. Europe Standard Time)
+when i set date manually ('07/02/2018') i get this value: Wed Feb 07 2018 01:00:00 GMT+0100 (W. Europe Standard Time)
+Note the hours, in second case i get an extra 1 hour...
+ I'm waiting for your help, thank you, Alessio

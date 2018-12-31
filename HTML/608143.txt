@@ -1,0 +1,6 @@
+1. Run attached project
+2. Click "Add Band" button twice
+3. In Column-Chooser window uncheck "Band 2" 
+4. Unckeck "Band 1"
+DataGrid doesn't contain any bands or columns now. If you close Column-Chooser you will stuck in this state.
+Expected behavior: after step 3, checkbox for "Band 1" must be disabled.

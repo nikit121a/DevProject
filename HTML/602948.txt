@@ -1,0 +1,3 @@
+Hello
+I am using Devexpress pivotgridcontrol. i am trying to display date in format "Thu 12 Dec 17" but the date are not aligned correctly.
+See my screenshot and attached sample project. When I output to the console window it aligns and shows up correctly. 

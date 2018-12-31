@@ -1,0 +1,5 @@
+We have a project with angular 4 as frond end framework. We need to show the charts based on the dynamic values given from the service.
+We have to bind the bar chart with different in a single series. we can do it by customizePoint method .but my legend color is not matching  the bar color.
+sample data source is like this.How to fix this issue?
+
+

@@ -1,0 +1,13 @@
+Hi,
+If you create a chart with 2 series. You assign one serie to the left axis and the other on the right axis. Using logarithmic scale and a tickinterval of 1.
+It will trigger an infinite loop and crash the browser.
+It happens because at one point dx code is trying to find the log of 0 wich set a value to NaN and prevent the "do while" loop of _createTicks to finish.
+Using latest Build, the browser is not crashing but an error is output : 
+W2003: "Tick interval is too small"
+Which is weird becaus if you take series individually with the same tickinterval, no problem
+Here is a sample using your demo example and the data I use.
+Javascript
+Data
+Thanks
+For your help
+ 

@@ -1,0 +1,2 @@
+Hi,
+       Excel Export required from Pivot grid in client Side with all filtered Data . I am using DeveXpress with MVC and the result is required with export to any format like excel, pdf with filtered Data. 

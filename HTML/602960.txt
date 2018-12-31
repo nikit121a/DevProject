@@ -1,0 +1,6 @@
+HI
+i have some users on a domain, and for some reason the "Add to  Dictionary" option is disabled. When i run the code on a machine that is not on the domain, then it works fine.
+this is the code i use to setup the dictionary: 
+ the program is deployed via clickonce as well, so i don't know if there is anything ot do with that?
+any ideas?
+ 

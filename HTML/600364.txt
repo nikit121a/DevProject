@@ -1,0 +1,7 @@
+Hi guys,
+I am wanting to filter (rows only) based on the selected cells on the pivotgrid.
+I have already done something like this a while ago when the user double clicks a cell it will filter the row based the double clicked cell:
+This time I am not using an event as I want it to only happen when I click a button. After looking into it more closely I believe  I have to get the cell info by using the multiselection property and getting all of the Y axis cell. Then apply filtering like the above.
+Can someone help me?
+Thanks,
+Joe 

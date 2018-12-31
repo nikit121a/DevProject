@@ -1,0 +1,5 @@
+Dear Support,
+I Group items inside  Gridcontrol set to Tileview mode  by Category.
+Groups appears sorted alphabetically by category name.
+how do I set the order of appearance of the groups to a specific order of appearance?
+Thanks and Regards, Izak. 

@@ -1,0 +1,28 @@
+Consider the attached code, where I have a master/detail data grid, inside the detail template, I have a second data grid. On click of a custom button, I want to add a row to the nested grid.
+How do I implement the addRowToNestedTable() method, where I can invoke the .addRow() of the data grid instance of the detail template?
+<dx-data-grid id="budgetGrid" [dataSource]="budgetItems" [masterDetail]="{ enabled: true, template: 'detail' }">
+ <dxi-column dataField="lineItemText" [allowEditing]="false" caption="Budget Line Item"></dxi-column>
+ <dxi-column dataField="programCost" caption="Total Program Cost" [format]="{ type: 'currency', precision: 2 }">
+ <dxi-validation-rule type="range" min="0" max="9999999" message="Total program cost is not valid"></dxi-validation-rule>
+ </dxi-column>
+ <div *dxTemplate="let item of 'detail'">
+ <button class="iweButton secondary-normal" (click)="addRowToNestedTable(xyz)">Add supplier</button>
+ <dx-data-grid [dataSource]="item.data.detail">
+ <dxi-column dataField="supplierVendor" caption="Supplier">
+ <dxi-validation-rule type="required" message="Supplier is Mandatory"></dxi-validation-rule>
+ </dxi-column>
+ <dxi-column dataField="itemDescription" caption="Item">
+ <dxi-validation-rule type="required" message="Item is Mandatory"></dxi-validation-rule>
+ </dxi-column>
+ <dxi-column dataField="totalAmt" caption="Total (incluiding tax)" [format]="{ type: 'currency', precision: 2 }" dataType="number">
+ <dxi-validation-rule type="required" message="Total is Mandatory"></dxi-validation-rule>
+ <dxi-validation-rule type="range" min="0" max="9999999" message="Total amount is not valid"></dxi-validation-rule>
+ </dxi-column>
+ </dx-data-grid>
+ </div>
+ </dx-data-grid>
+addRowToNestedTable(xyz)
+  {
+ xyz.dataGrid.instance.addRow();
+  }
+ 

@@ -1,0 +1,4 @@
+Is it possible to select the *contents* of multiple cells in a grid with a mousedrag (or at all)?
+Basically, I'm looking to replicate the behavior of an HTML Table, where you can partially select text from one cell, and then select partial or full text from other cells.
+ The selection behavior I would like to achieve is like as below (open in browser and you can play with it)
+Is it possible to get this behavior with a gridcontrol? Currently I can either select multiple full cells, or I can select the internal content of 1 cell, but am then locked into that cell and cannot select outside of it.

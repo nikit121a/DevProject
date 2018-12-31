@@ -1,0 +1,5 @@
+Steps to reproduce
+Run sample project - set cursor in the grid (edit)
+1) Press ALT+2 -> focus set correctly in the textbox
+2) set focus again in the grid and Press ALT+T (nothing happens) - Press ALt+ T again -> focus set correct
+ 

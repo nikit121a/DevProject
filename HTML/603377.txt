@@ -1,0 +1,2 @@
+Buttons placed inside the devex grid template shows html instead of title.
+Kindly refer the attached image. 

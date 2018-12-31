@@ -1,0 +1,2 @@
+Hello, 
+We have found an issue where window borders disappear under certain conditions. This first appeared with some of our Tool windows and dialogs so it may just be related to that setting. I am using per monitor DPI scaling of %125 to test this. To reproduce this issue, set DPI to %125 and open the attached sample application on the scaled monitor. Note that the bottom window border is missing. It can be hard to see but it helps to move the window over a white background. 

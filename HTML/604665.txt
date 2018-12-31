@@ -1,0 +1,1 @@
+Our customers security settings prevent font files from being downloaded in IE 11. This is a policy that cannot change. As such we must come up with a workaround for the icons in Dev Express since they do not display. Do you have any recommendations for replacing the current dxicons font files with an alternative solution?

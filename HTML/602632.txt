@@ -1,0 +1,6 @@
+Hi,
+I'm loving the improvements to the scheduler, but I was wondering if you could help me please.
+The attached image shows what appears when I click on a meeting (I currently have delete disabled) but I'd like to make it so that when a user clicks on the  'Edit' option it carries out a redirect for me to another page rather than show an edit form (Clientside code).
+Please can you advise how I can do that?
+Thank you,
+Stan

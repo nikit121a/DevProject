@@ -1,0 +1,7 @@
+hello,
+i have an optimisation to make, i have a scheduler on GuantView,  conflicts are allowed but we manage appointment to have no conflict, as we have calculate automatically when to move them on drop. the show more button are active.
+when we drag an appointment that is already planned on the scheduler the drag creates a shadow of the appointment that is always visible, even when draging over existing appointemnt.
+when we drag an appointment not planned from a XtragridView  to the scheduler, the shadow shows when there is an  empty space, but shows "More buttons" when dragged over an existing appointment.
+how can i have the shadow, when we drag an unplanned appointment, over an existing appointment.
+it is not on drop, only the drag part that interests me,
+ Thank you for you support.

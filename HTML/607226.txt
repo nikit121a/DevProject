@@ -1,0 +1,18 @@
+Hello
+from your example treeListDemo\dynamicNodeLoading, I just set the Theme to TouchlineDark
+when I use a Microsoft Surface in touch mode:
+- it's very hard to open a directory node (with double touch down)
+- it's quite difficult to select a node (also double click)
+I would like to modify the way this control is working:
+when user touch a node, the node must be selected or be expanded.
+So I need to add code inside TouchDown event.
+here is my problem:
+I need to get a TreeListNode from the event
+and i don't succeed.
+  
+
+
+
+Do you have a solution?
+Best Regards
+Philippe

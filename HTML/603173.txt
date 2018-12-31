@@ -1,0 +1,3 @@
+Yes, that solved it, thanks.
+Extra question:) 
+Why is the dashboard thinking this is ? Check attached picture 

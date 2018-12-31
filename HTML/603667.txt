@@ -1,0 +1,4 @@
+I am using Master grid in my application and showing total summary in detail grid .
+Issue is when I am changing Detail grid then total summary works fine.
+Unfortunately it's break when I am changing value of master grid then Detail grid value will be change but total summary not working fine.
+please review the attached screen cast for better explanation.

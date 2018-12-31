@@ -1,0 +1,38 @@
+Hi, I am using <dx-data-grid>. I have used this grid in my all approx. 350. components. Now my problem is I want to disable the paging from all grid. Going individually in all component and disable paging is required lots of effort. I don't want to use this solution. Is there any other solution to change it  globally?? I mean changing at one place and it reflects in all component.
+<dx-data-grid
+#gridContainer
+[height]="300"
+[dataSource]="subdistrict"
+keyExpr="subdistrictId"
+[customizeColumns]="customizeColumns">
+<dxo-paging [pageSize]="3">
+</dxo-paging>
+<dxo-filter-row
+[visible]="true">
+</dxo-filter-row>
+<dxo-scrolling mode="standard">
+<!-- or "virtual" | "infinite" -->
+</dxo-scrolling>
+<dxo-editing
+mode="cell"
+[allowUpdating]="true"
+[allowAdding]="true">
+</dxo-editing>
+<dxi-column
+dataField="subdistrictCode"
+caption="subdistrictCode">
+<dxi-validation-rule
+type="required"
+message="Please fill subdistrictcode">
+</dxi-validation-rule>
+</dxi-column>
+<dxi-column
+dataField="subdistrictName"
+caption="subdistrictName*">
+<dxi-validation-rule
+type="required"
+message="Please fill subdistrictname">
+</dxi-validation-rule>
+</dxi-column>
+</dx-data-grid>
+ 

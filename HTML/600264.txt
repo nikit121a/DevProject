@@ -1,0 +1,25 @@
+I'm trying to show three titles on the accordion component but only the first item title is visible until that item is clicked, then the other items become visible. How do I make all item titles visible?
+For example, these three titles:
+    Item1
+    Item2
+    Item3
+We should be able to see all three titles after the page loads. But currently this is all I see after the page loads:
+    Item1
+I can't see the titles 'Item2' and 'Item3'. Then, when I click on Item1, Item1 expands to show its content, and Item2 and Item3 finally become visible:
+    Item1
+        item of content 1
+    Item2
+    Item3
+This is the HTML I have:
+        <dx-accordion
+                      [dataSource]="accordionItems"
+                      [collapsible]="true"
+                      [multiple]="true"
+                      [animationDuration]="300">
+         </dx-accordion>
+            <div *dxTemplate="let accordionItem of 'title'">
+                {{accordionItem.name}}
+            </div>
+            <div *dxTemplate="let accordionItem of 'item'">
+            </div>
+How do I make all item titles visible at all times?

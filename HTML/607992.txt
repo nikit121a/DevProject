@@ -1,0 +1,25 @@
+
+
+The first launch of a report it's taking a long time. 
+But the problem occurs every time.
+For exemple, we have an application with 2 reports.
+The scenario we encounter is the following :
+- Launch the application
+- Preview report 1 : it takes 10 seconds to show the report preview.
+- Close the preview
+- preview the report 1 again : it takes 1 second to show the preview
+- close the preview
+- preview the report 2 : it takes 5 seconds
+- close the preview
+- preview the report 2 again : it takes 0.5 second.
+- close tha application
+- launch the application again
+- Preview report 1 : it takes 10 seconds to show the report preview.
+- Close the preview
+- preview the report 1 again : it takes 1 second to show the preview
+- and so on ...
+Our application is a XAF application.
+Will Ngen improve the performance of the 1st preview/print ?
+What is the difference between printing report 1 and report 2. Aren't the DLL already compiled at the first preview of report ?
+Many thanks in advance for your answer.
+Julien

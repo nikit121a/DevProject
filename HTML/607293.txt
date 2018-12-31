@@ -1,0 +1,3 @@
+Hi, was poking around looking in the standalone Dashboard Designer - wondering if it's possible to add additional (text) header rows as shown in the image I attached to this ticket.
+The business group presented an excel file showing how they'd like their columns arranged, and they have additional colored "grouping" headers above the cell columns - I wanted to be sure if this was possible, or not, with the Dashboard Designer?
+Thanks!

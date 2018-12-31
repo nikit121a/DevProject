@@ -1,0 +1,3 @@
+Is there any way to provide a per-row message for the delete confirmation box? I tried using the onRowRemoving event handler, but it's fired after the confirmation box appears.
+I'd rather not make something completely custom when DX already offers the confirmation functionality.
+Here is my handler code:

@@ -1,0 +1,9 @@
+Hello 
+I am getting some issues with devexpress  GridView.
+1. some time i am getting an error before grid load
+but after refresh it works fine. what is the reason behind this?
+2. i am using master-detail grid-view ,sometime i am getting error when try to collapse expand row. (if idle tiem more than 1 min as after refresh the page it works fine)
+Error: Value cannot be null 
+Please assist what is the reason behind these error.
+Thanks
+ 

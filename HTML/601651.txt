@@ -1,0 +1,2 @@
+I'm using the ExcelDataSource.EditDataSource UI wizard to fill inn an ExcelDataSource to get the datasource settings from the user.
+Is there any way I can save these settings (serialize/de-serialize?) so that I can restore the settings at a later  and reuse them without having to invoke the Wizard again?

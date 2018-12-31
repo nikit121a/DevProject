@@ -1,0 +1,5 @@
+Hello,
+As the TableOfContent object is only placeable in the reportHeaderBand or reportFooterBand, i was wondering if there is a way to use the same Page Header/ Footer on the Table of Contents Pages as we use in the rest of the report. This customer request occured to us multiple times, as some find it important to have the same pagelayout through the whole document.
+I'm used to code the report entirely without the designer, so i hope you can provide me a solution, or at least an idea for a workaround.
+Thank you very much
+ 

@@ -1,0 +1,4 @@
+HI.
+I've created new WPF project, added devEx references .
+No one control is shown in designer or in application.
+What is wrong? 

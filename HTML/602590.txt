@@ -1,0 +1,4 @@
+Hello,
+In our application we have huge sets of data stored in a database that are displayed to end-user in GridView. We have it implemented with our own mechanism for lazy loading - it fetches and displays more and more data directly from database while scrolling the view. Autofiltering doesn't work well with this, which is understandable, because it can filter only that data, which is currently loaded into the grid's datasource. So we have "handmade" custom filters outside the grid - but it's not the most elegant or efficient solution and we want to have proper filtering that works in grid itself. So I'd like to ask - how can I implement custom behaviour for autofilter row? The desired behaviour, in short, would be like this: user writes something in one of autofilter row's column, then it invokes our logic for getting required data from database and results are displayed in the grid. Any help would be appreciated! :)
+Best regards, 
+Piotr

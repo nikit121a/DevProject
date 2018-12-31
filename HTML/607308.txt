@@ -1,0 +1,2 @@
+Please refer to the attached screen shot.  My Customer Notes tab is highlighted in red to bring users' attention to the fact that they need to read these notes.  Similarly, the buttons are color coded; for example, Case Folder is green to indicate a case folder exists on the filesystem.
+Is it possible to not hit the user over the head quite so hard with Customer Notes - can I place a similar border as the buttons? 

@@ -1,0 +1,4 @@
+good morning
+in the MVC designer I can not intercept any event when I press the save button.
+the Save as works correctly and triggers the whole chain of events up to my ReportStorage implementation class.
+I expected the same behavior as for the Save button

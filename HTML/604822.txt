@@ -1,0 +1,2 @@
+I'd like to know if there is possibility to save some data in the phone memory. I don't mean file or big data, just some pairs of key/value, all strings.
+Is there a storage for the app where I can save some data in this way? 

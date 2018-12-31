@@ -1,0 +1,11 @@
+As demonstrated in the example solution, when using a RepositoryItemDate Edit column edit to edit a date stored in string format the editor switches to EN-US date format and back to EN-GB format swapping the month and day values and blanks where the day is greater than 12.
+My DateTime is  provided to the GridControl as a string because I allow different editors per row meaning it could be a number or a text string being edited but in this simple example it is always a date.
+Notice that, assuming you are running using the EN-GB culture and your date is displayed as "dd/MM/yyyy ", you will see in the grid two rows. The first shows blank in gridColumn2 where it should show 18/02/2018 and the second row shows 02/12/2018 where it should show 12/02/2018.
+Now try and edit the first rows date  via the drop down calendar. It shows the 18th February correctly. Click on it and it is displayed now in the grid. But when you click out of the cell it goes blank again.
+Edit the second rows date in the drop down calendar and it correctly shows  12th February and when you click on the 12th it shows the correct format in the cell but when you click on another cell it flips back to US format and shows 02/12/2018.
+This is clearly a bug somewhere.
+So I tried to fix the format as dd/MM/yyyy in my data source  but that has no effect.
+If I use a DateTime instead of a string then it works fine so it's the code that takes a string and tries to convert it into the display format that is forcing the US date culture instead of the threads culture which is GB. 
+Can you recommend a working solution or do I have to write my own RepositoryItemDateEditThatWorksInCulturesOtherThanUS class?
+Many thanks,
+ Malcolm. 

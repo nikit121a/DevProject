@@ -1,0 +1,8 @@
+Hi again,
+I have a problem trying to bind an observable collection to a chart.
+I took one of your examples, the E2595, I've modified the code according to  my needs but I'm not able to reach my goal.
+I have three problems, the first one I want to change the graph type, from pie to bar chart,
+the second one I don't understand why if I move the filling of data from constructor to the populate button method the program doesn't show anything.
+And the thirdh one when I click on add point, nothing happens.
+Could you please help me?
+Thank you

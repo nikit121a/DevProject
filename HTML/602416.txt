@@ -1,0 +1,4 @@
+Dear Devexpress,
+I tried to create auto-hide dock groups as follow:
+It works fine. However, once the user maximized this dock panel (click Autohide) , the panel cannot be resized. How could I resolve this issue? Thank you!
+ 

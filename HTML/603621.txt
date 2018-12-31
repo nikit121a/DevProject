@@ -1,0 +1,13 @@
+ Attached is a lousy sample project, but it will do the job for explaining the problem I have with a real application.
+Focus on the date and time fields on the detail form - upper part. These are binded to the same property in our ViewModel - users want to have two controls, one for the date and one for the timepart.
+In codebehind an event fires if time entered is more than five minutes old. Then a suggestion of changing the date to next day will appear as messagebox - see attachment, word-doc.
+The event fires correctly, but what's displayed in the time field behind the messagebox is a little bit out of sync, and I can't figure out why, or what to do for that matter.
+To illustrate
+Time Now: 15:36
+I enter: 15:31
+Field displays: 15:03
+The control will let me type 15:31 (or just 31 in the last two positions), but when the messagebox displays, the content  which is displayed 15:03? At the same time the EditValue has the right value otherwise the event would not trigger.
+EditValueChanged with this type of binding is troublesome. User should have full freedom of typing until he or she leaves the field. An old tool I used in the past had what they called a Validate Event: Captured 'FocusLost' and 'ValueChanged' in one event.
+I also tried to modify the binding: UpdateSourceTrigger=LostFocus. No different behaviour 
+Thanks in advance for any help.
+ 

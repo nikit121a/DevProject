@@ -1,0 +1,3 @@
+Hello,
+I want to drag drop multiple selected nodes from one treelist to other. 
+ In the OnDragEnter event, i am getting node object null. Will you please tell me how to achieve this functionality?

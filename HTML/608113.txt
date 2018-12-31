@@ -1,0 +1,6 @@
+hi,
+i have a grid with this columns:
+that DisplayFormatString property is set to number format, when i export this columns in the excel file the format work fine, but my problem is in my summary data because i have this custom summary:
+but in my excel file this format is lost and remains as text, why?, how do I correct this? 
+Thanks for you help, i attach a reference file.
+ 

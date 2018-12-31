@@ -1,0 +1,15 @@
+Hello there.
+For the past few days I have been attempting to create something like a 
+ using your DevExtreme control.
+I have had some degree of success, but of course I don't know the internal of how your existing Dashboard controls work and so I think it is quite  possible for you to create a Dashboard control.
+ How I have done it is by parsing the XML exported by the WinForm Dashboard into C# objects that are then returned by a Web API controller and rendered on the client side using your DevExtreme Chart, Gauge and Grid controls.
+There are basically two parts to your Dasboard XML. 1) The Data Source and queries 2) The items (Chart, Gauges etc)
+I've created a service that performs the queries using the connection detail that are in the XML file and then create the item definition which are put into an object graph returned by the Web API controller.
+On the client side I have TypeScript services that loop round the returned JSON and creates and configures your controls accordingly. 
+I have read posts asking for a Dasboard control 
+.
+My web app is Angular 2, it is also deployed as a Android and  iOS app, so I need a complete separation of concerns.
+So in order to create a Dasboard control you would need: 1) A DashboardSevice nuGet package that would create the object graph needed by Web API. 2) A Dashboard JavaScript control that would create the charts, gauges etc as per the definitions.
+Would you be able to create something like this in the future?
+Thanks,
+Luke 

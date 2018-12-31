@@ -1,0 +1,5 @@
+Thank you very much that worked like a charm.
+Based on the same lines, is there a better way to save the grip layout with a name on click of a button and then display the list of Saved grid layouts with name and load it.
+How can this be done with the above approach on click of the bookmark button. Any help is appreciated.
+Thanks
+Wortham

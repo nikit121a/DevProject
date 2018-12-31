@@ -1,0 +1,10 @@
+Hi.
+We're using DashboardViewerExtension in our analytics portal. There's quite an amount of custom stuff there, UI for selection of dashboards, XML in database, filtering queries on certain dashboards etc. 
+Now since DashboardViewer is now obsolete, I'm trying to replace it with DashboardExtension and I'd like to know what's the best approach.
+- we want to let the user pick a dashboard using our custom controls
+- we sometimes need to modify queries on the run
+- our users are able to save (most) filters using our custom functions, but if there was an embedded UI for saving filters in localstorage, we'd probably use it 
+I've seen most of the walthroughs and answers available on this topic and I just need to make sure I'm not missing anything. 
+I'll start with this question:
+Is it possible to bind the DashboardLoading and similar events using DashboardExtension in Razor, when I cannot pass DashboardSourceModel anymore? How? Or what alternatives are there, when we want to keep handling stuff?
+Thanks for any answers/pointers.

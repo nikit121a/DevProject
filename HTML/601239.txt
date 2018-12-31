@@ -1,0 +1,8 @@
+Hello, we've been trying the Skin Editor, but we could not figure out how it works.
+After some trial and error, we've man aged to get some insight, but we're still lacking what we believe is probably some basic knowledge..
+Our current objective is to change the global highlight color.
+For instance: When we hover over a Large Ribbon Button, we want its background color to change to a different color than just a darkened version of its original background color.
+Same goes for the checked state of Check Items in the ribbon bar and selected values in a backstage page menu
+We've tried changing the Highlight Color properties under Common -> System Colors -> Highlight , but It does not seem to change anything.
+We've also tried looking at Ribbon -> Buttons -> Large Button. But we cannot find a way to change the color of individual states.
+If you could please give us some insight , we'd be much obliged

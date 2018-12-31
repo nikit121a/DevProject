@@ -1,0 +1,9 @@
+
+Thanks.. That got me started.. 
+The one I have in mind is similar to: 
+I've added some of that logic.. 
+A few changes
+2) Since these are 2 different Facility Types I'd like to have a sum for each one of them... (there could be multiples of the same Facility Types, to which, the sum would be needed)
+5)  I think it's showing the Sum of the entire group and I will also need separate sums for each FacilityType (See 2 above)
+Thanks.. That really got me started...
+Let me know if any errors occur so that I can send you updated data,,,  I see that the BedEpisodes are not displaying the DB sent. Let me know if these are a must... Had to change the private data, thus the issue...

@@ -1,0 +1,4 @@
+My web form has one button and one gridview. By clicking the button, user can choose a fildname from a drop down list from the database. Then a new row is created.  I dynamically create different controls base on the field name column by implementing the i template class as shown in the screen shot. My question are: 
+1‍. Every time I click the button or create new rows, the data in the input control is gone. How can I keep those data.
+ ‍Thanks
+

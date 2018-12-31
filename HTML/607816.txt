@@ -1,0 +1,1 @@
+Something in Coderush (17.2.6 and all previous versions) really slows VS 2017 down so I can only type about 1 character every 5 seconds. It seems to happen when I have a solution with about 9 projects. If I open just one project I dont see the problem as much. Any idea what's causing the problem? It makes VS utterly unuseable. If I disable Coderush everything is fine.

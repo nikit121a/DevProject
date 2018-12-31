@@ -1,0 +1,13 @@
+Hi Aleks,
+meanwhile I spend nearly 4 month (YES, more than a quarter of a year) making test programs, code snipped, testdata, videos etc. I have to make money with the development of our own software. But in the moment I spend all the time for troubleshooting of software-products that we have buyed because it should take over work, not create additionaly some.
+To rescue the honor: Troubleshooting DevExpress was the smallest part of the 4 month. But considered overall we cannot afford that with only 2 developers.
+For now enough of grumbling - back to our problem. For this week I am out of the office and therefore I can only test something in the evening and in the hotel. 
+1. XtraOpenFileDialog is working 
+2. treelistdemo is working
+3. DialogsMainDemo 
+   - Open - is working
+   - Save As - is working
+   - Set Working Folder - FAILS !!!
+4. Not enough time to do that
+There are no related Events in the viewer
+What we can do is a remote session on my computer end of the week. What do you think about it? 

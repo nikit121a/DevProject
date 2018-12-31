@@ -1,0 +1,5 @@
+Hi,
+The Add New row button takes up a lot of space above the DataGrid. 
+Do you have an example of how to put the button into the Comman Colum row header please?
+Thanks
+ 

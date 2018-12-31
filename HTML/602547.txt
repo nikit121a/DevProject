@@ -1,0 +1,4 @@
+Hi,
+I want to use conditional formating using an icon set but the rule is different for each record. It seems that I may be able to do it using a formula but how can I use formulas in a tableview?
+Regards,
+Ken 

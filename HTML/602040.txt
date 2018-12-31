@@ -1,0 +1,5 @@
+I made project from template gallery of DX with simple table. This project works. I changed only binding to custom binding and methods in controller and project has an error:
+Uncaught ReferenceError: ASPx is not defined
+In attachment is test project.
+What am I doing wrong?
+Thanks.

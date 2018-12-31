@@ -1,0 +1,5 @@
+I am generating a report in my WPF application.  The user has the choice to print the report directly out fo the DocumentPreviewControl or export to PDF/etc and print from that.  
+The report is a landscape formatted report.  In the report designer, I set the left/right margins to 0.25, and the top/bottom to 0.15 since there is a lot of data in this report. 
+If the user exports to PDF and prints the report from the PDF, it prints fine.
+If the user prints directly from the documentPreviewControl, the printout seems to "zoom" and the top/bottom of the report gets cut off slightly.
+Why would printing from the DocumentPreviewControl do any scaling? 

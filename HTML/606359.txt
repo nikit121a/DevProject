@@ -1,0 +1,7 @@
+
+Thanks for the solution, I tried it and it is working as expected.
+One last solution i need from your side is,
+1. when i export to excel then report header is showing in two row.
+Can i make it to show in one row only?
+Thanks,
+Veera

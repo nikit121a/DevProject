@@ -1,0 +1,4 @@
+Hello,
+I want to get a boolean property for treelistview row. 
+I will apply a different style to that row if it is the last element at that level.
+How can I do it? 

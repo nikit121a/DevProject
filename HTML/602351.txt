@@ -1,0 +1,5 @@
+Hello,
+ I have been looking through the demos, and am trying to find the right control for selecting images or uploading images that mimics the InsertImageDialog from the ASPxHtmlEditor.
+In my current project, I have created a page for users to create a webpage with specific parameters, namely a primary heading, a headerimage, and then their own html content via the  ASPxHtmlEditor.
+Presently, the header  image is selected via a combobox which is populated from a sql datasource, or uploaded via a separate upload control. This is not nearly as robust as the functionality that comes with the htmleditor, which we have also have connected to a remote Amazon AWS directory for all of our images.
+Is there a way to get the same functionality as the  InsertImageDialog to allow users to browse and select an image or upload their own?

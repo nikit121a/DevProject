@@ -1,0 +1,4 @@
+In the VerticalGrid, if the caption of a category row is left unassigned (intentionally, to get a separator row with no text), the name of the row is displayed at runtime, e.g. 
+.
+If spaces are entered as the caption, at runtime  there is a dotted border around them.
+ 

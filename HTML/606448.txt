@@ -1,0 +1,6 @@
+I have a grid control with SelectionMode = Cell.
+I want to know if the user has selected a bunch of cells or rows.  It will impact the behavior of the delete button.
+When cells are selected, delete will clear the cell value.  When rows are selected, delete will remove the rows.
+Please let me know how I can achieve this.
+thanks
+ 

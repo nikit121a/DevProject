@@ -1,0 +1,6 @@
+I have a simple class that I'm using to hold TreeList data:
+The KeyFieldName is NodeId.
+If I load data into the tree with the first item having a NodeId of zero, when I try to drag data from another tree to the first item, it improperly makes that data the root node. I'm attaching an image to show the problem.
+In that image, notice that the "Pid" of the new item added is "0" and should have shown up as a child of the item with a description of "1".
+The issue only appears when adding items after the tree is initially populated, and only if the initial NodeId is 0. I tried non-zero values such as "1" and "100" and both worked correctly.
+Thanks. 

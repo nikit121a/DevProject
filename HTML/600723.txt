@@ -1,0 +1,4 @@
+Hello,
+is it possible to replace the position (per drag 'n' drop) of a tile with another tile, without reorder the other tiles? Is there a configuration to make this simplier?
+For example it is not possible to replace the top left tile with the bottom right tile. After you have replace this tiles, you have to replace all other tiles too, because the arrangement is mixed up. The currently implemented mechanism especially is not usable for our customers.
+Thanks.

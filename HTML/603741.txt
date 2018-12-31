@@ -1,0 +1,8 @@
+This is a bit of a high-level question, but we've been using an app that was built around the MVVM Scaffolding framework for doing a lot of CRUD work against a database with several different related Entities.
+We're spending the next month looking at what statistics we can expose to our end-users and I've been looking at the Dashboard tools in the demo center and things seem set up really well to be able to create Views in the database that expose the data points we care about and then diagram those views with the different dashboard controls and use the Range Filter to get real-time changes to those charts. I then also noticed the WPF subscription has access to DXCharts, a Range Control, and other similar controls to recreate most of what the Dashboard seems to provide. I am wondering how or if these WPF controls are different than the Dashboard controls?
+A couple use cases for us would be:
+1. A Location Entity in our database has several Requests and Referrals, both of which are created by Users. If I open the LocationView, I'd want the user to be able to explore data about how many Requests and Referrals have been made to/from that location over time, by type, by User, etc.
+2. A User in our database can create Requests and Referrals. It would be useful to have a place where a User could explore data about Requests and Referrals they have created over time.
+We currently have the DXperience subscription and are evaluating if the Dashboard features would be worth upgrading. Also if there are any samples available where these types of controls are integrated into an MVVM Scaffolding application that would be useful.
+Thanks.
+ 

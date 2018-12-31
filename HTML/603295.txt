@@ -1,0 +1,4 @@
+
+Hi,
+There is a example using Agular (frontEnd)  and Asp.net core (WebApi BackEnd) instead of Asp.Net MVC 4.0?
+thanks.

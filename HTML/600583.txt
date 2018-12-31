@@ -1,0 +1,5 @@
+Hi,
+if I have layout tab-control with multiple tabs, the headers (if the width is not sufficient) are displayed in multiple lines.
+Is there a way to enforce a single line for those tab headers?
+Regards,
+Dr

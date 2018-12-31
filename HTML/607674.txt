@@ -1,0 +1,2 @@
+Hi!
+I have a control ASPxSplitter. When panes of this control are dynamically formed in the server-side with specified ContentUrl and ContentUrlIFrameName, the client-side event PaneContentUrlLoaded is not fired. But when I add these panes in the html-code, the  client event PaneContentUrlLoaded is fired. Please, help me! Why the client-side event PaneContentUrlLoaded is not fired in the first case. Moreover, can the client side event PaneContentUrlLoaded be fired after changing the ContentUrl during callback in the server-side.

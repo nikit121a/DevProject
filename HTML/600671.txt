@@ -1,0 +1,6 @@
+
+Hi,
+I am working with the PictureEdit control in a WinForms application.  A couple of specific issues that I am having is:
+2) I need to be able to allow the user to draw a lasso on the pictureedit and get the actual coordinates from the image regardless of the zoom level.  Can you explain how to accomplish this or maybe provide a sample project?
+Thanks
+Kerry

@@ -1,0 +1,11 @@
+Hi
+I am trying to use the code sample 
+everything works ok until I get to use the data on a pivot grid, when I find I cannot filter out an individual code, regardless of whether it includes another code as well
+so the data will display and group by 
+Fruit  
+Fruit,Vegetables
+GrainsCereals,DairyProducts etc
+individually as separate entities which is ok its what you would expect , I want to be able to filter by values which contain  fruit, but if I do it doesn't include Fruit,Vegetables for example as this is a different value, the list gets rather long its a bit tedious to find all the occurrence's with word Fruit in which is what the user want to find.
+not sure if the same will happen on a standard grid but I would be looking for the same behavouir
+the pivot grid is populated via an XPView if that helps
+ 

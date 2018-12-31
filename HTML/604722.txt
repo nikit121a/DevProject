@@ -1,0 +1,20 @@
+Hello Dev Express,
+I am trying to utilize your FileUploadControl extension in a way that allows the user to simply drag and drop their file into the File Upload Control space.  When I drag a file into the boundary of the control, the system shows a progress bar which makes it appear that the upload occurs, but then a "Not Found" is displayed in red once the progress bar completes.
+Here are the settings that I am using with the extension.  Am I missing something here, or is there something that I need to account for with the callback routine in order to capture the file? 
+@using (Html.BeginForm("GeneologyFileUploadControlUpload", "Home", FormMethod.Post))
+        {
+            @Html.DevExpress().UploadControl(settings =>
+       {
+           settings.Name = "GeneologyFileUploadControl";
+           settings.CallbackRouteValues = new { Controller = "Home", Action = "GeneologyFileUploadControlUpload" };
+           settings.AdvancedModeSettings.EnableDragAndDrop = true;
+           settings.ShowUploadButton = true;
+           settings.ShowProgressPanel = true;
+           settings.ValidationSettings.AllowedFileExtensions = new string[] { ".csv", ".pdf", ".xlsx" };
+           settings.AutoStartUpload = true;
+          
+           
+           //OnFileUploadComplete="UploadControl_FileUploadComplete"
+           settings.ValidationSettings.Assign(AmbassadorDashboard.Controllers.HomeControllerGeneologyFileUploadControlSettings.UploadValidationSettings);
+       }).GetHtml()
+        }

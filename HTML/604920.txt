@@ -1,0 +1,3 @@
+Hello,
+when replacing my application, it updates the database via DBUpdater. For some time, this message has started to appear to me (see attachment). I do not know what can be caused because there are no other errors during the application and the update. 
+Please help me fast resolve this problem. 

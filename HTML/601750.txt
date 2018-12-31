@@ -1,0 +1,5 @@
+Dear Devexpress,
+I am creating a WPF report designer with VB.NET. I would like to allow the user to save report
+ as an XML or as a binary arry to SQL database. 
+How could I achieve that?
+Thank you!

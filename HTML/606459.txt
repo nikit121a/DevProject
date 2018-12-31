@@ -1,0 +1,11 @@
+I am trying to build a new project using the scaffolding wizard to create a tabbed MDI interface but the wizard is not detecting my entity framework context that is a referenced project.  I am attaching my solution.  I have taken the following steps.
+1. Created a data project with EF code first.
+2. Created a blank WPF project.
+3. Added a reference for the data project to the WPF project.
+4. Added a connection string to the app.config file for the WPF project that points to the database the EF project is configured for.
+5. Clean and Rebuild Solution.
+6. Right-click on the WPF project and select Add DevExpress Item - New Item.  Under the WPF Scaffolding Section, select Tabbed MDI View
+7. Click the Run Wizard button.
+In the Data Bound Tabbed MDI View, the list of existing DbContext is empty.  What am I missing?
+Thanks,
+Scott

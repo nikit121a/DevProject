@@ -1,0 +1,3 @@
+I am having trouble getting the selected row values when they are grouped. I can get the values when they are not grouped but as soon as you group by a column the selected rows gets 2 indexes. This is causing a problem for my current set up. So trying to account for checking if the row is grouped I have used .IsGroupRow() to check. From there I am having trouble finding the answer on how to access the selected rows values. I plan to loop through each row to extract the column values I need but I have not been able to find any documentation on how to do this exactly. I am using .GetRowCellValue() to obtain these column values when they are not grouped and that is working correctly. Any direction/help would be appreciated.
+Cheers,
+Danny

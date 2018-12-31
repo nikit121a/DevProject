@@ -1,0 +1,4 @@
+Hi,
+How do I access these images, as were provided in release 16.1.5? The DX Image Gallery in 17.2.4 does not appear to provide these.  I refered to 
+ which shows them.
+Thanks. 

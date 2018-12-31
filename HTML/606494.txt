@@ -1,0 +1,2 @@
+Currently, my grid has a column with a combobox with a Yes/No option. I want to change the comboBox to have a Yes Checkbox and a No Checkbox in the same cell. Is there a demo I can view that displays this sort of functionality?
+I need something similar to Picture12. Is there a simple way to do this with DevExpress GridView?

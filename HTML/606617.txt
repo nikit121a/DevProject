@@ -1,0 +1,3 @@
+Good day!
+XAF enables to use EF ORM out-of-box.  In the same time I can use criteria syntax in application model. So somehow you can translate criteria syntax into IQueryable that EF can use afterwards.
+Right now I need to find way to integrate XAF model with its criteria into application server that uses Linq2DB as ORM. Can you guide me into right direction? How can I integrate criteria syntax into Linq2DB?

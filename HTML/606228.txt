@@ -1,0 +1,10 @@
+
+
+1) When I create an appointment, I want it to have some default values. To achive this I use the following code:
+
+
+
+
+ResourceId and LabelID are apllied well, but Status it's not. You can see that in your own screenshot, in T604770_Fixed.png.
+Regards, 
+Jesus

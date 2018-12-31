@@ -1,0 +1,3 @@
+Hi I have existing client side javascript code to populate other columns of the grid when the combobox is selected. ie
+This has been working but for some reason I don't know it crashes with the selection of the Date_Assigned being set.  
+Now its defined and its not null so is their a server side way to populate fields from the aspxcomboboxcolumn selection from the datasource fields collection ? 

@@ -1,0 +1,4 @@
+I would like to add standard "Template Report Page" to "
+" Page in report designer, report wizard. 
+How could I achieve this? 
+Thank you! 

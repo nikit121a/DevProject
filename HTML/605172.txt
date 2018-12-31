@@ -1,0 +1,1 @@
+Adding parameter to SQL query in report, always seems to return to Number() regardless of what I set it to.  I change to String, but back it goes when it saves. 

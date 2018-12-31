@@ -1,0 +1,8 @@
+Hi,
+I have large dataset loaded on the grid when I try to copy entire content the application hangs till all data is copied to clipboard and the user remains clueless as the app grid becomes unresponsive.
+What I would like to have is while all rows are getting's copied to clipboard  I would like to show a Wait indicator so the user is aware that the rows are getting copied.
+Can you help me with some events to hookup the wait indicator
+Also the copy functionality is very slow  can anything be done to improve its performance?
+I am loading around 1000 rows and 50 columns  and it takes of 5 to 6 seconds.
+Thanks,
+Preeti. 

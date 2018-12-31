@@ -1,0 +1,36 @@
+Hello, i am actually working with a dxSelectBox to load some itens that are loaded from a database, they are all loaded at the same time,
+but i need them to be loaded dynamically depending on the date that the user inserts, the data being loaded based on date is working,
+but to make this work, i need the datasource of the dxSelectBox to be reloaded in order to refresh the data in the selectBox everytime that
+the user changes the date, i was trying to create an instance of it in my component file, but is getting undefined, there is another way of
+dynamically reloading the datasource or is my approach for this situation wrong?
+dxSelectBox HTML:
+<div class="dx-field">
+    <div class="dx-field-label">Entidade:</div>
+    <div class="dx-field-value">
+      <dx-select-box 
+      #dxEntidades
+      [dataSource]="entidades"
+      [disabled]="disabled"
+      [(ngModel)]="entidade"
+      placeholder="Selecione uma entidade"
+      displayExpr="ds_entidade"
+      valueExpr="id_entidade"
+      noDataText="Nenhuma entidade encontrada.">
+    </dx-select-box>
+    </div>
+  </div>
+loading function:
+@ViewChild(DxSelectBoxComponent) selectBox: DxSelectBoxComponent;
+public getEntidades(ano) {
+    let selectBoxDataSource = this.selectBox.instance.getDataSource();
+    return this.envService.getEnvCliente('baseApiUrl')
+    .subscribe(res => {
+      return this.entidadesService.getEntidades(res, ano)
+      .subscribe(
+        entidades => this.entidades = entidades,
+        error => this.errorMessage = <any>error
+      );
+    }),
+    selectBoxDataSource.load(),
+    console.log(this.entidades)
+  }

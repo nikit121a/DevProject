@@ -1,0 +1,3 @@
+
+is any easy way to add option to add new filter criteria from grid filter settings ?
+In example user enter own filter or criteria on listView and if want save this filter for later use press a button "Store criteria" and this is added to FilteringCriterion table ?

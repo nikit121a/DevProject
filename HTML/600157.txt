@@ -1,0 +1,23 @@
+Good day.
+I have an input field for integer in the range from 0 to 100 (including the ends ). I put the textedit (DevExpress.XtraEditors.TextEdit) with name "screenFrameIntervalTextEdit" on my form and set the following properties in properties window:
+CausesValidation = true;
+ValidateOnEnterKey = true;
+Also I add the eventHandler in my source code:
+screenFrameIntervalTextEdit.Validated += ScreenFrameIntervalTextEdit_Validated;
+...
+        private void ScreenFrameIntervalTextEdit_Validated(object sender, EventArgs e)
+        {
+            try
+            {
+                var a = Convert.ToInt32((sender as DevExpress.XtraEditors.TextEdit).EditValue);
+            }
+            catch
+            {
+               //????? I DON'T KNOW WHAT TO DO
+            }
+        }
+I need you to help how to make a validation field value with the following messages:
+1. "The value entered must be a number!" - if the entered value contains letters and other symbols.
+2. "The value entered must be an integer!" - if the entered value is real.
+3. "The value entered must be in the range from 0 to 100!" - if the entered value is outside the specified range.
+Thanks in advance.

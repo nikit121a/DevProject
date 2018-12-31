@@ -1,0 +1,10 @@
+I'll need to implement a custom version of TileBar, TileBarGroup, TileBarItem and TileItemElement. to give them the possibility of our automatic translation system.
+Well  I have already implemented:
+-  TileBar (DXTileBar )
+- TileBarDesignTimeManagerBase (DXTileBarDesignTimeManagerBase)
+- TileBarGroup (DXTileBarGroup )
+- TileBarItem (DXTileBarItem)
+- TileBarViewInfo (DXTileBarViewInfo )
+- TileItemElement  (DXTileItemElement)
+When I use DXTileBar in the designer and try to create any DXTileBarGroup, always TileBarGroup is generated.
+Can you help me to find the point I'll miss, to bring the DXTileBar to work via the Designer? 

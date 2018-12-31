@@ -1,0 +1,7 @@
+I have attached a sample project.
+In the form is a layout control with lots of groups and controls.
+Run the project and and you will see the right-hand edges of the layout control, and all the controls contained within it, are not visible.
+Now resize the form to make it wider. After about 940 pixels (width is displayed in the Status Bar), the  right hand edges become visible and remain anchored to the form edge as expected.
+Now make the form narrower. At below about 940 pixels, the  controls all become truncated again.
+I presume I have done something wrong with the properties of the layout control, the layout groups/items ofo the individual controls, but I just cannot see it.
+Can you  assist?

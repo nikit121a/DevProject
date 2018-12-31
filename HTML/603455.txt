@@ -1,0 +1,4 @@
+I upgraded a web application from 2017.1.8.0 to 2017.2.5.0 and the scheduler's tooltip looks quite different.
+I checked the breaking changes when  for this version update and noticed that indeed there are some changes when it comes to tooltips. However, it is not clear to me how to revert to the 'old' layout. Could you  drop me a line? Thanks.
+This is how it's currently implemented:
+ 

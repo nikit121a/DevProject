@@ -1,0 +1,47 @@
+I am using AngularJS as my javascript framework.
+When trying to set up a form using the dx-Form control, I am unable to set it up properly in my javascript as it will only accept parameters as strings.
+ Example:
+---- This will create a form with one column
+$scope.formOptions = {
+            bindingOptions: {
+                
+                formData: "d",
+                colCount: 2,
+                width: "800"
+            }
+        };
+VS
+---- This will create a form with two columns
+$scope.formOptions = {
+            bindingOptions: {
+                
+                formData: "d",
+                colCount: "2",
+                width: "800"
+            }
+        };
+In both instances, the formData and width attributes must have their values as strings.  
+Another issue is with the items attribute. When trying to order or customize my fields in any way I run into big problems. 
+---- This will order the fields as shown
+$scope.formOptions = {
+            bindingOptions: {
+                
+                formData: "d",
+                colCount: "2",
+                width: "800",
+                items: "['field3','field1','field2']"
+            }
+        };
+VS
+---- This will not order the fields as shown. The fields will be in whatever order they are in in the data source.
+$scope.formOptions = {
+            bindingOptions: {
+                
+                formData: "d",
+                colCount: "2",
+                width: "800",
+                items: ['field3','field1','field2']
+            }
+        };
+Attempting to do anything more than this yields no results. I only get the basic form.
+ 

@@ -1,0 +1,9 @@
+Hi,
+I have an issue with getting the  ShowCrosshair method to point at the right date in my Swiftplot diagrams. The way I initialize the crosshairs for all the charts is by clicking on a menu button that capture the current nearest seriespoint in the selected chart (as you can see on the parameter of the method).
+ After that I loop through all the charts I try to show crosshairs for them at the same date as the selected chart (currentNearestPoint.Argument).
+For the Y-axis I use detectAxisY (workaround because my charts have different y-axis ranges).
+In the debugger I can see the right date values go through currentNearestPoint.Argument. But  in the running GUI the crosshairs is placed on the wrong date. As can be seen in the example picture.
+Test method after I click the menu menu button:
+Do you know what could be wrong?
+Best regards,
+Sebastian

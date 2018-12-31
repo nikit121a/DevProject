@@ -1,0 +1,4 @@
+Hi,
+we want to trim text in a TexEdit exactly as in a ComboBoxEdit and show a ToolTip for it when the text needs to be trimmed.
+This doesn't work as we expected.
+I attached you a sample project to describe it in a better way 

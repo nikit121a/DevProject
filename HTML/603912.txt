@@ -1,0 +1,6 @@
+Hello,
+How can I sort RibbonBarItems? To be more precise, sorting ItemLinks of BarSubItem.
+I tried to do like this
+but item.Item is null.
+Then I tried to "Cast" RibbonBarItems to some IEnumerable and do "OrderBy". But nothing succeeded.
+ 

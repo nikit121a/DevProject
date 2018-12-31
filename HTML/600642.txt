@@ -1,0 +1,7 @@
+Hello,
+please find attached a project to reproduce the issue I'm having. In some cases in my application I have to transpose the columns and rows of a worksheet in the SpreadsheetControl and other kind of actions, that involve hiding or showing worksheet columns or rows and modify the columns width or row heights.
+If I have comments within the cells involved, I realize that the comments height (even width in some cases) are changed when I play with the columns width, rows height, copy range to other parts of the worksheet, etc.
+In the attached example (I show the transpose action), if you click several times in the top-left button, you can see how the comment height grow, where I supose to have it static in the same size.
+I need to maintain the comment size fixed, because is wrong to see this comment resized with these kind of actions.
+Is there something I'm doing wrong?
+Thanks in advance!

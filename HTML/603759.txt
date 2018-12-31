@@ -1,0 +1,6 @@
+Hi.  I have a simple map connected to OpenStreetMapDataProvider and a layer that shows a single callout.
+The map is in an XtraUserControl.
+This control is the content of a TabbedView document. 
+My program no longer exits.  I tried adding a MyUserControl.Dispose on shutdown and it hangs there.
+Is there some proper unloading I need to do with maps?
+Thanks. 

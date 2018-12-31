@@ -1,0 +1,4 @@
+Hello,
+I'd like when I open a WPF form call a WebApi and during I wait the answer display a waiting animation ...
+Is it possible ? What is the best practice ? Do you have a sample ?
+Thanks, 

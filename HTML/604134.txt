@@ -1,0 +1,4 @@
+Hi DX team!
+Is it possible to use intermediate row checked state in grid as in treeview? TableView.ShowCheckBoxSelectorColumn is true.
+Thanks in advance,
+Tim

@@ -1,0 +1,8 @@
+Hi,
+I'm unsure how to filter / sort custom types in XtraGrid.
+I've attached an example of a simple grid with filtering of a custom type.
+The resulting filtering is not as I expected as I assumed it would use the CompareTo method of my class to filter but it doesn't. I guess it must be simply filtering using the ToString() value.
+Also, the grid won't permit column sorting.
+Can you please assist?
+Thanks
+Paul 

@@ -1,0 +1,26 @@
+Can receive the uncaught exception "The process cannot access the file 'document.png' because it is being used by another process." when  trying to export to PNG while another application has the file locked.
+Repro:
+- Create a diagram
+- Choose Export As PNG
+- Attempt to save over a file that is currently opened and locked by another process
+This should be a  messagebox telling the user the issue rather than an unhandled  exception.
+Stack trace:
+in System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+in System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+in System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+in DevExpress.Diagram.Core.Native.DiagramControlExportActions.ExportDiagram(IDiagramControl diagram, String path)
+in DevExpress.Diagram.Core.Native.DiagramControlExportActions.ExportDiagram(IDiagramControl diagram, DiagramExportFormat exportFormat)
+in DevExpress.Diagram.Core.DiagramCommandsBase.<.cctor>b__6b(DiagramExportFormat format, IDiagramControl x)
+in DevExpress.Diagram.Core.HandlersRegistratorExtensions.<>c__DisplayClass16`1.<RegisterHandler>b__15(Object param, IDiagramControl x, Func`1 getArg, Action baseExecute)
+in DevExpress.Diagram.Core.HandlersRegistratorExtensions.<>c__DisplayClass1.<RegisterHandlerInternal>b__0(Object param, IDiagramControl x, Func`1 getArgs, Action baseExecute)
+in DevExpress.Diagram.Core.DiagramCommandsBase.ExecuteHandlers(Object parameter, IMouseArgs args, IEnumerable`1 handlers)
+in DevExpress.Diagram.Core.DiagramCommandsBase.ExecuteCore(DiagramCommandBase command, Object parameter, IMouseArgs args)
+in DevExpress.Diagram.Core.DiagramCommandsBase.Execute[T](DiagramCommand`1 command, T parameter, IMouseArgs args)
+in DevExpress.Xpf.Diagram.DiagramCommands.<>c__DisplayClass2`1.<CreateCommand>b__0(T x)
+in DevExpress.Mvvm.DelegateCommand`1.Execute(T parameter)
+in DevExpress.Mvvm.CommandBase`1.System.Windows.Input.ICommand.Execute(Object parameter)
+in DevExpress.Xpf.Bars.Native.CommandSourceHelper.Execute(ICommand command, Object commandParameter, IInputElement commandTarget)
+in DevExpress.Xpf.Bars.BarItem.ExecuteCommand(ICommand command, Object commandParameter, IInputElement actualCommandTarget)
+in DevExpress.Xpf.Bars.BarItem.<>c__DisplayClass61.<OnItemClick>b__60()
+in System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+in System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler) 

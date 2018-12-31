@@ -1,0 +1,4 @@
+Hello,
+I'm creating a customized field chooser based on this 
+, but i noticed that when i reorganized the fields they simply disappear. I've attached an image showing what happens and here's my code pen example: 
+ 

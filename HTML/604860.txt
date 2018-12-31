@@ -1,0 +1,1 @@
+This issue occurs only when an editable View is opened. Attached is a sample project demonstrating it. To reproduce the error, run a sample project and click the Test action in RibbonControl.

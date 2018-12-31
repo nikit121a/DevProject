@@ -1,0 +1,17 @@
+
+Hi,
+We have a register form. Password TextBox and RadioButtonList below.
+After selecting RadioButtonList, the password in the TextBox is reset.
+I have adapted the code to the above code, but the same problem persists.
+I'm asking for help.
+Thank you.
+
+
+
+-----------------------------
+
+
+
+-----------------------------
+
+

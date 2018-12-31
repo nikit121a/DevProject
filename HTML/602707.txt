@@ -1,0 +1,38 @@
+
+On page i have a ASPxTreeList and popup control:
+    <dx:ASPxPopupControl ID="pcForum" Height="0px" Width="0px" runat="server" ClientInstanceName="popup" PopupHorizontalAlign="OutsideRight" PopupVerticalAlign="TopSides"
+        ShowHeader="False" Modal="true" AllowResize="False" CloseAction="CloseButton" ScrollBars="Auto">
+        <%--<ClientSideEvents Init="onWindowInit" Shown="onWindowShown" Closing="onWindowClosing" />--%>
+        <Windows>
+            <dx:PopupWindow Name="popupWindow">
+                <ContentCollection>
+                    <dx:PopupControlContentControl runat="server" BorderColor="#7EACB1" BorderStyle="Solid" BorderWidth="1px" EnableTheming="false">
+                    </dx:PopupControlContentControl>
+                </ContentCollection>
+                <ContentStyle>   
+                    <Paddings Padding="0px" />
+                </ContentStyle>
+            </dx:PopupWindow>
+        </Windows>
+    </dx:ASPxPopupControl>
+ASPxTreeList have DataCellTemplate with button wich init function:
+        protected void btnReply_Init(object sender, EventArgs e)
+        {
+            ASPxButton b = (ASPxButton)sender;
+            TreeListDataCellTemplateContainer templateContainer = (TreeListDataCellTemplateContainer)b.NamingContainer;
+            String forumID = templateContainer.GetValue("frm_id").ToString();
+            b.ID = String.Format(b.ID + "_{0}", templateContainer.NodeKey);
+            b.ClientInstanceName = b.ID;
+            b.ClientSideEvents.Click = String.Format("function(s,e) {{ replyForum({0},'{1}'); }}", forumID,  b.ID);
+        }
+replyForum function is:
+function replyForum(value, name) {
+    if (value !== null) {
+        var window = popup.GetWindowByName('popupWindow');
+        popup.SetWindowContentUrl(window, 'ForumReply.aspx?forumID=' + value);
+        popup.SetWindowSize(window, 820, 150);
+        popup.ShowWindowAtElementByID(window, name);
+    }
+}
+and now is my problems:
+2. Popup position is not corect - is always top = 0 and left = 0 in browser

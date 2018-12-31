@@ -1,0 +1,6 @@
+when press down arrow on keyboard, empty row is deleting. but when press up arrow on keyboard, empty row not deleting.
+private void gridView10_RowUpdated(object sender, RowObjectEventArgs e)
+        {
+            GridView gv = sender as GridView;
+            gv.DeleteSelectedRows();
+        }

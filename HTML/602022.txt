@@ -1,0 +1,8 @@
+
+We are using your XtraCharts component in conjunction with the data grid component and use the data grid component's export function.
+In that database there is a field which represents the time of day in seconds. 
+This field is interpreted in the component, so the displayed value has a human readable format (hh:mm:ss). 
+Is it possible to use this format when exporting the data via the export function provided by your component?
+My guess is we'd have to use either 
+ or  
+but I have not yet figured out how to do it.

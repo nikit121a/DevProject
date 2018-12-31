@@ -1,0 +1,4 @@
+Hi Lanette,
+I am also using for some of the page DevExtreme control. Can i do the same on above for DevExtreme control also?
+Thanks,
+Vikash 

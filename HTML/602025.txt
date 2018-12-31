@@ -1,0 +1,1 @@
+When a cell in grid has long text value, in filter (Excel type filter) those values are cropped. I need (..) at the end of the text which goes out of the filter box. Attached image for reference.

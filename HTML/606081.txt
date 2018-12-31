@@ -1,0 +1,1 @@
+We're trying to filter on a decimal property by selecting ">" in the auto-filter dropdown, but the filter is attempting to use "Startswith". Please see the attached screenshot and partial XAML. Thank you.

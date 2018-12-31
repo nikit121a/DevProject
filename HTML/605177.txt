@@ -1,0 +1,1 @@
+I want to change the normal scrollbar's style to the smart style likes the demo shows us, I had put the pictrue in the attachment, please check it, after that, can you tell me how can I set the properties?

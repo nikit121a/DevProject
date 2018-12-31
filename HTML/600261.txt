@@ -1,0 +1,8 @@
+Sorry for simple questions..  no easy way to find answers. 
+WPF
+VB.net
+Need to turn scrollbars to show automatically for VERTICAL AND HORIZONTAL on the scheduler control.
+Appts are fixed width.  So after about 15 appts, they go off the right side of the schedule.  I need the horizontal scroll bar to appear at that time so I can see all appointments.
+The same thing happens when a resource is added to view.  Need to be able to scroll.
+Please show me where and how to add these bars..
+Thank you. 

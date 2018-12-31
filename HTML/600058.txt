@@ -1,0 +1,91 @@
+Do you have any guidance on how best I might enable filtering based on child tables?
+For instance: 
+CustomersTable
+ - CustomerIDPK
+ - Name
+ - DateStarted
+ - Status
+Customer_Orders
+ - ID
+ - ProductName
+ - CustomerID
+Customer_Addresses
+ - ID
+ - Address
+ - CustomerID
+Customer_Contacts
+ - ID
+ - Name
+ - CustomerID
+etc - lots more tables linked to the primary CustomerTable.
+The DataGrid is to display Customers (single row per customer), but I want to be able to filter by the child tables Orders, Addresses and Contacts
+My initial thoughts:
+- Option 1 - Display Customer and filter outside of the results?
++----+-----------+--------+
+| ID | Name      | Status |
++----+-----------+--------+
+| 1  | CustomerA | Active |
++----+-----------+--------+
+| 2  | CustomerB | Closed |
++----+-----------+--------+
+| 3  | CustomerC | Active |
++----+-----------+--------+
+This is bound using MVC to a sql function that accepts filter parameters for OrderId, Address and Contact. 
+But what would be the best way to have these passed to the webapi?
+Can I get DevExpress to pass them to the web api as additional parameters?
+Should I add them as DevExpress filters in the UI, but then extract them (see below)?
+-------------
+var db = new DBEntities();
+[HttpGet]
+public HttpResponseMessage Get(DataSourceLoadOptions loadOptions) {
+string OrderIDFilter;
+string AddressFilter;
+string ContactFilter;
+if (loadOptions.Filter != null)
+{
+ for (int i = 0; i < loadOptions.Filter.Count; i++)
+ {
+ var x = loadOptions.Filter[i];
+ if (x.ToString() == "OrderId")
+ {
+ OrderIDFilter = loadOptions.Filter[i + 2].ToString();
+ loadOptions.Filter.RemoveAt(i);
+ loadOptions.Filter.RemoveAt(i);
+ loadOptions.Filter.RemoveAt(i);
+ break;
+ }
+ if (x.ToString() == "Address")
+ {
+ AddressFilter = loadOptions.Filter[i + 2].ToString();
+ loadOptions.Filter.RemoveAt(i);
+ loadOptions.Filter.RemoveAt(i);
+ loadOptions.Filter.RemoveAt(i);
+ break;
+ }
+ if (x.ToString() == "Contact")
+ {
+ ContactFilter = loadOptions.Filter[i + 2].ToString();
+ loadOptions.Filter.RemoveAt(i);
+ loadOptions.Filter.RemoveAt(i);
+ loadOptions.Filter.RemoveAt(i);
+ break;
+ }
+ }
+}
+return Request.CreateResponse(DataSourceLoader.Load(db.CustomSearch(OrderIDFilter, AddressFilter, ContactFilter), loadOptions)); 
+}
+-------------
+- Option 2 - include additional columns as deliminated  values?
++----+-----------+--------+--------------------+--------------------+
+| ID | Name      | Status | Orders             | Addresses          |
++----+-----------+--------+--------------------+--------------------+
+| 1  | CustomerA | Active | Product1, Product2 |                    |
++----+-----------+--------+--------------------+--------------------+
+| 2  | CustomerB | Closed |                    | Address1, Address2 |
++----+-----------+--------+--------------------+--------------------+
+| 3  | CustomerC | Active | Product4, Product6 |                    |
++----+-----------+--------+--------------------+--------------------+
+We would then need to filter when the value is contained in a column
+ 
+Any thoughts would be welcome
+Richard

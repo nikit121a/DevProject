@@ -1,0 +1,7 @@
+In the old scheduler the event for appointment changes included the objects which had changed.
+The new scheduler just fires a generic event.
+What's the migration guidance here?
+Is my only option to attach to the  AppointmentItems.CollectionChanged event?
+Also, no 'Image' mapping on the Resource?  How do I specify the image?
+By the way, the migration doc on the topic of the mappings seems wrong -> CustomFieldMappings should be children of the AppointmentMappings object, but the migration guidance document has both AppointmentMappings and CustomFieldMapping as direct children of the Datasource.AppointmentMappings property.
+Thanks!

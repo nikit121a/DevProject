@@ -1,0 +1,9 @@
+Hello,
+We have upgraded to new DevExpress version and new security module.
+In "old version" we have created a user preferences business object where user can decide if he wants to work with MDI or SDI.
+We override LoggedOn event and update ShowViewStrategy depending on user preferences.
+Since with new version this code does not work anymore. You can find a simplify project in attachment to reproduce this issue. 
+When we set UserPreferences.EnableMdiMode true or false, it's always the MDI mode that is enable (from model).
+How we can fix this? 
+Thanks,
+Anthony 

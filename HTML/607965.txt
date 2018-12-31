@@ -1,0 +1,13 @@
+Hello DevExpress team,
+Small description of my situation. I want to add some data attributes to the toolbar item, so i can obtain them in a ToolbarItemClicked event on a client.
+This is how i add my toolbar items as a 
+:
+I'm using the TextTemplate for the subitem, where i add my data attributes to the rendered caption.
+On the client i handle the ToolbarItemClicked event. I have the current menu item (ASPxClientMenuItem), but i didn't find a way to get its html in order to get the data attributes (via JQuery, for example).
+The menu object though has the GetMainElement() method, so I have tried to get at least the ASPxClientMenuItem.menu (an then maybe find my attribute via jquery), but i get the top 
+menu in this case. And my 
+is not even a child of the toolbar menu (in html).
+In theory, i would like to have in typescript smth like this:
+Is it possible to achieve it somehow?
+Thank you,
+Aleksandr. 

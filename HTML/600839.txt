@@ -1,0 +1,5 @@
+What is the best way to bind a TList<T> to a TcxDBTreeList
+I have a lot of experience using the TcxDBTreeList and I want to continue using the ParentID/ID paradigm.
+I've looked at ProviderMode  and the CustomDatasource examples but can't grasp how that works in the above example.
+Thanks
+ 

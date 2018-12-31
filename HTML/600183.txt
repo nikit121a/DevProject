@@ -1,0 +1,7 @@
+Hi Guys,
+I'm currently experiencing a strange behaviour while using the PropertyGridControl.
+I have the following property definition:
+ The rendering of the template looks like disabled (in grey color) even if it is possible to edit the property. Please see the attached image. How I can change the appearance of the property? 
+Br,
+Alberto Piccioli
+ 

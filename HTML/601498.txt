@@ -1,0 +1,14 @@
+Dear Devexpress Team,
+I have a serious Problem with one of  my Projects.
+To demonstrate the behaviour, I have created a small Demo. See attachment. 
+Pleas change the Connectionstring to the AdventureWorks DB to run the Demo.
+The Grid loads a list of Documents.
+When you click the rows, Clientside FocusedRowChanged is fired. 
+For convenience, on each FocusedRowChanged an alert is triggered.
+The Button below the Grid changes alternating row 1 so the record does not  fit or fit the Grid's filter condition.
+Hence the record is not shown after a Refresh.
+Problem:
+The Grid's Focus is now on a different row, but FocusedRowChanged  is NOT fired.
+Can you please Review this Situation?
+Thank you very much. 
+Juergen 

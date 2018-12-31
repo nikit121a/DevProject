@@ -1,0 +1,6 @@
+See attached sample.
+Structure is:
+Project
+- Contract
+-- Line
+In the GroupHeader at Contract level, how do I show the Project's Name? I tried [^.Name], but that doesn't seem to work.

@@ -1,0 +1,3 @@
+
+In this sample you can also notice why i was asking for adding empty space between the diagram and first shape, as you can see when you use RightAngle, connectors are drawed outside of the diagram grid.
+My perfect solution is to have RightAngle connectors that do not overlap, more space between shapes and space from diagram borders and first shape, but i can give a try to curved connectors if i'm able to make them respect ConnectorPointRestrictions.

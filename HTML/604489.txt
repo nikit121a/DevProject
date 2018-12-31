@@ -1,0 +1,3 @@
+Hi,
+Is it possible to print a html/string field of an object in XAF web without using reports? Preferred if we can perform it as an action on detail view.
+Thank you. 

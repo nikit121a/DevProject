@@ -1,0 +1,4 @@
+Hi there,
+I wish to limit end-user's interaction with the web report designer, is it possible?
+For example, end-user will only be able to do sorting/filtering/grouping and save. No deleting or adding components from/to the web report.
+Thanks. 

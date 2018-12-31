@@ -1,0 +1,5 @@
+We upgraded to 17.1 from 12.2 a few months ago and noticed a changed to the way dragging works in the Tile control.  If I have multiple checked tiles in one group and drag one of them to another group it now drags all checked tiles showing the number of tiles that are being dragged.  Previously it would only drag the tile I clicked on to drag.
+Is there anyway to switch off the "grouped" drag behaviour and restore the previous behaviour? 
+If it means changing your source c ode to achieve this can you let me know what unit/class/method I need to change.
+Thanks,
+Craig 

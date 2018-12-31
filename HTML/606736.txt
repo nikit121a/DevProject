@@ -1,0 +1,9 @@
+Hi
+This is really a follow on question from 
+.
+I would like to add two additional columns to the grid (that bit is easy enough) they will not be bound to any data source , nor will they need to provide data as explained in the Unbound columns help topic via the GridControl.UnboundColumnData event.  These columns will exist purely to allow the end user to enter some addition information if they so wish.  The general idea is that having filtered data from the provided xml they can add some additional values to certain rows and then the grid will be parsed and new records based on each data row will be created in a table on the backend database.
+I have tried setting allowedit to true on the tableview and readonly to false on both the columns I need to edit, but they remain stubbornly un-editable.
+How should one do this, assuming that it can be done.?
+One other small point.  I have noticed that if I set the TableView ShowTextBoxSelectorColumn property to true (in the example that I posted on the refered ticket and which Ivan amended and sent back) I'm not getting the expected checkboxes to allow the end user to select rows.  Is this specific to the way that this grid is getting it's data or has a bug crept into the code base for the grid?
+Many thanks
+Dom

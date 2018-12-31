@@ -1,0 +1,6 @@
+Hi,
+I would create in my project a panel with a simple dashboard. My exiting project  uses normal DevExp controls. I would use dashboard items but I read in documentation that is not possible to mix in the same form standard control and dashboard items. Is it correct?
+If yes,  I need to add to my DevExpress.XtraGrid.GridControl  a column similar to DevExpress.DashboardCommon.GridDeltaColumn provided by Dashboard Items (the  "Sales vs Target" column in the attached image).  I try to modify the grid_CustomDrawCell  but with no success.
+Please, can you show me how to modify the grid_CustomDrawCell ?  
+Thanks,
+Davide 

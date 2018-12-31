@@ -1,0 +1,4 @@
+This exception seems to be already fixed in the 17.1.8+, but is stil present in the 16.2.11 (maybe 16.2.12 as well)
+What do you suggest?
+Thanks in advance.
+ 

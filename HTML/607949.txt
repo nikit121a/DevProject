@@ -1,0 +1,7 @@
+Hi,
+yesterday I created a theme based on "Office 2016 White".  Basically I just added 3 colors to the palette and applied them just on 2 controls.
+Today I wanted to continue my work on the theme, but it looks like all colors have changed to random values.
+Please have a look at the attachment. It shows the 3 colors I've added and it shows the CardView as example.
+Yesterday the Card View looked like it should, based on Office 2016 White, today it looks like just random colors.
+Basically all views look like Card View. Tinted to a weird blue.
+Actually it makes the theme designer  unusable. 

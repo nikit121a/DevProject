@@ -1,0 +1,4 @@
+When the AutoFilterCriteria is used in a grid using PLinqInstantFeedbackDataSource, the criteria is temporarily set to null while being changed by the user. This causes the column filter to use "Starts with" even if it's a numeric column. This can easily be reproduced using the "Data Grid - Multithread Data Processing" demo. Just add ShowCriteriaInAutoFilterRow="True" to the TableView
+I have recorded 
+.
+/Andreas 

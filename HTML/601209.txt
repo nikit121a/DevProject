@@ -1,0 +1,4 @@
+Hi Dev Team,
+It's possible  enable resizing widget from a tablet like in the pc? 
+In little screen size of a tablet, the user can increase the size of a specific widget. 
+Thanks. 

@@ -1,0 +1,5 @@
+Hello:
+I update my project to 17.2.5. but there is a permission problem .
+Every other permission works fine except DefaultRole.
+If I manually add permissions in the default role to other roles, it works correctly.
+ 

@@ -1,0 +1,10 @@
+Hi,
+As you see in the attached file the adding mechanism has a very critical issue.
+I have reproduced this issue 
+.
+1. Group by a coulmn.
+2. Scroll down and select a row.
+3. "Add new row"
+=> It will perform an "Edit" on another row so that this row will be overwritten! The new row will be added to the grid without values (please take a look at the last row)!
+Please fix this problem asap to avoid confusion.
+Damir

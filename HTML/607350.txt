@@ -1,0 +1,3 @@
+I have been cracking my head on a problem that at first seemed trivial. I have a dxList with custom item template in which I display a button. I want to be able to click on that button. The problem is that there is a onItemClick event for that very same dxList so that event gets fired first although I called e.stopPropagation() in my event.
+Please look at this CodePen 
+ I put together to show you my problem.

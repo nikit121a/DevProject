@@ -1,0 +1,5 @@
+Hi,
+I translated all function names and put then  to my unit, see sample below.
+It mostly works. The problem is with BOOLEAN constants. When I put 
+ to a cell and press ENTER it changes to 
+ (centered in a cell). Now when I edit it (text TRUE) it is treated as string. Where to translate to be able to see my translated text instead of English source?

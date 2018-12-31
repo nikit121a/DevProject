@@ -1,0 +1,2 @@
+    if i use drag drop function, i want to do the same thing as windows explorer, draw a special texture to preview the drag target. for example, there are some speicial treenodes in a treelist, these nodes have own icon. i want to drag the tree node to my custom control, when i drag the node, draw a preview picture along my mouse cursor, this picture can be the node icon or other pictures.
+    if there is any error make it can't be droped on my control, display a tip text like windows explorer do. please see my demo pictures, thank you. 

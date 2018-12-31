@@ -1,0 +1,5 @@
+Good morning,
+I am developing my application using XAF. In my web  application I need to create a custom view with a chart that gets data  from a SP and displays the values of each property/column selected. I am having trouble setting the width though, in other controls I can set it to 100% so that they will the entire width of the page but if I do the same with the WebChartControl it throws an error saying that the width needs to be set in pixels. Is there a workaround to make the chart fill the entire width of the window?
+Bellow is the code I have so far:
+Thanks,
+Pablo. 

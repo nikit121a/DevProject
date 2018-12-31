@@ -1,0 +1,3 @@
+Hello! I wanted to follow up on a past issue B198993, where i was trying to use Appearance rules in a nonpersistent object.
+I wanted to see if many years later, there is a way to handle this properly now? I believe the NonPersistentObjectSpaceProvider is new during this time, is that something I can utilize here to make this work as expected?
+Thank you! 

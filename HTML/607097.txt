@@ -1,0 +1,5 @@
+Hi,
+I want transfer DevEx richedit control data with back color to windows richtextbox control. For this I have used rtftext for devex control. I am able to transfer the data but unable to transfer back color from devex to windows control even if I edit the devex control
+I have attached sample project.
+Can you please help me out. 
+ 

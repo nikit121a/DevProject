@@ -1,0 +1,16 @@
+After upgrading from 16.2.6 to 17.2.4 I get this EClassNotFound error in TcxCustomGridView.RestoreFromRegistry.
+I initially thought this had to with settings stored under 16.2.6 and restored under 17.2.4, but after executing TcxCustomGridView.StoreToRegistry under 17.2.4, the problem persists.
+FWIW, the data being stored:
+  AStorageName '\Software\TimeTell\ontwikkel\Forms\TDialoogEditAgenda_123\GridDienstRoostersDBTableView'
+  ARecreate True
+  Options [gsoUseSummary]
+  ASaveViewName ''
+  AOwnerName ''
+and the attached screenshot shows the contents of that registry key  
+The funny thing is, if I e.g. switch two columns or change sort order I see that these get restored nicely.
+What can be going on or is there anything I can try?
+We do not use conditional formatting.
+This is in a complex app, so I have not made a sample project yet.
+Another TcxGridConditionalFormattingProvider issue was reported here: 
+but seems unrelated and has been fixed in 17.2.4
+ 

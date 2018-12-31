@@ -1,0 +1,7 @@
+Hey,
+Just wondering if someone could help us with a small issue.
+We are using Dev Express on our custom user control(winforms).
+We have a Accordion Control and are using  AccordionContextButton for some text buttons for users to do some actions.
+Just wondering if it was possible to change the on hover event to change the users mouse cursor to the hand icon, to indicate it's a button?
+I've had a look over the API and I can't seem to find a method to do this.
+Thanks!

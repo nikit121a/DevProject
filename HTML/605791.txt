@@ -1,0 +1,5 @@
+when I use ASPxVerticalGrid  bind my DataTable datasource, it shows the error  'Uncaught TypeError: ASPx.VerticalGridFixedRowsHelper is not a constructor'  in browser,
+my devexpress version is 16.1.4
+but when i bind to same datasource to AspxGridView, it shows correctly, please see my below code and error snapshot
+//following 3 lines code is in method 'vdtgValveEvents_CustomCallback'
+ 

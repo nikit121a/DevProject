@@ -1,0 +1,9 @@
+
+                                This example demonstrates how to use the 
+ class to obtain document layout elements located under the specific point and show this information in the ToolTip.
+Use the 
+ method to get the 
+ object providing information about a specific document element which is located under the test point. Retrieve the layout element using the 
+ property or obtain the hit information about the element positioned next to the current hit element using the 
+ property. After that, display the required information about the document layout element in the ToolTip.
+                            

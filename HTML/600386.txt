@@ -1,0 +1,5 @@
+Hi,
+I have some RepositoryItemLookupEdit boxes where the text disappears when the user clicks on the cell. Please see linked video for details.
+I am completely out of ideas why this is happening.
+Thanks,
+Daniel

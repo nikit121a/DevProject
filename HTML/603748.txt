@@ -1,0 +1,2 @@
+Hi,
+from version 17.2 we are having problems with the application. When the application is closed, the exe is not released from the memory. This did not happen in version 17.1.xx. I'm attaching a very simple example.

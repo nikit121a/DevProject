@@ -1,0 +1,9 @@
+Hi,
+I'm trying to accomplish the following task in XAF.
+I have a business object "Printer Settings" . I would like users to select a printer from the printers list and then based on that selection allow user to choose PaperSource for that printer.
+I've created 2 custom editors derived from StringPropertyEditor:
+1. Shows list of Installed Printers
+2. Shows list of available PaperSource for selected printer.
+In second property editor's SetupRepositoryItem method, I need to get access to currently selected Printer in the first property editor, but can't figure out how.
+Thanks,
+Alex 

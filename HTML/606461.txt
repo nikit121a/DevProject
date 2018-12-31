@@ -1,0 +1,10 @@
+Good morning
+I am trying to get the last date displayed in the scheduler.
+When in Day or workingWeek, I've managed to to so with:  
+        var largo = s.GetVisibleIntervals().length;
+        var end = s.GetVisibleIntervals()[largo - 1].start;
+However,  in Week or Month view, this does not work.
+How can I find out the last date displayed in the month or week views of the calendar?
+Thanks
+Mariel
+ 

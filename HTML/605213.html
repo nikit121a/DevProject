@@ -1,0 +1,2099 @@
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="nojs ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="nojs ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="nojs ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en" class="nojs"> <!--<![endif]-->
+<head>
+		<link href="https://www.devexpress.com/Support/Center/SiteNotifications/styles?v=DMOSrNCaqijLd_qYBRAniGex5NwAhNuAJ9dyy65PEHw1" rel="stylesheet" />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    
+
+
+    <meta name="description" content="Technology: .NET, Platform: Frameworks (XAF &amp; XPO), Product: eXpressApp Framework, Type: Question, Subject: ASPxGridView - How to edit only one cell at a time in a popup window" />
+
+	<meta name="author" content="Developer Express Inc. &lt;info@devexpress.com&gt;" />
+	<meta name="keywords" content="asp.net grid, web grid, asp.net datagrid, web datagrid, web data grid, aspx grid, asp.net data grid, aspx datagrid, aspx editors, aspx data grid, web db grid, asp.net, powerfull grid, aspx, visual studio .net, vs.net, grid vs.net,data grid, datagrid, winform, C#, vb.net, .net, data grid bound,data grid .net,data grid c#,data,grid,data grid control,grid component,grid vb.net,data grid dotnet,grid c#,unbound grid,grid dll,grid control,data grid unbound,data grid source,data grid library,grid programming,grid source code,grid dotnet,grid .net,grid tutorial,data grid vb.net,data grid component,grid unbound,grid library,data grid dll,win grid,grid ado,data grid component,data grid control,win form grid,win grid, reporting, .net report, scheduler, .net scheduler, asp.net scheduler, asp.net reports, refactor, refactoring, ide tools, ide addons, free ide addons" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>T605213 - ASPxGridView - How to edit only one cell at a time in a popup window | DevExpress Support Center</title>
+
+        <!-- Google Tag Manager -->
+            <script>
+                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','GTM-TP4P4KW');</script>
+        <!-- End Google Tag Manager -->
+
+    <link rel="shortcut icon" href="/Support/Center/favicon.ico">
+    <link rel="apple-touch-icon" href="/Support/Center/apple-touch-icon.png">
+
+    <style>
+        button.purple, .button.purple, button.orange, .button.orange, .button.dark
+        , #top-navigation-bar, #navbar a, #filters .title > .f-subscribe > .f-btn, #float-panel > #filter-bar button
+        , .state > span, .vote-block, .quest .details
+        , .textbox, .selectbox, .memobox, .filebox, .V2Button,
+        div.TOCv3 div.TopBar ul.SubMenu,
+        div.TOCv3 div.SubMenuBack, .V3Button
+        {
+            behavior: url(/Support/Center/Content/scripts/pie/PIE.htc);
+        }
+        #overlay .popup button.orange, #overlay .slideBox .buttonHolder button.orange {
+            behavior: none;
+	        background: #f8981d;
+	        background-image: -moz-linear-gradient(top, #f8981d 0%, #f87a1d 100%);
+	        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f8981d), color-stop(100%, #f87a1d));
+	        background-image: -webkit-linear-gradient(top, #f8981d 0%, #f87a1d 100%);
+	        background-image: -o-linear-gradient(top, #f8981d 0%, #f87a1d 100%);
+	        background-image: -ms-linear-gradient(top, #f8981d 0%, #f87a1d 100%);
+	        background-image: linear-gradient(top, #f8981d 0%, #f87a1d 100%);
+	        -pie-background: linear-gradient(top, #f8981d 0%, #f87a1d 100%);
+            background-repeat: none;
+            background-color: transparent;
+        }
+    </style>
+    <link href="/Support/Center/Content/styles/layout?v=TjHmpFnT8rJjECXbXkktoN3nfYjNDujUXhF9BSrVrL81" rel="stylesheet"/>
+
+    
+    <script src="/Support/Center/Content/scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="/Support/Center/Content/scripts/jquery.cookie.js" type="text/javascript"></script>
+    <script src="/Support/Center/Content/scripts/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="/Support/Center/Content/scripts/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="/Support/Center/Content/scripts/jquery.validate.unobtrusive.min.js" type="text/javascript"></script>
+    <script src="/Support/Center/Content/scripts/jquery.unobtrusive-ajax.js" type="text/javascript"></script>
+    <script src="/Support/Center/Content/scripts/js-fallbacks.js" type="text/javascript"></script>
+    <script src="/Support/Center/Content/scripts/ajax.form.js" type="text/javascript"></script>
+    <script src="/Support/Center/Content/scripts/jquery.tdebounce.min.js" type="text/javascript"></script>
+    <script src="/Support/Center/Content/scripts/moment.js" type="text/javascript"></script>
+
+    <script src="/Support/Center/Content/scripts/layout?v=wMiKrlxozpIizQfNtM0Z5C0UknYg_D4wjlTE8I87F5E1"></script>
+
+
+
+    
+    <link rel="canonical" href="https://www.devexpress.com/Support/Center/Question/Details/T605213/aspxgridview-how-to-edit-only-one-cell-at-a-time-in-a-popup-window" />
+    <script src="/Support/Center/Content/scripts/ticketDetails?v=I0ydoMclGiDiCWE56BYRZiF3WWnmffBiPDkRrFTFFM01"></script>
+
+    <script id="dxis_1700112051" src="/Support/Center/DXR.axd?r=1_187,1_101,1_98,1_164,1_97,1_175,1_130,1_137,14_34,1_180,4_62,1_116,5_5,5_4,4_70,4_68,4_69,4_35,4_65,4_77,4_75,4_78,4_76,4_67,4_19,4_14,4_57,4_34,4_12,4_15,4_16,4_17,4_18,4_20,4_21,4_23,4_24,4_13,4_25,4_26,4_27,4_28,4_29,4_30,4_31,4_32,4_33,4_36,4_41,4_42,4_43,4_44,4_45,4_46,4_47,4_48,4_49,4_54,4_37,4_38,4_39,4_40,4_55,4_56,4_22,4_52,4_51,4_53,4_50,4_58,4_11,4_66,4_59,4_64,4_79,4_81,4_82,4_83,4_80,4_74,4_63,4_61,14_14,4_10,1_172,1_178,1_163,4_71,1_129,1_132,4_72,1_170,4_73,1_126,1_128,1_181,1_171,14_22-RbfKh" type="text/javascript"></script><script id="dxss_1923021716" type="text/javascript">
+<!--
+ASPxHtmlEditorDialogSR={PasteFromWord:'Paste from Word',InsertImage:'Insert Image',ChangeImage:'Change Image',InsertLink:'Insert Link',ChangeLink:'Change Link',InsertTable:'Insert Table...',ChangeTable:'Table Properties...',ChangeTableCell:'Cell Properties...',ChangeTableColumn:'Column Properties...',ChangeTableRow:'Row Properties...',InsertFlash:'Insert Flash',ChangeFlash:'Change Flash',InsertVideo:'Insert Video',ChangeVideo:'Change Video',InsertAudio:'Insert Audio',ChangeAudio:'Change Audio',InsertYouTubeVideo:'Insert YouTube Video',ChangeYouTubeVideo:'Change YouTube Video'}
+//-->
+</script>
+    <link rel="stylesheet" type="text/css" href="/Support/Center/DXR.axd?r=1_7,1_16,1_8,1_6,4_1,4_2,4_0,5_1,5_0,1_1,1_14-RbfKh" />
+
+    <script type="text/javascript">
+        var scConfig = scConfig || {};
+        scConfig.validationLimits = {
+            maximumAttachmentSize: 31457280,
+            minimumTicketPostLength: 10,
+            maximumTicketPostLength: 30000,
+            minimumCommentLength: 3,
+            maximumSubjectLength: 250
+        };
+        scConfig.errorMessages = {
+            maxAttachmentSize: 'The maximum size of attached files is 30 MB.',
+            emptyAttachment: 'The attached file is empty. Zero-length files are not allowed.',
+            maxQuestionDescriptionLength_OnCreate: 'The description is too long. Please reduce its length or consider using the attachment.',
+            maxQuestionDescriptionLength_OnEdit: 'The description is too long. Please reduce its length.',
+            maxAnswerTextLength_OnCreate: 'The answer is too long. Please reduce its length or consider using the attachment.',
+            maxAnswerTextLength_OnEdit: 'The answer is too long.',
+            minAnswerTextLength: 'The answer is too short.',
+            maxCommentTextLength: 'The comment is too long. Please reduce its length or consider using the attachment.',
+            minCommentTextLength: 'The comment is too short.',
+            subjectIsRequired: 'The subject is required.',
+            subjectIsTooLong: 'The subject is too long.',
+            unknownError: 'An error occurred, please refresh the page and try again.'
+        };
+    scConfig.originalCookie = "";
+    </script>
+    
+<script src="https://www.devexpress.com/Support/Center/Scripts/Shims?v=_-uQwK2YdOUQzK2-v1rhMLSsn5byw4AYBJzB5FetCnk1"></script>
+
+<script>window.Modernizr || document.write('<script src=https://www.devexpress.com/Support/Center/Scripts/Modernizr?v=qyFWLXNo4wD-8HPEgiJJNulipTB-xre4HP76qfH6o1Y1>\x3C/script>')</script>
+<script>window.jQuery || document.write('<script src=https://www.devexpress.com/Support/Center/Scripts/jQuery?v=1BJELSxm_aQdxsnMwMCu5yjjezikTN4G-JQsmIRruLA1>\x3C/script>')</script>
+<script>jQuery.cookie || document.write('<script src=https://www.devexpress.com/Support/Center/Scripts/jQuery-Cookie?v=_aB7y09VHXrW0PUo3IrcLSTbO0AMjoEyNvNSzo1rUy81>\x3C/script>')</script>
+<script>jQuery.easing['jswing'] || document.write('<script src=https://www.devexpress.com/Support/Center/Scripts/jQuery-Easing?v=4g0GzrvqgSb3qH6YB75KCFet0wMYAM2gponYpqQLnQw1>\x3C/script>')</script>
+<script>window.WebFont || document.write('<script src=https://www.devexpress.com/Support/Center/Scripts/TypeKit?v=CvCQ0nxMxYbUIwizBrzRdTDhbGv03PP8_QRXrqgJi3k1>\x3C/script>')</script>
+<script src="https://www.devexpress.com/Support/Center/Scripts/Shared?v=ikSpUijDvfJDMwwHcCNBKtw6fvfXxPnG_cj7t2SwS5s1"></script>
+
+    <link href="https://www.devexpress.com/Support/Center/Content/CoreStylesMVC?v=LFv837EROGrNuyACIEE_PDnsh-9YjzzR6OWuL246n9U1" rel="stylesheet"/>
+
+    <script src="https://www.devexpress.com/Support/Center/Scripts/css-shims?v=8NC1MaIuEnbkmNrNNGmEzxYzGjfA4M12ZcdWgJFFHdE1"></script>
+
+</head>
+<body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TP4P4KW&dxWrapped=1"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+      <div id="notification-box" data-url="/Support/Center/Notification/Details" style="display:none"></div>
+    <div id="float-panel">
+        <div id="filter-bar" class="page-bar">
+            <div class="inner">
+                <span class="title">Current filter:</span>
+                <ul class="group h my-cntnr"></ul>
+                <ul class="group and"></ul>            
+                <ul class="group h fav-cntnr"></ul>
+                <ul class="group and"></ul>               
+                <ul class="group h team-cntnr"></ul>
+                <ul class="group and"></ul>
+                <ul class="group h owner-appr-cntnr"></ul>
+                <ul class="group and"></ul>
+                <ul class="group h dx-appr-cntnr"></ul>
+                <ul class="group and"></ul>
+                <ul class="group h sln-cntnr"></ul>
+                <ul class="group and"></ul>
+                <ul class="group h type-cntnr"></ul>
+                <ul class="group and"></ul>
+                <ul class="group h tag-cntnr"></ul>
+<form action="/Support/Center/Question/ClearFilters" method="post"> <button class="V3Button ClearButton" type="submit"><span>Clear</span></button> </form>            </div>
+        </div>
+    </div>
+    <div id="overlay" class="white">
+        <div id="dialog">
+            <div class="dialog-inside page-block">
+                <div class="dialog-text">You should refresh the page.</div>
+                <div class="dialog-cntrls">
+                    <button class="V3Button Orange dialog-button-ok" data-type="ok"><span class="label">Yes</span></button>
+                    <button class="V3Button Orange dialog-button-cancel" data-type="cancel"><span class="label">No</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- header -->
+    <header><div id="TOCChatLink">
+	Chat Now
+</div><div class="r-container">
+	<a tabindex="-1" class="Logo" title="DevExpress" href="https://www.devexpress.com/" id="Header-Logo"></a><div class="ControlContainer">
+		<a id="Cart" tabindex="-1" title="Shopping Cart" data-empty-text="Cart" data-cart-text="Cart: ##" href="https://www.devexpress.com/ClientCenter/Purchase/Checkout/">Cart</a><a id="MyDownloads" tabindex="-1" href="https://www.devexpress.com/ClientCenter/DownloadManager/">My Downloads</a><a id="FreeTrial" tabindex="-1" href="https://www.devexpress.com/Products/Try/">Free Trial</a><a id="LogIn" tabindex="-1" href="https://www.devexpress.com/MyAccount/LogIn/?returnUrl=https%3a%2f%2fwww.devexpress.com%2fSupport%2fCenter%2fQuestion%2fDetails%2fT605213%2faspxgridview-how-to-edit-only-one-cell-at-a-time-in-a-popup-window">Log In</a><div id="SiteSearch">
+			<div title="Search" class="SearchButton">
+
+			</div><div class="SearchBox">
+				<input name="tbSiteSearch" type="text" value="Type keywords here" id="tbSiteSearch" tabindex="-1" class="NullText" autocomplete="off" />
+			</div>
+		</div>
+	</div>
+</div></header>
+<script type="text/javascript">
+    window.SearchServiceUrl = 'https://search.devexpress.com/?m=Web&q=';
+</script>
+
+    <nav id="MainMenu">
+	<div class="MenuContainer">
+		<div class="r-container">
+			<a tabindex="-1" class="Logo" title="DevExpress" href="https://www.devexpress.com/" id="TOC-Logo"></a><a tabindex="-1" class="Menu-Toggle" href="javascript:;" data-role="Menu-Toggle-Button"><span></span></a><div class="h-clear hidden-md">
+
+			</div><ul>
+				<li><a tabindex="-1" href="javascript:;">Products</a><div class="SubMenu Products">
+					<div class="Header hidden-md">
+						<span>Products</span><div class="CloseButton">
+
+						</div>
+					</div><div class="r-container">
+						<div class="ScrollContainer">
+							<div class="column">
+								<div class="GroupTitle">
+									MULTI-PLATFORM PACKAGES 
+								</div><a tabindex="-1" href="https://www.devexpress.com/subscriptions/universal.xml"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+    .mainmenu_icon_universal {
+        fill: #ff7200;
+    }
+</style>
+<path class="mainmenu_icon_universal" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.7v30.6C0,34.8,1.2,36,2.7,36h30.6c1.5,0,2.7-1.2,2.7-2.7V2.7&#xD;&#xA;	C36,1.2,34.8,0,33.3,0z M21.5,21.1c0,1.6-0.3,2.8-0.8,3.3c-0.6,0.7-1.5,1-2.7,1c-1.4,0-2.3-0.4-2.9-1.3c-0.4-0.6-0.6-1.7-0.6-3.3&#xD;&#xA;	V10.1h2v10.7c0,1.1,0.1,1.8,0.3,2.2c0.2,0.4,0.6,0.5,1.2,0.5c0.6,0,1-0.2,1.2-0.5c0.2-0.3,0.3-1,0.3-1.9V10.1h2V21.1z" />
+</svg>Universal Subscription</a><abbr>Our Best Value – includes over 600 UI Controls, our award-winning reporting platform, DevExpress Dashboard, the eXpressApp Framework, CodeRush for Visual Studio and more.</abbr><a tabindex="-1" href="https://www.devexpress.com/subscriptions/dxperience.xml"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+    <style type="text/css">
+        .mainmenu_icon {
+            fill: #45b5fc;
+        }
+    </style>
+    <g>
+        <path class="mainmenu_icon" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.7v30.6C0,34.8,1.2,36,2.7,36h30.6c1.5,0,2.7-1.2,2.7-2.7V2.7&#xD;&#xA;		    C36,1.2,34.8,0,33.3,0z M13.8,21.9c-0.3,1-0.7,1.8-1.3,2.3c-0.7,0.7-2.1,1-4,1H6.9V10.1h2.5c0.8,0,1.4,0.1,1.9,0.3&#xD;&#xA;		    c0.5,0.2,0.9,0.5,1.3,0.9c0.6,0.6,1,1.4,1.2,2.4c0.2,1,0.4,2.4,0.4,4.2C14.2,19.5,14.1,20.9,13.8,21.9z M22.4,25.2h-2.1l-1-2.9&#xD;&#xA;		    c-0.2-0.6-0.4-1.1-0.5-1.5c-0.1-0.5-0.2-0.9-0.3-1.2c-0.1,0.4-0.1,0.9-0.3,1.2l-0.3,1.1l-0.2,0.6l-0.9,2.7h-2.1l2.9-7.7l-2.7-7.4h2&#xD;&#xA;		    l1,2.9c0.4,1.2,0.7,2,0.7,2.5c0.1-0.3,0.2-0.7,0.2-1s0.2-0.6,0.3-0.9l0.1-0.4l1-3.1h2.1l-2.8,7.4L22.4,25.2z M28.1,18.1&#xD;&#xA;		    c-0.6,0.3-1.4,0.4-2.6,0.4v6.7h-2V10.1h2.7c1.3,0,2.2,0.3,2.8,1c0.6,0.7,0.9,1.7,0.9,3.1C29.8,16.2,29.2,17.5,28.1,18.1z" />
+        <path class="mainmenu_icon" d="M9.2,11.8H9v11.6c1.2,0,2.1-0.4,2.5-1.1c0.4-0.7,0.6-2.2,0.6-4.4c0-2.3-0.2-3.9-0.6-4.8&#xD;&#xA;		    C11.1,12.3,10.3,11.8,9.2,11.8z" />
+        <path class="mainmenu_icon" d="M25.8,11.8h-0.3v4.9c0.8,0,1.4-0.2,1.7-0.5c0.3-0.3,0.5-1,0.5-1.8c0-0.9-0.2-1.6-0.5-2&#xD;&#xA;		    C26.9,12,26.4,11.8,25.8,11.8z" />
+
+    </g>
+</svg>DXperience Subscription</a><abbr>Save Hundreds – includes DevExpress UI Controls for WinForms, ASP.NET, MVC, WPF, our award-winning reporting platform and CodeRush for Visual Studio.</abbr><div class="h-clear">
+
+								</div>
+							</div><div class="column">
+								<div class="column">
+									<div class="GroupTitle">
+										Windows Desktop Controls
+									</div><a tabindex="-1" href="https://www.devexpress.com/products/net/controls/winforms/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+    .mainmenu_icon {
+        fill: #45b5fc;
+    }
+</style>
+<path class="mainmenu_icon" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.7v30.6C0,34.8,1.2,36,2.7,36h30.6c1.5,0,2.7-1.2,2.7-2.7V2.7&#xD;&#xA;	C36,1.2,34.8,0,33.3,0z M14.4,25.2h-1.6l-1.1-6.5c0,0,0-0.1,0-0.3c0-0.2-0.1-0.5-0.1-0.8L11.4,16c0-0.1,0-0.3-0.1-0.5&#xD;&#xA;	s-0.1-0.5-0.1-0.9l0-0.6c0,0.1,0,0.3,0,0.4c0,0.1,0,0.2,0,0.3c0,0.4-0.1,0.8-0.1,1c0,0.2,0,0.4,0,0.4l-0.2,1.4&#xD;&#xA;	c0,0.3-0.1,0.6-0.1,0.8c0,0.2,0,0.3-0.1,0.4l-1.1,6.5H7.9L5.2,10.1h2l1,7l0.2,1c0.1,0.6,0.1,1.1,0.2,1.5L8.7,21c0,0,0,0.1,0,0.2&#xD;&#xA;	c0,0.1,0,0.2,0,0.3l0-0.5c0.1-0.9,0.2-1.6,0.2-2.4c0.1-0.7,0.2-1.4,0.3-2l1.1-6.5H12l1,6.3c0.1,0.9,0.3,1.8,0.4,2.6&#xD;&#xA;	c0.1,0.8,0.2,1.6,0.2,2.3c0.1-0.8,0.1-1.5,0.2-2.2c0.1-0.7,0.2-1.4,0.3-2.1l0.1-1l0.9-5.9H17L14.4,25.2z M20.3,25.2h-2V10.1h2V25.2z&#xD;&#xA;	 M29.6,25.2h-1.9l-2.3-6.8c-0.2-0.6-0.4-1.3-0.6-1.9c-0.2-0.7-0.4-1.4-0.5-2.1c0-0.1,0-0.2-0.1-0.3c0-0.1-0.1-0.3-0.1-0.4&#xD;&#xA;	c0,0.2,0,0.3,0,0.4c0,0.1,0,0.2,0,0.3l0.1,1.5l0.1,1.9c0,0.1,0,0.2,0,0.4c0,0.1,0,0.3,0,0.5l0.1,6.6h-2V10.1h1.9l2,6&#xD;&#xA;	c0.6,1.7,1.1,3.5,1.6,5.4c-0.2-1.2-0.3-2.2-0.4-3.2c-0.1-0.9-0.1-1.8-0.1-2.7v-5.6h2V25.2z" />
+</svg>WinForms</a><a tabindex="-1" href="https://www.devexpress.com/products/net/controls/wpf/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+    .mainmenu_icon {
+        fill: #45b5fc;
+    }
+</style>
+<path class="mainmenu_icon" d="M19.9,11.8h-0.3v4.9c0.8,0,1.4-0.2,1.7-0.5c0.3-0.3,0.5-1,0.5-1.8c0-0.9-0.2-1.6-0.5-2&#xD;&#xA;	C21.1,12,20.6,11.8,19.9,11.8z" />
+<path class="mainmenu_icon" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.7v30.6C0,34.8,1.2,36,2.7,36h30.6c1.5,0,2.7-1.2,2.7-2.7V2.7&#xD;&#xA;	C36,1.2,34.8,0,33.3,0z M13.8,25.2h-1.6l-1.1-6.5c0,0,0-0.1,0-0.3c0-0.2-0.1-0.5-0.1-0.8L10.8,16c0-0.1,0-0.3-0.1-0.5&#xD;&#xA;	c0-0.2-0.1-0.5-0.1-0.9l0-0.6c0,0.1,0,0.3,0,0.4c0,0.1,0,0.2,0,0.3c0,0.4-0.1,0.8-0.1,1c0,0.2,0,0.4,0,0.4l-0.2,1.4&#xD;&#xA;	c0,0.3-0.1,0.6-0.1,0.8c0,0.2,0,0.3-0.1,0.4l-1.1,6.5H7.2L4.6,10.1h2l1,7l0.2,1c0.1,0.6,0.1,1.1,0.2,1.5L8.1,21c0,0,0,0.1,0,0.2&#xD;&#xA;	c0,0.1,0,0.2,0,0.3l0-0.5c0.1-0.9,0.2-1.6,0.2-2.4c0.1-0.7,0.2-1.4,0.3-2l1.1-6.5h1.6l1,6.3c0.1,0.9,0.3,1.8,0.4,2.6&#xD;&#xA;	c0.1,0.8,0.2,1.6,0.2,2.3c0.1-0.8,0.1-1.5,0.2-2.2c0.1-0.7,0.2-1.4,0.3-2.1l0.1-1l0.9-5.9h1.9L13.8,25.2z M22.2,18.1&#xD;&#xA;	c-0.6,0.3-1.4,0.4-2.6,0.4v6.7h-2V10.1h2.7c1.3,0,2.2,0.3,2.8,1c0.6,0.7,0.9,1.7,0.9,3.1C24,16.2,23.4,17.5,22.2,18.1z M31,11.8&#xD;&#xA;	h-3.4v4.8h3.1v1.7h-3.1v6.9h-2V10.1H31V11.8z" />
+</svg>WPF</a><a tabindex="-1" href="https://www.devexpress.com/products/vcl/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+    .mainmenu_icon {
+        fill: #45b5fc;
+    }
+</style>
+<path class="mainmenu_icon" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.7v30.6C0,34.8,1.2,36,2.7,36h30.6c1.5,0,2.7-1.2,2.7-2.7V2.7&#xD;&#xA;	C36,1.2,34.8,0,33.3,0z M11.7,25.2h-1.6L7.2,10.1h2l0.9,5.6l0.2,1l0.3,2.2c0.1,0.4,0.1,0.7,0.1,1c0,0.3,0.1,0.6,0.1,0.8l0.1,0.7&#xD;&#xA;	c0-0.1,0-0.3,0-0.4c0-0.1,0-0.2,0-0.3l0.3-1.7l0.3-2.3c0-0.2,0.1-0.4,0.1-0.6s0.1-0.3,0.1-0.5l1-5.6h1.9L11.7,25.2z M21.6,12.2&#xD;&#xA;	c-0.5-0.3-1-0.4-1.3-0.4c-0.5,0-0.9,0.1-1.2,0.4c-0.3,0.2-0.6,0.6-0.9,1.1c-0.2,0.5-0.4,1.1-0.5,1.9c-0.1,0.8-0.2,1.7-0.2,2.7&#xD;&#xA;	c0,3.7,1,5.6,2.9,5.6c0.3,0,0.7-0.1,1.2-0.3V25c-0.5,0.3-1,0.4-1.6,0.4c-3.1,0-4.6-2.5-4.6-7.5c0-2.7,0.4-4.7,1.1-6&#xD;&#xA;	c0.7-1.3,1.9-2,3.4-2c0.6,0,1.1,0.1,1.7,0.4V12.2z M28.7,25.2h-5.4V10.1h2v13.4h3.3V25.2z" />
+</svg>VCL</a><a tabindex="-1" href="https://www.devexpress.com/products/net/controls/win10apps/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+	.mainmenu_icon {
+        fill: #45b5fc;
+    }
+</style>
+<path class="mainmenu_icon" d="M28.1,11.8h-0.3v4.9c0.8,0,1.4-0.2,1.7-0.5c0.3-0.3,0.5-1,0.5-1.8c0-0.9-0.2-1.6-0.5-2&#xD;&#xA;	C29.2,12,28.7,11.8,28.1,11.8z" />
+<path class="mainmenu_icon" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.7v30.6C0,34.8,1.2,36,2.7,36h30.6c1.5,0,2.7-1.2,2.7-2.7V2.7&#xD;&#xA;	C36,1.2,34.8,0,33.3,0z M11.6,21.1c0,1.6-0.3,2.8-0.8,3.3c-0.6,0.7-1.5,1-2.7,1c-1.4,0-2.3-0.4-2.9-1.3c-0.4-0.6-0.6-1.7-0.6-3.3&#xD;&#xA;	V10.1h2v10.7c0,1.1,0.1,1.8,0.3,2.2c0.2,0.4,0.6,0.5,1.2,0.5s1-0.2,1.2-0.5c0.2-0.3,0.3-1,0.3-1.9V10.1h2V21.1z M21.9,25.2h-1.6&#xD;&#xA;	l-1.1-6.5c0,0,0-0.1,0-0.3c0-0.2-0.1-0.5-0.1-0.8L18.9,16c0-0.1,0-0.3-0.1-0.5s-0.1-0.5-0.1-0.9l0-0.6c0,0.1,0,0.3,0,0.4&#xD;&#xA;	c0,0.1,0,0.2,0,0.3c0,0.4-0.1,0.8-0.1,1c0,0.2,0,0.4,0,0.4l-0.2,1.4c0,0.3-0.1,0.6-0.1,0.8c0,0.2,0,0.3-0.1,0.4L17,25.2h-1.6&#xD;&#xA;	l-2.6-15.1h2l1,7l0.2,1c0.1,0.6,0.1,1.1,0.2,1.5l0.1,1.3c0,0,0,0.1,0,0.2c0,0.1,0,0.2,0,0.3l0-0.5c0.1-0.9,0.2-1.6,0.2-2.4&#xD;&#xA;	c0.1-0.7,0.2-1.4,0.3-2l1.1-6.5h1.6l1,6.3c0.1,0.9,0.3,1.8,0.4,2.6s0.2,1.6,0.2,2.3c0.1-0.8,0.1-1.5,0.2-2.2&#xD;&#xA;	c0.1-0.7,0.2-1.4,0.3-2.1l0.1-1l0.9-5.9h1.9L21.9,25.2z M30.4,18.1c-0.6,0.3-1.4,0.4-2.6,0.4v6.7h-2V10.1h2.7c1.3,0,2.2,0.3,2.8,1&#xD;&#xA;	c0.6,0.7,0.9,1.7,0.9,3.1C32.1,16.2,31.5,17.5,30.4,18.1z" />
+</svg>UWP (Windows 10)</a><a tabindex="-1" href="https://www.devexpress.com/subscriptions/reporting/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+    .mainmenu_icon {
+        fill: #45b5fc;
+    }
+</style>
+<rect x="25.1" y="20.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -6.3553 26.6569)" class="mainmenu_icon" width="7.8" height="0.7" />
+<path class="mainmenu_icon" d="M18,15c-3,0-5.5,1.1-5.5,2.5v3c0,1.4,2.5,2.5,5.5,2.5s5.5-1.1,5.5-2.5v-3C23.5,16.1,21,15,18,15z M18,19.5&#xD;&#xA;	c-2.8,0-5-0.9-5-2s2.2-2,5-2c0.5,0,1,0,1.4,0.1l-1.9,1.9H23C23,18.6,20.8,19.5,18,19.5z" />
+<rect x="24.1" y="19.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.9411 25.6569)" class="mainmenu_icon" width="7.8" height="0.7" />
+<path class="mainmenu_icon" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.7v30.6C0,34.8,1.2,36,2.7,36h30.6c1.5,0,2.7-1.2,2.7-2.7V2.7&#xD;&#xA;	C36,1.2,34.8,0,33.3,0z M22.5,8l4,4h-4V8z M26.5,25H25l-1-1v2h2.5v1.5c0,0.3-0.2,0.5-0.5,0.5H10c-0.3,0-0.5-0.2-0.5-0.5v-19&#xD;&#xA;	C9.5,8.2,9.7,8,10,8h12v4.5h4.5V20l4.5-4.5l2.5,2.5L26.5,25z" />
+</svg>Desktop Reporting</a><div class="h-clear">
+
+									</div><div class="GroupTitle">
+										Enterprise & Server Tools
+									</div><a tabindex="-1" href="https://www.devexpress.com/products/net/dashboard/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+    .mainmenu_icon {
+        fill: #45b5fc;
+    }
+</style>
+<path class="mainmenu_icon" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.7v30.6C0,34.8,1.2,36,2.7,36h30.6c1.5,0,2.7-1.2,2.7-2.7V2.7&#xD;&#xA;	C36,1.2,34.8,0,33.3,0z M12.5,30C8.9,30,6,27.1,6,23.5S8.9,17,12.5,17s6.5,2.9,6.5,6.5S16.1,30,12.5,30z M19.5,27&#xD;&#xA;	c-0.1,0-0.2,0-0.4,0c0.5-1,0.9-2.2,0.9-3.5c0-4.1-3.4-7.5-7.5-7.5c-1.1,0-2.1,0.2-3,0.6c0.2-5.3,4.6-9.6,10-9.6c2.6,0,5,1,6.8,2.7&#xD;&#xA;	L19,17h10.5C29.5,22.5,25,27,19.5,27z M21.5,16l7.3-7.3c2,1.8,3.2,4.4,3.2,7.3H21.5z" />
+<path class="mainmenu_icon" d="M12.5,19C10,19,8,21,8,23.5c0,0.5,0.1,1,0.3,1.5h3.2l3.5-4l-1.5,4h3.2c0.2-0.5,0.3-1,0.3-1.5&#xD;&#xA;	C17,21,15,19,12.5,19z" />
+</svg>Dashboard</a><a tabindex="-1" href="https://www.devexpress.com/products/net/report-server/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+    .mainmenu_icon {
+        fill: #45b5fc;
+    }
+</style>
+<path class="mainmenu_icon" d="M12.5,17.5v3c0,1.4,2.5,2.5,5.5,2.5s5.5-1.1,5.5-2.5v-3c0-1.4-2.5-2.5-5.5-2.5S12.5,16.1,12.5,17.5z&#xD;&#xA;	 M23,17.5c0,1.1-2.2,2-5,2c-2.8,0-5-0.9-5-2s2.2-2,5-2c0.5,0,1,0,1.4,0.1l-1.9,1.9H23z" />
+<path class="mainmenu_icon" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.7v30.6C0,34.8,1.2,36,2.7,36h30.6c1.5,0,2.7-1.2,2.7-2.7V2.7&#xD;&#xA;	C36,1.2,34.8,0,33.3,0z M26.5,27.5c0,0.3-0.2,0.5-0.5,0.5H10c-0.3,0-0.5-0.2-0.5-0.5v-19C9.5,8.2,9.7,8,10,8h11.5v5h5V27.5z&#xD;&#xA;	 M27.5,26.5c0,0.3-0.2,0.5-0.5,0.5V12.5l-5-5H10.5C10.5,7.2,10.7,7,11,7h16c0.3,0,0.5,0.2,0.5,0.5V26.5z M28.5,25.5&#xD;&#xA;	c0,0.3-0.2,0.5-0.5,0.5V7c0-0.3-0.2-0.5-0.5-0.5h-16C11.5,6.2,11.7,6,12,6h16c0.3,0,0.5,0.2,0.5,0.5V25.5z" />
+</svg>Report & Dashboard Server</a><a tabindex="-1" href="https://www.devexpress.com/products/net/office-file-api/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+    .mainmenu_icon {
+        fill: #45b5fc;
+    }
+</style>
+<rect x="13.5" y="19" class="mainmenu_icon" width="9" height="0.5" />
+<rect x="13.5" y="16" class="mainmenu_icon" width="9" height="0.5" />
+<rect x="13.5" y="17" class="mainmenu_icon" width="9" height="0.5" />
+<path class="mainmenu_icon" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.7v30.6C0,34.8,1.2,36,2.7,36h30.6c1.5,0,2.7-1.2,2.7-2.7V2.7&#xD;&#xA;	C36,1.2,34.8,0,33.3,0z M26.5,27.5c0,0.3-0.2,0.5-0.5,0.5H10c-0.3,0-0.5-0.2-0.5-0.5v-19C9.5,8.2,9.7,8,10,8h11.5v5h5V27.5z&#xD;&#xA;	 M27.5,26.5c0,0.3-0.2,0.5-0.5,0.5V12.5l-5-5H10.5C10.5,7.2,10.7,7,11,7h16c0.3,0,0.5,0.2,0.5,0.5V26.5z M28.5,25.5&#xD;&#xA;	c0,0.3-0.2,0.5-0.5,0.5V7c0-0.3-0.2-0.5-0.5-0.5h-16C11.5,6.2,11.7,6,12,6h16c0.3,0,0.5,0.2,0.5,0.5V25.5z" />
+<rect x="13.5" y="18" class="mainmenu_icon" width="9" height="0.5" />
+<rect x="13.5" y="20" class="mainmenu_icon" width="9" height="0.5" />
+</svg>Office File API</a><div class="h-clear">
+
+									</div><div class="GroupTitle">
+										iOS, Android & Xamarin
+									</div><a tabindex="-1" href="https://www.devexpress.com/products/native/chart/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+    .mainmenu_icon {
+        fill: #45b5fc;
+    }
+</style>
+<g>
+	<path class="mainmenu_icon" d="M19,27h-2c-0.3,0-0.5,0.2-0.5,0.5v1c0,0.3,0.2,0.5,0.5,0.5h2c0.3,0,0.5-0.2,0.5-0.5v-1&#xD;&#xA;		C19.5,27.2,19.3,27,19,27z" />
+	<path class="mainmenu_icon" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.7v30.6C0,34.8,1.2,36,2.7,36h30.6c1.5,0,2.7-1.2,2.7-2.7V2.7&#xD;&#xA;		C36,1.2,34.8,0,33.3,0z M25,28.5c0,0.8-0.7,1.5-1.5,1.5h-11c-0.8,0-1.5-0.7-1.5-1.5v-21C11,6.7,11.7,6,12.5,6h11&#xD;&#xA;		C24.3,6,25,6.7,25,7.5V28.5z" />
+	<path class="mainmenu_icon" d="M23.5,10h-11c-0.3,0-0.5,0.2-0.5,0.5v15c0,0.3,0.2,0.5,0.5,0.5h11c0.3,0,0.5-0.2,0.5-0.5v-15&#xD;&#xA;		C24,10.2,23.8,10,23.5,10z" />
+	<circle class="mainmenu_icon" cx="18" cy="8" r="0.5" />
+</g>
+</svg>Native UI Controls</a><div class="h-clear">
+
+									</div>
+								</div><div class="column">
+									<div class="GroupTitle">
+										Web Controls
+									</div><a tabindex="-1" href="https://www.devexpress.com/products/net/controls/asp/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+    .mainmenu_icon {
+        fill: #45b5fc;
+    }
+</style>
+<path class="mainmenu_icon" d="M10.3,13.1c-0.1,0.9-0.2,1.8-0.4,2.7c-0.1,0.9-0.3,1.9-0.5,3l-0.4,1.9h2.4L11,18.3&#xD;&#xA;	C10.7,16.7,10.5,14.9,10.3,13.1z" />
+<path class="mainmenu_icon" d="M25.3,11.8H25v4.9c0.8,0,1.4-0.2,1.7-0.5c0.3-0.3,0.5-1,0.5-1.8c0-0.9-0.2-1.6-0.5-2&#xD;&#xA;	C26.5,12,26,11.8,25.3,11.8z" />
+<path class="mainmenu_icon" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.7v30.6C0,34.8,1.2,36,2.7,36h30.6c1.5,0,2.7-1.2,2.7-2.7V2.7&#xD;&#xA;	C36,1.2,34.8,0,33.3,0z M12.3,25.2l-0.6-2.9h-3l-0.6,2.9h-2l3.3-15.1h1.6l3.2,15.1H12.3z M20.3,24.3c-0.7,0.7-1.5,1.1-2.5,1.1&#xD;&#xA;	c-0.9,0-1.6-0.2-2.2-0.7v-2c0.7,0.5,1.4,0.8,2,0.8c0.6,0,1-0.2,1.3-0.6c0.3-0.4,0.5-0.9,0.5-1.5c0-0.5-0.1-1-0.4-1.5&#xD;&#xA;	c-0.1-0.2-0.3-0.4-0.5-0.7c-0.2-0.3-0.5-0.6-0.8-0.9c-0.5-0.5-0.9-1-1.3-1.3c-0.3-0.4-0.6-0.7-0.8-1c-0.3-0.6-0.5-1.3-0.5-2.2&#xD;&#xA;	c0-1.2,0.3-2.1,0.9-2.8c0.6-0.7,1.4-1,2.5-1c0.7,0,1.4,0.2,2.1,0.5v2c-0.6-0.4-1.2-0.7-1.7-0.7c-0.5,0-1,0.2-1.3,0.6&#xD;&#xA;	c-0.3,0.4-0.5,0.8-0.5,1.4c0,0.5,0.1,1,0.4,1.4c0.1,0.2,0.3,0.5,0.6,0.8c0.3,0.3,0.6,0.7,1.1,1.2c0.8,0.8,1.4,1.6,1.7,2.2&#xD;&#xA;	c0.3,0.6,0.4,1.3,0.4,2.2C21.3,22.6,21,23.5,20.3,24.3z M27.6,18.1c-0.6,0.3-1.4,0.4-2.6,0.4v6.7h-2V10.1h2.7c1.3,0,2.2,0.3,2.8,1&#xD;&#xA;	c0.6,0.7,0.9,1.7,0.9,3.1C29.4,16.2,28.8,17.5,27.6,18.1z" />
+</svg>ASP.NET WebForms</a><a tabindex="-1" href="https://www.devexpress.com/products/net/controls/asp/mvc/"><svg version="1.1" id="Layer_2_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+    .mainmenu_icon {
+        fill: #45b5fc;
+    }
+</style>
+<path class="mainmenu_icon" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.7v30.6C0,34.8,1.2,36,2.7,36h30.6c1.5,0,2.7-1.2,2.7-2.7V2.7&#xD;&#xA;	C36,1.2,34.8,0,33.3,0z M13.7,25.2c-0.2-3.4-0.2-6.9-0.5-10.4c-0.6,3.5-1.3,6.9-1.9,10.4H9.9c-0.7-3.4-1.5-6.9-2-10.4L7.3,25.2H5.4&#xD;&#xA;	l1.2-15.1h1.7c0.8,3.6,1.7,7.2,2.1,10.9c0.4-3.7,1.3-7.3,2-10.9h1.8l1.4,15.1H13.7z M20.7,25.2H19l-2.9-15.1h2&#xD;&#xA;	c0.6,3.8,1.2,7.5,1.7,11.3c0.5-3.8,1.2-7.6,1.8-11.3h1.9L20.7,25.2z M30.6,12.2c-4-2-4.2,4.2-4,6.7c0.2,2.3,1.1,5.5,4,4.2V25&#xD;&#xA;	c-1.7,1-3.9,0.2-5-1.3c-1.1-1.7-1.2-3.9-1.2-5.9s0.1-4.4,1.3-6.1c1.1-1.6,3.2-2.2,4.9-1.3C30.6,10.4,30.6,12.2,30.6,12.2z" />
+</svg>ASP.NET MVC & Core</a><a tabindex="-1" href="https://www.devexpress.com/products/net/controls/asp/bootstrap-webforms.xml"><svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+    .mainmenu_icon {
+        fill: #45b5fc;
+    }
+</style>
+<g>
+	<path class="mainmenu_icon" d="M19.9,18.3h-4.7V23c1.5,0,3,0,4.5,0c1.2,0,2.4-0.5,2.7-1.8C22.7,19.5,21.6,18.3,19.9,18.3z" />
+	<path class="mainmenu_icon" d="M21.1,15.8c0.8-0.7,0.9-2.2,0.2-3c-0.6-0.6-1.5-0.6-2.2-0.6c-1.3,0-2.6,0-3.9,0v4.2c0.9,0,1.8,0,2.8,0&#xD;&#xA;		C18.9,16.4,20.2,16.6,21.1,15.8z" />
+	<path class="mainmenu_icon" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.7v30.6C0,34.8,1.2,36,2.7,36h30.6c1.5,0,2.7-1.2,2.7-2.7V2.7&#xD;&#xA;		C36,1.2,34.8,0,33.3,0z M24.7,22.6c-1.1,2.6-4.4,2.6-6.8,2.6c-1.8,0-3.6,0-5.4,0V10c2.3,0,4.6,0,6.9,0c1.5,0,3.1,0.1,4.2,1.3&#xD;&#xA;		c1.7,1.8,0.8,4.8-1.3,5.7v0C24.7,17.6,25.7,20.4,24.7,22.6z" />
+</g>
+</svg>Bootstrap WebForms</a><a tabindex="-1" href="https://js.devexpress.com/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+    .mainmenu_icon {
+        fill: #45b5fc;
+    }
+</style>
+<path class="mainmenu_icon" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.7v30.6C0,34.8,1.2,36,2.7,36h30.6c1.5,0,2.7-1.2,2.7-2.7V2.7&#xD;&#xA;	C36,1.2,34.8,0,33.3,0z M16.3,22c0,1.2-0.2,2-0.5,2.5c-0.5,0.8-1.3,1.1-2.5,1.1c-0.7,0-1.3-0.1-1.7-0.4v-2c0.6,0.3,1,0.5,1.3,0.5&#xD;&#xA;	c0.9,0,1.3-0.6,1.3-1.9v-0.6V10.5h2V22z M23.4,24.6c-0.7,0.7-1.5,1.1-2.5,1.1c-0.9,0-1.6-0.2-2.2-0.7v-2c0.7,0.5,1.4,0.8,2,0.8&#xD;&#xA;	c0.6,0,1-0.2,1.3-0.6s0.5-0.9,0.5-1.5c0-0.5-0.1-1-0.4-1.5c-0.1-0.2-0.3-0.4-0.5-0.7S21,19,20.7,18.7c-0.5-0.5-0.9-1-1.3-1.3&#xD;&#xA;	s-0.6-0.7-0.8-1c-0.3-0.6-0.5-1.3-0.5-2.2c0-1.2,0.3-2.1,0.9-2.8c0.6-0.7,1.4-1,2.5-1c0.7,0,1.4,0.2,2.1,0.5v2&#xD;&#xA;	c-0.6-0.4-1.2-0.7-1.7-0.7c-0.5,0-1,0.2-1.3,0.6c-0.3,0.4-0.5,0.8-0.5,1.4c0,0.5,0.1,1,0.4,1.4c0.1,0.2,0.3,0.5,0.6,0.8&#xD;&#xA;	s0.6,0.7,1.1,1.2c0.8,0.8,1.4,1.6,1.7,2.2c0.3,0.6,0.4,1.3,0.4,2.2C24.4,22.9,24.1,23.9,23.4,24.6z" />
+</svg>JavaScript – jQuery, Angular, React, Vue</a><a tabindex="-1" href="https://www.devexpress.com/subscriptions/reporting/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+    .mainmenu_icon {
+        fill: #45b5fc;
+    }
+</style>
+<rect x="25.1" y="20.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -6.3553 26.6569)" class="mainmenu_icon" width="7.8" height="0.7" />
+<path class="mainmenu_icon" d="M18,15c-3,0-5.5,1.1-5.5,2.5v3c0,1.4,2.5,2.5,5.5,2.5s5.5-1.1,5.5-2.5v-3C23.5,16.1,21,15,18,15z M18,19.5&#xD;&#xA;	c-2.8,0-5-0.9-5-2s2.2-2,5-2c0.5,0,1,0,1.4,0.1l-1.9,1.9H23C23,18.6,20.8,19.5,18,19.5z" />
+<rect x="24.1" y="19.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.9411 25.6569)" class="mainmenu_icon" width="7.8" height="0.7" />
+<path class="mainmenu_icon" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.7v30.6C0,34.8,1.2,36,2.7,36h30.6c1.5,0,2.7-1.2,2.7-2.7V2.7&#xD;&#xA;	C36,1.2,34.8,0,33.3,0z M22.5,8l4,4h-4V8z M26.5,25H25l-1-1v2h2.5v1.5c0,0.3-0.2,0.5-0.5,0.5H10c-0.3,0-0.5-0.2-0.5-0.5v-19&#xD;&#xA;	C9.5,8.2,9.7,8,10,8h12v4.5h4.5V20l4.5-4.5l2.5,2.5L26.5,25z" />
+</svg>Web Reporting</a><div class="h-clear">
+
+									</div><div class="GroupTitle">
+										Frameworks & Productivity
+									</div><a tabindex="-1" href="https://www.devexpress.com/products/net/application_framework/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+    .mainmenu_icon {
+        fill: #45b5fc;
+    }
+</style>
+<path class="mainmenu_icon" d="M18.3,13.1c-0.1,0.9-0.2,1.8-0.4,2.7c-0.1,0.9-0.3,1.9-0.5,3L17,20.7h2.4L19,18.3&#xD;&#xA;	C18.7,16.7,18.4,14.9,18.3,13.1z" />
+<path class="mainmenu_icon" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.7v30.6C0,34.8,1.2,36,2.7,36h30.6c1.5,0,2.7-1.2,2.7-2.7V2.7&#xD;&#xA;	C36,1.2,34.8,0,33.3,0z M20.3,25.2l-0.6-2.9h-3l-0.6,2.9h-1.9h0h-2l-1-2.9c-0.2-0.6-0.4-1.1-0.5-1.5c-0.1-0.5-0.2-0.9-0.3-1.2&#xD;&#xA;	c-0.1,0.4-0.1,0.9-0.3,1.2l-0.3,1.1l-0.2,0.6l-0.9,2.7H6.6l2.9-7.7l-2.7-7.4h2l1,2.9c0.4,1.2,0.7,2,0.7,2.5c0.1-0.3,0.2-0.7,0.2-1&#xD;&#xA;	s0.2-0.6,0.3-0.9l0.1-0.4l1-3.1h2.1l-2.8,7.4l2.8,7.6l3.3-15h1.6l3.2,15.1H20.3z M28.9,11.8h-3.4v4.8h3.1v1.7h-3.1v6.9h-2V10.1h5.4&#xD;&#xA;	V11.8z" />
+</svg>XAF – App Framework</a><a tabindex="-1" href="https://www.devexpress.com/products/net/orm/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+	.mainmenu_icon{fill:#45b5fc;}
+</style>
+<path class="mainmenu_icon" d="M25,10c0,1.1-3.1,2-7,2s-7-0.9-7-2c0-1.1,3.1-2,7-2S25,8.9,25,10z M36,2.7v30.6c0,1.5-1.2,2.7-2.7,2.7&#xD;&#xA;	H2.7C1.2,36,0,34.8,0,33.3V2.7C0,1.2,1.2,0,2.7,0h30.6C34.8,0,36,1.2,36,2.7z M27,22c0-0.4-0.2-0.7-0.5-1c-1.2,1.2-4.6,2-8.5,2&#xD;&#xA;	s-7.2-0.8-8.5-2C9.2,21.3,9,21.6,9,22v3c0,1.7,4,3,9,3s9-1.3,9-3V22z M27,16c0-0.4-0.2-0.7-0.5-1c-1.2,1.2-4.6,2-8.5,2&#xD;&#xA;	s-7.2-0.8-8.5-2C9.2,15.3,9,15.6,9,16v3c0,1.7,4,3,9,3s9-1.3,9-3V16z M27,10c0-1.7-4-3-9-3s-9,1.3-9,3v3c0,1.7,4,3,9,3s9-1.3,9-3V10&#xD;&#xA;	z" />
+</svg>XPO – ORM Library</a><a tabindex="-1" href="https://www.devexpress.com/products/coderush/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+    .mainmenu_icon {
+        fill: #45b5fc;
+    }
+</style>
+<path class="mainmenu_icon" d="M22.8,13.2c-0.1-0.3-0.2-0.6-0.3-0.8c-0.1-0.2-0.3-0.4-0.6-0.5c-0.2-0.1-0.5-0.1-0.8-0.1h-0.3v5&#xD;&#xA;	c0.8,0,1.3-0.2,1.7-0.5c0.3-0.4,0.5-1,0.5-1.8C23,13.9,22.9,13.5,22.8,13.2z" />
+<path class="mainmenu_icon" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.7v30.6C0,34.8,1.2,36,2.7,36h30.6c1.5,0,2.7-1.2,2.7-2.7V2.7&#xD;&#xA;	C36,1.2,34.8,0,33.3,0z M17.1,12.2c-0.5-0.3-1-0.4-1.3-0.4c-0.5,0-0.9,0.1-1.2,0.4c-0.3,0.2-0.6,0.6-0.9,1.1&#xD;&#xA;	c-0.2,0.5-0.4,1.1-0.5,1.9C13,15.9,13,16.8,13,17.8c0,3.7,1,5.6,2.9,5.6c0.3,0,0.7-0.1,1.2-0.3V25c-0.5,0.3-1,0.4-1.6,0.4&#xD;&#xA;	c-3.1,0-4.6-2.5-4.6-7.5c0-2.7,0.4-4.7,1.1-6c0.7-1.3,1.9-2,3.4-2c0.6,0,1.1,0.1,1.7,0.4V12.2z M23.6,25.2l-2.8-7.4v7.4h-2V10.1h2.7&#xD;&#xA;	c1.1,0,1.9,0.3,2.5,0.8c0.7,0.7,1,1.7,1,3.1c0,1.1-0.2,1.9-0.5,2.6c-0.4,0.7-0.9,1.1-1.5,1.2l2.8,7.3H23.6z" />
+</svg>CodeRush for Visual Studio</a><div class="h-clear">
+
+									</div><div class="GroupTitle">
+										Testing & QA
+									</div><a tabindex="-1" href="https://logify.devexpress.com/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+    .mainmenu_icon {
+        fill: #45b5fc;
+    }
+</style>
+<path class="mainmenu_icon" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.7v30.6C0,34.8,1.2,36,2.7,36h30.6c1.5,0,2.7-1.2,2.7-2.7V2.7&#xD;&#xA;	C36,1.2,34.8,0,33.3,0z M22.9,25.7l-4.3-10.8c-1,2-1.9,4-2.9,6.1c-0.2,0.5-0.4,0.9-0.6,1.4c-0.1,0.3-0.2,0.7-0.6,0.7&#xD;&#xA;	c-0.5,0.1-0.6-0.4-0.8-0.8c-0.3-0.6-0.5-1.1-0.8-1.7c-0.5-1.1-1-2.1-1.5-3.2c-0.2,0.4-0.4,0.7-0.6,1.1c-0.2,0.4-0.4,0.9-0.9,1.1&#xD;&#xA;	c-0.3,0.1-0.6,0-0.9,0c-0.5,0-1.1,0-1.6,0c-0.5,0-1,0-1.6,0c-0.4,0-0.7,0-1.1-0.2c-0.7-0.4-0.9-1.3-0.4-2c0.3-0.4,0.8-0.5,1.3-0.5&#xD;&#xA;	c1,0,2,0,3,0c0.8-1.4,1.6-2.8,2.4-4.2c0.2-0.3,0.4-0.6,0.7-0.5c0.3,0.1,0.4,0.4,0.5,0.6c0.4,0.8,0.8,1.7,1.2,2.5&#xD;&#xA;	c0.3,0.7,0.7,1.4,1,2.1c0.6-1.2,1.2-2.5,1.7-3.7c0.7-1.5,1.4-2.9,2.1-4.4C18.3,9.2,18.5,9,18.8,9c0.2,0,0.4,0.2,0.4,0.4&#xD;&#xA;	c0.2,0.5,0.4,1,0.6,1.5c0.7,1.8,1.5,3.6,2.2,5.5c0.5,1.3,1,2.5,1.5,3.8c0,0,0,0,0,0.1c0.5-0.9,0.9-1.9,1.4-2.8&#xD;&#xA;	c0.2-0.4,0.4-0.8,0.6-1.2c0.2-0.4,0.6-0.5,1.1-0.5c1.2,0,2.5,0,3.7,0c0.6,0,1.1,0.1,1.5,0.7c0.5,0.8-0.1,1.9-1.1,2&#xD;&#xA;	c-1.1,0.1-2.2,0-3.3,0c-1.1,2.3-2.3,4.5-3.4,6.8c-0.1,0.1-0.1,0.3-0.2,0.4C23.7,26.1,23.1,26.1,22.9,25.7z" />
+</svg>Logify – 24/7 App Monitoring</a><a tabindex="-1" href="https://testcafe.devexpress.com/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+    .mainmenu_icon {
+        fill: #45b5fc;
+    }
+</style>
+<path class="mainmenu_icon" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.7v30.6C0,34.8,1.2,36,2.7,36h30.6c1.5,0,2.7-1.2,2.7-2.7V2.7&#xD;&#xA;	C36,1.2,34.8,0,33.3,0z M13.5,14l4,4L28,7.5l2.5,2.5l-13,13L11,16.5L13.5,14z M3.5,26.5l7-6H14l1,1h-3.5l-4,3.5h21l-4-3.5H20l1-1&#xD;&#xA;	h4.5l7,6H3.5z" />
+</svg>TestCafe</a><div class="h-clear">
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><div class="MenuFooter">
+						<div class="content">
+							<div class="column">
+								<a href="https://www.devexpress.com/subscriptions/new-2018-2.xml">Explore Our Newest Features</a>
+							</div>
+						</div>
+					</div><div class="Shadow hidden-md">
+
+					</div>
+				</div></li><li class="divider"></li><li><a tabindex="-1" href="https://www.devexpress.com/support/demos/">Demos</a></li><li class="divider"></li><li><a tabindex="-1" href="https://www.devexpress.com/buy/">Buy</a></li><li class="divider"></li><li><a tabindex="-1" href="javascript:;">Support</a><div class="SubMenu Support">
+					<div class="Header hidden-md">
+						<span>Support</span><div class="CloseButton">
+
+						</div>
+					</div><div class="r-container">
+						<div class="ScrollContainer">
+							<div class="column">
+								<div class="GroupTitle">
+									Support Center
+								</div><a tabindex="-1" href="https://www.devexpress.com/Support/Center/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+	.orange_icon{fill:#FF7200;}
+</style>
+<path class="orange_icon" d="M30.3,5.2L32.4,0l-5,3.6c-1.9-0.8-4.1-1.2-6.4-1.2c-8.3,0-15,5.7-15,12.7c0,0.2,0,0.4,0,0.5&#xD;&#xA;	c-3.6,1.6-6,4.8-6,8.5c0,2.1,0.8,4,2.1,5.6L0,35l4.5-3.2c1.9,1.3,4.3,2,6.9,2c4.8,0,8.9-2.5,10.6-6.1c7.8-0.4,14-5.9,14-12.6&#xD;&#xA;	C36,11.1,33.8,7.5,30.3,5.2z M11.4,30.2c-4.3,0-7.8-2.7-7.8-6s3.5-6,7.8-6s7.8,2.7,7.8,6S15.7,30.2,11.4,30.2z M22.8,24&#xD;&#xA;	c-0.1-5.3-5.1-9.5-11.4-9.5c-0.6,0-1.2,0.1-1.8,0.1C9.9,9.8,14.9,6,21,6c6.3,0,11.4,4.1,11.4,9.1C32.4,19.6,28.2,23.3,22.8,24z" />
+</svg>Search the KB</a><a tabindex="-1" href="https://www.devexpress.com/Support/Center/Question/ChangeFilterSet/1?FavoritesOnly=False&amp;MyItemsOnly=True&amp;MyTeamItemsOnly=False&amp;PlatformName=AllPlatforms&amp;ProductName=AllProducts&amp;TicketType=All"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+	.orange_icon{fill:#FF7200;}
+</style>
+<path class="orange_icon" d="M28.4,7H1.6C0.7,7,0,7.7,0,8.6v24.7c0,1,0.7,1.7,1.6,1.7h26.7c0.9,0,1.6-0.7,1.6-1.6V8.6&#xD;&#xA;	C30,7.7,29.3,7,28.4,7z M14.3,31c-1.4,0-2.3-0.5-2.3-2.1s0.9-2.2,2.3-2.2s2.3,0.5,2.3,2.2C16.6,30.5,15.7,31,14.3,31z M16,25.3h-3.1&#xD;&#xA;	c-1.7-5,4.9-5.5,4.9-9.1c0-1.6-1.2-2.1-2.8-2.1c-0.6,0-1.5,0.1-2.2,0.5c-0.1,0.9-0.3,1.8-0.5,2.4H9.7c-0.5-1-0.8-3-0.7-4.2&#xD;&#xA;	c1.6-1.1,4.1-1.7,6.1-1.7c3.8,0,6.9,1.8,6.9,5.5C22,21.5,15.7,21.9,16,25.3z" />
+<path class="orange_icon" d="M33,29h-1V8c0-1.7-1.3-3-3-3H6V4c0-1.7,1.3-3,3-3h24c1.7,0,3,1.3,3,3v22C36,27.7,34.7,29,33,29z" />
+</svg>My Questions</a><a tabindex="-1" href="https://www.devexpress.com/Support/Center/Example/List"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+	.orange_icon{fill:#FF7200;}
+</style>
+<path class="orange_icon" d="M2.8,6.1c0,1.1,0.1,2.3,0.2,3.6c0.1,1.2,0.3,2.4,0.3,3.5c0,1.4-0.3,3-3.3,3.1v3.5&#xD;&#xA;	c3,0.1,3.3,1.8,3.3,3.1c0,1.1-0.1,2.3-0.3,3.5c-0.1,1.2-0.2,2.4-0.2,3.6c0,4.5,2.7,6.1,6.6,6.1H11v-3.8h-0.8c-2,0-2.7-1.3-2.7-3.2&#xD;&#xA;	c0-0.8,0.1-1.6,0.2-2.5c0.1-0.9,0.2-2,0.2-3.2c0-3.4-1.3-4.7-3.7-5.3v-0.1C6.7,17.4,8,16.1,8,12.7c0-1.1-0.1-2.2-0.2-3.1&#xD;&#xA;	C7.7,8.7,7.6,7.8,7.6,7c0-2,0.7-3.2,2.7-3.2H11V0H9.5C5.4,0,2.8,1.8,2.8,6.1z" />
+<path class="orange_icon" d="M32.7,13.2c0-1.1,0.1-2.3,0.3-3.5c0.1-1.2,0.2-2.4,0.2-3.6c0-4.2-2.6-6.1-6.6-6.1H25v3.8h0.8&#xD;&#xA;	c2,0,2.7,1.2,2.7,3.2c0,0.8-0.1,1.6-0.2,2.6c-0.1,0.9-0.2,1.9-0.2,3.1c0,3.4,1.3,4.7,3.7,5.2V18c-2.4,0.5-3.8,1.8-3.7,5.3&#xD;&#xA;	c0,1.2,0.1,2.2,0.2,3.2c0.1,0.9,0.2,1.8,0.2,2.5c0,2-0.7,3.2-2.7,3.2H25V36h1.6c3.9,0,6.6-1.6,6.6-6.1c0-1.1-0.1-2.3-0.2-3.6&#xD;&#xA;	c-0.1-1.2-0.3-2.4-0.3-3.5c0-1.3,0.3-3,3.3-3.1v-3.5C33,16.2,32.7,14.5,32.7,13.2z" />
+</svg>Code Examples</a><a tabindex="-1" href="https://www.devexpress.com/Support/Versions.xml"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+	.orange_icon{fill:#FF7200;}
+</style>
+<path class="orange_icon" d="M18,36C8.8,36,1.3,29.1,0.1,20.3C0,19.1,0.9,18,2.1,18c1,0,1.9,0.8,2,1.8C5,26.7,10.9,32,18,32&#xD;&#xA;	c8.3,0,14.8-7.1,13.9-15.6c-0.7-6.2-5.6-11.3-11.8-12.2c-4-0.6-7.7,0.5-10.6,2.7L13,10L2,12L3,1l3.5,3.2c3.4-2.9,8-4.5,12.9-4.1&#xD;&#xA;	C27.9,0.7,35,7.5,35.9,16C37.1,26.8,28.6,36,18,36z M11,26l1,1l7-9l7,1l1-2l-10-4L11,26z" />
+</svg>Version History</a><div class="h-clear">
+
+								</div>
+							</div><div class="column">
+								<div class="GroupTitle">
+									Resources
+								</div><a tabindex="-1" href="https://www.devexpress.com/support/demos/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+	.orange_icon{fill:#FF7200;}
+</style>
+<path class="orange_icon" d="M18,0C8.1,0,0,8.1,0,18c0,9.9,8.1,18,18,18s18-8.1,18-18C36,8.1,27.9,0,18,0z M11.1,24H6.3l-0.2-1.4&#xD;&#xA;	c0.2-0.3,0.8-0.5,1.5-0.7v-7.6C7.1,14.3,6.5,14.1,6,14v-1.3c1.2-0.5,2.8-0.7,4.3-0.6v0l0,0V22c0.4,0.2,0.8,0.3,1,0.6L11.1,24z&#xD;&#xA;	 M21.8,24h-8.3l-0.4-2.1l4.5-4.6c0.7-0.7,1.3-1.6,1.3-2.5c0-0.8-0.4-1.2-1.4-1.2c-0.5,0-1.1,0.1-1.5,0.2c-0.1,0.6-0.2,1.4-0.4,1.7&#xD;&#xA;	l-1.6-0.1c-0.2-0.4-0.4-1.1-0.4-1.9c0-0.2,0-0.3,0-0.4c1-0.6,2.5-1,4.1-1c2,0,3.9,0.5,3.9,3c0,0.9-0.6,2-1.2,2.6l-2.6,3&#xD;&#xA;	c-0.6,0.7-1.7,1.5-1.7,1.5l0.1,0.2c0,0,0.8-0.2,1.8-0.2h1.4c0.1-0.6,0.3-1.2,0.5-1.5l1.7,0.1C21.9,21.4,22.1,23.1,21.8,24z M26.8,24&#xD;&#xA;	c-1,0-2.4-0.3-3-0.6l0.4-1.5c0.6,0.2,1.5,0.4,2.3,0.4c1.6,0,2.7-0.5,2.7-1.8c0-1.8-1.3-2-2.1-2c-0.7,0-1.2,0-1.6,0.1l-0.2-1.4&#xD;&#xA;	l1.6-0.1c0.9-0.1,2.1-0.4,2.1-1.9c0-1.2-0.6-1.6-1.8-1.6c-0.2,0-0.4,0-0.7,0.1c-0.1,0.5-0.3,1.2-0.5,1.4l-1.6-0.1&#xD;&#xA;	c-0.3-0.4-0.4-1.4-0.4-2.2c0,0,0-0.1,0-0.1c0.6-0.3,2.4-0.5,3.4-0.5c1.9,0,4.1,0.6,4.1,3c0,0.9-0.8,1.9-1.7,2.4v0.2&#xD;&#xA;	c1,0.3,2.2,1,2.2,2.7C32,22.9,29.6,24,26.8,24z" />
+</svg>Getting Started</a><a tabindex="-1" href="https://www.devexpress.com/support/documentation/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+	.orange_icon{fill:#FF7200;}
+</style>
+<path class="orange_icon" d="M34,9.3v20.5c-3.4-2.5-16-3.8-16,1.1L36,32V9.9L34,9.3z" />
+<path class="orange_icon" d="M2,9.3v20.5c3.4-2.5,16-3.8,16,1.1L0,32L0,9.9L2,9.3z" />
+<path class="orange_icon" d="M18,6.8C18,0.3,4,7.2,4,7.2v19.4c0,0,14-5.3,14,0.7c0-6,14-0.7,14-0.7V7.2C32,7.2,18,0.3,18,6.8z" />
+</svg>Documentation</a><a tabindex="-1" href="https://www.devexpress.com/support/demos/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+	.orange_icon{fill:#FF7200;}
+</style>
+<path class="orange_icon" d="M31,21l5-0.5l0-5L31,15c-0.3-1.5-0.9-2.9-1.8-4.2l3.2-4l-3.2-3.2l-4,3.2C23.9,6,22.5,5.4,21,5l-0.5-5&#xD;&#xA;	h-5L15,5c-1.5,0.3-2.9,0.9-4.2,1.8l-4-3.2L3.6,6.8l3.2,4C6,12.1,5.4,13.5,5,15l-5,0.5v5L5,21c0.3,1.5,0.9,2.9,1.8,4.2l-3.2,4&#xD;&#xA;	l3.2,3.2l4-3.2c1.3,0.8,2.7,1.4,4.2,1.8l0.5,5h5l0.5-5c1.5-0.3,2.9-0.9,4.2-1.8l4,3.2l3.2-3.2l-3.2-4C30,23.9,30.6,22.5,31,21z&#xD;&#xA;	 M18,27c-5,0-9-4-9-9c0-5,4-9,9-9c5,0,9,4,9,9C27,23,23,27,18,27z" />
+</svg>Demos</a><a tabindex="-1" href="https://www.devexpress.com/trainingcenter/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+	.orange_icon{fill:#FF7200;}
+</style>
+<path class="orange_icon" d="M34,3H19V1c0-0.5-0.4-1-1-1c0,0,0,0,0,0c-0.5,0-1,0.4-1,1v2H2C0.9,3,0,3.9,0,5v20c0,1.1,0.9,2,2,2h9&#xD;&#xA;	l-4,4c-0.6,0.6-0.6,1.4,0,2l0,0c0.6,0.6,1.4,0.6,2,0l6-6h1l0.9,8c0.1,0.6,0.5,1,1.1,1h0c0.6,0,1-0.4,1.1-1l0.9-8h1l6,6&#xD;&#xA;	c0.6,0.6,1.4,0.6,2,0l0,0c0.6-0.6,0.6-1.4,0-2l-4-4h9c1.1,0,2-0.9,2-2V5C36,3.9,35.1,3,34,3z M32,23H4V7h28V23z" />
+</svg>Training</a><a tabindex="-1" href="https://www.devexpress.com/support/webinars/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+	.orange_icon{fill:#FF7200;}
+</style>
+<path class="orange_icon" d="M34,4H2C0.9,4,0,4.9,0,6v22c0,1.1,0.9,2,2,2h32c1.1,0,2-0.9,2-2V6C36,4.9,35.1,4,34,4z M18,18&#xD;&#xA;	c-1.7,0-3-1.3-3-3s1.3-3,3-3s3,1.3,3,3S19.7,18,18,18z M24.7,26H11.3c0.9-2.9,3.5-5,6.7-5S23.8,23.1,24.7,26z M32,26h-5.2&#xD;&#xA;	c-0.7-3.2-3.2-5.8-6.3-6.7C22,18.5,23,16.9,23,15c0-2.8-2.2-5-5-5s-5,2.2-5,5c0,1.9,1,3.5,2.6,4.3c-3.2,0.9-5.6,3.4-6.3,6.7H4V8h28&#xD;&#xA;	V26z" />
+<rect x="9" y="32" class="orange_icon" width="18" height="2" />
+</svg>Webinars</a><div class="h-clear">
+
+								</div>
+							</div>
+						</div>
+					</div><div class="MenuFooter">
+						<div class="content">
+							<div class="column">
+								<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve" width="48px" height="48px">
+<style type="text/css">
+	.orange_icon{fill:#FF7200;}
+</style>
+<path class="orange_icon" d="M24,0C10.7,0,0,10.7,0,24s10.7,24,24,24s24-10.7,24-24S37.3,0,24,0z M34.7,36.8c-2.7,2.4-6.1,4-9.9,4.2&#xD;&#xA;	c-0.3,0.6-1,1-1.7,1c-1.1,0-2-0.9-2-2c0-1.1,0.9-2,2-2c0.7,0,1.3,0.4,1.7,0.9c3.3-0.2,6.3-1.5,8.7-3.6c0.4-0.4,1-0.4,1.3,0l0,0&#xD;&#xA;	C35.1,35.7,35.1,36.4,34.7,36.8z M35.5,34.1c-0.4,0.4-1,0.4-1.3,0l-0.1-0.1c-0.9,0.7-2,1.1-3.2,0.9l0,0c-0.5-0.1-0.9-0.6-0.8-1.1&#xD;&#xA;	l1.6-9c0.1-0.5,0.6-0.9,1.1-0.8l0.1,0c2.1,0.4,3.4,2.5,3,4.6l-0.4,2.2c1.5-2.2,2.5-5,2.5-7.9c0-8-6.6-14.4-14.7-14&#xD;&#xA;	c-6.8,0.3-12.5,5.7-13.2,12.5c-0.4,3.5,0.6,6.8,2.4,9.4l-0.4-2.2c-0.4-2.1,1-4.2,3-4.6l0.1,0c0.5-0.1,1,0.2,1.1,0.8l1.6,9&#xD;&#xA;	c0.1,0.5-0.2,1-0.8,1.1l0,0c-1.2,0.2-2.4-0.1-3.2-0.9l-0.1,0.1c-0.4,0.4-1,0.4-1.3,0C9.7,31.3,8,27.3,8,23c0-9.4,8.2-17,17.8-15.9&#xD;&#xA;	c7.2,0.8,13,6.5,14,13.7C40.6,26,38.7,30.8,35.5,34.1z" />
+</svg><h6>
+									Need help or require more information?
+								</h6><p>
+                    Email us at <a href="mailto:clientservices@devexpress.com">clientservices@devexpress.com</a> or call +1 (818) 844-3383 between 7:30AM and 4:30PM Pacific Time.
+                </p>
+							</div>
+						</div>
+					</div><div class="Shadow hidden-md">
+
+					</div>
+				</div></li><li class="divider"></li><li><a tabindex="-1" href="https://community.devexpress.com/blogs/">Blogs<span class="Notification" data-menu-notification="NewBlogPosts/Count"></span></a></li><li class="divider"></li><li><a tabindex="-1" href="javascript:;">About Us</a><div class="SubMenu AboutUs">
+					<div class="Header hidden-md">
+						<span>About Us</span><div class="CloseButton">
+
+						</div>
+					</div><div class="r-container">
+						<div class="ScrollContainer">
+							<div class="column">
+								<div class="GroupTitle">
+									Connect with DevExpress
+								</div><a tabindex="-1" href="https://community.devexpress.com/blogs/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+	.orange_icon{fill:#FF7200;}
+</style>
+<path class="orange_icon" d="M11,16c-1.4,0-2.8,0.3-4,0.9V8.5C7,7.1,5.9,6,4.5,6S2,7.1,2,8.5V25c0,5,4,9,9,9s9-4,9-9&#xD;&#xA;	C20,20,16,16,11,16z M11,29c-2.2,0-4-1.8-4-4c0-2.2,1.8-4,4-4s4,1.8,4,4C15,27.2,13.2,29,11,29z" />
+<path class="orange_icon" d="M11,8v5c6.6,0,12,5.4,12,12h5C28,15.6,20.4,8,11,8z" />
+<path class="orange_icon" d="M11,0v5c11,0,20,9,20,20h5C36,11.2,24.8,0,11,0z" />
+</svg>Blogs</a><a tabindex="-1" href="https://www.devexpress.com/aboutus/events/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+	.orange_icon{fill:#FF7200;}
+</style>
+<path class="orange_icon" d="M34,4h-4v5c0,0.6-0.4,1-1,1h-4c-0.6,0-1-0.4-1-1V4H12v5c0,0.6-0.4,1-1,1H7c-0.6,0-1-0.4-1-1V4H2&#xD;&#xA;	C0.9,4,0,4.9,0,6v26c0,1.1,0.9,2,2,2h32c1.1,0,2-0.9,2-2V6C36,4.9,35.1,4,34,4z M26,14v4h-4v-4H26z M16,20h4v4h-4V20z M14,24h-4v-4&#xD;&#xA;	h4V24z M22,20h4v4h-4V20z M20,14v4h-4v-4H20z M14,14v4h-4v-4H14z M4,14h4v4H4V14z M4,20h4v4H4V20z M4,30v-4h4v4H4z M10,30v-4h4v4H10&#xD;&#xA;	z M16,30v-4h4v4H16z M22,30v-4h4v4H22z M32,30h-4v-4h4V30z M32,24h-4v-4h4V24z M32,18h-4v-4h4V18z" />
+<path class="orange_icon" d="M9,0L9,0C8.4,0,8,0.4,8,1v6c0,0.6,0.4,1,1,1h0c0.6,0,1-0.4,1-1V1C10,0.4,9.6,0,9,0z" />
+<path class="orange_icon" d="M27,0L27,0c-0.6,0-1,0.4-1,1v6c0,0.6,0.4,1,1,1h0c0.6,0,1-0.4,1-1V1C28,0.4,27.6,0,27,0z" />
+</svg>Events, Meetups and Tradeshows</a><a tabindex="-1" href="https://www.devexpress.com/support/webinars/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+	.orange_icon{fill:#FF7200;}
+</style>
+<path class="orange_icon" d="M34,4H2C0.9,4,0,4.9,0,6v22c0,1.1,0.9,2,2,2h32c1.1,0,2-0.9,2-2V6C36,4.9,35.1,4,34,4z M18,18&#xD;&#xA;	c-1.7,0-3-1.3-3-3s1.3-3,3-3s3,1.3,3,3S19.7,18,18,18z M24.7,26H11.3c0.9-2.9,3.5-5,6.7-5S23.8,23.1,24.7,26z M32,26h-5.2&#xD;&#xA;	c-0.7-3.2-3.2-5.8-6.3-6.7C22,18.5,23,16.9,23,15c0-2.8-2.2-5-5-5s-5,2.2-5,5c0,1.9,1,3.5,2.6,4.3c-3.2,0.9-5.6,3.4-6.3,6.7H4V8h28&#xD;&#xA;	V26z" />
+<rect x="9" y="32" class="orange_icon" width="18" height="2" />
+</svg>Webinars</a><div class="h-clear">
+
+								</div>
+							</div><div class="column">
+								<div class="GroupTitle">
+									Learn More About DevExpress
+								</div><a tabindex="-1" href="https://www.devexpress.com/aboutus/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+	.orange_icon{fill:#FF7200;}
+</style>
+<circle class="orange_icon" cx="18" cy="3" r="3" />
+<path class="orange_icon" d="M21.5,7h-1.2h-4.5h-1.2C13.1,7,12,8.1,12,9.5V22c0,0.6,0.4,1,1,1h1v11c0,1.1,0.9,2,2,2h4&#xD;&#xA;	c1.1,0,2-0.9,2-2V21h1c0.6,0,1-0.4,1-1V9.5C24,8.1,22.9,7,21.5,7z" />
+<circle class="orange_icon" cx="5" cy="6" r="3" />
+<path class="orange_icon" d="M7.5,10H6.2H3.8H2.5C1.1,10,0,11.1,0,12.5V19c0,0.6,0.4,1,1,1h1v12c0,1.1,0.9,2,2,2h2c1.1,0,2-0.9,2-2&#xD;&#xA;	v-8h1c0.6,0,1-0.4,1-1V12.5C10,11.1,8.9,10,7.5,10z" />
+<circle class="orange_icon" cx="31" cy="6" r="3" />
+<path class="orange_icon" d="M33.5,10h-1.2h-2.5h-1.2c-1.4,0-2.5,1.1-2.5,2.5V23c0,0.6,0.4,1,1,1h1v8c0,1.1,0.9,2,2,2h2&#xD;&#xA;	c1.1,0,2-0.9,2-2v-9h1c0.6,0,1-0.4,1-1v-9.5C36,11.1,34.9,10,33.5,10z" />
+</svg>About Us</a><a tabindex="-1" href="https://www.devexpress.com/aboutus/newsreviews/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+	.orange_icon{fill:#FF7200;}
+</style>
+<path class="orange_icon" d="M2,0v36h32V6h-6V0H2z M32,34H4V2h22v6h6V34z" />
+<rect x="19" y="12" class="orange_icon" width="9" height="10" />
+<rect x="8" y="6" class="orange_icon" width="9" height="2" />
+<rect x="8" y="12" class="orange_icon" width="9" height="4" />
+<rect x="8" y="18" class="orange_icon" width="9" height="12" />
+<rect x="19" y="24" class="orange_icon" width="9" height="6" />
+</svg>News</a><a tabindex="-1" href="https://www.devexpress.com/aboutus/testimonials/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+	.orange_icon{fill:#FF7200;}
+</style>
+<path class="orange_icon" d="M18,2C8.1,2,0,9.2,0,18c0,5.2,2.8,9.7,7,12.7C6,32,4.7,33.2,3,34c0,0,3.8,2.1,7.8,0.1c0.5-0.2,1-0.6,1.4-1&#xD;&#xA;	C14,33.7,16,34,18,34c9.9,0,18-7.2,18-16S27.9,2,18,2z M18,30c-7.7,0-14-5.4-14-12c0-6.6,6.3-12,14-12s14,5.4,14,12&#xD;&#xA;	C32,24.6,25.7,30,18,30z" />
+<circle class="orange_icon" cx="18" cy="18" r="2" />
+<circle class="orange_icon" cx="24" cy="18" r="2" />
+<circle class="orange_icon" cx="12" cy="18" r="2" />
+</svg>User Comments and Case Studies</a><a tabindex="-1" href="https://www.devexpress.com/aboutus/awards/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+	.orange_icon{fill:#FF7200;}
+</style>
+<path class="orange_icon" d="M11.7,28.3L11.7,28.3c-0.6-1.1-1.7-1.8-3-1.7l0,0c-1.4,0.1-2.6-0.8-3.1-2L0,33l5-1l2,4l4.9-7.4&#xD;&#xA;	C11.9,28.5,11.8,28.4,11.7,28.3z" />
+<path class="orange_icon" d="M30.4,24.5c-0.5,1.2-1.7,2.1-3.1,2l0,0c-1.2-0.1-2.4,0.6-3,1.7l0,0c-0.1,0.1-0.1,0.2-0.2,0.3L29,36l2-4&#xD;&#xA;	l5,1L30.4,24.5z" />
+<path class="orange_icon" d="M31.6,15.5c-0.6-0.9-0.6-2.1,0-3l0,0c0.9-1.4,0.4-3.2-1.1-4l0,0C29.5,8,28.9,7,29,5.9l0,0&#xD;&#xA;	c0.1-1.6-1.3-3-2.9-2.9l0,0C25,3.1,24,2.5,23.5,1.5l0,0c-0.8-1.5-2.6-1.9-4-1.1l0,0c-0.9,0.6-2.1,0.6-3,0l0,0&#xD;&#xA;	c-1.4-0.9-3.2-0.4-4,1.1l0,0C12,2.5,11,3.1,9.9,3l0,0C8.3,2.9,6.9,4.3,7,5.9l0,0C7.1,7,6.5,8,5.5,8.5l0,0c-1.5,0.8-1.9,2.6-1.1,4&#xD;&#xA;	l0,0c0.6,0.9,0.6,2.1,0,3l0,0c-0.9,1.4-0.4,3.2,1.1,4l0,0C6.5,20,7.1,21,7,22.1l0,0c-0.1,1.6,1.3,3,2.9,2.9l0,0&#xD;&#xA;	c1.1-0.1,2.1,0.5,2.6,1.5l0,0c0.8,1.5,2.6,1.9,4,1.1l0,0c0.9-0.6,2.1-0.6,3,0l0,0c1.4,0.9,3.2,0.4,4-1.1l0,0c0.5-1,1.5-1.6,2.6-1.5&#xD;&#xA;	l0,0c1.6,0.1,3-1.3,2.9-2.9l0,0c-0.1-1.1,0.5-2.1,1.5-2.6l0,0C32,18.7,32.4,16.9,31.6,15.5L31.6,15.5z M18,25c-6.1,0-11-4.9-11-11&#xD;&#xA;	S11.9,3,18,3s11,4.9,11,11S24.1,25,18,25z" />
+<path class="orange_icon" d="M18,5c-5,0-9,4-9,9c0,5,4,9,9,9s9-4,9-9C27,9,23,5,18,5z M18,21c-3.9,0-7-3.1-7-7s3.1-7,7-7s7,3.1,7,7&#xD;&#xA;	S21.9,21,18,21z" />
+</svg>Our Awards</a><a tabindex="-1" href="https://www.devexpress.com/aboutus/mvp/"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+	.orange_icon{fill:#FF7200;}
+</style>
+<path class="orange_icon" d="M18,0C8.1,0,0,8.1,0,18c0,9.9,8.1,18,18,18s18-8.1,18-18C36,8.1,27.9,0,18,0z M31.2,13.3h-9.9l-3-9.3&#xD;&#xA;	C24.3,4.2,29.3,8,31.2,13.3z M17.7,4l-3,9.3H4.8C6.7,8,11.7,4.2,17.7,4z M4,18c0-1.5,0.2-2.9,0.6-4.2l8,5.9l-3,9.5&#xD;&#xA;	C6.2,26.6,4,22.6,4,18z M10,29.5l8-5.9l8,5.9c-2.3,1.6-5,2.5-8,2.5S12.3,31.1,10,29.5z M26.4,29.2l-3-9.5l8-5.9&#xD;&#xA;	c0.4,1.3,0.6,2.7,0.6,4.2C32,22.6,29.8,26.6,26.4,29.2z" />
+</svg>MVP Program</a><div class="h-clear">
+
+								</div>
+							</div>
+						</div>
+					</div><div class="MenuFooter">
+						<div class="content">
+							<div class="column">
+								<a href="https://www.devexpress.com/aboutus/newsreviews/2018-universal-18-2.xml"><h6>
+									Announcing DevExpress Universal v18.2
+								</h6></a><p>Developer Express Inc is proud to announce the immediate availability of its newest release, DevExpress v18.2. Built and optimized for desktop, web, and mobile developers alike...</p>
+							</div><div class="column">
+								<a href="https://www.devexpress.com/aboutus/awards/"><h6>
+									DevExpress Wins 19 Visual Studio Reader's Choice Awards
+								</h6></a><p>With 31 categories and over 600 products to choose from, DevExpress is honored to have been voted best in class 19 times in this year's Visual Studio Magazine Reader's Choice Awards...</p>
+							</div>
+						</div>
+					</div><div class="Shadow hidden-md">
+
+					</div>
+				</div></li>
+			</ul><div class="h-clear">
+
+			</div>
+		</div>
+	</div>
+</nav>
+    <main>
+        <section>
+            
+<div id="second-level-menu">
+    <div class="second-level-menu-container">
+        <div class="page-title">Support Center</div>
+        <div class="links">
+            <ul>
+
+                <li class="Current"><a class="tickets-list" href="/Support/Center/Question/List/1"><span>Tickets</span></a></li>
+                <li class="divider"></li>
+                <li><a class="examples-list" href="/Support/Center/Example/List/1"><span>Examples</span></a></li>
+                <li class="divider"></li>
+                <li><a class="version-history" href="/Support/Center/VersionHistory"><span>Version History</span></a></li>
+                <li class="divider"></li>
+                <li><a href="https://localization.devexpress.com/"><span>Localization</span></a></li>
+                <li class="divider"></li>
+                <li><a href="https://www.devexpress.com/Home/Training/"><span>Training Events</span></a></li>
+                <li class="divider"></li>
+                <li><a class="faq" href="/Support/Center/FAQ"><span>FAQ</span></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+            <div class="content">
+
+ <div id="additionalHeaderBarContainer">
+    <div id="menubar">
+        <div id="ask-question-btn-container">
+
+            <a href="https://devexpress.com/Account/SignIn?returnUrl=https%3a%2f%2fwww.devexpress.com%2fSupport%2fCenter%2fQuestion%2fCreate" id="ask-question-btn" class="V3Button"><span>Submit a Support Ticket</span></a>
+        </div>
+
+        <div class="searchFormHolder">
+<input id="searchFormAction" name="searchFormAction" type="hidden" value="/Support/Center/Search/List/1" />
+            <form method="post">
+                <div class="textbox">
+                    
+                    <a class="handle_clear" unselectable="on"></a>
+                    <input type="text" autocomplete="off" tabindex="1" id="scSearchField" name="searchString" />
+                    <span class="tb-placeholder">Type search string and press Enter</span>
+                </div>
+            </form>
+        </div>
+     </div>
+</div>
+
+                <div class="Content Main">
+
+                    <div id="layout" data-loginedin="0" data-loadedat="2018-12-17T14:00:38.459Z">
+                        <div id="page" data-descriptor="q-details">
+                            <div id="header" class="page-block">
+
+
+                            </div>
+                            
+
+
+<div id="inside" class="page-block two-columns">
+    <div id="content">
+        
+
+
+
+
+<div id="thread" class="thread">
+    <input type="hidden" id="page-generation-time" value="2018-12-17T14:00:32.043Z" />
+    <div id="question" class="question"
+         data-id="T605213"
+         data-technology=".NET"
+         data-platform="Frameworks (XAF &amp; XPO)"
+         data-product="eXpressApp Framework"
+         data-url="/Support/Center/Question/Details/T605213/aspxgridview-how-to-edit-only-one-cell-at-a-time-in-a-popup-window">
+        <div class="post-inside">
+            <div class="post-name">
+                <div style="overflow: hidden;">
+                    <div style="float: right; margin-left: 5px;">
+                        <div class="show-sidebar">
+                            <div class="show-sidebar-icon"></div>
+                            Sidebar
+                        </div>
+                    </div>
+                    <div style="overflow: hidden;">
+                        <div class="post-type">
+
+<div class="list-icon">
+    <a href="/Support/Center/Question/Details/T605213/aspxgridview-how-to-edit-only-one-cell-at-a-time-in-a-popup-window" class="state" title="1 solution">
+        <span class="answered">
+            <span class="data">1</span>
+            <span class="meta">solution</span>
+        </span>
+    </a>
+
+    <div class="status">
+            <div class="approved" title="Approved"></div>
+                    <div class="solved" title="Solved"></div>
+    </div>
+</div>
+
+                        </div>
+                        <h1 class="heading">
+                            <a href="/Support/Center/Question/Details/T605213/aspxgridview-how-to-edit-only-one-cell-at-a-time-in-a-popup-window">ASPxGridView - How to edit only one cell at a time in a popup window</a>
+                        </h1>
+                        <div class="post-tags">
+                            <span>Tags:</span>
+                            <ul class="tags h">
+                                    <li>
+                                        <span class="tag">
+                                            <a href="/Support/Center/Question/ChangeFilterSet?myItemsOnly=False&amp;technologyName=.NET&amp;platformName=AllPlatforms&amp;productName=AllProducts">.NET</a>,                                </span>
+                            </li>
+                                                                    <li>
+                                        <span class="tag">
+                                            <a href="/Support/Center/Question/ChangeFilterSet?myItemsOnly=False&amp;technologyName=.NET&amp;platformName=Frameworks%20(XAF%20__AND__%20XPO)&amp;productName=AllProducts">Frameworks (XAF &amp; XPO)</a>,                                </span>
+                            </li>
+                                                                    <li>
+                                        <span class="tag">
+                                            <a href="/Support/Center/Question/ChangeFilterSet?myItemsOnly=False&amp;technologyName=.NET&amp;platformName=Frameworks%20(XAF%20__AND__%20XPO)&amp;productName=eXpressApp%20Framework">eXpressApp Framework</a>
+                                        </span>
+                                    </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="post-only">
+                <div class="post-body tiny left" style=background:none;>
+                    <div class="post-meta">
+                        <div class="user">
+                                <div class="customer">
+                                    <span class="info">Mustafa K</span>
+                                        <abbr role="datetime" class="date prettify" data-datetime="2018-02-11T17:02:59.263Z" title="2018-02-11T17:02:59.263Z">02.11.2018</abbr>
+
+                                </div>
+                        </div>
+                        <div class="toolbar">
+                            <div class="visible-controls">
+                                <a class="btn"><span class="toolbox-toggler-btn" title="Show toolbox"></span></a>
+                            </div>
+                            <ul class="bar">
+                                                                                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear">
+                </div>
+
+<div id="question-body">
+
+    <div class="post-body wide">
+        <div class="post-data" id="question-a33ad5eb-3e26-4c1f-9ed2-54fda3f0bdd1">
+            <div class="post-surface post-text-block">
+                <ul>
+                    <li>
+                        <div class="slider-item">
+                            <div class="item-holder">
+                                <div class="post-variants">
+                                    <ul class="h">
+                                        <li>
+                                            <div class="slider-item">
+                                                <div class="post-variant">
+                                                    <div class="post-text">
+                                                        <div class="edited-text">dear support,<br>we have a business requirement to achieve below functionality shown in youtube video.<br>&nbsp;how can we best do it in XAF web applications.<br><br><a href="https://youtu.be/HooIOWkvTTc">https://youtu.be/HooIOWkvTTc</a><br><br><br>if i have to summarize then:<br>1. data is shown in a gridview<br>2. on cell click it opens a popup with specific field and control ( it could be textbox, dropdown, depending upon the field).<br>3. it is not loading whole detail view.<br>4. it is saving on the fly and refreshing grid without postback.<br>5. if i pick columns from column chooser, functionality is applicable to any column whihc is editable in DETAILS VIEW.<br>6. user security permission to be checked , who can and who cannot change the data.<br>7. all grid operation should work like filter, sort, search etc.<br><br>pls advise how best we can do it in XAF web application project.<br>Thanks<br><br><br><br> </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="slider-item">
+                            <div class="item-holder">
+                                <div class="post-editor">
+                                    <div class="form edit-question-form">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+
+
+        </div>
+    </div>
+</div>
+
+            </div>
+                <div class="post-cmnts clrbth">
+
+    <div class="cmnts-header cmnts-controls">
+        <div class="show-cmnts-btn hidden">
+            <span class="show-cmnts-text" data-text="Hide comments">Show all comments</span>
+        </div>
+    </div>
+<ul class="cmnts" data-max-comments="5">
+
+</ul>
+<div class="cmnts-footer cmnts-controls">
+    <div class="show-cmnts-btn hidden">
+        <span class="show-cmnts-text" data-text="Hide comments">Show all comments</span>
+    </div>
+        <a class="leave-cmnts-btn">
+            <span class="leave-cmnts-text" data-active-text="Cancel" data-disactive-text="Leave a Comment">
+                Leave a Comment
+            </span>
+        </a>
+</div>
+
+
+<div class="add-comment-form inactive" style="display: none;">
+        You must&nbsp;
+            <a href="https://www.devexpress.com/Account/SignIn/?returnUrl=https://www.devexpress.com/Support/Center/Question/Details/T605213/aspxgridview-how-to-edit-only-one-cell-at-a-time-in-a-popup-window" class="blue">log in</a>
+            &nbsp;or&nbsp;
+            <a href="https://www.devexpress.com/Account/SignIn/?returnUrl=https://www.devexpress.com/Support/Center/Question/Details/T605213/aspxgridview-how-to-edit-only-one-cell-at-a-time-in-a-popup-window" class="blue">register</a>
+        &nbsp;to leave comments
+</div>
+
+                </div>
+        </div>
+    </div>
+
+<div id="answers" class="answers ">
+    <div class="thread-separator">
+            <div class="left">
+                <h2>
+                    <span id="solutions-count">1</span>&nbsp;<span id="solutions-title">Solution</span>
+                </h2>
+            </div>
+            <div class="sorting answer-sorting ninja">
+
+
+<a id="sortMenu"></a>
+<span class="sort-item sort-date">
+    <span class="box">Creation Date</span>
+</span>
+<span class="sort-item sort-impotance current">
+    <span class="box">Importance</span>
+</span>
+<span class="sort-title">Sort by</span>
+            </div>
+    </div>
+
+<div class="answer "
+     data-id="eff96525-d2c9-4e2d-b128-29908df2a600"
+     id="answer-eff96525-d2c9-4e2d-b128-29908df2a600"
+     data-created="2018-02-12T13:34:28.450Z"
+     data-modified="2018-02-14T16:00:06.310Z">
+    <div class="post-inside">
+        <div class="post-only">
+            <div class="post-body tiny left" >
+                <div class="post-meta">
+                    <div class="user">
+                                <img src="/Support/Center/Attachment/GetAvatar/86263edb-d643-11e5-827d-f46d0490cbcf?type=Medium" alt="" class="avatar" />
+                            <div class="employee">
+                                <span class="info">Paul V (DevExpress Support)</span>
+                                    <abbr role="datetime" class="date prettify" data-datetime="2018-02-12T13:34:28.450Z" title="2018-02-12T13:34:28.450Z">02.12.2018</abbr>
+
+                            </div>
+                    </div>
+                    <div class="toolbar">
+                        <div class="visible-controls">
+                            <a class="btn"><span class="toolbox-toggler-btn" title="Show toolbox"></span></a>
+                        </div>
+                        <ul class="bar">
+    <li class="box active inactive" role="not-box">
+        <a class="btn active inactive" title="This is the solution" role="not-btn"><span class="mark-solution-btn"></span></a>
+    </li>
+    <li class="box active" role="not-box"><a class="btn active inactive" title="This answer has been approved by the DevExpress Team" role="not-btn"><span class="mark-dxchoice-btn"></span></a></li>
+
+                                                    </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div id="answer-body-eff96525-d2c9-4e2d-b128-29908df2a600">
+                <div class="post-body wide post-text-block">
+                    <div class="post-data">
+                        <div class="post-surface">
+                            <div class="post-text">
+                                <p>Hello Mustafa,<br><br>Thank you for the video. To accomplish this task, perform the following steps.<br>1. Mark each cell by specifying its Cell.CssClass property:</p>
+<pre class="cr-code"><div class="cr-langtitle">[C#]</div><code><span class="cr-aspx-string">grid</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">Styles</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">Cell</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">CssClass</span> <span class="cr-aspx-string">=</span> <span class="cr-aspx-tag">&quot;mycell&quot;</span><span class="cr-aspx-string">;</span></code></pre>
+<p>2. Set the&nbsp;SettingsEditing.Mode property to the "PopupEditForm" value:</p>
+<pre class="cr-code"><div class="cr-langtitle">[C#]</div><code><span class="cr-aspx-string">grid</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">SettingsEditing</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">Mode</span> <span class="cr-aspx-string">=</span> <span class="cr-aspx-string">GridViewEditingMode</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">PopupEditForm</span><span class="cr-aspx-string">;</span></code></pre>
+<p>3. Handle the&nbsp;<a href="https://documentation.devexpress.com/#AspNet/DevExpressWebASPxGridView_HtmlDataCellPreparedtopic">ASPxGridView.HtmlDataCellPrepared</a>&nbsp;event in the following manner:</p>
+<pre class="cr-code"><div class="cr-langtitle">[C#]</div><code>    <span class="cr-aspx-text">protected</span> <span class="cr-aspx-text">void</span> <span class="cr-aspx-string">ASPxGridView1_HtmlDataCellPrepared</span><span class="cr-aspx-string">(</span><span class="cr-aspx-text">object</span> <span class="cr-aspx-string">sender</span><span class="cr-aspx-string">,</span> <span class="cr-aspx-string">DevExpress</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">Web</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">ASPxGridViewTableDataCellEventArgs</span> <span class="cr-aspx-string">e</span><span class="cr-aspx-string">)</span> <span class="cr-aspx-string">{</span>
+        <span class="cr-aspx-string">e</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">Cell</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">Attributes</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">Add</span><span class="cr-aspx-string">(</span><span class="cr-aspx-tag">&quot;ondblclick&quot;</span><span class="cr-aspx-string">,</span> <span class="cr-aspx-string">String</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">Format</span><span class="cr-aspx-string">(</span><span class="cr-aspx-tag">&quot;onCellDoubleClick({0}, &#39;{1}&#39;)&quot;</span><span class="cr-aspx-string">,</span> <span class="cr-aspx-string">e</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">VisibleIndex</span><span class="cr-aspx-string">,</span> <span class="cr-aspx-string">e</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">DataColumn</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">FieldName</span><span class="cr-aspx-string">)</span><span class="cr-aspx-string">)</span><span class="cr-aspx-string">;</span>
+        <span class="cr-aspx-string">e</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">Cell</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">Attributes</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">Add</span><span class="cr-aspx-string">(</span><span class="cr-aspx-tag">&quot;onclick&quot;</span><span class="cr-aspx-string">,</span> <span class="cr-aspx-string">String</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">Format</span><span class="cr-aspx-string">(</span><span class="cr-aspx-tag">&quot;onCellClick({0}, &#39;{1}&#39;)&quot;</span><span class="cr-aspx-string">,</span> <span class="cr-aspx-string">e</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">VisibleIndex</span><span class="cr-aspx-string">,</span> <span class="cr-aspx-string">e</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">DataColumn</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">FieldName</span><span class="cr-aspx-string">)</span><span class="cr-aspx-string">)</span><span class="cr-aspx-string">;</span>
+         <span class="cr-aspx-string">e</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">Cell</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">Attributes</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">Add</span><span class="cr-aspx-string">(</span><span class="cr-aspx-tag">&quot;fieldName&quot;</span><span class="cr-aspx-string">,</span> <span class="cr-aspx-string">e</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">DataColumn</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">FieldName</span><span class="cr-aspx-string">)</span><span class="cr-aspx-string">;</span>
+        <span class="cr-aspx-string">e</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">Cell</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">Attributes</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">Add</span><span class="cr-aspx-string">(</span><span class="cr-aspx-tag">&quot;visibleIndex&quot;</span><span class="cr-aspx-string">,</span> <span class="cr-aspx-string">e</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">VisibleIndex</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">ToString</span><span class="cr-aspx-string">(</span><span class="cr-aspx-string">)</span><span class="cr-aspx-string">)</span><span class="cr-aspx-string">;</span>
+    <span class="cr-aspx-string">}</span></code></pre>
+<p>where "onCellDoubleClick" and "onCellClick" are&nbsp;implemented as follows:</p>
+<pre class="cr-code"><div class="cr-langtitle">[JavaScript]</div><code>        <span class="cr-js-keyword">var</span> focusedCell<span class="cr-js-keyword">;</span>
+        <span class="cr-js-keyword">function</span> onCellDoubleClick<span class="cr-js-keyword">(</span>ind, fieldName<span class="cr-js-keyword">)</span> <span class="cr-js-keyword">{</span>
+            grid<span class="cr-js-keyword">.</span>PerformCallback<span class="cr-js-keyword">(</span>ind + <span class="cr-js-string">&quot;|&quot;</span> + fieldName<span class="cr-js-keyword">)</span><span class="cr-js-keyword">;</span>
+        <span class="cr-js-keyword">}</span>
+         <span class="cr-js-keyword">function</span> onCellClick<span class="cr-js-keyword">(</span>index, fieldName<span class="cr-js-keyword">)</span> <span class="cr-js-keyword">{</span>
+            <span class="cr-js-keyword">if</span> <span class="cr-js-keyword">(</span>focusedCell<span class="cr-js-keyword">)</span>
+                focusedCell<span class="cr-js-keyword">.</span>style<span class="cr-js-keyword">.</span>backgroundColor = <span class="cr-js-string">&quot;white&quot;</span><span class="cr-js-keyword">;</span>
+            <span class="cr-js-keyword">var</span> mainGrid = grid<span class="cr-js-keyword">.</span>GetMainElement<span class="cr-js-keyword">(</span><span class="cr-js-keyword">)</span><span class="cr-js-keyword">;</span>
+            <span class="cr-js-keyword">var</span> allElements = mainGrid<span class="cr-js-keyword">.</span>getElementsByClassName<span class="cr-js-keyword">(</span><span class="cr-js-string">&quot;mycell&quot;</span><span class="cr-js-keyword">)</span><span class="cr-js-keyword">;</span>
+            <span class="cr-js-keyword">var</span> matchingElements = <span class="cr-js-keyword">[</span><span class="cr-js-keyword">]</span><span class="cr-js-keyword">;</span>
+            <span class="cr-js-keyword">for</span> <span class="cr-js-keyword">(</span><span class="cr-js-keyword">var</span> i = 0<span class="cr-js-keyword">;</span> i &lt; allElements<span class="cr-js-keyword">.</span>length<span class="cr-js-keyword">;</span> i++<span class="cr-js-keyword">)</span> <span class="cr-js-keyword">{</span>
+                <span class="cr-js-keyword">var</span> cell = allElements<span class="cr-js-keyword">[</span>i<span class="cr-js-keyword">]</span><span class="cr-js-keyword">;</span>
+                <span class="cr-js-keyword">if</span> <span class="cr-js-keyword">(</span>cell<span class="cr-js-keyword">.</span>getAttribute<span class="cr-js-keyword">(</span><span class="cr-js-string">&quot;visibleIndex&quot;</span><span class="cr-js-keyword">)</span> == index<span class="cr-js-keyword">)</span> <span class="cr-js-keyword">{</span>
+                    matchingElements<span class="cr-js-keyword">.</span>push<span class="cr-js-keyword">(</span>cell<span class="cr-js-keyword">)</span><span class="cr-js-keyword">;</span>
+                <span class="cr-js-keyword">}</span>
+            <span class="cr-js-keyword">}</span>
+            <span class="cr-js-keyword">var</span> cell<span class="cr-js-keyword">;</span>
+            <span class="cr-js-keyword">for</span> <span class="cr-js-keyword">(</span><span class="cr-js-keyword">var</span> i = 0<span class="cr-js-keyword">;</span> i &lt; matchingElements<span class="cr-js-keyword">.</span>length<span class="cr-js-keyword">;</span> i++<span class="cr-js-keyword">)</span> <span class="cr-js-keyword">{</span>
+                cell = matchingElements<span class="cr-js-keyword">[</span>i<span class="cr-js-keyword">]</span><span class="cr-js-keyword">;</span>
+                <span class="cr-js-keyword">if</span> <span class="cr-js-keyword">(</span>cell<span class="cr-js-keyword">.</span>getAttribute<span class="cr-js-keyword">(</span><span class="cr-js-string">&quot;fieldName&quot;</span><span class="cr-js-keyword">)</span> == fieldName<span class="cr-js-keyword">)</span> <span class="cr-js-keyword">{</span>
+                    cell<span class="cr-js-keyword">.</span>style<span class="cr-js-keyword">.</span>backgroundColor = <span class="cr-js-string">&quot;wheat&quot;</span>
+                    focusedCell = cell<span class="cr-js-keyword">;</span>
+                    <span class="cr-js-keyword">return</span><span class="cr-js-keyword">;</span>
+                <span class="cr-js-keyword">}</span>
+            <span class="cr-js-keyword">}</span>
+        <span class="cr-js-keyword">}</span></code></pre>
+<p>4. Handle the&nbsp;<a href="https://documentation.devexpress.com/#AspNet/DevExpressWebASPxGridView_CustomCallbacktopic">CustomCallback</a>&nbsp;event to&nbsp;change the visibility of other editors and&nbsp;start editing:</p>
+<pre class="cr-code"><div class="cr-langtitle">[C#]</div><code>    <span class="cr-aspx-text">protected</span> <span class="cr-aspx-text">void</span> <span class="cr-aspx-string">grid_CustomCallback</span><span class="cr-aspx-string">(</span><span class="cr-aspx-text">object</span> <span class="cr-aspx-string">sender</span><span class="cr-aspx-string">,</span> <span class="cr-aspx-string">DevExpress</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">Web</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">ASPxGridViewCustomCallbackEventArgs</span> <span class="cr-aspx-string">e</span><span class="cr-aspx-string">)</span> <span class="cr-aspx-string">{</span>
+        <span class="cr-aspx-text">string</span> <span class="cr-aspx-string">[</span><span class="cr-aspx-string">]</span><span class="cr-aspx-string">parameters</span> <span class="cr-aspx-string">=</span> <span class="cr-aspx-string">e</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">Parameters</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">Split</span><span class="cr-aspx-string">(</span><span class="cr-aspx-tag">&#39;|&#39;</span><span class="cr-aspx-string">)</span><span class="cr-aspx-string">;</span>
+        <span class="cr-aspx-text">foreach</span> <span class="cr-aspx-string">(</span><span class="cr-aspx-string">GridViewDataColumn</span> <span class="cr-aspx-string">column</span> <span class="cr-aspx-text">in</span> <span class="cr-aspx-string">grid</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">Columns</span><span class="cr-aspx-string">)</span> <span class="cr-aspx-string">{</span>
+            <span class="cr-aspx-text">if</span><span class="cr-aspx-string">(</span><span class="cr-aspx-string">column</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">FieldName</span> <span class="cr-aspx-string">!=</span> <span class="cr-aspx-string">parameters</span><span class="cr-aspx-string">[</span>1<span class="cr-aspx-string">]</span><span class="cr-aspx-string">)</span> <span class="cr-aspx-string">{</span>
+                <span class="cr-aspx-string">column</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">EditFormSettings</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">Visible</span> <span class="cr-aspx-string">=</span> <span class="cr-aspx-string">DevExpress</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">Utils</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">DefaultBoolean</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">False</span><span class="cr-aspx-string">;</span>
+            <span class="cr-aspx-string">}</span> <span class="cr-aspx-text">else</span> <span class="cr-aspx-string">{</span>
+                <span class="cr-aspx-string">column</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">EditFormSettings</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">Visible</span> <span class="cr-aspx-string">=</span> <span class="cr-aspx-string">DevExpress</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">Utils</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">DefaultBoolean</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">True</span><span class="cr-aspx-string">;</span>
+            <span class="cr-aspx-string">}</span>
+        <span class="cr-aspx-string">}</span>
+        <span class="cr-aspx-string">grid</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">StartEdit</span><span class="cr-aspx-string">(</span><span class="cr-aspx-string">Convert</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">ToInt32</span><span class="cr-aspx-string">(</span><span class="cr-aspx-string">parameters</span><span class="cr-aspx-string">[</span>0<span class="cr-aspx-string">]</span><span class="cr-aspx-string">)</span><span class="cr-aspx-string">)</span><span class="cr-aspx-string">;</span>
+    <span class="cr-aspx-string">}</span></code></pre>
+<p>5.&nbsp;Restrict the user from editing. For this, disable the&nbsp;<a href="https://documentation.devexpress.com/#AspNet/DevExpressWebASPxGridDataSecuritySettings_AllowEdittopic">AllowEdit</a>&nbsp;property based on the user's role as follows:</p>
+<pre class="cr-code"><div class="cr-langtitle">[C#]</div><code><span class="cr-aspx-string">grid</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">SettingsDataSecurity</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">AllowEdit</span> <span class="cr-aspx-string">=</span> <span class="cr-aspx-text">false</span><span class="cr-aspx-string">;</span></code></pre>
+<p>I've attached a sample project and a video to demonstrate how it works. Let me know if you have additional questions.<br><br>Regards,<br>Paul</p>
+                            </div>
+                        </div>
+                        
+
+        <div class="post-xtra">
+            <div class="attachment-list">
+                    <a target="_blank" href="/Support/Center/Attachment/GetAttachmentFile/5ab6fb7f-c79f-49a6-87d7-53a8bae03e18"
+                       class="attachment" title="" rel="nofollow">T605213.zip</a>
+                    <a target="_blank" href="/Support/Center/Attachment/GetAttachmentFile/9cf93377-bbc9-4399-bc21-ebfea5b17b97"
+                       class="attachment" title="" rel="nofollow">T605213.swf</a>
+            </div>
+        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="post-cmnts clrbth">
+
+    <div class="cmnts-header cmnts-controls">
+        <div class="show-cmnts-btn ">
+            <span class="show-cmnts-text" data-text="Hide comments">Show all comments</span>
+        </div>
+    </div>
+<ul class="cmnts" data-max-comments="5">
+            
+                <li class="ninja">
+
+<div class="cmnt post-only" data-id="2e9dc8c4-e373-41cd-9a49-96a5c3a349b6" id="comment-2e9dc8c4-e373-41cd-9a49-96a5c3a349b6" data-created="2018-02-12T14:21:46.843Z" data-modified="2018-02-12T14:21:46.843Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="employee">
+                    <span class="info">Uriah (DevExpress Support)</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-02-12T14:21:46.843Z" title="2018-02-12T14:21:46.843Z">02.12.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            Hello Mustafa,<br><br>Just a follow-up. To obtain an ASPxGridView instance in an XAF application, you can use the approach described in our online documentation: <a href="https://documentation.devexpress.com/eXpressAppFramework/113165/Getting-Started/Comprehensive-Tutorial/Extend-Functionality/Access-Grid-Control-Properties">Access Grid Control Properties</a>. Also, I want to emphasize that XAF automatically disables cell editors if the <a href="https://documentation.devexpress.com/eXpressAppFramework/113436/Concepts/Security-System/Client-Side-Security-2-Tier-Architecture#UI-Level-Mode">UI Level Security Mode</a> is used. So, you do not need to implement this part manually.
+        </div>
+        
+
+
+</div>
+
+                </li>
+            
+            
+                <li class="ninja">
+
+<div class="cmnt post-only" data-id="e1b9667d-a9aa-481b-a875-c0db012ca860" id="comment-e1b9667d-a9aa-481b-a875-c0db012ca860" data-created="2018-02-14T16:00:39.063Z" data-modified="2018-02-14T16:00:39.063Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="customer">
+                    <span class="info">Mustafa K</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-02-14T16:00:39.063Z" title="2018-02-14T16:00:39.063Z">02.14.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            Thanks a lot paul and uriah.<br>i am going to use this and if any issue , will come back.<br> 
+        </div>
+        
+
+
+</div>
+
+                </li>
+            
+            
+                <li class="ninja">
+
+<div class="cmnt post-only" data-id="a44eae94-b05b-4e86-b928-787bb3867de7" id="comment-a44eae94-b05b-4e86-b928-787bb3867de7" data-created="2018-02-14T16:22:23.097Z" data-modified="2018-02-14T16:22:23.097Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="customer">
+                    <span class="info">Mustafa K</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-02-14T16:22:23.097Z" title="2018-02-14T16:22:23.097Z">02.14.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            hi uriah,<br>where will i put the javascript code in my xaf project. <br>i just have default.aspx page. 
+        </div>
+        
+
+
+</div>
+
+                </li>
+            
+            
+                <li class="ninja">
+
+<div class="cmnt post-only" data-id="bf6c8757-582b-49f3-b159-15b47862e918" id="comment-bf6c8757-582b-49f3-b159-15b47862e918" data-created="2018-02-15T07:17:32.343Z" data-modified="2018-02-15T07:17:32.343Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="employee">
+                    <span class="info">Uriah (DevExpress Support)</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-02-15T07:17:32.343Z" title="2018-02-15T07:17:32.343Z">02.14.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            Hello Mustafa,<br><br>The Default.aspx page is always used, so this is the right place to put JavaScript code or links to *.js files.
+        </div>
+        
+
+
+</div>
+
+                </li>
+            
+            
+                <li class="ninja">
+
+<div class="cmnt post-only" data-id="ab89e2b9-c803-40f8-a576-267494b3f9e5" id="comment-ab89e2b9-c803-40f8-a576-267494b3f9e5" data-created="2018-02-17T06:59:27.510Z" data-modified="2018-02-17T06:59:27.510Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="customer">
+                    <span class="info">Mustafa K</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-02-17T06:59:27.510Z" title="2018-02-17T06:59:27.510Z">02.16.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            dear uriah,<br>how would we save data back in my xaf web application<br>i am trying to do this in default listview which opens up for each object.&nbsp;<br>i want user to change and save the records either one save button click to save all changes in one go or as soon as you make the changes and popup closes it saves in database.<br><br>pls advise. 
+        </div>
+        
+
+
+</div>
+
+                </li>
+            
+            
+                <li class="ninja">
+
+<div class="cmnt post-only" data-id="762f182b-031e-47ce-95b9-1f1ea9e4fbec" id="comment-762f182b-031e-47ce-95b9-1f1ea9e4fbec" data-created="2018-02-17T07:50:59.200Z" data-modified="2018-02-17T07:50:59.200Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="customer">
+                    <span class="info">Mustafa K</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-02-17T07:50:59.200Z" title="2018-02-17T07:50:59.200Z">02.16.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            dear uriah,<br><br>you know default behaviour of listview, when you click a row immideately it takes you to detail view.<br>it is not opening up the popup edit form. 
+        </div>
+        
+
+
+</div>
+
+                </li>
+            
+            
+                <li class="ninja">
+
+<div class="cmnt post-only" data-id="67d33558-02d3-45e9-863a-08e9587e439b" id="comment-67d33558-02d3-45e9-863a-08e9587e439b" data-created="2018-02-17T08:49:50.780Z" data-modified="2018-02-17T08:49:50.780Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="customer">
+                    <span class="info">Mustafa K</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-02-17T08:49:50.780Z" title="2018-02-17T08:49:50.780Z">02.17.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            dear uriah,<br><br>you know default behaviour of listview, when you click a row immideately it takes you to detail view.<br>it is not opening up the popup edit form. 
+        </div>
+        
+
+
+</div>
+
+                </li>
+            
+            
+                <li class="ninja">
+
+<div class="cmnt post-only" data-id="7705d093-7add-48de-bd9d-e4dbf899d995" id="comment-7705d093-7add-48de-bd9d-e4dbf899d995" data-created="2018-02-17T08:52:09.990Z" data-modified="2018-02-17T08:52:09.990Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="customer">
+                    <span class="info">Mustafa K</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-02-17T08:52:09.990Z" title="2018-02-17T08:52:09.990Z">02.17.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            for the time being , i am putting the edit form to inline edit ( which i dont want but to provide some solution temporarily, by the time you reply), if you see the video. after clicking save and refresh it does not actually saves in database.
+        </div>
+        
+
+
+</div>
+
+                </li>
+            
+            
+                <li class="ninja">
+
+<div class="cmnt post-only" data-id="73110165-cb64-4b4c-93ec-4dce609e4b89" id="comment-73110165-cb64-4b4c-93ec-4dce609e4b89" data-created="2018-02-17T09:51:10.180Z" data-modified="2018-02-17T09:51:10.180Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="customer">
+                    <span class="info">Mustafa K</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-02-17T09:51:10.180Z" title="2018-02-17T09:51:10.180Z">02.17.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            sorry forgot to attach the video
+        </div>
+        
+
+            <div class="cmnt-file">
+                    <a target="_blank" href="/Support/Center/Attachment/GetAttachmentFile/4151cc88-d3eb-4188-a370-37dad69318b8"
+                       class="attachment" title="" rel="nofollow">2018-02-17_1148.swf</a>
+
+            </div>
+
+</div>
+
+                </li>
+            
+            
+                <li class="ninja">
+
+<div class="cmnt post-only" data-id="416be9ad-a626-4e82-85a6-a7456588ae89" id="comment-416be9ad-a626-4e82-85a6-a7456588ae89" data-created="2018-02-18T15:40:48.520Z" data-modified="2018-02-18T15:40:48.520Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="customer">
+                    <span class="info">Mustafa K</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-02-18T15:40:48.520Z" title="2018-02-18T15:40:48.520Z">02.18.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            i tried using "Batch" option, but it also does not actually commits to database.<br>pls advise what is missing.<br><br>and other thing i noted in Batch mode is i could not edit Reference field, so is there any near future plan to allow to edit reference field as dropdown or something.<br><br>and will i b able to edit refrence fields based on above approach you posted.<br><br>kindly reply 
+        </div>
+        
+
+
+</div>
+
+                </li>
+            
+            
+                <li class="ninja">
+
+<div class="cmnt post-only" data-id="4bf9f0ee-2db5-416c-8da4-43c86406f809" id="comment-4bf9f0ee-2db5-416c-8da4-43c86406f809" data-created="2018-02-19T15:53:20.960Z" data-modified="2018-02-19T15:53:20.960Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="employee">
+                    <span class="info">Uriah (DevExpress Support)</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-02-19T15:53:20.960Z" title="2018-02-19T15:53:20.960Z">02.19.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            Hello Mustafa,<br><br>Please give us additional time to test this solution in an XAF application. We will get back to you as soon as possible.
+        </div>
+        
+
+
+</div>
+
+                </li>
+            
+            
+                <li class="ninja">
+
+<div class="cmnt post-only" data-id="f6bec22b-ce67-43df-aedb-7aec315a84f1" id="comment-f6bec22b-ce67-43df-aedb-7aec315a84f1" data-created="2018-02-20T12:47:52.817Z" data-modified="2018-02-20T12:47:52.817Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="employee">
+                    <span class="info">Uriah (DevExpress Support)</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-02-20T12:47:52.817Z" title="2018-02-20T12:47:52.817Z">02.20.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            Hello Mustafa,<br><br>Thank you for your patience. I am afraid that we cannot determine why changes are not saved to the database without reproducing this issue locally. Can you reproduce it in a simple project using your classes and XAFML files? If so, please attach a sample project. We will research it and provide you with a solution.
+        </div>
+        
+
+
+</div>
+
+                </li>
+            
+            
+                <li class="ninja">
+
+<div class="cmnt post-only" data-id="883d738b-79d0-4428-96b0-1649213fc6ee" id="comment-883d738b-79d0-4428-96b0-1649213fc6ee" data-created="2018-02-20T16:18:36.437Z" data-modified="2018-02-20T16:18:36.437Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="customer">
+                    <span class="info">Mustafa K</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-02-20T16:18:36.437Z" title="2018-02-20T16:18:36.437Z">02.20.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            ok uriah, i will try to send you the sample project.<br>but with respect to Paul reply, i had raised few issues, if you could reply to that.<br><br><br>how would we save data back in my xaf web application<br>i am trying to do this in default listview which opens up for each object.&nbsp;<br>i want user to change and save the records either one save button click to save all changes in one go or as soon as you make the changes and popup closes it saves in database.<br>you know default behaviour of listview, when you click a row immideately it takes you to detail view.<br>it is not opening up the popup edit form. 
+        </div>
+        
+
+
+</div>
+
+                </li>
+            
+            
+                <li class="ninja">
+
+<div class="cmnt post-only" data-id="cd74cab9-6862-40ee-97dc-b58cfaa8d6a4" id="comment-cd74cab9-6862-40ee-97dc-b58cfaa8d6a4" data-created="2018-02-21T15:19:51.870Z" data-modified="2018-02-21T15:19:51.870Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="employee">
+                    <span class="info">Andrey K (DevExpress Support)</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-02-21T15:19:51.870Z" title="2018-02-21T15:19:51.870Z">02.21.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            Hello,<br><br>We need additional time to answer your questions. Please bear with us.<br><br>Thanks,<br>Andrey
+        </div>
+        
+
+
+</div>
+
+                </li>
+            
+            
+                <li class="ninja">
+
+<div class="cmnt post-only" data-id="2f4fb736-91ef-49df-8cd8-65007a4f06e7" id="comment-2f4fb736-91ef-49df-8cd8-65007a4f06e7" data-created="2018-02-23T15:31:38.880Z" data-modified="2018-02-23T15:31:38.880Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="customer">
+                    <span class="info">Mustafa K</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-02-23T15:31:38.880Z" title="2018-02-23T15:31:38.880Z">02.23.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            dear andrey,&nbsp;<br>pls find attached sample for Batch edit mode and sample project, it is NOT saving. hope this helps to investigate.<br>secondly, if you want you can create this as separate ticket, because my ultimate aim was the first video i posted in.<br><br>so appreciate if you could add a usercontrol with aspxgridview in my sample project  and made Paul's sample working.<br><br> 
+        </div>
+        
+
+            <div class="cmnt-file">
+                    <a target="_blank" href="/Support/Center/Attachment/GetAttachmentFile/5351caa6-568a-4123-8bf8-fe2b27a35ce6"
+                       class="attachment" title="" rel="nofollow">devexp.zip</a>
+
+            </div>
+
+</div>
+
+                </li>
+            
+            
+                <li class="ninja">
+
+<div class="cmnt post-only" data-id="c9b161af-10c8-4dbc-b4bb-5c495e75a7f5" id="comment-c9b161af-10c8-4dbc-b4bb-5c495e75a7f5" data-created="2018-02-26T07:07:23.170Z" data-modified="2018-02-26T07:07:23.170Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="customer">
+                    <span class="info">Mustafa K</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-02-26T07:07:23.170Z" title="2018-02-26T07:07:23.170Z">02.25.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            any updates dear.
+        </div>
+        
+
+
+</div>
+
+                </li>
+            
+            
+                <li class="ninja">
+
+<div class="cmnt post-only" data-id="9b3ab099-55c4-45b3-b00e-b441738b2410" id="comment-9b3ab099-55c4-45b3-b00e-b441738b2410" data-created="2018-02-26T15:01:30.547Z" data-modified="2018-02-26T15:01:30.547Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="employee">
+                    <span class="info">Uriah (DevExpress Support)</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-02-26T15:01:30.547Z" title="2018-02-26T15:01:30.547Z">02.26.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            Hello Mustafa,<br><br>Please accept our apologies for the delayed response. We have managed to reproduce the issue in your sample project, but have not yet found any solution. Please bear with us. We will get back to you as soon as possible.
+        </div>
+        
+
+
+</div>
+
+                </li>
+            
+            
+                <li class="ninja">
+
+<div class="cmnt post-only" data-id="73a4d0a9-61f4-4512-ba29-ffb9ca7e6031" id="comment-73a4d0a9-61f4-4512-ba29-ffb9ca7e6031" data-created="2018-02-27T15:23:50.307Z" data-modified="2018-02-27T15:23:50.307Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="customer">
+                    <span class="info">Mustafa K</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-02-27T15:23:50.307Z" title="2018-02-27T15:23:50.307Z">02.27.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            dear uriah,&nbsp;<br>like i said attached grid sample in previous post is workar ound solution ( which you guys will come back with solution) but i am original requirement is what paul replied and i want to achieve that.&nbsp;<br>so i appreciate if you can attach the usercontrol sample in my sample and resend.<br><br>thanks 
+        </div>
+        
+
+
+</div>
+
+                </li>
+            
+            
+                <li class="ninja">
+
+<div class="cmnt post-only" data-id="19aaa5ed-6499-4fe1-b698-09ddd22435bf" id="comment-19aaa5ed-6499-4fe1-b698-09ddd22435bf" data-created="2018-03-01T22:29:16.270Z" data-modified="2018-03-01T22:29:16.270Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="employee">
+                    <span class="info">Uriah (DevExpress Support)</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-03-01T22:29:16.270Z" title="2018-03-01T22:29:16.270Z">03.01.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            Hello Mustafa,<br><br>Thank you for your patience.<br><br>ListView does not save changes in our sample project because the Employee class properties do not conform to <a href="/Support/Center/p/A2944.aspx" data-ticket="A2944">XPO Best Practices</a>. To fix this issue, change property definitions as shown below:<br>
+<pre class="cr-code"><div class="cr-langtitle">[C#]</div><code><span class="cr-aspx-text">public</span> <span class="cr-aspx-text">string</span> <span class="cr-aspx-string">Code</span> <span class="cr-aspx-string">{</span>
+    <span class="cr-aspx-text">get</span> <span class="cr-aspx-string">{</span> <span class="cr-aspx-text">return</span> <span class="cr-aspx-string">GetPropertyValue</span><span class="cr-aspx-string">&lt;</span><span class="cr-aspx-text">string</span><span class="cr-aspx-string">&gt;</span><span class="cr-aspx-string">(</span><span class="cr-aspx-tag">&quot;Code&quot;</span><span class="cr-aspx-string">)</span><span class="cr-aspx-string">;</span> <span class="cr-aspx-string">}</span>
+    <span class="cr-aspx-text">set</span> <span class="cr-aspx-string">{</span> <span class="cr-aspx-string">SetPropertyValue</span><span class="cr-aspx-string">(</span><span class="cr-aspx-tag">&quot;Code&quot;</span><span class="cr-aspx-string">,</span> <span class="cr-aspx-text">value</span><span class="cr-aspx-string">)</span><span class="cr-aspx-string">;</span> <span class="cr-aspx-string">}</span>
+<span class="cr-aspx-string">}</span></code></pre>
+<br>Also, I attached the modified project demonstrating how to implement the solution described by Paul in an XAF application. Refer to the testlistview1.Module.Web\Controllers\AdvancedInlineEditController.cs file for details.
+        </div>
+        
+
+            <div class="cmnt-file">
+                    <a target="_blank" href="/Support/Center/Attachment/GetAttachmentFile/e331a6a4-f629-466b-b05b-2a4bc2901816"
+                       class="attachment" title="" rel="nofollow">testlistview1.zip</a>
+
+            </div>
+
+</div>
+
+                </li>
+            
+            
+                <li class="ninja">
+
+<div class="cmnt post-only" data-id="2ed50992-49e9-4b5a-9b39-13b1b18ed1f2" id="comment-2ed50992-49e9-4b5a-9b39-13b1b18ed1f2" data-created="2018-03-04T14:05:31.640Z" data-modified="2018-03-04T14:05:31.640Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="customer">
+                    <span class="info">Mustafa K</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-03-04T14:05:31.640Z" title="2018-03-04T14:05:31.640Z">03.04.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            you mean i will have to rename all properties in my all claases ( which are somewhere around 100+ classes).&nbsp;<br><br>thanks i will go thru the sample for paul 
+        </div>
+        
+
+
+</div>
+
+                </li>
+            
+            
+                <li class="ninja">
+
+<div class="cmnt post-only" data-id="b1561d8c-7038-4521-9da4-9d2abbf78f62" id="comment-b1561d8c-7038-4521-9da4-9d2abbf78f62" data-created="2018-03-04T16:19:25.707Z" data-modified="2018-03-04T16:19:25.707Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="customer">
+                    <span class="info">Mustafa K</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-03-04T16:19:25.707Z" title="2018-03-04T16:19:25.707Z">03.04.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            dear uriah,<br>it did work when i changed the properties and used same like you sample.<br>but pls find attached. i have kept inlinedit mode as Batch, and NewItemRowPosition to be top.<br>when i click new or edit, it does not show Code as editable. it is a reference field to Employee.<br><br>but if i change inlinemode to be Inline then it does show me lookup in edit mode, where i can select employee.<br>so why not in Batch mode. 
+        </div>
+        
+
+            <div class="cmnt-file">
+                    <a target="_blank" href="/Support/Center/Attachment/GetAttachmentFile/b8649ba5-e4e0-4ebc-aca7-9d6ea6f4aad1"
+                       class="attachment" title="" rel="nofollow">error.swf</a>
+
+            </div>
+
+</div>
+
+                </li>
+            
+            
+                <li class="ninja">
+
+<div class="cmnt post-only" data-id="a4f26f65-db76-4db6-a49e-4183ee4d199a" id="comment-a4f26f65-db76-4db6-a49e-4183ee4d199a" data-created="2018-03-05T09:10:22.087Z" data-modified="2018-03-05T09:10:22.087Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="employee">
+                    <span class="info">Uriah (DevExpress Support)</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-03-05T09:10:22.087Z" title="2018-03-05T09:10:22.087Z">03.05.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            Hello Mustafa,<br><br><em><strong>&gt;&gt;</strong> you mean i will have to rename all properties in my all claases ( which are somewhere around 100+ classes).&nbsp;</em><br><br>I suggest that you try to generate classes using the <a href="https://documentation.devexpress.com/CoreLibraries/14810/DevExpress-ORM-Tool/Design-Time-Features/Data-Model-Wizard">Data Model Wizard</a>. It always use the SetPropertyValue method in persistent properties, which is required for correct operation.<br><br><em><strong>&gt;&gt;</strong> it did work when i changed the properties and used same like you sample.</em><br><em><strong>&gt;&gt;</strong> but pls find attached. i have kept inlinedit mode as Batch, and NewItemRowPosition to be top.</em><br><em><strong>&gt;&gt;</strong> when i click new or edit, it does not show Code as editable. it is a reference field to Employee.</em><br><br>Currently, XAF ListView does not support the batch edit mode for reference properties out of the box. As a workaround, we provide the example demonstrating how to implement a custom property editor that supports the batch edit mode: <a href="https://documentation.devexpress.com/eXpressAppFramework/115835/Task-Based-Help/List-Editors/How-to-Edit-a-Reference-Property-in-the-Batch-Edit-Mode">How to: Edit a Reference Property in the Batch Edit Mode</a>.
+        </div>
+        
+
+
+</div>
+
+                </li>
+            
+            
+                <li class="ninja">
+
+<div class="cmnt post-only" data-id="ee14df71-2be5-497f-9abb-9d594da89615" id="comment-ee14df71-2be5-497f-9abb-9d594da89615" data-created="2018-03-05T15:48:40.150Z" data-modified="2018-03-05T15:48:40.150Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="customer">
+                    <span class="info">Mustafa K</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-03-05T15:48:40.150Z" title="2018-03-05T15:48:40.150Z">03.05.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            hi uriah.<br>amazing sample, very close to what exactly business wanted. <br>only issue is now Reference field.<br>when i click reference field "Nationality" in your sample, it opens as text and not popup or dropdown.<br><br>plus it allows me to insert any random text and click update. and on update it does not saves.<br><br>second, what about validations? it will fire on Update button click , same as on SAVE button click in detail view. 
+        </div>
+        
+
+
+</div>
+
+                </li>
+            
+            
+                <li class="ninja">
+
+<div class="cmnt post-only" data-id="4f05a810-1988-43d4-a5d5-e6872477ca62" id="comment-4f05a810-1988-43d4-a5d5-e6872477ca62" data-created="2018-03-05T15:54:16.580Z" data-modified="2018-03-05T15:54:16.580Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="customer">
+                    <span class="info">Mustafa K</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-03-05T15:54:16.580Z" title="2018-03-05T15:54:16.580Z">03.05.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            ok , i override the below function and yes it does go in code behind on UPDATE button click. so i bilieve all kinds of validations will be fired on update button click.<br><br>protected override void OnSaving()<br>&nbsp; &nbsp; &nbsp; &nbsp; {<br>&nbsp; &nbsp; &nbsp; &nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; base.OnSaving();<br>&nbsp; &nbsp; &nbsp; &nbsp; }<br><br><br>&nbsp; &nbsp; &nbsp;&nbsp;<br>
+        </div>
+        
+
+
+</div>
+
+                </li>
+            
+            
+                <li class="ninja">
+
+<div class="cmnt post-only" data-id="04540946-6085-4234-8dfc-8fafae5ab655" id="comment-04540946-6085-4234-8dfc-8fafae5ab655" data-created="2018-03-05T16:17:05.940Z" data-modified="2018-03-05T16:17:05.940Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="customer">
+                    <span class="info">Mustafa K</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-03-05T16:17:05.940Z" title="2018-03-05T16:17:05.940Z">03.05.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            how we can make the edit pop up to open as modal and in center of screen or on top of screen.
+        </div>
+        
+
+
+</div>
+
+                </li>
+            
+            
+                <li class="ninja">
+
+<div class="cmnt post-only" data-id="918ccccd-7297-4625-9ef9-4156aaf4e38b" id="comment-918ccccd-7297-4625-9ef9-4156aaf4e38b" data-created="2018-03-05T16:18:09.517Z" data-modified="2018-03-05T16:18:09.517Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="customer">
+                    <span class="info">Mustafa K</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-03-05T16:18:09.517Z" title="2018-03-05T16:18:09.517Z">03.05.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            in initial post by paul, &nbsp;i wanted to ask if my aspxgridview datasource is from multiple tables, then how would i know which table and which field to modify ?&nbsp;
+        </div>
+        
+
+
+</div>
+
+                </li>
+            
+            
+                <li class="">
+
+<div class="cmnt post-only" data-id="42683cc0-f2e4-4792-b61c-8c1772098fba" id="comment-42683cc0-f2e4-4792-b61c-8c1772098fba" data-created="2018-03-06T09:40:44.093Z" data-modified="2018-03-06T09:40:44.093Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="employee">
+                    <span class="info">Uriah (DevExpress Support)</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-03-06T09:40:44.093Z" title="2018-03-06T09:40:44.093Z">03.06.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            Hello Mustafa,<br><br><em><strong>&gt;&gt;</strong> when i click reference field "Nationality" in your sample, it opens as text and not popup or dropdown.</em><br><em><strong>&gt;&gt;</strong> plus it allows me to insert any random text and click update. and on update it does not saves.</em><br><br>This is because in my example I disabled the <a href="https://documentation.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelView.AllowEdit.property">IModelView.AllowEdit</a> option in the application model. In this mode, ASPxGridListEditor does not add LookupPropertyEditor's edit cell template to ASPxGridView. However, if you enable this option, an additional command column with the <strong>Edit</strong> button will be added to ASPxGridView. I did not yet find an appropriate way to hide this column.<br><br><em><strong>&gt;&gt;</strong> second, what about validations? it will fire on Update button click , same as on SAVE button click in detail view.&nbsp;</em><br><br>I cannot guarantee that built-in XAF client validation will work in this scenario, but server-side validation should work properly, because saving is performed by the XAF data access layer.<br><br><em><strong>&gt;&gt;</strong> how we can make the edit pop up to open as modal and in center of screen or on top of screen.</em><br><br>I created a separate ticket on your behalf to discuss this requirement: <a href="/Support/Center/p/T612735.aspx" data-ticket="T612735">Hot to customize the Edit Form pop-up window</a>.<br><br><em><strong>&gt;&gt;</strong> in initial post by paul, &nbsp;i wanted to ask if my aspxgridview datasource is from multiple tables, then how would i know which table and which field to modify ?</em><br><br>If you are using a built-in XAF ListView, it will automatically save data into appropriate tables using <a href="https://documentation.devexpress.com/CoreLibraries/2041/DevExpress-ORM-Tool/Concepts/Relationships-Between-Objects">Relationships Between Objects</a>. If you are using a <a href="https://documentation.devexpress.com/eXpressAppFramework/114160/Task-Based-Help/Views/How-to-Show-a-Custom-Data-Bound-Control-in-an-XAF-View-ASP-NET">Custom Data Bound Control</a>, you will need to manually handle the <a href="https://documentation.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.RowInserting.event">RowInserting</a> and <a href="https://documentation.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.RowUpdating.event">RowUpdating</a> events. We have a simple example demonstrating how to use these events to implement a custom data storage layer: <a href="/Support/Center/p/E257.aspx" data-ticket="E257">ASPxGridView - Editing an in-memory dataset</a>. The concept demonstrated in this example can be used in your scenario.
+        </div>
+        
+
+
+</div>
+
+                </li>
+            
+            
+                <li class="">
+
+<div class="cmnt post-only" data-id="9dbf00d7-6e12-41f5-92bf-01784714b59a" id="comment-9dbf00d7-6e12-41f5-92bf-01784714b59a" data-created="2018-03-06T13:14:59.553Z" data-modified="2018-03-06T13:14:59.553Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="employee">
+                    <span class="info">Uriah (DevExpress Support)</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-03-06T13:14:59.553Z" title="2018-03-06T13:14:59.553Z">03.06.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            <em><strong>&gt;&gt;</strong> However, if you enable this option, an additional command column with the <strong>Edit</strong> button will be added to ASPxGridView. I did not yet find an appropriate way to hide this column.</em><br><br>There is a simple workaround that you can use if you do not need to show any command columns. Add the following code to the AdvancedInlineEditController.SetupGrid method:<br>
+<pre class="cr-code"><div class="cr-langtitle">[C#]</div><code><span class="cr-aspx-text">foreach</span> <span class="cr-aspx-string">(</span><span class="cr-aspx-string">GridViewColumn</span> <span class="cr-aspx-string">column</span> <span class="cr-aspx-text">in</span> <span class="cr-aspx-string">grid</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">Columns</span><span class="cr-aspx-string">)</span> <span class="cr-aspx-string">{</span>
+    <span class="cr-aspx-string">GridViewCommandColumn</span> <span class="cr-aspx-string">commandColumn</span> <span class="cr-aspx-string">=</span> <span class="cr-aspx-string">column</span> <span class="cr-aspx-text">as</span> <span class="cr-aspx-string">GridViewCommandColumn</span><span class="cr-aspx-string">;</span>
+    <span class="cr-aspx-text">if</span><span class="cr-aspx-string">(</span><span class="cr-aspx-string">commandColumn</span> <span class="cr-aspx-string">==</span> <span class="cr-aspx-text">null</span><span class="cr-aspx-string">)</span> <span class="cr-aspx-text">continue</span><span class="cr-aspx-string">;</span>
+    <span class="cr-aspx-string">commandColumn</span><span class="cr-aspx-string">.</span><span class="cr-aspx-string">Visible</span> <span class="cr-aspx-string">=</span> <span class="cr-aspx-text">false</span><span class="cr-aspx-string">;</span>
+<span class="cr-aspx-string">}</span></code></pre>
+        </div>
+        
+
+            <div class="cmnt-file">
+                    <a target="_blank" href="/Support/Center/Attachment/GetAttachmentFile/4aa7ac63-bb6a-451d-a67b-e71a8b7c08d8"
+                       class="attachment" title="" rel="nofollow">testlistview1.zip</a>
+
+            </div>
+
+</div>
+
+                </li>
+            
+            
+                <li class="">
+
+<div class="cmnt post-only" data-id="a79b1e98-e714-4d2c-a5d4-990d627d28eb" id="comment-a79b1e98-e714-4d2c-a5d4-990d627d28eb" data-created="2018-03-11T16:32:06.220Z" data-modified="2018-03-11T16:32:06.220Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="customer">
+                    <span class="info">Mustafa K</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-03-11T16:32:06.220Z" title="2018-03-11T16:32:06.220Z">03.11.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            dear uriah,&nbsp;<br>ur sample is working exactly as expected, but now when i integrated with my main project, it is not working .<br><br>i cant send you the full projects, thats why i am recording the video and sending it to you.<br><br>pls check and advise.<br><br>popup is not opening and it is not going in grid_Callback also.<br><br>plus i want to enable it for certain TargetObjectTypes only and not all objecttypes. but it is getting fired for all listviews. 
+        </div>
+        
+
+            <div class="cmnt-file">
+                    <a target="_blank" href="/Support/Center/Attachment/GetAttachmentFile/681289f4-9c1f-4c80-85ec-34eac9b2d95f"
+                       class="attachment" title="" rel="nofollow">error.swf</a>
+
+            </div>
+
+</div>
+
+                </li>
+            
+            
+                <li class="">
+
+<div class="cmnt post-only" data-id="db7a5188-28e9-44bd-8a81-e2681a214171" id="comment-db7a5188-28e9-44bd-8a81-e2681a214171" data-created="2018-03-11T16:55:36.150Z" data-modified="2018-03-11T16:55:36.150Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="customer">
+                    <span class="info">Mustafa K</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-03-11T16:55:36.150Z" title="2018-03-11T16:55:36.150Z">03.11.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            ok i got the issue. and its solved.<br>but now like i said  , how can i enable this functionality for limited target object types only.
+        </div>
+        
+
+
+</div>
+
+                </li>
+            
+            
+                <li class="">
+
+<div class="cmnt post-only" data-id="6696a899-0766-418e-adc3-a608a6f79c62" id="comment-6696a899-0766-418e-adc3-a608a6f79c62" data-created="2018-03-12T07:12:56.890Z" data-modified="2018-03-12T07:12:56.890Z" data-private="0">
+    <div class="cmnt-meta">
+        <div class="user">
+                <div class="employee">
+                    <span class="info">Uriah (DevExpress Support)</span>
+                        <abbr role="datetime" class="date prettify" data-datetime="2018-03-12T07:12:56.890Z" title="2018-03-12T07:12:56.890Z">03.12.2018</abbr>
+
+                </div>
+        </div>
+        <div class="toolbar">
+            <ul class="bar">
+            </ul>
+        </div>
+    </div>
+    <div class="cmnt-data post-text-block">
+        <div class="cmnt-text">
+            Hello Mustafa,<br><br>I am happy to hear that you have managed to resolve the first issue. As for your second question, you can use the <a href="https://documentation.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.ViewController.TargetViewId.property">Controller.TargetViewId</a> property to specify the semicolon-separated list of View identifiers (the Id property value in the Model) for which a Controller can be activated.
+        </div>
+        
+
+
+</div>
+
+                </li>
+            
+
+</ul>
+<div class="cmnts-footer cmnts-controls">
+    <div class="show-cmnts-btn ">
+        <span class="show-cmnts-text" data-text="Hide comments">Show all comments</span>
+    </div>
+        <a class="leave-cmnts-btn">
+            <span class="leave-cmnts-text" data-active-text="Cancel" data-disactive-text="Leave a Comment">
+                Leave a Comment
+            </span>
+        </a>
+</div>
+
+
+<div class="add-comment-form inactive" style="display: none;">
+        You must&nbsp;
+            <a href="https://www.devexpress.com/Account/SignIn/?returnUrl=https://www.devexpress.com/Support/Center/Question/Details/T605213/aspxgridview-how-to-edit-only-one-cell-at-a-time-in-a-popup-window/focus-answer-eff96525-d2c9-4e2d-b128-29908df2a600" class="blue">log in</a>
+            &nbsp;or&nbsp;
+            <a href="https://www.devexpress.com/Account/SignIn/?returnUrl=https://www.devexpress.com/Support/Center/Question/Details/T605213/aspxgridview-how-to-edit-only-one-cell-at-a-time-in-a-popup-window/focus-answer-eff96525-d2c9-4e2d-b128-29908df2a600" class="blue">register</a>
+        &nbsp;to leave comments
+</div>
+
+            </div>
+    </div>
+</div></div>
+
+    <div class="footer-buttons" style="float: right; display: block; margin: 40px 0px;">
+            </div>
+    <div class="clear"></div>
+</div>
+
+    </div>
+        <div id="sidebar">
+            
+            <dl class="module">
+        <dt>ID:</dt>
+        <dd>T605213</dd>
+        <dt>Created On:</dt>
+        <dd>    <abbr role="datetime" class="date" data-datetime="2018-02-11T17:02:59.263Z" title="2018-02-11T17:02:59.263Z">02.11.2018</abbr>
+</dd>
+            <dt>Modified On:</dt>
+            <dd id="question-modified-on">    <abbr role="datetime" class="date" data-datetime="2018-03-12T07:12:57.170Z" title="2018-03-12T07:12:57.170Z">03.12.2018</abbr>
+</dd>
+                    <dt>Build:</dt>
+            <dd>17.2.5</dd>
+                            </dl>
+                <dl class="module ninja related-articles-holder">
+        <dt>
+            <h4>Related Questions</h4>
+        </dt>
+        <dd>
+            <ul></ul>
+            <div class="show-more">
+                <span class="pseudo-link" data-text="Hide">Show More</span>
+            </div>
+        </dd>
+    </dl>
+
+            <div id="disclaimer">
+                <b>Disclaimer</b>: The information provided on DevExpress.com and its affiliated web properties is provided
+                "as is" without warranty of any kind. Developer Express Inc disclaims all warranties, either express or implied,
+                including the warranties of merchantability and fitness for a particular purpose. Please refer to the
+                <a target="_blank" href="https://www.devexpress.com/Home/Legal.xml">DevExpress.com Website Terms of Use</a> for more information.
+            </div>
+
+    
+
+        </div>
+    <div class="clr">
+    </div>
+</div>
+                            <div class="shadow-block"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer v3 -->
+    <footer id="FooterTop"><section><div class="r-container">
+	<a tabindex="-1" class="Footer-Toggle" data-behavior="Footer-Toggle" href="javascript:;"><span></span></a><div class="Icons">
+		<a tabindex="-1" title="DevExpress Blogs" href="https://community.devexpress.com/blogs/" target="_blank"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+	.orange_icon{fill:#FF7200;}
+</style>
+<path class="orange_icon" d="M14.8,19.6c-1.4,0-2.6,1.2-2.6,2.6s1.2,2.6,2.6,2.6s2.6-1.2,2.6-2.6S16.3,19.6,14.8,19.6z" />
+<path class="orange_icon" d="M18,0C8.1,0,0,8.1,0,18c0,9.9,8.1,18,18,18s18-8.1,18-18C36,8.1,27.9,0,18,0z M14.8,28&#xD;&#xA;	C11.6,28,9,25.4,9,22.2V11.5c0-0.9,0.7-1.6,1.6-1.6c0.9,0,1.6,0.7,1.6,1.6V17c0.8-0.4,1.7-0.6,2.6-0.6c3.2,0,5.8,2.6,5.8,5.8&#xD;&#xA;	C20.6,25.4,18,28,14.8,28z M22.6,22.2c0-4.3-3.5-7.8-7.8-7.8v-3.2c6.1,0,11,4.9,11,11H22.6z M27.8,22.2C27.8,15,22,9.2,14.8,9.2V6&#xD;&#xA;	C23.8,6,31,13.2,31,22.2H27.8z" />
+</svg></a><div class="separator">
+
+		</div><a tabindex="-1" title="Facebook" href="http://www.facebook.com/DevExpress" target="_blank"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+	.facebook_icon{fill:#3D5A98;}
+</style>
+<path class="facebook_icon" d="M18,0C8.1,0,0,8.1,0,18c0,9.9,8,18,18,18V24.3h-4.3v-5H18v-3.7c0-4.3,2.7-6.6,6.5-6.6&#xD;&#xA;	c1.8,0,3.4,0.1,3.9,0.2v4.5l-2.7,0c-2.1,0-2.5,1-2.5,2.4v3.2h4.9l-0.6,5h-4.3v10.9C30.6,33,36,26.1,36,18C36,8.1,27.9,0,18,0z" />
+</svg></a><a tabindex="-1" title="Twitter" href="http://twitter.com/DevExpress" target="_blank"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+	.twitter_icon{fill:#2AA9E0;}
+</style>
+<path class="twitter_icon" d="M18,0C8.1,0,0,8.1,0,18s8.1,18,18,18s18-8.1,18-18S27.9,0,18,0z M28.1,14.3c0,0.2,0,0.4,0,0.6&#xD;&#xA;	c0,6.4-4.9,13.8-13.8,13.8c-2.7,0-5.3-0.8-7.4-2.2c0.4,0,0.8,0.1,1.2,0.1c2.3,0,4.4-0.8,6-2.1c-2.1,0-3.9-1.4-4.5-3.4&#xD;&#xA;	c0.3,0.1,0.6,0.1,0.9,0.1c0.4,0,0.9-0.1,1.3-0.2c-2.2-0.4-3.9-2.4-3.9-4.8c0,0,0,0,0-0.1c0.7,0.4,1.4,0.6,2.2,0.6&#xD;&#xA;	c-1.3-0.9-2.2-2.4-2.2-4c0-0.9,0.2-1.7,0.7-2.4c2.4,2.9,6,4.9,10,5.1c-0.1-0.4-0.1-0.7-0.1-1.1c0-2.7,2.2-4.9,4.9-4.9&#xD;&#xA;	c1.4,0,2.7,0.6,3.5,1.5c1.1-0.2,2.1-0.6,3.1-1.2c-0.4,1.1-1.1,2.1-2.1,2.7c1-0.1,1.9-0.4,2.8-0.8C29.9,12.7,29.1,13.6,28.1,14.3z" />
+</svg></a><a tabindex="-1" title="YouTube" href="http://www.youtube.com/user/DeveloperExpress" target="_blank"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve" width="36px" height="36px">
+<style type="text/css">
+	.youtube_0{fill-rule:evenodd;clip-rule:evenodd;fill:#E2E2E2;}
+	.youtube_1{fill-rule:evenodd;clip-rule:evenodd;fill:#444444;}
+	.youtube_2{fill-rule:evenodd;clip-rule:evenodd;fill:#D62929;}
+	.youtube_3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+<circle class="youtube_0" cx="18" cy="18" r="18" />
+<path class="youtube_1" d="M15.9,6h-1.4l-0.9,3.5l-1-3.5h-1.4c0.3,0.8,0.6,1.7,0.9,2.5c0.4,1.3,0.7,2.2,0.8,2.8V15h1.4v-3.6L15.9,6z&#xD;&#xA;	 M19.5,12.8v-2.3c0-0.7-0.1-1.2-0.4-1.6c-0.3-0.5-0.8-0.7-1.4-0.7c-0.6,0-1.1,0.2-1.4,0.7c-0.3,0.3-0.4,0.9-0.4,1.6v2.3&#xD;&#xA;	c0,0.7,0.1,1.2,0.4,1.6c0.3,0.5,0.8,0.7,1.4,0.7c0.6,0,1.1-0.2,1.4-0.7C19.4,14,19.5,13.5,19.5,12.8z M18.3,13&#xD;&#xA;	c0,0.6-0.2,0.9-0.6,0.9c-0.4,0-0.6-0.3-0.6-0.9v-2.8c0-0.6,0.2-0.9,0.6-0.9c0.4,0,0.6,0.3,0.6,0.9V13z M24,15V8.3h-1.2v5.1&#xD;&#xA;	C22.6,13.8,22.3,14,22,14c-0.2,0-0.3-0.1-0.3-0.3c0,0,0-0.2,0-0.5V8.3h-1.2v5.3c0,0.5,0,0.8,0.1,1c0.1,0.3,0.4,0.5,0.8,0.5&#xD;&#xA;	c0.4,0,0.9-0.3,1.4-0.8V15H24z" />
+<path class="youtube_2" d="M28,23.1c0,1.5,0,3.2-0.4,4.7c-0.2,1.1-1.1,1.8-2.2,1.9C23,30,20.5,30,18,30c-2.5,0-5,0-7.5-0.3&#xD;&#xA;	c-1-0.1-1.9-0.9-2.2-1.9C8,26.3,8,24.6,8,23.1l0,0c0-1.5,0-3.2,0.4-4.7c0.2-1.1,1.1-1.8,2.2-1.9c2.5-0.3,5-0.3,7.5-0.3&#xD;&#xA;	c2.5,0,5,0,7.5,0.3c1,0.1,1.9,0.9,2.2,1.9C28,19.9,28,21.5,28,23.1L28,23.1z" />
+<path class="youtube_3" d="M13.7,19.7v-1.3H9.5v1.3h1.4v7.6h1.3v-7.6H13.7z M16.1,27.4v-0.7c-0.5,0.5-0.9,0.8-1.4,0.8&#xD;&#xA;	c-0.4,0-0.7-0.2-0.8-0.5c-0.1-0.2-0.1-0.5-0.1-1v-5.2h1.2v4.9c0,0.3,0,0.4,0,0.5c0,0.2,0.1,0.3,0.3,0.3c0.2,0,0.5-0.2,0.8-0.6v-5.1&#xD;&#xA;	h1.2v6.6H16.1z M20.7,25.5c0,0.6-0.2,0.9-0.5,0.9c-0.2,0-0.4-0.1-0.6-0.3v-4c0.2-0.2,0.4-0.3,0.6-0.3c0.3,0,0.5,0.3,0.5,0.9V25.5z&#xD;&#xA;	 M21.9,25.4v-2.6c0-0.6,0-1.1-0.1-1.3c-0.2-0.5-0.5-0.7-1-0.7c-0.4,0-0.9,0.2-1.2,0.7v-2.9h-1.2v8.9h1.2v-0.6&#xD;&#xA;	c0.4,0.5,0.8,0.7,1.2,0.7c0.5,0,0.8-0.3,1-0.7C21.9,26.4,21.9,26,21.9,25.4z M25.3,23.3h-1.2v-0.6c0-0.6,0.2-0.9,0.6-0.9&#xD;&#xA;	c0.4,0,0.6,0.3,0.6,0.9V23.3z M26.5,25.3v-0.2h-1.2c0,0.5,0,0.7,0,0.8c-0.1,0.3-0.2,0.5-0.5,0.5c-0.4,0-0.6-0.3-0.6-0.9v-1.2h2.4&#xD;&#xA;	v-1.4c0-0.7-0.1-1.2-0.4-1.6c-0.3-0.5-0.8-0.7-1.4-0.7c-0.6,0-1.1,0.2-1.4,0.7c-0.3,0.3-0.4,0.9-0.4,1.6v2.3c0,0.7,0.1,1.2,0.4,1.6&#xD;&#xA;	c0.3,0.5,0.8,0.7,1.5,0.7c0.6,0,1.1-0.2,1.5-0.7c0.1-0.2,0.2-0.5,0.3-0.7C26.5,25.9,26.5,25.6,26.5,25.3z" />
+</svg></a>
+	</div><div class="h-clear">
+
+	</div>
+</div></section></footer><footer id="FooterExpanding"><section data-role="FooterExpandableContent"><div class="FooterMain">
+	<div class="r-container">
+		<div class="Separator">
+
+		</div><div class="grid">
+			<div class="col col1">
+				<div class="Group">
+					About Us
+				</div><a tabindex="-1" href="https://www.devexpress.com/aboutus/">About DevExpress</a><a tabindex="-1" href="https://www.devexpress.com/aboutus/newsreviews/">News</a><a tabindex="-1" href="https://www.devexpress.com/aboutus/awards/">Our Awards</a><a tabindex="-1" href="https://www.devexpress.com/aboutus/events/">Events, Meetups and Tradeshows</a><a tabindex="-1" href="https://www.devexpress.com/aboutus/testimonials/">User Comments and Case Studies</a><a tabindex="-1" href="https://www.devexpress.com/aboutus/mvp/">MVP Program</a><a tabindex="-1" href="https://www.devexpress.com/aboutus/#logos">Logos and Artwork</a><div class="Group">
+					Frequently Asked Questions
+				</div><a tabindex="-1" href="https://www.devexpress.com/support/eulas/">Product Licensing</a><a tabindex="-1" href="https://www.devexpress.com/support/order/">Purchasing FAQ</a>
+			</div><div class="col col2">
+				<div class="Group">
+					Windows Desktop Controls
+				</div><a tabindex="-1" href="https://www.devexpress.com/products/net/controls/winforms/">WinForms</a><a tabindex="-1" href="https://www.devexpress.com/products/net/controls/wpf/">WPF</a><a tabindex="-1" href="https://www.devexpress.com/products/vcl/">VCL</a><a tabindex="-1" href="https://www.devexpress.com/products/net/controls/win10apps/">UWP (Windows 10)</a><a tabindex="-1" href="https://www.devexpress.com/subscriptions/reporting/">Desktop Reporting</a><div class="Group">
+					Enterprise & Server Tools
+				</div><a tabindex="-1" href="https://www.devexpress.com/products/net/dashboard/">Dashboard</a><a tabindex="-1" href="https://www.devexpress.com/products/net/report-server/">Report & Dashboard Server</a><a tabindex="-1" href="https://www.devexpress.com/products/net/office-file-api/">Office File API</a><div class="Group">
+					iOS, Android, Xamarin
+				</div><a tabindex="-1" href="https://www.devexpress.com/products/native/chart/">Native Mobile UI Controls</a>
+			</div><div class="h-clear hidden-sm">
+
+			</div><div class="col col3">
+				<div class="Group">
+					Web Controls
+				</div><a tabindex="-1" href="https://www.devexpress.com/products/net/controls/asp/">ASP.NET WebForms</a><a tabindex="-1" href="https://www.devexpress.com/products/net/controls/asp/mvc/">ASP.NET MVC and Core</a><a tabindex="-1" href="https://www.devexpress.com/products/net/controls/asp/bootstrap-webforms.xml">Bootstrap WebForms</a><a tabindex="-1" href="https://js.devexpress.com">JS - jQuery, Angular, React</a><a tabindex="-1" href="https://www.devexpress.com/subscriptions/reporting/">Web Reporting</a><div class="Group">
+					Frameworks & Productivity
+				</div><a tabindex="-1" href="https://www.devexpress.com/products/net/application_framework/">XAF - App Framework</a><a tabindex="-1" href="https://www.devexpress.com/products/net/orm/">XPO - ORM Library</a><a tabindex="-1" href="https://www.devexpress.com/products/coderush/">CodeRush for Visual Studio</a><div class="Group">
+					Testing & QA
+				</div><a tabindex="-1" href="http://testcafe.devexpress.com/">TestCafe - Web Testing</a><a tabindex="-1" href="https://logify.devexpress.com">Logify - 24/7 App Monitoring</a>
+			</div><div class="col col4">
+				<div class="Group">
+					Support & Documentation
+				</div><a tabindex="-1" href="https://www.devexpress.com/support/center/">Search the KB</a><a tabindex="-1" href="https://www.devexpress.com/Support/Center/Question/ChangeFilterSet/1?FavoritesOnly=False&amp;MyItemsOnly=True&amp;MyTeamItemsOnly=False&amp;PlatformName=AllPlatforms&amp;ProductName=AllProducts&amp;TicketType=All">My Questions</a><a tabindex="-1" href="https://www.devexpress.com/support/center/example/list">Code Examples</a><a tabindex="-1" href="https://www.devexpress.com/support/demos/">Demos & Getting Started</a><a tabindex="-1" href="https://www.devexpress.com/support/documentation/">Documentation</a><a tabindex="-1" href="https://community.devexpress.com/blogs/">Blogs</a><a tabindex="-1" href="https://www.devexpress.com/trainingcenter/">Training</a><a tabindex="-1" href="https://www.devexpress.com/support/webinars/">Webinars</a><div class="Group">
+					Specifications & Change Logs
+				</div><a tabindex="-1" href="https://www.devexpress.com/support/versions.xml">Supported Technologies, Shipping Versions, Version History</a>
+			</div><div class="h-clear hidden-sm">
+
+			</div><div class="h-clear">
+
+			</div>
+		</div>
+	</div>
+</div><div class="FooterExtra">
+	<div class="r-container">
+		<p>DevExpress engineers feature-complete Presentation Controls, IDE Productivity Tools, Business Application Frameworks, and Reporting Systems for Visual Studio, Delphi, HTML5 or iOS &amp; Android development. Whether using WPF, ASP.NET, WinForms, HTML5 or Windows 10, DevExpress tools help you build and deliver your best in the shortest time possible.</p><p>
+                We are here to help. Should you have any questions or need assistance from a member of our team, write to us at <a href="mailto:info@devexpress.com" tabindex="-1">info@devexpress.com</a>.
+            </p>
+	</div>
+</div></section></footer><footer id="FooterBottom"><section><div class="r-container">
+	<div class="Privacy">
+		
+            Use of this site constitutes acceptance of our <a href="https://www.devexpress.com/aboutus/legal.xml" tabindex="-1">Website Terms of Use</a> and <a href="https://www.devexpress.com/aboutus/privacy-policy.xml" tabindex="-1">Privacy Policy</a>
+	</div><div class="Copyright">
+		Copyright © 1998-2018 Developer Express Inc. All trademarks or registered trademarks are property of their respective owners
+	</div>
+</div></section></footer>
+    <script src="https://www.devexpress.com/Support/Center/Scripts/SharedInit?v=gRp_jcSiFf9SWlOHDnFuypS4FEsDvlwjjq3O_9m8TZE1"></script>
+
+
+    <div id="kit" class="ninja">
+        <input type="hidden" data-key="UserCookieName" data-type="Constant" value="UserCookieDxtExpDefault" />
+        <input type="hidden" data-key="GetHotFix" data-type="Url" value="/Support/Center/Question/GetHotFix" />
+        <input type="hidden" data-key="AssignToFiltered" data-type="Url" value="/Support/Center/Question/GetFilteredAssignTo" />
+        <input type="hidden" data-key="GetFixedInBuilds" data-type="Url" value="/Support/Center/Question/GetAllFixedIn" />
+        <input type="hidden" data-key="FeatureOverview" data-type="Url" value="/Support/Center/FAQ/Overview" />
+        <input type="hidden" data-key="GetBuilds" data-type="Url" value="/Support/Center/Category/GetBuilds" />    
+        <input type="hidden" data-key="RelatedArticles" data-type="Url" value="/Support/Center/Question/RelatedArticles" />
+        <input type="hidden" data-key="AddToFavorite" data-type="Url" value="/Support/Center/Question/AddToFavorite" />
+        <input type="hidden" data-key="RemoveFromFavorite" data-type="Url" value="/Support/Center/Question/RemoveFromFavorite" />
+        <input type="hidden" data-key="ToggleArchiveState" data-type="Url" value="/Support/Center/Question/SetArchiveState" />
+        <input type="hidden" data-key="SetTrackingState" data-type="Url" value="/Support/Center/StopTracking/T605213" />
+        <input type="hidden" data-key="GetProductsByPlatform" data-type="Url" value="/Support/Center/Category/GetProductsByPlatform" />
+        <input type="hidden" data-key="GetProductsByTechnology" data-type="Url" value="/Support/Center/Category/GetProductsByTechnology" />
+        <input type="hidden" data-key="GetOperatingSystems" data-type="Url" value="/Support/Center/Category/GetOperatingSystems" />
+        <input type="hidden" data-key="GetIDEs" data-type="Url" value="/Support/Center/Category/GetIDEs" />
+        <input type="hidden" data-key="AbsoluteContentUri" data-type="Constant" value="/Support/Center/Content/" />
+        <input type="hidden" data-key="EscalateToManagement" data-type="Url" value="/Support/Center/Question/EscalateToManagement" />
+        <input type="hidden" data-key="DismissEscalationToManagement" data-type="Url" value="/Support/Center/Question/DismissEscalationToManagement" />
+        <input type="hidden" data-key="AppriseSupport" data-type="Url" value="/Support/Center/Question/AppriseSupport" />
+        <input type="hidden" data-key="DevExtremeTechnologyId" data-type="Constant" value="a0898f23-ad7a-11e2-bed6-64700200865d" />
+        <input type="hidden" data-key="SendExampleStatistics" data-type="Url" value="/Support/Center/Example/SendExampleStatistics" />
+    </div>
+<script id="notify-jquery-bs">window.jQuery || document.write('<script id="notify-jquery" src=https://www.devexpress.com/Support/Center/Scripts/jQuery?v=1BJELSxm_aQdxsnMwMCu5yjjezikTN4G-JQsmIRruLA1>\x3C/script>')</script>
+<script id="notify-jquery-cookie-bs">jQuery.cookie || document.write('<script id="notify-jquery-cookie" src=https://www.devexpress.com/Support/Center/Scripts/jQuery-Cookie?v=_aB7y09VHXrW0PUo3IrcLSTbO0AMjoEyNvNSzo1rUy81>\x3C/script>')</script>
+<script id="notify-typekit-bs">window.WebFont || document.write('<script id="notify-typekit" src=https://www.devexpress.com/Support/Center/Scripts/TypeKit?v=CvCQ0nxMxYbUIwizBrzRdTDhbGv03PP8_QRXrqgJi3k1>\x3C/script>')</script>
+<script src="https://www.devexpress.com/Support/Center/SiteNotifications/scripts?v=SQ_TesfOShSNPo3hSTeI1piD7Kr0yc0JeO3xlBQ_2ss1"></script>
+<script id="notify-init" type="text/javascript">
+    window.wsNotifications = new NotificationController('https://www.devexpress.com/');
+</script>
+</body>
+</html>
+

@@ -1,0 +1,2 @@
+Is there a way for a sub form (object) to save the parent form (object) when the child from save button is pressed?
+I tried overriding OnSaved on the child object to execute objectSpace.CommitChanges(), but the parent form is still in an unsaved state? 

@@ -1,0 +1,7 @@
+Hi, 
+How to set up max margin to all printers in reports
+For example.
+Report allways use maximum margin for printer.
+Can I do this? 
+Thanks,
+Bartek

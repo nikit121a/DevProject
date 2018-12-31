@@ -1,0 +1,6 @@
+Hello!
+I need to use Hangfire to run scheduled jobs in my XAF Web application. For the purpose of manipulating business objects in job methods, i need to get access to the ObjectSpace.
+I am going to declare static XPObjectSpaceProvider in Global.asax.cs, initialize it with ConnectionString from configuration file and then use it in static methods.
+I use the following code to initialize ObjectSpaceProvider instance:
+Is it enough to make it work? Do i need to somehow collect XPO classes using ReflectionDictionary or something like that? What is the best solution for my case?
+Thank you! 

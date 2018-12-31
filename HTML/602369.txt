@@ -1,0 +1,16 @@
+Hi I saw this example from devexpress many years ago and wonder if how can you make the pd.Document = a xtrareport report ?
+PrintDialogpd=newPrintDialog();
+            PrintDocumentdoc=newPrintDocument();
+            pd.Document=doc;
+            if(pd.ShowDialog()==DialogResult.OK){
+                boolisLandscape=doc.DefaultPageSettings.Landscape;
+            }            
+ie
+PrintDialogpd=newPrintDialog();
+            PrintDocumentdoc=newPrintDocument();
+ 
+            pd.Document=dlreport ;
+ 
+            if(pd.ShowDialog()==DialogResult.OK){
+                boolisLandscape=doc.DefaultPageSettings.Landscape;
+            }             

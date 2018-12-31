@@ -1,0 +1,13 @@
+Since update to 17.2.5 the following problem occurs:
+Create a WPF application with a DXRibbonWindow like the attached sample project.
+1. Use Remote Desktop Connection (RDP) and start this application.
+2. Drop the RDP session.
+3. Reconnect via RDP.
+4. The application crashes:
+
+
+
+
+The problem has high priority for us, because we are releasing a new product version in 4 weeks.
+With best regards,
+Fabian G.

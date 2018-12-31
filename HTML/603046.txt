@@ -1,0 +1,71 @@
+Hi,
+I am facing issues while trying to remove the table columns and export to PDF. The table columns that I had deleted in the word document has been updated in the PDF but table formatting is not updated show some extra lines. There are some UI issues with PDF export. I have attached the source code and the documents along with this. Please revert as soon as possible. 
+using DevExpress.XtraRichEdit;
+using DevExpress.XtraRichEdit.API.Native;
+using System;
+using System.Linq;
+using System.IO;
+namespace RichEditControl
+{
+    class Program
+    {
+        //RichTextEditor
+        static void Main(string[] args)
+        {
+            string fileName = "~\\RichEditDocument1.docx";
+            using (RichEditDocumentServer srv = new RichEditDocumentServer())
+            {
+                Document doc = srv.Document;
+                doc.LoadDocument("~\\Template.docx", DocumentFormat.OpenXml);
+                doc.BeginUpdate();
+                
+                //Column Name Rename and Remove unused columns
+                ISearchResult searchResult2 = srv.Document.StartSearch("DeliveryDetails", SearchOptions.CaseSensitive, SearchDirection.Backward);
+                while (searchResult2.FindNext())
+                {
+                    var startRange = searchResult2.CurrentResult.Start.ToInt();
+                    var endRange = searchResult2.CurrentResult.End.ToInt();
+                    DocumentRange range1 = doc.CreateRange(startRange, endRange);
+                    ReadOnlyTableCollection tables = srv.Document.Tables.Get(range1);
+                    //Access the first table
+                    Table table2 = tables[0];
+                    srv.Document.Delete(table2.Cell(0, 3).Range);
+                    srv.Document.Delete(table2.Cell(0, 2).Range);
+                    int Index = 0;
+                    string CellText = string.Empty;
+                    Index = table2.FirstRow.Cells.Count; //Cell count of first row
+                    //process rename the column name
+                    for (int k = 1; k < Index; k++)
+                    {
+                        CellText = doc.GetText(table2[0, k].Range);
+                        if (CellText != "\r\n")
+                        {
+                            if (CellText == "Item Code\r\n")
+                            {
+                                srv.Document.Delete(table2.Cell(0, k).Range);                                
+                                doc.InsertText(table2[0, k].Range.Start, "Item ID");
+                            }
+                        }
+                    }
+                    //Get Row count of the table           
+                    int counts = table2.Rows.Count();
+                    int j = 2;
+                    //Delete columns in each rows
+                    for (int i = counts; i > 0; i--)
+                    {
+                        table2.Cell(counts - 1, j).Delete();
+                        counts--;
+                    }
+                }
+                doc.EndUpdate();
+                //Save the document
+                doc.SaveDocument(fileName, DocumentFormat.OpenXml);
+              
+                          
+            }
+            Console.WriteLine("Document is generated.");
+            Console.ReadLine();
+        }
+        
+    }
+}

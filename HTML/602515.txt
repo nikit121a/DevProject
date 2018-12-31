@@ -1,0 +1,7 @@
+Hello,
+I have a XAF application (WIN/WEB) which has about 200 persistent object classes (XPO). 
+I have added the XAF MOBILE project (module.mobile and .mobile) am trying to run the Mobile  app in the browser.
+I have seen that on startup it creates all the views, even those of object that are not interesting for me. So I would like to use in my XAF Mobile model only those objecs (5/6) that are interesting,  avoiding creating all views for unnecessary objecs. 
+I have seen also that all controllers are created in startup process, so the app startup is very slow (10 minutes!)
+How can I resolve this?
+Thank you 

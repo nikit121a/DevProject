@@ -1,0 +1,10 @@
+Please refer to the file "Column Ordering Issue Sample.docx" which is part of the attached sample solution.  It gives all the details and how to use the sample application to show my issue.
+In brief, prior to version 17.2, I was able to bind my custom column definition Order property to the grid's VisibleIndex and thus set ordering, along with the visibility, grouping, sorting and widths.
+As of 17.2, that no longer works.  Binding to VisibleIndex does nothing.  I spent a week reworking my application to come up with another method for obtaining the s ame control over ordering/visibility.  However, in the end I need assistance in:
+1. How to continue to use a single set of column definitions across multiple grids, as I currently do.
+2.  How to update visiblity and ordering in a way that the grid can use without stomping over other grids.  I do this from within a custom column chooser and within a custom grid descendant upon receipt of "things have changed" messenger message.
+3.  The proper event to use or event to handle to detect when I should invoke my ordering/visibility code.
+4. Whether using the table view's UseLegacyColumnVisibleIndexes is a viable long-term solution
+Again, please see the doc for details.  I need more formatting capability than this support question provides.
+Thank you.
+ 

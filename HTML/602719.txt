@@ -1,0 +1,6 @@
+Hello,
+Within the new version of Devexpress 17.2.5 we have experienced a  doted lines on the produced preview (See screenshot).
+While in 17.1.0 it was not visible.  Furthermore a user is able to change a margin.
+How to remove those doted line and prevent user to modify a content of the document? 
+Cheers
+Ioseb 

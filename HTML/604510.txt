@@ -1,0 +1,9 @@
+Dear support,
+we have a data import procedure that works by creating a new ObjectSpace, finding the correct objects, changing some property values and saving the result.
+I found out that the AuditTrail does work in this use case, but only for non delayed property values. As soon as I change a property (e.g. for a String) to delayed the changes are not logged.
+I found this thread: 
+, but that implies that the AuditTrail does not work at all in my scenario. Just to make sure I tried out the code anyway, but it did not help.
+When changing delayed property values in a detail view it does work though. Do you have an idea? Was this a bug maybe?
+PS: I debugged the code a litte bit and found out that in the FullObjectAuditProcessor class, in "FillDiffsCore" the delayed property values seem to be not considered in my use case.
+Thanks
+Bernd

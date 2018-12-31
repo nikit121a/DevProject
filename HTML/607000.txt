@@ -1,0 +1,1 @@
+Using the EUD, when setting the Additional Metadata field on the PDF Export options property, the data entered is not saved, as per the attached video.

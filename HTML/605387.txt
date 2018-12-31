@@ -1,0 +1,1 @@
+I am using DevExpress gridview and I want to display date in client side timezone. Can you please tell me how can I change UTC date to local date time on client side? 

@@ -1,0 +1,4 @@
+Hi
+I am trying to filter the scheduler in adgendview mode by a resource. I have found a similar support ticket (T532389) which appears to be the same query as mine. 
+Can you supply the solution code for ASP.NET VB
+Many thanks

@@ -1,0 +1,4 @@
+I have a bar chart where I'm using a custom ElementTemplate for the SeriesLabel so that I can display it in a particular font and text color. Part of this customisation is removing the colored background on the label.
+The problem comes when the bar is too small to display the label, so the label is moved to sit just outside  the bar. In this case I need to change the text color, since a color that looks okay when displayed on the bar can't be seen clearly when just displayed on the chart background.
+I've attached a solution containing an example.  If you run this you'll see the label for the fourth bar is displayed, but the text is too unclear to read easily.
+ Is there a way to detect when the label is moved and change its template/style accordingly? I'm using MVVM, so I'd like to stay consistent with this if possible.

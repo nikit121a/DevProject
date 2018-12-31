@@ -1,0 +1,16 @@
+All spelling options were checked.
+Faulting application name: devenv.exe, version: 15.0.27130.2027, time stamp: 0x5a6aa180
+Faulting module name: USER32.dll, version: 10.0.16299.125, time stamp: 0xb8f77b3a
+Exception code: 0xc0000005
+Fault offset: 0x000512d3
+Faulting process id: 0x385c
+Faulting application start time: 0x01d3a06bcb04b8e8
+Faulting application path: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\devenv.exe
+Faulting module path: C:\WINDOWS\System32\USER32.dll
+Report Id: 91ab2021-3307-4da2-890c-3c3154497310
+Faulting package full name: 
+Faulting package-relative application ID: 
+I disabled Spell Checker options... and code templates worked correctly - 
+the template that I tried to execute was:
+mv<space> 
+Tim Peer 

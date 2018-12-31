@@ -1,0 +1,2 @@
+I want my gridView to automatically expand the selected row and automatically select the expanded row. I want there to be at most one expanded+selected row at a time. I'd like, if possible, to avoid having to do several server round trips to accomplish this.
+In short, if the user clicks anywhere on the row, I want it to select the row and expand it's detail area (and collapse any existing expanded areas) and if the user clicks on any of the expand icons, I want to expand and select the row (and deselect any other rows). 

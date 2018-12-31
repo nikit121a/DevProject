@@ -1,0 +1,8 @@
+
+Hello,
+Consider toolbar in attached picture. 
+A toolbar contains a BarCheckItem (Enable Radio Group).
+There are BarCheckItems as radio buttons grouped with BarBaseButtonItem.GroupIndex Property (func1, func2, func3).
+3 questions:
+2. Would it be possible to enable the disabled group by clicking on a disabled radio button?
+Thank you for support.

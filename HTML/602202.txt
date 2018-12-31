@@ -1,0 +1,3 @@
+I've seen other people ask this question and the response is usually to modify the PropertyGridControl.DefaultEditors in order to associate different editors with certain data types. However, this isn't a solution in my case.
+My object will have a variety of string type properties, some will need to invoke the folder browser dialogue, others will be simple text editors.
+How else can I configure this? 

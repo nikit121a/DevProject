@@ -1,0 +1,5 @@
+Hello!
+I have a problem with printing "Preview" row from TcxGridDBTableView. Application often (not always) remain  unstable after calling TdxGridReportLink.Preview more than once. I'm experiencing Invalid Pointer Operation during Print Preview or on closing Print Preview or on closing form with TcxGrid or on application closing.
+I'm attaching sample application.  You need to click on "Print" button then "Close Print Preview". Do that several times and usually you get error on third time. Set PrinterLink1.OptionsPreview.Visible to False and problem is gone.
+Thank,
+Lukas. 

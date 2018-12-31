@@ -1,0 +1,7 @@
+I would like to allow a user to click a button which causes a record to be added to a grid, and then have one of the columns in that grid drop down.
+When I try the code below, I get an access violation:
+
+
+
+Can you please let me know how I can accomplish this?
+Thanks!

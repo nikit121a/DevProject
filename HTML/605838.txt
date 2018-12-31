@@ -1,0 +1,7 @@
+Hi,
+I'm working with XtraReports to generate a PDF report. Using XRLabels to display text or to bind object values. 
+when the text in XRLabel is larger than the width we set  to the label, the text is splitting to next line as i set word-wrap property. But the next line is not moving down, due to which the text is overlapping on the below text.
+I need to auto align the lines if the text comes to next line, but should not overlap. Could you please suggest me how can we solve this issue.
+Thank You,
+Adi.
+ 

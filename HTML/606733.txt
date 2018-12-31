@@ -1,0 +1,8 @@
+When an XtraReport using an objectdatasource is saved to a repx file, it (naturally) keeps the full assembly details of the class.
+However, we version our classes every day, so a saved .repx file no longer has the correct details of the assembly.
+Is there any way to manipulate this before/on loading from the repx file?  We know what the simple name of the assembly would be, that doesn't change, but the version is always different and needs to be the version that is running, not the saved version.
+At present we get an exception in LoadLayoutFromXml
+Managed Debugging Assistant 'BindingFailure' 
+  Message=Managed Debugging Assistant 'BindingFailure' : 'The assembly with display name 'DataLayer' failed to load in the 'Load' binding context of the AppDomain with ID 1. The cause of the failure was: System.IO.FileLoadException: Could not load file or assembly 'DataLayer, Version=75.2.18.45, Culture=neutral, PublicKeyToken=51786fbf7083e291' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)'
+(Version would now be 72.2.18.46, for instance in this example)
+ 

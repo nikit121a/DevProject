@@ -1,0 +1,5 @@
+See the attached project.
+Each cell should be displayed with at different precision.
+The edit format is working (click on a cell to activate the editor and you will get the correct precision)  but the DisplayFormat is rendering with whatever value is resolved in the first call to CustomCell edit
+This is with Hotfix18029  and possibly related to 
+  

@@ -1,0 +1,17 @@
+We have a WPF application that is built against v16.1.6 of the DevExpress Components..
+In our application user selections often show a property grid with the values for the selected item.
+The following behaviour has been observed;
+- Windows desktop scaling is set to 125% 
+- User selects an item that has more properties than the property grid can display, so the vertical scroll bars appear
+- user hovers  over the property grid and uses the mouse wheel to scroll the grid
+- The UI completely freezes - no visual updates, and not responding to user input - and looking in the task manager the program is using almost 100% of a single CPU core.
+Recreating the issue in a debugging session i was able to observe that pausing the 'frozen'  application, shows that the main thread seems to be endlessly looping through a render or layout cycle.
+Also, although this issue was originally observed running on a number of Windows 10 systems, I was also able to create the issue in Windows 7 (64-bit)
+The effect can be demonstrated in the WPF demos app that came with the components install.
+- Open the WPF PropertyGrid demo
+- Select the "Category Attributes" example
+- make the window less tall so that the grid needs to be scrolled to see all of the content
+- hover over the grid and scroll up and down with the mouse wheel.
+All assistance in resolving this would be greatly appreciated.
+Thanks
+Sean Brennan

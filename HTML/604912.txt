@@ -1,0 +1,4 @@
+Hi
+Is there a way to find all views to a specific action?
+I know, I can get the property "TargetViewId" of the action and/or  the assigned controller.
+But is there an easier way to get the assigned views in which this action will be shown? 

@@ -1,0 +1,10 @@
+    <script type="text/javascript">
+        function OnRichEditInit(s, e) {
+            var inputElement = document.getElementsByClassName("dxre-inputTarget")[0];
+            if (inputElement.localName == "iframe")
+                inputElement = inputElement.contentDocument || inputElement.contentWindow.document;
+            ASPxClientUtils.AttachEventToElement(inputElement, "keypress", function (e) {
+                console.log(e.keyCode);
+            });
+        }
+    </script>

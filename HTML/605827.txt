@@ -1,0 +1,7 @@
+
+The line number reported in the Code Issues list is 1 less than the line that contains the late bound call. For example, list shows:
+(1233,20) Warning AA0001 : The call is late bound.
+And the code is:
+1233:
+1234:     If (CompToCheck.TrackName = FirstTrackFound) And (Not LimitsChangeDetected) Then
+No big thing. Haven't looked at the source to determine why. (Don't really care - the warning is more accurate and specific than my Awk code.)

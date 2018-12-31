@@ -1,0 +1,4 @@
+Hello,
+ next to the chart showing a LineSeries2D we need to show a visual representation of additional data, that is the mean value and standard deviation (as seen in the added image).
+I thought about adding a second chart  with a RangedBarOverlappedSeries2D, whose top and bottom values define the standard deviation and an additional bar without height atop of it showing the mean value. However, this requires synchronization of the y-Axis of both charts, which worked unreliably at best in an initial test binding lower and upper limits to a view model and transferring changes to the additional chart upon drawing new lines onto the initial chart, thus changing the min and max values of its y-axis.
+Now, I wonder, is this the way to go or does the diagram offer  a better fitting functionality I'm not aware of?

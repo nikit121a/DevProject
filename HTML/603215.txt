@@ -1,0 +1,14 @@
+Hi everyone
+We are currently examining how we could integrate your DevExtreme Product into our Web-Projects. In the process, we had some trouble with the DataGrid in combination with an OData service (created with your Wizard).
+This is our basic setup:
+ODataContext:
+Datasources:
+DataGrid:
+Our Car objects have a CarType, which is an Object on its own. So we set the "expand" property on the Car datasource and use a lookup for the CarType which has its own datasource. Loading and displaying of the data works as expected.
+The only problem now is, as soon as we change the CarType of a Car in the row's lookup, saving the changes fails.
+Analysing the network requests tells me, that such a change tries to update the ID of the child object CarType, which results in an error message from the OData Service, stating "Deep Updates are not supported...". I expected it to update the ForeignKey "CarTypeId" on the parent object.
+I assume we are using these components a wrong way or missed some configurations. Using the CarType object itself as the dataField and setting "valueExpr" to "this" didn't work either.
+ Could you please give us a hint to how we can achieve the expected behaviour?
+Thank you very much and best regards
+David
+ 

@@ -1,0 +1,14 @@
+Hi,
+I need the spreadsheet to be displayed without the "headers" a typical spreadsheet has (0/1/2 and A/B/C) and have set ShowColumnHeaders="False" ShowRowHeaders="False".
+Nevertheless, I need the columns to be resizable with mouse by dragging them on the divider line between the single columns.
+In principle, it is the same requirement as somebody requested already for winforms grid, See 
+.
+1. Am i right this will not work out of box ?
+2. An approach could be to manually intercept mouse-events (mouse move and click) and implement manually.
+However, I am not able to determine if I am "on or next to a" column boundary. Consider the following snippet:
+How can I get the screen position of a cell (Not logical like "A2", but current view pixels,e.g. relative to control scroll range start, like (Rect Left=20, Top=20, Width=200; Heigh=10). Or - even better - for a column ?
+Goal is to calculate the distance to column border this way (If next to it, change mouse cursor).
+This should also work e.g. when scrolling, so just sum up columns PixelWidth is no alternative.
+3. Any other idea how to achieve this - > is important for further usage of control.
+Thank you for your feedback,
+Daniel

@@ -1,0 +1,4 @@
+Good Morning DevExpress,
+I am experiencing a problem with the End User Report Designer for WPF. I am trying to change a Date parameter to allow a user to select Date and Time. I am using the scripting function of the End User Report Designer. I have debugged the script and I can see that the code is being run but it does not change the parameters when previewing the report. 
+Please find a screen shot attached of the script code.
+I am not sure what I am doing incorrectly. 

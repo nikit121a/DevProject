@@ -1,0 +1,4 @@
+Hi!
+I don't know why after to 17.2.5 version, my VS stopped Works how I tried to open some forms.. not all.. some..  
+I tried using VS2012 and VS2017, both stopped, included my backups  source-code..
+helpppp 

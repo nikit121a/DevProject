@@ -1,0 +1,6 @@
+I would like to set up a recurrent event that occurs, for example
+every 5th day, every 15 minutes.
+Can that be done using Xtrascheduler?
+btw, I found those examples useful for setting up a simple recurrence, but I couldn't find something related to complex recurrence
+Cheers,
+Marko 

@@ -1,0 +1,1 @@
+I have a tabbed group item and a group item in two different partial views being shown on the same view. I am calling both partials in the view with the .SetNestedContent(partialViewName). I want these items to align but the group item seems to have more padding then the tabbed group item. How could I go about aligning these items

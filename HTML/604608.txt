@@ -1,0 +1,26 @@
+Hello.
+I'm having difficulty using 2 dx-date-box components, and making range rules between them.
+Use devextreme with angular 5
+There are two different situations. In the first, the user will inform a date in the first component, and in the second component he can only select the date within the month set in the first component.
+In the second situation, the user will enter a date in the first component, and in the second it will only be able to choose a date in the same year selected in the first component.
+I started to build something like this:
+<div class = "dx-field">
+      <div class = "dx-field-label"> Start Date </ div>
+      <div class = "dx-field-value">
+        <dx-date-box # start_date [(value)] = "currentDate"> </ dx-date-box>
+      </ div>
+    </ div>
+    
+    <div class = "dx-field">
+      <div class = "dx-field-label"> Final Date </ div>
+      <div class = "dx-field-value">
+        <dx-date-box #data_fim [(max)] = "maxDate"> </ dx-date-box>
+      </ div>
+    </ div>
+And in the component.ts:
+currentDate = new Date ();
+maxDate = new Date (this.currentDate.getFullYear (), this.currentDate.getMonth () + 1, 0);
+At component startup, the maxDate method works by limiting the date of the second component to only access within the started month.
+However, by changing the value of the first component, it changes the value of [(value)] = "currentDate" by doing the two-way data binding of the angle, but maxDate does not receive this updated value, and does not exchange maxDate.
+Could you help me on how to do this range between 2 dx-date-box?
+I know it has a date range own component, but the client I find confusing to the general public, so it has to be between 2 dx-date-box even. 

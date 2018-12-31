@@ -1,0 +1,9 @@
+Hi,
+   I have used devextreme textbox for email and I want validate email at client side during form submission, kindly provide a demo for the same, I have provided screen shot for actual case where I have leave required field  blank for "Account" and entered wrong email, hence during form submission form show error for Account field, i want same type of error notification for email in case of wrong entry. 
+Code-----------------------------
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.Email, new { @class = "control-label col-sm-3" })
+                                <div class="col-sm-9">
+                                    @Html.DevExtreme().TextBoxFor(m => m.Email)
+                                </div>
+                            </div>

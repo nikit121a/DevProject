@@ -1,0 +1,4 @@
+I am using an EntityInstantFeedbackSource with my GridControl.  I have my main application window setup to be a container for a view.  This view can switch at the user's request, and instances of the underlying ViewModels are kept in a collection.
+The current view is shown in the main window using this container:
+The problem I have is that when a view with a grid is loaded, and then another view is switched to, the  EntityInstantFeedbackSource is firing the  DismissQueryable event.  Then, of course, when the view is brought to current,  GetQueryable is called again.  This has the effect of "resetting" the grid.  Filters and such all go away and everything is reloaded.
+I need to maintain the exact state of the grid through these transitions.  Is there a way to prevent the DismissQueryable? 

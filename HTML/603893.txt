@@ -1,0 +1,8 @@
+
+Hi team,
+The aspxSpreadsheet control is quite useful to us. Meanwhile we have some thoughts to beautify it or to make it a nicer look. Therefore we have a few questions here. If you can help or provide some suggestions, that will be appreciated!
+For all these questions, you can always the your online demo for reference
+3. If I use the aspxSpreadsheet in the modal window, can i adjust the size of modal or aspxSpreadsheet on the fly?
+Thank you!
+Best,
+Jiong

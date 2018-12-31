@@ -1,0 +1,5 @@
+This doesn't make sense to me. I've never run into it but I rarely use a master/detail setup. I have a DevExpress PopupMenu for the master grid rows and also for the Attachments detail grid view rows. I have 2 different DevExpress PopupMenu controls on the form.
+I activate the popup in the MouseUp event. I've been using that strategy for a long time based on advice I got from you folks a while back.
+This is the code for the master view
+This is the code for the detail view
+What I notice happening is when I right click on a master view row, ONLY the gridViewEmailLog_MouseUp code runs. But when I right click on the  gridViewEmailAttachments_MouseUp code, BOTH events run. Is this by design? It seems wrong. Why, if they are SEPARATE views would the master view's event run when right clicking on the detail view?

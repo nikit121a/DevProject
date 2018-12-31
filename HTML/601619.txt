@@ -1,0 +1,4 @@
+Hi
+I was hoping to set a mask against these editors - there is a link to, but  I see in the documentation its not supported?! although no mention of treelistlookup.
+I've got many, many uses of these editors in our ERP software, how can I achieve setting a regex =  "(\(\d\d\d\))?\d{1,3}/\d\d\d/\d\d\d\d"
+Regards Brian 

@@ -1,0 +1,2 @@
+I have an application that needs a sidebar menu that can be toggled as visible or hidden.
+I have seen the menu example but wonder if you have a further example that shows how to contain it in a panel and hide/show it. 

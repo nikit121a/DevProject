@@ -1,0 +1,10 @@
+Hello,
+I am setting up a new theme using the ThemeBuilder and was successful at applying my theme. I think I followed all of the examples at:
+However, when I try to switch to one of the built-in themes, nothing happens.
+In my MainWindow() When I comment out
+The theme drop down works and switches themes.  However, when I try to set my theme with the ThemeManager, it seems to break the built in themes.  When I use the ApplicationThemeHelper.ApplicationThemeName = "My Custom Theme" it seems to work.
+Is this by-design, should I not use the ThemeManager.SetTheme() ?
+ 
+Please advise.
+Thanks much,
+-Timothy

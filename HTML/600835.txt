@@ -1,0 +1,8 @@
+Our customers want to do the following things and we want to ask DevExtreme team if Plot Visualization library supports these features in Angular the 17.2.5 build:
+1) Add/remove the line
+2) Change symbol type
+3) Fill transparency
+4) Change border color
+5) Change border thickness
+6) There should be an ability to add on-plot text for providing information in exported plots. 
+7) Change the legend caption 

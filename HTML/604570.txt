@@ -1,0 +1,4 @@
+I have a TextEdit with the following mask:
+MaskType="RegEx" Mask="\d{4}\p{Lu}{2}?"
+This is for a Dutch zipcode (e.g. '1234AB'), for this use case the last 2 letters are optional.
+If the user has entered a full zipcode including letters, places the cursor after the last number and presses backspace, nothing happens. Is it possible to make it so that the user can remove a number while leaving the letters in place?

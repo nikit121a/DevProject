@@ -1,0 +1,5 @@
+Hi,
+I have a grid with master-detail views. I would like to show the master gridview's check boxes only for group rows.
+The approach like at 
+  does not work well since it also doesn't draw the expand button for the detail view.
+How does the solution needs to be modified to show the detail view's expand button? 

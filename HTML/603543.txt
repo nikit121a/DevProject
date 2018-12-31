@@ -1,0 +1,13 @@
+Guys,
+I cannot set UserCellPadding. It's like this property doesn't exist. 
+In GridView class I found this:
+        //
+        // Summary:
+        //     Gets or sets a Padding structure by which the default cell padding is adjusted.
+        [Browsable(false)]
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        public Padding UserCellPadding { get; set; }
+How can I use this property?
+Thanks,
+Hristina 

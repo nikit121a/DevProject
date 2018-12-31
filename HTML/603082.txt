@@ -1,0 +1,21 @@
+Hi guys,
+I was wondering about a way to use both dxDatagrid and  DevExtreme.AspNet.Data  with Entity Framework' navigation properties.
+I'm using the dxDataGrid with DevExpress.data.AspNet.createStore as Store.
+I've modified the DevExtreme.AspNet.Data  to work with asp.net WebForms (just the DataSourceLoadOptions class, the logic of the query engine
+has not been modified).
+Everything works perfect (pagination,filtering,sorting...) but I cant query the dataBase over foreign keys.
+I've got a table with some columns that are foreign keys to other tables (thus Entity framework creates the proxy for this external key) .
+For example:
+Table Cant:
+Cant_Id -> Integer (Primary Key)
+Codice -> Varchar
+...
+...
+Fil_Id -> Integer (Foreign Key)
+The column Fil_Id is a reference to the table Fil
+I want that the dxDatagrid' Fil_Id column displays not the Fil_Id foreign Key value but some others related entity property values.
+How should i customize the store for that? does the DevExtreme.AspNet.Data allow this kind of behaviour? 
+I know that Entity Framework uses the expression " DbQuery<TResult>.Include(Entity.property)  " to load the related entity through the proxy
+Just tell me if you need some others infos.
+Thanks 
+ 

@@ -1,0 +1,6 @@
+Hi,
+I want to mark required/mandatory fields to  my view so that user can easily make out which fields are mandatory and which are optional.
+I am developing WPF app using DevExpress MVVM  Scaffolding WIzard (Hybrid UI View). I have many Views hence i don't want to do any manual step. I want a out of the box solution like all the fields which are mark as "Not Null" in database table should be marked as mandatory on view. 
+Please suggest how can I achieve this without writing any C# or .xaml code.
+Thanks
+Lokendra Kushwah 

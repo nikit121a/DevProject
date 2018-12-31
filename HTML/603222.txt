@@ -1,0 +1,5 @@
+I have a GridControl with multiple selection performed with a CheckBoxSelectorColum. When a row is selected, a separate grid filled with details is shown
+I'd like to make this grid appear  even when I am just clicking on a row, not the Check box
+I still need to keep the checkbox in for selection, but would like to get the current clicked on item!
+I managed to find an ugly workaround using a HitTest in code behind but would like to see if there is anything else better beforehand. Can you let me know if there is one?
+Thanks 

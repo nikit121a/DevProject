@@ -1,0 +1,7 @@
+Hi,
+Since update, I have the following error when I clear fields:
+            PivotGridControl.Fields.Clear();
+            PivotGridControl.RetrieveFields(PivotArea.FilterArea, false);
+Thanks for your help,
+Ludovic
+ 

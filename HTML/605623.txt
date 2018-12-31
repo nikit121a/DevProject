@@ -1,0 +1,5 @@
+
+Hi guys,
+P.S.: Just little fix into your 
+ there you tell in text we should set CurrentUserApplicationDataFolder into TraceLogLocation but in code example you add ApplicationFolder value into TraceLogLocation it is quite confusing.
+Thanks a lot for advice.

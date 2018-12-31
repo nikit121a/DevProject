@@ -1,0 +1,10 @@
+Hi,
+I am desperately trying to get a CheckBox column into my TreeList.
+I can display the CheckBox but I can't manage to get it editable.
+I need it editable as soon as I display the TreeList. 
+My current approach is  to set the  DataCellTemplateContent:
+But when I display the TreeList I get some javascript error:
+How can I get a CheckBox column that is editable right away?
+Regards,
+Manuel Schneider
+ 

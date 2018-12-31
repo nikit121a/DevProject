@@ -1,0 +1,4 @@
+Just a general question
+Is Optimistic locking built in automatically for an application using a dataset connected to SQL Server using the Xtragrid (Not XAF etc.)
+ thanks,
+Brian 

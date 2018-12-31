@@ -1,0 +1,6 @@
+I used
+            axisX.ActualVisualRange.SetAuto();
+            axisY.ActualVisualRange.SetAuto();
+and it works.
+Is there a way to accomplish this mvvm way and using binding ?
+Thanks 

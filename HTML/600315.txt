@@ -1,0 +1,1 @@
+Is there a way, easily (I've come up with a workaround), to know which radio button in a "groupname" is selected?  I know there's a way with an ASPxRadioButtonList to get the selecteditem, but I can't figure out a simple way with individual buttons with the same groupname.

@@ -1,0 +1,6 @@
+Ciao,
+we've developed a tool using your Diagram control for WPF MVVM  release 16, wich was fine.
+We wanto to use your new release of controls, 17.2.5, but once applied SVG images are showed thicker, seems are grey
+Any ideas?
+Thanks.
+Alessandro

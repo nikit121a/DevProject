@@ -1,0 +1,7 @@
+Hi,
+I have a aspImageSlider with a template, created at runtime. Each slide renders 2 times the template, but it only enters once inside the template definition code. I'm I doing anything wrong?
+The control definition:
+            
+The Template class:
+AS you can see in the screenshot, the template is rendered twice in each slide.
+Thank you

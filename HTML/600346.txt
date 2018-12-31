@@ -1,0 +1,10 @@
+Hi,
+I want to use XAF as a new frontend for a legacy database.
+I already figured out how to map an existing intermediate table for many-to-many relations by using UseAssociationNameAsIntermediateTableName-Attribute.
+My existing intermediate table (MyTaskPerson) has the following structure:
+Id = [PK, Autoincrement, bigint]
+PersonId = FK for Person
+TaskId = FK for Person
+XAF tries to generate an OID PK for the intermediate table which throws an exeption because there is already an PK and we cannot declare two,
+Is it necessary to use the OID instead of my already existing bigint PK?
+Regards

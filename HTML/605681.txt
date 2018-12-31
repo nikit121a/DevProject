@@ -1,0 +1,2 @@
+Tooltip comes ok when loading the chart first time, but every time form reloads (I have months, Quarters, Year selection above the webchart in order to filter data accordingly) the count of period string gets added by 2 (first load:1 occurrence, second load: 3 occurrences and so on).
+Please let me know how to overcome this issue. 

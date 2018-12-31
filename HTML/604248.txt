@@ -1,0 +1,4 @@
+I have a DevExpress license. One of my team members doesn't have one. I know he cannot publish the solution.
+I will publish the final product on the production server. But I wonder if he will have any issue while working on the other part of the project that doesn't have a DevExpress component in it.
+Especially I wonder if he will be able to build a solution locally for his own testing.
+Thanks

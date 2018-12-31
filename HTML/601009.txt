@@ -1,0 +1,7 @@
+Hi,
+I'd like to create form like this:
+O   RADIO_OPTION_1                  [___INPUT_WHEN_OPTION_1_IS_SELECTED____] 
+O   RADIO_OPTION_2                  [___INPUT_WHEN_OPTION_2_IS_SELECTED____] 
+First, I tried to use just 2 RadioButtons with the same group (instead of RadioButtonList), but I have the problem that I cannot select a RadioButton by javascript.
+So, I tried to use RadioButtonList instead but I cannot found any clue how to add textbox between RadioButton in RadioButtonList.
+Could you provide me the solution?

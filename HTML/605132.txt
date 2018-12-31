@@ -1,0 +1,10 @@
+Hi,
+There is a problem in scaling to a different DPI with the header of an TcxGridBandedTableView when the option (view) HeaderAutoHeight is false.
+The header is not scaled based on the DPI setting which I had expected.
+The following code I use to fix this problem manually
+
+
+
+where the "aScaleFactor" is the factor of NewDPI / OldDPI .
+Best Regards
+Rob Renaud

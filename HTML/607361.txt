@@ -1,0 +1,5 @@
+Hello,
+I have attached demo project and Video in which i am facing 2 issues.
+1. when i  see show field list then column name not display in fieldList.
+2 when i have column in filter field area then popup filter not working.
+ 

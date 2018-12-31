@@ -1,0 +1,11 @@
+Dear Devexpress,
+I am using a GridControl to display data. The ItemSource is set to a List<ModelClass>, where the some propreties of that ModelClass are other ModelClasses. 
+To display data in the grid i am using the following xaml:
+<dxg:GridControl.Columns>
+   <dxg:GridColumn FieldName="Name" ReadOnly="True"/>
+   <dxg:GridColumn FieldName="NumberSet" Header="Number set" ReadOnly="True" />
+   <dxg:GridColumn FieldName="Unit.ShortName" Header="Unit" ReadOnly="True"/>
+   <dxg:GridColumn FieldName="Container.ShortName" Header="RDL" ReadOnly="True"/>
+</dxg:GridControl.Columns>
+As you can see, on the third column i am trying to bind to the "ShortName" property of the "Unit" property of the ModelClass that is in the ItemsSource property of the Grid. The "ShortName" property is a string, the "Unit" property is another modelclass. I am experiencing a problem with this approach. Is what ia m trying to achieve the bes approach, or should i perform the binding in a different manner?
+The exceptions are listed in the attachment.

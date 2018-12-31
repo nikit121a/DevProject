@@ -1,0 +1,35 @@
+Hi, what place  i need to add image MenuBar_New to prevent app crash?
+Application information: 
+    Application domain: /LM/W3SVC/1/ROOT-3-131629331507384112 
+    Trust level: Full 
+    Application Virtual Path: / 
+     Machine name: WEB 
+ 
+Process information: 
+    Process ID: 9312 
+    Process name: w3wp.exe 
+    Account name: IIS APPPOOL\.NET v4.5 Classic 
+ 
+Exception information: 
+    Exception type: NullReferenceException 
+    Exception message: Ññûëêà íà îáúåêò íå óêàçûâàåò íà ýêçåìïëÿð îáúåêòà.
+   â DevExpress.ExpressApp.Web.ImageResourceHttpHandler.ProcessRequest(HttpContext context)
+   â DevExpress.ExpressApp.Web.XafHttpHandler.ProcessRequest(HttpContext context)
+   â System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   â System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+ 
+Request informa__-------------------------- DXX.axd?handlerName=ImageResource&name=MenuBar_New&enbl=True&fldr=TemplatesV2Images&v=
+    Request path: /DXX.axd 
+   Is authenticated: True 
+    Authentication Type: Forms 
+    Thread account name: IIS APPPOOL\.NET v4.5 Classic 
+ 
+Thread information: 
+    Thread ID: 272 
+    Thread account name: IIS APPPOOL\.NET v4.5 Classic 
+    Is impersonating: True 
+    Stack trace:    â DevExpress.ExpressApp.Web.ImageResourceHttpHandler.ProcessRequest(HttpContext context)
+   â DevExpress.ExpressApp.Web.XafHttpHandler.ProcessRequest(HttpContext context)
+   â System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   â System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

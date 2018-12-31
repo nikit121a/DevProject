@@ -1,0 +1,4 @@
+Hi.
+Does XtraReport support OpenType Font in windows 7?
+Windows 10 is possible using OpenType Font in XtraReport, But Windows 7 Cannot.
+Why? 

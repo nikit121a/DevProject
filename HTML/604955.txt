@@ -1,0 +1,4 @@
+Hello
+We have a problem with the new scrollbars, when the size of the grid allows to display the last line, it is no longer easily selectable by the mouse.
+Here is an example
+Thank you. 

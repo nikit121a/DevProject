@@ -1,0 +1,4 @@
+Hi
+In my project im using a grid and trying to show the sum in footer using grid summary however the total comes as zero and when i right click ,It gives me option as sum,count etc and when i click on sum option that is when i get the sum .
+Kindly assist 
+Thanks  

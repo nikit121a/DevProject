@@ -1,0 +1,10 @@
+Hi!
+Recurrence is not working with ASPxScheduler by using other trust levels then "Full".
+If you create an appointment with a recurrence and then delete / change one appointment of this recurrence "row" you get a "NULL" error.
+It is not easy to describe so i have attached a sample project and a screencast.
+1. To get this working, you have to add "OleDbPermission" to the trust level. I have also attached the "high" trust level, where the "OleDbPermission" ist configured as needed.
+2. In my attached projekt the trust level of "web.config" (also attached) is set to "Full". Now you can open "kalender.aspx" and view the recurrence appointments on 30. Januar 2018 (tuesday). Everything is working.
+3. Now change trust level to "high" (with modified OleDbPermission). Open "kalender.aspx" again. Now you will get a "NULL" Exception.
+4. Now you have to change in the database at table "Termine" the "Eventtype" of the second row from "4" to "0". Now you will not get the "NULL" Exception, but the appointment is shown on every day and not only on tuesday AND in both resources. You also can not create an new appointment.
+I haven't found any documentation that only "full" trust is supported. this was working with v17.1.
+Dominik

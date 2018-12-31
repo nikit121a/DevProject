@@ -1,0 +1,3 @@
+I have created a custom control created as above. I want the same logic to be applicable for RepositoryItemLookupEdit. I wrote below logic which works however,  I am unable to set custom properties of above control AComboList i.e. ModelName, One2ManyModel, FieldName etc.
+Any advise would be highly appreciated.
+ 

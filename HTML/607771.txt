@@ -1,0 +1,7 @@
+I have attached a sample project showing the functionality missing.
+When you run the app, you will see 2 ComboBoxEdit controls:
+The first has  ApplyItemTemplateToSelectedItem set to False.
+The second has ApplyItemTemplateToSelectedItem set to True.
+On IsMouseOver both ComboBoxEdits change their respective border's color.
+On IsKeyboardFocusWithin only the first ComboBoxEdit's border changes color, while the second does not.
+I wanted to know if you had any idea why this was happening? and if there was a way to fix it so the second ComboBoxEdit's border will pick up the IsKeyboardFocusWithin event? 

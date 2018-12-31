@@ -1,0 +1,1 @@
+After upgrading to version 17.2.5 I noticed a new action appearing in my toolbar, called "Modify Model".  Not sure if one of us unknowingly did something to cause this to appear, but I can't find any information about it.  Can you please explain this item to me?  Thank you.

@@ -1,0 +1,15 @@
+The ASPxHTMEditor currently strips style tags from the body.  However style tags are allowed in the body as of HTML 5.2 which is no a full recommendation.  Furthermore, style tags in the body are supported by almost all browsers.  When will you add support for style tags in the body.
+Example below.
+<html>
+<head>
+   <style>   <!-- this works -->
+        .myclass { color: red; }
+   <style>  
+</head>
+<body>
+<style>  <!-- this is striped but allowed by HTML 5.2 and almost all browsers -->
+      .myclass {font-weight: bold;}
+</style>
+ <span class="myclass">My Text</span>
+</body>
+</html> 

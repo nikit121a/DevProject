@@ -1,0 +1,4 @@
+getting this error while trying to add dropdown for the column in the grid.
+ 
+Can not figure out where is it getting system.string. 
+please help me to solve this issue.

@@ -1,0 +1,6 @@
+Hi,
+I'm trying to create a custom BarStaticItem-class. I tried to follow the example shown in ticket 
+Attached you find the modified example project. Basically, I copied the MyBarButton code and changed the names to "BarStaticTimerItem[...]". My Problem is, that the MyBarButton-item shows up in the context menu of the ExtendedBarManager's add command, but my newly added BarStaticTimerItem does not.
+Could you kindly check the code an tell me, where the problem is?
+Thanks,
+Sascha

@@ -1,0 +1,9 @@
+Hi
+When binding data to my dxChart I first simulate X- and Y-axis by binding the same given field for my datasource on both my argument and value axis.
+By doing it this way, I can visualize one bar taking for my measure.
+But, when I then bind a different argument (to my new datasource), my y-axis is not redrawn. Therefor, my new values will look extremely  tiny.
+I believe  that this is because my value key has never changed it's name from my first binding.
+I'm binding to my dxChart using normal array objects, inside of Angular (IO v5).
+Any idea on what my cause this problem?
+I thing this might me related to the same error as I am experiencing.
+// Erik 

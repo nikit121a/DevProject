@@ -1,0 +1,21 @@
+Hello,
+How can I Hide Group Footer if there is only one row in Detail Section? Can you please provide an example how can we achieve that. 
+For ex: For given following data (State and Order) , I would like to summary for only VA state not for NJ as NJ has only one detail.
+============
+State      Order
+============
+VA            1
+NJ            20
+VA            10
+So In Xtra Report(DevExpress.XtraReports.UI.XtraReport) I would like to show summary for VA not for NJ.
+ 
+=======================
+State                    Order
+=======================
+VA                         1
+VA                         10
+---------------------------------------
+Total Order for VA 11
+--------------------------------------
+NJ                         20
+Thanks 

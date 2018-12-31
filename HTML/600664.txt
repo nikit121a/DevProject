@@ -1,0 +1,4 @@
+I have an xlsx file, when the file is loaded in Microsoft Office Excel, this don't have graphics, but when the file is loaded in the tdxSpreadSheet component graphics are visible.
+The graphics area visible in the A3 cell.
+attachment file: Without graphics.xlsx
+Thank you.

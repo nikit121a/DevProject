@@ -1,0 +1,6 @@
+
+ I have a theme going for the whole app.  These colors conflict.  
+I want to just adjust the colors of the off times.  
+Lunch  light blue with opacity
+outside work hours = light grey w opacity
+Thanks

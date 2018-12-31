@@ -1,0 +1,6 @@
+Hi,
+since the introduction of the new scrollbar I have some issues  with TcxGrid and TcxScheduler.
+At TcxGrid the scrollbar avoids the cellclick. At TcxScheduler there is a very strange behavior with the more events button. I have to wait until I can click it, otherwise a click on the scrollbar will be performed and the scheduler scolls far away from my desired event.
+Please see the screenshots.
+Regards,
+Ollo

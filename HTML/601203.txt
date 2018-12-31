@@ -1,0 +1,1 @@
+When changing the timezone on the Scheduler the current time indicator still shows local time, not the timezone that was selected.

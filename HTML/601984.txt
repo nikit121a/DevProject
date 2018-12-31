@@ -1,0 +1,15 @@
+Hi,
+ 
+I have a TreeListView with a context menu. The content of the context menu is depending on the node type and some other properties.
+ 
+I'm trying to bind the items of the context menu to a property in the view model. It's almost working, with the exception that the context menu starts behaving weirdly when a node without any context menu items is selected. Then the context menu shows up in an unexpected position (see "Context menu with Visibility converter.jpg"). 
+This situation appears if you RMB on "Proxy: q2" in the attached project, and then select another node. Then the context menu seems to be "glued" to the position of "Proxy: q2". 
+ 
+It seems this behavior is related to my using a converter to hide the context menu in the case where there are no items. 
+Without the converter, the context menu is shown as a small, empty square (see "Context menu without Visibility converter.jpg"). 
+ 
+I've seen that the recommended approach to control the context menu content is to use the ShowGridMenu event on the TreeListView. I'm able to get this approach to work, but it's not very MVVM'ish. 
+So, will my binding approach work? Or do I have to depend on the ShowGridMenu event?
+Rgds,
+Petter Ballandby
+ 

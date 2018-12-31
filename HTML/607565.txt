@@ -1,0 +1,25 @@
+Hello,
+I'm using the spellchecher on a form and I would like to show the "asyoutype" visual feedback on all controls of the container at the same time.
+I create the spellchecker by:
+var spellChecker = new DevExpress.XtraSpellChecker.SpellChecker
+                             {
+                                 SpellCheckMode= IsEnabled ? SpellCheckMode.AsYouType : SpellCheckMode.OnDemand
+                             };
+            spellChecker.OptionsSpelling.IgnoreUpperCaseWords = DefaultBoolean.False;
+            spellChecker.OptionsSpelling.IgnoreMixedCaseWords = DefaultBoolean.False;
+            
+            spellChecker.Culture = _currentCultureInfo;
+            spellChecker.CheckAsYouTypeOptions.CheckControlsInParentContainer = true;           
+And I assign it to a "container control:
+  public void CheckContainer(Control control)
+        {
+            var spellChecker = GetSpellChecker();
+            spellChecker.ParentContainer = control;
+            spellChecker.Check(control);
+        }
+However the feedback is only being shown for the editor that have the focus.
+The only way that I found to accomplish this is to create one spellchecker "per" control but it means that I have to manually create it and assign it to each control on a form. Also I'm concerned about the performance in such case.
+Is there any other way to do it?
+Thank you in advance
+Gabriel
+ 

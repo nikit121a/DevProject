@@ -1,0 +1,8 @@
+Dear Support,
+we are evaluating the use of the diagram control in our application.
+I have a container in the template designer bound to a view on my data base. I can see the shapes being populated.
+however, all the shapes are displayed based on the "Layout Kind" setting. meaning in a single line/row...
+I would like the background to be production floor layout image and the containers that are loaded from the database, I'd like to position (based on each container content) on a specific location on the canvas (i.e. the production floor image in the background).
+is this implementation possible with diagram control if so, do you have sample demonstrating how to achieve this?
+Thanks and Regards, Izaks.
+  

@@ -1,0 +1,13 @@
+Hi,
+I'm need to setup the RichEditControls SimpleView.Padding  property in my project.
+According to the documentation it is a System.Windows.Forms.Padding structure and the values are in pixels.
+But the documentation does not precisely mention if these pixels are device independent or not.
+In Wpf Padding properties usually are  System.Windows.Controls.Thickness structures with values in device  independent pixels (DIP in wpf 1/96 inch). 
+Does the SimpleView.Padding property expect device dependent pixel units, so that I have to take into account a conversion if I have the source values in usual  WPF units (device independent pixels = 1/96inch)?
+or
+Does the SimpleView.Padding property already expected device independent pixels and I could omit a conversion on my own?
+Thanks for clarification!
+Best regards,
+Stefan
+Btw: The jumps from Wpf into WinForms are a little bit confusing but I can understand the reasons (according to 
+)

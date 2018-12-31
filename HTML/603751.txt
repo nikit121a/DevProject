@@ -1,0 +1,10 @@
+Hello,
+I am using a Web Control Chart to display my Pivot Grid data.
+Data is # of images every 30 minutes graphed in a Line view type.
+When displayed on the Web Chart Control, the x-axis is only shown hourly, which causes the half hour data point to not be spaced correctly.  
+Need to display x-axis as a to a DateTime scale type with measuring units of minutes so the graph can be displayed correctly.
+I have tried to set the set the diagram parameters programmatically, like so 
+but when I debug the program I get an "
+error. 
+How do I get the my Web Chart to display the information from its PivotGrid Datasource correctly?
+Example: at 9:00 there are 6 images and at 9:30 there are 3. Attached file shows you what the chart looks like

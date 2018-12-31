@@ -1,0 +1,2 @@
+HI!
+How to check / uncheck all columns on CheckListBox doing a click in a single button like example attached, please? 

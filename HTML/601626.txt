@@ -1,0 +1,17 @@
+I fill a read-only TcxTextEdit with a string that is larger then the window:
+TextEditDeclaratieBedrag.Visible   := True;
+TextEditDeclaratieBedrag.EditValue := lText;   
+TextEditDeclaratieBedrag.Hint      := lHint;
+After this the 'cursor' in the TcxTextEdit is positioned behind the text, so that I only see the tail part.
+Example: When lText is 'USD 10,00 + Voorschot: USD 30,00', what I see is ' + Voorschot: USD 30,00'
+How can I 'position' the captionso that I see the start of the string, e.g. 'USD 10,00 + Voorsc'?
+(When I click the control, it updates correctly).
+I tried:
+- SetFocus (error 'Cannot focus an invisible window')
+- CursorPos (error 'Cannot assign a read-only property')
+- SelLength/SelStart (no effect, despite 
+. I even tried toggling Properties.ReadOnly around this)
+- SelectAll (no effect)
+- setting EditingText instead of EditValue (no effect)
+- ClearSelection (no effect)
+- SetSelection(0,0) (no effect)

@@ -1,0 +1,4 @@
+Hello DevExpress,
+I want to make it possible to drag and drop a recurrence appointment from 1 resource to another . Then an exception(changed occurence) must be created. In the schedulerControl_AppointmentsInserted event I get two objects, a deleted one and a new appointment of a Normal type. I want this Normal type be a appointment of ChangedOccurrence type with the index of the deleted appointment. 
+When I want to create the exception an error occured with an invalid recurrenceindex. 
+ 

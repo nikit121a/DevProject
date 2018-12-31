@@ -1,0 +1,21 @@
+Hi Everyones
+I have a issue with snapcontrol , I have two version to Devexpress (15 and 17.2.4)  in both I have the same code, but in the Devexpress 17.2.4 when I try to convert a SnapList to paragraph by code the result is not the same, I attached a image where you can see what happend on Devexpress 17.2.4 and not in older version, when you convert by code a list to paragraph always the system put a field but the width is the same a page, but on Devexpress 15 that never happend, this is my code equals in both version
+ void Document_PrepareSnList(object sender, PrepareSnListEventArgs e)
+        {
+            if (handledList || dataMerge == null)
+                return;
+            e.Template.Fields.ToList().ForEach(field =>
+            {
+                SnapList list = e.Template.ParseField(field) as SnapList;
+                if (list != null)
+                {
+                    list.BeginUpdate();
+                    list.ListHeader.Delete(list.ListHeader.Range);
+                    SnapDocument template = list.RowTemplate;
+                    template.Delete(template.Range);
+                    template.CreateSnText(template.Range.End, "\"" + dataMerge[0].DataPaths[dataMerge[0].DataPaths.Length - 1] + "\"");
+                    list.EndUpdate();
+                }
+            });
+        }
+Please let me know how I get remove the blanc space to final field? ina a picture attachment you wil see a problem 

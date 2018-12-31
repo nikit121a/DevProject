@@ -1,0 +1,6 @@
+Hello
+I have two forms...  One is shown (SplitterOrig.png) and it has the splitters the way I am thinking of going (it is our original form - designed last year).
+The second is a new form I am starting to work on.  In both forms I am using the same splitterControl - and both are using the same skin and same defaultlookandfeel control.  
+I know I must have done something to get it to look the way it does - but I cannot figure it out.   I know I did not modify the skin.  
+Any thoughts as to what I might be missing to change the style of the splitter bar?   
+Bradley

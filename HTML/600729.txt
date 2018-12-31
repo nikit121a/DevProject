@@ -1,0 +1,4 @@
+Hi Team,
+I need the DetailReportBand (containing one Detail band)  to repeat in same page. However both DetailReportBands must start from a fixed position. As of now, I have added a new DetailReportBand (2nd one) and made similar to the first one. But it prints right after first DetailReportBand. Please suggest how to achieve this without using Subreports. Please see the attached screenshot for better reference. Even though first DetailReportBand contains one detail line, still the 2nd Detail Report Band must start from the displayed position.
+Thanks,
+Bhabani 

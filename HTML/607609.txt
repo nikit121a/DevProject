@@ -1,0 +1,2 @@
+Thank you getting back to me.
+I see the issue. but now in the column I am not seeing drop down. I need a drop down in the column so that I can choose any data from the drop down. 

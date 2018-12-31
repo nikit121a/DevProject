@@ -1,0 +1,8 @@
+Hi, 
+I have 2 questions about PdfViewerControl:
+1) is it possible to overwrite the ShowSaveDocumentButton function with its own save function?
+Background: I have a MemoryStream with a PDF document. The presentation in the PdfViewerControl works as far as possible. When saving the PDF document via the PdfViewerControl, the saved PDF document has a size of 849 KB. This is very much for a DIN-A4 page with little text.
+I save the MemoryStream via a stream directly to a file, the PDF document has only a size of 69 KB.
+2) How do I hide the Fit-page-level buttons?
+Thank you,
+Stephan

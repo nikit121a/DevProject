@@ -1,0 +1,7 @@
+Hello,
+I've been looking up this issue in your previous support tickets, but they all seem old and provide solutions that don't quite resolve my issue.
+I have a GridControl where some entries contain DetailDescriptors which, themselves, are two additional GridControls.  All of this data is being updated frequently, and the selection (which is shared among the parent GridControl and all child GridControls) is changing rapidly.  I have a PropertyGrid and a RibbonControl with context-specific controls, so you can imagine the annoyance of being unable to maintain a selection for very long.
+How do I preserve the selection when the source collection is updated? The ViewModel's collection is bound to another collection that is global for the application, so the ViewModel doesn't really know when the updates are going to occur.  This seems to eliminate the solution of resetting the selection after every update (which I find hacky, anyway).  I believe I've found that the WinForms controls have a "PreserveFocusOnDataUpdate" property, so I would expect a similar property in WPF.
+What do you suggest?
+Thanks,
+CK 

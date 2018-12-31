@@ -1,0 +1,3 @@
+I have the above code for the Loaded event of my grid. However it is still calling the all get properties in the entity that are not in the gridcontrol that I am running in my viewmodel which seems to be causing a performance issue.
+My app is using EF, Generated Code HyBrid and my viewmodel has InstantFeedbackCollectionViewModel.
+ 

@@ -1,0 +1,4 @@
+Hi.
+I have a customer viewing some pdf files in a winforms application we developed for them.
+Some pdf displays incorrectly and we have found that in acrobat reader DC the option overprint preview must be selected to the pdf to display correctly.
+I havent found this option in the documentation nor in the code, is the any way to activate it? is it supported in the actual version? 

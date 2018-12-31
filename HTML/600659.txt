@@ -1,0 +1,9 @@
+Hello,
+This question is a bit related to Q278657 
+I have a xtragrid that gets its datasource at runtime  (different from Q278657 I believe)
+I know that the datasource will have a column named "IsSelected"
+I need to detect immediately when the "IsSelected" field has changed
+Partial code:
+It should be noted that there are more then 1 boolean fields in the datasource.
+Thanks in advance for any suggestions.
+ 

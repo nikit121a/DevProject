@@ -1,0 +1,7 @@
+Hi
+I'm trying to keep the ASP.Net Core 2 Environment variables:
+and ...
+If I add all the DevExtreme configuration tags to this structure, DevExtreme doesn't work.
+I tried:
+How can I add the DevExtreme configuration tags to this structure? 
+Regards

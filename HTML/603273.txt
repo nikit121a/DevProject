@@ -1,0 +1,6 @@
+We have a drop down inside the Angular Data Grid which uses "Periods" object as data source. If we add a row in the Grid with PeriodID 1 and then click on the "+" icon to insert a new row, the Drop down should not have text that belongs to PeriodID 1. Since the Display text and the drop down uses the same data source, If I update the data source, I see PeriodID 1 is removed from the drop down, but I see empty text for this column in the Grid. Please advise on how can I update the drop down entries with out removing the text for existing rows.
+<dxi-column dataField="PeriodID" caption="Term" [allowEditing]="true">
+ <dxo-lookup [dataSource]="Periods" displayExpr="text" valueExpr="value">
+ </dxo-lookup>
+ <dxi-validation-rule type="required"></dxi-validation-rule>
+ </dxi-column>

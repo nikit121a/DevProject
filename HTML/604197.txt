@@ -1,0 +1,3 @@
+With DevExpress installed and the LiveBindings designer enabled I am getting a serious AV when I try to right click on a Node in the Project Manager.
+The Stack Trace shows it originates in a dxHooks.dxSystemGetMessageHook in one case, dxHooks.dxSystemMouseHooks in the other
+ 

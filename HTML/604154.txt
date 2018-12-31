@@ -1,0 +1,5 @@
+Hi,
+I added a date box in my form as follows 
+ groupItems.AddSimpleFor(m => m.DBeginDate).Editor(e => e.DateBox().DisplayFormat("MM/dd/YYYY").Width(120).ID("DBeginDate").OnValueChanged("DBeginDate_valueChanged"));
+what i need is i will enter date as 01012017 it should display in date box as  01/01/2017 is it possible 
+i tried the Display format property , place holder property, and  .Type(DateBoxType.Date) 

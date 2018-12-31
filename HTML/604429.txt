@@ -1,0 +1,3 @@
+Hi as per subject my date edit control's format is set to "dd/MM/yyyy" but when i load the control it is "MM/dd/yyyy". When i click the drop down it changes to "dd/MM/yyyy". This is driving me crazy. Can somebody please help.
+Designer code as follow:
+ 

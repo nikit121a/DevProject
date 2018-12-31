@@ -1,0 +1,6 @@
+Hi,
+In an angular JS application, is it possible to configure a rangeslider to have different colours.
+For example, I would like a popup with 4 rangesliders with 4 different colours.....
+I have a created a codepen which copies your demo but I can't find the setting to change the appear colour
+Regards
+Alan 

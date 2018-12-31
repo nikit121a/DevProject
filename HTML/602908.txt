@@ -1,0 +1,5 @@
+Hi,
+A big problem working with the ASPxGridView EditFormTemplates is that you no longer can access the controls within the EditFormTemplate from code but have to do A LOT of  FindEditFormTemplateControl() every time you go into edit mode. Is there no way around that? What are recommended ways of working with a compled EditFormTemplate?
+Regards,
+Patrik Johansson
+ 

@@ -1,0 +1,2 @@
+We regularly receive Toolbox Analyzer logs indicating that users try to install older DevExpress builds in non-supported Visual Studio versions (for example, see 
+). Let's clearly visualize that certain DevExpress builds cannot be installed in specific Visual Studio versions.

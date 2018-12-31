@@ -1,0 +1,5 @@
+Hi, 
+In our application, we added a custom report, where user can create their own pivot grid, user get to select which fields to group and display in the grid and also be able to add custom field from expression field /custom formula. The issue with the custom fields is that the total(sum) result after grouping sometimes is not as expected, as explained in attached image. 
+User has created a custom field [test] with a formula (estimated cost column/ network measure column). Please note that the formula is not fixed, users can come up with any formula, so we cannot incorporate the formula in the program, but their purpose is to derive value from total of field1 and total of field2 from their grouping, and then apply the formula, in this case is total cost divided by total network measure per grouping. 
+The expected [test] field total sum grouped by 'Floor 1' is 7.14. However what the pivot grid has resulted is the the sum of the custom fields. 
+Is there a way to fix this? Appreciate your help. Thank you

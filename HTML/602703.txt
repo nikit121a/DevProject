@@ -1,0 +1,8 @@
+We built a Win forms Dashboard Designer app. The developer created the ribbon items by using the Make Ribbon command from the designer and then used code to remove selected items that we didn't want to let the end user access.
+For some dashboards charts, we want to change some of the formatting/layout but our application doesn't seem to give us any way to do that. Please see the attached screenshot for an example of what we want to be able to change:
+1) Center the chart title (Gauges 1) and increase its font size
+2) Make the Y axis font bold 
+In our app there doesn't seem to be a way to edit these properties of the chart. Based on your documentation, I tried to see if we had removed ribbon items related to Options or Properties but I don't see anything.
+Please let me know how we can alter these chart items and/or how we  can enable editing them from our application.
+Thank you in advance.
+ 

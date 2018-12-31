@@ -1,0 +1,8 @@
+Dear support,
+After installation of registered  WPF components using the installer I noticed that no controls are showing up in the tool box. I can however edit a xaml and add code to reference and use any of the components. After having done that, they show up in the  designer and I can configure them using the property editor.
+I also noticed that the main menu  "DevExpress" is empty except for one entry named "Receive update notifications".
+I removed, reinistalled and repaired  the installation but the problem persists.
+When starting in the company I installed a trial version of the components as I did not have a license then.  
+Any clues? 
+Kind regards
+Mark Sandy 

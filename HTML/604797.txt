@@ -1,0 +1,2 @@
+
+Hello, is there any news about realization? I use expressions for creating custom nonpersistent fields. Now I'm using simple string editor, but expression editor with mathematical, string and other function would be very useful.

@@ -1,0 +1,9 @@
+Hello,
+when exporting a dashboard that is featuring a date range filter, the option to output a filter summary  prints the range "off-by-one".  
+In the example, the date range filter is configured to use the group interval "month-year", the filter is set May 2015 - Dec 2019
+In the exported PDF, the range is printed correctly. The filter summary, however, prints Apr 2015 - Nov 2019.
+Digging through the export process, I found that the request passed to "PerformExportAction" contains
+ "RangeLeft": "2015-04-30T22:00:00.000Z",
+ "RangeRight": "2019-11-30T23:00:00.000Z",
+So maybe some kind of time zone issue is involved? (Germany ->  UTC+1)
+ 

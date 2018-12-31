@@ -1,0 +1,7 @@
+Hi,
+I'm having an issue in a certain window and the only information I have is: 
+Exception thrown: 'DevExpress.Data.Filtering.Exceptions.InvalidPropertyPathException' in DevExpress.Data.v17.2.dll
+Now I'd like to add these messages to NLog.
+For System related exceptions I have this in the app.config:
+I've tried to do the same with DevExpress, but I can't get the exceptions in my NLog engine.
+Could you help me with this?

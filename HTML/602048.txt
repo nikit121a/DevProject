@@ -1,0 +1,1 @@
+I can't get the two controls (BootstrapTimeEdit and BootstrapDateEdit) to display correctly with Bootstrap 4. I found that the right expandable icon drops to the next row and the calendar grid is not lined up.

@@ -1,0 +1,15 @@
+I have a series of UC's, each containing all code to talk to SQL, etc. (self contained)
+I have a 'driver' aspx page that contains a PlaceHolder and a button for choosing which UC to load/execute.
+When fired, the GV does show, but none of the CSE will fire (StartNewRecord, Updte, etc.)
+I'm dynamically loading via in my aspx code behind:
+        Dim ucState As UserControl = Page.LoadControl("~/UserControls/States.ascx")
+        PlaceHolder1.Controls.Add(ucState)
+I've tried reference both in web.config and in the aspx page itself.
+as mentioned, the GV shows no problem.
+I have an             <ClientSideEvents Init="OnInit" /> to set the height of the GV, also no issues.
+I have three separate buttons (ASPxButton) for new, edit, delete. 
+the 'new' button has:                 <ClientSideEvents Click="function (s, e) { OnNewClickStates(s, e); }" />
+which when pressed does not fire.
+I inside a aspx page or loaded up front via uc1:States runat="server" ID="States" /> everything is fine.
+It 'appears' something is not be registered properly for all? CSE's?
+ 

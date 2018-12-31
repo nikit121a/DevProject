@@ -1,0 +1,8 @@
+Dear DevExpress Support Team.
+To the style of "dxb: BarButtonItemLinkControl" like below,
+Is there a way to set multiple "dxmvvm: EventToCommand"?
+I know how to use AssociatedObject of DevExpress.Mvvm.UI.Interactivity.Behavior and how to register multiple events in OnAttached / OnDetaching.
+But, I am looking for another way.
+ I want to process multiple events of "BarButtonItemLinkControl" with commands implemented in ViewModel.
+BestRegards.
+Ken Watanabe 

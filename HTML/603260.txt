@@ -1,0 +1,8 @@
+I found this post, and I seem to be having a similar issue, but this post never seems to have gone anywhere.
+ 
+I have a dual MVC and Webforms environment.  I have a SQL Server table menu source, and a custom IHierarchicalEnumerable class as the menu data source.  I am using this same class for both the MVC and the Webforms masterpage/view.
+The webforms version is working perfect and the menu items are disappearing into the ellipses as the window size decreases.  However, the MVC menu is not working, and the menu items never disappear even though the parent div width does shrink below the width of the menu itself. 
+ As you can see from the screenshot, the rendered menu html is quite different.
+Here is the Webforms code:
+Here is the MVC view code:
+Considering they are both using the same data, and the same class for data source binding, the issue seems most likely to be in the controls, the views, or the configuration.  As near as I can tell I have the relevant html code the same in both places.   So is there a setting I am missing?

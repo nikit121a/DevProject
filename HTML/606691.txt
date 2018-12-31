@@ -1,0 +1,2 @@
+While using TrackBarControl  with Bezier skin at 175% DPI settings track icon doesn't scale correctly.
+It's reproducible with Demo Center, please see attached file.

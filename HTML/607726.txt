@@ -1,0 +1,11 @@
+Hi,
+I would like to point out a couple of errors in the Italian translation of ASPxScheduler.  I am aware I can change those by creating a custom translation (and I actually did), but these completely change the meaning of the labels, so I thought it would be useful to share them with you.
+String ASPxSchedulerStringId.Form_AllDayEvent should read as 'Intera giornata'. The current translation 'Tutti gli eventi del giorno' actually means 'All the events of that day'. 
+String ASPxSchedulerStringId.Form_ButtonDismiss should read as 'Elimina'. The current translation 'Respingere' actually means 'To reject'.
+String ASPxSchedulerStringId.Form_ButtonDismissAll  should read as 'Elimina tutti'. The current translation 'Licenziare tutti' actually means 'Fire them all', as in firing an employee (!).
+String ASPxSchedulerStringId.Form_SnoozeInfo should read as 'Clicca Posponi per rimandare il promemoria a tra:'. The current translation keeps the word 'Snooze' untranslated and uses an awkward phrase structure.
+String ASPxSchedulerStringId.Form_OpenEditForm  should read as 'Apri la finestra di modifica...'. The current translation sounds like 'Open shape edit...'.
+String ASPxSchedulerStringId.Form_StartTime should read as 'Ora di inizio:' . The current translation actually means 'Startup timeout'.
+ 
+I hope to find them corrected in the future,
+Thanks and have a nice day 

@@ -1,0 +1,7 @@
+In my application, I have an option to automatically hide in the scheduler control any resources that aren't available during the displayed date(s), but they must be visible and unchecked in the ResourcesCheckedListBoxControl so they can be shown if an end-user want to.
+First of all, when the form loads, the resources and appointments datatables are assigned to the SchedulerStorage corresponding datasources, with the required mappings to match the column names in the tables. So far so good, I can see all appointments for all resources.
+Now I add the ResourcesCheckedListBoxControl in order to let end-users filter the resources manually. The datasource is set to the same table than my SchedulerStorage resources, again with the required mappings.When running the app, it looks exactly like what I'm expecting with my option, but as soon as I try to show a resources that was initially filtered out of the view, I run into an out of range exception.
+I created a brand new project  with v17.2.5 components and get the exact same issue, I attached the project for you to review.
+This test project will generate a dozen appointments and 4 resources.
+You'll see when you execute that resources #1 and 2 are selected, #3 and 4 aren't. You can change the visibility of resources #1 and 2 easily with the ResourcesCheckedListBoxControl, but as soon as you try the same on resources #3 or 4, the exception is thrown.
+Can you tell me what I need to do to avoid running into this problem?

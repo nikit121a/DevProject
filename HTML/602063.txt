@@ -1,0 +1,2 @@
+The implemented iconset used in my project also provides with SVGs. They are "drawn" on a "width='1024px' height='1024px'"-page. This leads to the little issue, that my coworker can't easily see what's drawn on it (image attached). Is there a setting to activate that the SVGs are resized to the "SvgImage Picker"-preview-border if the svg is bigger?
+ 

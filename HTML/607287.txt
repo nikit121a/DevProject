@@ -1,0 +1,7 @@
+Hello,
+ I am using a dxDataGrid to display some data to the user. My dataSource is an array of objects with two different properties, PointLabel and Point. I would like to generate the columns for the dxDataGrid to be the values of the PointLabel and then a row with the corresponding Point values. Is there a way to do this?
+e.g. Columns: Pt1 Pt2 Pt3 Pt4 Pt5 Pt6 Pt7
+e.g. Row: 4 86.5 169 251.4 333.8 372.4 447.4
+See image for reference. 
+Thanks,
+Jared 

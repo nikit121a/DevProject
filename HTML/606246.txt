@@ -1,0 +1,5 @@
+Hi,
+Is it possible to filter measure for specific value?  it seems only support to f ilter out dimension now?
+Please help.
+Regards,
+Horace 

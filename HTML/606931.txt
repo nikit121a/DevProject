@@ -1,0 +1,1 @@
+One of the reasons for this is the use of a browser's built-in spell checker during data entry; but ti's also very useful when developing to be able to access the Inspect menu.

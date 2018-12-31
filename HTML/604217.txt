@@ -1,0 +1,5 @@
+Hi,
+Is there any option to increase the height of the drop location of the dxFileUploader widget with jQuery?
+the height property of the widget applies on the whole widget but the drop location's size stays fixed.
+thanks,
+Afshin 

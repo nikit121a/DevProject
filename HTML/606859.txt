@@ -1,0 +1,12 @@
+Hi,
+we are using DevExpress WinForms controls in our product and are experiencing following issue.
+When trying to change the text of TreeListNode, exception is thrown: Object is currently in use elsewhere. 
+Please check the complete stacktrace in attachment.
+We have experienced similar issue on several places already and some of my colleagues already reported number of tickets, but they were never resolved.
+Unfortunately this exception is really rare and we cannot reproduce it reliably in our application - so there is not possibility to create sample app where this problem occurs. 
+We would really appreciate if this can be fixed, since we cannot reliably fix it on our side and it's causing issues for our customers.
+ 
+Could you have look at it and answer if there is some workaround or fix we can do?
+In case of any further questions, please contact me on email below. 
+Regards,
+Eduard Krak 

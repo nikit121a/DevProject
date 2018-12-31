@@ -1,0 +1,6 @@
+Hello,
+we use the Xpf Grid with a custom Theme in our product. We only use a TableView.
+Is it possible to strip down the components in the Theme Editor? The current theme  contains all kinds of components which we do not use and whose themes are thus never accessed.
+The theme sources are > 100MB currently and the theme assembly is > 7 MB. Is there a safe way to remove the unused components from the Theme project to reduce the sizes? 
+Regards,
+Janis

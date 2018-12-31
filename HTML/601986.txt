@@ -1,0 +1,4 @@
+Hi Team ,
+I am getting following error to bind bootstarp chart control .
+ DXR.axd?r=1_258,1_165,1_139,1_175,1_142,1_136,24_379,23_38,23_15-HGdcg:12250 Uncaught TypeError: Cannot read property 'Decode' of undefined 
+For more   information please refer the attached video recording .

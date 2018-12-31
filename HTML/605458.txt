@@ -1,0 +1,7 @@
+I have a ListView that has it's DataAccessMode set to Server because of a larger dataset in the list.
+The objects have a compound key, therefor a TypeConverter has been used to get the selection column to show. (
+)
+To be able to change the select all checkbox to select all on page the solution has been converted from 14.1 to 16.1 (
+)
+The problem I have now is that when I select a row or select all rows on the page the page is reloaded and the selection is gone.
+When I switch the DataAccessMode to client (to test) the page is also reloaded but than the selection remains.

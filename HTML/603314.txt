@@ -1,0 +1,3 @@
+I have an ASP.NET Web Forms application built from your Bootstrap template.
+Is it possible to utilize a DevExtreme Widgets Map control in the application?
+If so, how would I do that?

@@ -1,0 +1,37 @@
+Hi, i need your help
+I want to know how can I make my graphic responsive
+this the code o f the view
+<div align="center">
+    @{
+        //ViewBag.Title = "Chart Getting Started Lesson 2";
+        // Specifying obligatory properties of the Chart
+        // and customize the chart appearance.
+        ChartControlSettings settings = new ChartControlSettings
+        {
+            Name = "chart",
+            Width = 640,
+            Height = 360,
+            PaletteName = "Office 2013"
+        };
+        // Create a New series bound to data model.
+        SideBySideBarSeriesView view = new SideBySideBarSeriesView();
+        view.ColorEach = true;
+        view.FillStyle.FillMode = FillMode.Solid;
+        Series series = new Series
+        {
+            View = view,
+            LegendTextPattern = "{A}"
+        };
+        series.ArgumentDataMember = "Month";
+        series.ValueDataMembers.AddRange("Hours");
+        settings.Series.Add(series);
+        // Add a chart title.
+        settings.Titles.Add(new ChartTitle { Text = "Gr?fico de Consumo" });
+        // Configure the crosshair cursor options.
+        settings.CrosshairOptions.ShowArgumentLabels = true;
+        settings.CrosshairOptions.ShowValueLabels = true;
+        settings.CrosshairOptions.ShowValueLine = true;
+        Html.DevExpress().Chart(settings).Bind(Model).GetHtml();
+    }
+ thanks
+regards 

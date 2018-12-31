@@ -1,0 +1,1 @@
+I have been reading this article as we are implementing unit integration tests into our application, but the references appear to not be up to date for the current version of XPO. How do we implement integration tests in XAF and XPO applications and does DevExpress still support the use of NUnit to do this? 

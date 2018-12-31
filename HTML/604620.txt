@@ -1,0 +1,4 @@
+I'm trying to get selection similar to an HTML table. I switched from a GridControl to RichEditControl for the HTMLText attribute, but I am still not getting HTML Table behavior.
+Is there a property in the RichEditControl that will help with this? Attached video will clarify.
+In HTML Tables, You can partially select text from multiple cells. However, in a RichEditControl with HTMLText, it will only select a full row once you leave the original cell.
+Is it possible to get the HTML Table behavior in a RichEditControl? I'm hoping it's just a simple property somewhere that I can't find. 

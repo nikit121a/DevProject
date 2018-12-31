@@ -1,0 +1,5 @@
+I upgraded to 17.2.5 from 17.1.5 and the File System Store Object Demo (Ref# E965) that was working perfectly no longer works.
+See attachment screen-shot. Just as soon as I select the file an error window pops up asking me if I want to leave or stay on the page. It appears as though the file is being saved in the database, but the Copy Stream is failing due to the error. The files are copied to the File Data folder, but  have zero bytes.
+I would really appreciate any help to get this fixed immediately.
+Thanks.
+The two classes and the screen-shot are attached. 

@@ -1,0 +1,5 @@
+Hi there,
+ i have a problem with the Bootstrap Accordion. I want to create multiple accordions with some charts inside. To reduce the initial loading time, i want to load them only on opening the accordion.
+But i cant find a way to get this working.
+Below is the code i use and a video is attached.
+Thank you in advance

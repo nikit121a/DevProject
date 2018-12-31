@@ -1,0 +1,8 @@
+Hi, 
+I am using the approach described in ticket 
+ in order to display some swimlanes in a diagram.
+What I need is to stretch these containers  to the whole scrollable area in diagram canvas and keep them visible regardless I zoom in, zoom out or scroll to a particular node in the diagram.
+I attached a sample in order to illustrate better the context.
+Please take a look.
+Best regards,
+Alin 

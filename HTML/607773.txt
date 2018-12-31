@@ -1,0 +1,2 @@
+Hi. The values of my chart's points are bounded to a list of doubles. I need to be able to stop drawing the line when the values of points are NaN, then start drawing the line again at the next point with a non-NaN double value. How can I accomplish this? When a point's value is NaN the chart doesn't draw that point, but the line continues to draw from the last valid point through to the next valid point. I see no line break.
+Thanks! 

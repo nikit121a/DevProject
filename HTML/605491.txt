@@ -1,0 +1,5 @@
+Hi,
+I have  a problem with the subject. I attached the project to demonstrate this behaviour. Just run the app and you will see DockLayoutManager with some LayoutGroups and LayoutControlItems. The group with the caption "Zakladni informace F1" has two colums (implemented by another LayoutGroups without caption). It seems that items in second column have different LayoutInterval for some reason, which is a litle mystery for me. I am sorry, I have tried to simpilify the example more, to create layout directly in the XAML itself, create groups with colums with different count of items, but I did not capable to reproduce this behaviour, so finally I saved layout from our original application and this is loaded to the DockLayoutManager in the sample. 
+Very thanks for help,
+Mira
+  

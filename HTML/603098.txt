@@ -1,0 +1,8 @@
+Steps to reproduce:
+- Create a PivotDashboardItem;
+- Add a measure to Values and set its format as: Currency, Unit = Ones, Precision = 2, Include group separator = True;
+- Add a random dimension to Rows;
+- Add a Icon Range format rule (any)  to the measure added in Values;
+- Change the values' measure caption to something short (the caption needs to be shorter  than the width of the largest value)
+- Export (Print Preview) the Pivot  - some values will be truncated;
+See animated gif of these steps.

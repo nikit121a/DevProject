@@ -1,0 +1,8 @@
+Hi,
+I am wondering if there is a way to show customized control in the excel filter drop down .
+The attached is an example. I add the following item to FilterItems, but the drop down just show the class name of the control instead of the control itself. 
+e.ExcelColumnFilterSettings.FilterItems.Add(new CustomComboBoxItem()
+            {
+                DisplayValue = CreateKeyControl( Colors.Red, Colors.Blue, "" ),
+                EditValue = CriteriaOperator.Parse( string.Format( "[{0}] = True", "Id" ) )
+            } );

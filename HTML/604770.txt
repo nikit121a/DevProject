@@ -1,0 +1,9 @@
+Hi
+I'm moving an application with a 17.1 Scheduler to version 17.2.5. The appointments, labels, statuses and resources are loaded from a SQL Server DB. Labels, Resources  and Statuses have customized colors that are also loaded from the DB.
+It all worked fine in 17.1, but now I cannot find the way to show appointments grouped  by Resource. In fact, the appointments created for the Resource #2 do not show in the Scheduler until I uncheck grouping in the scheduler (in runtime, cliicking the ribbon button). 
+This is the first problem, but I have another one and I do not know if it is related to the first (either as a cause or effect...). The second problem is that I cannot load the colors for Resources and Statuses. Colors and captions  for Labels are loaded well and they show in the Scheduler, but for Resources and Status I can only load Captions, not colors. I'm using converters to load the colors, and I have tried both an IntegerToColorConverter and a IntegerToBrushConverter, and neither of them work.
+I'm sending you three files. Two of them are screen captures of both the legacy version and the in progress 17.2.5 version, accessing to the same DB and the same day (please note that I'm using Catalan and all resources are in that language).
+The third file is a test program that I'm using to create the migration. You can see there the XAML that I'm using and also the VB.NET code involved - not much indeed. All three files are in a zip.
+Thank you in advance, 
+Jesus
+ 

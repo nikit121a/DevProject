@@ -1,0 +1,7 @@
+Hi,
+Is it the intended functionality that when I collapse a grouped row (see screen shot), the listening event "OnSelectionChanged" is triggered?
+For me, the "OnSelectionChanged" event is fired, and the (e) that is passed in has a "CurrentlySelectedList" that does not contain any rows in the collapsed group, even if they were selected.
+This is making my custom OnSelectionChanged handler to think that when you collapse a group, you de-select all of that group's rows.
+Is this something that can be prevented?
+Or if it's not an intended functionality, do you know of what may be causing this to happen?
+Thank you 

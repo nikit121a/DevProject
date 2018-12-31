@@ -1,0 +1,6 @@
+Hi, 
+I just upgraded to VCL  17.2.4 on Delphi Tokyo. 
+I'm getting AV in module dxLayoutControlRS25.bpl' when trying to open the form at design time.
+I have tried removing dexExpress completely, delete devExpress files using BPLFinder, restart PC, and re-install devExpress. But the same error continues. 
+Are there any test I can made further to locate the issue?
+Thanks 

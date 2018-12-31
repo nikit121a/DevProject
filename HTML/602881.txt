@@ -1,0 +1,8 @@
+Hi,
+We have a grid where we conditionally show the PreviewRow based on a checkbox. The code that "flips" the rendering is on a custom callback for the gr id:
+This works correctly for the first few pages, but on about the 3rd or 4th dynamic loading of data, it seems to forget how the ShowPreview is set, and will revert to however it is defined at design-time. I've tested this with the normal Page mode, and also as EndlessPaging - both display the bad behaviour.
+I can work around this bug by re-assigning it like so:
+ So my question is, is this a known bug? Or am I not understanding something fundamental whereby you expect the ShowPreview to revert to it's design-time state when EndlessPaging is used?
+Keep in mind... We are using an old version of DX (2014.1.13), so this may be a bug that's been fixed.
+Advise?
+-randall 

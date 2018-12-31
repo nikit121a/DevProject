@@ -1,0 +1,7 @@
+Hello,
+I've tried everything I can think of to get a RepositoryItemProgressBar to show in an XtraGrid column but cannot get it.
+Code is below and screenshot of the column with just the value in it instead of the progress bar.  I can get other repository items to work just fine like RepositoryItemHyperLinkEdit but not this.
+Any help would be greatly appreciated!
+Code for RepositoryItemHyperLinkEdit that works:
+Thank you,
+Clay 

@@ -1,0 +1,3 @@
+Dear Support,
+is it possible to open multiple Dashboards in Dashboard Designer (Win) like Report Designer does?
+Thanks for your help!

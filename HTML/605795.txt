@@ -1,0 +1,2 @@
+There is requirement to save aspx grid view column size and positions. This function is working well on Other devices(ipad,android and PCs) but
+in Windows 10 tablet the indicators that allow the user to actually move the columns are not appearing on windows 10 when running in tablet mode ?

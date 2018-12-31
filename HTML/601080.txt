@@ -1,0 +1,4 @@
+The error also manifests itself on a clean XPO, for convenience I used the XAF.
+Watch the video.
+Note that this is just an example for demonstrating an error. In reality, everything is much more complicated. In reality, we use another LINQ provider. 
+Add this code from the MainDemo application as seen on the video.

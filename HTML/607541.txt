@@ -1,0 +1,3 @@
+I have tried a solution provided by one of the help desk consultants of devexpress. It would appear that the DiagramClipboard class is no longer availble in the libaries. Could you please help me find another solution.
+Link to the solution i found and tried to implement:
+ 

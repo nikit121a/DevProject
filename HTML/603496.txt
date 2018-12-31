@@ -1,0 +1,8 @@
+Hi
+ I have a button that calls the AddNewRecord method on a VGridControl.  
+If I click the button a new record is created and I can then focus the new record with the mouse.
+If MultiSelect is set to true I cannot click into the cells of the new record to edit them and neither can I show any in place editors.  
+If I press Return with a cell in the new row selected and then click into the cell the functionality returns to normal and I can edit the cells normally.
+If I click on to a different record and then back to the new row  the functionality returns to normal and I can edit the cells normally.
+Is this a bug or am I doing something wrong?
+Thanks 

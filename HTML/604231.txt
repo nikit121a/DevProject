@@ -1,0 +1,8 @@
+Hi,
+i want to set validation of a text box based on the selection of select box 
+Let think that my selection box have two value 
+1. Length 20
+2. Length 10 
+have one text box , if Selectbox .value=length 20 then textbox max length should be 20 if selectbox.value=10 then textbox max length =10 
+how can i accomplish this 
+please help me  

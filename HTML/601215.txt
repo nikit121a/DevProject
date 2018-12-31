@@ -1,0 +1,10 @@
+In the latest build the code in the cxLookAndFeels.pas file was modified as follows
+  cxDefaultIsTouchScrollUIModeEnabled = {$IFDEF USETOUCHSCROLLUIMODEASDEFAULT}True{$ELSE}False{$ENDIF};
+  ...
+  cxDefaultLookAndFeelNativeStyle = {$IFDEF USENATIVELOOKANDFEELASDEFAULT}True{$ELSE}False{$ENDIF};
+I tried setting and/or resetting the compiler directive(s) at project level, but it did not do anything. 
+ {$Define USETOUCHSCROLLUIMODEASDEFAULT} 
+or
+{$UnDef USETOUCHSCROLLUIMODEASDEFAULT}
+What is the recommended procedure for setting  the default mode for non touch clients?  Set or unset one or both and  where exactly?
+Thanks

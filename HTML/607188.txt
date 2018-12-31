@@ -1,0 +1,5 @@
+Halfway down on the page:  
+ under the headiing Cell Tooltips
+When I paste the sample into one of my applications, I get the message (in XAML):
+Am I missing something?
+Thanks in advance

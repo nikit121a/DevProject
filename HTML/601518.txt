@@ -1,0 +1,9 @@
+
+Hello Alexey,
+I have most of the changes running correctly, but I have an issue with the binding shown:
+
+
+
+
+Here the ItemsSource binding cannot find the VxSettings while the EditItem is using a very similar binding.  What is the proper binding to use in this context?
+Bryce

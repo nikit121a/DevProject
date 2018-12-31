@@ -1,0 +1,4 @@
+Hello,
+I am working on customization for the aspxhtmleditor. For selected tags/formats from the toolbar menu, is there a way to modify the action to set default css classes to specific items? I have a declared HtmlEditorCssFile which is applied to content, but has specific classes for most html elements.
+For example: On the toolbar there are ordered and unordered lists.  I would like to apply a cssclass to <ol> and <ul> tags by default when they are added. How would I accomplish this?
+Thank you. 

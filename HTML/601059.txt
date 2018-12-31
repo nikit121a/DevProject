@@ -1,0 +1,1 @@
+When using a component TdxLocalizer not included in the translation type components TcxTabSheet, TdxBar and TdxBarSubItem. 

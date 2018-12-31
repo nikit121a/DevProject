@@ -1,0 +1,16 @@
+Hi Paulo,
+Ive been looking through tickets with regard to the PDFViewer function "SavePagesAsImagesToDisk"
+so that users can save their PDFs as images for use elsewhere in my application, which is mainly to 
+load images into TcxImageCollection for viewing with the TdxImageSlider controls. 
+Now, it is my understanding that this ONLY works with EMF's and BMP's, which "sometimes"
+work reasonably, but in the main don't convert PDFs into the image formats provided correctly.
+I have attached the failed PDF supplied by a customer that was loaded into PDFViewer, the method used
+ and the resulting EMF it created, which you can try.
+Can you suggest a method to create either JPG or PNG images from the "SavePagesAsImagesToDisk"
+which 'may' help, or do you have any idea why these images are not being created correctly?
+I suspect its something to do with vectors in the PDF graphics, but it would be good if it converted PDFs 
+properly as it promises...
+Thanks in advance for your help:)
+Rgds Jeff D
+p.s Ive also seen mention of the ComponentPrinter "PaintPage" function, but have no clue how this can save the image :)! 
+Any examples would be really appreciated !

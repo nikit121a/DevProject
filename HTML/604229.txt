@@ -1,0 +1,82 @@
+Hello
+My clients are getting "List Index out of bounds" error which i never received it  while testing.
+If anyone can help me it will be very much appreciated.
+madException shows the following call stack:
+ exception class    : EListError
+exception message  : List index out of bounds (6).
+main thread ($2024):
+005301bb +017 Sbs5.exe     System.Classes             TList.Get
+005a877a +00a Sbs5.exe     System.Contnrs             TObjectList.GetItem
+008cfea7 +00b Sbs5.exe     cxPC                       TcxTabsViewInfo.GetViewInfo
+008d283f +06b Sbs5.exe     cxPC                       TcxCustomTabControlViewInfo.InitializeLineBoundsArray
+0183fa6f +073 Sbs5.exe     dxSkinscxPCPainter         TcxPCSkinPainter.PaintTabsRegion
+008d57e2 +03a Sbs5.exe     cxPC                       TcxPCCustomPainter.PaintHeadersArea
+008d512b +023 Sbs5.exe     cxPC                       DoPaintHeadersArea
+008d5150 +01c Sbs5.exe     cxPC                       TcxPCCustomPainter.InternalPaint
+008d5734 +00c Sbs5.exe     cxPC                       TcxPCCustomPainter.Paint
+01ade5cd +02d Sbs5.exe     dxTabbedMDI                TdxTabbedMDIClientControl.Paint
+005d932f +057 Sbs5.exe     Vcl.Controls               TCustomControl.PaintWindow
+007c6701 +079 Sbs5.exe     cxControls                 TcxControl.PaintWindow
+01adeaca +002 Sbs5.exe     dxTabbedMDI                TdxTabbedMDIClientControl.DoNonClientAreaPaint
+01addec3 +063 Sbs5.exe     dxTabbedMDI                DoNCPaint
+01ade280 +220 Sbs5.exe     dxTabbedMDI                TdxTabbedMDIClientControl.WndProc
+005d2664 +02c Sbs5.exe     Vcl.Controls               TWinControl.MainWndProc
+007cb247 +007 Sbs5.exe     cxControls                 TcxWindowProcLinkedObjectList.WndProc
+0054878c +014 Sbs5.exe     System.Classes             StdWndProc
+779d0137 +02b ntdll.dll                               KiUserCallbackDispatcher
+0040a284 +008 Sbs5.exe     System             231  +0 TObject.Free
+007ea88b +00f Sbs5.exe     cxClasses                  TcxObjectList.FreeItem
+007ea828 +01c Sbs5.exe     cxClasses                  TcxObjectList.Clear
+0052ffaf +00f Sbs5.exe     System.Classes             TList.Destroy
+0040a284 +008 Sbs5.exe     System             231  +0 TObject.Free
+00461000 +008 Sbs5.exe     System.SysUtils            FreeAndNil
+008d5ffa +00e Sbs5.exe     cxPC                       TcxPCButtonViewInfos.Destroy
+0040a284 +008 Sbs5.exe     System             231  +0 TObject.Free
+00461000 +008 Sbs5.exe     System.SysUtils            FreeAndNil
+008cdef1 +031 Sbs5.exe     cxPC                       TcxTabViewInfo.Destroy
+0040a284 +008 Sbs5.exe     System             231  +0 TObject.Free
+005a87be +016 Sbs5.exe     System.Contnrs             TObjectList.Notify
+00530079 +061 Sbs5.exe     System.Classes             TList.Delete
+008cf433 +097 Sbs5.exe     cxPC                       TcxTabViewInfo.TabDestroyHandler
+007ea92d +031 Sbs5.exe     cxClasses                  TcxEventHandlerCollection.CallEvents
+008d614d +015 Sbs5.exe     cxPC                       TcxTab.Destroy
+0040a284 +008 Sbs5.exe     System             231  +0 TObject.Free
+00461000 +008 Sbs5.exe     System.SysUtils            FreeAndNil
+01adf069 +021 Sbs5.exe     dxTabbedMDI                TdxTabbedMDIPage.Destroy
+0040a284 +008 Sbs5.exe     System             231  +0 TObject.Free
+005a87be +016 Sbs5.exe     System.Contnrs             TObjectList.Notify
+00530079 +061 Sbs5.exe     System.Classes             TList.Delete
+01adf423 +02b Sbs5.exe     dxTabbedMDI                TdxTabbedMDITabProperties.DeletePage
+01adf550 +024 Sbs5.exe     dxTabbedMDI                TdxTabbedMDITabProperties.MDIChildDestroying
+01adecf3 +00f Sbs5.exe     dxTabbedMDI                TdxTabbedMDIClientControl.UnSubscribeChild
+01ade1b8 +158 Sbs5.exe     dxTabbedMDI                TdxTabbedMDIClientControl.WndProc
+005d2664 +02c Sbs5.exe     Vcl.Controls               TWinControl.MainWndProc
+007cb247 +007 Sbs5.exe     cxControls                 TcxWindowProcLinkedObjectList.WndProc
+0054878c +014 Sbs5.exe     System.Classes             StdWndProc
+779d0137 +02b ntdll.dll                               KiUserCallbackDispatcher
+756796c0 +047 USER32.dll                              SendMessageW
+006cc8d6 +042 Sbs5.exe     Vcl.Forms                  TCustomForm.DestroyWindowHandle
+006c905f +073 Sbs5.exe     Vcl.Forms                  TCustomForm.Destroy
+005d2664 +02c Sbs5.exe     Vcl.Controls               TWinControl.MainWndProc
+0040a284 +008 Sbs5.exe     System             231  +0 TObject.Free
+006cea94 +000 Sbs5.exe     Vcl.Forms                  TCustomForm.CMRelease
+005ce4fa +2be Sbs5.exe     Vcl.Controls               TControl.WndProc
+005d3045 +5e9 Sbs5.exe     Vcl.Controls               TWinControl.WndProc
+006ca655 +64d Sbs5.exe     Vcl.Forms                  TCustomForm.WndProc
+007cafc7 +007 Sbs5.exe     cxControls                 TcxWindowProcLinkedObject.DefaultProc
+01000d49 +009 Sbs5.exe     dxSkinsForm                TdxSkinWinController.DefWndProc
+01001203 +007 Sbs5.exe     dxSkinsForm                TdxSkinCustomFormController.DefWndProc
+010021ee +072 Sbs5.exe     dxSkinsForm                TdxSkinCustomFormController.WndProc
+007cafc7 +007 Sbs5.exe     cxControls                 TcxWindowProcLinkedObject.DefaultProc
+01add54e +012 Sbs5.exe     dxTabbedMDI                Default
+01add8f9 +0e5 Sbs5.exe     dxTabbedMDI                TdxTabbedMDIChild.WndProc
+007cb247 +007 Sbs5.exe     cxControls                 TcxWindowProcLinkedObjectList.WndProc
+005d2664 +02c Sbs5.exe     Vcl.Controls               TWinControl.MainWndProc
+0054878c +014 Sbs5.exe     System.Classes             StdWndProc
+75677885 +00a USER32.dll                              DispatchMessageW
+006d3d7f +0f3 Sbs5.exe     Vcl.Forms                  TApplication.ProcessMessage
+006d3dc2 +00a Sbs5.exe     Vcl.Forms                  TApplication.HandleMessage
+006d40f5 +0c9 Sbs5.exe     Vcl.Forms                  TApplication.Run
+01cfe781 +31d Sbs5.exe     Sbs5               224 +44 initialization
+76d93378 +010 kernel32.dll                            BaseThreadInitThunk
+Jack

@@ -1,0 +1,3 @@
+Trying to use MVVM model for a DockLayoutManger with both DocumentGroup and AutoHideGroup.  The DocumentGroup works but I can't get anything into the AutoHideGroup.
+Thanks,
+Dan 

@@ -1,0 +1,17 @@
+Hi,
+My client really likes the DevAV Demo solution.  So I am trying to duplicate the Employees area with my own entity (Matters).  To that end, on the Employees.aspx page, there are three user controls: EmployeeEditForm, TaskEditForm and EvaluationEditForm.  I note in the markup code that these are referenced as:
+   <div id="EditFormsContainer">
+        <dx:EmployeeEditForm ID="EmployeeEditForm" runat="server" />
+        <dx:TaskEditForm ID="TaskEditForm" runat="server" />
+        <dx:EvaluationEditForm ID="EvaluationEditForm" runat="server" />
+    </div>
+however, when I drag and drop my "MatterEditForm"  over, it comes across as:
+   <div id="EditFormsContainer">
+        <uc1:MatterEditForm ID="MatterEditForm1" runat="server" />
+        <dx:TaskEditForm ID="TaskEditForm" runat="server" />
+        <dx:EvaluationEditForm ID="EvaluationEditForm" runat="server" />
+    </div>
+This seems to cause problems in compiling etc.  Why is my user control showing "uc1"  and your example shows "dx:" ??
+Do you have any documentation on how this was built. I am a little frustrated trying to duplicate the same behaviours with my entity.
+TIA,
+Miles 

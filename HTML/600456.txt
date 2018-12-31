@@ -1,0 +1,4 @@
+My application windows xaf, stops responding when executing an OCX component in the viewcontroller action
+When I run the same component call code by program or window, it works.
+What could be happening?
+Can you help me 

@@ -1,0 +1,3 @@
+We have customized Column Chooser but currently it is not showing as pop-up however we want to show it in docked left side to Grid Content. 
+Could you please let me know how to achieve this?
+ See attached sample screenshot.

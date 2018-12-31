@@ -1,0 +1,7 @@
+Hello,
+I am using 
+ event of dxDatagrid to specify placeholder value in filterRow editors. The implementation is as follows:
+When a user starts to filter by typing inside filterRow editor, I need to know which dataField user is trying to filter on. Can you please suggest how can I get that value?
+PrePre
+Thanks
+Balinder 

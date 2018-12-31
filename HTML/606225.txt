@@ -1,0 +1,7 @@
+Hello!
+I need to let user to use named parameters in CriteriaPropertyEditor in XAF Web application.
+I have followed 
+ and 
+ tickets, but named parameters is not reflected in editor UI and property with parameters list is never accessed. Please, see screenshot, illustrating the issue.
+How to enable CriteriaPropertyEditor to use filter parameters?
+Thank you! 

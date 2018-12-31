@@ -1,0 +1,7 @@
+Hi,
+I need to localize tool tip of Dashboard which is prepared in MVC DevExpress  ASP.NET Designer way. Tool tip is coming at stack bar out of the box from designer side. There somehow I can't localize labels and text on tool tip. I already posted similar question and got feedback. But I don't want to have Parameters way. 
+Is it possible to use customizeTooltip method at javascript side while using DevExtreme. There I can't generate same legend colors on tooltip which i can see in MVC DevExpress ASP.NET Designer way.
+Attach you can find chart generated in DevExpress way, Where I can also see following demo
+But that one is working with image. I can't find legend image. 
+Looking forward for reply
+ 

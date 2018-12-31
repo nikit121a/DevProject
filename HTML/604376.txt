@@ -1,0 +1,24 @@
+I got following error log when my program execute to ..
+Dim richTextEdit As New DevExpress.XtraRichEdit.RichEditControl
+then ...
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at DevExpress.Utils.Commands.CommandStorageBase`3.CreateCommandFactory(ConstructorInfo constructorInfo)
+   at DevExpress.Utils.Commands.CommandStorageBase`3.AddCommand(TCommandID commandID, ConstructorInfo constructorInfo)
+   at DevExpress.XtraRichEdit.Services.Implementation.RichEditCommandFactoryService.AddCommandConstructor(IRichEditCommandRepository repository, RichEditCommandId commandId, Type commandType)
+   at DevExpress.XtraRichEdit.Services.Implementation.RichEditCommandFactoryService.PopulateCommandRepository(IRichEditCommandRepository repository)
+   at DevExpress.XtraRichEdit.Services.Implementation.WinFormsRichEditCommandFactoryService.PopulateCommandRepository(IRichEditCommandRepository repository)
+   at DevExpress.XtraRichEdit.Services.Implementation.RichEditCommandFactoryService..ctor(IRichEditControl control)
+   at DevExpress.XtraRichEdit.RichEditControl.CreateRichEditCommandFactoryService()
+   at DevExpress.XtraRichEdit.RichEditControl.AddServicesPlatformSpecific()
+   at DevExpress.XtraRichEdit.RichEditControl.AddServices()
+   at DevExpress.XtraRichEdit.RichEditControl.EndInitializeCommon()
+   at DevExpress.XtraRichEdit.RichEditControl.EndInitialize()
+   at DevExpress.XtraRichEdit.RichEditControl..ctor(Boolean useGdiPlus)
+   at DevExpress.XtraRichEdit.RichEditControl..ctor()
+   at EMS.Dao.HtmlModule.checkVisitHtmlUpdate(DataTable dt, Boolean newConn) in E:\Genesis_Develop\EMS\DB\Dao\HtmlModule.vb:line 6
+   at EMS.Data.Visit..ctor(String visitID, TxnMgr& txn, Boolean newConn) in E:\Genesis_Develop\EMS\DB\Data\Visit.vb:line 67
+   at EMS.ConsultationForm.saveForSelectedTabInfo(Boolean showPrompt) in E:\Genesis_Develop\EMS\Patient\Consultation\ConsultationForm.vb:line 781
+   at EMS.ConsultationForm.ConsultationForm_FormClosing(Object sender, FormClosingEventArgs e) in E:\Genesis_Develop\EMS\Patient\Consultation\ConsultationForm.vb:line 463
+   at System.Windows.Forms.Form.OnFormClosing(FormClosingEventArgs e)
+   at System.Windows.Forms.Form.CheckCloseDialog(Boolean closingOnly)

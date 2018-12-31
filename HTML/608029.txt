@@ -1,0 +1,21 @@
+Hello,
+by populatting data from mssql to gridview by first load is all OK all bands are unique
+but after reloading data i get duplicates first time reload - 2nd band, and by 3rd reload - 1st band
+i tried already
+    dataSetTaxFreeMasterDetail=null;
+            gridControltaxFREE.DataSource = null;
+            advBandedGridViewtaxFREE.BeginUpdate();
+            try
+            {
+                foreach (GridBand band in advBandedGridViewtaxFREE.Bands)
+                    band.Columns.Clear();
+                //bandedGridView1.Bands.Clear();
+                advBandedGridViewtaxFREE.Columns.Clear();
+            }
+            finally
+            {
+                
+                advBandedGridViewtaxFREE.EndUpdate();
+            }
+but it helps not
+any idea? 

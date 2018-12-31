@@ -1,0 +1,4 @@
+Hi,
+I have implemented a custom store with Angular 5 (Typescript) but now we need to pre-filter the data before displaying it. I have already tried to filter it at my backend at the  load function of my custom store but this does not work. I also tried the solution 
+ but this is also not working.
+Please provide my a plunker example where you have a custom store with an prefilter in Angular 5. 

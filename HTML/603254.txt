@@ -1,0 +1,4 @@
+Hi
+How can I go about always showing the first record in the VGrid regardless of the filter criteria a user has set?  I use the first record to display some readonly data that I don't want to be affected by the filtering an end user might  apply.  I tried to use the CustomRecordFilter event but that only allows me to hide a record not to show it.  Is there any way I can achieve this?
+Thanks 
+John 

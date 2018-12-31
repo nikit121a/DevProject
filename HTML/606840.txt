@@ -1,0 +1,16 @@
+Hi,
+I've read the large database Bind to EF article but I do not understand what the BindToEF statement requires.
+I would normally place search controls outside of a grid that a use can enter data into to perform a search.
+I want to simplify this by only showing a gridview. The user can use the column filters to retrieve the data they wish to see.
+To bind a gridview In the controller I would normally fill a viewmodel with some data and then assign the model to the grid.
+For example: a partial controller for a grid in a view:
+the linq data retrieval (had to keep it as sql because of complexity, but normally issue a standard linq statement).
+:
+In the example I've seen installed on my pc the grid contains the statement:
+I don't understand what LargeDatabaseDataProvider.DB.Emails is?
+Is this the same as calling SearchTiffindex  method above?
+In this project I use an ADO.Net Entity Data Model. The context is called: netdocs_hr_mvccoreEntitie
+The table I am trying to bind to is called : TiffIndex_SelfridgesAP
+Apologies that this is so long winded!!
+Regards,
+Graham

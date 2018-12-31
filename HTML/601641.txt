@@ -1,0 +1,5 @@
+Hello,
+I'm working  with dxTreeList in a project .Net MVC Core and we have need select one uniq cell and afterware to treat a set of selected cells.
+But with dxTreeList, only rows can be selected. I must rewrite and manage display with "onCellPrepared" and "onCellClick" event.
+Perhaps DevExtreme have a better solution for this?
+Thomas Dupont.

@@ -1,0 +1,2 @@
+When using popup edit form  tabs work fine, but when I use the Enter Key, it sends me back to the previous page.
+VB.Net 

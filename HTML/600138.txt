@@ -1,0 +1,5 @@
+Hi,
+I have a calendar in timeline view with a resource tree. I want to limit the  drag and drop to the same day. 
+The only movement I want to allow in vertical.
+Is there a way to accomplish this? 
+Thanks 

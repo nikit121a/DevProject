@@ -1,0 +1,9 @@
+Good morning,
+we have considered updating to 17.1.9. But it seems the errors in the RichEditControl haven't been fixed.
+Please see attached .gif 
+1) When i switch to readonly = false the comments are still readonly. Only after editing them in the review pane they become editable
+2) When i select all text of one comment in the review pane i cannot delete it
+3) When i select the last two lines or so of one comment and click a key, the editor replaces the text in the next comment 
+I didn't bother to test any further. Do you know theese bugs? Are they fixed in the newest version ?
+Kind regards 
+Martin 

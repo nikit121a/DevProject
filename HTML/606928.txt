@@ -1,0 +1,6 @@
+The following code is used to generate an ASPxPanel within the cell of an ASPxGridView.  That panel consist of ASPxButtons, generated in code from the list of values within ListPhrases.
+The standard behavior works as expected.  If two buttons are generated and we click on the first one then that button is checked (it appears as pushed down).  If we click on the second button then the first one is unchecked and the second one becomes checked.
+What we also want is to be able to click on any checked button to remove that check, and have none of the buttons checked.
+The three lines in comments are my attempt at removing that check.  The first one was the desired code, but it does not work.  The second one works but we (obviously) do not want a popup (the alert).  The third line works but we're nervous about the 50 millisecond delay.
+What would be a better approach?
+ 

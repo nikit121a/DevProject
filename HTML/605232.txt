@@ -1,0 +1,3 @@
+I have a View with multiple TextEdits that are bound to properties of an entity object in my ViewModel.
+When saving changes, I'm making an async service call that in case of validation errors returns a ModelState object with a collection of validation errors for each property that failed valication.
+What is the correct way to show these validation errors in the View on each TextEdit that failed validation?

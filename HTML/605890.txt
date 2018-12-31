@@ -1,0 +1,9 @@
+Hi Team!
+I am migrating a solution with multiple projects dependent on DevExpress libraries to use DevExpress nuget repository.
+It is quite confusing for me that the package names do not really match the dll libraries names (e.g. DevExpress.Xpf.*.dll are in  DevExpress.Wpf.* packages) and some packages contain multiple dlls, which makes it hard to find out which package you need to install in order to get a particular dll.
+Given that I thought it would be very useful to have a list of available nuget packages mapped to the libraries they contain so that one could reference it and automate the migration process.
+Could you please provide me with this information?
+Thanks!
+P.S. I have seen this article 
+ and it is not actually supplying such detailed info as I'm looking for.
+ 

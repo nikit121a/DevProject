@@ -1,0 +1,5 @@
+Hi.
+In combo box i have 1015PH value, user want to input 1015P  only. 
+It is possible to make this with autocomplete=true?
+Space after 1015P and then trim in view model, not a good idea...
+ 

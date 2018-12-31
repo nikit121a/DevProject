@@ -1,0 +1,4 @@
+hi,
+i can not apply  formats and texts of date box control for Turkish.
+i attached a project , 
+ what should i do to work this correctly  .

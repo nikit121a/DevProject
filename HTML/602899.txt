@@ -1,0 +1,5 @@
+Hi,
+I want to export a csv file which includes only selection in spreadsheet control. The main problem we are facing is we are not able to ignore a column if it stays among other colums. I have a List<Range> which is correctly selects what i want but we cannot find a way to export as csv file. How can we solve this problem ?
+Some code parts not worked  :
+1.) Tried to copy selection in newly created worksheet
+2.) Also tried to change export settings.

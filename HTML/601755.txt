@@ -1,0 +1,61 @@
+We have a dxDataGrid we are using to display a large dataset from a custom datastore. In order to handle the large volume of data, infinite scrolling is enabled. When the dxDataGrid is rebuilt in Google Chrome, the scrollbar's position is saved and this causes the infinite scrolling to continuously trigger.
+I am looking for a way to force the scrollbar to be reset when the datasource is rebound. I have already tried to implement the fix found 
+ each time the dataSource is rebound (both before and afterward), but that seems to have no effect in Google Chrome.
+To rebind the grid we are doing the following:
+1.) Setting the dataSource option on the DataGrid to an empty array
+2.) Calling dxDataGrid on the grid element and re-passing all parameters that were used to instantiate it including the DevExpress.data.CustomStore. The settings are as follows:
+$(".drilldown-grid").dxDataGrid({
+            columns: [{
+                columns: [{ dataField: 'StudentID', caption: 'Student ID' }, 
+                    { dataField: 'StudentName', caption: 'Student Name' }, 
+                    { dataField: 'Gender', caption: 'Gender' }, 
+                    { dataField: 'Ethnicity', caption: 'Ethnicity' }, 
+                    { dataField: 'SchoolYear', caption: 'School Year' }, 
+                    { dataField: 'Grade', caption: 'Grade' }, 
+                    { dataField: 'SchoolName', caption: 'School Name' }, 
+                    { dataField: 'Department', caption: 'Course Department' }, 
+                    { dataField: 'CourseName', caption: 'Course Name' }, 
+                    { dataField: 'TeacherName', caption: 'Course Teacher' }, 
+                    { dataField: 'Period', caption: 'Period' }, 
+                    { dataField: 'AbsenceReason', caption: 'Reason' }, 
+                    { dataField: 'DateAbsent', caption: 'Date Absent' }]
+            }],
+            "dataSource": records,
+            filterRow: {
+                visible: false
+            },
+            sorting: {
+                mode: 'none'
+            },
+            grouping: {
+                allowCollapsing: false,
+                autoexpandall: true,
+                contextMenuEnabled: false
+            },
+            headerFilter: {
+                visible: false
+            },
+            height: 500,
+            groupPanel: {
+                visible: false
+            },
+            export: {
+                enabled: false
+            },
+            remoteOperations: {
+                filtering: false,
+                sorting: false,
+                paging: true,
+                grouping: false,
+                summary: false
+            },
+            scrolling: {
+                mode: 'infinite',
+                //mode: 'virtual',
+                useNative: true
+            },
+            paging: {
+                pageSize: 10
+            }
+        });
+ 

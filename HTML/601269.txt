@@ -1,0 +1,6 @@
+Hello,
+I was not able to apply approach described in 
+  to statuses since SchedulerStatusPropertyEditor does not have DefaultBindingMode
+How I can bind statuses to make code below to work?
+Thank you.
+ 

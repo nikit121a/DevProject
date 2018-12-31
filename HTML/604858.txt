@@ -1,0 +1,4 @@
+Hi,
+Is there a global variable that can be set so that for example in the Event Recurrence dialog entering an invalid end date doesn't raise an exception?
+Regards,
+Ken

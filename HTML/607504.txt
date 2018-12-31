@@ -1,0 +1,9 @@
+I'm trying to create a report made of 14 pages and for each page I am loading the image watermark by code.
+Below is the method I'm using to generate the watermark for each page :
+When I preview the report for the first time using the ASPxWebDocumentViewer , all goes well, but when I try to preview it again 
+, I get the below error :
+I know this is a normal exception as I'm using lots of resources especially that the total size of the 14 images is 41 MB, but is there a way to release
+the memory used  after assigning the watermark ?
+Please note that this app will be used by several users and I can't decrease the size/resolution of the images  otherwise the text will be unclear when printing the report.
+Thank you,
+Bilal Harb 

@@ -1,0 +1,1 @@
+We use an extra non-visible column to use its ImageComboBoxProperties and add items dynamically, after asigning it to the AProperties of the GetPropertiesForEdit event. Since updating to v17.1.10 this causes an Access Violation. I added a test project to illustrate.

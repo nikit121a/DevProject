@@ -1,0 +1,6 @@
+Hello,
+My app suddenly became unreadable once deployed. No clue why.
+Fonts are tiny, everything  become tiny afer one user action....
+I have an initial window, normally sized , that is after some action that it turns ridiculously small.
+Any clue ?
+ 

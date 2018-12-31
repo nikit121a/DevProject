@@ -1,0 +1,2 @@
+When I click on the new row icon from my data grid and when my grid row is in "Edit" state I'm not able to paste the content from another row that I have selected. The paste functionality only work if the new row is saved.
+Any hints? 

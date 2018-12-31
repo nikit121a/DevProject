@@ -1,0 +1,16 @@
+Hi guys,
+I have a gridView that is updated frequently (1000 updates / minute). 
+A lot of registers are inserted, delete and updated from it in any position.
+My problem:
+1) While the new registers are inserted in top of the list (news positions 0), the gridview is automatic scrolling the grid. In real, the gridview keeps the TopRow as the previous one, and not to the new one that has been recently added. I did a workaroud to assign the RowCountChanged to set the new TopRowIndex = 0 if the topRowIndex is different from 0 (code below):
+private void grvBookBid_RowCountChanged(object sender, System.EventArgs e)
+        {
+            if (grvBookBid.TopRowIndex != 0)
+            {
+                grvBookBid.TopRowIndex = 0;
+            }
+        }
+Although, it is not allowing to scroll the data as desire. While scrolling, if grid receive a item on Top position of grid, the gridview goes to the top of grid.
+Is there a way to disable scrolling automatic behavior ? I'd like to scroll only manually, and keep the gridview in the same position as we are scrolling (independent of the parallel inserting content.
+2) Is there a way to put the scroll in gridview only when the user is trying to scroll? If the grid is static,  is it possible to hide the scroll vert bar?
+Best Regards, 

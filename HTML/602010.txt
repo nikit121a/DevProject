@@ -1,0 +1,6 @@
+Editing a timespan within DevExpress Gridview today is not supported and requires custom programming for developers.
+As DevExpress is useful to improve productivity of software developers I expect it to support this SQL Server datatypes.
+Would you please prioritize this and add it to development backlog ?
+Can you please provide a workaround for the time being?
+We need this working in an ASP.NET MVC Gridview.
+Thanks in advance!

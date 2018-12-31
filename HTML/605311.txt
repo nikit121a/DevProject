@@ -1,0 +1,5 @@
+
+Hi,
+Thanks. It works fine. 
+1. We need also to set Thumbnail content name (instead of the file name) for image selector in Html editor. Data takes fromdatabase. Can weachife it?
+

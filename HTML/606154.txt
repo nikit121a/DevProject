@@ -1,0 +1,7 @@
+Hi
+We have a control in our application, running on touch tablets, that takes a tap drag to draw a line/signature. This control seems to be losing single tap focus when contained within DocumentManager. It works fine when using a mouse and acts as expected. Also when not using the DocumentManager the control works fine with touch on the tablets.
+Please find attached two projects. One with DocumentManager, one without. They are very much identical except for using DocumentManger.
+This control worked fine on touch tablets with DevExpress 14.2.3 (I think it was .3, at the very least it was 14.2) where the single tap was taken correctly and the line was drawn. However in DevExpress 17.1.6 it requires the tablet user to doubletap and hold for a tiny bit then drag to draw the same line. 
+I would like to make it function with a single tap as how it used to function however I cannot currently find any way to get it to work on tablets as it did previously. Any suggestions?
+Thanks,
+Taran

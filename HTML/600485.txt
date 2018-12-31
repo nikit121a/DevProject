@@ -1,0 +1,3 @@
+Hi,
+I created datetime column with format string dd-MMMM-yyyy H:mm:ss. When running filtering only show for date filter, it;s also happening when i click custom filtering . How to make end user able to filter this column also with time? 
+Thank you

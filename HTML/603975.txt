@@ -1,0 +1,2 @@
+Is it possible to add the toolbar for the richedit to a normal container - in this instance a tab control?
+I want to have the menus where the red rectangle is in the attached screenshot 

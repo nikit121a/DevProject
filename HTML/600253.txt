@@ -1,0 +1,6 @@
+I have a non persistent action parameter that works with a popup action.
+The action parameter contains both a bool and a double value.
+There is an appearance rule on the double value to set it to enabled = false when the bool is set to false.
+However when the popup action is initialised the appearance rule does not seem to take affect.
+It requires the user to toggle the bool on and off again before the appearance rule runs as expected.
+Any feedback would be appreciated. 

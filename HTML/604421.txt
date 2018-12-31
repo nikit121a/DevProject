@@ -1,0 +1,6 @@
+Hey, I
+ have to create a treelist based on non-permanent objects. I added ITreeNode, but it does not work. 
+this is the code:
+other:
+but all the time i have -> look at attachement
+ 

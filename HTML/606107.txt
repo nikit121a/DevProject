@@ -1,0 +1,28 @@
+Error log
+Information: in StandaloneTestRunnerService.OnTestsFinished. Sessions=DevExpress.CodeRush.TestRunner.Core.TestRunnerSessions, sessions?.MainSession=DevExpress.CodeRush.TestRunner.Core.TestRunnerSession 
+Information: TestRunnerSessions.TestsFinished ea.SessionName = Main
+Information: ClipboardChanged
+Information: ClipboardChanged
+Information: ClipboardWindow Disabled
+Information: Start Build projects
+Information: Stop Build projects
+Information: GetDataFromGroups System.Collections.Generic.List`1[DevExpress.CodeRush.TestRunner.Data.Filters.TestFilterGroup]
+Information: Prepare provider DevExpress.CodeRush.TestRunner.VSUnitTestingProvider.VSUnitTestFrameworkProvider for Core.UnitTest
+Information: Provider DevExpress.CodeRush.TestRunner.Jasmine.JasmineProvider is disabled
+Information: GetRunnerAsync - WaitForConnectedRunner
+Information: Service: RunOrDebug: Reset runners count
+Error: Message: The specified argument cannot be empty.
+Parameter name: tests
+Error: Type: System.ArgumentException
+Error: Source: Microsoft.VisualStudio.TestPlatform.ObjectModel
+Error: StackTrace:    at Microsoft.VisualStudio.TestPlatform.ObjectModel.ValidateArg.NotNullOrEmpty[T](IEnumerable`1 arg, String parameterName)
+   at Microsoft.VisualStudio.TestPlatform.ObjectModel.Client.TestRunCriteria..ctor(IEnumerable`1 tests, Int64 frequencyOfRunStatsChangeEvent, Boolean keepAlive, String testSettings, TimeSpan runStatsChangeEventTimeout, ITestExecutorLauncher testExecutorLauncher)
+   at DevExpress.CodeRush.TestRunner.MsTests15.RunOperation.ExecuteInternal()
+Information: Service: ehRunnerDisconnected
+Information: Service: ehRunnerDisconnected - OnFinished
+Information: in StandaloneTestRunnerService.OnTestsFinished. Sessions=DevExpress.CodeRush.TestRunner.Core.TestRunnerSessions, sessions?.MainSession=DevExpress.CodeRush.TestRunner.Core.TestRunnerSession 
+Information: TestRunnerSessions.TestsFinished ea.SessionName = Main
+Information: ClipboardWindow Enabled
+Information: ClipboardChanged
+En log
+Normal VS2017 test runner runs te test without problems 

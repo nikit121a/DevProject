@@ -1,0 +1,6 @@
+Hi,
+Based on grid selection i am updating button text using below code:
+document.getElementById("btnTest").innerText ="Test";
+After updating the text, button is getting smaller and text is not displaying in center. Please let me know the correct way to update the text.
+Thanks,
+Venkat

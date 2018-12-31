@@ -1,0 +1,6 @@
+Dear support,
+we have a grid with two boolean columns. When user checks checkboxedit in one column I will programatically uncheck the other  in CellValueChanging event handler.
+But visually  it will only change when I leave the edited line. 
+Is there any possibility to refresh form after change?
+Many thanks in advance
+Martin    

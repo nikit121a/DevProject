@@ -1,0 +1,10 @@
+
+                                This example illustrates how to handle the 
+, 
+ and 
+ events to apply the following restrictions:
+- single appointment drag;
+- appointments with the Paid status can be moved only between resources, so that their Start and End values remain unchanged;
+- resizing is allowed for Unpaid status to change the End value.
+
+                            

@@ -1,0 +1,3 @@
+Hi,
+I am seeing a problem with the output of a Merge Field that includes a Carriage Return Line Feed. In our scenario when there is a second address line we concatenate it with a Carriage Return and Line Feed to make one field. The attached Document has screen shots that show what we are seeing and a code snipit of the datasource being databound to the RichEdit as a list. This might be the same problem reported on T499902 RichEdit - Carriage return is incorrectly displayed on performing Mail Merge. If so, is there an ETA for this to be corrected?
+Mike 

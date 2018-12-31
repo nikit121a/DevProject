@@ -1,0 +1,18 @@
+Hi I am having no luck with getting the value selected from a bootstrapcombobox control in server side c# code.
+This is only when using a sql database source bind.
+ie.
+
+
+
+I can see the data in the combobox on the page ok.
+in the server side code its databind to the data source and to the control. 
+
+
+
+
+
+
+
+
+
+

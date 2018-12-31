@@ -1,0 +1,7 @@
+Hello,
+I need to implement a devextreme multiselect dropdown box with simple list view bind,
+I found the following link 
+but both of the examples are tree view and grid view .
+Can you provide me a solution to implement devextreme multiselect dropdown box with list view.
+I have also watched the dxtagbox but that is not what is required , I need list view with check box, like the attachment.
+Please find the attachment.

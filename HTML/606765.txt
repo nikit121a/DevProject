@@ -1,0 +1,6 @@
+Hi DevExpress,
+I observe strange behaviour of grouped rows in your grid control. When I double-tap on grouped row to expand/collapse child rows, it only works when grid is scrolled down a bit. Otherwise it does nothing and grouped rows cannot be expanded/collapsed.
+Obviously, it's worst when grid doesn't have enough rows to enable scrolling and therefore expanding/collapsing never works.
+I've attach my sample project.
+Kind regards
+Peter 

@@ -1,0 +1,20 @@
+
+
+I tried to apply the 
+ example to my XAF Web Application.
+
+
+
+Javascript code is hosted in ReorderGridView.js. 
+
+
+
+I moved all script links to Default.aspx 
+
+
+
+I think i'm on the right way, however a javascript error occurs - 
+I checked everything with the help of the asp.net 
+, you provided, but cannot get it to work
+Thank you for your help.
+Micha

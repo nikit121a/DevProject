@@ -1,0 +1,15 @@
+Am I missing something?  using   Devextreme ASP.NET Core
+.Summary( s => s
+     .TotalItems(totalItems =>
+     {
+               totalItems.Add()
+                      .Column("contractName")
+                     .SummaryType( SummaryType.Count);
+               totalItems.Add()
+                     .Column("contractAmount")
+                     .DisplayFormat("{0}")
+                     .ValueFormat(Format.Currency)
+                     .SummaryType( SummaryType.Sum);
+                     
+          })
+ ) 

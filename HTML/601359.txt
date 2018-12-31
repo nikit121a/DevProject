@@ -1,0 +1,4 @@
+Hello,
+I have downloaded the latest TRIAL version of DevExpress , but it seems to be not compatible with my Visual Studio vresion (2017).
+Thanks for your help.
+Ousseynou 

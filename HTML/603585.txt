@@ -1,0 +1,5 @@
+Hi 
+We are using ASPxUploadControl for uploading document,
+We have setup 20 MB limit for file size. We also have setup maxRequestLength property in web config file to 20MB.
+We are having this error while uploading:
+  

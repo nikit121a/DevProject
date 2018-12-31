@@ -1,0 +1,2 @@
+I am considering using DevXtreme for a project.  My most important grid needs to use an edit form or popup that uses a cascading combobox that is filtered depending on the selection made in another combobox.  Looking at your literature and support tickets I am unclear whether this technology is available in DevXtreme.  Can you refer me to information answering this question and hopfully showing how it is done in JQuery?
+Thanks! 

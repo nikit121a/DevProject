@@ -1,0 +1,7 @@
+When I new up the DocumentPreviewWindow class, the background color for the buttons in my application are changing.  
+      DocumentPreviewWindow previewWindow = new DocumentPreviewWindow()
+      {
+        Owner = Application.Current.MainWindow
+      };
+Something in that code is overriding global settings.  How can I either fix that or work around it?
+Before and after screenshots attached.

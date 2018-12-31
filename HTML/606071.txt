@@ -1,0 +1,10 @@
+I use GridLookupEdit as ColumnEdit to let users select some item with a multi-column search.
+I also want to change the items in the list depending on what row we are.
+When I try to change ActiveFilter, this have no effect ont the popup GridLookupEdit. It is like the GridLookupEdit object I have in the code is not the same that is displayed on the screen!
+If I set a value to ActiveFilter, it's working only if I do it before the first time the GridLookupEdit  is displayed. After this, all change I tried to do by code have no effect on screen. I try to change ActiveFilterString, ColumnInfo on some column, and also NonColumnFilter.
+ I also tried at different time, and in the ShownEditor event. nothing works.
+If I change the filter in the UI in the FilterRow, and after I put a breakpoint to inspect GridLookupEdit's properties, I can see that value for filtering properties (ActiveFilter, ActiveFilterString, ...) reflect the new value I setted by code, but on the screen initial filter stay there.
+I also tried by adding "View.RefreshData"  (
+) , no more success.
+ 
+What i'm missing ? 

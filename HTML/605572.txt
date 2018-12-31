@@ -1,0 +1,8 @@
+Hi,
+when i'm using your ListBoxEdit with a ItemTemplate, it seems like it retains a reference to the last window.
+I have created a sample to illustrate this, everytime you click show it will allocate 25MB of data and when the window closes it should be freed, there is also a GC button to force garbage collection.
+Now after closing all the windows and looking with jetbrains dotmemory I see that  it gives a warning about a memory leak with the class DevExpress.Xpf.Editors.Helpers.LocalVisibleListWrapper<T> and the memory is indeed not released.
+The warning is about the WPF Collection Binding Leak.
+I have two links explaining this.
+Kind Regards,
+Ronald van Helden 

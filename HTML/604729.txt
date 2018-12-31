@@ -1,0 +1,3 @@
+I am using 17.2.5 and "Add DevExpress Item" menu item in the right click menu of solution explorer is disabled. 
+I have tried repairing installation, and even uninstalling and installing again, but the problem persists. This happens even on a brand new XAF project created with the Template Gallery.
+Note that this seems to affect all projects (not only XAF). Even in a ASP.NET MVC 5 web app this item is disabled. For these project the only DX menu item that works is "Add DevExtreme to project".

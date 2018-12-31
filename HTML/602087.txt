@@ -1,0 +1,15 @@
+
+Also for document "doc1_v2_modified_loads all pages.docx" I get an error for anything I try to write in the first 3 pages.
+Sometimes the editor removes some cotent from the second page without throwing the error.
+The error is:
+DXR.axd?r=1_304,1_185,1_298,1_211,1_188,1_182,1_192,1_190,1_223,1_285,18_36,18_38,18_33,18_42,18_37,18_35,1_296,1_294,1_299,1_209,1_217,1_208,1_290,1_206,1_288,1_212,1_201,1_279,1_289,1_203,1_205,1_204,1_284,1_198-Moucg&p=fc85394d:57529 Uncaught Error: Internal exception.
+    at new Formatter (DXR.axd?r=1_304,1_185,1_298,1_211,1_188,1_182,1_192,1_190,1_223,1_285,18_36,18_38,18_33,18_42,18_37,18_35,1_296,1_294,1_299,1_209,1_217,1_208,1_290,1_206,1_288,1_212,1_201,1_279,1_289,1_203,1_205,1_204,1_284,1_198-Moucg&p=fc85394d:57529)
+    at MainFormatter.BaseFormatter.processStateRowFormatting (DXR.axd?r=1_304,1_185,1_298,1_211,1_188,1_182,1_192,1_190,1_223,1_285,18_36,18_38,18_33,18_42,18_37,18_35,1_296,1_294,1_299,1_209,1_217,1_208,1_290,1_206,1_288,1_212,1_201,1_279,1_289,1_203,1_205,1_204,1_284,1_198-Moucg&p=fc85394d:26694)
+    at MainFormatter.formatNext (DXR.axd?r=1_304,1_185,1_298,1_211,1_188,1_182,1_192,1_190,1_223,1_285,18_36,18_38,18_33,18_42,18_37,18_35,1_296,1_294,1_299,1_209,1_217,1_208,1_290,1_206,1_288,1_212,1_201,1_279,1_289,1_203,1_205,1_204,1_284,1_198-Moucg&p=fc85394d:65127)
+    at asyncCalculating (DXR.axd?r=1_304,1_185,1_298,1_211,1_188,1_182,1_192,1_190,1_223,1_285,18_36,18_38,18_33,18_42,18_37,18_35,1_296,1_294,1_299,1_209,1_217,1_208,1_290,1_206,1_288,1_212,1_201,1_279,1_289,1_203,1_205,1_204,1_284,1_198-Moucg&p=fc85394d:56096)
+We also have problems with other documents. For some only the first 4 or 5 pages are renderd. We didn't find a pattern.
+If I open one problematic document and save it back to disk, the editor saves the hole content in the new file. 
+So the content exist in the editor's internal structure but for some reasons it doesn't render all the content in page.
+I also made a sample with an empty WebForms Project that contains an AspxRichEdit editor.
+Thank you an I look forward for a solution,
+Robert

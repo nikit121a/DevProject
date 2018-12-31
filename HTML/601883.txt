@@ -1,0 +1,9 @@
+Hi,
+I have a ListBoxEdit control which I am using to provide selection of values to the user.
+The selection works fine, however, when the user clicks on something else, causing the ListBoxEdit to loose focus, the selection color is lost too. 
+I am using Metropolis Dark theme. 
+Is there a way to maintain the selection for the ListBoxEditItem even when the focus is lost?
+The functionality similar to the FadeSelectionOnLostFocus for TableView of GridControl.
+Please suggest.
+Thanks,
+Vijay 

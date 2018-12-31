@@ -1,0 +1,11 @@
+Hi DevExpress Support,
+I might need a suggestion/help from you in updating Column Width/Heights in an efficient way. I have a code  that is taking time and impacting performance of my application. 
+I have a sim ple code that loops through column collection and updates the Visibility and Width. I have this solution attached, if you could run this solution and notice 
+window you might notice Debug statements that logs time take for each Column Width & Visibility set.
+In the above code (Ignore rest of the code, I'm just running this code in different thread) I'm just setting Width/Visibility for each column and logging time taken for each of them.
+I suspect this time consumption is due to (Grid)UI updates since UI being refreshed as soon as we set Width/Visibility. 
+I would really appreciate if you could help with below queries.
+1. What is the efficient way of setting Width/Visibility that doesn't post UI update immediately? (I tried suspend/resume layout call that doesn't help)
+Thanks,
+Hari Prasad    
+ 

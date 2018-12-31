@@ -1,0 +1,1 @@
+I need to programmatically move the vertical scroll bar on the data grid to the bottom - displaying the last row.  Don't necessarily want to select the last row.  Is there a way to do this? 

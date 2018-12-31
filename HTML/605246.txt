@@ -1,0 +1,2 @@
+I have a dashboard with export function and captions are not displayed.
+Please see the attached image. 

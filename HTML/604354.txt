@@ -1,0 +1,4 @@
+Hello support team,
+Again i hope that you can give me a direction on how to solve the following problem:
+I have a standard grid view showing companies with the usual fields like name, country, city, etc. Each company can be of multiple company types like owner, operator, agency, etc. This is shown as a relation on a tab below each company. Now the question: the end user wants to group or filter by these company types, e.g. show only those companies which are of type operator. But there is no column in the master row which could be used for grouping or filtering. Is there a way to achive this anyway?
+Thank you.

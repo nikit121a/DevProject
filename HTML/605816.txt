@@ -1,0 +1,6 @@
+Hi,
+I try to configure a RichEditControl. I want the page to have a costum size.
+But no matter how i configure the page it don't want to work. The page in the RichEditControl keeps the normal standard size.
+What am i doing wrong?
+ 
+ Thanks!

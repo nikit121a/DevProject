@@ -1,0 +1,8 @@
+Hello,
+I have built a web dashboard.
+However, when I try to export to Excel, I get an error (see attachment).
+I also attached the XML file and the data (excel file) which feeds the dashboard.
+I have other dashboards and this is the only one that has this issue.
+Can you see what's wrong?
+Thanks
+FB

@@ -1,0 +1,2 @@
+When you set the default selected value on prerender event, only one item is displayed on the dropdown list.
+On dropdown, it should show the required paged, and load previous/next pages on callback as usually

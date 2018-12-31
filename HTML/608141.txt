@@ -1,0 +1,7 @@
+A 
+ docked as MDI document to a 
+ with 
+ property set to false can't be docked into another 
+. Changing this behavior should make 
+ with 
+ usage more convenient.

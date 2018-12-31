@@ -1,0 +1,6 @@
+Hello Sir,
+I am looking for a simple feature to rename a treenodeitem (Devexpress.XPF.Grid.TreeListView). I am using "ShowEditor" property and "ShowEditorOnF2Key" to get the edit mode on the selected  treenodeitem.
+I have set 
+but no luck.
+Am i doing something wrong? My only requirement is to make tree node editable and rename it.
+Thanks and Regards 

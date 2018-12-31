@@ -1,0 +1,13 @@
+Hello,
+I have Devexpress 17.1.7 installed, and I am using XAF to create a web project.
+I am trying to run TestExecutor using Jenkins after the build.
+When running TestExecutor from the command line it works as expected.
+When running TestExecutor form Jenkins I receive the following warning in the log file:
+ 
+Jenkins service is Logged as LocalSystem and has enabled "Allow service to interact with desktop".
+I managed to simplify the scenario to the following steps:
+1. Create a windows service that runs TestExecutor on start, logged as LocalSystem and with "Allow service to interact with desktop" rights.
+When starting, the service runs the following code:
+2. For the test location, I used XCRM_Lead_Create from XAF demo.
+3. Start the service and  wait until TestsLog file is created.
+I attached a project that creates a service which runs TestExecutor on start.

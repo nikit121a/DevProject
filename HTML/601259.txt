@@ -1,0 +1,1 @@
+I just downloaded the sample project, changed the lookandfeel theme to visual studio dark, there's still a problem with the label in the flyout that is not correctly draw

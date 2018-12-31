@@ -1,0 +1,4 @@
+Hi, is it possible to have the metadata used to generate the new themes in 17.2.5 made available, to assist in application of those themes to the base Compact themes for compact versions? I see you provided Carmine in response to one ticket but it would be nice to provide the others in a single accessible place (or publish the compact versions)
+I also feel like the theme builder should have a native 'base sizing' capability - even if it only provides some discrete options as opposed to being completely configurable, since I'm guessing calculated values would not work reliably - for instance, large, normal, compact, super-compact - or for now, just normal and compact)
+Thanks!
+ 

@@ -1,0 +1,7 @@
+Hi,
+in my grid I set  a fixed group with follwing code:
+Is it possible to pass a tag or hidden/not visible content to the group also? (Content of another column)
+Also I need to check wether a row or a group was clicked. I tried with MouseDown event:
+If GroupRow: How can I get the text or tag of the selected group?
+If Datarow: How can I get the text or tag of the superordinated group?
+Thank You for your help

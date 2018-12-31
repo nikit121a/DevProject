@@ -1,0 +1,18 @@
+Hi,
+Our dashboards are running of Sqlite database files. Since we upgraded to 17.2.3 (from 16.2) we have started getting intermittent error from Dashboard viewer that the  sql query is unable to be executed as table could not be found, and displays data load errors in the dashboard items. The problem goes away if the user switches to dashboard design mode and returns to viewer without making any changes.
+We found that if the IIS server is restarted the problem goes away as well.
+This issue is intermittent so I think there is some caching issue data service for the dashboards. I have attached the error stack when this issue occurs.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

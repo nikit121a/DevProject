@@ -1,0 +1,3 @@
+Hello,
+In the following sample, if the value of minWidth is too small, column width is not specified and scrolling doesn't  trigger
+ 

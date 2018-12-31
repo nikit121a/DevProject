@@ -1,0 +1,6 @@
+I've got a listview with the MasterDetailMode set to ListViewDetailView.
+I also have an action button on the detailview part of the screen. After hitting that button, i want to move the records in the listview to the last record.
+I had the button ctroller linked to the Listview and everything was fine. I moved the button to the Detailview and now the listview does not move to the last record.Previously I searched for the last record and set the view.currentobject to the last record.  The button sits on the detailview part of the screen now. I want to access the lstview part and move the grid to the last record.
+Can you please help me with some vb code. I've tried 
+ and the AccessParentDetailViewController 
+ 

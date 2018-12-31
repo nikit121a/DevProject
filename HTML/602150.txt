@@ -1,0 +1,7 @@
+Hi,
+I read below thread and works for me too but I have a quick question,  is there an easy way to keep some datafields(columns) of the same value as previously added row, our client doesn't want to re-enter again, but to change only what is needed.
+This is the thread I used;
+ 
+Let me know if someone can suggest.
+Thanks,
+Simon 

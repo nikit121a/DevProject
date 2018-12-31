@@ -1,0 +1,7 @@
+
+Following the 
+ shows an empty list. For some reason the ObjectSpace on the controller is an XPObjectSpace instead of a NonPersistentObjectSpace. I did not leave the example but the same occurs when trying to show a 
+.
+To reproduce: Open "My Value" list view From navigation
+Workaround: Create a Non-Persistent class that contains the list, show the detail view of such class from the navigation. When initializing the object for the detailview create it manually (
+)

@@ -1,0 +1,8 @@
+Hi,
+I have a protected worksheet with some cells unlocked. When I copy some cells range form Excel and paste it to any unlocked cell in my dxSpreadSheet, all cells are copied, also these which are pasted to locked cells.
+In such situation Excel forbids pasting what is an expected behavior.
+Steps to reproduce bug:
+1) prepare a protected sheet where a single cell will be unlocked (editable).
+2) copy some range (more than a single cell) form other Excel file
+3) paste copied data to this single unlocked cell in a dxSpreadSheet.
+4) see when a locked cells content is replaced too.

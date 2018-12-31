@@ -1,0 +1,18 @@
+WPF
+VB.net
+In the reception Desk schedule demo app, I'm trying to add the following action.  
+From the right side list of paitents that you can drag and drop onto the schedule, I would like to double click and open the medical appointment window to schedule the selected patient manually instead of drag and drop.  
+From the Table View grid: double click on a selected row > Open a new medical appointment window and pass selected patient's parameters in from selected row  to the form.  These values should be:
+a. Patient name
+b. patient id
+c. patient phone
+d. patient birthdate
+(I know some values are bound in medical appointment window. So i'm not sure which of these we are passing in to window)
+also, be able to set other values not included with the selected row that exist in the medical appointment window.
+a. appointment type status  = value
+b. payment status =  value.
+c. Doctor = value (I know some values are bound in medical appointment window. So i'm not sure which of these we are passing in to window)
+d.  reminder = value
+e. start time = value
+f. end time = value
+Thank you 

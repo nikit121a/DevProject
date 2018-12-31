@@ -1,0 +1,9 @@
+
+Scheduler view - 'Resources' 
+3.1 In our scheduler we have several resources Practitioners and Locations. Patient appointments are linked to a practitioner and location. A practitioner can work at several locations (not at the same time of course). The standard available scheduler views of practitioners meet our requirements. 
+Is it also possible to create a location view? In this view the appointments are selected per location per practitioner. So in stead of practitioners we select location A and all appointments linked to location A are presented (grouped) per practitioner: see 
+  
+3.2 And assume we select a second location, the view should be like as presented attachment. Locations A and B beside each other and on monday the appointments are grouped per practitioner. Is this possible somehow?
+Looking forward to you answer. Many thanks in advance,
+Joost Boutkan
+James software

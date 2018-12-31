@@ -1,0 +1,5 @@
+Hi
+Is there a way to catch a row being added to a WPF grid control?  I have a grid in a user control that gets it's data via the DataContext reference.  Rows are added at runtime  and I need to catch the rows being added so that I can set the cell tooltips (I have to hack the tooltip in like this because using a CellStyle only works in some instances of the grid with no indication of why it doesn't work consistently in all of them and also introduces other bugs, like changing the colour of the cell text to white when right-clicking.  I also tried adding the tooltip text in the MouseMove handler, but that doesn't work properly because when the tooltip is initially null the non-null tooltip is only picked up when the cursor exits and then re-enters the control).
+I've tried handling various events - ItemsSourceChanged , SourceUpdated and DataContextChanged - but they're either never fired or only fired before rows are added.
+ Thanks
+Craig 

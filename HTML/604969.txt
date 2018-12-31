@@ -1,0 +1,1 @@
+I have reproduced the issue on my side and decided to forward it to our developers, so they can examine it thoroughly. This might take some time for us. We will update this thread once we have any progress on this issue.

@@ -1,0 +1,4 @@
+Hello,
+Is there a way to remove a standard PDF Form Field (textbox).  Not a devexpress interactive form field .
+Thank you in advance!!
+Chris 

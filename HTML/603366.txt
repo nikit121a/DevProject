@@ -1,0 +1,6 @@
+I try to change grid's navigator height with the following code:
+
+
+
+
+ The line  ScrollBars.HScrollBar.Height := 32; change scrollbar height but the line View.LayoutChanged; revert it.

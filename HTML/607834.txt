@@ -1,0 +1,5 @@
+We have a 32 bit application that start consuming 350mb of memory
+I just tryed to make a select, that return 80000 rows
+When I try to export this data to a csv file , my application get an Out of memory error, when it get over 3.5gb of consumption
+There is a way to avoid this?
+We are facing problems because the same select can export data with dbms tool

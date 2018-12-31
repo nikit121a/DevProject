@@ -1,0 +1,3 @@
+We would like to have our datagrid's columns resize independently to each other. Setting columnResizingMode to "widget" gets us closer to that goal. However we also use and display the column chooser, search panel, and the pager. It seems that resizing a column resizes the entire control causing the other datagrid elements to move horizontally as well, which is bad UX. This sometimes causes the search panel and the pager to be clipped on the right side if the columns don't all fit on screen.
+Is there a way to have the other panels in a datagrid stay fixed with only the columns resizing in columnResizeMode='widget'?
+Leaving the column resizing to the old method causes our users to constantly have to resize all the other columns to the right because their size shrinks.

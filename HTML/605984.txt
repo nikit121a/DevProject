@@ -1,0 +1,4 @@
+Hi
+I'm using a Scheduler component with ASP.Net Core 2 MVC project. The component is not showing the appointments on their correspondent time when it is opened for the first time. Please see the attached video.
+Regards
+ 

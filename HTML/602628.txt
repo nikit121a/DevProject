@@ -1,0 +1,5 @@
+We have a data grid and are trying to implement export functionality.
+The export data set is dependent on a number of filters set by the user and can range from one to over a million.
+During testing we are noticing a limit of around 10,000 rows before the export function stops prompting users to save a file. 
+Testing shows our data access is taking around 300ms to query data. 
+There seems to be an issue when the data is being processed by the data grid.

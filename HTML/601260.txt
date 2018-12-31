@@ -1,0 +1,4 @@
+Hi!
+My XAF  Mobile app on android can be opened from a website link:
+When my app opens how to go automatically to a specifc detail view where the ID of the current business object is param1?
+Thanks.

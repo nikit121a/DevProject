@@ -1,0 +1,14 @@
+dear support,
+we have a business requirement to achieve below functionality shown in youtube video.
+ how can we best do it in XAF web applications.
+if i have to summarize then:
+1. data is shown in a gridview
+2. on cell click it opens a popup with specific field and control ( it could be textbox, dropdown, depending upon the field).
+3. it is not loading whole detail view.
+4. it is saving on the fly and refreshing grid without postback.
+5. if i pick columns from column chooser, functionality is applicable to any column whihc is editable in DETAILS VIEW.
+6. user security permission to be checked , who can and who cannot change the data.
+7. all grid operation should work like filter, sort, search etc.
+pls advise how best we can do it in XAF web application project.
+Thanks
+ 

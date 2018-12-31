@@ -1,0 +1,13 @@
+Goor Morning:
+I try to use the courier app from Iphone 6 mobile but I get the following error :
+I read the explanation from this page "
+" too, but  the connections from my IP to 
+  is open, my firewall is down and my antivirus is not blocking the 80 and 8000 port.
+when I access to the  
+ I get the following error:
+ 500 Internal Server ErrorCannot process the message due to the following error: Cannot identify command processor from message: GET / HTTP/1.1 Host: 23.96.246.86 Upgrade-Insecure-Requests: 1 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8 Accept-Encoding: gzip, deflate Accept-Language: es-419,es;q=0.9 CUDA_CLIIP: 192.168.1.69 X-Forwarded-For: 192.168.1.69 Cache-Control: max-age=259200 Connection: keep-alive
+when I access to the  
+ I get the following error:
+404 Not FoundCannot process the message due to the following error: ApplicationId '' Is Not Found
+ 
+ 

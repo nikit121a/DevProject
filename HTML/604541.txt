@@ -1,0 +1,4 @@
+Hi,
+The topic says it all. I need to print what is inside a particular pane? Is there a simple way to do this? 
+regards,
+-randall 

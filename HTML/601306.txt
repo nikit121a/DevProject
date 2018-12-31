@@ -1,0 +1,3 @@
+I have a grid control that has a "new" row showing at the top.What event is fired when a a cell is clicked to edit it? 
+If I click the "add" from the grid navigation bar, InitNewRow fires. However; it doesn't fire if the new row is already showing an i click a cell to edit it.
+Thanks 

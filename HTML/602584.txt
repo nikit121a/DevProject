@@ -1,0 +1,9 @@
+Hi,
+I have a TcxGridDBTableView that is setup with multiple grouped values in a single group header.  When the data is refreshed, I need to put the focus back to where it was (or as close to) before the refresh.
+Currently I am recording the Top row index and the Focused row index  before the refresh, and resetting them after the refresh.  However, some users are complaining that the view looks different after the refresh.
+This is because when the group has a lot of records (say 100)  the views top row is the group header (as it's sticky) but the data row beneath that is not the first data row,  but in fact may be the 75th data row of that group.
+How do I set the top row within the group so I can get the view looking exactly the same before & after the refresh.  
+I attach an image that I hope explains things better.
+Kind regards
+Stuart
+ 

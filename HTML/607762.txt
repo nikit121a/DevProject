@@ -1,0 +1,5 @@
+Hi,
+We have an amazon storage with these fields how to connect using devex control
+  <dx:ASPxFileManager runat="server" ID="test" ProviderType="Amazon">
+            <SettingsAmazon AccountName="" BucketName="" Region="" />
+        </dx:ASPxFileManager>

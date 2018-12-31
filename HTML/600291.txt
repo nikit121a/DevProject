@@ -1,0 +1,3 @@
+I have added new column in my stored procedure , Refreshed Datasource able to see the new field till TableAdaptor but its nit reflecting in FieldList.
+I have build , rebuild , closed as suggested by earlier posts, nothing worked.
+See the attached Screenshots. 

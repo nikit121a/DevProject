@@ -1,0 +1,3 @@
+enclose a screencast plus call stack. For one group it just works, for this one the dropping always results in this error.
+I think it used to work well, as the source code hasn't been changed for ages.
+Source:

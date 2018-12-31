@@ -1,0 +1,3 @@
+
+I think i can go with the report object parameter route for now, but its not exactly clear for me how i would go about prefilling the values of the report object parameter, and now show it to the user. I was expecting creating a instance of the report parameter object class and sending it somehow to the report preview method.
+Preferably i would like to be able to define the report as an inplace report so that it shows in the toolbar of the apropriate object. The only thing is that i would like to force this either to be shown only if i go in detail view, of i force selection of just one row . So when i call the report from the associated object i would like to prefill the report parameter object values, and show the report directly.

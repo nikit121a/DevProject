@@ -1,0 +1,3 @@
+Regarding to ticket T196032 I have the same issues but the solution seems not very elegant and produces a lot of overhead. So my question is if there is another possibility to handle this problem after 4 years since the ticket was opened?
+regards
+Karl

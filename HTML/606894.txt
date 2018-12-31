@@ -1,0 +1,1 @@
+For some reason, users are unable to paste filters from their clipboard into the Gridview search bar. They can right click and click paste however the CTRL+V shortcut doesn't seem to work. How can i add functionality to support the keyboard shortcut?

@@ -1,0 +1,4 @@
+I wan't to change the color of the Grid's build in Loading Panel, because it looks poor if i use an own loadingpanel picture.
+(Because only Gif Images works as animated Pictures, png doesn't work)
+Take a look at the attachement. 
+Thank you. 

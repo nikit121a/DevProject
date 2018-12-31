@@ -1,0 +1,3 @@
+Hi
+Trying to display a data-aware  numeric only value, but if i use a  calcedit i can disavle the calc button with code, but it will still be left aligned if its in focus. I dont want anything to happens if the use click on it it get default focused. I Tried label, but ther i cant set how to format numbers.
+The numbers should just show right aligned as numbers and never change from that. Se attachment. 

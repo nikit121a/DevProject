@@ -1,0 +1,3 @@
+Our customer wants a blue focus rectangle for all controls. This featrue should work in all browsers but especially in IE and Edge. Do you have a CSS rule for me that works in all DX controls?
+Thanks! 
+ 

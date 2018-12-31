@@ -1,0 +1,8 @@
+Dear Support Team,
+I am using MVC with DevExpress Gridview. Now for some requirement i have to use DevExtreme data grid for some of the pages.
+In DevExpress Gridview i was using one dropdown where all the other format was present. Based on the user selection of format he was getting the same format of report. In this export merging column issue has been fixed also.
+How could i achieve the same functionality of export in DevExtreme grid also.
+Please find the attachement of sampel file where export functionality used.
+Please let me know if you have  any concern.
+Thanks,
+Veera 

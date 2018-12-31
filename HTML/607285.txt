@@ -1,0 +1,13 @@
+Dear DevExtreme Team,
+we are using dxDataGrid with enabled group-panel in an angular5 application. We have our own backend attached (which does all the sorting / filtering) of the data and therefor use a CustomStore which maps your LoadOptions onto our QueryParameters object.
+All of this works very nicely!
+Now we have the following issue:
+- When dragging one column to the group columns, everything is grouped nicely
+- Now when collapsing one of the groups inside the grid, the LoadOptions get a filter for "<>" (not equal) for this specific group, so that this group is no longer returned => also this works nice
+- When finally changing the sorting of the group column, things go bad:
+=> We now receive multiple load calls in the CustomStore. Some of the calls don't have filters set, some don't have sortings set
+It feels like that the grid throws multiple events when partially filled LoadOptions.
+ Please see the attached screenshot. This is a "console.log(loadOptions);" in the load method of the store.
+All three logs have been dispatched by a single click on re-sorting the group column.
+Also you can see from the screenshot, that one of the LoadOptions tries to filter ">" (GreaterThan) on a string value which is obviously not possible and results in a server-side error for us. 
+Thanks for any help on this topic! 

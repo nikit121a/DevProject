@@ -1,0 +1,5 @@
+
+                                To control the WaitIndicator control's visibility, use the 
+ property. As for changing WaitIndicator's properties, it is a common WPF control and you can change its properties in code behind or using bindings. You can read more about the bindings here:  
+.
+                            

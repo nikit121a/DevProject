@@ -1,0 +1,13 @@
+Hi,
+i've got a DXTabControl with dynamically adds DXTabItems.
+The View property is declared as following:
+The method for adding a DXTabItem is:
+In XAML I created a command binding, which directs to a method CloseTabCmd_Executed:
+The methods signature looks like the following:
+Until this point everything works as expected. I set a breakpoint inside the executed method and debugger stops inside the method.
+If I'm going to inspect the ExecutedRoutedEventArgs with the built in tools in VS the Source object differs from the one I clicked before.
+For example if there are two Tabs and I'm going to click the first one, the second Tab will be the Source of the event (and vice versa).
+Am I doing any mistakes while using the .CloseCommand property together with View's property RemoveTabsOnHiding?
+Or is this maybe a known bug?
+Thanks in advance!
+EDIT: Updated method CreateNewTabItem()

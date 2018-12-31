@@ -1,0 +1,3 @@
+I have a datagrid that is grouped by a column. We have a requirement that one entire grouping may be deleted. Is there a way to put, let's say a button on the grouping that I could bind to an method to remove everything in that group?
+Thanks,
+Dan

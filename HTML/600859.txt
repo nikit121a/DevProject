@@ -1,0 +1,7 @@
+Hi -
+I created a dashboard using the ASPxDashboard control.  I have two grids each using their own data source.  I would like them to both use the Range Filter control on the dashboard.
+I put both grids and the Range Filter in a "group".   I tried to set them up using the master control.
+The range filter and one of the grids are reading from the same SQL stored procedure and works fine.  The 2nd grid is reading from another stored procedure and even through I told it to use the master filters it still does not work.
+Is there a way to make both grids use the same Range Filter? 
+I appreciate the help.
+Thanks 

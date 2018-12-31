@@ -1,0 +1,4 @@
+Hi
+I have a border colour template that I need to use on two columns in a grid.  Is there a way to create a single template that the columns can share or do I have to define the same template for each column?
+Thanks
+Craig 

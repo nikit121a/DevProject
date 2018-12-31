@@ -1,0 +1,7 @@
+I am trying to determine when a click on DevExpress Scheduler Appointment is a Single Click or Double Click.
+With a single click, I create a New Appointment...
+With a Double Click, I populate the Headers.
+My problem is, when I double click, it goes through the code for single and double click taking a long time.
+I want to go through MouseClick event when there is one click and MouseDoubleClick event when I double click.
+I would appreciate if you can send me some code sample.
+Thanks. 

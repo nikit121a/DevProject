@@ -1,0 +1,3 @@
+Hello,
+I'm using dxPivotGrid and i'd like to know if it's possible  to mantain the colors of my pivot when exported?
+ I tried to export it using jquery to keep the colors (i exported the html), but i'm using the virtual scrolling and the data comes incomplete, so if there's not how to export this using just the events of dxPivotGrid, is there a way that i can get the data on the export event and then use my jquery export, so i can keep the colors and get the right values?

@@ -1,0 +1,4 @@
+Hi there,
+is it possible to set all columns to autofit in XL Export Library? I haven't found an option to do that.
+Best regards,
+Alex

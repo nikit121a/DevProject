@@ -1,0 +1,12 @@
+I have two projects using the PivotGrid control in WPF.
+In project #1 the default Context Menu is popping up when you right click in the Row Header area. (Screenshot attached.)
+This project is actually using 
+ of DevExpress for WPF.
+Project #1 PivotGrid XAML:
+In project #2 no Context Menu displays when right clicking in the row area.
+This project is using 
+ of DevExpress for WPF.
+Project #2 PivotGrid XAML:
+Did something change in 
+for how to access this Context Menu? (I'd like the user to be able to use the Show Field List menu option in project #2.)
+  

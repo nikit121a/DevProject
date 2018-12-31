@@ -1,0 +1,5 @@
+After geting the results, they are kept in memory(session or files), everytime we performe an action on the grid, it recalculats all the totals (group and normal)
+how to avoid this? this is causing lots of performance issues...
+code for the pagging/sort..
+
+

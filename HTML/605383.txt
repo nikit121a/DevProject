@@ -1,0 +1,3 @@
+I've got a Winforms form with a DevExpress xtragrid gridControl with a data adapter as source.
+I would like to enable a button when the data changes in the grid.
+I would appreciate some VB code. Which event can I use to enable the button. 

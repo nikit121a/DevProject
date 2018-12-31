@@ -1,0 +1,8 @@
+Hi Team,
+I have a scenario where I would like to deal with Sparse Matrix, and I want Grid to replicate the same. Are there any possibility or workarounds?  
+I tried various approaches (reading from old support articles) but nothing worked for my case. I tried  overriding the behavior in 
+ and  in 
+ and few other but couldn't able to achieve what I want. I have attached my effort, please help.
+I really appreciate any help on this.
+Thanks,
+Hari Prasad 

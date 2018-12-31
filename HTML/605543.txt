@@ -1,0 +1,4 @@
+I need to organize my user interface with the following alignment.
+but currently it is done class to class, but I know that there is an option to do it in a GENERAL way in my application and not one by one the classes.
+How do I do it for all my application?
+see attached image

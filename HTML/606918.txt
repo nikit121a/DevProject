@@ -1,0 +1,10 @@
+Hi,
+We need to export Data from cxGrid to excel. We are using the function   
+cxGridExportLink   
+We have a problem keeping Grid data format : 
+if we  use Native Format : the currency sign appear in the numeric column ( we don't want this), we want no sign by default
+if we are NOT using the native format, all data are strings so we can't do calculation in Excel
+How can we provide to keep numeric type of columns without having the currency  ?
+(i provide a small exemple, with my excel files, and screen copy to show you how we are working). 
+thank you
+PS : i was thinking about the column field format is not good but i don't know how to change on the fly.

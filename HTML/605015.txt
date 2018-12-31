@@ -1,0 +1,9 @@
+In may application (using HybridApp as Template) I have one TdxTilecontrol with three tiles used as buttons.
+The buttons opens a second frame for some user entry.
+The function is ok, but the dxTilecontrols shows unwanted scrollbuttons, see screenshot, they are not only unwanted, but have no useful function.
+dxTileControls OptionsBehaviour.Scrollmode has no influence here.
+The tileControl is contained in a dxLayoutItem, which is part of a dxLayoutgroup.
+The LayoutgroupRoot has both scrolloptions set to smNone.
+Currently the only known way to get rid of these buttons is to put a lot  of spaces after the dxTileControl.Title.Text ("create / delete").
+This  is the only difference between the two lower screenshots.
+Is there another way to suppress display of the scrollbuttons ?

@@ -1,0 +1,3 @@
+Hi,  
+I need the Grid.GetRowValues() of ASPxGridView but in ASPxVerticalGrid. I have read the documentation but couldn't find the answer.
+Thanks in advance 

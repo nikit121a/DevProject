@@ -1,0 +1,5 @@
+Hello,
+I noticed that when I view a XRReport  that has a text watermark in the PdfViewerControl, I can select the watermark's text, even when I show it behind the other controls.
+Is there a way to disable this selection?
+Thanks,
+Fabio 

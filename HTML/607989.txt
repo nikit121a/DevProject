@@ -1,0 +1,4 @@
+Ahh yes that was it sorry. I was 17.1 now I upgraded to 17.2.3
+I am getting the following error in my console:
+However this is highlighted yellow and flagged as a warning, but it is in fact an error.
+ 

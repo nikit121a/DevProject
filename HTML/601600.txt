@@ -1,0 +1,3 @@
+Hi DevExpress Team,
+foreground conditional formatting does not change the foreground of the HyperlinkEdit in the cell. Everything else like background works fine. 
+Any ideas?

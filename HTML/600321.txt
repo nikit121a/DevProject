@@ -1,0 +1,5 @@
+I am using WindowedDocumentUIService  in my XAML and DocumentManagerService in my viewmodel code to load a dialog with EF object. However the Close Command is not working.
+What I notice was that the CreateDocument in DocumentManagerServiceExtension sets the DestroyOnClose to false, if I set that to True then the Close Command does work, however once in awhile the Dialog will close after the user has clicked on close and the dialog will reload without any controls. That only happens once in awhile and I can not pin point the steps.
+What is the correct way to launch  a Windows UI Dialog with EF? and do you see any issues with my XAML and code?
+XAML
+ C#

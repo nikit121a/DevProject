@@ -1,0 +1,4 @@
+I have implemented code that incrementally searches a text field for matches.  When the user types, the list if filtered, but no item is selected in the dropdown unless there is a unique text match.  In the screen shot attached, you can see an example where I typed TO in the grid, and the dropdown properly returned all rows that contain TO (case insensitive).  
+Unless there are no matches at all, I want to force the user to select one of the values before the dropdown closes so that a blank value is not allowed to be returned to the grid.
+How can I do this?
+  

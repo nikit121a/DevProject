@@ -1,0 +1,4 @@
+Hi
+at this moment if i press alt then i get the altmenu in ribbon.
+is possible to make the menu on alt press and hold? byt the view should be not blocked. I want to code my own shortcuts at alt but i can't catch alt press event at this moment. 
+the goal is to have a alt menu in ribbon on press and hold  alt button with option to code own shortcuts.

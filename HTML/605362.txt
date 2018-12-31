@@ -1,0 +1,14 @@
+I use pivotgridcontrol.
+datasource = gridControl.datasource 
+Is there a pivotcontrol automatic calculation function when gridcontrol data source is changed? 
+Do I need to call the following code each time the value of the data source changes? 
+ 
+ex.1)
+pivotGridControl1.BeginUpdate();
+pivotGridControl1.DataSource = null;
+pivotGridControl1.DataSource = mAList.gridControl1.DataSource;pivotGridControl1.EndUpdate();
+ex.2)
+pivotGridControl1.BeginUpdate();
+pivotGridControl1.RefreshData();
+pivotGridControl1.EndUpdate();
+ If you need to call Please tell me the best way. 

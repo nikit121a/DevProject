@@ -1,0 +1,6 @@
+We do some autocapitalization in our AutoCorrect event handler, and a customer wants this functionality after an autocorrection has happened
+For example, the desired behaviour is to both correct and capitalize "acheive" :
+"Previous sentence. acheive" ->  "Previous sentence. Achieve "
+but the AutoCorrect event does not seem to fire after the table entry correction, so we can't do the capitalization 
+"Previous sentence. acheive" -> "Previous sentence. achieve " 
+Can AutoCorrect be configured for this behaviour?

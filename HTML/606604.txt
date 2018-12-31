@@ -1,0 +1,5 @@
+Hi Support,
+I want to be able to get the selected items in ComboboxEdit.  How would I accomplish this in MVVM. 
+XAML
+C#
+I want to execute "SelectedPortfolio" event and past the selected items to list.  Also how can I execute when user clicks on popup menu button.  Could not find anything on the tickets to show me example.  Please advise. Thanks?

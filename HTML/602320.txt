@@ -1,0 +1,40 @@
+Is there similar functionality to Grid View MVC TreeList Substitute Filter?
+Grid View has settings.SubstituteFilter = (s, e) => {}, but didn't find the same for Tree List in MVC
+Need to get current filter and add new values based on condition like in Grid View:
+ settings.SubstituteFilter = (s, e) =>
+        {
+            var gridView = (MVCxGridView)s;
+            if (ViewData["GeographyFilter"] != null)
+            {
+                var criterias = CriteriaColumnAffinityResolver.SplitByColumns(CriteriaOperator.Parse(gridView.FilterExpression));
+                if (ViewData["GeographyFilter"].ToString() == string.Empty)
+                {
+                    criterias[new OperandProperty("Description4")] = null;
+                    criterias[new OperandProperty("Description3")] = null;
+                    criterias[new OperandProperty("Description2")] = null;
+                    criterias[new OperandProperty("Description1")] = null;
+                }
+                else
+                {
+                    var newValues = ViewData["GeographyFilter"].ToString().Split(',');
+                    var level = ViewData["GeographyLevel"].ToString();
+                    switch (level)
+                    {
+                        case "4":
+                            criterias[new OperandProperty("Description4")] = new InOperator("Description4", newValues);
+                            break;
+                        case "3":
+                            criterias[new OperandProperty("Description3")] = new InOperator("Description3", newValues);
+                            break;
+                        case "2":
+                            criterias[new OperandProperty("Description2")] = new InOperator("Description2", newValues);
+                            break;
+                        case "1":
+                            criterias[new OperandProperty("Description1")] = new InOperator("Description1", newValues);
+                            break;
+                    }
+                }
+                gridView.FilterExpression = CriteriaOperator.ToString(GroupOperator.And(criterias.Values));
+            }
+        };
+ 

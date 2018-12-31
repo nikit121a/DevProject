@@ -1,0 +1,8 @@
+Hi Team,
+I am trying to create a custom control with 7 ToggleSwitch controls with in a StackPanel. 
+Content of the control will be a binary number  ex: 0000001.
+0 - Checked 
+1 - UnChecked 
+Now I am not able to figure out how can we assign these values to each ToggleSwitch when we change the content. ex: 0000011. 
+Thanks,
+Siva 

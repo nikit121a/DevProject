@@ -1,0 +1,4 @@
+Hi,
+I have problem. I want show property gird in layout in model editor.  
+I was able to do this only when customization the window for detailview. but I would like to give users the same opportunity when editing the model 
+Can you explain to me where in the model should such an option be included? 

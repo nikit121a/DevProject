@@ -1,0 +1,41 @@
+ Hi,
+I am trying to bind dxSelectBox by using CustomStore via Web API. Please, see attached project:
+public class AreaController : ApiController
+    {
+        [HttpGet]
+        public HttpResponseMessage Get(DataSourceLoadOptions loadOptions)
+        {
+            loadOptions.PrimaryKey = new[] { "ID" };
+            var dig = new CustomDictionary() { ID = "1", Name = "Dig" };
+            var cal = new CustomDictionary() { ID = "2", Name = "Cal" };
+            return Request.CreateResponse(DataSourceLoader.Load(new CustomDictionary[] { dig, cal }, loadOptions));
+        }
+       
+    }
+OPM.report = function (params) {
+    "use strict";
+    var viewModel = {
+        formItems: [
+         
+            {
+                name: "Area",
+                editorType: "dxSelectBox",
+                editorOptions: {
+                    dataSource: new DevExpress.data.DataSource({
+                        store: new DevExpress.data.CustomStore({
+                            load: function () {
+                                return $.getJSON("
+");
+                            }
+                        })
+                    }),
+                    valueExpr: 'ID',
+                    displayExpr: 'Name'
+                }
+                
+            },
+         
+            }]
+    };
+    return viewModel;
+};

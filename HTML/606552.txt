@@ -1,0 +1,2 @@
+I have a WPF GridControl, most of the time, the row in this GridControl represents one record. But sometime, two rows are associated with one record. Is there a way to do that?
+Thank you. 

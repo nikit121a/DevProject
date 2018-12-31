@@ -1,0 +1,9 @@
+Dear DevExpress team,
+one of our customers has the problem that his Sophos Firewall ( Sophos UTM 9) detects POST request as possible SQL injections.
+Log entry:
+We examined this problems and discovered the actual problem: The name attributes of the input elements of the DevExpress ASP.NET components are automatically generated. For example: ctl00$mainContent$ComboBoxLanguage$DDD$L. In the POST request this name is sent as argument name with the specific values. 
+The firewall checks this argument names for special characters to avoid possible SQL injections. There is only a maximum of 3 special characters allowed, but based on the DOM location the generated name attribut contains more than 3 $-signs. 
+Is there any way to  avoid this problem? Is there any way to change how the name attribute is generated?
+Greetings,
+Jakob Thiersch
+itdesign GmbH 

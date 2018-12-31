@@ -1,0 +1,16 @@
+I 've created sample DevExtrme MVC Project.
+I would like to translate GridView widget.
+I've changed translation in dx.messages.pl.js
+  "dxDataGrid-groupPanelEmptyText": "aaaaa",
+I've added:
+  <script type="text/javascript" src="js/dx.web.js"></script>
+    <script type="text/javascript" src="js/localization/dx.messages.pl.js"></script>
+    <script>
+    DevExpress.localization.locale(navigator.language || navigator.browserLanguage);
+    </script>
+both to my Layout.cshtml and Index.cshtml
+but it doesn't work. I expect the grid to display translated text instead of "Drag a column header here to group by that column"
+What's more VS displays folloowing error:
+Error        The language service is disabled for project 'C:\Users\ppil\Documents\Visual Studio 2017\Projects\TranslationTest\TranslationTest\TranslationTest.csproj' because it included a large number of .js files. Consider excluding files using the 'exclude' section of a 'tsconfig.json' file.            0    
+Could you provide step - by step instructions how to start with default DevExtreme Solution and then to run localized widgets? Could you modify attached solution please?
+What is the reason of the error being displayed?

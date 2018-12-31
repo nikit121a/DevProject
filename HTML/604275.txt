@@ -1,0 +1,4 @@
+Is it possible to use to Google material icons (
+ the Bootstrap controls suite ?
+In the documentation, I only see references to Glyphicons and FontAwesome.
+If so, do you have a sample showing this integration ? 

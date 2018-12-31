@@ -1,0 +1,1 @@
+Our app uses a controller action to save document/form contents rather than the built in save mechanism. After saving the document on the server, is there some way to reset the dirty flag on the client such that ASPxClientRichEdit.HasUnsavedChanges returns false?

@@ -1,0 +1,2 @@
+I am trying to show my own popup instead of your right-click menu, which is fine. But I have a problem when you right-click a cell, let's say, which open's the popup, then you right click again off the popup on another cell, it doesn't re-select the new cell. What is the best way to fix this? This wants to select the new cell/appointment each time?
+I have attached a sample project.

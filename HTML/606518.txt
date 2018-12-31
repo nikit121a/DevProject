@@ -1,0 +1,6 @@
+Hi Support,
+I used ASPxFileManager bind to SqlDataSource. Works fine.
+My FileBinaryContentFieldName is CompressZip for safe space in database and  this field in table have compress files like 
+Images, Docs, XlsX, Pdf etc.
+So, How can I  DecompressZip FileBinaryContentFieldName before show this binary file in ASPxFileManager?
+Thank you.

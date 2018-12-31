@@ -1,0 +1,6 @@
+
+Hello,
+I'm trying to configure the bootstrap cardview and have a two questions involving formatting (see attached screencapture):
+2. How do I remove the faint border lines shown with the cardview control and also the cardview item?
+Thank,
+Eric

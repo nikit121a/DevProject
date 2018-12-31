@@ -1,0 +1,8 @@
+Hi Devexpress team !
+I use this example to export to excel (
+"> 
+)
+But each row of the pivot grid has to be in a different page to be printed.
+Currently it just exports the grid just as the example and when I want to print it, it just displays the data continuously; 
+I attached an image to let you know the idea of what I want to do. ghh 
+ 

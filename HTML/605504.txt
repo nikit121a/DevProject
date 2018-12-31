@@ -1,0 +1,7 @@
+Hi,
+I have developed a dashboard view on an asp page.  The web page with the dashboard is working fine in my VS IDE environment.
+The dashboard is saved in the folder ~/App_Data/.
+When deployed in a IIS the dashboard is missing in the web page.  The error "An error has occurred on an attempt to load the list of available dashboards". 
+Where did I went wrong?
+Cheers,
+Peter 

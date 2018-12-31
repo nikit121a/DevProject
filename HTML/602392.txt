@@ -1,0 +1,7 @@
+Hey,
+I have a problem I need your help to solve.
+I have a datasource that is listing in each row a usage of a certain tool.
+I need to now create a table that has 2 columns, 1 with the count of those usages and a 2nd column that shows a numbers that is representas that same number when we remove "waste" from column 1 number.
+For example if user used 100 times tool 1, column 1 value should be 100, and if waste is 50% column 2 should show 50.
+The waste percentage I calculated with the calculated field shown below, now I would need to multiply that percentage with the value in column1, but this does not seem to work.
+Please advize

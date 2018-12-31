@@ -1,0 +1,9 @@
+Hi
+I need to implement the functionality as in my attached image.
+1. There are two tabs. First is Search and second is Details.
+2. User selects Radio Button on first tab to indicate the type of search. It can be either by ID itself or by other details like Name, DOB etc.
+3. If the search is by ID, clicking on the Next Button, the corresponding record will be selected and it will be displayed on the second tab.
+4. If the search is by details, there is a possibility that there might be multiple records. In that case all records will be populated in the list below. Then user will select the option button from there to select desired record. Then clicking on next will populate the record in details tab.
+My question :
+What is the best approach to achieve this functionality?
+ 

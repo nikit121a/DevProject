@@ -1,0 +1,15 @@
+Hello,
+we have encountered an issue with the TreeListControl in combination with the AllowRecursiveNodeChecking flag.
+What we are currently doing is the following:
+1. Load an IList / ObservableCollection  of hierarchical model entries (bound to the ItemsSource of the TreeListControl)
+2.  After that update the check states of the model entries recursively
+3.  Have AllowRecursiveNodeChecking activated on the TreeListView, so recursively checking and unchecking the leaf items works
+The problem with this is that initially the checkboxes are all shown as unchecked except the checked leaf nodes.  I'd expect the control to display the check state of the parent nodes according to it's children 's check states (all checked -> checked, nothing checked -> unchecked, some checked -> indeterminate). Interestingly, this works as expected after resetting the ItemsSource.
+What we have tried already:
+- Setting  EnableDynamicLoading to false so every node is created initially
+- Disabling AllowRecursiveNodeChecking, but that is not an acceptable solution, because our parent nodes cannot have a meaningful check state for themselves
+I have attached a small sample project to clarify the issue.
+In the project, I have tried to use ObservableCollection and always clear it and add the items, as well as completely resetting the ItemsSource list with raising the property changed event. Both approches  led to the same strange behavior.
+The button  simply calls the same data loading procedure that is also called in the constructor. But resetting the ItemsSource by pressing it, resets the UI and shows the correct Indeterminate state on the nodes. You can see the commented code in the ViewModel that shows the alternative (and preferred) approach of using an ObservableCollection.
+Is this behavior a bug or am I missing something?
+Thanks in advance and best regards. 

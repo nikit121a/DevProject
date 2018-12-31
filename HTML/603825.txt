@@ -1,0 +1,9 @@
+HI
+i took start Time and End time. using ASPxTimeEdit control
+i need  while select start time ,end time must grater than start time(means Some thing like rang).
+please see following.
+same as 
+<dx:ASPxDateEdit ID="DateTo" runat="server" ClientInstanceName="DateTo" DateRangeSettings-StartDateEditID="DateFrom">
+ 
+How can i do this in  ASPxTimeEdit control.
+Thanks

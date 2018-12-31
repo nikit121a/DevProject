@@ -1,0 +1,8 @@
+I am attempting to produce custom map markers from items added on-the-fly to a MapControl.  I am following examples found in other questions, such as these:
+I have this class for individual items to be mapped:
+This is how they are added:
+This is the MapControl in XAML:
+And these are the templates defined in my global ResourceDictionary.xaml:
+In reality, it doesn't seem to matter what I do with the named templates...they are never applied to the pushpins that are generated for the map.  I have tried placing the template definition directly into the control, both in Resources, and in the MarkerTemplate tag itself.  Neither worked.
+The only way I have ever gotten this to work is to create MapPushpin items directly in the XAML, giving each one the template name.  Why do these template not seem to work the way the examples suggest they should?
+ 

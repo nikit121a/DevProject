@@ -1,0 +1,5 @@
+Hi Guys,
+we heavily use simplified criteria syntax  - and we sometimes hit following Problem. developers normaly know and write Syntax with an single & - but it happens that an developer will not notice and write && in the criteria Syntax which will lead to a wrong query, for example:
+var c = new BinaryOperator("Test", false) && new BinaryOperator("Test", false); -> wrong
+var c1 = new BinaryOperator("Test", false) & new BinaryOperator("Test", false); -> correct
+is there technical any possibility to generate an warning / error in such Situation?

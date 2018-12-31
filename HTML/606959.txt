@@ -1,0 +1,11 @@
+Hello support,
+I have a pdf document that has form fields in it (may or may not have been created by DevExpress).
+End Goal: Move the text field to a different position on the pdf
+When i move the mouse over the textbox the cursor turns to a little hand, so the viewer is recognizing that it's a field.
+I can get the current position by using the PDFViewer.GetDocumentPosition
+but basically i want the Cursor to turn to a hand (which it does) -> left click and hold -> move to a different position -> let go of mouse button -> move the selected formcontrol to the new position.
+I'm crazy I know!  :)
+Any thoughts?
+Thank in advance!!!
+Chris
+ 

@@ -1,0 +1,4 @@
+I am using skins, which automatically skin any TPanels on a form.
+On one of my forms, I have a few TPanels which  should not be skinned because I need to control their colour.
+So, I have  excluded seClient from MyPanel.StyleElements, hoping that might do what I want. It seems to work at design time (ie I can set their colour) but not at runtime (they still get the colour of the current skin and setting the colour in code has no effect).
+Is it possible to do what I want? 

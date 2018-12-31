@@ -1,0 +1,8 @@
+Hello,
+I have tried following code to achieve bestfit mode in excel export and it is working
+I want to perform following function while grid data is exported to pdf for reporting purpose
+Apply bestfit mode to column(s), 
+Export only selected columns,
+Export with grouped columns 
+Pls guide me on how can i customize the export in pdf.
+Thanks

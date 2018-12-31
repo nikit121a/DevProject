@@ -1,0 +1,7 @@
+Hi there,
+I have already created many reports using xtrareports.
+I have used formatting rule to conditionally hide band/controls.
+Now you have introduce Expression Binding from 17.2.
+hence I tried to used it but Expression editor doesn't display for visible property of xrLabel.
+Please refer attached screenshot.
+Do I need any specific setting? 

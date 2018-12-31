@@ -1,0 +1,5 @@
+Hi,
+Is there a setting for the ASPxGridView to disable all wrapping so you dont have to do it on each column?
+Regards,
+Patrik Johansson
+ 

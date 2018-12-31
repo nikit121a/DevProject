@@ -1,0 +1,3 @@
+Hi,
+my cxGrid has a dblookupcombobox in one of its fields. However because the listsource of the dblookupcombobox has 50.000 records in it to list, it causes performance issues like slow scroll, slow open and close and so on.
+Any idea how can I make it faster? 

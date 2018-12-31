@@ -1,0 +1,7 @@
+Hi,
+I have a very large dataSource.
+When trying to bind dxChart to this dataSource, It's very slow.
+I set the useAggrigation property to true but it does not help
+Is there another way to set maximum number of points that the chart will display?
+Or do I have to manipulate my dataSource?
+Thanks 

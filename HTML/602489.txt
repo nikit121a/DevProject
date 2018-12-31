@@ -1,0 +1,12 @@
+
+Hi, I have tried this code, but it doesnt work for me.
+Devexpress 17.1
+GridColumn.AppearanceHeader.BackColor = White
+private void gvPrijemZadanek_CustomDrawColumnHeader(object sender, ColumnHeaderCustomDrawEventArgs e)
+        {
+            if (e.Column != null && e.Column.AppearanceHeader.BackColor != Color.Empty)
+            {
+                e.Info.AllowColoring = true;
+            }
+        }
+Code goes to e.Info... sets it on true, but back color is still from the used skin :(

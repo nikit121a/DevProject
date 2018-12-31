@@ -1,0 +1,6 @@
+We are trying to implement a custom data source for our dxScheduler and are having a problem with the start and end date filtering for recurring events. This can be reproduced based on the recurring appointments demo here 
+.
+If you look at my CodePen, you'll see the issue. I'm trying to filter using the following:
+CodePen: 
+When this code is implemented no events are returned. This is because the row in data has a start and end date based on the first occurrence of the appointment. How do I modify this so that I can choose some month/date after the first occurrence and return those appointments (without returning all appointments that are recurrences)?
+ 

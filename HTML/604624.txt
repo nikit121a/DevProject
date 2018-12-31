@@ -1,0 +1,49 @@
+I am encountering a problem with the BinaryImage control and submitting an image to the database.  On a basic level, the application that we have boils down to a view with a basic BinaryImage control and the controller code to handle the data.  In our working code, we have the same form but it has multiple textboxes, combo boxes and other controls.  When the BinaryImage is selected, the CallbackRoutValues controller route is triggered, however at that point we can't store the image because the rest of the form has to be completed.  The problem occurs when the full form is submitted with all of the data, from all of the controls.  On the full submission, the BinaryImage control always returns a null value with no data.  The simplified view is below without the other textboxes and other data.  I have researched through as many of the questions as I can find and none of the solutions fixes my current problem.  Why is the full form submission occurring with the image data always null?  How can I get the image to submit with the full form?
+Thanks,  
+@model Model
+@using System.Web.UI.WebControls
+@{
+    Html.EnableClientValidation();
+    Html.EnableUnobtrusiveJavaScript();
+}
+@using (Html.BeginForm("Create", "Item", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+    @Html.DevExpress().FormLayout(settings =>
+{
+    settings.Name = "ItemTab";
+    settings.Theme = "Mulberry";
+    settings.UseDefaultPaddings = false;
+    settings.AlignItemCaptionsInAllGroups = true;
+    settings.AlignItemCaptions = true;
+    settings.Height = Unit.Pixel(310);
+    settings.Width = Unit.Percentage(100);
+    settings.SettingsItemCaptions.Location = LayoutItemCaptionLocation.Top;
+    settings.EncodeHtml = false;
+    settings.RequiredMark = "<span style='color: red'>*</span>";
+    settings.Items.AddGroupItem(g =>
+    {
+        g.Caption = "Item Information";
+        g.ColCount = 4;
+        g.Items.Add(m => m.Picture, itemSettings =>
+        {
+            itemSettings.Name = "ImageData";
+            itemSettings.RowSpan = 4;
+            itemSettings.ColSpan = 1;
+            itemSettings.Caption = "Picture";
+            itemSettings.ShowCaption = DefaultBoolean.False;
+            itemSettings.NestedExtension().BinaryImage(s =>
+            {
+                s.CallbackRouteValues = new { Controller = "Employee", Action = "BinaryImageUpdate" };
+                s.Height = 200;
+                s.Properties.ImageSizeMode = ImageSizeMode.FitProportional;
+                s.Properties.EnableServerResize = true;
+                s.Properties.EditingSettings.Enabled = true;
+                s.Properties.EditingSettings.UploadSettings.UploadValidationSettings.MaxFileSize = 4194304;
+                s.Properties.EditingSettings.UploadSettings.UploadMode = UploadControlUploadMode.Advanced;
+            });
+        });
+    });
+}).GetHtml()
+}

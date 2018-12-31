@@ -1,0 +1,12 @@
+Hi,
+  I'm using dxTextBox to show string type required field , but it's showing required field error whereas data has been provided.
+   For more clarification i have attached some code as well as screen shot of the issue, kindly   provide solution. 
+ [Display(Name = "Name", ResourceType = typeof(CrmCampaignClientText))]
+        [Required]
+        public string Name { get; set; }
+<div class="form-group">
+                                @Html.LabelFor(m => m.Name, new { @class = "control-label col-sm-3" })
+                                <div class="col-sm-9">
+                                    @Html.DevExtreme().TextBoxFor(m => m.Name)
+                                </div>
+                            </div>

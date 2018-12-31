@@ -1,0 +1,5 @@
+If you apply Browsable(false) attribute to your color property, you cant use it as color member for the chart series. Reproducible using T551642 with beforementioned modification. This caused me a lot of trouble finding the cause of.
+ Message "The datasource doesn't contain a data member with the "Color" name.
+Stack trace:
+at DevExpress.XtraCharts.SeriesBase.CheckColorDataMember(Object dataSource, String colorMember)
+at DevExpress.XtraCharts.SeriesBase.set_ColorDataMember(String value)

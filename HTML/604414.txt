@@ -1,0 +1,2 @@
+Hello,
+I'm using FloatingContainer to show a dialog. The same dialog is invoking many times. I have performance issues on showing a window with FloatingContainer so I want to have created the same FloatingContainer window and just hide/show it. how can I do that?

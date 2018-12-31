@@ -1,0 +1,6 @@
+Hi,
+I downloaded and installed the new version 17.2.5.
+When i converted the project my toolbar menu don't show the newest version, only the oldest.
+So im working in a 17.2.5 version, but in my toolbar menu show only 17.1
+I need to uninstall all old version before install the new one?
+ 

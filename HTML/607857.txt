@@ -1,0 +1,5 @@
+My calculated fields in Snapdocumentserver aren't loading properly. For the record, I did find this ticket: 
+This seemed to have the solution, however I can't even seem to make that work.
+Load attached project and click preview button. The calculated field just shows NoData.
+What am I missing?
+Thanks! 

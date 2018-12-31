@@ -1,0 +1,5 @@
+I'm using the DevExpress (DXperience) 16.2.6 PivotGrid control. 
+I've wired it up to the CustomCellDisplayText event so I can handle and replace NULL values (which by default display as blank in the PivotGrid) with 0 by using e.DisplayText in the handler.
+In XAML I've also set the PivotGridField's CellTemplate property to a DataCellTemplate in my Window.Resources so I can control the text alignment.
+But when I use this DataCellTemplate, my NULL values display as blanks in the PivotGrid again (instead of displaying 0, even though I'm setting e.DisplayText = "0" in the CustomCellDisplayText event handler.)
+Question: How can I control the text-alignment of a PivotGridField in the DataArea, even when using the CustomCellDisplayText event to replace NULL values? (Or should I be replacing NULL values a different way?)

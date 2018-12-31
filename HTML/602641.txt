@@ -1,0 +1,1 @@
+It appears that scrolling of the Accordion Control only works if you have selected a Accordion Item Group Header.  Is there a way to allow scrolling when any portion of the AccordionContentContainer or any controls inside have focus?

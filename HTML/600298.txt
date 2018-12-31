@@ -1,0 +1,7 @@
+Hello,
+I have a requirement that the grid search panel default to "StartsWith" but allows the user to change the filter to "Contains".  I was able to set the SearchPanelFindFilter to StartsWith, but need help allowing the user to change this at run-time.
+I would like the user to be able to do this in the search panel via a Radio button or some other means.  I searched your examples and tickets and haven't found a solution.
+If you could please provide a detailed example as I need to implement this rather quickly, I'd greatly appreciate it.
+Thanks,
+Jimmy
+Current GridView xaml:

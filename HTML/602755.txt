@@ -1,0 +1,8 @@
+I need to create a customer proposal master document which consists of multiple parts which can change with each project. Here are the main sources:
+- RTF text with merge fields - this would be the covering letter
+- Merge Snap document  - this could be product details
+- Report v2 (showing header and 2 level of detail lines)
+- Word documents (docx)
+- PDF files  
+- Image files 
+What would be the best way to approach this? 

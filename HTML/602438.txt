@@ -1,0 +1,4 @@
+Hi,
+I want to use "Move Type to Namespace"  refactoring. But no matter how hard I try I am not able to select an existing namespace. Enter or mouse click doesn't work.
+Am I missing something?
+ 

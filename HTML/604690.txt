@@ -1,0 +1,3 @@
+Hi, 
+I have a serious problem, I'm working with fields calculated in version 1.7.9, but I had a problem when I was working on version 1.4, the calculated fields worked very well, but now with this version they do not work for me, it generates an error, 
+There is a difference between one version and another.  Thanks for your support 

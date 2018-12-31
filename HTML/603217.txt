@@ -1,0 +1,9 @@
+Hi,
+attached find a sample and a short video.
+1. open page
+2. click "click me" button
+3. click the + of the filter
+4. close the popup
+5. click "click me" button
+=> there is a small overlay and the position of the popup is  changed. You can repeat closing/showing the popup until the popup is outside the viewport.
+I could only reproduce this behavior with the special animation we've added to the popup. 

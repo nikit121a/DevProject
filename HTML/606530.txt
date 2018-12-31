@@ -1,0 +1,4 @@
+Thank you Lanette, this is the solution I needed.
+Another question: I would like to change enabled state of a ToolbarCustomButton depending on selected/focused item, both folders and files. Is to activate a function only for some items. 
+I saw the sample in 
+  : there is a way to get selected item?

@@ -1,0 +1,8 @@
+How can I get the new appearance offered in 17.2 for the grid TableView drag and drop (within the grid) and still use a GridDragDropManager?
+So the way I understand the progression for TableView drag and drop support.
+A) It was a requirement in the past that you derive your own DragDropManager and implement it as a behavior of the GridControl. 
+B) In 17.2 you provide your own DragDropManager that can be used like so:
+C) At some point, maybe 17.2 you made the explicit creation of a DragDropManager optional. The Demo Center (and latest online documentation for the GridControl) demonstrates  this technique by not explicitly defining a DragDropManager as a behavior. This renders a more modern hint appearance that is properly themed.
+Scenarios A & B render a hint appearance like the attached A_B.png and scenario C renders a hint appearance like C.png. These screenshots are inside the zip.
+Attached is a sample demonstrating the difference. How can I get the new appearance using the techniques of A&B since we have existing 
+ event code for the DragDropManager?

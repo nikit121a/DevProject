@@ -1,0 +1,10 @@
+I am trying to have a "popup window" that allows the user to upload a file for processing in a XAF web app. I am having trouble adding a FileData property to a non-persistent class, which I then use in the popup window. Specifically I get the following error after I try to browse to the file (which is demonstrated by the image "error.png" in the attached zip file.
+When I look at the XAF log file (also included in attached zip file), I see the following error:
+Steps to reproduce are:
+- Run  Web app
+- Click on "File Test"
+- From file edit, browse to any file
+- Error will show as soon as file browser dissappears 
+I am relatively new to XAF, but could you please help me resolve this issue
+Thanks,
+Jarrad 

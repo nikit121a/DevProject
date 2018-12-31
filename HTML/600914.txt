@@ -1,0 +1,4 @@
+Hi guys,
+I have this code that deletes all items within a subbar, but the colour changes colour like something is included do I need to refresh it?
+Many thanks,
+Joe 

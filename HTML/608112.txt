@@ -1,0 +1,3 @@
+Hi Team,
+We are using DXTabcontrol, we haven't applied any Theme for it. But after execution default Theme is getting applied. Later we have declared dx:ThemeManager.ThemeName="None" , however we are able to see the default theme.We don't want theme to be applied for TabControl. Is it possible to remove default theme for a particular control?
+Please check the attached screenshot. 

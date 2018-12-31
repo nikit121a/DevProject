@@ -1,0 +1,12 @@
+For managing customers, I have a DxDataGrid set up with a popup editor. Some of the fields are lookup fields  and thus have their own data source.
+For example there is a user data source  to declare the main user for each customer.
+When editing a customer record, I need to let the user pick among declared users for this customer, that is to say, I have to filter  the users by customer ids.
+With my current set up, when I try to pick up a user, I see all users.
+My question : how to filter the lookup data source ? If this is not possible, what would be the best practice to solve this problem, creating a specific data source while preparing the editor ?
+[EDIT]
+I found the Cascading Lookup demos, it seems the correct way to do it. I tried replicate it with so far no success. I don't actually need the cascade mechanism, I need the lookup filtering approach. Here is what I did : 
+In html component : 
+In ts component : 
+As shown in the demo, I also add in the component constructor the line : 
+The lookup is working but strangely enough, the getFiltersUtilisateurs is never called. Any lead ?
+ 

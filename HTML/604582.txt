@@ -1,0 +1,5 @@
+Hi,
+I want a hyperlink column in a gridview.  I then want to click that link ( on a row of course), and then open a form that displays the data for that record.  Or be able to highlight a row and then double-click that row to view/edit...
+What is the best way to do this?
+TIA,
+Miles

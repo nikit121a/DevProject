@@ -1,0 +1,5 @@
+Hi,
+we are having a grid with 50+ columns with form edit mode. There is additional logic in editingStart event and customizeItem method. All these together cause a delay of 4s in IE11 for the grid to open the edit form since the click of edit.
+I have made loading panel visible in editingStart event, I can see that the command is executed as soon as edit is clicked but the load panel is appearing only after the same lag  duration.
+Please suggest how get the loading panel as soon as edit is clicked or any other kind of intimation to the end user that t he grid edit form will be displayed shortly.
+Thanks. 

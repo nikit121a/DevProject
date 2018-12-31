@@ -1,0 +1,5 @@
+Hello,
+I'm currently having some trouble with the Filter Editor of my TreeListControl.
+- If I go into the Filter Editor, choose "SomeBoolean" (a bool) and click on "<enter a value>" a checkbox gets displayed.
+- If I do the same thing for "ChildBoolean" then no checkbox gets displayed and I need to enter a value as a string. This is because "ChildBoolean" is a property that only exists on a derived type and therefore it seems to not be able to recognize that this is a Boolean. Is there some way for me to manually set the type of the column?
+- If I go into the Filter Editor, choose "EnumProperty" (a property of the base type) and click on "<enter a value>" I need to enter a string. I'd like to be able to choose an enum value from a combo box. I already had this working but it somehow stopped working and I honestly have no idea why.

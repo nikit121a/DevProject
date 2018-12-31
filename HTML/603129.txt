@@ -1,0 +1,6 @@
+
+Hi,
+Is there a way to uncheck the Accessibility checkBox in edit dialogue? 
+And the same for height in table Size Section, can I hide it? 
+Can I hide SizeSection? 
+/Issa

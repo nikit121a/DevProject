@@ -1,0 +1,6 @@
+This code was working in previous versions, but for some reason not now.  
+When executed on a cell that has no data, it returns the following exception:
+'Expression illegal in evaluator'
+If I put a single spaced character in the referenced cell, it works as expected. 
+I've attached an image for context (sorry for the low resolution on it).
+ 

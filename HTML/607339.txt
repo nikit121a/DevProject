@@ -1,0 +1,4 @@
+Hi,
+I have a report with a PivotGrid, and one of the fields of the PivotGrid contains multiple words, separated by comma. I am trying to auto resize the row height of the PivotGrid to fit whole words on one line. I almost achieved it, however some of the rows display additional space (please look at the attached screen snapshot), which makes me think my CustomRowHeight code is not entirely correct. Would you please check if it is correct? Is there any other factor that might be interfering? 
+Thanks a lot!
+Mery 

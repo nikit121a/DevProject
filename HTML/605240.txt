@@ -1,0 +1,5 @@
+Hi,
+I have a combo box with arrows on either side.  
+depending on if the left or right arrow is pressed it increases or decreases the index.
+On a IndexChange I then perform a call back for a grid based on the combobbox status.  The problem is when I change the index calling the function 
+SetSelectedIndex, it does not fire the  SelectedIndexChanged event;

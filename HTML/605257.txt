@@ -1,0 +1,3 @@
+Dear Sir/Madam,
+I got exception thrown "A named template is defined within another template" when using the following code.
+Please help. Thanks.

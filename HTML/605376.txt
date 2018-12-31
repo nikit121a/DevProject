@@ -1,0 +1,5 @@
+Hi,
+how can I disable docking for DocumentsHostWindow, so that the docking options won't be displayed when moving the DocumentsHostWindow by mouse?
+But for normal documents it should still work.
+Thank you very much
+Igor

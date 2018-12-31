@@ -1,0 +1,1 @@
+I have a program that I am converting from Winforms to MVC.  I have a lot of legacy reports.  Is it possible to open or convert a Winform Report file into an MVC Report?

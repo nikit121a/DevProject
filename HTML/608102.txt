@@ -1,0 +1,4 @@
+Hello,
+I want to have, and so I'm thinking about propertygrid, a grid to edit object properties, some properties are boolean, others string... but I need to have one column more  with a checkedbox to allow to the end-user to apply or not the property change to the bound object.
+Do you have a solution ? 
+Thanks, Stephane

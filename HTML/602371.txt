@@ -1,0 +1,5 @@
+hi team,
+We have one application in which user design and save diferent  layouts of same report and later they schedule the reports  by selecting saved layouts,
+now we want to display parameter panel only at the time of schduling the report , so that different user witll enter different values to generate appropriate report.
+we want to save parameter collection with values enter by user to generate report at scheduled time.
+kindly suggest how can i display the parameter panel only at the time of scheduling. 

@@ -1,0 +1,5 @@
+Hi,
+I want to add automatically save report layout from web report designer  control. I used ReportStorageWebExtension and overrided method SetData(XtraReport report, string url). When user clicks save button it works. My purpose is in each 30 seconds  automatically  invoke SetMethod (propably from java scirpt). Do you have any solution for achieve my purpose?
+Thanks in advance for help.
+BR,
+Kamil

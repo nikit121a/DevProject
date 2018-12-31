@@ -1,0 +1,5 @@
+
+My web form has one button and one gridview. By clicking the button, user can choose a fildname from a drop down list from the database. Then a new row is created.  I dynamically create different controls base on the field name column by implementing the i template class as shown in the screen shot. My question are: 
+2‍. There can be maximum of 50 rows created. How can I gather the input from the input control in the second column and match with the first column. 
+ ‍Thanks
+

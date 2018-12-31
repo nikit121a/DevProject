@@ -1,0 +1,6 @@
+I have an MVCxGridView that I use to show events on my site, with each row representing an event.  I would like to create a column that contains a button that could be used to open up an MVCxPopupControl that in turn will contain a form with settings for the event.
+This is what I have so far:
+ 
+Here the idea is that I have assigned an ID to the button in each row with the following format: "DashboardEventUPDDashboardEventGrid_PermissionButtonColumnHyperLink_<ID>" where <ID> is the ID of the object.
+This approach is beginning to work but there are some outstanding issues.  For instance, how can I make it so that whenever a new window of the PopupControl is invoked, all of the others are closed?
+Are there any better ways of approaching this problem overall? 

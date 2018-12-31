@@ -1,0 +1,1 @@
+Hi, Im using Angular to make a DataGrid. My datagird has a selection mode of "multiple" and im using a row template for the table body. Problem is the checkboxes don't show in the selection column. How might this be accomplished?

@@ -1,0 +1,11 @@
+Team,
+I am using devexpress treeview to show data on the UI. The Columns are  getting re-generated every time we change the item source as because the number of columns can change .I am using the banded view to display the data.
+Grid loads the data faster if it has 10-15 columns or number of column visible to view port. No issues here.
+Though, If we have more than 30-35 column with 5 bands . it slows down drastically. It takes close to 15 second to load 30 column even if you have only 2-3 rows to display.
+I have added the following code to defer the grid events , but still it's taking significant amount(10 seconds) to load the data.
+ AssociatedObject.BeginDataUpdate();
+                var view = AssociatedObject.View as TreeListView;
+                view.BestFitMaxRowCount = CommonConstants.DefaultBestFitRowCount;
+                 view.BestFitColumns();
+ AssociatedObject.EndDataUpdate();
+Pleased help.

@@ -1,0 +1,5 @@
+These properties do not appear in the XAML designer intellisense for the BingSearchOptions element:
+AutocorrectQuery
+DistanceUnit
+SearchRadius
+I discovered this while attempting to follow this documentation:

@@ -1,0 +1,2 @@
+Please see the video. The project is to involved to create an example. What is happening is I have a text box and button on a ASPXPageControl along with a ASPXGridView. I type my text into the text field then click the save button and would like to see the grid update after the save function. You can see in the video that the data is there after sorting the records by clicking the column. 
+Any help would be appreciated 

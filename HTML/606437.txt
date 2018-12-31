@@ -1,0 +1,2 @@
+Is it possible to set the .Color of a TcxPageControl at runtime without changing the skin itself? 
+I have a form with more than one page control, and for just one of them I want all the other visual properties to remain the same, but the color of the control (the portion that the tabs all sit on) to change.

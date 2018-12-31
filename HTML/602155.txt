@@ -1,0 +1,8 @@
+Hello. 
+How can i get Html string from richedit control? 
+Control has only two methods for getting text. GetText and GetRtfText, but i need Html string. 
+I read in topic below that for working with html i need to include
+dxRichEdit.Html to my project
+I tried to do it for c++:
+#include "dxRichEdit.Html.hpp"
+but i have a linker error. Screenshot of error in attachment

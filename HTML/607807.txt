@@ -1,0 +1,2 @@
+I've seen several tickets regarding using a layoutview as the "Master" in a master/detail grid view, but I haven't found any that are the opposite.
+I have it working using other views (GridView and AdvBandedGridView), but I'd like my details view to be a LayoutView. Is this possible? It shows the expand button, but clicking it does nothing when I have the layoutview set as the detail. 

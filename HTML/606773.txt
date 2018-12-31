@@ -1,0 +1,7 @@
+Hi DevExpress,
+I noticed that RowTap event of your grid control is fired twice for single tap (at least on Android, haven't try it on iOS).
+Attached please find my sample project.
+As a workaround, I can filter the event based on timestamp. But since it's probably a bug, you should know...
+Kind regards
+Peter
+ 

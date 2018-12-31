@@ -1,0 +1,10 @@
+Hello XAF-Team,
+I would like to ask you, what is the suggested way to solve the following request: 
+I have a Contact class plus ContactGroup and EmailInet.
+ContactGroups are linked to Contacts in n-m manner .
+EmailInet is an aggregated property of Contact.
+Contact has a Modified property. 
+How can I achive, that Modified property is set every time a user links a contactgroup or adds/changes something in EmailInet property?
+Please check out the attached sample.
+thanks
+Reinhold 

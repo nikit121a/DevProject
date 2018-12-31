@@ -1,0 +1,5 @@
+I have several reports that have more than one data source and I need to be able to generate a report with more than one Detail band. 
+The first Detail band's data is unrelated to the second Detail band's data. 
+Is this doable?
+Thank you for your help!
+ 

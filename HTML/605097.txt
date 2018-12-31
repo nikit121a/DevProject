@@ -1,0 +1,2 @@
+I am trying the XAF Framework for the first time and after creating a project with the Devexpress Template Gallery.  I get and error when launching the Model editor.  This is an unmodified solution straight from the wizard so I'm confused why there is an error.  The error pops up in a dialog box: 
+I have rebuilt the solution and I have not been able to find any duplicate DashboardData_ListView in any class and I'm unable to get the Model Editor to open. Where would I look to find the duplicate not so the Editor will open.

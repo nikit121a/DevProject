@@ -1,0 +1,17 @@
+See example app:
+ Steps:
+1. Run the example app
+2. Click the button labeled "Toggle Popup Visibility"
+3. Close the resulting popup using the "X" button in corner 
+4. Click "Yes" on the dialog
+5. 
+ that the popup closes with no console errors.
+6. Repeat step 2
+7. Close the resulting popup using the "Toggle Popup Visibility" button inside the popup
+8. 
+ that a 
+appears in the console
+9. Click "Yes" ont he resulting dialog
+10. 
+ that there was a second dialog  hidden behind the first - onHiding was called twice
+Please advise how to fix this error and the duplicate dialog. 

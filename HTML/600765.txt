@@ -1,0 +1,5 @@
+What could be the problem if all the captions in the popup menu of a grid view are empty?
+(please see attached screenshot) 
+I'm using Xaf.
+Thanks a lot!
+Tin-Kai Chan

@@ -1,0 +1,14 @@
+Hi,
+is it possible to set min and max value for a Argument and Value Axis in data source?
+In stead of this:
+            .ArgumentAxis(a => a
+                .Grid(g => g.Visible(true)).Min(-12).Max(12).TickInterval(3)
+            )
+            .ValueAxis(a => a.Add().TickInterval(3).Min(-12).Max(12))
+To have 
+            .ArgumentAxis(a => a
+                .Grid(g => g.Visible(true)).Min("XMIN").Max("XMAX").TickInterval(3)
+            )
+            .ValueAxis(a => a.Add().TickInterval(3).Min("XMIN").Max("XMAX"))
+and to set these parameters XMIN and XMAX in datasource and just load them?
+thank you! 

@@ -1,0 +1,8 @@
+Hello,
+I am trying to use the FileManager to allow the selection of images form an Amazon AWS source. I am able to do so, but the thumbnails are not showing the images, and are instead a generic empty thumbnail. 
+I know that the ability to show image thumbnails without a declared thumbnail folder works via the  ImageDialog in the aspxhtmleditor automatically, which we are also using with the same amazon source. 
+Is there a specific setting that I need to enable to get this functionality?
+FileManager code below:
+I am using the same amazon settings in my htmleditor dialog below, which shows the image thumbnails:
+ 
+Please advise. Thank you.

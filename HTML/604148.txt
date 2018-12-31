@@ -1,0 +1,6 @@
+Dear support,
+I want to adjust the validation process with the help of the 
+ controller. The examples that I found always access it in a ViewController. I have code that modifies objects outside of a view context.
+Is there a way to access the controller so that my validation chages also apply when an object is modified outside of a view?
+Thanks
+Bernd

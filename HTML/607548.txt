@@ -1,0 +1,4 @@
+Hi
+I have called a C# API controller that passes back a JSON dataset array.
+I now want to export this JSON dataset to Excel using AngularJS & DevExpress modules.
+I do not want to populate a datagrid or pivot and use those export features as its taking a minute to bind to the grid!

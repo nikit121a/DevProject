@@ -1,0 +1,8 @@
+Hi ,
+I have a cxGrid with unbounded data.
+In my application I can switch to different scales. I use therefore the ScaleForPPI procedure.
+A table with master/detail rows  the master row is scaled correct, but the detail rows the width of the columns does not scall correct.
+Initial (When DPI value is before the grid is visible) it resizes correct.
+I have attached the before and after  scaling during runtime.
+Best Regards
+Rob Renaud 

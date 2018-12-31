@@ -1,0 +1,4 @@
+Hello!
+I cant get either the debugger working or the code completion in your demo examples. How do i turn them on?
+Here is a movie showing the problem.
+Regards, Paer

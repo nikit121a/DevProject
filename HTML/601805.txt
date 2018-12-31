@@ -1,0 +1,23 @@
+Dear Support! 
+We have recently upgraded DevExpress Nugets from 17.1.6 to 17.2.5
+We need your help to clarify regression in the functionality of "FORMAT RULES" contextual menu in the PivotGrid 17.2.5 version.
+It appears that in 17.2.5 Single Mouse "Right Click"  will immediately display 
+expanded "Format Rules" sub menu  
+actually displaying 
+ 
+root sub menu element. 
+If we attempt to append/include "Format Rule" sub menu to any existing context menu
+the sub menu elements will attach to the root menu without a nice sub menu divider ("Format Rules")
+In 17.1.6 we see that "Format Rule" sub menu consistently present in Right Click scenarios 
+as well as during inclusion of the Format Rules in the  more complex parent menu
+I can replicate this problem 100% of the time.
+I have attached 2 solutions that have IDENTICAL code that includes empty PIVOT GRID with
+this.pivotGridControl1.OptionsMenu.EnableFormatRulesMenu = true;
+In the ZIP file you will see 2 folders  Pivot.17.2 and Pivot.17.1
+You will find a screenshot in each folder that clearly demonstrates the issue.
+Currently this is a show stopper for us as it messes up our CONTEXT menus in the PIVOT GRIDs.
+Your immediate attention to this matter is greatly appreciated.
+Since I added actual Dlls the file is > 30Mb   (Silly limit?)
+Feel free to download from the link
+https://drive.google.com/open?id=1YomGogGYl3xR3uV0xzpygaLbW1_EzlLk
+ 

@@ -1,0 +1,8 @@
+Hello,
+I used with your control propertyGrid and I bound control list to the selected object property and everything works well,  perfectly.
+I have problem that my application works slowly.
+During The application life the control list is changed a lot of times, and I found that when I canceled the binding (of the control list to the propertyGrid control)
+the application worked quickly.
+Do you have any solution for me, how can I use with the propertyGrid and change the list wich is bind to it and the application will continue to work quickly.
+thanks
+rose rose :) 

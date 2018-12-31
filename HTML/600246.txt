@@ -1,0 +1,9 @@
+Hi
+I would like to request that a new method be added to the ExportLink namely ExportGridToStream.
+Having successfully used the ExportGridToHTML/XLS etc to a file is unfortunately not as flexible as using streams.
+The benefits of streams would allow simple saving to blobs, clipboard, files etc.
+ My proposal is adding a method like the following
+as
+I recently had to copy the grid to clipboard in HTML format. I did accomplish this by first saving to temporary HTML file, then loading into a string to place on the clipboard. I feel that the intermediate file handling is unnecessary.
+Your consideration will be appreciated.
+Kind Regards 

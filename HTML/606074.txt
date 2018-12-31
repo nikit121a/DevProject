@@ -1,0 +1,8 @@
+I have a report with a group header that should repeat every page if a parameter is true. In the BeforePrint event of my report, I need to inspect the value of the parameter and set the value of GroupHeader1.RepeatEveryPage like this:
+
+
+
+
+I have tried different approaches to inspect the value of this parameter, but all I can get to is "StringCollection". I can see the value in debug.
+How can I get the actual value assigned to the parameter?
+Thank you for your help.

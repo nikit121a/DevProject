@@ -1,0 +1,15 @@
+Hello,
+ 
+I want to make a layout of the attached type to edit the master and details rows simultaneous
+in one XtraForm using the following objects: 
+ 
+ - A dataset containing the master-details structure,
+ - 1 gridControl (grid1) with the following associated Views:  
+          * MainView : GridView (to view master rows),
+         * view1 : LayoutView   (to edit master focusedRow),
+         * view2 : GridView       (to edit detail's rows).
+ - 1 ControlNavigator (nvg1) binded to the gridControl  (grid1).
+ 
+ And How can I synchronize the  focusedView' s  focusedRow  with enabling/disabling the navigator's   buttons?
+Note
+Binding  and view's creation:  in  run time.

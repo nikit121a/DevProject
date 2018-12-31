@@ -1,0 +1,7 @@
+Hi!
+Do you have some idea how I can turn more "modern" the aspect for:
+ASPxGridLookup, AspxCombobox, AspxDateEdit
+components, for display like "HTML5" componente?
+A class?
+- many clients are  refusing our components, say "oldier" visual...
+thanks!! 

@@ -1,0 +1,6 @@
+When using WhoIsWho.app.navigate({ view: 'clientesmultiview', id: undefined });
+The menu is lost and is changed into an left arrow. 
+See image.
+How can I get the button again not the arriw
+Thanks you very much
+ 

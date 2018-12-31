@@ -1,0 +1,5 @@
+Hallo support,
+We use DevExpress v 17.2.5 and have a problem in WPF QueryBuilder with Theme "Office 2010 Black"
+See attached image 
+Regards,
+Vladimir Belitski

@@ -1,0 +1,6 @@
+Hello,
+I would like to toggle the check state of a custom gridviewtoolbaritem of a aspxGrid in client side.
+What i've done so far is to add a toolbar item. Set the ToolbarItemClick  client side method to execute a js function something like this:
+However I am not able to set the button as checked as it was done in the builtin ClearFilter toolbar item.
+Thanks in advance.
+Onur

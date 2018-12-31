@@ -1,0 +1,15 @@
+Hi,
+I have a report which has its datasource set to a dataset with the following structure:
+DataSet
+ - Table
+ - Table 1
+  - Table2
+This dataset has been set from an xml file.
+I have added a sub report to this report which I would like to pass a specific table from the dataset so I can databind to it  but I am unsure how to do so. I have tried setting the datasource of the sub report from the main report in the BeforePrint event:
+Private Sub SubReport1_BeforePrint(ByVal sender As Object, ByVal e As System.Drawing.Printing.PrintEventArgs)
+ CType(sender, XRSubreport).ReportSource.DataSource = Me.DataSource
+ CType(sender, XRSubreport).ReportSource.DataMember = "Table1"
+End Sub
+However when I print preview the main report there is no data showing on the sub report, it looks like the correct number of rows are showing in the sub report but the rows are all blank. 
+Do you have any suggestions?
+Thanks in advance 

@@ -1,0 +1,4 @@
+Good morning
+Is it possible to show only the first 3 characters  in a treelist column by using the treelist properties, e.g. the FormatString? The column does not have an editor linked to it.
+Thnx
+Johan Smith 

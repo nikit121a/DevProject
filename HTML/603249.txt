@@ -1,0 +1,10 @@
+Hi support,
+So I?m newbie in MVC developer using DevExpress and I using ado.net with MVC 5 not EF etc.
+I try to connect my repository using ado.net store procedure with GridView, but I've some error?s.
+Can you help me to solve this erros? using my repository with ado.net to bind GridView for CRUD operations.
+I attach my project using a simple model Funcionario and FuncionarioController for your verifications.
+My Repository is in directory /Repository file FuncionarioRepository.cs using Conexao.cs to connect to database sqlserver.
+So, I was able to read from the database and load in the gridview with some errors, but insert update and delete did not.
+Please you could fix my project to perform all the operations of crud with the Gridview using my repository:
+FuncionarioRepository.cs ?
+Thank you.

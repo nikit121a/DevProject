@@ -1,0 +1,4 @@
+About another post that I wrote recently, I realize a project to reproduce the error, and of course, I can not include in this project phases too heavy. But suddenly I have to deal with a situation that has not happened yet.
+Hence the title question of this post: How to make a file missing, used in a datasource, does not cause the stop of the document preview control being created?
+an xtrareport.createdocument () statement encapsulates calls to subreports, and if only one of them is corrupted by an error, it prevents all the document from occurring.
+Should i call in secret some subreport.reportsource.creadocument to catch error, and redirect subreport.reportsource to a sp?cial ErrorReport substitution ? 

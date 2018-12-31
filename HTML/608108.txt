@@ -1,0 +1,2 @@
+How can I exclude a region from serializing it's state during the Save? 
+Disabling the DXSerializer is not working.

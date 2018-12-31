@@ -1,0 +1,6 @@
+Hi,
+I've noticed that the rendering of the DataGrid pager's navigation buttons differs from time to time. 
+Most of the time, it shows a left chevron icon for back and right chevron icon for next and in between is the page numbers. But there are times when it changes the page numbers in between the back and next buttons with a numberbox (with the current page) and the total pages (see attached).
+Is there a way to make navigation part of the pager look like the attached?
+Thanks!
+Jaime 

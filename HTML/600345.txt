@@ -1,0 +1,2 @@
+I would like to show calculated values for columns in the PivotGrid in the same way as shown in the attached picture for a regular GridControl. I've seen the ShowRowGrandTotals property for the PivotGrid but it only shows a single value (average). I need to show: Count, Min, Max, Average and Standard Deviation, all at the bottom of each column.
+How can I achieve this? Please point me to an example since I was unable to find one in the knowledge database. Thanks. 

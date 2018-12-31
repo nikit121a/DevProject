@@ -1,0 +1,17 @@
+Hi,
+I have used the Scaffolding Wizard to setup the Views and ViewModels but I would like to pass a variable or parameter when opening an entity from a gridview list (see image attached). Sorry if I`m not explaining myself properly.
+There is a command .....Application6.HHH.ViewModels.XYZCollectionViewModel), "New", this.bbiNew).... but I`m not sure how to pass on another value.
+Thank you
+            // 
+            // mvvmContext
+            // 
+            this.mvvmContext.BindingExpressions.AddRange(new DevExpress.Utils.MVVM.BindingExpression[] {
+            DevExpress.Utils.MVVM.BindingExpression.CreateCommandBinding(typeof(DXApplication6.HHH.ViewModels.XYZCollectionViewModel), "New", this.bbiNew),
+            DevExpress.Utils.MVVM.BindingExpression.CreateParameterizedCommandBinding(typeof(DXApplication6.HHH.ViewModels.XYZCollectionViewModel), "Edit", "SelectedEntity", this.bbiEdit),
+            DevExpress.Utils.MVVM.BindingExpression.CreateParameterizedCommandBinding(typeof(DXApplication6.HHH.ViewModels.XYZCollectionViewModel), "Delete", "SelectedEntity", this.bbiDelete),
+            DevExpress.Utils.MVVM.BindingExpression.CreateCommandBinding(typeof(DXApplication6.HHH.ViewModels.XYZCollectionViewModel), "Refresh", this.bbiRefresh)});
+            this.mvvmContext.ContainerControl = this;
+            this.mvvmContext.RegistrationExpressions.AddRange(new DevExpress.Utils.MVVM.RegistrationExpression[] {
+            DevExpress.Utils.MVVM.RegistrationExpression.RegisterLayoutSerializationService(null, false, DevExpress.Utils.DefaultBoolean.Default, this.gridControl),
+            DevExpress.Utils.MVVM.RegistrationExpression.RegisterWindowedDocumentManagerService(null, false, this, DevExpress.Utils.MVVM.Services.DefaultWindowedDocumentManagerServiceType.XtraForm, null)});
+            this.mvvmContext.ViewModelType = typeof(DXApplication6.HHH.ViewModels.XYZCollectionViewModel);

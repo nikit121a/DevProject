@@ -1,0 +1,12 @@
+I have tables customers and addresses where customer has AdresCollection
+in an action I connect to some web service to check customer VAT number and address data and if get any information add customer address to address table using code like below
+
+
+
+
+‍new address is added but when I try to edit newly added adres I get error : newly created record cannot be edited before save ...
+o‍f course I can commit changes using: 
+
+
+
+

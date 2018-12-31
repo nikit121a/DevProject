@@ -1,0 +1,18 @@
+I have the following statement in my page:
+<Toolbars>
+       <dx:GridViewToolbar ItemAlign="Right" Name="DeleteToolbar">
+             <Items>
+                 <dx:GridViewToolbarItem Command="Custom" Name="DeleteRow" Text="Delete" Image-IconID="edit_delete_16x16" Enabled="false" />
+             </Items>
+         </dx:GridViewToolbar>
+</Toolbars>
+I also have a clientside event as listed:
+<ClientSideEvents RowClick="OnRowClick" ToolbarItemClick="OnDeleteClick" />
+My RowClick event should enable the delete toolbar.  what am I doing wrong??? (Also, how do I change the Icon)
+function OnRowClick(s, e) {
+            var toolbar = s.GetToolbar(0);
+            var item = toolbar.GetItemByName("DeleteRow");
+            item.SetEnabled(true);
+ 
+           //item.SetIconID("edit_delete_16x16");
+};

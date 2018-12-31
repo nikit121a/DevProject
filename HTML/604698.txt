@@ -1,0 +1,29 @@
+I am embedding a grid inside a mastergrid. I am dynamically showing new grid data depending on the selection in the master grid. The code i have copied is from 
+ .
+My final step is to dynamically configure the data source for the grid , but i am having a lot of difficulty understanding how to configure it without the use of a controller. I am employing the code behind a razor page exclusively. 
+The challenge i'm facing is to select the specific instance of List<SegmentLeaderboard > in the masterdetails.
+datamodels are below (attaching the razor page)
+    public class SegmentLeaderboard
+    {
+        public string Name { get; set; }
+        public int ID { get; set; }
+        public string Type { get; set; }
+        public string World { get; set; }
+        public List<Activity> Activity { get; set; }
+        //TODO: add foreign key to Event
+    }
+}
+    public class Activity
+    {
+        //activity members
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public DateTime Start_date { get; set; }
+        public int Achievement_count { get; set; }
+        public int Comment_count { get; set; }
+        public int Kudos_count { get; set; }
+        public Boolean Flagged { get; set; }
+        //reference members
+        public Athlete Athlete { get; set; }
+        //public int EventID { get; set; }
+    }

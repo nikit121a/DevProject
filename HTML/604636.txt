@@ -1,0 +1,3 @@
+Hello,
+I noticed the cxGridPopupMenu in the demo, but I cant find out what its doing. Is there any implemented functionality by it?
+Regards, P?r

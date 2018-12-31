@@ -1,0 +1,2 @@
+Hi, There is a Location text box in appointment form, for which i need to restrict character limit entered by user to 30. Any suggestion is appreciated.
+Thanks in advance. 

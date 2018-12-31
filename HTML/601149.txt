@@ -1,0 +1,5 @@
+Hello,
+We would like to use the Icons from the Auto-Filter Row of GridViews that display the searchmode (greater than, begins with, etc...) in other custom controls, in order to have a  unified display.  I've tried to find them in the Icon Gallery and here: 
+ , but no luck.  Do you know where I can find them?  I've attached a screenshot that displays the icons I need.
+Warm Regards,
+Stefan

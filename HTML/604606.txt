@@ -1,0 +1,6 @@
+Hi,
+I create navbaritems via:
+When I try to delete the created via:
+I get an errror: regarding
+IndexOutOfRangeException??
+No items are deleted??

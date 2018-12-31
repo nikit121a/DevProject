@@ -1,0 +1,5 @@
+Hi,
+I want to use the TimeSpanEditor in my application, however I don?t know how to configure a mask that allow the user to pick only days.
+TimeSpanEdit by default offers Dd:Hh:Mm:Ss  as the standard mask... I want to change the mask so it shows only whole days...
+How can I do that?
+By the way, Vb.Net here..

@@ -1,0 +1,8 @@
+Hello
+I have a SchedulerControl connected to a ResourceTree and a SchedulerStorage.
+My goal is to create a team/employee hierarchy in the ResourceTree with resources. 
+An employee can be included in several teams and therefore the resource-ID will not be unique in the tree.
+I can create this but it doesn't work fully. If I drag an appointment to a duplicate resource, it first looks like it's working and the appointment appears on all resource rows, but when I release the mousebutton it will only stay at the last resource.
+It is possible to have the same ID on several resources or is it not supported?
+Se attached image
+Thank you.

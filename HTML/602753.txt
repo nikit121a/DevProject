@@ -1,0 +1,2 @@
+I create a few docking controls at run time, and use layout controls for managing the editors. When they are displayed at run time, and the control is larger vertically than the docking area, the scroll bar on the layout control is at the bottom. I would like to display it so it is at the top.
+How do I do that? 

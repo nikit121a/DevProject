@@ -1,0 +1,64 @@
+Hi,
+Something I cannot explain is happening in the GridView.
+I have these classes:
+  public class CommentsGrid
+  {
+    public int ClaimId { get; set; }
+    public List<ClaimComment> Comments { get; set; }
+  }
+The property Comments is a list of this class:
+ 
+  public class ClaimComment
+  {
+    public int Id { get; set; }
+    public DateTime DateAdded { get; set; }
+    public string UserName { get; set; }
+    public string Comment { get; set; }
+    public List<FileInfo> Files { get; set; }
+  }
+The Files-property is a list of this class:
+  public class FileInfo
+  {
+    public int Id { get; set; }
+    public string FileName { get; set; }
+    public string Description { get; set; }
+  }
+I have a partial view  _ListCommentsPartial.cshtml:
+@model CommentsGrid
+@{
+    var grid = Html.DevExpress().GridView(settings =>
+    {
+        settings.Name = "ClaimComments" + DateTime.Now.Second.ToString() + "." + DateTime.Now.Millisecond.ToString();
+        settings.KeyFieldName = "Id";
+        settings.Columns.Add(column =>
+        {
+            column.Caption = PortalResources.Resource.GridColumnDate;
+            column.FieldName = "DateAdded";
+        });
+        settings.Columns.Add(column =>
+        {
+            column.Caption = PortalResources.Resource.GridColumnUserName;
+            column.FieldName = "UserName";
+        });
+        settings.Columns.Add(column =>
+        {
+            column.Caption = PortalResources.Resource.GridColumnComments;
+            column.FieldName = "Comment";
+        });
+        settings.Columns.Add(column =>
+        {
+            column.SetDataItemTemplateContent(container =>
+            {
+             ------------ This is where the error is raised --------------------------------
+                var files = (List<Transparent.Portal.Web.Models.FileInfo>) DataBinder.Eval(container.DataItem, "Files");
+                Html.RenderPartial("_ListFilesPartial", files);
+            });
+        });
+    });
+}
+@grid.Bind(Model.Comments).GetHtml()
+As you can see I bind the grid to the List<ClaimComment> in the Model-object. That works. The columns "DateAdded", "UserName" and "Comment" are added succesfully. Using the last property, Files, raises an error:
+   System.Web.HttpException: 'DataBinding: DevExpress.Web.Data.WebDataRow does not contain a property with the name Files.'
+If you check the attachment you can see that there is a property called Files in the Model.Comments-list.
+What am I doing wrong?
+ 

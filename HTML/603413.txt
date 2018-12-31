@@ -1,0 +1,1 @@
+I would like add a blank row above header row while exporting TableView to excel. Could you please let me know is there a direct way to customize the export functionality to add such functionality.

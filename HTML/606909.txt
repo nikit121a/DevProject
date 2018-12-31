@@ -1,0 +1,2 @@
+How do you change the date format that shows up in the header for the work week view? Specifically, I want to use the format  "{0:dddd}".
+There was another similar support ticket utilizing a Date HeaderPresenter class, but when I tried, it caused the entire ScheduleControl area to be displayed as a gray panel.

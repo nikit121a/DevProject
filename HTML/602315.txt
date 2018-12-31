@@ -1,0 +1,4 @@
+
+
+2. how can i set themeng for groups.  So if group 1 then VS2017Dark. Group 2 is N8Dark  Group 3 is VS2107Light etc.
+Please help.

@@ -1,0 +1,7 @@
+Hi,
+im currently working on an ASPxTreelist in Virtual mode and want to allow Drag & Drop.
+So far everything is working fine, but i want to  restrict the possible locations of a node.
+I want the nodes to be only droppable in the same level they are currently in.
+Is there an option i?m missing?
+Kind regards
+Lucas 

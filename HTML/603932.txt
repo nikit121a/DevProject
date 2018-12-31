@@ -1,0 +1,4 @@
+I attach a example rtftext. In this case rtftext property to my ritcheditcontrol contains this example. If I selected range with start=810 and end=810 gettext property return nothing, however if I do this with my aplication using devexpress versi?n 15.2.7, this code returns text last the selection.
+How Can I get this range of text?
+Thanks,
+Laura

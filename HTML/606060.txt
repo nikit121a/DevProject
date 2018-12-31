@@ -1,0 +1,5 @@
+Hi,
+I would like to be able to turn off the View -> Windows... menu item  when using a TabbedView in the DocumentManager.
+It is confusing to my users and the other View menu choices are enough.
+Thanks 
+Steven Kraninger 

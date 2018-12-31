@@ -1,0 +1,7 @@
+I have a report created and to print it I use this code :
+            XtraReportDriverRemarks report = new XtraReportDriverRemarks();
+            report.PrintDialog();
+The report is declared like this 
+    public partial class XtraReportDriverRemarks : DevExpress.XtraReports.UI.XtraReport
+Now I am moving this report to another project, but there it keeps saying the PrintDialog() method does not exists.
+How can I fix this ?

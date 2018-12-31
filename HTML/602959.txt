@@ -1,0 +1,6 @@
+Dear Sirs,
+We migrated our larger project (dynamic link library - DLL) from C++ Builder XE6 to C++ Builder 10.2 Tokyo. To Tokyo IDE we installed your components in last available version. Everything works fine except one thing - all forms (descendants of TdxRibbonForm)  have a ribbon with a wrong style in runtime - it looks like style "rs2007" is applied but all ribbons are set to use rs2010 style. In design time everything looks fine. When we set Ribbon to styles rs2007,rs2013,rs2016 or rs2016tablet - everything works fine in runtime only rs2010 is not working. Do you know where can be a problem and what we can do to fix it? Thank you for information.
+We also imported our another project (dynamic link library - DLL) with one ribbon and in this project is everything ok. 
+Best Regards,
+Petr Mrazek
+MiriSys s.r.o 

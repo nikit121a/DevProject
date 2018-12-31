@@ -1,0 +1,5 @@
+Hi,
+Today I tried to use the radio group control and I have found an issue. The problems is that with the current version it is not possible to set the inital value. Please review the Plunker example.
+Plunker example:
+  
+ example I expact that the radio button 5 is selected.

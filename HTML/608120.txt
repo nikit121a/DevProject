@@ -1,0 +1,2 @@
+I have a custom column which has a drop down and a clear button.
+ However, in the UI the buttons for this column appear with the dropdown button to the left of the clear button. Is there any way I can get this order flipped? I'm just trying to provide a quick way for users to clear the active selection of the combobox.

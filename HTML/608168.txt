@@ -1,0 +1,15 @@
+Dear Support Team,
+I am using one DevExtreme MVC chart where based on the series click i have to load another chart.
+When i click on the series of first chart. i am calling point click event
+Below is the code for calling point click of first chart:
+In the above code i am getting value in param variable and then loading another chart based on it.
+Below is the second chart extension:
+and action method used to load the chart in below:
+Above action method is getting called when page loads as well as when click on series of first chart.
+But practiceName variable is always null.
+Now here i need two things:
+1.  This chart should not load when page load happens. 
+2.   Second i need the clicked series of first chart.
+Please let me know if you have any concern if any. 
+Thanks,
+Veera 

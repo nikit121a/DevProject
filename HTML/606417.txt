@@ -1,0 +1,6 @@
+Bonjour,
+Pouvez-vous nous aider pour cette question !
+On voudrait avoir un contr?le au niveau de la s?lection dans le "GridControl" (voir image) c'est ? dire que je voudrais savoir dans une routine (boucle) quelle ligne est s?lectionn?e !
+MultiSelectMode = CheckBoxRowSelect, MultiSelect = True
+Exemple code avec DataGridView de VisualStudio
+Merci

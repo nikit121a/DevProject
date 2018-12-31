@@ -1,0 +1,6 @@
+Hello.
+Updated the project from version 16.1.13 to 17.2.3. 
+In the project broken custom controls, who used the property StartupScript  of abstract class ASPxWebControl .
+For example: 
+Error - not found property StartupScript.
+How to change now StartupScript and  in which event is it done? 

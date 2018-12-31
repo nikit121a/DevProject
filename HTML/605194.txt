@@ -1,0 +1,5 @@
+Hi
+In a project I have added a CheckBoxSelectorColumn. When I select rows using this, and then press the DOWN arrow key say, then the selections are cleared?
+Is there a way to stop this happening?
+Thanks
+ 

@@ -1,0 +1,7 @@
+Hello, I'm drawing 2 linear level bars one near the other, they show a balancing value divided for left and right.
+Here's the XAML code:
+How can I change the color of bars? Setting a different color for each bar?
+How can I modify the width of the bar ad make it wider?
+Now I've put the 2 bars one near the other, but both of them has the numeric scale visible. How can I hide one of them and maintain only one scale for both bars?
+Thanks, best regards.
+ 

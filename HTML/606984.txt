@@ -1,0 +1,4 @@
+I am trying to do a simple operation where I save the layout of a form (all items in the LayoutControl1) to XML, then restore it later. The idea is that I want end users to be able to modify their layout and save it as their "favorite" and load it as needed. One minor problem. My form has a lot of layoutcontrolgroups on it, and that is ALL that is restored. In addition, NONE of the properties of the LayoutControlGroups (buttons, expand buttons, etc.) are restored. The code is below and before and after saving\loading pics are attached.
+ 
+1. Is there a better way to save this layout to encourage restoring it exactly as is (recursion?)
+2. As a bonus, is there an overload where I can save the XML to a string  instead of a file? I'm happy to create a temporary file if need be, then store the xml data to my database as needed, but I'd rather not. I'd also rather not use a stream because I like being able to read the xml for troubleshooting (great transparancy). 

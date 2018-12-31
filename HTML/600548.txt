@@ -1,0 +1,11 @@
+In client side row deleting event I use alertify.js to show a confirm dialog that ask user to confirm whether they want to delete or not
+if they click cancel the select row won't be deleted
+but I set e.cancel = true; the row will still be deleted
+    function OnBatchEditRowDeleting(s, e) { 
+        alertify.confirm('Delete', 'Confirm Delete?'
+            , function () {
+            }
+            , function () {
+                e.cancel = true;
+            });
+    }

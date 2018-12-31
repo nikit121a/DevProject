@@ -1,0 +1,2 @@
+Hello,
+I am using DocumentViewer to show reports in my project. As can be seen from the attached image, there are seperators in the control. I want to hide these seperators. There is also another white space around the control. I also want to hide it too. How can I hide these seperators and empty space around the control? 

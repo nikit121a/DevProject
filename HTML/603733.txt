@@ -1,0 +1,8 @@
+Hello DevExpress,
+Is there any chance there are any additional articles or resources out there on using the KPI module besides this 
+I've been trying to get my head wrapped around it.
+I am under the impression that if we set the 
+  to a value of week we would get a KPI measuring current week to previous week as well as get a spark line of the measure as a function of time. But it seems i am unable to get this field is to do anything. 
+The only way i can get results is to use  Range, compare box, and Range to Compare. I would like to get something on the order of take the last 7 days sum and compare it to the 7 previous days before that. To get something on the order of this I would need to be able to define custom Rage parameters. Can you create custom ranges within the Range and Compare To Range fields.
+ Also the Range and compare to Range fields seem to have an option for "Rolling" as depicted in the Concepts/Extra-Modules/KPI documentation. there appears to not be that option when I try.
+There is something that is not clicking and hope you could point me to some additional resources on how to correctly use the KPI module.

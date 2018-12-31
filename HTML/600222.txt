@@ -1,0 +1,7 @@
+Hi,
+I am working with the PictureEdit control in a WinForms application.  A couple of specific issues that I am having is:
+1) Using the mousewheel for zooming is very slow.  Occasionally, it will zoom in pretty quickly but then zooming back out is VERY slow.  I have found several other tickets regarding this same issue with sample projects showing how to make this work attached but none of them will compile with build 17.1.   Can you provide some sample code or project to show how to get this to work?
+2) I need to be able to allow the user to draw a lasso on the pictureedit and get the actual coordinates from the image regardless of the zoom level.  Can you explain how to accomplish this or maybe provide a sample project?
+3) Should I be using a different image control all together?
+Thanks
+Kerry 

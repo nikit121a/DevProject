@@ -1,0 +1,10 @@
+Hello,
+I'm using the SpreadsheetControl and using the ExportToPdf method. I set a Printable Area setting this:
+if(worksheet != null && worksheet.DefinedNames.FirstOrDefault(dn => dn.Name == "_xlnm.Print_Area") == null)
+            {
+                worksheet.DefinedNames.Add("_xlnm.Print_Area", "'Sheet1'!" + PrintableRange);
+            }
+But I don't know if I can configure the Page options when exporting, as the margins of the resulting PDF. I saw a ExportToPdf method with PdfExportOptions but I cannot see any option to set the page configuration.
+public void ExportToPdf(string fileName, PdfExportOptions pdfExportOptions);
+Could you help me?
+Thanks!!! 

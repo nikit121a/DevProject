@@ -1,0 +1,10 @@
+Hi,
+I am working on C# WinForms application.
+I am using ColorEdit control within devexpress grid. I want to show only the colors defined in my code in the drop down of coloredit control. I had achieved that.
+The color popup (which is displayed when click on the coloredit control) shows the color in ARGB format.
+I want to show the color list elements in hex format like "#rrggbb" format. For e.g. #ffffff
+Please suggest the way to achieve it.
+I had attached the sample project with this for reference.
+Looking forward to quick reply. 
+Thanks,
+Gaurav

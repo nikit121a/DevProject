@@ -1,0 +1,4 @@
+The user is select a row in LISTVIEW. 
+Is there an event I could trap using a view controller to get the record selected? 
+Thanks
+ 

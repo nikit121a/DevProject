@@ -1,0 +1,4 @@
+Hello,
+if I use the quick search in the grid and type some characters the entry which matches is shown at the end of the grid-rows. Is it possible to make it appear in the middle or at the top? Please see the attached screen-shots.
+Thanks
+Stefan Westner 

@@ -1,0 +1,10 @@
+I have various Devexpress bootstrap controls on my web page (BootstrapComboBox, BootstrapTextbox, BootstrapDateEdit, BootstrapUploadControl) and I would like to validate all of them on the server as well as the client.  I tried the approach listed in 
+:
+"To validate all editors on a page, call one of the following methods with a 
+ or 
+ parameter."
+code:  Dim isValid As Boolean = DevExpress.Web.ASPxEdit.ValidateEditorsInContainer(Nothing)
+The line of code above threw the following exception: An exception of type 'System.ArgumentNullException' occurred in DevExpress.Web.v17.2.dll but was not handled in user code.
+I am coding in VB.NET and I had to pass Nothing as the argument as String.Empty throws a compiler error.  
+Please tell me how I can validate all DevEx editor controls on my page on the server in addition to the client.  Please provide a complete code example.  tyvm 
+ 

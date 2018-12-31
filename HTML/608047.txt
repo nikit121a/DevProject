@@ -1,0 +1,5 @@
+Hi,
+Please see attached screenshot. There is a way to set the two combo box at same width? I'm trying with EditWidth property but does not work.
+Thanks for your help
+Mario
+ 

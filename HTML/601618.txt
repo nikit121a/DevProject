@@ -1,0 +1,2 @@
+Hello, i try make Helper for TdxRichEditControl
+and when I use the method LoadFromVariant at the beginning of the document added some random characters. For example, when you call richView.LoadFromVariant('123456789', TdxRichEditDocumentFormat.PlainText) I got that the document contains "_ ___1_2_3_4_5_6_7_8_9_". 

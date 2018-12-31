@@ -1,0 +1,10 @@
+Hi,
+I have a dxDataGrid with editing mode: row
+I create a dxSelectbox editor in onEditorPreparing.
+The editor has a DataSource getting a list from the server.
+The value is set with grid.setValue(event.value) in onValueChanged on the dxSelectBox editor.
+When the user hits Enter in the grid the rows is set in editmode, thats fine.
+But if the user has foucs on a column with a dxSelectBox  editor with a value the value is cleared on entering the editor with enter.
+Is not always happing but when it happens the onValueChanged is triggered with value = null. 
+I know i can set allowClearing = false, but thats not an option in this case because the user needs to be able to clear.
+How can I stop Enter from clearing the value?

@@ -1,0 +1,6 @@
+Hi,
+I'm using a dxTagBox with some items disabled and with the setting showSelectionControls at true. My problem is, the checkbox "Select All" select all items, same disabled items !
+You can see an example here : 
+ 
+Can you fix it ?
+Thanks ! 

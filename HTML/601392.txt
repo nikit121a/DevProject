@@ -1,0 +1,8 @@
+Hello,
+I've been attempting to  force controls (LayoutControlItem) within a LayoutGroup within a LayoutPanel to resize as the panel is resized.
+No matter what widths = auto or horizontalalignment = stretch properties I give the various controls, adding a longer string to a TestItem control always forces the LayoutGroup to have a horizontal scrollbar as opposed to truncating the contents of the textbox or doing a text wrap.
+I've also tried setting all of the ScrollViewer.CanContentScroll = "False". Didn't make a difference.
+What am I missing? Everything up the XAML tree is set to auto width and horizontal stretch.
+See attached picture for result.
+Thanks!
+Matt

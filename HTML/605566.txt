@@ -1,0 +1,7 @@
+Hi there,
+I would like to know if there is a way to display two icons/images in one single cell (XtraGrid GridView). 
+Our use case is that a value in a cell is determined by two properties, each of which can be expressed by an icon that we have in our app. We would like to display those two icons in the cell. 
+It works nicely with one image using the RepositoryItemImageComboBox. Is there a way to make it work for two images? Or do you know of a workaround to implement this feature?
+Thanks for your help,
+Kind Regards,
+Michael

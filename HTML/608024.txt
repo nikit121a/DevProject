@@ -1,0 +1,6 @@
+Hello,
+we have a grid with detailrows that contains also a gridview .
+just like 
+is it possible that when i change a column in 1 detailrow that all detailrows will take the position/width of the changed detailrow?
+i save the  width and position in a cookie, so when i refresh the page it works but thats not what i want.
+ 

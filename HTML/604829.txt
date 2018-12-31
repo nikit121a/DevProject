@@ -1,0 +1,9 @@
+Hi 
+I have trouble implementing the   SettingsAdaptivity tag in an aspxgridiview.
+I've succefully implementedi it on one  of my grids, but  on other grid it does'nt work.
+Here is the non working aspx code
+And it's associate css
+What did i miss?
+Thanks  
+FB
+ 

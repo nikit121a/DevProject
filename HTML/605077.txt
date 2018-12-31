@@ -1,0 +1,19 @@
+Hi I want to reduce the dxscheduler control to fit the page height and want to show the vertical scrollbar
+ @(Html.DevExtreme().Scheduler()
+            .DataSource(x => x.WebApi().Controller("Appointments").Key("Id").LoadAction("Employee").LoadParams(new
+            {
+                id = User.Identity.GetUserId(),
+                content = new JS("AppointmentFiltersModule.getContentValue")
+            }))
+            .Views(new[]
+            {
+                SchedulerViewType.Month,
+                SchedulerViewType.Week,
+                SchedulerViewType.WorkWeek,
+                SchedulerViewType.Day,
+                SchedulerViewType.Agenda
+            })
+            .CurrentView(SchedulerViewType.Week)
+            .DefaultConfiguration(isEditable)
+            .CellDuration(60)
+    )

@@ -1,0 +1,4 @@
+Hi, 
+I have made area stacked chart. I need to change the shape of legends from triangular to square.
+Please let me know how will achieve the given requirement. Please find the attachment of the requirement.
+Thanks in advanced. 

@@ -1,0 +1,4 @@
+Hi guys,
+In the Spreadsheet control (including demos) formula range is not working, for example, in vlookup formula, I am not able to select 
+ from another sheet, print screen attached
+ 

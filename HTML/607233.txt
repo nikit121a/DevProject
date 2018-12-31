@@ -1,0 +1,9 @@
+Hi,
+we have a large TreeList with lots of nodes and a wide column. Typically the tree is made smaller by the user so its column will not be fully visible.
+(See screenshots attached)
+There's an action that needs to find a node and make it the focused node, it should be visible to the user as well. Ideally the node is centered within the trees area. In my example the node is almost invisible because the node is on e deeper nesting level and its text is drawn outside the trees visible area.
+ I managed to center the focused node vertically, but I need some ideas on how to make the focused node visible horizontally.
+ As you can see in the screenshots, a possible way could be to scroll in such a way that the expand button "+" is centered horizontally in the tree's width.
+How can I do this programmatically?
+Thanks in advance,
+Walter 

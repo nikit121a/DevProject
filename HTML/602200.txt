@@ -1,0 +1,2 @@
+when i used batch editing . i try to edit cell than only show particular cell color change but i need whole row as a selected and first cell show asterisk(*) symbol more detail you see attachment. 
+ 

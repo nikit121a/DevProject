@@ -1,0 +1,9 @@
+Hello,
+I'm using the DXTabControl .
+I've created a custom style for the DXTabItems.
+Now I want to use the Theme Office 2016 Colorful SE.
+But in this theme the re is a black horizontal line on to of the Tab-Header.
+Is there a possibility to hide this black line?
+I've attached a screenshot to demonstrate it.
+Thanks and with best regards ,
+Fabian 

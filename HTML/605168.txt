@@ -1,0 +1,4 @@
+I have the need to allow users to print the Gantt Charts that have been programmatically created. To create the chart there's needs to be control over the size so the other elements can be rendered appropriately. The sizing has been worked out to fit a maximum of 7 projects. This means when the data has more than 7 projects an additional WebChartControl will be created.
+I need to provide the ability to export (minimally to PDF) each WebChartControl.
+This issue is closely associated with T603746
+However, I have included a zip that contains the code that has test data containing more than 7 projects so 2 WebChartControls are created. 

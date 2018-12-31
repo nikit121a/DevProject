@@ -1,0 +1,11 @@
+Hello,
+We have a DockLayoutManager containing several LayoutPanel, one of them containing a text box and a read-only TreeListControl. And since we updated DevExpress in our project from version 17.1.7 to 17.2.5, we noticed that if the LayoutPanel of the TreeListControl is not focused, clicking on an already selected item of the tree doesn't focus the TreeListControl but the text box instead.
+This breaks our automated tests of the user interface and keyboard navigation in the application.
+I have attached a sample with two identical projects using both versions of DevExpress:
+- Open the 17.2 version and click on the first item (already selected) of the tree -> The text box is focused instead of the TreeListControl
+- Click on another item of the tree -> The tree behaves as expected
+- Click on the button to move the focus away from the LayoutPanel of the tree
+- Click again on the currently selected item of the tree -> The bug happens again
+- Redo the same test with the 17.1 version -> The tree works as expected all the time
+Could you fix this regression?
+Thank you for your help.

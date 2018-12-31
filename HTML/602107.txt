@@ -1,0 +1,5 @@
+Hi
+I have my Scheduler open inside a PopUp window and I'm trying to move one appointment to another Slot and Time. The appointment disappears and when clicked the new location it doesn't paste the appointment and still attached to the mouse pointer.
+ Please see the attached video.
+My scheduler configuration:
+Regards 

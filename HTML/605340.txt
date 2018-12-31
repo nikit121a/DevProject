@@ -1,0 +1,6 @@
+Hi guys,
+I have a question. We had a problem with storing Log into correct folder, even when we set in TraceLogLocation  CurrentUserApplicationFolder value log was always stored into application folder.
+We found the reason. Reason was that we did not call Tracing.Initialize method thus OutputDirectory was always called using PathHelper and settings stored in Config were ignored.
+So my question is - is really neccessary to always call Tracing.Initialize method wouldn't it better to always use for initializing OutputDirectory value from config instead of PathHelper. Code where OutputDirectory is initialized using PathHelper is in OutputDirectory field's getter. 
+So now i don't know if it is bug or feature - I think this approach you use is because of web app though.
+Thanks for answer. 

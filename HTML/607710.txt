@@ -1,0 +1,5 @@
+Hi Support,
+I have a datagrid with the usual 'insert new row' inline, one row each time, validation and then save to the SQL DB.
+Now the customer is asking for multiple 'insert multiple new rows', it means add some rows and then with ButtonClick fill specifig colunms (bt1 for Date, bt2 for Material....). After that some field will be changed manually and at the end all new records should be committed to SQL DB.
+Could u suggest how to solve the 'multiple' matter?
+Tks in advance and regards, Giovanni

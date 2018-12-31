@@ -1,0 +1,4 @@
+I have a WPF program and I want to run multiple instance of the program. But somehow only the first one can start. Do I need to turn on any flag or enable any property?
+Thanks,
+Yong
+ 

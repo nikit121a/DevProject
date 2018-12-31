@@ -1,0 +1,4 @@
+Hello,
+I'm trying to remove the "All" value in a ComboBox filter and select an unique initial value to show into the ComboBox. 
+After this, the user can check one or more values, but the initial state needs to start with one value.
+Thank you!

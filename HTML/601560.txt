@@ -1,0 +1,6 @@
+Hello,
+I'm trying to have my apps behave correctly in High DPI (or rather in scaled mode) and have their size/position saved/restored when closed/opened.
+ I am attaching a simple project that shows the problem : click on the open button, position and size the window, close it and re-click on "open" : position and size will change (grow) on scaled monitors. It works correctly on unscaled monitors.
+And if you change TForm2's ancestor from TdxRibbonForm back to TForm, sizes and positions are working as expected.
+What am I doing wrong ?
+Thanks,

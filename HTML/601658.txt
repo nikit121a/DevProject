@@ -1,0 +1,3 @@
+Hi!
+I have a grid control where one of the columns contain complex data. I use a DisplayTemplate and ItemsControl to build the desired structure. The reason is that I what some parts of the text to be colored. See below. The column/data is shown correctly. But when I use the autofilter row the filtering does not seem to work. Do I have use some sort of custom filtering? Also I am using MVVM so I would prefer to do the filtering in the VM if possible. 
+Thanks! 

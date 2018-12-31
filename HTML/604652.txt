@@ -1,0 +1,67 @@
+Hi, 
+Please, can you help me. I have GridView  with dynamic columns who is rendered from DataTable Model. My helper looks like this: 
+@model DataTable
+@{
+    var grid = Html.DevExpress().GridView(
+        settings =>
+        {
+            settings.Name = "GridViewName";
+            settings.KeyFieldName = "idcolumn";
+            settings.CallbackRouteValues = new { Controller = "Home", Action = "GridViewName" };
+            settings.SettingsEditing.BatchUpdateRouteValues = new { Controller = "Home", Action = "UpdateModel", gridId = id (some value) };
+            settings.SettingsEditing.Mode = GridViewEditingMode.Batch;
+            settings.SettingsEditing.BatchEditSettings.EditMode = GridViewBatchEditMode.Cell;
+            settings.SettingsEditing.BatchEditSettings.StartEditAction = GridViewBatchStartEditAction.FocusedCellClick;
+            settings.SettingsEditing.BatchEditSettings.HighlightDeletedRows = true;
+            settings.CommandColumn.Visible = true;
+            settings.CommandColumn.ShowDeleteButton = true;
+            settings.CommandColumn.ShowNewButtonInHeader = true;
+            settings.CommandColumn.Width = Unit.Point(50);
+            foreach (System.Data.DataColumn column in Model.Columns)
+            {
+                settings.Columns.Add(c =>
+                {
+                    c.FieldName = column.ColumnName;
+                    c.ColumnType = MVCxGridViewColumnType.SpinEdit;
+                     c.EditorProperties().SpinEdit(p =>
+                     {
+                         p.DisplayFormatString = "#####.##";
+                         p.DisplayFormatInEditMode = true;
+                     });
+                });
+            }
+            settings.CellEditorInitialize = (s, e) =>
+            {
+                ASPxEdit editor = (ASPxEdit)e.Editor;
+                editor.ValidationSettings.Display = Display.Dynamic;
+            };
+        });
+    if (ViewData["GridError"] != null)
+    {
+        grid.SetEditErrorText((string)ViewData["GridError"]);
+    }
+}
+@grid.Bind(Model).GetHtml()
+_____________________________________________________________________________
+and in the  Home Controller I have foloving update method implementation:
+ [ValidateInput(false)]
+        [HttpPost]
+        public ActionResult UpdateModel(MVCxGridViewBatchUpdateValues<object, float> updateValues, int gridId)
+        {
+            foreach (object product in updateValues.Update)
+            {
+                //string jsonObject = JsonConvert.SerializeObject(new { JsonObject = product });
+                
+                var properties = product.GetType().GetProperties();
+                foreach (var property in properties)
+                {
+                    var PropertyName = property.Name;
+                    var PropetyValue = product.GetType().GetProperty(property.Name).GetValue(product, null);
+                }
+            }
+            return ...;
+        }
+After updating model in grid view and click to save changes I see that  updateValues.Update return some products but products are empty objects. When I try convert it to JSON object, i saw empty properties.
+Do you now, how to fix it? 
+Thanks 
+Lukas 

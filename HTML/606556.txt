@@ -1,0 +1,3 @@
+Hi, 
+I have another query, when I do the loading of the elements to the cube you should always define where each one goes (DataRow, FilterRow, ColumnRow and FilterRow) but I am realizing that when I fill the fields from a file and I do not define it type of element, the component although it has its DataSource but does not have its elements as I can fill an ASPxPivotField without referring to where it is going ??  
+Thanks for your support 

@@ -1,0 +1,2 @@
+Dear Support,
+Wants to create a Circular Data Display Element like the Attached image. Can you please help me some way to do this using the Devextreme Component. A sample is more appreciated and help me to implement. 

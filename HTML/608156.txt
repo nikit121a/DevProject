@@ -1,0 +1,10 @@
+Dear Support Team,
+In an Windows Forms application I am using the devexpress grid with a master detail view of own objects. All details are expanded. The user shall not be able to select the details so if the user clicks on the detail, the master row will be selected.
+For a usage without a mouse, the user shall be able to scroll up and down with the cursor keys. 
+That all works now but the last detail rows will not be visible when selecting the last master row.
+I did not found a possibility to scroll down completely.
+Attached there is a example showing my problem.
+Hopefully you are able to help me to solve my problem.
+Best regards,
+J?rg
+ 

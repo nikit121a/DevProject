@@ -1,0 +1,4 @@
+Hi there,
+In our system we have some code that can dynamically hide or show certain controls on a form  based on a context and I am trying to get it to work for DevExpress components. I want to use LayoutControl items on my form as it seems the easiest and most flexible way to add components, but I noticed a bug where changing a layout item's visibility is actually affecting the visibility of other components on the form!
+I was able to reproduce this with the following simple example. I have 2 text edit controls on a form each inside a layout item. I set the visibility of the controls first then go back and set the visibility of the layout item containers based on their control's visibility.
+It never gets to the showmessage because the visibility of cxTextEdit1 has been reset after the 3rd line of code!

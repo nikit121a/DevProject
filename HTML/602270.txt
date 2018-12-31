@@ -1,0 +1,2 @@
+Hi DevEx-team, I am converting a large WinForms-solution to WPF-MVVM and I would need to declare items in the VerticalRowsCollection to be shown as CategoryRows (which don't display any data cells, just used to arrange shown data into groups) 'cause we made extensive use of this feature in our WinForms-solution. Are you in position to extend this example suchlike or to show any other way how to achieve such an appearance?
+Regards

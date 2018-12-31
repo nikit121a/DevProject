@@ -1,0 +1,7 @@
+Hi.
+I'm working with the gridview, and wanted to add some drag-drop row functionality. This led me to the following example of using the behaviormanager to manage drag-drop functionality (
+) 
+After adding the behavior manager into my app, the mousedown was firing twice every time I mouse-downed.  This is a problem because I have special logic that needs to happen in mousedown, and having it fire twice is an issue.
+I took the example supplied, and added a mousedown handler, and: 
+Even in the example, it fires mouedown twice.  Put a breakpoint at line 22 to see what's happening. 
+Please help! 

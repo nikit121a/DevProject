@@ -1,0 +1,9 @@
+Hello, I have a pivotgrid that shows "value+ unit" values as labels in the header but sorts by "normalized value" hidden field. It was working perfectly and after updating to 17.2.4 I see that this is no longer the case. Please see attached picture where you can see that the columns are being sorted alphabetically (column label is a string showing value + unit) instead of by normalized value (hidden field)
+This is my pivotgrid configuration:
+FieldName="TamanoTamiz" cotains a string such as "10 mm" or "600 microns" or "2.5 in" used for column label
+campoTamanoNormalizado contains all values in milimiters, used for sorting: 10, 0.6, 63.5 (following example above) 
+
+
+
+
+This was working before so I'm at a loss on what to do. Thanks 

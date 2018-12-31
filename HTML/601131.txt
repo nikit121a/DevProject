@@ -1,0 +1,9 @@
+Hi,
+I need a RichEditControl  on a server application (a win32 service, no gui) to process a RTF document and export the result in PDF format.
+I instantiate the control with 
+      RichControl := TdxRichEditControl.Create(nil);
+But I get an access violation in this line.
+In a test environment, like a standard VCL application or even a command-line application it works just fine.
+As said the application runs as a win32 service, has no gui. Also, the code runs in a new thread for each client request
+Is this the right approach, or I have better options ?
+Thanks in advance!

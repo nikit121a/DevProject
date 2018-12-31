@@ -1,0 +1,4 @@
+On the tabs i wish to put Colors to show the state of the tabbed controls (modified, loaded and such)
+I have tried both the DrawTab and DrawTabEx but with one, the other or both but allways the Control is resetting to the Default color when changing the tab position.
+How to i get a permanent Tab Color to show the user some info about the state of the tabs ? 
+Thank you in advance and thanks for some GREAT products

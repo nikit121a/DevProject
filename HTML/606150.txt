@@ -1,0 +1,9 @@
+Guys,
+I have serious problem that costed me several days of working for nothing. I lost all my nerves until we find out what is problem, and I don't know what caused it.
+On my machine default font is 7.8, and on the computers of my colleagues is 8.25 - for example.
+The biggest problem is that one is shown in designer, and another in application. 
+You can see attached pictures...
+It is very important for me to have everything in correct size, and it is very difficult to do that when designer and app show different things.
+How  can I fix this?
+Thank you,
+Hristina 

@@ -1,0 +1,89 @@
+Hi
+I want a little problema with my combo box,
+can you help me
+The problem is when i make the get of the view i passed a some values by default, but one field goes with 0.
+so in the view shows 0 and i want show  the null value text and then the user chooses the value of the list.
+i attached the pic
+This the code of my view:
+@model Entities.MyEntities.Parameters
+@{
+    ViewBag.Title = "Parametros de fecha";
+}
+<br />
+@using (Html.BeginForm("ExtraTimeReport", "ExtraTime", FormMethod.Post))
+{
+    @Html.DevExpress().FormLayout(settings =>
+{
+    settings.Name = "form1";
+    settings.Items.AddGroupItem(g =>
+    {
+        g.Caption = "Selecci?n de Parametros de fecha";
+        g.GroupBoxDecoration = GroupBoxDecoration.Box;
+        g.Items.Add(m => m.StartDate, i =>
+        {
+            i.Caption = "Fecha de Inicio";
+            i.NestedExtension().DateEdit(de =>
+            {
+                de.Width = Unit.Percentage(100);
+                de.ShowModelErrors = true;
+                de.Properties.ValidationSettings.Display = Display.Dynamic;
+                de.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.None;
+                de.Date = Model.StartDate;
+            });
+        });
+        g.Items.Add(m => m.EndDate, i =>
+        {
+            i.Caption = "Fecha de Fin";
+            i.NestedExtension().DateEdit(de =>
+            {
+                de.Width = Unit.Percentage(100);
+                de.ShowModelErrors = true;
+                de.Properties.ValidationSettings.Display = Display.Dynamic;
+                de.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.None;
+                de.Date = Model.EndDate;
+            });
+        });
+        g.Items.Add(m => m.AreaId, i =>
+        {
+            i.Caption = "Area";
+            i.NestedExtension().ComboBox(de =>
+            {
+                de.Width = Unit.Percentage(100);
+                de.ShowModelErrors = true;
+                de.Properties.ValidationSettings.Display = Display.Dynamic;
+                de.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.None;
+                de.Properties.DropDownStyle = DropDownStyle.DropDownList;
+                de.SelectedIndex = 0;
+                de.Properties.NullText = "Seleccione";
+                de.Properties.TextField = "AreaName";
+                de.Properties.ValueField = "AreaId";
+                de.Properties.ValueType = typeof(int);
+                de.Properties.DataSource = slnRhonline.Models.ExtraTime.GetAreas();
+            });
+        });
+        g.Items.Add(i =>
+        {
+            i.ShowCaption = DefaultBoolean.False;
+            i.Paddings.PaddingLeft = 0;
+            i.HorizontalAlign = FormLayoutHorizontalAlign.Left;
+            i.NestedExtension().Button(b =>
+            {
+                b.Name = "btnVisualizar";
+                b.Text = "Visualizar";
+                b.UseSubmitBehavior = true;
+                b.Width = Unit.Pixel(150);
+            });
+        });
+    });
+}).GetHtml()
+}
+this is the code of controller
+ public ViewResult DateRangeSummaryReport()
+        {
+            Entities.MyEntities.Parameters eParameter = new Entities.MyEntities.Parameters();
+            eParameter.StartDate = DateTime.Now;
+            eParameter.EndDate = DateTime.Now; 
+            //eParameter.AreaId = null;
+           
+            return View(eParameter);
+        }

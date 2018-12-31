@@ -1,0 +1,7 @@
+Hi,
+I need a solution how to set the color for a CommonSeriesSettings in the data source and just do use it in the preview.
+I have in data source newList.Add(new GridResArg { arg = nr, val1 = varX, val2 = varY, color = "red" });
+and I want to use that parameter in chart settings.
+Thank you in advance.
+Best,
+Zeljko 

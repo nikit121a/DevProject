@@ -1,0 +1,10 @@
+Hello,
+I have implemented Expand Or Collapse on group header. But that facility only works in Report Desigener Preview Mode. But when i actually run from my Web Application then this facility is not working. refer screenshot dev-1.png
+For this i have used Drilldowncontrol Facility.
+Also i have tested this approach in Windows Form Application. In this it is working fine expected. But in Web Application this is not working.
+I have attached screenshot. In given screenshot when i click on sub record +(Plus) Sign then it is not displaying its detail report but that functionality is work in Report Preview Mode where i am actually developing my reports refer screenshot dev-2.png file
+Can you please suggest me any other ways or tell me why this happening only in web application?
+I am using Asp.net MVC.
+I am using DevExpress.Web.Mvc.DocumentViewerExtension for display report in web browser
+I am using Report WCF Services.
+Thank You.

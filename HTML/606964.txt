@@ -1,0 +1,4 @@
+Dear DevExpress team,
+is it possible to fill a PDF form and to apply a bold font to a subset of the inserted text? 
+E.g. by the <b>...</b> tag:
+Best, Thomas 

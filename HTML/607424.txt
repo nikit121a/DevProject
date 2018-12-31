@@ -1,0 +1,22 @@
+Hi
+I use an ObjectDataSource to  provide data access to a TreeList. I then use the DataSource postback event handlers (Deleted, Inserted, Updated) to provide feedback to the user on the outcome, by setting the text of a label. 
+For example, if a user tries to delete a TreeList item, and for whatever reason it fails, then the user should be notified that it failed and perhaps why it failed.
+The problem that I have, is that the feedback label text  does not change when I set it in the DataSource event handlers.
+        protected void dsProject_Deleted(object sender, ObjectDataSourceStatusEventArgs e)
+        {
+            bool ok = true;
+            if (e.ReturnValue != null)
+            {
+                System.Boolean.TryParse(e.ReturnValue.ToString(), out ok);
+                if (ok)
+                    lblFeedback.Text = "Deleted ok";
+                else
+                    lblFeedback.Text = "Delete failed!";
+            }
+        }
+Please let me know how to get around this restriction? It is vital that I need to provide feedback to the user on any errors.
+I have created a small test app to illustrate the problem. Build, run, then try to delete "Apple". I have explicitly prevented the user to delete this record, to illustrate the problem. The feedback label remains unchanged.
+Thank you for looking into this.
+Regards
+Conrad
+ 

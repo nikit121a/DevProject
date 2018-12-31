@@ -1,0 +1,4 @@
+Hi,
+When I set columnedit as memoedit with allowHTMLdraw, the data are  show perfectly formatted on Grid as per HTML tags but when exported to PDF, html tags like <b> etc are printed instead applying formatting.
+Please suggest.
+Thanks. 

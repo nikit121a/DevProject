@@ -1,0 +1,5 @@
+Hello!
+Im continuing my attempts to launch Mobile application of my Xaf solution. Previously i was experiencing issues with IsInstanceOfType function (
+), now when it is fixed, i have stumbled on another one. 
+Please, see log file for the details.
+Thank you! 

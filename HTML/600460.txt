@@ -1,0 +1,2 @@
+In your documentation at 
+the hint controls appears with black background and black callout arrow with white text. How did you accomplish this? I see nothing in the demo files that change the look. 

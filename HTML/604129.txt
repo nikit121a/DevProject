@@ -1,0 +1,6 @@
+
+                                The following code sample shows how to use the 
+ property to bind dictionaries generated at runtime to the SpellCheker. In this example, the 
+ behavior is implemented to the 
+ and the dictionaries collection is generated in the ViewModel
+                            

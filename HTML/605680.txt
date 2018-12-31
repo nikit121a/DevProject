@@ -1,0 +1,13 @@
+Hello,
+ 
+My name is Jacob and my account: jacob@bigjewelers.com.
+The business requires to have dtTagbox with the large number or items.
+I can assign datasource or items to json data on the client and if it needs to be on the server side i can do it as well.
+So, if I just do that it takes to long just to open the list.
+I tried setup infinite scrolling and it does not work. I am a new to your tools. And there is no exact example how to do it. 
+As i mentioned, i have data as json on the client  side.
+Please help me to get this done.
+I can give you my code example:
+Thank you an advance,
+Jacob Markel
+ 

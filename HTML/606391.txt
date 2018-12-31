@@ -1,0 +1,6 @@
+
+Thanks for the sample.  I'm currently playing around with the settings.
+With the sample provided, how do I:
+1.  Fix the displayed timeline to only show hourly scales between the selected date at the top (00:00 to 23:59 for the selected day).  I don't want to scroll horizontally. 
+Thanks,
+Brian

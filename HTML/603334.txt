@@ -1,0 +1,10 @@
+Hello All,
+How can I set a JSON string value (converted from DataTable)  into a chart datadource
+This is my code (behind) but it does not work. Chart does not show anything.
+Dim JSONString As String = String.Empty
+JSONString = JsonConvert.SerializeObject(dstData) 'Comment dstData is my DataTable
+BootstrapPieChart1.DataSource = JSONString 'Comment: JSONString retrieves the data in JSON format fine.
+BootstrapPieChart1.DataBind()
+I have tried without the DataBind method but the result is the same. 
+Also, I tried to set the DataSourceURL but the result is the same, nothing...
+ 

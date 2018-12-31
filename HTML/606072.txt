@@ -1,0 +1,9 @@
+Dear,
+I've done this settings but I don't understand as how can change border color indicated of red arrows.
+(without change baseColor of theme)
+
+
+
+
+Regards,
+Rinaldo

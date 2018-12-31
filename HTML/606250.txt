@@ -1,0 +1,7 @@
+   Hello, 
+ 
+we have some problems with content-location of the mime produced by the RichEdit control.
+The mime does not respect the rules of RFC2557 and does not give a unique name on content-location. 
+Can you correct this please ?
+  
+     

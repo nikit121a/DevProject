@@ -1,0 +1,9 @@
+Hello,
+I use Angular 4.  
+I have a form with some fields inside.
+I want after the pressing the Enter key to move focus to the next field.
+Please see the attached image.
+How can I do this?
+Thanks,
+Paolo
+ 

@@ -1,0 +1,5 @@
+I have a client who runs in a high OLTP environment with an XAF Windows program.  There are also some batch updates/inserts going on with the same set of persistent objects.  Needless to say, we run into some concurrency issues with this, even though we've made efforts to minimize the time between reading/updating objects in the database.  I would like to implement some type of try/catch with a retry of  up to 3 times to re-read and update any failed commits.
+Here is the basic structure I have:
+So I want to do a try/catch, reload from db and retry the operation like this:
+However, I'm not sure what FindObject will actually do.  Will it for sure fetch the current data from the database if someone else has changed it?  What about the ServiceObjectsBillings collection?  Will the previous .Add be thrown out?  Do I need to rollback or anything in the catch? 
+ 

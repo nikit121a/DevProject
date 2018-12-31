@@ -1,0 +1,61 @@
+Hi!
+Since upgrading i get the folling exception:
+Fehlertext=Upgradeable lock may not be acquired with read lock held.
+Exception-Type=System.Threading.LockRecursionException
+Stack Trace=
+   at System.Threading.ReaderWriterLockSlim.TryEnterUpgradeableReadLockCore(TimeoutTracker timeout)
+   at System.Threading.ReaderWriterLockSlim.TryEnterUpgradeableReadLock(TimeoutTracker timeout)
+   at DevExpress.Xpo.ThreadSafeDataLayer.UpdateSchema(Boolean dontCreate, XPClassInfo[] types)
+   at DevExpress.Xpo.SimpleObjectLayer.UpdateSchema(Boolean dontCreateIfFirstTableNotExist, XPClassInfo[] types)
+   at DevExpress.Xpo.Session.UpdateSchema(Boolean dontCreateIfFirstTableNotExist, XPClassInfo[] types)
+   at DevExpress.Xpo.Helpers.ObjectCollectionLoader.PrepareLoadObjects(ObjectsQuery[] queries)
+   at DevExpress.Xpo.Helpers.ObjectCollectionLoader.LoadObjects(ObjectsQuery[] queries)
+   at DevExpress.Xpo.SimpleObjectLayer.LoadObjects(Session session, ObjectsQuery[] queries)
+   at DevExpress.Xpo.Session.GetObjectsInternal(ObjectsQuery[] queries)
+   at DevExpress.Xpo.Session.<>c__DisplayClasse.<GetObjects>b__c()
+   at DevExpress.Xpo.Logger.LogManager.Log[T](String category, LogHandler`1 handler, MessageHandler`1 createMessageHandler)
+   at DevExpress.Xpo.Session.GetObjects(ObjectsQuery[] queries)
+   at DevExpress.Xpo.Session.GetObjects(ObjectsQuery query)
+   at DevExpress.Xpo.XPBaseCollection.Load()
+   at DevExpress.Xpo.XPBaseCollection.get_Objects()
+   at DevExpress.Xpo.XPBaseCollection.get_Count()
+   at DevExpress.Data.Helpers.BaseDataControllerHelper.get_Count()
+   at DevExpress.Data.DataControllerBase.get_ListSourceRowCount()
+   at DevExpress.Data.DataController.get_VisibleListSourceRowCount()
+   at DevExpress.Data.DataController.IsControllerRowValid(Int32 controllerRow)
+   at DevExpress.Data.CurrencyDataController.IsControllerRowValid(Int32 controllerRow)
+   at DevExpress.Data.DataController.GetListSourceRowIndex(Int32 controllerRow)
+   at DevExpress.Data.CurrencyDataController.GetListSourceRowIndex(Int32 controllerRow)
+   at DevExpress.Data.Selection.SelectedRowsCollection.GetRowObjectByControllerRow(Int32 controllerRow)
+   at DevExpress.Data.Selection.BaseSelectionCollection`1.GetRowSelected(Int32 controllerRow)
+   at DevExpress.Data.Selection.SelectionController.GetSelected(Int32 controllerRow)
+   at DevExpress.XtraGrid.Views.Base.ColumnView.IsRowSelected(Int32 rowHandle)
+   at DevExpress.XtraGrid.Views.Base.ViewInfo.ColumnViewInfo.CalcRowStateCore(Int32 rowHandle)
+   at DevExpress.XtraGrid.Views.Grid.ViewInfo.GridViewInfo.CalcRowState(GridRowInfo ri)
+   at DevExpress.XtraGrid.Views.Grid.ViewInfo.GridViewInfo.UpdateRowAppearance(GridRowInfo ri, Boolean always)
+   at DevExpress.XtraGrid.Views.Grid.ViewInfo.GridViewInfo.UpdateBeforePaint(GridRowInfo ri)
+   at DevExpress.XtraGrid.Views.Grid.Drawing.GridPainter.DrawRow(GridViewDrawArgs e, GridRowInfo ri)
+   at DevExpress.XtraGrid.Views.Grid.Drawing.GridPainter.DrawRows(GridViewDrawArgs e)
+   at DevExpress.XtraGrid.Views.Grid.Drawing.GridPainter.DrawContentsCore(GridViewDrawArgs e)
+   at DevExpress.XtraGrid.Views.Grid.Drawing.GridPainter.DrawContents(GridViewDrawArgs e)
+   at DevExpress.XtraGrid.Views.Grid.Drawing.GridPainter.DrawCore(GridViewDrawArgs e)
+   at DevExpress.XtraGrid.Views.Grid.Drawing.GridPainter.Draw(ViewDrawArgs ee)
+   at DevExpress.XtraGrid.Views.Base.BaseView.Draw(GraphicsCache e)
+   at DevExpress.XtraGrid.Views.Grid.GridView.Draw(GraphicsCache e)
+   at DevExpress.XtraGrid.GridControl.OnPaintCore(PaintEventArgs e)
+   at DevExpress.XtraGrid.GridControl.OnPaint(PaintEventArgs e)
+   at DevExpress.Utils.Drawing.ControlPaintHelper.PaintWithErrorHandling(PaintEventArgs paintEventArgs, Int32 layer)
+   at DevExpress.Utils.Drawing.ControlPaintHelper.ProcessWMPaintCore(Boolean beginPaint, IntPtr hdc, Rectangle rectangle, Rectangle[] clipBounds)
+   at DevExpress.Utils.Drawing.ControlPaintHelper.ProcessWMPaint(Message& m)
+   at DevExpress.XtraGrid.GridControl.CheckProcessMsg(Message& m)
+   at DevExpress.XtraGrid.GridControl.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+Exception==Inner Exception
+------------------------------------------------
+This error occours randomly and is not reproducable on customer site or on my developer machine and is raised in different situation in different forms in different applications when working with the grid.
+All the grids are readonly.
+Do you have any ideas?
+Thank you
+Wolfgang

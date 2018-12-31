@@ -1,0 +1,13 @@
+Hi,
+I need a function to read the specific cell clicked from a Pivot chart  having multiple groups using GetUnderlyingData function
+For Instance:
+please take the pivot grid in the following example
+if I click the cell having value of 204, it should return me these values
+ 
+state = albama
+category = bike wash
+units sold = 204
+etc.
+so basically i need to know that which row and which column (along-with their parent group value i-e category in the example) was clicked.
+ 
+Thanks 

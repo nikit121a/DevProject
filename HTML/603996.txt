@@ -1,0 +1,5 @@
+Hi,
+I am using Devextreme Select Box to show the table fields.  Problem here is my Select box list item content is hiding when the filed text is more than the select box width. I can increase the size of my select box. 
+Please let me know how to show the full text of the listed item in the select box. Other wise how to add tool tip for focused line item in the select box(at the time of mouse over).
+Regards,
+Arun

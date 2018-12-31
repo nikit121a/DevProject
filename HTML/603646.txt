@@ -1,0 +1,17 @@
+Hi,
+We are using DevExpress GridControl for one of our Application.
+On the control the application user applies filter & grouping.
+The data binded to the control undergoes background Updates which is very well shown to the user.
+We are seeing following issues with the Updates
+1. With Filter : -
+Suppose there is a Column Name "IsAuthorized" which can have values "Y" or "N". 
+User has applied the filter to see only the rows where "IsAuthorized" = "Y".
+Suppose with background Data Updates one of the row changes its IsAuthorized from "Y" to "N"
+The issue is User still sees the Updated Record with "IsAuthorized" = "N",  Instead of the row getting filtered out
+2. With Grouping
+In the above example, instead of filtering, Suppose User has grouped the Data on Column "IsAuthorized"
+There are two groups now. One with "IsAuthorized" = "Y".& other as "IsAuthorized" = "N".
+Suppose with background data updates one of the row changes from "IsAuthorized" = "Y" to "IsAuthorized" = "N".
+We see the updated value but the issue is the record still shows in the group with  "IsAuthorized" = "Y" instead of moving to group with  "IsAuthorized" = "N".
+Kindly help..
+Best Regards

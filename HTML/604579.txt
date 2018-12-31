@@ -1,0 +1,5 @@
+Hi all, I'm trying the xtragrid and I have a problem using the search look up edit on a cell of my grid.
+I was able to modify the display member of the lookup vie the customdisplaytext event, it works fine when I select a new value in the grid, but when the row lose the focus and on startup I can't understand why the editor shows only the display member set in the properties and not the custom text I choose. can you help me?
+the attachment contains the project and the data sample i'm using. The project connects to an oracle 12.1 db via the devart dll.
+thanks
+Stefano 

@@ -1,0 +1,3 @@
+Hello,
+Interactive sorting in report preview  activates ParametersRequestBeforeShow event. In my case I use ParametersRequestBeforeShow to assign default values to report parameters. As the result sorting in preview changes the report. Attached is sample solution. There is a video illustrating the issue in the solution folder.
+Thank you. 

@@ -1,0 +1,6 @@
+Hi
+I'm looking for two things..
+1. How to localize ribbon/toolbar items label as per my given string.
+2. How to remove ribbon/toolbar tab/items pro grammatically.
+Can you make changes in attached demo .
+Regards

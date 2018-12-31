@@ -1,0 +1,10 @@
+Greetings,
+I would like to make a questions based on an issue that i am facing.
+My scenario is as follows:
+I have a XtraReport and i would like to know if i can embed a PDF file to it. 
+In other words, show one or more PDF files that has been uploaded to the system .
+I know for a fact that i can show text that was saved in the database through the HTML Editor using a RichText , and i also know that i can show pictures on the report as well. But can i show a PDF file?
+If not, can i at least show the report and then once the report ends show the PDF as well?
+If my scenario is unclear, i will try to provide as much more information that i can.
+I greatly appreciate any kind of help and guidance.
+Thanks in advance 

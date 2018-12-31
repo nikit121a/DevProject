@@ -1,0 +1,5 @@
+Hi
+I'm having some problems with the RichEditDocumentServer class when converting a specific .docx file to PDF. This document contains a form with clickable checkboxes  which are not rendered when exporting the document to PDF. Exporting in MS Word 2016 renders the checkboxes correctly.
+The document in question comes from one of our customers. I do not know exactly how the form was created, but it seems to differ from the form created in Word 2016, because if I use that to add my own checkbox this will show up correctly in the PDF.
+This simple program reproduces the issue.
+I'm attaching the docx file with almost everything stripped but a single checkbox.

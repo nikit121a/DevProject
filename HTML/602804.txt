@@ -1,0 +1,6 @@
+Hi,
+I created a new project using the WPF Modular Application Template. I loaded the project and Built the Solution and no errors were detected. However, when looking at MainWindow.xaml.cs, the following error is shown:
+I ran the project and it appears to work as expected . However, the error still remains. See attached project. Any ideas what's going on?
+Cheers,
+Larry
+ 

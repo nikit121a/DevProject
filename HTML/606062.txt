@@ -1,0 +1,8 @@
+Hi DevExpress,
+I have  a need for accessing data objects inside my ERP system that can't be (easily) accessed by pulling SQL fields out from the SQL database.
+The fields are defined in a code layer inside the ERP (using ERP specific language) ie. a table can have a number of fields but also added some methods, that can return strings/numbers/compound objects/etc. useable inside the ERP system.
+ But these methods can be accessed (/returned) using Business Connector .NET calls  from C# and then you get a single value returned by calling a complex method inside the ERP, that does all the internal calculations etc.
+So can I connect to  the SQL database, extract most of my fields but also define "fields" that will be returned values from calls into ERP logic! and get these values "put on paper" - I will need values of current records as parameters into the ERP, something like this:
+double erpvalue = CallIntoERP(currentvalue_from _specific table, ..., ...);
+If so can you share an example!? 
+ 

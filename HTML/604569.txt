@@ -1,0 +1,8 @@
+
+Dear support,
+I am sending emails without problems from report in PDF format. My question is, where are the email sent?
+I have looked for in sent items folder and it is missing. 
+I use the example routine and in FROM and TO fields I use my email address. I receive the email, but I not found the email sended.
+I use Outlook with Office 365 mail.
+King regards. 
+Eduardo.

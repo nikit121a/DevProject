@@ -1,0 +1,8 @@
+
+hi Alex,
+Thanks for your support.
+But pls see my attachment file. With 3 conditions (And, Or, And), why I got the value like that:
+
+
+
+How could I know which condition is And / Or?

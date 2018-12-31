@@ -1,0 +1,1 @@
+I have a callback that is getting executed after the session expires.  I need to know what I can do in a callback.  Redirect is not allowed in a callback and the issue is the grid control is always null.  The callbacks keep working but many of the controls on the page are null.  How can I handle the callback and redirect when the session has expired?

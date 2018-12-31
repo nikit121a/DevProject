@@ -1,0 +1,17 @@
+Hello,
+Im using an ASPxPivotGrid and I would like to a 'custom' totals for parts of my rows.
+For example , I have the following data rows ;
+13
+28 
+10
+7
+18
+34 
+109 
+368
+I would like to get multiple totals (preferably at the bottom of the grid , which sums up the first 4 rows (and show that as total) and the last 4 rows (and show that as total).
+The general idea is that I can get the sum of integers for between specific times (please see my screenshot)
+Please advise.
+Thnks.
+Br,
+Richard

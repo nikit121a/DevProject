@@ -1,0 +1,5 @@
+HI
+i have a TimeEdit with an input mask of HHmm. the display mask is HH:mm.
+to enter a full time, need to do, for example, 07<left arrow key>30.  entering 0730 will result in 3000.  (the 3rd and fourth character overwrites the original first two). 
+is there a way to do it so if we enter 0730 then it will process it as 07:30?
+ 

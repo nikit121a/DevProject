@@ -1,0 +1,5 @@
+Hello Devexpress,
+How I can change the default printing option for the chart control
+I need to  set the landscape to true and the margins to 0 every time the preview or export has done for the chart control 
+please see my video
+thanks. 

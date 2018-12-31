@@ -1,0 +1,3 @@
+
+Our customers want to do the following things and we want to ask DevExtreme team if Plot Visualization library supports these features in Angular the 17.2.5 build:
+5) Change border thickness

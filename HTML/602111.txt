@@ -1,0 +1,9 @@
+Hallo, dear DevExpress support,
+in our software we have a window with a gridcontrol and a chartcontrol placed below.
+Depending on the selected row in the gridcontrol (and the data behind) the chartcontrol is switched visible/invisible.
+Now i have to implement the print preview, for this window, the gridcontrol and the chart should be placed on one page (A4, landscape) !
+In addition i have to add some header/footer information ... (title, company name, date, time, ...)
+I did not found any examples how to combine several Components in one common print peview.
+Could you please create a simple example or do you have a link for this problem ?
+Thanks and best regards
+Stefan

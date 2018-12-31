@@ -1,0 +1,5 @@
+Hello,
+i use the same PopupControl for different views, in some of them it displayed in others no
+i don't understand why. 
+the only difference i see in HTML is when it not display, it miss in the script tag "data-exectuted"
+can everyone help me 

@@ -1,0 +1,6 @@
+Hello!
+Please see the attached sample application.
+In this master detail grid, you can click on the button "Expand" or  the builtin plus/minus toggle button to expand and collapse the master row.
+But while IsFocusScope=True in the surrounding container, only with the builtin toggle button the master row keeps its focus. With the "Expand" button, the focus is lost.
+How can I achieve the same behaviour?
+Markus

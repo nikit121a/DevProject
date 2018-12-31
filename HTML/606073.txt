@@ -1,0 +1,4 @@
+I would like to build a treeview that loads data on demand. But the data for each level comes from different data sources and not the same one.
+For instance:
+The first data source populates the first level of the treeview, upon expanding a node, an api call/different data source provides children for that particular node and so on. 
+How can this be achieved? 

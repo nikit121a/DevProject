@@ -1,0 +1,7 @@
+File filter not working in XtraOpenFileDialog.
+Using the standard OpenFileDialog works. 
+Sample code below. 
+openFileDialog.Filter = "Excel files (*.xls or .xlsx)|.xls;*.xlsx";  // is OK
+openFileDialog.Filter = "Text files (*.txt)|*.txt";  // is OK
+openFileDialog.Filter = "Image Files (*.png)| *.png";  // not working
+openFileDialog.Filter = "Image Files(*.PNG; *.BMP; *.JPG; *.GIF)| *.PNG; *.BMP; *.JPG; *.GIF";  // not working

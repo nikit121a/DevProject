@@ -1,0 +1,4 @@
+Take the FeatureCenter demo, change it to newStyle
+Start application, navigate to ListEditors - Scheduler - Performance. Create a new appointment and then try to change the time
+selecting with the mouse the upper borber of the appintment and drag it ---- an error occours.
+ 

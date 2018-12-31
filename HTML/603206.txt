@@ -1,0 +1,9 @@
+I want to "print" something in the CustomDrawNotesCell event of the TcxSchedulerReportLink object.
+I want to define the position in mm. To do this I need to know the resolution of the canvas.
+I saw that AItem.Width is16950, on print it's 90 mm. 
+The question is where comes the 16950 from?
+If I don't made any mistake this is approx. 4775 dpi (That's neither the dpi of my screen nore of my printer) .
+Any hint is welcome.
+Thanks in advance.
+With kind regards,
+Ruediger Kabbasch 

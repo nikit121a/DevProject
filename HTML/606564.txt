@@ -1,0 +1,6 @@
+I have a windows service that runs two separate threads. Each thread is periodically polling the database for new records that represent a request for processing that needs to be performed. The records are of different types as is the corresponding processing that will be performed. At service startup, I configure a ThreadSafeDataLayer. My questions are:
+1) It is my understanding that by default, the ThreadSafeDataLayer shares a single database connection between the various threads that may need it at any given time and this can be a source of contention as a result. Is that right?
+2) Assuming my understanding is correct in 1), then to combat this contention I should use the GetConnectionPoolString method to establish a connection pool for use by the ThreadSafeDataLayer. Is that right?
+3) Assuming my understanding is correct thusfar, since I can only ever have two threads doing work simultaneously in this particular instance, am I correct in thinking that the pool size should be set to 2?  
+Are there any other considerations I need to be aware of here?
+Thanks

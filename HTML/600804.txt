@@ -1,0 +1,5 @@
+Hi,
+while converting my app from using PNGs and bitmap based icons to SVG, I noticed an area where we need some sort of helper class or something.
+When I want to set the Icon property of a form, I need that as an Icon type. I know that there's a way to render the SVG to bitmap but an icon should have multiple bitmap sizes. Would it be possible to have a utility class where you can pass in an SvgImage and  get a Icon back where the Svg is rendered in, let's say 16x16, 32x32, 48x48, 96x96, 512x512, so that we can also use those SvgImages as form icons?
+Regards,
+Stefan 

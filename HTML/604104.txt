@@ -1,0 +1,7 @@
+Hi,
+I have a form with a button "Open Modal",  when it is clicked a modal opens and it shows my datagrid.
+The issue is that I want when I set the name of the input "Responsable" and the button is clicked the datagrid opens with the row of the responsable selected.
+I use this function 
+but it select only the first row and I didn't know the index of the row to select. 
+How can I resolve this?
+ 

@@ -1,0 +1,2 @@
+Hello,
+We have weird issue while importing or copying text from word. Attached is a document with this issue. Turn on paragraph marker and you can see there are two spaces at the end. If you copy all text  and paste into richedit control, you can see it highlights it into yellow color. Can you check the problem and let us how to fix it please?

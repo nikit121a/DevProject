@@ -1,0 +1,1 @@
+When DocumentManager receives images for TabHeaders from ImageCollection with ImageIndex, switching between tabs takes significant time.

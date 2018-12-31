@@ -1,0 +1,9 @@
+Hi,
+   I have bind a bool type property within  form but it's render as textbox during editing with edit mode form. For more clarification  I have attached some code and screen shot related to this issue, kindly provide solution.
+ 
+
+
+
+
+
+

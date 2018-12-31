@@ -1,0 +1,6 @@
+Dear Team,
+      I am working with the Testcafe automation using the node server  and with example '
+ .
+ Now i have an issue wile running the app. currently it throws javascript error and the testing get stops. Please guide me how to ignore the javascript error in this method.
+Thanks
+Dileep 

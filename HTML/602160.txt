@@ -1,0 +1,11 @@
+Hello,
+I downloaded yesterday the 30day trial.
+I wanted to make  a prove of concept for an easy (sales) dashboard  to compare it with  some visualisation components of a other software company.
+Our  external developer advised to use telerik, but since I had some nice experience with Devexpres in the past i wanted to test this software  first.
+(I will have the final choose)
+When I launch the Sales  Dashboard from the DevExtreme Demo its works, but when I open the  solution in visual studio en run it, the data will not load. Al the  screens say Loading.... (you can fiend a screenshot attached)
+Is there something I can check or do to solve this problem?
+I'm very new to this part and have no idea where to start looking.
+Hopefully you can provide me some help to this problem.
+Best regards,
+Tom

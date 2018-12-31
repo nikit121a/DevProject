@@ -1,0 +1,4 @@
+Hi guys,
+is there a way to prevent a row of the dataGrid from being grouped? 
+I have a grid with grouped records but I want the first row to be excluded from any group (imagine a single row followed by
+the grouped ones) . Is it possible?

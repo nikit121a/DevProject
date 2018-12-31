@@ -1,0 +1,3 @@
+Hi! I'm trying to remove the ResetViewSettingsController completely in a specific View: I don't want to remove/hide just the Action, but the event handlers, specifically this one, which is attached on the Frame_ViewChanged handler:
+?I've tried, in a specific ViewController for that view, to do this:
+But it seems it is too late, and the events are not detached. How can I achieve this? Cheers!

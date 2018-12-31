@@ -1,0 +1,6 @@
+Hi,
+I have a custom control and I have setup a spell checker to run as you type. Whenever I key a misspelled word, the word gets underlined. However when I right click the underlined word, the context menu doesn't show up. 
+Can custom control use the context menu?
+Thanks
+Ed
+ 

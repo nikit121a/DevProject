@@ -1,0 +1,6 @@
+
+
+hello,
+I have 2 questions. the results i  found so far are very old or not getting the point. perhaps now 2018 the controls got new features.
+2. As i need a multilanguage platform i need a translation of all my navigation nodes, in the moment i use GetLocalResourceObject with App_LocalResources. Is there any smart feature of ASPxNavBar siwtching the xml files to other languages ?
+thx

@@ -1,0 +1,12 @@
+Hi,
+I am trying to do spell check on fields with same IDs and different containers , when I do spell check on the second field, it actually does on the first one. 
+The scenario is : 
+1. I click on a field say 
+in <div> 
+and then I click on spell check button. It does spell check correctly
+2. Now I click on a different field 
+with same ID but different <div> container say 
+.
+3. But now the spell check is done again on the same field 
+I tried  both CheckElement( element ) and CheckElementById( elementId ). (There is no way I could change the ID of the fields as they are used throughout the application in the same way.)
+What are the other options available to fix this issue? 

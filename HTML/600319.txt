@@ -1,0 +1,4 @@
+After installing 17.2.4.1 last night, I ran a few tests and immediately noticed many of my grids, especially those where the form is inside a TdxDockPanel  then the grid does not align client.  I reinstalled 17.2.3, rebuilt, and they are all aligning properly.  I've attached a screen print showing the problem.  Grids 
+inside a TdxDockPanel seem fine.
+Also, I noticed that if I maximize the main form that contains the grids then it does align client.  I've attached a before and after resize.  It does look like the resize event is where its "fixed" as even when its starts maximized the grids are not aligned client.
+I know you would like a sample, but I'm swamped with work and would have to reinstall 17.2.4 and then back to 17.2.3.

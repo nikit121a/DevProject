@@ -1,0 +1,2 @@
+
+OK, I see. What would be best practice for this? use the deployment wizard to get all related libraries and update the config file, deploy to production/test and then remove all libraries from development again and re-deploy on the next run? 

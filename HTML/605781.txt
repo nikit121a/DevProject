@@ -1,0 +1,1 @@
+I have gauge with two needles and one scale. Is it possible to animate both needle? When I change value by needle.Value animation doesn't work. It work only when I change value by scale.Value. 

@@ -1,0 +1,10 @@
+
+In my checkbox template I have a checkbox and span added in to the template Container
+
+
+
+I saw 
+. but not sure how to implement. please provide a sample project 
+Now While doing the export, the 
+ text is coming as text^value
+How to change the text in a render brick kind of event?

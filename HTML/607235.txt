@@ -1,0 +1,2 @@
+Hello,
+I need to create a Modal Window  which is drawing a semi-transparent background over the parent window. I am using DevExpress.MVVM.IDialogService to display the window, but I cannot figure out how to draw the background on the parent window.

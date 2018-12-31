@@ -1,0 +1,16 @@
+Hi DX Team, 
+is there a way to set styles with EditSettings based on RowData.Row binding? I mean I might have property like "IsDefault" in my object and I want to set binding for editors like this:
+
+
+
+And converter:
+
+
+
+
+But it does not affect the editors.
+I know the CellTemplate gives me that ability quit easily but EditSettings was recommended for me under 
+ ticket.
+If you have better way of doing it, I'm open to your solutions, but please keep them under MVVM design pattern. 
+Best Regards,
+Kamil

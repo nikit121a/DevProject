@@ -1,0 +1,6 @@
+
+
+the way they hottrack is also different
+If you look at the button under the cursor in the attached image, you see that only the left line is in yellow, the rest stay as blue. Also the button is 19 wide
+But if you run the XtraEditors demo and look at Inplace Grid CellEditors, you see that all lines should be yellow when hot-tracked. The button is 20 wide.
+It seems that maybe VGrid is showing editor buttons narrower than they should be and also not hot tracking them properly.

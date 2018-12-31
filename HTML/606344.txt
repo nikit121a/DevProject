@@ -1,0 +1,6 @@
+Hello,
+I have a TileBar with e TileBarGroup that contains several TileBarItems.
+How can I change the order of TileBarItems 
+? (see image)
+Kind regards,
+Geoffrey 

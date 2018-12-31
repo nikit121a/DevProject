@@ -1,0 +1,26 @@
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+                DashboardConfigurator.Default.SetConnectionStringsProvider(values);  
+  
+  
+  
+  
+  
+  
+ 

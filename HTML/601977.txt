@@ -1,0 +1,3 @@
+Hi,
+One cell in the grid stores the password when the value of another column on the same row is "UserPasswod". We like to user password mask when displaying password value. 
+Is it possible?

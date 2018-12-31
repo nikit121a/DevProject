@@ -1,0 +1,15 @@
+Hello,
+ When setting the MarqueeWidth it is not respected in the skins mentioned below.
+The rest of the skins are ok - Is this by design?
+ Theme Skins
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

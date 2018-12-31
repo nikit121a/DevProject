@@ -1,0 +1,3 @@
+Okay, it seems that the settings in the sample solve the height issue, I am going to test them in my dev environment. 
+However, what I don't see in the sample is the cardview obeying boostrap container widths. Since the cardview is rendered inside a col-8 div, it should take 8/12ths of the screen. 
+I am attaching two images, one from running the sample and the other from my current implementation of the card view to indicate the width issue.

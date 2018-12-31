@@ -1,0 +1,4 @@
+Hi,
+we want a Windows Service to frequently load and export one ore more stored Dashboards of our XAF application to PDF. Is there any possibility to do this? 
+Thanks and regards,
+Michael 

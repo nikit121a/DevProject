@@ -1,0 +1,9 @@
+Hi,
+ 
+We have a product where we allow the user to bring up the Chart Wizard (see 
+) to customize the chart. The product is developed using DevExpress WinForms. 
+ 
+Now we have a similar product under development, where we use DevExpress WPF instead. Is there any way to bring up the Chart Wizard in WPF? Or is there another way for the end-user to customize the chart?
+Rgds,
+Petter Ballandby
+ 

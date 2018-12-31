@@ -1,0 +1,1 @@
+Hi, we are using Grid Control in our application. When the user is in Edit mode inside a Grid Cell, Cell is not subscribing to the application Commands.

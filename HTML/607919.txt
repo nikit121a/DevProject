@@ -1,0 +1,5 @@
+hi
+I worked with MVC
+I Added the new project by using devexpress template wizard
+my default name space is test.test for exmplae
+but in my contoller it is making test_test

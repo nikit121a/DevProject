@@ -1,0 +1,21 @@
+Hi
+I have a ASP.MVC Web Dashboard, with grid view.
+I'm creating a dashboard XML file with the MVCDashboard in Designer mode.
+Could you please assist me in finding instructions for following filtering..
+I have drawings which are revisioned.
+A drawing can have any number of dates (date is a master filter by the way) or none.
+drawing 1, date a
+drawing 1, date b
+drawing 2, date b
+drawing 2, date c
+drawing 3, date d
+where dates a < b < c < d
+I'm trying to "group" my grid items to show "latest date per item", like:
+drawing 1, date b
+drawing 2, date c
+drawing 3, date d
+I tried adding Day(max) as hidden field, and do TOP-N-1 by Max Day, but then the result is
+drawing 3, date d 
+ -> All drawings disappear that don't have revision for date d, and that's not what I want.
+Is this doable with the Dashboard engine or do I need to do it in SQL side?
+Here's a pic illustrating the data:

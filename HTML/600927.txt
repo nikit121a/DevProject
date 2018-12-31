@@ -1,0 +1,8 @@
+There's an error at unit dxPScxGridLink, line 20815, finalization section
+dxPSUnregisterReportLink(TdxGridReportLink, TcxGrid, TdxfmGridReportLinkDesignWindow);
+that prevents the application from quitting (it closes the UI but remains as a process).
+The message is attached. It only appears if debugging step-by-step inside the IDE, otherwise, as I said, it simply prevents the app from quiting completely.
+It's a showstopper to me. I can't deliver a new version of my product with this bug.
+Kind regards,
+Marco
+ 

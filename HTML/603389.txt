@@ -1,0 +1,66 @@
+All right:
+Consider this:
+    class TestClass
+    {
+      public string B;// { get; set; }
+      public string A;// { get; set; }
+      public double Val;// { get; set; }
+    }
+     public static void testDynamicPivot2(PivotGridControl pivot)
+    {
+      var field1 = new PivotGridField() { AreaIndex = 0, FieldName = "A", Name = "fieldA" };
+      var field2 = new PivotGridField() { AreaIndex = 1, FieldName = "B", Name = "fieldB" };
+      var field3 = new PivotGridField() { AreaIndex = 2, FieldName = "Val", Name = "fieldVal", Area = PivotArea.DataArea };
+      pivot.Fields.AddRange(new PivotGridField[] { field1, field2, field3 });
+      var ds = new BindingList<TestClass>();
+      for (var i = 0; i < 10; i++)
+        ds.Add(new TestClass() { A = "A", B = "B", Val = i + 0.5 });
+      pivot.DataSource = ds;
+      pivot.Refresh();
+    }
+result is : I do 
+see the sum(Val) in the pivot I give as parameter.
+ Now if I define TestClass with getters/setters like this
+    class TestClass
+    {
+      public string B; { get; set; }
+      public string A; { get; set; }
+      public double Val; { get; set; }
+    }
+Then I 
+see the sum(Val).
+now consider the same with ExpandoObject:
+    public static void testDynamicPivot1(PivotGridControl pivot)
+    {
+      var field1 = new PivotGridField() { AreaIndex = 0, FieldName = "A", Name = "fieldA" };
+      var field2 = new PivotGridField() { AreaIndex = 1, FieldName = "B", Name = "fieldB" };
+      var field3 = new PivotGridField() { AreaIndex = 2, FieldName = "Val", Name = "fieldVal", Area = PivotArea.DataArea };
+      pivot.Fields.AddRange(new PivotGridField[] { field1, field2, field3 });
+      var ds = new BindingList<ExpandoObject>();
+      for (var i = 0; i < 10; i++)
+      {
+        var properties = new Dictionary<string, object>();
+        properties["A"] = "aa";
+        properties["B"] = "bb";
+        properties["Val"] = i+0.5;
+        var dynObj = DynObject.getDynamicObject(properties);
+        ds.Add(dynObj);
+      }
+      pivot.DataSource = ds;
+      pivot.Refresh();
+    }
+with:
+    public static dynamic getDynamicObject(Dictionary<string, object> properties)
+    {
+      dynamic myobject = new ExpandoObject();
+      IDictionary<string, object> myUnderlyingObject = myobject;
+      foreach (var kvp in properties)
+        myUnderlyingObject.Add(kvp.Key, kvp.Value);
+      return myobject;
+    }
+Result is : I do 
+see sum(Val)
+My conclusion is : I miss getters and setters in my dynamic object.
+Am I right ? if so, how can I create getters/setters on my dynamic fields A,B and Val ?
+Thank you
+  

@@ -1,0 +1,6 @@
+Hello sir/madam,
+After updating from 15.2 to 17.1, I have a problem with my chart. It seems to be that I cannot click on the points because they are missing. My chart has two modes: interpolation and normal one. I can still cklick on the points and they are shown with normal one bu as soon as I set interpolation  mode (Checkbox in the sample project) the points disappear. This mode uses a  serie which is a custom one implemeted from lineSeries2D.  How can I get them back? 
+I have provided in the attachment a sample project  where you can reproduce this behaviour. 
+Do not hesitate to contact me if you need further information
+Thanks in advance for the support
+Eduardo Alcain

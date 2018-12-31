@@ -1,0 +1,5 @@
+Hi!
+I am using dxForm component with knockoutjs.
+There is a field with dxAutocomplete editor, every time when  value of the field is changed I want to update helpText :
+It doesn't work because helpText couldn't work with observable. How I can update helpText inside onFocusOut handler?
+ 

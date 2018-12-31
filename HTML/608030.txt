@@ -1,0 +1,3 @@
+Hi there,
+I am using below XAML to display image. AvatarUri is the property in viewModel having path to Azure Blob storage.
+ 

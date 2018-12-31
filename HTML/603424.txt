@@ -1,0 +1,11 @@
+***** This is actually a question about the DASHBOARD designer / viewer, but I didn't see anything in the Product box that matched that *****
+I  am building a dashboard using a Postgres SQL datasource and an MVC front-end.
+This is a multi-tenant system, so I use a tenant-id as a dashboard parameter - that is working fine - that will be hidden and inaccessible to the users.
+Every visualisation widget and filter widget on the dashboard is filtered by the tenant id (trustId) however, I want one visualisation widget to be filtered by the dashboard parameter, and also the results of two filter widgets.  
+1. I have setup a master filter using the "range" filter for the time period applicable to the tenant (ie the range filter is itself filtered by tenant-id)
+2. I have setup a combobox widget covering the multiple item-types that are to be summed over time. These item-types are filtered by the master filter (they vary by tenant - each tenant only sees their own item types) and this displays correctly.
+3. I have a chart widget which shows a series of stacked bars, summed by month by cohort.  This chart component needs to be filtered by (1) and (2).  
+4. I can successfully apply the master filter to the chart widget by applying the parameter filter using the dashboard tenant-id parameter.
+5. When I try to apply the item type filter, I always see something like the attached - "guide" is my item type and it appears in the list many many times.
+(This display is the same whether I use listbox, combobox or tree filter for the item types - all of them display the filter correctly, but none appear correctly in the filter option)
+I am assuming I am doing this wrong, and there is a different way to apply the selected values from a filter to a chart widget somehow? However, I can't find an example where multiple different filter sources are used to filter a single widget. 

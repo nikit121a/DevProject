@@ -1,0 +1,5 @@
+Hi,
+I've set up a .Net Core project and configured Devextreme with the help of this guide : 
+However I'm not able to view any controls and I can't seem to figure out why? I'm attaching my project folder here. I have several controls inside the view at this location /Areas/Agency/Views/Dashboard/Index
+Please help me understand what am I missing here.
+Thanks, 

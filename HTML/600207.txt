@@ -1,0 +1,5 @@
+Hello!
+I have a Dashboard-View in an TabbedMDI XAF application that shows three list views. On of them is the main list view that covers most of the space (the other two are on the right side for the user to mainly to do some drag & drop to the main list view). What I would like to accomplish is to move the actions of the main list view to the main ribbon and then remove the toolbar of the main listview.
+Do you see a way to do something like this? If yes, could you give me a hint on how/where to start (using the new templates) please? If no,  maybe I go without a dashboard and use a ordinary listview and somehow "inject" the other two listviews right beside it?
+Regards,
+Johannes 

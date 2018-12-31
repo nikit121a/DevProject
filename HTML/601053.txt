@@ -1,0 +1,17 @@
+Hi
+ I had some weird situations while testing your permission system (allow/deny).
+I use XPO and connect to an MS SQL server with two defines business objects; "Person " (employee) and "Abteilung" (department).
+These BO's has a one-to-many -relationship, which means, an employee is in one department and a department can have zero or many employees.
+I used the standard security role s "Administrator" and "Default" and configured the role "Default" as follows:
+- Permission Policy: Deny  all by default
+- Navigation Permissions: Personalverwaltung (whole group) => allow
+- Type Permissions: Abteilung => read-only
+No specific rule for BO "Person", so i except, the common permission policy (deny all by default ) will affect.
+The following problems occured with an user which has only the role "Default" assigned.
+When I open the ListView for "Person", I can read the column "Name".
+Because I don't defined any specific rules for BO "Person", I expected a text like "secured content" (common permission policy of role "Default").
+When I open the detail view for BO "Abteilung" , all seems to be okay, but I don't know why.
+In my productive solution, I have the problem, that the security hasn't any effect to nested listviews , when it is allowed to create new records directly within the listview (NewItemRow).
+I also checked the views with your diagnostic tool, but didn't find anything:
+ 
+As you can see, the item with key "HasRightsToModifyMemberController" for the property editor "Personen" (nested listview) gives back the value "True". Why is this value set to "True", when the permission to BO "Person" denies all activities and the BO "Abteilung" is read-only? In my opinion, this are two reasons why this value should be set to "False". 

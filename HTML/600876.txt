@@ -1,0 +1,5 @@
+I need to export a pie chart with a few gridview to PDF. The title lines of the chart and the grid views exported OK. But the pie chart itself does not show on the PDF. 
+I made sample program with the chart only. It still does not show up in PDF.  
+I attached the sample program TestChart.aspx and TestChart.aspx.cs.
+Please help.
+ 

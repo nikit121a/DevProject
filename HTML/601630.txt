@@ -1,0 +1,21 @@
+Hi,
+I've got the following scenario I'm trying to solve and having some issues so wanted to see what you'd recommend.
+I need an action that enables a user to merge multiple records into one (for de-duplication of Products, Contacts, etc).  However, rather tha n doing a "dumb" merge we want to allow the user to do a "smart" merge where the user is able to choose what properties come from what record as some information may be current or better on one record and other information may be current or better on another record.
+This presents a few problems.
+1. The user needs to be able to select which property comes from which record.  This also doesn't need to occur for all public properties, but only those that make sense to be manually selected (not Created Date for example where the earliest date should be taken always).  We don't want to add non-persistent fields to the persistent objects for this purpose only though.  So the logical solution is to create a non-persistent object with Use[Property] fields for each property we want the decision to be made on manually and somehow populate this.
+To solve this first problem we created a custom CollectionSource that just returns an empty list and then the CollectionSource.Collection is manually populated in an event.  Using a custom CollecionSource is necessary to show a list of Non-Persistent objects in the popup view.
+Is this the right approach or should we be doing it differently?
+2. We want to allow the user to use the FilterEditor to essentially query in the popup view and also to preset the filter criteria when the popup view opens.
+To solve pre-setting of criteria we created the controller in the Win module and  set the ActiveFilterString of the GridView in the ControlsCreated event.  This worked fine.  Now as the view is based on Non-Persistent objects we added an event handler for the ColumnFilterChanged event of the GridView and in it we grab the gridView's ActiveFilterString and use to GetObjects to retrieve the persistent objects and manually clear and re-populate the collection. This works fine.
+Is this the right approach or should we be doing it differently?
+The other question we have is how do we stop the Use[Property] properties from being used for filtering in AutoFilterRow OR FilterEditor?  We found 
+ but couldn't get the solution fully working for Win.
+3. We want to prevent double-clicking on a record in the list view in the popup window from closing the popup window.
+We managed to solve this by disabling the ProcessCurrentObjectAction in the FrameAssigned event.
+4.  When clicking OK in the popup the popup window should close without further dialogs being shown.  However, in this case, because the user effectively modifies the non-persistent objects in the popup by ticking the Use[Property] properties we get a dialog asking if we want to close without saving when the OK button is clicked.  We tried setting e.DialogController.SaveOnAccept to both true and false but neither works to stop this.
+Can you please suggest how to disable the warning coming up when the popup is closed.
+Obviously we'll need to be able to access the non-persistent objects in the Execute event handler so we can loop through them.
+5. We only want to allow a single Use[Property] to be ticked across all objects shown in the popup so the user can only choose for the data for a particular property to come from one of the records.
+Do we have to handle some event in the grid and essentially set Use[Property] to false for all other objects in the collection that's used for the grid data source?  Can you please suggest how this is best achieved. 
+Here is the code we have so far to do all this:
+ 

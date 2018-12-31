@@ -1,0 +1,3 @@
+When a BottstrapGridView's SettingsBeahviour has "ConfirmDelete = true", the grid users a javascript CONFIRM prompt to prompt the user if they're sure about deleting the record.
+I would like to replace the default javascript  CONFIRM to use a nicer Bootstrap modal prompt instead.
+Please can you tell me how to accomplish this? 

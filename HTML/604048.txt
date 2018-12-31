@@ -1,0 +1,12 @@
+Hello!
+In previous versions of devexpress controls, the default padding of the PopupControl dxpc-content  was for all themes: 
+. In the new version (17.2.5), there is a difference for the MaterialCompact theme according to defined stylesheets in _Layout.cshtml.
+In the attached sample, there is a button which launchs an empty popup. If stylesheets NavigationLayout and Editors are defined, the default padding of dxpc-content is 
+. However, if stylesheets GridView, NavigationLayout and Editors are defined, the default padding of dxpc-content 
+. But in my project, I haven't grid and I don't want to load GridView styles.
+If I change the theme of the project and I choose MetropolisBlue, the default padding of dxpc-content is always 
+.
+So, why there is this behaviour in the last version 17.2.5 and not in previous versions?
+Thanks for your help!
+Best regards!
+Alex 

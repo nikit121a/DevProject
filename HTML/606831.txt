@@ -1,0 +1,3 @@
+See the attached screen shot.
+The magnifying glass icons on the filter row of the data grid have a purple background instead of a white one that matches the grid .  How can I correct that appearance?
+SEE THE ATTACHED SCREEN SHOT 

@@ -1,0 +1,3 @@
+I'm able to find the XlCellType.xlCellTypeConstants using Excel interop as follows:
+How can I find the same cell types in the DevExpress Worksheet?
+ 

@@ -1,0 +1,9 @@
+Hello
+I have a question to the layout of the print-Output from XtraScheduler-control to the daily-appointment-print:
+A user has made me aware that the time information is no longer in line. Thus, it is sometimes difficult to read the schedule times easily.
+Please see the attached Image - you can see , that the time-line and time-setting of (for example) 13 is the 00 under the 13. 
+In previous versions (or in the online-documentation) was the full-time-indication in one line.
+Is it possible to change a s etting or property for this time-indication?
+Many thanks in advance for your help & best regards,
+Michael
+ 

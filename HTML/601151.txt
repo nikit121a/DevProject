@@ -1,0 +1,4 @@
+When creating a dialog though the ModuleManager,  the first time the created viewmodel is used, creating the dialog for the second time doen't use the new viewmodel, it reuse the previous viewmodel.
+How is it possible to show the dialog with a new viewmodel?
+Edit: I think it comes down to this: How to pass a parameter to the MIF Module ViewModelFactory method?
+For example, if the Dialog button has a parameter, how can this value be passed to the viewmodel?

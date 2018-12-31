@@ -1,0 +1,37 @@
+Hi,
+I get a null ref exception when running this code : 
+The Exception points to the RefreshDataSource()
+It seems to happen often then the computer have been left for a while.
+I can?t see how gridAkut could be NULL so the null ref exception is probably thrown from a event that I have custom code in. The problem is however to see what methods that might be. I have checked your doc and can?t find any information about what "submethods" that vill be triggered.
+Some of the methods Im listening on is : 
+-Disposed
+-Paint
+-CustomColumnGroup
+-CustomDrawGroupRow
+-CustomDrawFooter
+-CustomRowFilter
+-CustomColumnSort
+-GroupRowCollapsing
+-EndGrouping
+-DragDrop
+-DragOver
+-MouseDown
+-MouseMove
+-ShowingEditor
+-ShowingEditor
+ -FocusedRowChanged
+- PopupClosed
+-RowCellStyle
+-CustomUnboundColumnData
+-HiddenEditor
+-GiveFeedback
+The stackstrace is something like this : 
+-Control.MarshaleInvoke 
+-Control.Invoke
+-WindowsFormSynchronizationContext.Send
+-Controller.SendToUIThread
+-Akutlista.UpdateGridThread()  
+-ThreadHelper.ThreadStart_Context 
+- ExecutionContext.RunInternal
+-ExecutionContext.Run
+BestRegards 

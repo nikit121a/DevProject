@@ -1,0 +1,4 @@
+Hi,
+I'm trying to use the drag drop behaviour to reorder de detail list of a certain master. I can't find any documentation to do this. I have created a test project. How can this be achieved?
+Regards
+Steven 

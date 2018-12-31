@@ -1,0 +1,9 @@
+Hi there,
+I have developed a software with "Material"  theme to give pages a mobile app look. It works fine and no one complains about anything. :)
+ Now I'd like to add more mobile feel to it by using mobile jquery like:
+$.mobile.changePage('myPage.aspx',{transition:'slide'});
+to make this happen, I have to add 
+ (and of course jquery.mobile-1.4.5.min.js) to my project. By doing that, all the DevExpress components get messed up. Both the look and functionality. I was wondering if there is any way to fix this or use a workaround to navigate into different pages with sliding or ... effect.
+thanks.
+Bob
+ 

@@ -1,0 +1,3 @@
+Hello,
+I have configured a conditional formatting for DataGrid rows using data from the not visible column (rows background color should be changed). When I run the application I see that this conditional formatting is applied correctly, but when I try to export to xls/xlsx (I am using Data Aware export type), the conditional formatting isn't working. When I make the column visible, conditional formatting works in export. How can I highlight rows in export file and do not show the column with data?
+Thanks in advance.

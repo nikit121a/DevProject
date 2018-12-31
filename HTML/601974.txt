@@ -1,0 +1,4 @@
+hi there.
+is it possible to include a fileuploader into a form?
+i did not get it to work...
+best, friede 

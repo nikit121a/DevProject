@@ -1,0 +1,6 @@
+Hi,
+I have two issues which i'll try to describe.
+1.
+I have a form, which contains many GroupControls and UserControl with LayoutView and MemoEdit on it. Form is kinda long and it doesn't fit whole on screen so it have vertical scrollbar. When i scroll down to layoutview and it isn't fully visible on screen and i click on a card inside layoutview. Vertical position of my form changes and it is set  to show whole layoutview (It scrolls by itself to show me whole LayoutView). Even if it missing very little space. Because of that there's impossible to pick from layoutview row cell which i want to set value from list. I have to click once on layoutview to set it position and after that i'm able to pick values from row. Is there possibility to allow user to pick values instantly without changing form position?
+2.
+When i'm scrolling down form i'm getting stuck when mouse cursor reach LayoutView/MemoEdit. Then cursor focus is set to child object and it is scrolling inside, even if there's nothing to scroll anymore or at all.  Is there possibility to force scroll focus be always on a parent form, untill i intentionally click on memoedit or layoutview to scroll inside?

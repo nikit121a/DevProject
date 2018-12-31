@@ -1,0 +1,147 @@
+As I understand it, SVG support in 17.2.5 should support linear gradients if not radial gradients.
+But I cannot get to load a relatively simple 'shelf' SVG image even though I removed the radial gradient it previously had.
+The image is public domain and was tweaked using Inkscape as recommended in another SVG ticket.
+Everything looks perfect in Inkscape and I can stretch the image horizontally perfectly.
+Trying to render it via SvgBitmap gives a "url(#linearGradient326) is not a valid value for Int32" message.
+I have attached the svg image source below (it looks very simple - half of it seems to be comments or defaults!) but I don't understand why it isn't treating the colour as a linear gradient
+What I need is to be able to get a supported vector image of a 'shelf' (either this one or the one I showed in T597159) either as an SVG file or one directly written using SvgElement/SvgPalette/etc classes so that I can Render bitmaps of various widths.
+Please help.
+ <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (
+) -->
+<svg
+   xmlns:dc="
+"
+   xmlns:cc="
+#"
+   xmlns:rdf="
+#"
+   xmlns:svg="
+"
+   xmlns="
+"
+   xmlns:sodipodi="
+"
+   xmlns:inkscape="
+"
+   width="100mm"
+   height="10.713485mm"
+   viewBox="0 0 79.553956 10"
+   version="1.1"
+   id="svg11134"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Shelf.svg">
+  <defs
+     id="defs11128">
+    <clipPath
+       id="clipPath304"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path302"
+         d="M 4410,3710 H 90 v -180 h 4320 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath320"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path318"
+         d="M 360,3890 90,3710 h 4320 l -270,180 z" />
+    </clipPath>
+    <linearGradient
+       id="linearGradient326"
+       spreadMethod="pad"
+       gradientTransform="matrix(-7.9e-6,180,180,7.9e-6,2250,3710)"
+       gradientUnits="userSpaceOnUse"
+       y2="0"
+       x2="1"
+       y1="0"
+       x1="0">
+      <stop
+         id="stop322"
+         offset="0"
+         style="stop-opacity:1;stop-color:#ebecea" />
+      <stop
+         id="stop324"
+         offset="1"
+         style="stop-opacity:1;stop-color:#d6d7d5" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.8101934"
+     inkscape:cx="-144.69088"
+     inkscape:cy="25.642205"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g9848"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="1096"
+     inkscape:window-x="1192"
+     inkscape:window-y="392"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:pagecheckerboard="false"
+     showguides="true"
+     showborder="false" />
+  <metadata
+     id="metadata11131">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="
+" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(13.396613,-99.549931)"
+     style="display:inline">
+    <g
+       transform="matrix(-0.62409419,0,0,0.93340311,-15.02437,93.369296)"
+       id="g9848"
+       style="display:inline">
+      <g
+         id="g9840"
+         transform="matrix(0.02909742,0,0,-0.02975968,4.8287909,123.15116)">
+        <g
+           clip-path="url(#clipPath304)"
+           id="g9838">
+          <path
+             id="path9836"
+             style="fill:#d6d7d5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="M 4410,3710 H 90 v -180 h 4320 v 180"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+      <g
+         id="g9846"
+         transform="matrix(0.02909742,0,0,-0.02975968,4.8287909,123.15116)">
+        <g
+           clip-path="url(#clipPath320)"
+           id="g9844">
+          <path
+             id="path9842"
+             style="fill:url(#linearGradient326);fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="M 360,3890 90,3710 h 4320 l -270,180 H 360"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

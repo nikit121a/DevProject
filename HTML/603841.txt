@@ -1,0 +1,4 @@
+When I try to drag an item (for reordering) there is a chance I drag it over an area where the item can't be placed.
+If I let go off the item in this area, the item does not stay in its original place (as expected) but gets deleted entirely from the form.
+I don't think this should happen in designer mode since developers could delete items by accident this way and mess up their application without knowing it (if they didn't notice that the item disappeared)
+I attached an gif as example.

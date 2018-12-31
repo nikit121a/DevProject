@@ -1,0 +1,1 @@
+Can I make the splitter (Horizontally) just split my grid? In other words, can I customize the Panel1 and Panel2 to display two halves of my grid?

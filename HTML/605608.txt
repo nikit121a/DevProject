@@ -1,0 +1,2 @@
+In our project uses charts that was created in MS Excel 2013. For captions of axis and datas were applied settings by font, size, direction. For lines were applied settings various type of  hatching, thickness, color. And  then those charts were uses in DevExpress Spreadsheet. But it look not like an in MS Excel. Comparing in attachment picture. 
+How to make DevExpress Spreadsheet charts more similar on MS Excel?

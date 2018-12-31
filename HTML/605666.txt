@@ -1,0 +1,4 @@
+I have a grid bounded to a data table.    
+ I have a "copy" context menu in the row.  The idea is that when the user selects "copy", the  selected row is duplicated in the grid.
+What is the best way to do this? 
+thanks! 

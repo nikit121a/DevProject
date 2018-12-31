@@ -1,0 +1,2 @@
+I'm creating a WebChartControl with a GanttDiagram. I'm using Annotations to Identify Key points. I need the ability to create a line (shown in a green dashed line in the attachment).
+Is it possible to create a line between two Annotations? 

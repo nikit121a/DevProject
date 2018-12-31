@@ -1,0 +1,5 @@
+Hi,
+when I enter the edit mode in a cell and navigate to another cell (i.e. with the right arrow key) then the grid navigates to the right cell but opens the editor directly. I want to just focus the cell while navigating. 
+Is there a way to implement that behaviour?
+Regards,
+Holger 

@@ -1,0 +1,6 @@
+I have a FilterControl with the SourceControl set to a GridControl.
+The user has the option to rename the column caption at run-time, However, the changes do not get reflected in the FilterControl. 
+I have put together a sample application, where you can rename grid columns, and it will not reflect in the FilterControl. 
+Please let me know if there's any way to trigger the FilterControl to update the column captions. 
+Thanks! 
+ 

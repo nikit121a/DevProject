@@ -1,0 +1,11 @@
+Hello,
+I use the WPF SpreadSheetControl with custom templates (See 
+) and have the requirement to have a "Fit to content" (or Autofit) functionality, so the column width is exactly as broad as needed to display all stuff in that column.
+I have understand, that the existing AutoFit() functionality is based on text and  cannot support a more complex or dynamic scenario with an "unkown" cell content set through cell template.
+Fortunately, the WPF layouting mechanism works perfectly and can measure and layout the items gracefully. I do not want to re-invent this using some workarounds. Instead, the basic idea is to use WPF layouting as base for column width. I am fully aware of the fact, this is only possible if the cell content has already "be transformed into controls", especially it  will only work for cells inside the current view area. But for a best-fit  algo, this should be sufficient and the only chance.
+I think this would be a nice feature (maybe also attached behavior) for those which use custom cell teplates.
+My problem is, how to get the current WPF representation (Visal Tree, root Visual object) for one cell ? 
+I  implemented and illustrated the basic approach using reflection of private dx methods (see attachment), but that's an quirk, unofficial, unsupported way.
+Have you any suggestion ?If not, can you check if there is the chance to get a supported way in next release to access the WPF visual tree of a cel l ?. For example, the following method would be perfectly either in SpreadSheet or in View class:
+UIElement GetCellVisual(int rowIndex, int cellIndex);
+it would be similar to the existing GetCellBounds(). For details, reference to the method attached.

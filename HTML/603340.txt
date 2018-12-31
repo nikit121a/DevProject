@@ -1,0 +1,4 @@
+The chart marker point are blurred when the chart horizontal axis (X-axis) is zoomed to a maximum limit.
+This happens when the difference  in the range of x-axis values is larger.
+Please see the attached image.
+ 

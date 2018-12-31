@@ -1,0 +1,3 @@
+Hello!
+Referring to question 
+Partly works except for the StretchDraw. I want the column to be sized after the picture, not the other way around. The column (a smartimage)  is to wide, i don't know how to make in less wide. Pls see attachment. 

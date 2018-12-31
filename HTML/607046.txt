@@ -1,0 +1,5 @@
+
+Hi Team,
+After adding new record to listview, it's not updating sum value. It updates after saving the main detail view.
+    How to resolve it?
+Thanks 

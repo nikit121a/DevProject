@@ -1,0 +1,2 @@
+I am looking for a WrapPanel that stretches items to fill all available space, once items reach a MinWidth, items start to wrap.
+Is there a DevExpress component that has this ability?

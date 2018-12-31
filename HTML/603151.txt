@@ -1,0 +1,3 @@
+In the version almost all the problem has been solved, except for the following case:
+see attached image.
+When we select the option "all" and null acontinuation, they are not filtered correctly.

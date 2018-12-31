@@ -1,0 +1,7 @@
+Dear Sir / Madam,
+When you are using a dxDateBox in IE and click on the datetimepicker to open a window it works fine. Then you have to close the datetimepicker and click again at the datetimepicker. The datetimepicker is shown and is  2x as big as its normal state. When you click for a third time on the datetimepicker it will be huge.
+In the attachment I paste my image to show my issue.
+Is it possible to reproduce this is issue or is a fix available for this problem?
+Thank you in advance!
+Kind regards,
+Jelle 

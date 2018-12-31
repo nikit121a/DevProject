@@ -1,0 +1,5 @@
+Hi,
+There is a problem between dxDateBox date and server date  .  
+if i set a date to the dxDatebox before , there is not any problem. 
+but , at the first , the control's value is null then  the day of dxdatebox day is (-1)  of the server day. 
+do you know how can i overcome this problem. 

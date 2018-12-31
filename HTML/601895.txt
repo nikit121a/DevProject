@@ -1,0 +1,6 @@
+Hello guys.
+I am working with bootstrap chart and the Y Axis labels overlap the container. 
+I have spent lot of times looking for fix that, but it has been impossible. I found that, but I dont know oif this applyes for Bootstrap chart.
+Does exist this functionallity for BootStrap Chart? (see image)
+If yes, may you please place a example (VB or #C).
+Thanks in advance 

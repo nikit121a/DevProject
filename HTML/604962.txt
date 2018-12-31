@@ -1,0 +1,3 @@
+Hi Svetlana,
+I have implemented by having a separate list and compared that list for grid columns without assigning  the values into Columns Sort Index. 
+Is the  above approach comparing and displaying the fields based on order can be implemented for  Pivot grid as well . please let me know.

@@ -1,0 +1,4 @@
+Hi.
+We had some users report that when their application windows occupied the entire desktop (but were not maximized), they couldn't click on their Windows taskbar buttons anymore.
+Turns out the Bezier skin window shadow (on an MDI window at least) is not click-through.  You cannot click anything behind the shadow, which is quite a few pixels tall.  Other skins do not behave this way.
+Thanks. 

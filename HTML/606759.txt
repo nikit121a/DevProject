@@ -1,0 +1,20 @@
+Hi,
+Good day.
+I was wondering if you guys can help me with some issues I am having. Somehow I could not select another item using SelectBox and the Tagbox when I am accessing it using these browsers in a mobile device. The selection does not update the display and it does not fire the event.
+Chrome in Iphone/Ipad Pro
+Safari in  Iphone/Ipad Pro
+Stock browser in ZTE Axon 7 Android
+IE browser Microsoft Lumia  950 (windows Phone)
+It only works with Chrome browser in the ZTE Axon 7 Android. 
+I have no problems with them when using any browsers in my computer, it just does not work in browsers of mobile devices.
+Regarding my project set up, I needed both DevExpress and DevExtreme so I created a project based on DevExpress Template Gallery with DevExpress MVC (Responsive). When it was created, i added DevExtreme  to the project and it created the necessary settings and bundle. 
+I saw an article here on how to set up a project when both DevExpress and devExtreme are used
+I followed the instructions there, where I removed the declarations from the devextremebundle and add the registry of scripts and css in the _rootLayout so the DevExpress components will be registered first and attached here a sample project (removed the devexpress dlls and packages as it is too big to upload). They work when I use the Chrome simulator for mobile devices, however, when I deployed and accessed the page using those devices and browsers above, it's stuck. I am wondering if there's something wrong with my set up.
+I also tried to add dx_viewport class in the body or 
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+but to no avail.
+Hope you can assist me on this.
+Thank you very much.
+Best regards,
+Kathereen

@@ -1,0 +1,6 @@
+Dear Support,
+Hello,
+I need to show week number in my scheduler control as per view Selection.
+Means  if user selected timeline view then i need to show week number horizontal and when user select month view i need to show  as vertical as per attached snap . please see the attachment.
+hope to hear you soon.
+Regards 

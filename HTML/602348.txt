@@ -1,0 +1,3 @@
+I have a series of columns which display derived/unbound data.
+How can I access the value of a derived cell to be used in another derived cell? I am looking into accessing the grid data source, but I don't have the row number to use cellValue.
+EDIT: I have used DataSource mapping to derive the fields on the data loading. However my totals columns are not reflecting this data - the mapped fields are undefined when the totals are calculated (I added a custom total in calculateCustomSummary). How can I use my columns in a summary?

@@ -1,0 +1,3 @@
+I use the dxTabPanel widget: on Android the tabs bar is made scrollable when the items don't fit in the bar. On iOS this doesn't happend.
+To be clear i attached an image with the iOS result.
+To test the iOS app i use your simulation enviroment with the Chrome browser version  63.0.3239.132.

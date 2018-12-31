@@ -1,0 +1,3 @@
+i'm trying to achieve a "best fit" column width in a TcxGrid for each column in a result set using the following code snippet, but it produces "list index out of bounds" during the call to ApplyBestFit. any ideas why?
+
+

@@ -1,0 +1,2 @@
+I need to use the custom dropdown button in ComboBoxEditSettings to display dropdown list in GridColumn, binding the OpenPopupCommand don't work, the dropdown can't open. please advise.
+ 

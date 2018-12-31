@@ -1,0 +1,5 @@
+In some cases, It doesn't work. 
+I've implemented SingleChoiseAction which contains  just one ChoiceActionItem in some cases (I fill it dynamically).
+In these cases, dropdown icon is hidden and SingleChoiceAction.ShowItemsOnClick property is ignored. Therefore, users are confused because they see only action with default caption (instead enum value caption).
+ The issue just related to XAF Web. In win version I never had that problem (see attach).
+Could you suggest any workaround  for Web UI bug? (17.2.4 version)

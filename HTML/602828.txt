@@ -1,0 +1,8 @@
+Awhile back, DevExpress helped me with some code to implement incremental search inside a TcxLookupComboBox.
+I wanted to avoid retyping that code, so I created a procedure that I could call in a separate .pas unit.
+Inside that procedure, the Delphi inherited command does not compile, and I wonder if it is ok to leave it out or if that creates any memory or other runtime issues.
+Below is the procedure code with the inherited command commented out. It compiles and seems to work ok at runtime.
+Would you mind having a look and letting me know if it is ok to omit the inherit command in this case, or if not, what is a work around?  
+Thanks!!
+
+

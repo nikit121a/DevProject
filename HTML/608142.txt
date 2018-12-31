@@ -1,0 +1,9 @@
+I am facing an issue with the PopupContainerEdit+PopupContainerControl controls.
+I have a Form (MDI Container) that has the "TopMost" property set to "True" .
+Inside that form, i have a simple Form (MDI Child) which contains a PopupContainerEdit+PopupContainerControl .
+When i want to open de Popup, it shows behind the MDI container (because it is set to TopMost=True).
+So, i figured i could just set the MDI container TopMost=False when showing the  PopupContainerControl, and then, when i close it, set de MDI container back to TopMost=True.
+This worked in DevExpress 16.2 . But when i upgrade to 17.2.5, the popup shows, then instantly hides. So it is unusable.
+The MDI container needs to stay TopMost=True.
+Would you have any solution ? 
+I attached a sample project. 

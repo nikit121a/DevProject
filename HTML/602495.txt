@@ -1,0 +1,6 @@
+Hello Team,
+I am looking for cron expression instead of recurrence rule in dev extreme scheduler.
+Kingly let me know if there is any option for cron expression.
+Thanks,
+Shailesh
+SSNC 

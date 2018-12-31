@@ -1,0 +1,5 @@
+Hi ,
+I have a form layout   with two objects. The valdiati?on is working for this item 
+But not working for this item 
+The validation groups are the same. What am i doing wrong ?  I am attaching the page  and this my screencast
+ 

@@ -1,0 +1,4 @@
+Hello,
+I'm using a datagird with record grouping, I need to be able to add a button or a checkbox to the grouping header which allows me to "apply" to both the selected header and the items contained within it.
+I'll attach a picture so I can  make myself clearer.
+ 

@@ -1,0 +1,15 @@
+Hi,
+I'm writing a Winforms application following the MVVM pattern. I have a main form using a main view model. 
+During application startup I use an awaitable function that displays a toast notification. When running with my normal user, everything works fine. When using a domain admin user, it crashes with the message 'Access denied'.
+Here is the stack trace.
+   at DevExpress.Internal.WinApi.Windows.UI.Notifications.IToastNotifier.Show(IToastNotification notification)
+   at DevExpress.Internal.WinApi.ToastNotificationManager.ToastNotificationAdapter.DevExpress.Internal.WinApi.IToastNotificationAdapter.Show(IToastNotification notification)
+   at DevExpress.Internal.WinRTToastNotification.ShowAsync()
+   at lambda_method(Closure , IPredefinedToastNotification )
+   at DevExpress.Utils.MVVM.Services.Notification.ShowAsync()
+   at DevExpress.Utils.MVVM.Services.Notification_Dynamic_ea3ef879-cd31-421c-8738-e8c7e8b70033.DevExpress.Mvvm.INotification.ShowAsync()
+   at mAD.ViewModels.MainViewModel.DefaultSession_OnConnected(Object sender, EventArgs e) in C:\home\elmariachi\Projects\CS\mAD-5.0\mAD\ViewModels\MainViewModel.cs:line 229
+   at mAD.DirectoryServices.ADSession.<ConnectCore>d__61.MoveNext() in C:\home\Projects\CS\mAD-5.0\mAD\DirectoryServices\ADSession.cs:line 155
+ In my main view(form), I register the notification toast manager 
+            mvvmContext.RegisterService(NotificationService.Create(new ToastNotificationsManager()));
+Let me know if you need more info.

@@ -1,0 +1,9 @@
+Hi,
+i am porting a WinForms desktop aplication to a more touch enabled UI and am using the Skin from your DemoCenters HypridApp.
+My problem is the onscreen keyboard. 
+The keyboard does not pop out when a textbox is entered; this is ugly, but acceptable.
+More important: When the keyboard is visible, the screen does not scroll up and the keyboard hides the textbox, the only place i'd needed this, is in your DataLayoutControl. 
+Do newer versions of this control have an automatism to handle keyboard and window behaviour?
+If not, what is your advice to do this?
+Regards
+ 

@@ -1,0 +1,8 @@
+Hi,
+I have several XtraReports in my project. 
+They do not have  any complex code,. they all look like the following sample:
+When I compile them, I get warnings, as the following one, about virtual methods being executed, but I cannot find the cause of this proble:
+The report is shown correctly when the program is executed, but this warning message is always shown during compilation. Is this something I should care or should I just ignore it?
+ Could you please help me find what is going on here?
+Thanks for your support.
+Eduardo Quintana

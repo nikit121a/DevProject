@@ -1,0 +1,15 @@
+Hello,
+I'm using DevExtreme.AspNet.Data package (latest version 1.4.0-rc1) to transform data on server before sending it to dxDataGrid on frontend. 
+On one of the screens I have a large dataset with over 180 columns and group summaries for over 160 columns.
+Unfortunately currently DevExtreme.AspNet.Data does not support such a large amount of summaries: "Too many type arguments" exception is thrown.
+Below are simple steps to reproduce the error. 
+Please pay attention that when GroupingInfo.IsExpanded is set to true summaries are calculated without any errors,  and if GroupingInfo.IsExpanded is set to false exception is thrown.
+Exception stacktrace:
+   at DevExtreme.AspNet.Data.Types.AnonType.Get(IList`1 typeArguments)
+   at DevExtreme.AspNet.Data.RemoteGrouping.RemoteGroupExpressionCompiler`1.MakeAggregatingProjection(Expression target, Type groupingType, Int32 groupCount)
+   at DevExtreme.AspNet.Data.RemoteGrouping.RemoteGroupExpressionCompiler`1.Compile(Expression target)
+   at DevExtreme.AspNet.Data.DataSourceExpressionBuilder`1.BuildCore(Expression expr, Boolean paginate, Boolean isCountQuery, Boolean remoteGrouping)
+   at DevExtreme.AspNet.Data.DataSourceLoaderImpl`1.ExecRemoteGrouping()
+   at DevExtreme.AspNet.Data.DataSourceLoaderImpl`1.Load()
+   at DevExtreme.AspNet.Data.DataSourceLoader.Load[T](IQueryable`1 source, DataSourceLoadOptionsBase options)
+   at DevExtreme.AspNet.Data.DataSourceLoader.Load[T](IEnumerable`1 source, DataSourceLoadOptionsBase options)

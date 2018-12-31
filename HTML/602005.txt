@@ -1,0 +1,4 @@
+Hi,
+I'm using the ToastNotification  for Winforms. It works fine on my PC but is not working for other users after I published the solution using ClickOnce. The notification method is called from a dll whjch is then referenced by the main solution. Here's the code I'm using to create and show the notification.
+As a back up the alert control is being used, but I'd prefer to use notifications. All machines are using Windows 10 .
+Thanks 

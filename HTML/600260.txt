@@ -1,0 +1,3 @@
+Should this work with WPF?
+I have attached the event handler as shown above but it never fires.
+If this is WinForms only, how do I implement the same behaviour with WPF?

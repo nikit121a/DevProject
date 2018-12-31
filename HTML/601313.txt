@@ -1,0 +1,5 @@
+I have reports with subtotals. When a zero subtotal is calculated, I'd like to print a blank or print nothing in the XRLabel. 
+I've tried a variety of things, like using SummaryReset, SummaryRowChanged and SummaryGetResult to change the text to a blank when the total is zero. But the zero total on my report still prints a zero.
+Is there a simple way to do this? It seems like there should be a numeric format for this. It would be very helpful if there were.
+Thank you for your help.
+ 

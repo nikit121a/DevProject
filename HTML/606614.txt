@@ -1,0 +1,18 @@
+Hi,
+W?hen I deploy my XAF Web Application to Windows Server 2012 R2 I get this error:
+?Type:       CustomAttributeFormatException
+ Message:    'BackColor' property specified was not found.
+ Data:       1 entries
+ 'ASPIMPERSONATING' ''
+ Stack trace:
+.?....
+? InnerException:
+ Type:       Exception
+ Message:    255; 255; 192 is not a valid value for Int32.
+ Data:       0 entries
+ Stack trace:
+I?n my Windows 10 development machine works perfect.
+W?hat's wrong?
+T?hanks
+  
+  

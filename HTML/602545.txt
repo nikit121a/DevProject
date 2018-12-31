@@ -1,0 +1,9 @@
+Hi,
+I have exactly the same problem as discussed in Q584092: DateEdit is reversed to the first month if an end-user types an invalid day
+ 
+ I agree to what Demetrius writes in his solution. But I need a way to change the way your DateEdit handles the invalid  day/month combination, so that I can  set the month to 12 (or make any other change) when the user enters the 31st of November.
+ 
+ Let me explain  why: 
+ The date format is dd.MM.yyyy. The current value is 30.11.2017 and the day part of the date is selected. The user wants to add 1 day to this date and types "31". Currently, the new value will be 31.01.2017. This is not the expected behavior. If I could override your method, I could resolve the invalid day/month combination (31.11.2017) by changing the edit value to either 31.12.2017 (because it is closer to the original value) or even try to guess what the user meant (my application has more information than your control: other related dates in the same form, for example.) and set the edit value to 01.12.2017.
+Regards,
+Thomas Hoekstra

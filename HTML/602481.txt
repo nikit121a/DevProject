@@ -1,0 +1,9 @@
+Currently I convert c.DataItem as following code
+    settings.SetItemTemplateContent((c) =>
+    {
+        var data = new WIHO_B2B_Beta.Controllers.OrderController.DataSample();
+        data.FieldA = DataBinder.Eval(c.DataItem, "FieldA").ToString();
+        data.FieldB = DataBinder.Eval(c.DataItem, "FieldB").ToString();
+        Html.RenderPartial("_Test", data);
+    });
+I'm wondering is there any better method to do it?

@@ -1,0 +1,36 @@
+We are using the Dashboard product from DexExpress in our windows forms project.
+Whenever we try to show Images as a field within a Dashboard Table, we get an error saying that the Image has to implement IComparable. So the Dashboard tries to sort the table using the Image Column.
+Below is the Stacktrace:
+DevExpress.DashboardCommon.DashboardInternalException: 'Internal error. Please contact the application vendor or your system administrator and provide the following information.
+DevExpress.DashboardCommon.DataProcessing.ExtractPreprocessorException: An error occurred during creation of the data extract:
+The following columns cannot be processed:
+Resource.DecryptedImage ---> DevExpress.DataProcessing.ExtractColumnProcessingException: The following columns cannot be processed:
+Resource.DecryptedImage ---> System.InvalidOperationException: Fehler beim Vergleichen von zwei Elementen im Array. ---> System.ArgumentException: Mindestens ein Objekt muss IComparable implementieren.
+   bei System.Collections.Comparer.Compare(Object a, Object b)
+   bei System.Collections.Generic.ObjectComparer`1.Compare(T x, T y)
+   bei DevExpress.DataProcessing.ExtractStorage.ColumnProcessor`1.<SortProcessingData>b__0(KeyValuePair`2 x, KeyValuePair`2 y)
+   bei System.Array.FunctorComparer`1.Compare(T x, T y)
+   bei System.Collections.Generic.ArraySortHelper`1.InsertionSort(T[] keys, Int32 lo, Int32 hi, IComparer`1 comparer)
+   bei System.Collections.Generic.ArraySortHelper`1.IntroSort(T[] keys, Int32 lo, Int32 hi, Int32 depthLimit, IComparer`1 comparer)
+   bei System.Collections.Generic.ArraySortHelper`1.IntrospectiveSort(T[] keys, Int32 left, Int32 length, IComparer`1 comparer)
+   bei System.Collections.Generic.ArraySortHelper`1.Sort(T[] keys, Int32 index, Int32 length, IComparer`1 comparer)
+   --- Ende der internen Ausnahmestapel?berwachung ---
+   bei System.Collections.Generic.ArraySortHelper`1.Sort(T[] keys, Int32 index, Int32 length, IComparer`1 comparer)
+   bei System.Array.Sort[T](T[] array, Int32 index, Int32 length, IComparer`1 comparer)
+   bei System.Collections.Generic.List`1.Sort(Comparison`1 comparison)
+   bei DevExpress.DataProcessing.ExtractStorage.ColumnProcessor`1.SortProcessingData()
+   bei DevExpress.DataProcessing.ExtractPreprocessor.<>c__DisplayClass7.<SortMaterializeValues>b__0()
+   --- Ende der internen Ausnahmestapel?berwachung ---
+   bei DevExpress.DataProcessing.ExtractPreprocessor.SortMaterializeValues(IPreprocessingProgressController progress, IEnumerable`1 columnProcessors)
+   bei DevExpress.DataProcessing.ExtractPreprocessor.Process(String name, IExtractWriteSession writeSession)
+   bei DevExpress.DataProcessing.ExtractPreprocessor.Create(ITypedDataReader reader, String resourceName, ExtractPreprocessingParameters parameters)
+   bei DevExpress.DashboardCommon.DataProcessing.DashboardExtractHelper.Create(ITypedDataReader reader, String resourceName, ExtractPreprocessingParameters parameters)
+   --- Ende der internen Ausnahmestapel?berwachung ---
+   bei DevExpress.DashboardCommon.DashboardObjectDataSource.GetStorageInternal(CancellationToken token)
+   bei DevExpress.DashboardCommon.DashboardObjectDataSource.DevExpress.DashboardCommon.Native.IDashboardDataSourceInternal.GetStorage(String dataMember)
+   bei DevExpress.DashboardCommon.DataProcessing.DataSourceModel.Create(IDashboardDataSource ds, String dataMember)
+   bei DevExpress.DashboardCommon.DataProcessing.DataSourceModel.Create(IDashboardDataSource ds, String dataMember, IDataFlowStorage storage)
+   bei DevExpress.DashboardCommon.Server.FilterElementInteractivitySession.DevExpress.DashboardCommon.Server.IMasterFilterStateValidator.ValidateMasterFilterState(IDataSourceInfoProvider dataInfoProvider, IDataSessionProvider dataSessionProvider, IActualParametersProvider parametersProvider)
+   bei DevExpress.DashboardCommon.Server.DashboardSession.SetDashboardState(DashboardStateInternal state)
+   bei DevExpress.DashboardCommon.Server.DashboardSession.Initialize(DashboardSessionState state, Boolean isDesignMode)
+   bei DevExpress.DashboardCommon.Service.DashboardServiceOperation`1.Execute(DashboardServiceResult result)'

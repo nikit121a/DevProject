@@ -1,0 +1,7 @@
+Hi,
+I'm trying to use the DocumentViewer in a WPF project. Th example provided in this link: 
+, the code shown is:
+However, I'm trying to implement this code, but the property 'DocumentSource' is not an option.
+Please, could you help me with this?
+Regards
+ 

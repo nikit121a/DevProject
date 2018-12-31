@@ -1,0 +1,5 @@
+Hello,
+How to implement rows selection (also in multiple subpages) in custom binding mode?
+--
+Regards,
+Mariusz 

@@ -1,0 +1,5 @@
+Hi,
+I'm editing an object (typeA) where I'd like to have a property of another XPObjectBase descendant (typeB) .
+If I put the Aggregated attribute on the simple Property (not a collection) of typeB, the model of the typeA is created without that specific property but with many properties (the properties of the typeB class).
+This way I can't develop a Custom Property Editor for editing in a special UI way the typeB .
+Have you got any suggestion on how can I handle a One to One aggregated relation? 

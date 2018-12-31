@@ -1,0 +1,4 @@
+Hi 
+I would like to get rid of the portion of the error message shown in this 
+. What view should I edit. Kindly give me a screenshot.
+Thanks!!

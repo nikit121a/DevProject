@@ -1,0 +1,4 @@
+Hello , I have GridControl like below
+ 
+I was able edit the column I didn't change that I can recognize in the grid but now I am not able to edit cell value. 
+ 

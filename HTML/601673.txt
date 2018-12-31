@@ -1,0 +1,2 @@
+Placing PanelConrol (DevExpress.XtraEditors.PanelControl) on windows form causes NullReference in designer.
+Previous version 17.2.4 works fine. 

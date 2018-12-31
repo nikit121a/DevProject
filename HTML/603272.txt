@@ -1,0 +1,3 @@
+Hi,
+I have 2 Columns in grid. Sa y old value and new Value. I would like to compare the values and highlight a row having difference in those columns. I am planning to use multiconverter and multi binding. But I am not sure how to pass the  data and achieve this.
+Please help

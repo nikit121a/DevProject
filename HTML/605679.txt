@@ -1,0 +1,2 @@
+Hi there,  I have seen a bunch of cases from a few years ago talking about adding regression lines to dashboards.   Is this functionality being looked at and is there a particular case I can "like" to say I want this feature?
+Thanks! 

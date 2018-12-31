@@ -1,0 +1,4 @@
+Hi,
+I have a datatemplate. Datatemplate has a grid which is binded to datatable, I want to display one horizontal line above and below the grid. How do I achieve that?
+when the project runs, I want it to look something like this: A line followed by a table, then again a line! A line followed by a table.
+Kindly find the attachement 

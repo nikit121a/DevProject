@@ -1,0 +1,6 @@
+Hello,
+  I would like to see alpha blending/of the DevExpress Controls with the "Parent's" background.
+  btw, an option to do only the background of the control and/or the whole control.
+IOW, Something what the Windows 10 Start Menu does ... 
+Now, if you can add a blur which we can enable/disable will be awesome!
+Thank you 

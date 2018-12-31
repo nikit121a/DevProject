@@ -1,0 +1,5 @@
+Hi, I would like to know if would be possible to initialize AspxDateEdit Calendar on  year Navigation, 
+In case of BirthDate infact, is difficult to navigate from null or today date to birthDate. 
+Would be more confortable to start with decade or century  selection and the by simply clicks jump to year, month and finally day.
+Is it possible?
+Thank you 

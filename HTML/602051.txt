@@ -1,0 +1,2 @@
+I am using master detail grid and I want to set different Detail Descriptor based on row value
+Is there any way for this Issue.

@@ -1,0 +1,33 @@
+Hello, i am actually building a view with a dx-autocomplete, dx-select-box and two dx-date-boxes, i've set the autocomplete and the select box
+with width=300, it perfectly worked, but the date boxes don't change their current width, i've seen some tickets with similar trouble but none 
+of the proposed solutions worked for me, and when the width changes, the box is dragged to the left side of the screen, covering it's labels.
+The code for the date-boxes (built as an Angular shared component) :
+   <div class="dx-field-value">
+      <dx-date-box
+      name="data"
+      [min]="minDate"
+      [max]="maxDate"
+      [showClearButton]="true"
+      dateSerializationFormat="MM/dd/yyyy"
+      placeholder="Selecione uma data"
+      [(ngModel)]="value"
+      ngModel>
+    </dx-date-box>
+  </div>
+The code where it is being called (with it's tag defined in his component.ts) :
+<div class="geo-content__row geo-row--title">
+  <form #cicloAno="ngForm">
+    <div class="dx-fieldset">
+      <div class="dx-field">
+        <div class="dx-field-label">Data de ?nicio:</div>
+        <app-ciclo-data name="ciclo_inicio" [(ngModel)]="data_incial" [maxDate]="data_final"></app-ciclo-data>
+      </div>
+      
+      <div class="dx-field">
+        <div class="dx-field-label">Data Final:</div>
+        <app-ciclo-data name="ciclo_final" [(ngModel)]="data_final" [minDate]="data_incial"></app-ciclo-data>
+      </div>
+    </div>
+  </form>
+</div>
+How can i set the width of this component ? Can i set it inline for this case ?

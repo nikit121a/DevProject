@@ -1,0 +1,2 @@
+Given an application exactly as generated from the Modular application template:
+I'm looking for an example of how a ViewModel can handle (meaning potentially cancel) a user attempt to close a tab directly.   Can you help? 

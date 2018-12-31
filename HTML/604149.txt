@@ -1,0 +1,7 @@
+Hello, 
+I have a grid which is grouped by a column by default. Now when the user doubleclicks on a GroupRow, I want to do some action depending on which group row the user clicked.
+So far I have been able to check if the user clicked on ANY GroupRow. 
+Now I would like to receive the Groups Name/Title to proceed.
+I'm aware that I can get a collection of groped columns through 
+but I'm not sure how to make the connection between that and the event above.
+Thanks in advance!

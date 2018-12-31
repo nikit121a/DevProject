@@ -1,0 +1,5 @@
+I have a data model with many-to-many relationship (one Company can have many Roles, One role can be assigned to many Companies).
+I would like to implement a DataGrid with Edit Form conatining multiple selection Drop Down Box to assogn Roles to COmpany when adding a new record.
+How can I pass a data from controller ang how should I bind it to Drop Down Box ?
+How should I process data in POST and PUT actions to receive and process array of selected records?
+Do you have any example of multiple selection Drop Down Box in DataGrid's edit for?

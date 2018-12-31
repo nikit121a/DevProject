@@ -1,0 +1,7 @@
+Hi
+Please find demo attached. I have included issue.png snap also.. 
+Facing one issues .. with range control for Gantt chart. 
+If first task entered Start and end date  difference is 3 months i.e 1 Feb to 30 April.
+the last month task bar is not visible. I did't see the end of bar.
+Can you make changes in demo.
+Thanks 

@@ -1,0 +1,8 @@
+Hi
+I was wondering if it is possible to user strongly typed controls in the GridView edit templates ?
+I am working with the example provided 
+When I change the control definition to:
+I get the error :
+ 
+Is it possible to use the strongly typed controls in a templated edit form?
+Thanks in advance 

@@ -1,0 +1,11 @@
+Hi DX Team,
+we are experiencing a serious performance issue on advanced GridControl.
+The delay seems to appear while grid has a lot of controls as a templates for GridColumns and is due to drawing/loading the controls thus it is not growing that much when large amount of rows are added but it grows as more columns with controls are added.
+I've read following articles:
+and got surprised by your answers.
+Is there really nothing we can do about the lag when switching the tabs? 
+Even when I'll load all controls on start the lag in the project is still about 2-3 seconds which basically annoys the users.
+I've attached a sample project with grids advanced as much as in the full blown solution to illustrate the issue.
+Please give me some advice how to improve that behavior.
+Best Regards,
+Kamil

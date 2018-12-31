@@ -1,0 +1,4 @@
+Dear Support Team,
+I am trying to import an image into the dashboard  using binary array. May I know if the dashboards has a built-in function to convert an existing format into bit array and insert it into SQL or would it have to be stored locally and run through a URI link?
+I would also want to get the images to corresponding to a value from the database accordingly. So example, with a value of 1 I get image 1, 2 I get image 2 and 3 I get image 3.
+I look forward to hearing from you soon. Thanks! 

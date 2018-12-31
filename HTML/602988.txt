@@ -1,0 +1,14 @@
+I need some TextEdit controls to not allow the space character when editing.
+Setting the masktype to RegEx and using this expression :
+  ^[^\\s ]+$
+seems to do it, but the ^and  the $ character are always displayed when editing. I dont want that
+And even worse, it also stores these 2 characters in the database.
+I also tried this 
+    [^\\s ]*
+and now the ^and $ are not displayed anymore, but now it makes all characters s capital
+for example an existing value 
+  +37063132603@sms-gtt.com; +4915788692687
+is transformed to
+  +37063132603@SmS-gtt.com;+4915788692687
+The space is gone with no special characters at the start and end, but all s are changed to S
+How can I setup a TextEdit so it will accept anything except the space character ?

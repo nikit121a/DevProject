@@ -1,0 +1,4 @@
+Hi, There seems to be a problem with the document manager showing the tiles when the skin change and the tiles does not fit the form.
+To reproduce:
+Use attached sample project and run it, click the button with the settings icon and change the skin from the dropdown to "Devexpress Style". Then close the form. The tiles would have been dissapear. They show up if the form is maximized or resized.
+Please let me know how can i fix this.

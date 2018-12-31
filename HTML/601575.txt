@@ -1,0 +1,5 @@
+Hello Team,
+The requirement is to open appointment form popup on double click of appointment. 
+I have added event.cancel = true; in onAppointmentSelected event, which is not allowing to open appointment form on click of appontmt in grouped ones. (2more/3more etc).
+any suggestions appreciated.
+Thanks in advance. 

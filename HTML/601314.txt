@@ -1,0 +1,7 @@
+Hi,
+I'm building a timeline Scheduler similiar to your exemple here:
+I'm using the "onOptionChanged" method to find out when the users changes the "currentDate" or the "currentView". However. I wanted to know wich date did he change to. 
+For exemple: If I am on "timelineWeek" or "timelineMonth" in March and change to "timelineDay" I want to know to witch day it will change to.
+If I try to do "getStartViewDate()" it will only work after the "onOptionChanged" is finished.
+Is there any way I can obtain this information?
+Thank you.

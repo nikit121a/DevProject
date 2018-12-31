@@ -1,0 +1,11 @@
+
+
+I‍ meet another problem after changing the IMemos domain component from entities to shared parts. before I add IMemos to IPersons I have few persons in database
+n‍ow I can add new persons and memos, but when I try edit any of existing Persons I get error:
+
+
+
+I look to database and I see that in Persons table is new column IMemos_Data related to IMemos_data table
+and for old records there is NULL value
+in programming environment its no problem - I can remove old persons, but in production system I have find any solution to fix it. How to do this ?
+imho this should be fixed by builtin database updater ..

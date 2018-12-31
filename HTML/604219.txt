@@ -1,0 +1,4 @@
+Hi
+Is there anyway or skin available to make the Grid Control appearance just show row lines and column lines ? (i.e. no sidebar border or top/bottom border)
+Like the below hash symbol but straight 
+# 

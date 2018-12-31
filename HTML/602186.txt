@@ -1,0 +1,5 @@
+Hi
+When trying to touch a data visualization control to view the given tooltip, or using dxPivotGridFieldChooser to drag-n-drop fields for binding data to a dxPivotGrid, none of the touch events gets fired.
+This is true for all Android devices  running Firefox (tested in newest version 58).
+But, this does work as expected on IOS devices and  desktop version of Firefox (also version 58).
+// Erik 

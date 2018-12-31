@@ -1,0 +1,5 @@
+in domain component I have a property where after edit this property I want remove all chars but digits :
+I add DomainLogic and there code :
+but after running app I get error:
+I Try use AfterChange_NIP but this is executed after Save action. I need this code execute when user enter data to editor and go another property editor 
+?

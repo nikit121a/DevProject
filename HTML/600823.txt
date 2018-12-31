@@ -1,0 +1,98 @@
+I had a project which is implemented multi-purpose MVC extensions in Dev Express. I decided to add Dev Extreme on the project and I fixed some issues already, However, I don't know why this issues keep follow on all the pages of my project. 
+ Uncaught ReferenceError: DevExpress is not defined
+    at dx.aspnet.data.js:20
+    at dx.aspnet.data.js:27
+Uncaught ReferenceError: DevExpress is not defined
+    at dx.aspnet.mvc.js:16
+    at dx.aspnet.mvc.js:19
+this won't effect much to the project, but feels uncomfortable. I'd inserted code like this on Layout.
+    @Styles.Render("~/Content/DevExtremeBundle")
+    @Scripts.Render("~/Scripts/DevExtremeBundle")
+    @Html.DevExpress().GetStyleSheets(
+        new StyleSheet { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.Editors },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.HtmlEditor },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.GridView },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.PivotGrid },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.Chart },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.Report },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.Scheduler },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.TreeList },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.Spreadsheet },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.SpellChecker },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.Dashboard }
+    )
+    @Html.DevExpress().GetScripts(
+        new Script { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+        new Script { ExtensionSuite = ExtensionSuite.HtmlEditor },
+        new Script { ExtensionSuite = ExtensionSuite.GridView },
+        new Script { ExtensionSuite = ExtensionSuite.PivotGrid },
+        new Script { ExtensionSuite = ExtensionSuite.Editors },
+        new Script { ExtensionSuite = ExtensionSuite.Chart },
+        new Script { ExtensionSuite = ExtensionSuite.Report },
+        new Script { ExtensionSuite = ExtensionSuite.Scheduler },
+        new Script { ExtensionSuite = ExtensionSuite.TreeList },
+        new Script { ExtensionSuite = ExtensionSuite.Spreadsheet },
+        new Script { ExtensionSuite = ExtensionSuite.SpellChecker },
+        new Script { ExtensionSuite = ExtensionSuite.Dashboard }
+    )
+and I modified the DevExtremeBundleConfig .cs because of some issues.
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web.Optimization;
+namespace CJF_SFA_MVC {
+    public class DevExtremeBundleConfig {
+        public static void RegisterBundles(BundleCollection bundles) {
+            bundles.IgnoreList.Clear();
+            var scriptBundle = new ScriptBundle("~/Scripts/DevExtremeBundle");
+            var styleBundle = new StyleBundle("~/Content/DevExtremeBundle");
+            // CLDR scripts
+            scriptBundle
+                .Include("~/Scripts/cldr.js")
+                .Include("~/Scripts/cldr/event.js")
+                .Include("~/Scripts/cldr/supplemental.js")
+                .Include("~/Scripts/cldr/unresolved.js");
+            //// Globalize 1.x
+            //scriptBundle
+            //    .Include("~/Scripts/globalize.js")
+            //    .Include("~/Scripts/globalize/message.js")
+            //    .Include("~/Scripts/globalize/number.js")
+            //    .Include("~/Scripts/globalize/currency.js")
+            //    .Include("~/Scripts/globalize/date.js");
+            // NOTE: jQuery may already be included in the default script bundle. Check the BundleConfig.cs file   
+            //scriptBundle
+            //    .Include("~/Scripts/jquery-3.2.1.js");
+            // JSZip for client side export
+            //scriptBundle
+            //    .Include("~/Scripts/jszip.js");
+            // DevExtreme + extensions
+            scriptBundle
+                //.Include("~/Scripts/dx.all.js")
+                .Include("~/Scripts/aspnet/dx.aspnet.data.js")
+                .Include("~/Scripts/aspnet/dx.aspnet.mvc.js");
+            // dxVectorMap data (
+)
+            //scriptBundle
+            //    .Include("~/Scripts/vectormap-data/africa.js")
+            //    .Include("~/Scripts/vectormap-data/canada.js")
+            //    .Include("~/Scripts/vectormap-data/eurasia.js")
+            //    .Include("~/Scripts/vectormap-data/europe.js")
+            //    .Include("~/Scripts/vectormap-data/usa.js")
+            //    .Include("~/Scripts/vectormap-data/world.js");
+            // DevExtreme
+            // NOTE: see the available theme list here: 
+                    
+            styleBundle
+                .Include("~/Content/dx.common.css")
+                .Include("~/Content/dx.light.css");
+            bundles.Add(scriptBundle);
+            bundles.Add(styleBundle);
+#if !DEBUG
+            BundleTable.EnableOptimizations = true;
+#endif
+        }
+    }
+}
+also I set "embedRequiredClientLibraries="true" on Web.config.
+ 

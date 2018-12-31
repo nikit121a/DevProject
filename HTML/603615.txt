@@ -1,0 +1,9 @@
+Hi folks,
+i created a BO named DraftState (Properties: Name (string), SortIndex (int)). 
+The table is prefilled with 3 draft states . Each draft state as an unique, running number (e.g. 0,1,2).
+It is possible for the end user to delete predefined draft state. It should be also allowed to add or reorder draft states.
+What is the recommended approach to handle this features? 
+To let the user update the sort index via spinEditControl is awful. Maybe there is a better way? 
+How can i guarantee, that there is no gap between the sort index values (0,2,3,19), neither duplicated sort index values?
+Thanks,
+Micha

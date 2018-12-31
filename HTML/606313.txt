@@ -1,0 +1,2 @@
+When I create the report there was fields in Field List, But now fields not appear on field list. Please refer my attached image. But report works fine. 
+My problem is now I cant change report fields cause field not appearing.

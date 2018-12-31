@@ -1,0 +1,6 @@
+Hi Team,
+I am using a nonpersistent class detail view binded to the nav item. I have "User" dropdown on top of the grid in this detail view.  I wanted to change the records in the grid depending on the dropdown value selected for User but I also wanted to set the current user as the default user selected in the dropdown and record should appear according to that. I am using window authentication for my application.
+I am having problem while setting filters for grid and during setting current user as a default User. Getting exception all the time.
+kindly, go through the codes and let me know how to set it.
+Thanks.
+ 

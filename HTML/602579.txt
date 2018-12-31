@@ -1,0 +1,16 @@
+Hi
+This is the first time I have tried to create a ComboBoxEdit in a GridControl and I'm struggling with it.
+I have a GridControl bound to a collection. One of the items in this collection is an int called 'PossibleMatchId' and it has it's own column.
+In this column I want to present a ComboBoxEdit, which will have an ItemsSource that changes when the selected row is changed. This item source is called 'PossibleMatches' and I have code that refreshes this collection when the selected row is changed. The property in this collection I wish to display to the user is 'DisplayString', the value that I wish to use is called 'ID' and I wish to connect this 'ID' value in the items source to the 'PossibleMatchId' in the items source of the grid.
+This is a snippet of my code:
+<dxg:GridColumn Header="Possible Existing Match"  FieldName="PossibleMatchId" AllowEditing="True" >
+  <dxg:GridColumn.EditSettings>
+      <dxe:ComboBoxEditSettings ItemsSource="{Binding PossibleMatches}" DisplayMember="DisplayString" ValueMember="ID">
+          <dxe:ComboBoxEditSettings.StyleSettings>
+            <dxe:ComboBoxStyleSettings/>
+           </dxe:ComboBoxEditSettings.StyleSettings>
+         </dxe:ComboBoxEditSettings>
+       </dxg:GridColumn.EditSettings>
+</dxg:GridColumn>
+Currently there are no values displayed in this column (if I remove the value for 'ValueMember' the values are displayed). If I click on the column I get the combo box and it has the right values in it for the selected row. When I selected a value I see the value in the cell, but when I click away the value is gone again. So my main problem here is connecting the value in the ComboBoxEdit items source with the value in the grid items source.
+Any advice appreciated! 

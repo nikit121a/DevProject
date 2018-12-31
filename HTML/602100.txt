@@ -1,0 +1,4 @@
+I have expanded a previous example zip with a new problem. 
+When a textbox is decorated with WaitForValidValue validation mode, I cannot leave the control anymore. 
+However, the cancel button (which resets the form to initial values) should be clickable.
+How can this be done?

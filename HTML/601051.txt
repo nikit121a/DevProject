@@ -1,0 +1,3 @@
+Dear supporter:
+      Hi! I have a question. When I used the dxList component to display,I found that the bottom of dxList had a "More" button. I want to display all data one time?and I want to dxList select a item ( ilike 'index=25') at the first time. How can I do?
+ Thankyou!

@@ -1,0 +1,12 @@
+HI team,
+My project works on IE 11 compatibility mode and I'm using ASPxHtmlEditor version 10.1.6 which is not supported in compatibility mode of IE 11.
+please find me a solution for working with this tool with IE 11 compatibility set to 'Edge'.
+I used the following key in web.config file to set the compatibility, which I will not be able to remove
+<httpProtocol>
+      <customHeaders>
+        <clear />
+        <add name="X-UA-Compatible" value="IE=Edge" />
+      </customHeaders>
+    </httpProtocol>
+Thanks,
+Anandh G 

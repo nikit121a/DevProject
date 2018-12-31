@@ -1,0 +1,5 @@
+Hello,
+I have  a dxSelectBox within my mobile website, where I am working with Knockout. In the sample in your API Reference there is a frame around the selectbox. I tried to get one also, but I didn't find out how.
+Is it possible to show a frame around the selectbox?
+Thanks a lot,
+Cora

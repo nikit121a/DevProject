@@ -1,0 +1,5 @@
+I'd like to create a shortcut to repeat the last run tests.
+I can create a shortcut but it doesn't seem to run the command. Clearly I'm doing something wrong - but not sure what....
+In Options/IDE/Shortcuts/UnitTesting I added a new shortcut for Ctrl+T, L and selected the RepeatLastTests command, applied and then tried to invoke it, instead of running the last run tests the row the cursor was on was deleted.
+Then I changed it to Sync the shortcut with the command key binding  registered in Visual Studio, applied the change and again tried to invoke it, but again the current row was deleted. 
+What do I need to do in order to be able to invoke the RepeatLastTests from the keyboard?

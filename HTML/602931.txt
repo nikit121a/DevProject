@@ -1,0 +1,8 @@
+Hello.
+I  use 'DateEdit' element in my code.
+The value is supposed to into the related database.
+But It has Datetime2 type  and when it entered into the database, It caused an Error.
+It shows 'System.Data.SqlClient.SqlException: The conversion of a datetime2 data type to a datetime data type resulted in an out-of-range value. 
+How can I this DateEdit Value start s from 1753.01.01 and How can I set this DateTime2 type in code as DateTime
+so I can put this DateTime2 type into DateTime type column in my database?
+ Thank you.

@@ -1,0 +1,7 @@
+Hello,
+I was just wondering how you would collapse/shrink a table cell that has multiple columns.
+For example - Attached Image 1
+I would want to shrink the null lines to prevent having gaps on the report. So it would instead appear like this (attached image 2).
+Is this possible without separating both columns into separate tables  in order to use CanShrink and Process Null Values - Suppress and Shrink.
+Thanks,
+Tom

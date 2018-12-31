@@ -1,0 +1,20 @@
+Hi,
+    I am creating a page for changing a User profile photo using device camera. For this i use following code
+
+
+
+
+Here this code is working fine and a Capture picture is shown in Image control 
+<img style="max-width: 100%; max-height: 120px;" id="photoTaken" />
+Now when i want to try to save this image in to database using this code
+
+
+
+
+Here image is save in to database. But one problem is always see
+The actual image can not be get shown in image control after getting the data from database. it is just showing the small part of image 
+and when i try to convert base64 to image online then it is also shown wrong image. It mean at the time of save image to database something is wrong. 
+Can you help me what is going wrong in my code?
+This is the code for showing the image
+
+

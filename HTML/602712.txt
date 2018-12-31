@@ -1,0 +1,11 @@
+Example:
+ 
+Steps to reproduce:
+1. Open and run the example app.
+2. In the data grid labeled " Memory Data Source" click one of the 'Delete' buttons.
+3. Wait a second. Note that at no point does the grid's loading panel appear.
+ 4. In the confirmation dialog select 'Yes' or 'No' .
+5.  In the data grid labeled " HTTP Data Source" click one of the 'Delete' buttons.
+3. Wait a second. 
+I expect that these two grids should act the same and to 
+ show the loading panel while the delete confirmation dialog is open since they both have their dataSource set to a component member of type `Group[]` with the only difference being how that array is populated.

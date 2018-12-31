@@ -1,0 +1,6 @@
+I am using repx files for developing reports for our customers.
+As I do in Visual Studio on changing source code I would like to compare my changes made in the reports before I send  them to the customers.
+ 
+As you can see in attached screenshot my versioning System (Microsoft Visual SourceSafe)  does not Show any source Code to compare differences.
+It shows many changes although I opened and saved file without making any changes. 
+Do you provide any possibility to save reports  with readable source Code?

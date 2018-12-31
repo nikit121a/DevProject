@@ -1,0 +1,7 @@
+Hi
+I am trying to build a Gridview control to update a database table that contains a foreign key Id. In order to update that Id I would like to have a combo box that is populated from the foreign key table.
+The source table (tblbranches) in this example contains our branch data in the structure branchid (int), branchname (varchar(50)) and documentid (int). branchid is the primary key and documentid is the foreign key. The foreign key table (tbldocuments) contains 2 columns documentId (int) and documentname (varchar(50)) with documentid being the primary key.
+The gridview has the datasource set to tblbranches and displays the 3 columns. However rather than displaying the documentid I would like to display the document name using a combobox  from the foreign key table.
+How would I achieve this?
+Thanks
+Nick 

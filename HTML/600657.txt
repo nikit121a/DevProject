@@ -1,0 +1,6 @@
+Hello,
+since we're using a custom ORM in our business solution, entities need to be instantiated through a factory method.
+When using your new scheduler control, entities are added to the bound collection using the default constructor. This leads to errors and exceptions when using our ORM.
+Is there a method or an event, that allows hooking the instantiation process.
+Regards
+Gabriel 

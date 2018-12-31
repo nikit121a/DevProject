@@ -1,0 +1,4 @@
+Hello,
+in my WIN-XAF-Application  I have dashboard with 2 items. The first item is a combobox, the  second item is a Datagrid. The Datagrid is filled with a stored proc. I need to use the selected value from the Combobox as a parameter for the stored proc. Everytime the value in the Combobox is changed, the data need to be reloaded from the database. How can I do that?
+Kind regards 
+Erich 

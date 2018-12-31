@@ -1,0 +1,4 @@
+Hi, 
+When we enable adjustOnZoom with scrollingMode="all"  zoomingMode="all" the title is overlapping by values labels 
+Please, provide a suggestion how to avoid this
+Thanks 

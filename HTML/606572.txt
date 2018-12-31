@@ -1,0 +1,66 @@
+List<RepositoryItem> inplaceEditors1 = new List<RepositoryItem>();
+        List<RepositoryItem> inplaceEditors2 = new List<RepositoryItem>();
+#region RepositoryItemHyperLinkEdit
+                    inplaceEditors1 = new List<RepositoryItem>();
+                    inplaceEditors2 = new List<RepositoryItem>();
+                    foreach (var priceDifference in listGrid2)
+                    {
+                        
+                        var hyperLinkEdit = new RepositoryItemHyperLinkEdit();
+                        hyperLinkEdit.Caption = priceDifference.Exchange1;//Set visible value
+                        hyperLinkEdit.SingleClick = true;
+                        hyperLinkEdit.Tag = priceDifference.Market;//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!How set it to EditValue, but not to Caption??
+                        hyperLinkEdit.OpenLink += hiperlink_OpenLink;
+                        inplaceEditors1.Add(hyperLinkEdit);
+                        gridControl2.RepositoryItems.Add(hyperLinkEdit);
+                       
+                        //---
+                        hyperLinkEdit = new RepositoryItemHyperLinkEdit();
+                        
+                        hyperLinkEdit.Caption = priceDifference.Exchange2;
+                        hyperLinkEdit.SingleClick = true;
+                        hyperLinkEdit.Tag = priceDifference.Market;
+                        hyperLinkEdit.OpenLink += hiperlink_OpenLink;
+                        inplaceEditors2.Add(hyperLinkEdit);
+                        gridControl2.RepositoryItems.Add(hyperLinkEdit);
+                    }
+                    gridView2.CustomRowCellEdit+=gridView2_CustomRowCellEdit;
+                    
+                    #endregion
+ private void gridView2_CustomRowCellEdit(object sender, CustomRowCellEditEventArgs e)
+        {
+            try
+            {
+                GridView view = sender as GridView;
+                var editorIndex = view.GetDataSourceRowIndex(e.RowHandle);
+                if (e.Column.FieldName == "Exchange1")
+                {
+                    e.RepositoryItem = inplaceEditors1[editorIndex];
+                }
+                if (e.Column.FieldName == "Exchange2")
+                {
+                    e.RepositoryItem = inplaceEditors2[editorIndex];
+                }
+            }
+            catch (Exception exception)
+            {
+                
+            }
+        }
+How to get the market in the following method? I need to create a link of two values, but on the cell display only the title 
+ void hiperlink_OpenLink(object sender, OpenLinkEventArgs e)
+        {
+            try
+            {
+                var ss = sender as HyperLinkEdit;
+                
+                var exchange= ss.Properties.Caption;
+                var market= ????????????????????????????
+                var link="http://"+exchange+market+".com";
+              //..open link
+            }
+            catch (Exception exception)
+            {
+                
+            }
+        }

@@ -1,0 +1,32 @@
+Hello,
+i study your help sites and have not found how do i implement CRUD with master detail view.
+I get every time an error  about not all elements could be loaded properly
+my code  
+ SqlConnection sqlConnection1= new SqlConnection("blabla");
+            SqlCommand sqlCommand1= sqlConnection1.CreateCommand();
+            sqlCommand1CommandText = @"SELECT blabla";
+            sqlDataAdapter1 = new SqlDataAdapter(sqlCommandTaxFreeMaster)
+            {
+                MissingSchemaAction = MissingSchemaAction.AddWithKey
+            };
+            SqlCommand sqlCommandTaxFreeFileDetail = sqlConnectionTaxFree.CreateCommand();
+            sqlCommand2.CommandText = @"SELECTblabla";
+        SqlDataAdapter sqlDataAdapter2 = new SqlDataAdapter(sqlCommand2)
+            {
+                MissingSchemaAction = MissingSchemaAction.AddWithKey
+            };
+            dataSet = new DataSet();
+            sqlDataAdapter1.Fill(dataSet1, "master");
+sqlCommandBuilderMaster = new SqlCommandBuilder(sqlDataAdapter1);
+            sqlDataAdapter2.Fill(dataset1l, "detail");
+  SqlCommandBuilder sqlCommandBuilder2 = new SqlCommandBuilder(sqlDataAdapter2);
+            DataColumn keyColumn = dataSet.Tables["master"].Columns["CustomerID"];
+            DataColumn foreignKeyColumn = dataSet.Tables["detail"].Columns["myId"];
+            dataSet.Relations.Add("masterdetail", keyColumn, foreignKeyColumn);
+            gridControlt.DataSource = dataSet1.Tables["master"];
+            gridControl.DataMember= "master";
+            gridControltaxFREE.ForceInitialize();
+ gridControl.LevelTree.Nodes.Add("masterdetail", weView);  // where weView is second gridview
+what is wrong here?
+how can i do crud here?
+an example??? 

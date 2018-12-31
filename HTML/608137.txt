@@ -1,0 +1,13 @@
+
+                                This example demonstrates how to restrict the 
+ navigation to display seven days, Saturday and Sunday excluded. 
+To accomplish this, the project implements a custom 
+ to handle the left and right arrow keys. Navigation commands execute custom methods defined in ViewModel. Commands are replaced with methods using the 
+property and 
+ binding introduced in the DevExpress MVVM Framework . 
+A custom set of days is assigned to the 
+ property. 
+The project handles the 
+ event to adjust visible dates if a view's visible intervals are changed with a method other than the navigation commands.
+
+                            

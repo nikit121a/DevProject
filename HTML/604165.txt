@@ -1,0 +1,9 @@
+Hi
+I am becoming much better at creating resource styles for all sorts of items that one can add to a ribbon, however the bar sub item is eluding me thus far.
+I can create a standard ribbon button style with ease;
+and apply the style in the view's xaml like so;
+Put simply is it possible to build up styles for the various BarButtonItems and links and then combime those into a master style that could be added like so;
+So far I have this, I'm just trying to figure out how to add the component bar items to it
+Many Thanks
+Dom
+ 

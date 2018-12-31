@@ -1,0 +1,7 @@
+Hi DevExpress Team,
+how do I show the areas in a stacked area chart  similiar to a StackedGroup in a stacked bar char? Please see the attached file StackedArea1, that shows a stacked area chart.  The upper, red area's first point has a value of 10.2, but it is shown at 16 on the y axis(which is correct by design, but not what I need). The second file, Area1, shows an area chart for the same values, where the points are shown correct on the y axis, but the bottom area with the smaler values is in the background. So for me there are two ways to solve the problem:
+1. align the values in the stacked area chart or
+2. bring the bottom area in the area chart in the foreground. 
+How do I achieve one of it? 
+Many thanks & kind regards,
+Patrick

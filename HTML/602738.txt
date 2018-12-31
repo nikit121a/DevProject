@@ -1,0 +1,11 @@
+Hi there,
+I am hopping you can help me find a devExpress solution to my current issue.  I have a combobox that I populate with a display member and a value member. 
+The display member text looks like "Smith, John    |     John.Smith@oregonstate.edu"
+The value member is just the email text          "John.Smith@oregonstate.edu" 
+My issue is with suggest/append
+Folks have asked to have the suggest text, that pops when they start typing in the combo box, find all text matches to suggest.
+For example, if I type "John" in the combobox it will suggest all entries that have "John" somewhere in the display member text and not just what the text starts with.
+I have seen the devexpress asp .net combobox that appears to have this behavior illustrated in the link below but it unclear to me how to do this in vb.net win forms. Is this possible with any of the DevExpress combo boxes using VB.net and Win forms? 
+The first example showing Incremental filtering is what I would like to create for vb.net winforms
+Thank you,
+Jesse 

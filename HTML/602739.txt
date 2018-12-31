@@ -1,0 +1,3 @@
+Hi,
+Is there some built-in method for preventing 2 different users viewing the same object in Detail View  at the same time?
+e.g. when working down a list view and user1 opens Object1, is there some way of prevent User2  from opening the Object1 until User1 closes Object1?

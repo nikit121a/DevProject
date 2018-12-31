@@ -1,0 +1,5 @@
+Hello Support,
+Please see attached video.
+We have found that there is problem with arrow key when we want to move any element using arrow key.
+Is there any fixes available for this problem  ?
+Thank You. 

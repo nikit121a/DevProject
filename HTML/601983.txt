@@ -1,0 +1,3 @@
+Hello DevExpress Team,
+I use an IIS web service to transfer data from an external application to my XAF database. Therefore, I've got several web methods. One expample for this I post below.
+If such a web method is called, two connections to the XAF database are opened. One of there connections I can close, but one remains open, but I don't now, how to close this open connection. Do you know, how I can close these connection?

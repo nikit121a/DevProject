@@ -1,0 +1,5 @@
+and some other combinations but I can't get it to disable the cell when IsConnected is false.
+The full column definition is:
+Can you help?
+Thanks.
+Thierry

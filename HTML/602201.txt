@@ -1,0 +1,30 @@
+hi,
+I need help with it:
+I used code from article:
+if I run as 1st all works fine:
+IniTree();
+,
+but if I run 2nd time - on  the button and there is:
+this.treeList1.ClearNodes();
+IniTree();
+then it works bad, it mean - 
+if I check on the child node then parent node is unchecked  - can u help me ?
+InitTree metod:
+            this.treeList1.BeginUnboundLoad();
+            this.treeList1.AppendNode(new object[] {
+                "All Contacts (Skype)"}, -1, "allcontacts");
+            this.treeList1.AppendNode(new object[] {
+                "2test"}, 0, "2tag");
+            this.treeList1.AppendNode(new object[] {
+                "3test"}, 0, "3tag");
+            this.treeList1.AppendNode(new object[] {
+                "4test"}, 0, "4tag"); 
+     this.treeList1.EndUnboundLoad();
+            this.treeList1.ExpandAll(); 
+            TreeListCheckHelper treeListCheckHelper = new TreeListCheckHelper(treeList1);
+if I use in your program button with :
+this.treeList1.ClearNodes();
+IniTree();
+all works OK, but I dont know find where I have a problem 
+thank u
+ 

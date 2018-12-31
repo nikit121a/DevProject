@@ -1,0 +1,3 @@
+Hello
+What is the best way to build responsive  ASP MVC application with Razor and your controls. Especially I means edit forms. What do you recommend ? MVC FormLayout, your bootstrap controls , DevExtreme Form , any other way ?
+Could you help me to choose the best ?

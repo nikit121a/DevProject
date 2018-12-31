@@ -1,0 +1,5 @@
+Hi,
+I have the me problem in a filtercontrol in a v16 version.
+But I can't change FilterCriteria becaus I don't know the table name in advance.
+Do you make any change in the last version who include the tablename in the FilterCriteria?
+Thanks in advance

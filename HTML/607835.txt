@@ -1,0 +1,5 @@
+I am using a LookUpEdit in a cell in a GridControl with a TableView.  I need to change the border.  
+With the TextEdit, I can do this using the following, and it works nicely.
+How do I achieve the same result with the LookUpEdit?  The following template doesn't work.  
+I've also tried setting ShowBorder="False" and BorderBrush="LightGray", with no effect.
+These are both being set using a DataTemplate.

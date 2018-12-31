@@ -1,0 +1,8 @@
+Hi, guys
+I have a problem with DevExpress SpellChecker component. I need to have the spell check for a bunch of controls on my form. I cannot use "check all controls in the parent container" option, because some of that controls must be spell-checked and other must not.
+So I create N spell-checkers on the form and this works fine.
+The problems start when I put my controls on TabControl element. The controls on first tab page are checked correctly and the controls on second tab page are not checked at all.
+I just made a simple test with latest version of DevExpress 17.2.5.0 (originally appeared in 16.2.3.0). The same problem.
+I tried standard TabControl+TextBox (System.Windows.Forms) and XtraTabControl+XtraEditors.TextEdit. The same problem.
+What should I do in order to make spell-checkers work correctly at all tab pages of TabControl? Is it my bug or your one? Can you propose me a workaround?
+Have a nice day

@@ -1,0 +1,9 @@
+use the Xaf wizard for Mobile applications, edit my connection (I think it is well edited) and open the browser, but the application does not start, nor does it update the Tables in the Database
+I get this message in the browser.
+Debugging Chrome scripts in Visual Studio is enabled
+Set breakpoints in JavaScript or TypeScript in Visual Studio
+Automatic interruption in script errors
+When opening developer tools in Chrome, the script debug session stops
+More information about debugging Chrome in Visual Studio
+The application is starting ...
+because it can be?

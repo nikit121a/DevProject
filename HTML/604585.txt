@@ -1,0 +1,7 @@
+Hi.
+I'm trying to make sure when I display a Print Preview of an Xtra Report via the ShowRibbonPreviewDialog() method that it is ALWAYS maximized on the user's screen.  I'm using code similar to the following - but it does not work (uses the last screen size set by the user)
+printTool = new ReportPrintTool(report);
+printTool.PreviewRibbonForm.WindowState = FormWindowState.Maximized;
+printTool.ShowRibbonPreviewDialog(UserLookAndFeel.Default);
+can you help me to get this working???
+Thanks! 

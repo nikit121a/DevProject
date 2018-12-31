@@ -1,0 +1,31 @@
+Hello,
+I defined an event handler for "CustomCellValue" (see the code below) and there is a random exception (see the exception text below). I want to know if the event handler function "GetNoCalculatedFieldCollapsedCellValue" is called by the control in parallel?
+this.m_dxPivotGridControl.CustomCellValue += new System.EventHandler<DevExpress.XtraPivotGrid.PivotCellValueEventArgs>(this.m_dxPivotGridControl_CustomCellValue);
+************** Exception Text **************
+System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at FuturMaster.China.FMXtraPivotGrid.FMCellEventArgsHelper.GetNoCalculatedFieldCollapsedCellValue(PivotCellBaseEventArgs args, List`1 dxFieldList, Dictionary`2& colDictionary)
+   at FuturMaster.China.FMXtraPivotGrid.FMCellEventArgsHelper.GetFieldCollapsedCellValue(PivotCellBaseEventArgs args, PivotGridField dxField, Dictionary`2 colDictionary)
+   at FuturMaster.China.FMXtraPivotGrid.CFMXtraPivotGridControl.m_dxPivotGridControl_CustomCellValue(Object sender, PivotCellValueEventArgs e)
+   at DevExpress.XtraPivotGrid.PivotGridControl.RaiseCustomCellValue(PivotGridCellItem cellItem)
+   at DevExpress.XtraPivotGrid.Data.PivotGridCellItem.EnsureValue()
+   at DevExpress.XtraPivotGrid.ViewInfo.PivotCellViewInfo.DrawEditViewInfo(ViewInfoPaintArgs e, Rectangle cellBounds, AppearanceObject cellAppearance)
+   at DevExpress.XtraPivotGrid.ViewInfo.PivotCellViewInfo.Draw(ViewInfoPaintArgs e, Rectangle cellBounds, AppearanceObject cellAppearance, Boolean drawFocusedCellRect)
+   at DevExpress.XtraPivotGrid.ViewInfo.PivotCellsViewInfoBase.<>c__DisplayClassb.<DrawCell>b__a()
+   at DevExpress.XtraPivotGrid.ViewInfo.PivotCellsViewInfoBase.DrawCell(ViewInfoPaintArgs e, PivotCellViewInfo cellViewInfo)
+   at DevExpress.XtraPivotGrid.ViewInfo.PivotCellsViewInfoBase.DrawCells(ViewInfoPaintArgs e, List`1 cells)
+   at DevExpress.XtraPivotGrid.ViewInfo.PivotCellsViewInfoBase.DrawDataCells(ViewInfoPaintArgs e)
+   at DevExpress.XtraPivotGrid.ViewInfo.PivotCellsViewInfoBase.InternalPaint(ViewInfoPaintArgs e)
+   at DevExpress.XtraPivotGrid.ViewInfo.BaseViewInfo.Paint(ViewInfoPaintArgs e)
+   at DevExpress.XtraPivotGrid.ViewInfo.BaseViewInfoCollection.Paint(ViewInfoPaintArgs e)
+   at DevExpress.XtraPivotGrid.ViewInfo.BaseViewInfo.PaintChildren(ViewInfoPaintArgs e)
+   at DevExpress.XtraPivotGrid.ViewInfo.BaseViewInfo.Paint(ViewInfoPaintArgs e)
+   at DevExpress.XtraPivotGrid.ViewInfo.BaseViewInfoControl.OnPaint(PaintEventArgs e)
+   at DevExpress.XtraPivotGrid.PivotGridControl.OnPaint(PaintEventArgs e)
+   at System.Windows.Forms.Control.PaintWithErrorHandling(PaintEventArgs e, Int16 layer)
+   at System.Windows.Forms.Control.WmPaint(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at DevExpress.XtraPivotGrid.PivotGridControl.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+ 

@@ -1,0 +1,2 @@
+I am not able to filter the data on custom filter of header checklist filer on modified column data .For More under stand check attached image.
+Please provide the solution. 

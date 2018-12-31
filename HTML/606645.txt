@@ -1,0 +1,6 @@
+Hi,
+I have noticed that Color resources are not applied to Resource captions  as they where in version 17.1. It is not really important, but it was a nice feature that helped users to tell one calendar from another.
+Please find attached  a RAR file with two screenshots comparing both versions.
+Regards, 
+Jesus
+ 

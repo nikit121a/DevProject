@@ -1,0 +1,11 @@
+Hi
+My client is trying to install the report server but is not getting the installer window, the installer shows up without problems on windows 7.
+We have made sure that :
+- Smartscreen is disabled.
+- The file is not blocked since it  was downloaded from the internet.
+- All antivirusses are disabled.
+We also checked the eventviewer for any signs of problems but could not find any. 
+When we check the taskmgr we can see the installer but no UI is provided (attached screenshot).
+Any help is greatly appreciated.
+Thanks.
+ 

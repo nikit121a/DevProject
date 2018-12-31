@@ -1,0 +1,4 @@
+Hello DX Team,
+I would need to only allow valid IP Addresses in the dx-text-box input. I don't really understand how the mask works with the maskRules to validate a ip address.
+Could you help me?
+Thanks 

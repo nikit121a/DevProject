@@ -1,0 +1,8 @@
+Hi
+XRline Cotrol get shited from its original Position in report when some other label controls text contain "\r\n\r\n\r\n" ..
+xrLabel1.Text = "Text with new line\r\n\r\n\r\n" 
+xrLine1 suppose  to show midle of graph, but its gets shifted from its original posion, but works fine with "\n" not there in  xrLabel1.Text.
+PFA project.
+Can you please explain in detail.
+Regrads,
+Amit 

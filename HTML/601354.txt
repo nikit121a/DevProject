@@ -1,0 +1,2 @@
+Just run the wizard with minimum options (xpo, no security, windows & web only) windows works fine but web when run comes up with an error:
+ 

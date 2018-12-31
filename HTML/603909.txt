@@ -1,0 +1,4 @@
+Hello Support,
+I have been looking into the Mail Merge feature you have and wondered if I can use it to send a mail shot. I understand that you do not provide a mail client but this is fine, I can sort that out. 
+My question is , once the mail merge has been created, how do I iterate through the individual entries and take the contents to use as content of an email. I do not want to attach the entry to the email as a file but need the contents. 
+Thank you in advance.  

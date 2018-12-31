@@ -1,0 +1,6 @@
+Hi,
+After  i have upgraded to version 17.2.4.0, the chart on the report is empty!!!
+I attached a demo project with this problem
+PLEASE HELP
+Best regards
+ 

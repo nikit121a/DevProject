@@ -1,0 +1,2 @@
+Hi
+Is there a way to set column width based on headers. I tried everything I could think of, but it's always to wide or it clips the header. Also, I'm unable to make best fit to work. No matter what I do, all the columns are the same size (except for those with set width). Also, I would love to stay away from code behind if possible (ideally all in xaml). Thanks

@@ -1,0 +1,11 @@
+Dear Support Team,
+I am going to use devextreme data grid in MVC project. Why i choose devextreme because i need grid control should be reponsive for any device.
+I need some information about like which framework will be good for me to implement it. I have the case also when some of the page millions of record i need to show also.
+I already tried Devexpress grid where i used custom data binding and it is loading the record as expected.
+The same i need to use here also. Currently using which framework i can able to manage the large data here?
+1. Asp.Net MVC 
+2. Angular
+3. Angular JS. 
+Please suggest me on the above.
+Thanks,
+Veera 

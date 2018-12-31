@@ -1,0 +1,8 @@
+Hi
+I have a gird columns which has a combo box repository and where I filter on display text. The display text is a string for example product name while the real value is a number product_number. So when user makes a filter for example 'Product name like 'somevalue%' it is really product_number in (1,2,3 etc) or something similar.
+I need to save this filter so when a user request the data again I bring only the data he has filtered. 
+So, I need to get the  real value filter form current filter.
+ 
+Kind Regards,
+Hadi Terkawi
+ 

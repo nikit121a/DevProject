@@ -1,0 +1,5 @@
+Dear Team,
+Is there a way to have a connection to a diagramItem at specific connection points & also the connector to follow the angle as shown in the image?
+Let me know if you need more details.
+Thanks,
+Kanika 

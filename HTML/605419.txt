@@ -1,0 +1,3 @@
+Is there any limitations on batch edit or fixed style with horizontal scroll?
+Please see the attached video. The horizonal scroll is correctly displayed, however the user cannot move left-right by clicking the mouse wheel.
+If you try to move left or right nothing happens. When you try to move in diagonal, for example right and upper, the grid correctly moves up, and the headers of the grid starts moving. However when you stop moving, the grid has correctly move up, but not right.

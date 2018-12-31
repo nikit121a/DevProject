@@ -1,0 +1,7 @@
+Hi,
+Is there a way to open and access the full Dashboard Data Source Wizard, say at the click of a simple button on a form? 
+i.e. all pages going from Data source type -> Connection Parameters ->  Query Builder -> Parameters -> Finish
+I've seen that you can create a SqlDataSource and open either the query builder, or connection parameters screens individually using various methods. However I want to be able to run the full wizard and create my data source (SqlDataSource or ExcelDataSource) based on the results. Is this possible?
+Apologies if a similar question has already  been answered, but I haven't been able to find it.
+Kind Regards,
+Geoff 

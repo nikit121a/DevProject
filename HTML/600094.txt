@@ -1,0 +1,6 @@
+Hello,
+I have  a restitution problem after the migration from DevExpress 16.1.5 to DevExpress 17.2.3.
+Linked below two screenshots for the restitution of the same dashboard in both version s. Also Linked below the XML of the Dashboard.
+I use  web dashboard viewer "ASPxDashboardViewer". my XML is stored in the DataBase and loaded when the page is loading.
+Thanks.
+ 

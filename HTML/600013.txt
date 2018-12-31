@@ -1,0 +1,12 @@
+I have the following scenario:
+In an order entry form, the save button cannot be pressed until the entire form is valid.
+When an invalid value is entered into an editor, 
+.
+Most fields need to be validated by a call to our web API.
+I attached a small example to show what I have set up now. 
+MainWindow.xaml:
+MainViewModel.cs:
+This does more or less what I want to achieve, but there is a problem with this approach:
+The validation for the 3 fields is already triggered when the window is loaded. In our order entry form, that would mean dozens of API calls to validate all fields in the form.
+Is there any way to prevent this?
+ 

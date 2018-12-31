@@ -1,0 +1,6 @@
+I was update my DevExpress components, and have many problems
+One of them:
+in old version I used DevExpress.ExpressApp.Web.ShowViewStrategy.CollectionsEditMode
+((ShowViewStrategy)base.ShowViewStrategy).CollectionsEditMode = ViewEditMode.Edit; 
+but in new version   DevExpress.ExpressApp.Web.ShowViewStrategy.CollectionsEditMode is obsolete.
+How can I do it in new version?

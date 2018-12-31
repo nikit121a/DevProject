@@ -1,0 +1,8 @@
+Hi guys,
+I have a column in a GridControl of Type TimeSpan.  If it is 00:00:00, I want it to display "Blue" and the font to be 
+Bold.  How do I do that.  
+I tried this and it does not seem to work.
+<dxg:FormatCondition ApplyToRow="False" Expression="[Duration]==00:00:00">
+                            <dxg:Format Foreground="Blue" FontWeight="SemiBold"/>
+                        </dxg:FormatCondition> 
+Am I doing something wrong?  

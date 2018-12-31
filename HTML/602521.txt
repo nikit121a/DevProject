@@ -1,0 +1,1 @@
+Hen Handling the .DocumentManager.DocumentActivate event is there a way to find the old active documentment?

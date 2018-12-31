@@ -1,0 +1,8 @@
+When I set a item visible true or false it scrolls to the top of the page.
+I reproduce the error in the following plunker:
+You need to open the  preview in the windowed mode like the attached file. Then click on "Show the Phone" checkbox, then it will scroll to the top.
+Other similar error:
+The "scroll to top" also happens on the Tab Panel
+Open it on the preview in the windowed mode then scroll to the botton, then click on the last visible "More space", it will scroll to the top as well.
+Thank you
+Diogo

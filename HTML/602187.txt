@@ -1,0 +1,4 @@
+I have setup Oracle ODBC and can use .NET Framework Data Provider for OLE DB to connect to it.
+Is there any tutorial to setup DevEx GridView extension in ASP.NET MVC5 using MS OLE DB Provider for ORACLE?
+Thanks in advance.
+Paul 

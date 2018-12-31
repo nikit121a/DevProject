@@ -1,0 +1,5 @@
+Hi guys,
+I am using the save the layout feature using xml so the user can save their custom layouts. But I have noticed that it does not save which fields have been expanded.
+Can this be achieved through the xmlsavelayout option? If not would you be able to show how I could iterate through each row to get the expanded state?
+Thanks for your help as always.
+Joe 

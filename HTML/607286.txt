@@ -1,0 +1,1 @@
+I think there might be an issue with font sizes/scaling on the 'Hidden Items' & 'Layout Tree View' tabs. This is running on 17.2.4 iirc, a multi-monitor setup, 40" 4K monitor, Win 10 and a whopping 350% setting for custom scaling. There are also issues on the list itself.

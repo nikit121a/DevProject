@@ -1,0 +1,4 @@
+Suppose I have a form with a SpreadsheetControl. I have also handled the CustomDrawColumnHeader (or RowHeader) events and I am drawing some custom text in the cell header (instead of A,B,C,1,2,3, etc)
+When I look at the Print Preview of this spreadsheet (after turning on the Row and Column Headings), the heading still have the default values instead of the custom values. I'd like to be able to Print and PrintPreview with the custom values.
+Is it possible to achieve this?
+Thank you for the help!

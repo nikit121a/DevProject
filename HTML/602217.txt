@@ -1,0 +1,8 @@
+hi, I'm trying to globalise the 'Green Mist' theme, from 
+,  into my MVC application but I cannot. I know there are quite a few articles about this issue, but I cannot figure out how to do it.
+I copied the css into the contents folder
+I gave a reference into the web.config
+Can you please provide a step by step procedure on how to do it?
+Server Error in '/' Application.
+An unhandled exception occurred during the execution of the current web request. Please review the stack trace for more information about the error and where it originated in the code.             
+System.ArgumentException: Cannot find the 'greenmist_DX' theme.

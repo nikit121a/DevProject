@@ -1,0 +1,4 @@
+I asked a question before for showing error message when any error appears, check it 
+.
+How to apply this same behavior  to dynamic grid control?
+ 

@@ -1,0 +1,13 @@
+Hi Dev-Express-Team,
+I want to create my own propertygrid with two main additional features:
+1) making property fields visible depending on values on other fields
+2) replacing default editors with my own editors, which get nice additional functions because my classes which where shown in the propertygrid get attributes which control the functions of the editors
+My Solutions:
+For point 1) 
+I use the CustomPropertyDescriptors Event. It allows me to dynamically hide properties of my object. It works fine. But I recognice the when i assign a simple object whith only one property, then the event is thrown TWO times. I would expect that this happend only one time. When you have complex objects then the event fires very often -  I think this is not necessary - may be there is a bug????
+For point 2)
+I don't register my editors for a type. Instead of this I use the datasourcechanged event. When the event is thrown I travers threw all rows in the propertygrid analyze the property-descriptors and assign my default (static) editors or my custom tweaked editors to the rows.
+But there are problems with this way. All rows must be expanded before my assignment process. When I do not expand all rows then rows which where expand later do not get my editors. So is there an "expand" event or an event when rows where added to the grid?????
+Another problem is that my assignment gets lost when the grid get an update because of changed values.
+I already used an approach with the custom recordcelledit-event. But when working which this event I can see that this event is fired very very often and the process of creating and tweaking me editors takes some time - so i want to avoid using this event.
+Is there a chance to get it work without customrecordcelledit - or is this the correct that i should use?

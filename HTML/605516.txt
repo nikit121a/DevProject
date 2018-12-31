@@ -1,0 +1,5 @@
+Hello,
+(please find attached my example project) .
+In my project I have a cxgrid with a column named "colore"  that set the color of each row based on its value.
+When I filter the column, the rows aren't colored correctly .
+Please, how do i repaint the grid? 

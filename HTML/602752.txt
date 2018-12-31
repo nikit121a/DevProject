@@ -1,0 +1,3 @@
+I checked the old ticket(
+ ), but this is not what I want because I'm using timelinemonth too.
+Is there any other ways to do this? Also, Is it possible to rename 'Timeline Work Week' to 'Week'

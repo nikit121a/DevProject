@@ -1,0 +1,4 @@
+Hi,
+We have a basic DevExpress GridControl and use the default column chooser functionality however the order of the columns is in ordinality in the column chooser list. We'd like to change to alphabetical. Is there a concise way of doing this? The other samples I have seen for customising the Column Chooser seem a bit overkill for this.
+Thanks,
+Marcel

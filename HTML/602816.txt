@@ -1,0 +1,11 @@
+Hi,
+ I need to customize "Change Image" dialogue in MVC HtmlEditor. I need only use images from gallery and I have already changed some settings - See below. 
+My questions are: 
+1. why I cannot apply changes?
+2. Can I make the width 200 px as default?
+3. Can I make the checkBox selected by default?
+4. Can I select the CSS class as default?
+See also the attached pdf.
+Regards
+/Issa
+ 

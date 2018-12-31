@@ -1,0 +1,12 @@
+Hello,
+I created a custom summary that is work.
+But I use that result at an other calculated field but I did not get custom summary result.
+I add a 
+and 
+ code
+How I can solve this problem?
+pgf_WeekCount.FieldName =WeekCount
+pgf_WeekCount.Tag= #CS_WeekCount#   
+pgf_NewField.UnBoundExpression=[WeekCount]*10
+
+

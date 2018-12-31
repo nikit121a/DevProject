@@ -1,0 +1,8 @@
+PivotRefreshData();  
+Memory is increased when using this method. 
+Is there a way to initialize the memory? 
+Here's the sample project. 
+1. Click the Refresh Start button  
+2. Confirm increase of memory 
+3. Click the Refresh Stop button 
+4. Memory does not decrease. 

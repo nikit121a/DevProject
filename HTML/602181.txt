@@ -1,0 +1,8 @@
+If you have a Report with a datasource that uses the "DisplayName" attribute, it can make the the new expression binding lookup go wrong.
+For Example our datasource is something like:
+public class SomeDatasource
+{ 
+    [DisplayName("Report Data")
+    public ReportData ReportData {get; set;}
+} 
+If you try to drag on the field in the designer from the Field List it will work ([ReportData].[SomeField]).  But if you hit the smart tag of a label and try to set it to an expression it will be set wrong and not work ([Report Data].[SomeField]). Same happens if you use the Expression Editor. 

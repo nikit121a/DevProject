@@ -1,0 +1,3 @@
+Hi,
+I am using RicheditDocumentServer to convert HTML to image, well that works fine but, i am having problem with  height of the image , it is using certain default height, i want to have a image based on the content of HTML text, is there a way to do that?
+For example: if i have a html text like <div> Test Data</div>, this could be of height aroud 80px, so height should be relative to html content .

@@ -1,0 +1,3 @@
+Hello! I need to print a PDF. I've found the Class PDFDocumentProcessor, but I can't set some features, as Color, Size and Source. I've noticed that these features are available on version 17, but I don't have it. Is there another way?
+
+That's my code. I was able to set the page settings, but how can I bind it to the printer, or the docServer? Thanks!

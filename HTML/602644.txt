@@ -1,0 +1,10 @@
+Hi,
+I have created a sample example to demonstrate the issue I am facing, the fiddle has been ran on IE11, Edge, Chrome, and Firefox.
+Firefox and Edge does not give this behavior, however the behavior occurs in Chrome and IE 11.
+Background:
+We have a parent div - that consists of child divs - in one of the child divs this editor is placed.
+The size can dragged around, so height and widgets of the widget can be changed. 
+Dragging the parent to around size around 20-30px, the dxDropDownBox just sits there so that the "Select Value" text is half visible.
+On click (on the dropdown icon), the dxDropDownBox text "jumps" up inside the div and  now the whole dxDropDownBox input box is visible.
+Can you advise on what to do? 
+ 

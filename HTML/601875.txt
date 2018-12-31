@@ -1,0 +1,3 @@
+For some reason my grid is displaying double dropdown buttons on a column that has a memoColumnEdit, please see image attached.
+Thanks
+Simon 

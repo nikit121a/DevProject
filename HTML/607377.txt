@@ -1,0 +1,10 @@
+Hi, 
+We are trying to convert our xaf web application to windows application. Our mostly controller not worked in windows.
+Please help to convert all web controller to windows or any on line converter tools available that will we good for us.
+We have done below function on web for Save and New button in Detail page for multiple data entry. We also tried for Windows but not worked.
+But in Window application it is not working. 
+Our main requirement is that, how we can save and new multiple values in single tab? When we click save and new action then  lookup list view data gets removed from list and other controls value also? How we can preserved value on Save and New button?
+Please suggest how we can do?
+Note: Please suggest any URL for Windows controller.
+Regards
+Deepak Chawan

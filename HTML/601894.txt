@@ -1,0 +1,5 @@
+Hello there!
+i? am uaing the dashboard deaigner, specially the grid. 
+H?ow can you add a record count to it? Also how can u group by? Does this grid has the 
+s?ame functionality aa the xtragrid?
+t?hanks!

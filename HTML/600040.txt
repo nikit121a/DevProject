@@ -1,0 +1,16 @@
+Dear Sirs,
+I should use DXGrid for first time. To illustrate my problems I take one form in separate project and attach it to my Ticket.
+My question is:
+ 1. I should to create DataGridControl wich:
+  * Receive rows from ItemsSourse. User can not add new rows in grid. 
+  * First column is read only
+  * In second column user have to write positive float or double with mask "0.00"
+  In may example all columns is read only, and I don know how to change this.
+ 2. When user use touch screen monitor I would like to write number using numeric keypad on my window. In other TextBoxes on window I write from code behind in last  focused TextBox. How I can use my numeric keypad on Window to write in DataGridControl.
+ 3. How I can get total value of column without calculate it again.
+5. Next my step is to use TreeView. I have to search in list of Customers organized in group, subgroups and ....  Please if exist send me link to appropriate example.
+ Thanks in advance,
+ George
+ 
+ 
+ 

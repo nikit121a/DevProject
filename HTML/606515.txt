@@ -1,0 +1,6 @@
+HI,
+On your Spreed Sheet Formula Bar
+When i use your Sum it does not work. It just puts a 0 for total
+for example; =SUM(C2:C8) would result in 0
+even  when all the cells are format to number and each of the cells have a value of 5
+Does it matter that all these numbers where added from a mysql data base to the spreadsheet control 

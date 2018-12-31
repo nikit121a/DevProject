@@ -1,0 +1,11 @@
+Hi there,
+Having issue with integrating third party HTML editor into dxDataGrid (using CKEditor 5). I managed to show third party HTML editor in the dxDatagrid, but having issue is with saving and displaying data in the editor.
+My dxDataGrid code:
+My Editor JavaScript code for editor which i am using to call on Initialized event.  
+However, always HTML editor data is empty and do not display any value inside editor. I tried assign values in different ways:
+1) $("#isdDescription").val("<p>xxxx</p>") - did not work.
+2) $("#isdDescription").cellValue(rowIndex, "isdDescription", "<p>xxxxxxx</p>") - did not work.
+3) Tried to add onValueChanged event  like - onValueChanged("function(args) {   setValue(args.value); }") - did not work.
+So not sure how to make it work together.  (I attached picture that i managed to achieve only)
+Could you please advise me how to fix this issue or find alternative solution if i want to allow for user to enter HTML elements in the description?
+ 

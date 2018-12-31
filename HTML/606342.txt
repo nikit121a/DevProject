@@ -1,0 +1,5 @@
+Hi Guys,
+we sometimes have the situation that at runtime an exception occours on listview with enabled server mode - in this situation, as you know, the grid Shows empty rows - thats it.  now the problem is that it is really hard to determine what the exact cause of the problem is - today i had to get the customers database to see that an DevExpress.Xpo.Exceptions.CannotLoadObjectsException (because of an not correctly configured sql replication.)
+so can you suggest any way how this can be logged at runtime - currently there is no chance to find the problem because nothing is shown in the grid (error symbol / dialog or whatever)  and also nothing is logged to the logfile? also switching to client mode did not helped today (sometimes this way you get the error message).
+thx
+Noxe 

@@ -1,0 +1,6 @@
+USING XPO to import and existing DB 
+Enabled  "Generate Classes for VIEWS" 
+It creates the View from the exisitng database View.
+When I go to turn the application?  No data is loaded? 
+But when I run a SQL query againts the view there is data? 
+Did i miss a step? 

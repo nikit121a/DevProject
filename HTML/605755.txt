@@ -1,0 +1,1 @@
+I have a DocumentManager and DockManager in XtraForm1. I added two Tabbed Panels using the DockManager designer. However there are Duplicate windows added when I run the application. I;m assuming I'm not doing something correctly.

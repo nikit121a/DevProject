@@ -1,0 +1,23 @@
+Hi
+I believe that there is an error in 
+in that the timer should be the first object destroyed.  
+The current code is:
+destructor TdxSpellCheckerCheckAsYouTypeMode.Destroy;
+begin
+  FreeAndNil(FCheckThread);
+  FreeAndNil(FCorrectWords);
+  
+  FreeAndNil(FMisspelledWords);
+  FreeAndNil(FViewInfo);
+  DeallocateHWnd(FSyncHelper);
+  DeleteCriticalSection(FCurrentWordInfoLock);
+  DeleteCriticalSection(FLock);
+  inherited Destroy;
+end;
+In a very specific scenario it is possible that the timer can fire after 
+but before it is freed itself.  This leads to an AV in procedure TdxSpellCheckerCheckAsYouTypeMode.StartSpellingThread as FCheckThread is now nil.
+I've managed to reproduce in a test app, but I think the timing may be critical so it may be difficult to reproduce if your PC is faster/slower than mine.  Anyway, to test, please create a new project, delete Unit1 and replace with the units attached, set TForm1 as the mainform and then run.
+If you wait a second or two and then press the button, you should see an AV.
+If I change the order in the destructor, to free FDelayTimer first, then the AV goes away.
+Kind regards
+Chris 

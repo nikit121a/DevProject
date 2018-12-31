@@ -1,0 +1,16 @@
+I've encountered a problem when copy-pasting filter strings within the Text tab page from the FilterString editor the filterString is processed incorrect when dealing with a Boolean Value.  
+Steps to reproduce in demo center:
+1. Open report designer
+2.  Add boolean field
+3. Add filterString via FilterString editor on band and use boolean field in expression
+4. Close  FilterString editor dialog via OK button -> Results in FilterString "[FIELD] = 
+"
+5.  Reopen FilterString editor 
+6. Copy (Ctrl-C) expression in Text tab page "FIELD = 'YES'"
+7. Clear filterString in Text tab page
+8. Close  FilterString editor dialog via OK button -> Results in FilterString ""
+8.  Reopen FilterString editor 
+9  Paste (Ctrl-V) expression in Text tabpage "FIELD = 'YES'"
+10. Close  FilterString editor dialog via OK button -> Results in invalid FilterString "[FIELD] = '
+'"
+See attachment for example in demo center. 

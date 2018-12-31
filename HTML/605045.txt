@@ -1,0 +1,4 @@
+Hi all,
+I have a form that i need to show 2 independent gridview, but when scroll down, I need to scroll both of them together. For both views, the scroll will be invisible, only the external scroll should be visible (the one that belongs to the scrollable control).
+Regards,
+Lucas 

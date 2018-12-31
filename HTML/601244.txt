@@ -1,0 +1,20 @@
+Hi, 
+I am trying to change property captions at runtime based on another propertys value. 
+Simple i have a Master object with single property named 'Year'. 
+And i have a non persistent object which has a reference to master object. 
+In that non persistent object there are properties named 'Month1', Month2', .... and so on. 
+I want to change those properties captions to 2017 / January, 2017 / February .... and so on when the NonPersistentObject.MasterObject property changed. 
+I have attached a simple project that shows my issue and how i did try to do the required task. 
+To see problem on sampel; 
+1- Run the program. 
+2- Select first (2016) record on the MasterObject ListView
+3- Click the SAmple Action to invoke the Non Persistent object's DetailView. 
+4- See that Month Captions didnt change. They are : MONTH 1, MONTH 2, MONTH 3 and so on..
+5- Dont close the detailview and SELECT the 2017 master object. See that the captions changed like 2016 / JANUARY, 2016 / FEBRUARY .. and so on. This is wrong they were must be the initial caption when the detailview shown. 
+6. Dont close the detailview and SELECT the 2018 master object. Note that the captions didnt change again. 
+7- Dont close the detailview and SELECT the 2016 master object. See that the captions changed like 2017 / JANUARY, 2017 / FEBRUARY .. and so on
+I am trying to achive my goal in ViewController_ItemCreated and ObjectSpace_ObjectChanged events in the Module.Web  NPSampleNonPersistenObject_VCD viewcontroller. You can check the code for more details. 
+Any help will appreciate. 
+Thanks. 
+Ak?n G?NE? 
+ 

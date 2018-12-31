@@ -1,0 +1,5 @@
+Hi,
+I would like when report is run on mobile devices the  mobileMode set to true automatically and on desktop set to false
+can you send me a snipped code to manage this .
+note: mobilemode work fine on touch devices,  but on not touch, navigation is impossible.
+Thank y

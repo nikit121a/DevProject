@@ -1,0 +1,14 @@
+Hello, 
+I'm using Gantt view, i have a problem when scrolling, when i select an appointment, the scrolling using mouse wheel gets very slow, like if keeps focus on the appointment, so i tried to rewrite the event OnMouseWheel.
+but it doesn't seem to work, i tried all 
+ResourceNavigation.NavigateForward();
+ResourceNavigation.NavigateLast();
+ResourceNavigation.NavigatePageForward();
+ResourceNavigation.NavigateBackward();
+ResourceNavigation.NavigateFirst();
+ResourceNavigation.NavigatePageBackward();
+No success,
+also i have a problem when i try to drag an appointment outside the visible zone, i don't know if it's related.
+is there another approach to this, or a parameter that i should activate deactivate ?
+thank you,
+Kind regards,

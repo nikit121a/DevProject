@@ -1,0 +1,4 @@
+Our PostgreSQL database has 10s of thousands of functions defined. When trying to edit queries through the query editor (both in the visual 
+studios designer and the web report designer), we experience an OutOfMemoryException error when loading these functions. Is there anyway around this? Is there a way to edit the query used to populate the stored procedures in the editor so that we can filter out the functions/stored procedures we don't want returned?
+Thanks,
+Property Matrix

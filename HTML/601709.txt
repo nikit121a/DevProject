@@ -1,0 +1,9 @@
+Hi,
+ I have  One of the xpo object like PropertyCleaningHistory object
+now  i am apply filter like this 
+ var CustomerReceipt = new XPCollection<MMXPO.PropertyCleaningHistory>(uow);
+CustomerReceipt.Criteria = CriteriaOperator.Parse(" FranchiseCode = ? and PropertyID.CustomerID.CustomerID  = ? and DateVisited = ?  ", FranchiseCode, CostumerID,DateVisited);
+here DateVisited= 01/31/0218 4:30 PM 
+ 
+This is not giving any result but i am having the data in table with selected date
+ 

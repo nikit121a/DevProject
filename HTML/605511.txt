@@ -1,0 +1,14 @@
+Hi,
+ 
+In DevExpress 15.2 SNAP functionality we've noticed weird behavior in how the images are saved in Snap Document WordML.
+ 
+When the SNAP application is build and running in x64 mode (please not that this behavior is not reproducible on x86), every time document is saved, the base64 bytes of image saved in WordML change despite the fact image was not changed on document. The easiest way to reproduce it is:
+1. Create new SNAP document
+2. Add any image
+3. Save the document.
+4. Save the wordML file using snapControl.Document.GetWordMLText method
+5. add a line of text to the document
+6. Save document again
+7. Save the wordML again. The wordML file created in #4 differs by a few bytes (a few characters in base64string) in the image/picture xml tag.
+Is there any way to make it work the same as x86 version where file bytes/base64string are not changed?
+Thank you.

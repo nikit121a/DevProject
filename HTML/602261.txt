@@ -1,0 +1,14 @@
+Hello
+I have a main form that contains main menu and I have subform and it contains submenu,
+I'm using TabbedMdiManager for both forms, but I couldn't open the subform it gives me an error on " frm.MdiParent = this; "
+I'm using this code to open the forms
+            Form1 frm = Application.OpenForms["Form1"] as Form1;
+            if (frm != null)
+                frm.Focus();
+            else
+            {
+                frm = new Form1();
+                frm.Name = "Form1";
+                frm.MdiParent = this;
+                frm.Show();
+            }

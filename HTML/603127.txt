@@ -1,0 +1,14 @@
+Hi guys,
+We are facing a  problem in XAF Web.
+When user uses IE 9 or 10 there is strange behavior when user try to change filter above GridView. I attached a simple sample.
+Use case:
+- turn on compatibility view settings for domain you testing on - IE 11 -> Settings -> Compatibility View Settings -> Add localhost:port
+- run app
+- DomainObject1_ListVIew should be initial view
+- Press F10 Developer tools in IE and change compatibility to IE 10 or 9
+- Open some other app (chrome, word, Visual studio whatever application) in front of IE
+- do not minimalize this whatsoever application just in taskbar choose IE again (whatsoever app should stay open not minimized behind IE window)
+- then try to change filter above DomainObject1_ListView - after click on some filter IE is throwed to background and whatsoever app is pushed to front
+ This behavior is pretty annoying and most of our cusomers uses IE 10 which cause problems a lot. From what I read on the internet some css could cause this behavior in IE9/10 (can not remember which one).
+Could you please somehow fix this? IE 11 and other browsers are ok this roblem occurs only in IE9/10.
+Thanks a lot 

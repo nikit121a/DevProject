@@ -1,0 +1,7 @@
+Hello
+We have a report with a number of charts in the Report Footer. We calculate the values 'manually'  using the BeforePrint of the field:
+Every time we use the in-report sort the chart values are increased by the number of records (refer attached video and screen shots). I have tried resetting the counter values (e.g. IR1) in the report BeforePrint but the new value is ignored.
+How can I ensure that the correct values are always displayed in the chart?
+Thanks
+James
+ 

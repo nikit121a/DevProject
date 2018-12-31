@@ -1,0 +1,10 @@
+Hello there,
+In my app I have the following situation;
+On a view I have a grid bound to a collection of viewmodels (as opposed to a bunch of model objects).
+From that view I want to open the selected viewmodel in a new tab in my docmanager. Which I can do as per the below code;
+Now, in the code above, the SelectedVM is passed as a parameter to my viewmodel and that is all good and working but my query is, how does one actualy set the datacontext of the view from the viewmodel?
+One could write this question another way as "How do I set the datacontext of the view from a passed in parameter?"
+Does this situation possibly smack of bad design? Do people often bind gridviews to collections of viewmodels?
+Thank you kindly for any thoughts
+John
+ 

@@ -1,0 +1,19 @@
+I am using GridControl in server mode to show some sort of events. Each event is represented as a record in the SQL table. New event occurs every few seconds. It works fine.
+Some days ago my customer asked me to add export  contents of this grid to Excel.
+I was very happy to find GridControl.ExportToXlsx function. I spent only about half an hour to add it to my code, everything worked fine in my laboratory.
+But it didn't work at the customer's site. The  output file simply wasn't created. No message at all. Just no output file and no message.
+So the first question is: why exceptions are catched and simply ignored?  It is very difficult to find the cause of the error if you don't know what's going wrong.
+Then I turned on the first chance exception catching and logging :
+06.02.2018 13:44:13 !!! First chance exception:
+06.02.2018 13:44:13 System.IO.FileNotFoundException
+06.02.2018 13:44:13 Could not load file or assembly 'DevExpress.Mvvm.v15.2, Version=15.2.17.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' or one of its dependencies. The system cannot find the file specified.
+06.02.2018 13:44:13    at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.LoadWithPartialNameInternal(AssemblyName an, Evidence securityEvidence, StackCrawlMark& stackMark)
+Very strange. Visual Studio has included in the setup package all the referenced by my program assemblies, except this one. Ok, I have included it manually. But I can't ever imagine how I have to know that it is to be included? This is the second question.
+At last, I have included the Mvvm assembly in the setup package and then I have got the third problem: 
+06.02.2018 13:44:41 !!! First chance exception:
+06.02.2018 13:44:41 DevExpress.Data.Helpers.InconsistencyDetectedException
+06.02.2018 13:44:41 Unexpected number of rows returned: 768021. Expected: 768020
+06.02.2018 13:44:41    at DevExpress.Data.Helpers.ServerModeCache.RaiseInconsistencyDetected(String message)
+ I supposed that it is happened because the ExportToXlsx code gets numer of records several times during it's execution. But it is the server mode data source and records are adding to the SQL table continuously by another program. I tried to filter these records by date (show only events earlier than February 1st) - and everything worked fine, because there were no new events inside this filter. But without this filter the ExportToXlsx routine permanently fails because new records are continuously adding.
+The third question is: what can I do with this situation?  How can I export to Excel my continuously updating data source? This is the most important question.

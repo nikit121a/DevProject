@@ -1,0 +1,6 @@
+Why are the Field Boxes so tiny in the Popup Editor.
+I have ColCount 30 ....  and the fields have colSpans of 7 or so each..      They LOOK good but the popup editor ends up with TINY, uneditable entry fields?
+Is there some padding issue ?  where (how) would I change that ?   Any ideas ?
+Thanks
+Brian
+ 

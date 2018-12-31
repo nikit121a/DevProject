@@ -1,0 +1,3 @@
+I hope i explain this correctly.  (XAF -Navigation->Listview)
+Currently when user select a ListView , it retrieves all the information.? 
+How do I 'ask' for query search parameters first? 

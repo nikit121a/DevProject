@@ -1,0 +1,5 @@
+Hi 
+ I am doing obfuscation of wpf applicaion.
+ After obfuscation the IDialogServices stop executing.
+ 
+  

@@ -1,0 +1,4 @@
+I am using this function in code currently to locate specific nodes.
+ Is it possible to locate a node in similar fashion by using multiple values?
+ Example of what I am trying to accomplish below.
+Any help is appreciated.

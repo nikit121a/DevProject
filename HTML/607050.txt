@@ -1,0 +1,4 @@
+Hello team,
+In one of my screens I am having a gridview with filters enabled, Now my requirement is to restrict users from entering any 
+ in it. So is there any event through which I can do this.
+ 

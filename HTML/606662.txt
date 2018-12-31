@@ -1,0 +1,6 @@
+Since Version 17.2 I get an AV on closing my Application (see attached screenshots).
+This only happens in my biggest Project.
+In other or new Projects it does' nt happen.
+This is why it's impossible to make a sample application.
+At the Moment I go back to Version 17.1.
+Frank Reim

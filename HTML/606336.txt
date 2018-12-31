@@ -1,0 +1,6 @@
+Attached is a sample project demonstrating the issue.
+1. Open the Customers ListView.
+2. Open the Customer DetailView.
+3. Click the Show Orders action.
+4. Click the Save and Close action.
+The "dc" variable is a null reference, while it should point to a DialogController instance.

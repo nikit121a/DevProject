@@ -1,0 +1,5 @@
+Hi,
+How can I do to fix this issue:
+Some grid display spcial characters correctly, but others no.   For example, the characters "?" and "?" is displayed correctly in the grid "gridComisiones", (please see the attached file) but in the grid "gridJefesSupervisores" a quiestion "?" character is displayed.
+I attached web.config, my aspx page and an image to sign the issue.
+Thanks in advanced! 

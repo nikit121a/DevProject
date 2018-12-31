@@ -1,0 +1,5 @@
+New in 17.2.5 !
+A filter on the column before grouping has an undesired effect.
+The type of filter (eg, Is greather than) has disappeared (Equal is applied).
+Result, the grid is emptied.
+See doc in attachment to reproduce it.

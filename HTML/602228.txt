@@ -1,0 +1,5 @@
+Hi,
+i rotated a XYDiagram with two panes because i needed a horizontal  bar in the bottom pane.
+Now the points in the upper pane seems to be sorted wrong, see the attached screeneshot.
+How can i make the line go left to right again?
+Edit: The points are in the right place, it is just the line thats going top to bottom

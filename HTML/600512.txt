@@ -1,0 +1,4 @@
+Hello,
+when using ForceDirectXPaint option, my gridview starts flickering when loading and changing  tab pages.
+Please look at the attached example
+ 

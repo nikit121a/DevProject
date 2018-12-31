@@ -1,0 +1,4 @@
+Hi!
+look our v?deo attach (after 1min) ..
+- in winforms the filters Works fine..
+But, in webforms, the "Loading" ("Carregando") not hide after click in some filter.. 

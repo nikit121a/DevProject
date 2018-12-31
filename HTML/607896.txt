@@ -1,0 +1,22 @@
+Hi,
+Could you tell me what the equivalent is in WInforms of how I print in ASP .NET?
+Basically I have the Report and I want to only display a PrintDialog to the user when they're ready to print, I don't need to display the PDF.
+Thanks for your help, Jack
+This is the code I use in ASP .NET Page_Load:
+Dim r As New XtraReport()
+r = CType(Session("MechReport"), XtraReport)
+Using ms As New MemoryStream()
+r.CreateDocument()
+Dim opts As New PdfExportOptions() With {
+.ShowPrintDialogOnOpen = False
+}
+r.ExportToPdf(ms, opts)
+ms.Seek(0, SeekOrigin.Begin)
+Dim report() As Byte = ms.ToArray()
+Page.Response.ContentType = "application/pdf"
+Page.Response.Clear()
+Page.Response.OutputStream.Write(report, 0, report.Length)
+Page.Response.End()
+End Using
+ 
+ 

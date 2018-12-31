@@ -1,0 +1,7 @@
+Hi ,
+I would like to pass the value of a dependency property to a mainviewmodel. 
+As you can see in the example attached, I have a MainWindow that simply calls the other View called Main.
+In its model I have two properties, Property1 and Property2. I want to set these properties and pass them to the TestView View.
+TestView has a Dependency Property Called MyProperty and a field Called "LabelValue".
+I don't know how to join MyProperty with LavelValue in the ViewModel.
+Could you please help me?

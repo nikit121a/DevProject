@@ -1,0 +1,17 @@
+Hi DevExpress Support,
+I understand from documentation & from my previous discussions with DevExpress technical support, 
+ event is used to for cell level customization. I followed this approach and I have few queries regarding the performance.
+Above code is fairly simple (I have even more complex usage in my project), in this piece of code I'm just setting 
+ on Cells based on defined criteria. Obviously you might notice that I'm creating many 
+ objects (Font is immutable), this leads error 
+(Screenshots attached) . I even used perfmon to monitor number of objects sitting around and the number getting promoted to higher Generations, trust me it is pretty high.   
+Based on above I have following questions -
+1. Are there any way to avoid creating 
+ objects?
+2. Is there anyway we can safely dispose these objects (Any API call)?   
+3. I have also noticed a performance degradation when subscribing to "
+" event (Screenshot Attached).
+I really appreciate any quickest help on these queries.
+Thanks,
+Hari Prasad 
+  

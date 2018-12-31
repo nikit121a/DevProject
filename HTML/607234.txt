@@ -1,0 +1,4 @@
+Hi,
+I have a grid whose Data Source is  bound to a BindingList.
+For some reason as I get new items added to the  list the grouping is not maintained. Whereas if I use a normal list and apply a gridcontrol.Refresh() after updating the list the grouping is maintained.
+See attached picture for example of issue. 

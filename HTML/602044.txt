@@ -1,0 +1,7 @@
+Hi,
+I've attached sample solution to show You my problem.
+I have  2 the same GridControls with filtered columns - 1st grid have column filter to "Column = Unchecked", 2nd grid have column filter to "Column = Checked". Both of grid are bounded to the same collection from the same object.
+I have in both simple InitNewRow procedure that on 1st grid sets column to Unchecked and on the 2nd grid sets column to Checked .
+When I want to add record on 1st grid it appers on the 2nd one too - it's not filtered by the GridView conditions.
+Try add new record to one of grid in  Sample Solution, which I've attached.
+Maybe there is other way to do this binding to make it working correct? 

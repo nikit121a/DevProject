@@ -1,0 +1,7 @@
+Dear Support Team,
+I have to use DevExtreme Vector Map to show USA Country. I tried below one but it is not working.
+In above commented DataSource i tried to use static langtitue and longtitude for USA but nothing is showing in the page.
+I also need here can i show some markers based on the city zip or address?
+Please help me.
+Thank you 
+Veera 

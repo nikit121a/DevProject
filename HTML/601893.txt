@@ -1,0 +1,9 @@
+Hello,
+I have DocumentManager and WindowsUIVIew on my UserControl.
+The WindowsUIViews contains 4 documents and tile container.
+When I set layout to Adaptive and add 4 tiles, there is scroll bar visible. Scroll bar is useless. 
+How can I remove scrollbar?
+Sample has been attached.
+Best regards,
+Patrick
+ 

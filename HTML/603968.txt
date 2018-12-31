@@ -1,0 +1,10 @@
+Hello!
+I have the following BO's:
+- Workgroup
+- User
+- WorkgroupMembership
+WorkgroupMemebrship links User and Workgroup and defines Role of the user in Workgroup. WorkgroupMemebrship has the following properties: Workgroup, User and Role.
+I need to implement the following scenario - certain users can have rights to delete WorkgroupMemeberships if Role = 'Member'. These users cant do anything to Workgroup or User and cant edit WorkgroupMemebrship, but must be able to delete it.
+When i tried to implement this, i have stumbled on the issue - Delete action is not enabled due to security permissions. It appears that i need to let user to edit Workgroup and User properties to enable user to delete WorkgroupMemebrship object.
+Is this by design? Is there any way to only let user delete object without granting him Write permissions?
+Thank you! 

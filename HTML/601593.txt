@@ -1,0 +1,4 @@
+Hi,
+I have a dxdatgrid (using lazy loading) when I make export I want all the data to be exported NOT only the loaded one.
+I tried to change the store onExporting but that's not working (only loaded data was exporting).
+ 

@@ -1,0 +1,3 @@
+Hi Team!
+When I click the Edit button, the treelist changes the sequence of nodes. How to avoid this behavior?  
+Follow video attached for demonstration 

@@ -1,0 +1,7 @@
+Hi.
+I'd like to use the HTML 5 JS graph control in asp.net and generate the series programmatically.
+I am currently  using the WebChartControl, but I do not like the fact that I cannot resize it with the page.
+I tried to  find a web form project using the HTML 5 JS components, but could not find one.
+Do you have a sample?
+thanks!
+Cristian 

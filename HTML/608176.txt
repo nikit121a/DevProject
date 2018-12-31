@@ -1,0 +1,7 @@
+Dear, Devexpress Support
+In TcxTableView (e.g.) when use Column.PropertiesClassName = 'TcxLabelProperties', then set TableView.DataController.FindFilterText.
+In this case filtering is working but does not highlight text in this column. If  PropertiesClassName = 'TcxTextEditProperties' then filter text in column is highlited.
+Is this behavior by design, or could be implemented?
+We are using LabelProps for read-only columns, but need ability to filter with highlighting.
+Best regards,
+Anatoliy 

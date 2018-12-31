@@ -1,0 +1,5 @@
+Hi Guys, 
+We need to adapt the Responsive web template in order to respect some internal guidelines.
+I think all changes will be matter of changing css styles without touching the html template layout.
+How can we edit the CSS? 
+Is there any theme customizer tool?

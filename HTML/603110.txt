@@ -1,0 +1,4 @@
+Hello Anatol
+Thanks for the work around. Unfortunately this does indeed solve the problem with the action buttons, but creates a worse problem: The actions, firlters and so on are not displayed at all when switching to that tab (if a filter is present)...until....I check an item. I will have to leave it as is until this problem is fixed, since the alternative is a lot more confusing for the user.
+Regards
+Chris

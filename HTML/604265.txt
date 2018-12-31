@@ -1,0 +1,7 @@
+Hi,
+I am working on a  graph that uses ChartControl , XYDiagram2D, LineSeries2D  (WPF)
+If multiple Series are being shown, is there an easy way the user can quickly change 
+Marker, Line Style, Color, Visible properties of these series items  by clicking on the legend or other means.
+The requirement specification that was given is that the end-user would be able to click on any aspect of the legend and be able to change its properties.  For example, if the user clicks on the line, the user would be able to modify its thickness and style directly from the legend.  Is this something that is currently possible?  If so, do you have an example showing off this capability?
+Thanks
+ 

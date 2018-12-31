@@ -1,0 +1,6 @@
+Hello,
+Since the update to version 17.2.5 we observed the following behavior in the spreadsheet:
+A simple click on a cell change the value of the Modified property to true and enable the save button of the ribbon even if no proper modification has been done.
+The behavior has been observed in both our own project and the different examples you provide.
+Do you plan to go back to the previous behaviour, which, we think, was more logical ?
+If no, is there a way to handle the Modified  property ourselves and retablish the previous behaviour in our project ? 

@@ -1,0 +1,8 @@
+Hi,
+When I copy this exactly: 
+I get these errors in SplashScreen1.cs:
+   The name 'InitializeComponent' does not exist in the current context  
+   The name 'progressBarControl1' does not exist in the current context   
+What is wrong please? Do I need to add references to my project?
+Kind regards,
+Alex 

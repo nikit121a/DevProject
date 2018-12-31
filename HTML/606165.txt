@@ -1,0 +1,5 @@
+Hi,
+I have tested ASPxTreeView against UltraWebTree (Infragistics) by using similar methods.
+It has been found that the first method works much slower than second.
+Can you please have a look and advise whether there is a way to improve the performance of ASPxTreeView? 
+Here is the method that uses ASPxTreeView.

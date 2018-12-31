@@ -1,0 +1,32 @@
+Hi,
+i have problem with Html.DevExtreme().DataGrid and TextArea in popup form, if i customise edit popup form with code bellow,then form does not show correctly TextArea that is not multiline but only one line and in html source is used <input>....</input> and not <textbox>....</textbox>.
+I try use this in Html.DevExtreme().Form.... and in form it works well, bud i need multiline textarea in datagrid edit form.
+Can you help me?
+          .Editing(c => c
+            .Mode(GridEditMode.Popup)
+            .AllowAdding(true)
+            .AllowUpdating(true)
+            .AllowDeleting(true)
+            .Popup(p => p
+                .Title("title")
+                .ShowTitle(true)
+                .Width(700)
+                .Position(pos => pos
+                    .My(HorizontalAlignment.Center, VerticalAlignment.Top)
+                    .At(HorizontalAlignment.Center, VerticalAlignment.Top)
+                    .Of(new JS("window"))
+                )
+            )
+            .Form(f => f
+                .LabelLocation(FormLabelLocation.Top)
+                .ShowColonAfterLabel(true)
+                .Items(i=>
+                {
+                    i.AddSimpleFor(m => m.Date);
+                    i.AddSimpleFor(m => m.Note)
+                        .Editor(e => e.TextArea()
+                                              .Height(90));
+                }))
+          )
+Thank you
+  Mirek 

@@ -1,0 +1,12 @@
+Hi,
+I have configured some reports for a client of ours.
+These reports use an SQL data source with 2 Stored Procedures that return the necessary data.
+The stored procedures that do not use parameters work fine.
+The other stored procedures  that do use parameters do not return any data.
+I have configured the report to use two parameters. One called "StartDate", the other one "EndDate". Both are of type Date.
+My stored procedures that use parameters have two parameters configured. One called "StartDate" and one called "EndDate".
+These are both of type "Expression". The value for the StartDate parameter is [Parameters.StartDate]. The value for the EndDate parameter is [Parameters.EndDate] .
+I believe this is the correct configuration to pass Date parameters from the report to the stored procedures. Unfortunately this does not work.
+The stored procedures do not return any data.
+Could you tell me how I can configure the report and stored procedures so that they actually return data?
+Thanks.

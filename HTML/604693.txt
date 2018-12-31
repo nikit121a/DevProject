@@ -1,0 +1,3 @@
+Hi,
+Why download button in the file manager is disabled when file manager lost focus? Is it possible to keep it enabled?
+Thanks 

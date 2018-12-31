@@ -1,0 +1,4 @@
+Hi,
+RichEdit Control is rendering the SmallCaps font. The control is ignoring the font and rendering it as normal lowercase font. Can you please let us know if there are any parameters I can change to support SmallCaps font.
+Appreciate your earliest response.
+Thanks. 

@@ -1,0 +1,9 @@
+Hello
+I was wondering if there is a way to globally set a preference/default for the textoptions property of an appearance object.
+Typically I like to set on a grid the row and heading settings to textoptions.trimming = none because I don't like the appearance of the ellipses, i'd rather just see it chopped off.
+I do this on every single grid so wondered if there was a way to change this globally. 
+I'm aware I could subclass the grid to provide some of this functionality but it just feels like a sledge hammer to crack a nut.
+Is there anything like:
+LookAndFeel.Default.Appearance.TextOptions = None that I could set and would affect everything?
+Regards
+Andrew 

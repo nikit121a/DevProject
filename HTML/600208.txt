@@ -1,0 +1,4 @@
+Hello.
+I'm looking for a component (ListBox) to display large number of items in a WrapPanel manner (horizontally first, then vertically).
+I want also to group that list  using several levels of grouping.
+Does dev express for WPF have control for that? 

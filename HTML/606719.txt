@@ -1,0 +1,15 @@
+Hello Support,
+ Group summary and summary footer are visible . Summary footer gives following options through menu
+Add New Summary
+Summary options
+None
+Clear Summary Items
+at group summary level, I am getting only Summary options and None. How can I get same informat ion here.
+Group summary and summary footer are visible . Summary footer gives following options through menu
+Summary options
+None
+All Nodes
+at group summary level, I am getting only Summary options and None. How can I get same informat ion here. 
+Is it possible to have same functionalities as grid is having for summary. If not then fine, but group summary menu should have same options as summary footer.
+Thanks
+Sandip Kumar 

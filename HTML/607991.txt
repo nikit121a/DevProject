@@ -1,0 +1,10 @@
+
+Hello. 
+How can i select, to show only 'open' records?
+the 'closed' records are marked as 'Task_Completed' in field [VorgangStatus] (int, NULL)  
+
+
+
+
+Regards
+Juergen

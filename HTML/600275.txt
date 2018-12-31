@@ -1,0 +1,4 @@
+I have been following some training on your YouTube channel (
+) and have run into a stumbling block. I have a project with a single form, 1 SQL Express database and I have created the EDMS files using your wizards as requested in the demo. Now when I try to add a data source as shown a 1:18 in the training I get a very different experience and only have "Database, Service, Object, and SharePoint" as options.
+What am I missing? 
+I have read extensively through the DE help and there are a number of references to adding a  public variable and other bits and pieces but (1) nowhere is it explained where to do this and (2) it's not part of the training so I suspect it's a red herring.

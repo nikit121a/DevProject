@@ -1,0 +1,5 @@
+Follow up to 
+A data grid using a custom data store is to only be viewed some of the time. I'd like to defer the load until I know that the user is going to be viewing the grid.
+How do I modify a data store to return an empty array, as in that previous answer?
+Using DevExpress.data.AspNet.createStore()
+Blanking the load URL until the condition is met (and then calling refresh) does not work, the page itself is called instead.

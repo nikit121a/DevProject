@@ -1,0 +1,8 @@
+Hello there, I have yet again another issue with the MVVM framework that I need your expertise with.
+We have a project with views and view models created by the WPF Scaffolding Wizard.
+In the detail view / single object view for an entity, there are some (string) properties where we want to provide suggestions in a ComboBoxEdit or similar. These suggestions should be all distinct values that are used for this property.
+In one case, we want those only as suggestions and the user is able to  enter a different value, in the other case the user can only choose from  those values. This should replace the standard text edit control generated for this strign property.
+For example, if there are 4 entities of class Component with a property "Material", with 3 having material "Wood" and 1 having "Metal", we want a combo box containing the two entries "Wood" and "Metal".
+I tried adding a LookUpMaterial property to my view model that returns the result of "GetLookUpProjectionsViewModel", following examples on 
+, but the combobox was either empty or contained only one element. I could just use a List<String> that is a result of a simple LINQ query, but that didn't get updated when new values were added.
+Thank you!

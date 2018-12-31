@@ -1,0 +1,9 @@
+I'm trying to develop a custom GroupControl, where a specific header button is available by default, and a specific event is fired when that button is clicked.
+I've tried to do this by using inheritance, see following code:
+Now, when I add this control to a 
+ whose 
+property is 
+, and I switch between languages, every time I switch language this custom button (reset) keeps getting added to the CustomHeaderButtons of the GroupControl. In other words, after switching between 5 different languages, the reset button is duplicated 5 times.
+Previously, before overriding `CreateButtonCollection`, I used the designer of FilterPanel to add the custom button, but this resulted in the same problem.
+I hope the problem is clear from my description, if you need screenshots or other information please let me know.
+Thanks in advance.

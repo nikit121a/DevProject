@@ -1,0 +1,2 @@
+How can I set the Header Text colour for a DockPanel?
+The attached  project has a button to try and update the Text for the main panel 

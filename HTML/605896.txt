@@ -1,0 +1,13 @@
+Hi team,
+I am trying to retrieve selected items using the implementation listed in the link below:
+The following implementation has got code behind which is adding or removing Selected items of grid. Ideally, if it should be done automatically if we have bound property to SelectedItems   (just like ListBoxEdit.CheckedStyleSettings => EditValues), however, it does not hit that bound property at all. Is there any way, we can get those selected values without adding code behind in data grid view. Thanks.
+Snippet of code: 
+(Skipping lines that are not required to be shown)
+View.Xaml
+
+
+
+
+ViewModel.cs
+
+

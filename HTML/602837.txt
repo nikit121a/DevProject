@@ -1,0 +1,20 @@
+Hello,
+I was testing a Web page with different Browsers that I had only used IE with before.
+What I found was a difference in behavior with IE and Firefox vs Chrome and Edge.
+I have a Popup that I share a lot of pages with. When the popup is closing I do 2 things.
+In JavaScript, first I kill the Popup's Url and then I clean up some Session vars on the server.
+In IE and Firefox this goes to the server "only" for the callback. But in Chrome and Edge it goes
+to the server twice. First for the popup's url or whatever, not as a postback or callback, and
+then secondly to the server to kill the session vars.
+I happened to see the problem because on the server-side a have a Page_PreRender Sub that
+has call that Cleans out all variables, i.e. a clean slate. I have that in place trusting that it only ever 
+gets hit the very 1st time the page renders but with Chrome and Edge that's not the case???
+ 
+Is this a bug? 
+Thanks, Jack
+This is the javascript , again in IE and Firefox you only go to the server for the PerformCallback
+but in Chrome and Edge you 1st go to the server for the Popup before going back for the PerformCallback. 
+ShareThePop_JS.SetContentUrl( "" );
+ShareThePop_JS.RefreshContentUrl();
+ChartsCBPanel_JS.PerformCallback( "KillTheSessionVars:Mech" );
+ 

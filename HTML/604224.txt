@@ -1,0 +1,4 @@
+Hi ,
+I wanted to set same font style for all labels that I use in ChartControl . I could not find a property which can be set to achieve this. I have to specify font style for each any every object in a chart control that has label. Do we have something as a base property which gets inherited to all other fonts in the chart control allowing user to update only the required ones?
+Regards,
+Avinash 

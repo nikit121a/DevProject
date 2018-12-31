@@ -1,0 +1,19 @@
+Hello,
+I'm trying to get the command edit button's appearance to be determined by a css class. No matter what I try, I am getting the default (underlined text) appearance. Here are the relevant settings:
+     settings.SettingsCommandButton.EditButton.Styles.Style.CssClass = "gridEditButton";
+    settings.CommandColumn.Visible = true;
+    settings.CommandColumn.ShowEditButton = true;
+    settings.CommandColumn.FixedStyle = GridViewColumnFixedStyle.None;
+    settings.CommandColumn.VisibleIndex = settings.Columns.Count;
+and here is the css class:
+.gridEditButton {
+    background-image: url("Images/Buttons/GridEditButtonSprite.png") !important;
+    margin: 0 auto !important;
+    width: 16px !important;
+    height: 16px !important;
+    cursor: pointer !important;
+}
+I added the !important at the recommendation of other support tickets I saw. And yes, the image exists in that location.
+Any help would be appreciated.
+Thanks!
+ 

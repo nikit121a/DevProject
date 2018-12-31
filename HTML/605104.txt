@@ -1,0 +1,1 @@
+I am using a grid with a master-detail setup. I have FocusCellOnCyle, FocusCellOnTab, and GoToNextCellOnEnter all set to true. When I tab or hit enter it focuses the next cell, and when it gets to the end of the line it moves to the next record. My question is: how do I get it to go into the detail record when it hits the end of the line, instead of jumping over the details? 

@@ -1,0 +1,6 @@
+I have a TcxGridDBBandedTableView as a timeline with different TcxEditRepositoryComboBoxItem to edit the datasets. This works fine.
+Now I'm scrolling to an exact column:
+
+
+
+After scrolling the TcxEditRepositoryComboBoxItem do not popup anymore. If I scroll manually the popup works again.

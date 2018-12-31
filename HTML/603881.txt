@@ -1,0 +1,4 @@
+So this is related to this ticket 
+ .
+So i now have 2 detailviews for the same class\table.
+I would like to be able to a different detail view when clicking "New", and another when editing. Is this possible ? 

@@ -1,0 +1,3 @@
+Hi,
+I was wondering if there is a way to have a master detail  display in a dxTreeList? Or a way to simulate it? Similar to opening the edit form in a row.
+Thanks

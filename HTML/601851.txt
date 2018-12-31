@@ -1,0 +1,1 @@
+I have a simple Master-Detail BootStrapGridView, and would like to be able to manage the detail grids (Add, Edit, Delete). Is this currently supported, and if so, could you please point me to an example? Thanks in advance.

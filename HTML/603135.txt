@@ -1,0 +1,51 @@
+
+I have HTML & javascript codes as below to generate a percent type control using dxNumberBox widget. Here is the issues I got:
+4.  $("#it-percent").dxNumberBox("instance").option("value") return empty sometimes if I also call this $("#it-percent").dxValidator("validate").isValid before getting value.
+Please check. Thanks & regards.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+For your information, I am using Jquery-3.2.1.js, IE 11.

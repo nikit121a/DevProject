@@ -1,0 +1,7 @@
+hi,
+I'm using your gridcontrol to display datatable.
+I want to add the option"select all" in right click on grid  .
+and add only visible rows(after filter data) .
+I work with MVVM and command to for the option' but my problem is that in the DataTable bound to the itemsSource I have all data,
+can you supply me an example code of selecting only visible rows in grid?
+Thanks 

@@ -1,0 +1,26 @@
+The following function generates an error when pasting text into an ASPxHtmlEdit (using ctrl-v, right click paste, or the ASPxHtmlEdit's own paste toolbar) when using IE 10 or 11.  Edge, Firefox, Chrome are all fine.  Build 17.2.4 did not have this issue.
+function processHtmlWithinIFrame(html, callback) {
+  processHtmlWithinDOM(html, function (container, body, head, doc) {
+   var iframe = document.createElement("IFRAME");
+   ASPx.SetStyles(iframe, {
+    opacity: 0,
+    display: "inline-block",
+    overflow: "hidden",
+    width: 0,
+    height: 0,
+    position: "absolute",
+    top: -10000,
+    left: -10000,
+    zIndex: -1
+   });
+   document.body.appendChild(iframe);
+   doc = iframe.contentDocument;
+   while (head.firstChild)
+    
+   head = doc.head;
+   while (body.firstChild)
+    doc.body.appendChild(body.firstChild);
+   callback(doc.body, doc.head, doc);
+   ASPx.RemoveElement(iframe);
+  });
+ }

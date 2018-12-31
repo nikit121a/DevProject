@@ -1,0 +1,7 @@
+Hi devexpress,
+I have a situation with my dashboard designer. I assigned an xpview on dashboard designer.
+No problem to create a dashboard but when i want to open it for editing. I have an error (see attachement).
+I use an xpview because i can remane my fields.
+ have you an solution, please ?
+Thanks you
+C?line 

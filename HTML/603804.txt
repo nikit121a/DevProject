@@ -1,0 +1,4 @@
+Hi Team,
+I am using an AspxGridview in batch Edit Mode. Here the functionality is that the end user navigates over the cell that he wants to edit using arrow keys , hits enter and then starts editing the value. What is required is, he navigates over the cell that he wants to edit using arrow keys and straight away starts editing without hitting the enter button.
+So basically can the cell start its editing on any Keypress instead of the Enter.??  if yes could you please provide me with a sample code for it...
+Regards. 

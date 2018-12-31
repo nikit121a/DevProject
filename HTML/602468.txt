@@ -1,0 +1,6 @@
+
+Hello, 
+what NuGet package should I use to reference DevExpress.XtraReports.v17.2.Extensions.dll ? Or more specifically, how can I work with 
+ class ?
+I'm working with WebForms using DX 17.2.3 version for .Net 4.0.
+Thanks in advance.

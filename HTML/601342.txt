@@ -1,0 +1,4 @@
+Is there a solution where we can consume a REST /JSON as a datasource for a report and/or dashboard in the DevExpress Report Server?
+Any guidance is greatly appreciated,
+--Dave
+ 

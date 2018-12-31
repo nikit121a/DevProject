@@ -1,0 +1,15 @@
+Dear Support Team,
+Recently we started a new MVC project intended for internal use.
+Because we started to use DevExtreme in our 'Onview' webapplication, we desided to make full use of Devextreme in this internal webproject.
+So we started this project as an DevExtreme MVC5 application.
+Now the basics are in, and we started to implement reports.
+We used: 
+ 
+And when we run this, we get Error E0024. (Occurs if a DevExtreme bundle is linked more than once on a single page).
+Also, when we place the next code in _Layout.cshtml we also get this error:
+So when we use DevExpress in combo with DevExtreme, we always get this error???
+Maybe we must just start over with a regular MVC project, and add DevExpress Scripts.
+Then we can also use the DevExtreme widgets, because that's how we do it now in our commercial application.
+What route should we take?
+Best Regards,
+John van de Pol

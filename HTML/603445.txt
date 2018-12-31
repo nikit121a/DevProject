@@ -1,0 +1,2 @@
+1) How to print the DocumentViewer without preview?
+2)  How to hide the report print buttons and export buttons ?

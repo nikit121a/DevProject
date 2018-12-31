@@ -1,0 +1,2 @@
+I am trying to implement the devextreme demo template but I am getting this error again and again.I do not have understand the flow that where should I fix this issue.
+here is _DemoStyte.cshtml page

@@ -1,0 +1,8 @@
+in my js code, I called 3 times 'PerformCallback' like this
+dtgTurnAround.PerformCallback(parameters);
+the 3 times' parameters value is  always like this:
+1st time: empty
+2nd time: owner|123
+3nd time:plant|567
+so I want to get the result which is from the 3rd  PerformCallback, but when I debug the code, I found the callback code method 'dtgTurnAround_CustomCallback', the order is not same as what I wanted, maybe parameter 'owner|123' is the 3rd executed, so the result is wrong,
+Is there any method to make the the executed order same as js order? 

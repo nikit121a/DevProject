@@ -1,0 +1,4 @@
+Hello there,
+I need to be able to create this navigational structure from the code behind page.  I am recreating this navigation to be database driven, and have been able to accomplish most everything except being able to place a new group inside an specific item template.  I have shortened the navigational control to just contain the structure I need to reproduce here.
+
+

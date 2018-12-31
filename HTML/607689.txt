@@ -1,0 +1,15 @@
+Hi,
+When navigating through different records in a detailview [in edit mode] the caption shown in the header is incorrect . 
+In the Model Editor we have set the ObjectCaptionFormat to a simple DisplayName as  {0:DisplayName}
+When clicking the 'Next Record' button, we expect to see:
+Client1
+Client2
+Client3
+Client4
+Instead we get:
+ Client1
+ Client1
+Client2
+Client3
+Client4 .
+All edit fields in the view are shown correctly and also the 'please wait..' screen is shown while loading.

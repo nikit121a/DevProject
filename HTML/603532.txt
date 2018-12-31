@@ -1,0 +1,3 @@
+Hello,
+I have seen a number of posts dated from 3 years ago related to creating  scaffolding wizards for XPO. Can you tell me what is the status of this? Still being thought of? Being designed? Being developed? About to be released? Abandoned?
+Thanks. 

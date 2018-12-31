@@ -1,0 +1,2 @@
+Hi,
+I have just set the ConfirmSendReport = true to test this feature.  The dialog gets displayed but then hangs with a "Sending" dialog when I click the "Send" button.  With  ConfirmSendReport = false everything has been working fine.

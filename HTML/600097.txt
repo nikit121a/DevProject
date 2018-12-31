@@ -1,0 +1,7 @@
+Hello,
+I make a update in my AspxGridView, with the function RowUpdating.
+I have a GridViewDataComboBoxColumn and I don?t modified the values in the Combobox before I press the Updatebutton, 
+ I get the text (TECNAME) instead value (TECNR) with the function e.NewValues, but I need the value.
+I hope you find a solution of my problem, Thanks.
+Best regards,
+Mirko 

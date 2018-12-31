@@ -1,0 +1,4 @@
+Hi,
+I want to move from codeRush classic to CodeRush Roslyin. I see that the documentation says it currently  does not support HTML, ASP.NET, CSS, Razor, JavaScript        . I would like to know when to expect this functionality and in which versions u intend to start supporting.
+Thanks & Regards,
+Naser Javed Malik

@@ -1,0 +1,4 @@
+Hi,
+I have one own expandable panel and when I use it the layout item that my component is inside doesn't resize.
+What do I have to do to make it resize by it self?
+I attached one simple example to show you what is happening. 

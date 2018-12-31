@@ -1,0 +1,2 @@
+How can I add an OK button to a BootstrapPopup control as shown in the attached screenshot.
+I want the OK button to close the popup when it is clicked. 

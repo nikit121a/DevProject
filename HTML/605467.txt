@@ -1,0 +1,7 @@
+Hello,
+we have changed to Version 17.2.4 from 16.2.3 and now I have an Access Violation in my COM Application.
+When I open my Form with DevExpress cxGrid and cxVirtualTreeList the first time all works fine. I close the window and open it again then the access Violation is raised.
+See attached my call stack.
+Maybe you have an idea what could be the problem here.
+Best regards
+Michael 

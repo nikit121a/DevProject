@@ -1,0 +1,7 @@
+	 	I have two user controls which include a ASPxGridViews.
+I control the display on the user controls with a tab control.
+When I click on the tabs; back and forth, the grid loose their databinding.
+Run the default page, click on the Social Catering tab then click on the Order detail tab.
+You will the see the databinding on the first control is lost.
+I have include a sample website to demonstrate the problem. 
+ 

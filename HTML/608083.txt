@@ -1,0 +1,7 @@
+Hello Support Team,
+I activated the grouping count feature with
+which leads into the attached result. All data rows are counted which are within this group.
+In my case I need to show the amount the amount of children . So looking at my screenshot, I need to show a count of 2, because I have two children.
+How can this be done?
+Thanks for your help,
+Markus 

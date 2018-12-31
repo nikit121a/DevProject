@@ -1,0 +1,12 @@
+Hi,
+There seems to be a problem with the XtraCharts.SeriesSorting property.
+In the screenshot "SeriesSorting.png", you can see the property "Reihensortierung" selected. Changing this property has no effect whatsoever on the sorting of the data series.
+If I use the following script it works fine though:
+private void chart12_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
+      chart12.SeriesSorting = SortingMode.Ascending;
+}
+Please note: the screenshot shows the chart within an XtraReport. The problem exists both when I put a chart on a windows form as well as within an XtraReport.
+I could find no way of setting this property correctly through properties only in the XtraReport.
+However, using both the Chart Designer and the Chart Assistant on a WinForm it is possible to set this property, see screenshot "chart_assistant.png"
+If I may hazard a guess then I'd say that something got confused about sort series order and series sort order or some other very similar looking terms.
+Thomas

@@ -1,0 +1,2 @@
+I am wondering if there is a way to lock down the dxCalendar to a single month. I am trying to lay out 12 calendar controls to display a whole year so I would like to lock down each of the calendars to a single month so the user cannot swipe accidently. This raises another question. Ath  the moment month + year is displayed in the calendar. Is it possible to adjust the template for this so I display only month since it this form a year would be redundant to repeat.
+I am trying to mimic WinForms MonthCalendar control  as I want my user to see the whole year.

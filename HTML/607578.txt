@@ -1,0 +1,3 @@
+I have a tag box in application and i want to search over large amount of data in type ahead mode. and i want tag box to display grid in the dropdown.
+is that something possible without slowing down application?  
+Please find my code attached. 

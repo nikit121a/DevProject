@@ -1,0 +1,8 @@
+Hi,
+I have a gridview designed at  runtime.
+All columns are designed in a certain order.
+The user can mask some column via a button, and make them visible again.
+Problem is that even if the allowmove property is set to false, when the column get visible again, the initial position  isn't keeped, seems to be visibleindex - 1 every time.
+In that void, I just get all gridcolumn that can be invisible, and just make visible = true or false.
+Is there anything I forgot ?
+Regards 

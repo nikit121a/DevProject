@@ -1,0 +1,5 @@
+Hi Team,
+Can we call a webpage to be included \ loaded within a Tabpage ?
+Example: 2 webpages page1.aspx and page2.aspx.
+We have ASPxPageControl  in page1.aspx. Load contents of  page1.aspx in TabPage1 of ASPxPageControl and load page2.aspx in TabPage2 of ASPxPageControl.
+Is this possible ? If not which control we can use for this purpose ASPxTabControl ? 

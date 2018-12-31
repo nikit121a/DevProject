@@ -1,0 +1,6 @@
+Hi,
+the "ASPxFileManager" has trouble handling folders that contain the " / " character in the name. 
+On attached an example image.
+I tried to remove this character and it seems to work correctly.
+The control is managed through a "customFileSystemProvider"  with the option EnableCallBacks enable.
+ How can I remove the problem?

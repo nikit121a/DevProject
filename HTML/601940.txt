@@ -1,0 +1,13 @@
+Hi,
+I have a data source with data store configured  like this:
+new DevExpress.data.DataSource(new DevExpress.data.CustomStore({
+          loadMode: "raw",
+          load: loadLookupFunction
+        }))
+The loadLookupFunction is calling remote server and return jQuery promise.  
+This setup works with most widgets like dxSelectBox, dxTagBox,  dxDataGrid but i get an error when I use it with a lookup property in a dxDataGrid column. 
+The error message is:
+"TypeError: this._scheduleLoadCallbacks is not a function"
+I made a plunker to show that: 
+There are 2 widgets dxDataGrid with a lookup column which throws an error, and dxTagBox that works fine. Both use the same data source configuration.  
+Could you please assist me in getting this to work? Is that kind of data store compatible with a lookup widget?

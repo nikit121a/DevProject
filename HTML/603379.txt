@@ -1,0 +1,3 @@
+Hi,
+I'm working on the hambuger menu and wanted to change the height and text fontsize of the menus. So far I was able to do this but for submenu that are shown in preview, the settings below is not applied.
+ I attached a file for your reference. Hope you can help. Thank you. 

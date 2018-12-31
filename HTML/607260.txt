@@ -1,0 +1,13 @@
+Hello XAF Team,
+I have a problem about XAF ASP.Net Project, 
+I have aggregated Master Detail object relation. Activated Nested ListView Inline Edit  mode.
+When I open a new Master record ( called DemandDocument ) filling some dummy data to master. After that adding a new detail record ( called DemandItem ) to this Master object. 
+Clicking Master's Save action,  committing this 2 object ( I observed from a controller ObjectSpace_Committing event ) successfully completed.
+But inline update action still exists, so when leaving to another NavigationItem, browser pop's up Unsaved Confirmation Dialog box.
+You can see from attached images. 
+My question is that, 
+How to execute this nested listview's inline update command action when I click Master Object's Save action.
+I tried GridView's UpdateEdit method in Committing -> not worked. ( Visually worked but browser asked again )
+I tried to Suppress unsaved confirmation -> not worked  ( 
+ )
+ 

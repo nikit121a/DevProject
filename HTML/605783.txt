@@ -1,0 +1,4 @@
+Dear we are getting Connection pooling issue "The timeout period elapsed prior to obtaining a connection from the pool"
+ on Azure App Services with 60 users using the application after every alternate day we have to restart the application to fix it , do you have any recommendation to fix it.
+ , we have all the default settings with below connection string settings
+Data Source=tcp:{server}.database.windows.net,1433;Initial Catalog={db};User Id={user}.database.windows.net;Password={pass};

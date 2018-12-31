@@ -1,0 +1,2 @@
+I have all the merging working and am bringing in an (signatures) into an RTF document.
+Is there a way to search for that image and change its text wrapping option to say behind text. instead of having to manually change each place in document where the signature image is merged. 

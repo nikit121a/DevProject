@@ -1,0 +1,5 @@
+
+Hi,
+I have a few problems with the new search feature of aspxtreelist. 
+Second, If I use client side export feature then search panel becomes disfunctional. I need to refresh the page in order to be able to use search panel again.
+Is there any solution/workaround to these problems.

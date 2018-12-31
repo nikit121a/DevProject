@@ -1,0 +1,7 @@
+Hi,
+i have read the documention for grouping: 
+Is it possible to group several levels? 
+I would also like to collapse/expand These groups?
+Do you have plans to attach a treelist in near future?
+Thanks in advance.
+Stephan 

@@ -1,0 +1,7 @@
+hello,
+my application is written in mvvm patteren
+I use flyout control in your approach: 
+ (with a behavior).
+How can I hide the flyout control after 2 sec. from the focus on the TextBox?
+I want to add also buttons for help and show flyout control with their tag on a click, how can I implement it in Mvvm patteren?
+ 

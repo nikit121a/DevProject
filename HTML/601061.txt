@@ -1,0 +1,6 @@
+Hi,
+We have generated a .docx  file from xtrareport by using the code like below, 
+In local environment its working fine I am able to open the generated file using Microsoft Office. But same file when generated on production server gives error as shown in attached image. Though file gets opened if I click Yes from prompted window shown in attach image.
+Just wanted to know if it has any dependency on other software which is available in my local machine that's why file is getting opened and that solfware is missing at production causes this kind of error.
+Thanks
+Rohit

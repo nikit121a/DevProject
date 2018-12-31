@@ -1,0 +1,17 @@
+
+Please, refer the attached video. 
+2. How to rename view switcher in MVC Extension? (I already remained this question, but I did not get right answer.)
+EX)
+@(Html.DevExtreme().Scheduler()
+...
+ .Views(v => {
+        v.Add()
+            .Name("Week")
+            .Type(DevExtreme.AspNet.Mvc.SchedulerViewType.TimelineWorkWeek);
+        v.Add()
+            .Name("Month")
+            .Type(DevExtreme.AspNet.Mvc.SchedulerViewType.Month);
+    })
+...
+)
+Above code is not working..

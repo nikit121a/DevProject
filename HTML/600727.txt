@@ -1,0 +1,5 @@
+Hi Support,
+we would like to know if you have really intentions to implement at least .Net Report Server and .Net Document Server for the .Net Core or Standard >= 2.0 Plattform. In case you have some pre releases could u send us the link where to download an example?
+In our case we would be very happy if at least the server side is implemented in .Net Core or Standard >= 2.0 Plattform. The Report Designer we can provide in .Net 4.7.1 to our customers.
+I know you're usinf GDI+ for the document Rendering but i also saw that Microsofts implementation of GDI+ in .Net Core / Standard is in Alpha stage.
+Regards Walter.

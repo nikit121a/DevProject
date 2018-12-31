@@ -1,0 +1,3 @@
+
+
+How can I make a linechart, that is beging updated every 5 seconds with data, and where the points staying at the same place. So (see image below) when a point (ie 15:30:00) is on position 1, point 2 (ie 15:30:05) is in position 2 and the next point will come in position 3. And then when the graph is filled, point one will only be visible when you scroll.

@@ -1,0 +1,4 @@
+Hi Paul,
+This might be an additional ticket, but I noticed that the methods above didn't resolve the issue with scaling when there is no data present in the datagrid ("empty data row").  I did test against the project you sent back and the gridview column headers do not appear to adjust.
+Thanks,
+Troy 

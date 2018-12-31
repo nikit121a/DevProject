@@ -1,0 +1,5 @@
+Hello !
+I have a customer needs to order their labels by dimensions. I was using 
+ page as a guide and tried everything but couldn't arrange labels as we want. So I had an idea and I made ordering labels by SQL query. So I don't have any group on my label project. But when I try my new way I get a result as like in the attachment. I drew my screen file as I want. So how can I do it? Help me please, this is my only problem to sell my project to a customer.  Thanks in advance.
+edit: I just want to order my labels like 
+ 

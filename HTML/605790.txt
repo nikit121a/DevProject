@@ -1,0 +1,3 @@
+    I'm missing right now the posibility to check the checkbox as filter for the checked rows (like we had before). As you can see, all checked rows as grouped.   
+  
+  

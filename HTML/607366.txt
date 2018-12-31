@@ -1,0 +1,7 @@
+Hi,
+I am about to renew my support subscription .  I have had it for years.  
+My question:  I want to refactor a current responsive web application to take advantage of the new Progressive Web Application techniques. But I want to use DevExtreme components as well (particularly the dxDataGrid..
+How can I simply use dx components? Do I just include the Devextreme javascript references in my old application? I don't want the default Knockout framework setup.
+Is there a way to add the devextreme toolbox to the old applications built in Visual Studio? 
+Thanks
+Vince 

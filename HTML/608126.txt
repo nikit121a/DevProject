@@ -1,0 +1,4 @@
+Is it possible to change the type of a row filter for a DateTime column to something more similar to a slider that we get on the numeric columns?
+My use case is on this particular column we always sort on a date range - while I know you can construct that in the existing filtering options - was hoping there was a more simple way to filter similar to the slider on the numeric fields.
+Thanks,
+-Dan

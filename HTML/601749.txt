@@ -1,0 +1,18 @@
+We have implemented a data grid on a web page with a chart.
+The visibility of each is controlled by clicking on the tabs (chart or drill down).
+The chart contains a series of filters users can apply.  Those filter values are used to get the data rows for the datagrid.
+A context menu is used to instantiate the datagrid and assign it's datasource at runtime.
+Our datasource is a custom store.
+We are finding that if the datagrid is loading data and the user clicks the tab to return to the chart and later clicks on the drill down tab to return to the grid that the header row is not lining up with the data rows in the grid.
+Resizing the window will cause the header row to line back up with the grid.
+Is there a way to make the header row redraw itself when the tabs are clicked?
+These are the current settings for the datagrid.
+
+
+
+
+And this is the custom store.
+
+
+
+

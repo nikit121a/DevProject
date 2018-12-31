@@ -1,0 +1,24 @@
+Hi,
+I've seen some similar requests on the forum, but no answer to this particular question. 
+I'd like to visually separate the rows a bit better in the ASPxGridView - particularly when the PreviewRow is in effect.
+I realize I can manipulate the PreviewRow style, but to that extent, I can only make it "taller" which is a step in the right direction. But better would be a gap separating the rows. Let me rephrase that... a gap that is the neutral background colour. Or a clearly defined box around each row.
+So visually it present like:
+---------------------------------------------------------
+Row 1
+Row 1 Preview 
+---------------------------------------------------------
+[gap here]
+---------------------------------------------------------
+Row 2
+Row 2 Preview 
+---------------------------------------------------------
+[gap here]
+---------------------------------------------------------
+Row x
+Row x Preview 
+---------------------------------------------------------
+I've looked closely at the HTML rendering and can't seem to find an element to manipulate this. I tried something like this:
+But it had no effect oddly?!?!
+If there isn't a way to do this via pure CSS? Or should I be looking at event handlers such as HTMLRowPrepared? It seems to me, injecting an empty <tr> would do the trick, but that feels very "hack-ish"
+Suggestions?
+-randall 

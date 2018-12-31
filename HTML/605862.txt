@@ -1,0 +1,6 @@
+If a field bounded to an enums data type is moved from filter to data area by code (even when load a layout from memory stream) an exception was throw.
+If you drag the field manually from filter to data area all works fine.
+The problem is that users move the field to data arrea, save layout and than, when reload the layout, the exception was throw.
+The problem is not present in the 16.2.5 version.
+I attach the sample project, just clic on Button1.
+Thanks

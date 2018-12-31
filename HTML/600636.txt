@@ -1,0 +1,4 @@
+Hello!
+Can you tell  me, please, is it possible to set some property in accordionControlGroup to make last clicked group selected? Now only elements displays as pushed in my accordionControl, and I want to see last clicked item selected, no matter if that was group or simple element.
+If there is no such property, tell me, please , what event I should handle to implement functionality i need.
+I'd like to see  one selected item at the moment (group or simple element).

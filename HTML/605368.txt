@@ -1,0 +1,11 @@
+Hello,
+I am using the dxScheduler in a hotel application. For my program an appointment is a hotel reservation.
+I am using the Timeline View of scheduler. Usually the resources are the hotel rooms and don't fit in a screen. So I have activated the vertical scroll bars.
+The problem is when  resizing the resources height, appointments are "hiding", without any warning!
+I have tried to use the technique from this issue,
+but this is not working in my case.
+Obviously the code in the issue, assumes no vertical scroll bars.
+It will be nice for the dxScheduler control, to inform about the missing appointments. This is very frustrating behavior, no error, no warning, just appointments missing. A User can never be sure, if all appointments are shown, or not!
+Please provide some help about this issue.
+It would be nice if the control had a method to inform about "missing" appointments.
+Thanks!

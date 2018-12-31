@@ -1,0 +1,1 @@
+aI am trying to add a mobile project to my application.  I have my main views in the default navigation node, but I can only get the About view to show in the app.  Any thoughts on what I might be doing wrong?  I also have other nodes besides default in the mobile app, but I don't expect those to be in the mobile app.

@@ -1,0 +1,4 @@
+
+
+Could you please provide an example of how to build a VGrid dynamically in code? That looks similar to the one in the video?
+Regards,

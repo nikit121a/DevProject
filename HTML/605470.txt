@@ -1,0 +1,7 @@
+When doing a search in the FindPanel via the Enter key,
+FindPanel applies the filter an then sends VK_RETURN to the underlying control.
+Is this behaviour by design? Other action keys are set to 0 afterwards.
+Why not:
+Now FindPanel "disturbs" the key handling in the underlying form.
+In the underlying form i would like to do something like this
+How can i detect whether FindPanel has sent VK_RETURN?

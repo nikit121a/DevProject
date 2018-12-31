@@ -1,0 +1,3 @@
+Hello support team,
+The two actions "... GoBackward and ... GoForward" are only active in the "DayView" view. Would not it make sense to make these two actions visible to all views? Have your example code made years ago built into the two actions, actually works fine (see video). Would be fine to implement this.
+Greetings Stefan from the Vinschgau

@@ -1,0 +1,5 @@
+I have a ASPxGridView with a GridViewDataDateColumn. This column has a header filter with a date-range (from - to).
+ 
+How do I get (or set for that matter) those from/to values from my codebehind?
+Currently I read the columns filterexpression and extract the dates with a regular expression, but I suspect that there's a better way of doing it, but I can't find any from/to property.
+Thank you!

@@ -1,0 +1,2 @@
+I have a Pivot Grid that is showing "Usage" values.  I'm Summarizing by Year.
+I'd like to have a calculation done with the Grand Total, but not be shown with the Year Summaries.  How do I have custom Grand Total Fields shown in the Grand Total Column section? 

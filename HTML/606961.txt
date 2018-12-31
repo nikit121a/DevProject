@@ -1,0 +1,7 @@
+Hello,
+I have a question quite similar to this ticket T576534. 
+But I only need to hide the button with the upload icon.  I want to show only the dxButton the Upload text. 
+I currently using this code:
+There must be a simpler way to achieve what I want.
+Thanks for your support
+Martin Leclerc 

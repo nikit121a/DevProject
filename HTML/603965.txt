@@ -1,0 +1,3 @@
+I want to implement custom text in the grouping headings.
+Example:
+In the screenshot of the grouping demo I want to change the text  of "Argentina" to "This is Argentina!"

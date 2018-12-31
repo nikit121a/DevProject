@@ -1,0 +1,10 @@
+Hi,
+i am using this code in order to set custom selection color for currently selected rows at grid view:
+            ((GridView)gcNotServed.Views[0]).OptionsSelection.EnableAppearanceFocusedCell = true;
+            ((GridView)gcNotServed.Views[0]).OptionsSelection.EnableAppearanceFocusedRow = true;
+            ((GridView)gcNotServed.Views[0]).Appearance.FocusedCell.BackColor = customColor;
+            ((GridView)gcNotServed.Views[0]).Appearance.FocusedRow.BackColor = customColor;
+            ((GridView)gcNotServed.Views[0]).Appearance.SelectedRow.BackColor = customColor;
+            ((GridView)gcNotServed.Views[0]).Appearance.SelectedRow.Options.UseBackColor = true;
+It works good for mouse click row selection, but when i use view.SelectRow(counter);  , then it still keeps selecting in origin way unfortunatelly.
+What is the solution how to use Select method in custom colors?

@@ -1,0 +1,4 @@
+I have the following hierarchy of controls:  XtraEditors.PanelControl > XtraEditors.LabelControl.  The LabelControl is used to display a message of Success, Warning or Error.
+We displayed a success message in green, a warning in yellow and an error in red.  This worked fine until users started changing the theme of the application.  For example, a yellow warning  is fine in the "Office 2010 Black" theme but unreadable in the "Seven Classic" theme.
+How can we adequately color the messages to support every theme?  Ideally this solution would also support future themes that do not currently exist.
+Should we remove the ability to change themes and force every user to use the same theme?

@@ -1,0 +1,9 @@
+Hello,
+In the options of data grid  we use "
+" to change the color of the table row cell.
+When we use 
+ we have an error  in console: 
+It seems that this is a bug of the current version, because in the version 17.1.6 it works.
+Can you check it please?
+Thanks,
+Paolo 

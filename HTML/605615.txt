@@ -1,0 +1,10 @@
+Hi,
+I'm migrating an application to XAF.
+I would like to create a sales-quote  editor, having on the left the list of catalogitems and on the right the list of items selected for this sales quote.
+The way I found doing this is to create a detail view for the quote, with a master-detail view listing the quote's items (on the right)
+The list of catalog items available is not related to the items of the quote, so to add it to the quote detail view, I added to the left a DashboardViewItem  and linked that dashboard view item to a list view of my catalog table.
+I now need to do the following:
+Add a filter to limit the catalog items to a specific category. I'd like to have a drop-down com bo with the catalog items categories and then filter the catalog list view based on the selected category.
+I looked around the filters available in XAF (either the row filter embedded in the grid, but it does not comes with a list of categories, I need to type it which is not user friendly), other option is to create grid filters but it is also  not as easy sas just having a combo on top of the list.
+So, is there a way to add a combo containing the contents of a category table, then have a filter of the list view based on the selected item of the combo ?
+Thanks 

@@ -1,0 +1,8 @@
+Hello,
+there is a wrong Color mapping for resources.
+Table SchedulerResources
+Id    Caption                               Color               CustomField              Active             ResourceId
+10   3CX                                    -16711936       green                        True                    0
+11   c-entron                              -65536             red                            True                    1
+12   Remote Desktop Manager -16776961       blue                           True                   2
+ 

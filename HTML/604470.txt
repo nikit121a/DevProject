@@ -1,0 +1,6 @@
+Hi,
+When setting an expression for the visibillity of a cell it doesn't work on the first page. 
+To reproduce open DemoCenter->  Reporting -> Winforms Reports-> Invoice -> Open in designer.
+Then set the settings like shown in the attached screenshot and do a preview
+Thanks
+Stephen

@@ -1,0 +1,4 @@
+Hello,
+I would like to limit the maximum number of items that can be added to a collection using the built-in collection editor of the property grid control. Is there any way to disable the "Add item" button?
+Best regards,
+Alberto 

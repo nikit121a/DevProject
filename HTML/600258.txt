@@ -1,0 +1,6 @@
+please provide a simple example (in a visual studio project) which the gridview is part of a form and user can choose one or more  entries in the grid.
+Let say the gridview contains a list of persons with fields such as lastname, firstname, phone, fax (just a very simple list)  Let say each person has a column of checkbox and the user would check the checkbox to indicate the person is selected.  one or more persons can be selected.
+when user submit the form in MVC, how to retriever the pe rsons along with other fields in the form in the controller.
+Assuming the form is submit via a post. with html.antiforge token.
+just to clarified each person is identified by a uniqueid field (hidden in the grid).   When the form posted, as long as the userid is retrieved as a list<int>
+will be sufficient. 

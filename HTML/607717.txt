@@ -1,0 +1,8 @@
+Hello,
+how can I change the color of the arrow for a Barsubitem which is used in the QuickAccessToolbar of a ribbon with Ofiice 2016 Colorful style?
+I use a custom ribbon in Office 2016 Colorful style, but modified to paint the title bar color as gray instead of blue
+this is because I need ribbonform controls whithin it with Office 2016 Colorful aspect. The problem is that the ribbon should be blue, and the arrow for a barsubitem in the quickaccess toolbar is white, but I need to set it to a darker value because I'm overriding the title bar back color to paint it as gray.
+How can I achive this? 
+Also, the user can change the theme of the application between Office 2016 Colorful, Office 2016 Dark and Office 2016 Black, therefore I need it to have the arrow in white color in Dark and Black themes, but something dark when I use the Office 2016 Colorful theme.
+Could you help me?
+Thanks!!!

@@ -1,0 +1,6 @@
+Since I upgraded DevExpress from v16.1 to 17.2.4, now 17.2.5, I am getting more and more often the "Cannot create a document for the current report" (without internal server error) error. I don't get any compile error or any error while debugging! This happens especially after "re-"debugging the project and refreshing the page. There are two cases where this error comes:
+1. when I click the submit button to create the report
+2. the user can save reports with specific selection of parameters (so the user doesn't have to re-enter the filter values), and when navigating to the page where those reports are listed the error comes up.
+The error doesn't come always! And when not refreshing the previous page but working on the new browser tab or browser window, the error comes more rarely!
+Is there any workaround, any solution or documentation about this issue?
+I can't give you currently more information because I can't find what is causing this problem and which scenarios exactly, it just comes sometimes and sometimes not!!!

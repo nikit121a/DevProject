@@ -1,0 +1,2 @@
+When I click on DevExpress DateNavigator Previous / Next Button it doesn't work unless I double Click then it would work..
+Mu Users want a Single Click. Can you please provide me with a sample code how to implement a single click for Date Navigator NEXT / PREVIOUS Buttons? I would really appreciate.  Thanks. 

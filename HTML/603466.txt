@@ -1,0 +1,5 @@
+Hello support team, 
+I have a question regarding the property grid HighlightNonDefaultValues feature (
+). Is it possible to change the color difference between default and non-default values (see attached Screenshot) for the Office 2016 Colorful SE Theme? 
+Kind regards
+Ingmar

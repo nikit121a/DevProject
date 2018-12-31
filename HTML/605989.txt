@@ -1,0 +1,4 @@
+Hi,
+I want to add a help button left to the minimize button in my application which is a ribbon title bar. Please let me know how can i achieve the given functionality. Please find the image attachment for the same.
+Thanks in advance
+ 

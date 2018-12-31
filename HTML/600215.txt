@@ -1,0 +1,7 @@
+Steps to reproduce,
+1. Click the "..." button on Property1 without clicking the text box.
+2. The dialog window should have no scrollbar for the GridControl.
+3. Close the dialog window.
+4. Click the text box on Property1.
+5. Click the "..." button on Property1.
+6. The GridControl will now have a scrollbar.

@@ -1,0 +1,13 @@
+I need to change the button text (pass from English to Portuguese). Since I can not change DLLs yet from my project I need to do this manually. Currently I already do this but with the buttons of the XtraMessageBox, like:
+public override string GetLocalizedString (StringId id)
+         {
+             if (id == StringId.XtraMessageBoxYesButtonText)
+                 return "Sim";
+             if (id == StringId.XtraMessageBoxNoButtonText)
+                 return "N?o";
+             if (id == StringId.XtraMessageBoxCancelButtonText)
+                 return "Cancelar";
+             return base.GetLocalizedString (id);
+         }
+How can I change the text of the DevExpress.XtraPdfViewer.Bars.PdfFilePrintBarItem?
+Instead of showing print I need to translate to "imprimir", and if possible even translate the print window that opens in the action.

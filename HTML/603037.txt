@@ -1,0 +1,4 @@
+Hi!
+After built and installed on adroid phone, i wonder that my app is not access to camer and some else like your courier  app.
+How do i build like yours?
+Thank 

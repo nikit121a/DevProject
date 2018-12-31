@@ -1,0 +1,6 @@
+
+In this scenario, where the template is there for adding checkbox, I am getting couple of issues now.
+In my checkboxtemplate I have a checkbox and span addedin to the template Containe PivotGridFieldValueTemplateContainer templateContainer = (PivotGridFieldValueTemplateContainer)container;
+
+
+

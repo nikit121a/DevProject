@@ -1,0 +1,1 @@
+I have designed a report the measure units property is Tens of a millimeter, I have drawn a line of 1000 millimeter, but when I generate the report and print it on paper and measure the line with a scale, the line is shorter than 1000 millimeter. 

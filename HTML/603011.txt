@@ -1,0 +1,11 @@
+Hello,
+This ticket is related to the previous one:
+Unfortunately not only horizontal scrolling works slow in IE.
+We receive complaints from our customers that some features of datagrid works slower in IE than in Chrome.
+Here is codepen example: 
+Following things works slowly:
+Column resizing: especially for columns located on the left side ('Employee', 'Order Date')
+Column box grag/drop while trying to group data
+Column reordering: column box drag/grop as well as column order change itself
+I am using IE 11.850.15063.0.
+Is there any way to increase performance?

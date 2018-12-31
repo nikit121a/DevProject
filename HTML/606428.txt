@@ -1,0 +1,5 @@
+Hi
+How to invoke ASPxDashboard Wizard using ASP.Net code behind on page load for new dashboards?
+I tried to call the javascript function "showCreateNewDashboard", which is called, when i clicked the link to create a new dashboard. However, it did not work.
+Best,
+Micha 

@@ -1,0 +1,3 @@
+Hi,
+I cannot get the Next record marker («Next Record» ) to work correctly in a document mailmerge, is this supported?
+Regards,

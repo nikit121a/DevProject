@@ -1,0 +1,4 @@
+Hi,
+I want to use batch edit functionality with Simple type but I am unable to use it if spin edit disabled.
+Please see attached project and screenshot.
+Thanks  

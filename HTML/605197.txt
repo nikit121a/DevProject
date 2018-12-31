@@ -1,0 +1,5 @@
+Hi Sir,
+I refer to the example to highlight #1 (show in fig1), but I want to control the highlight's line width to let it wider. How could I to implement it ? 
+Please give me the example to let me known how to implement it.
+exmple website : 
+thanks 

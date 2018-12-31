@@ -1,0 +1,4 @@
+Hi,
+By default, the datagrid is rendering with Table tags. But, I would like to change it to Div tags. Is it possible with Dev Extreme Datagrid?
+Regards,
+Praveen.V.Nair 

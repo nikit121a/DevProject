@@ -1,0 +1,8 @@
+How do i enable copying one cell into multiple cells on gridcontrol similar to kb answer below but i am using VB.NET
+I have allowed  following on the gridcontrol but only one cell gets copied
+OptionsSelection
+Multiselect = True
+MultiselectMode = Cell Select
+Optionsclipboard
+AllowCopy = True
+Pastemode Update and Append

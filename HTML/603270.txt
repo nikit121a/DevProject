@@ -1,0 +1,6 @@
+I have a page with a ComboBox and a batch edit GridView. The row content in the grid is determined by the choice made in the combo box.
+If the grid has unsaved changes, and the value of the combo box is  changed, I would like to prompt the user informing them that unsaved changes will be lost and give them an opportunity to either confirm or cancel their combo box change.
+I see some events  on the ASPxClientComboBox class (
+), however I'm not sure if any of these are suited for what I'm a trying to do? 
+Ideally, I would be able to handle an event on the client side, check some conditions, and if I need to cancel the combo box change set 
+or something similar. Is such functionality possible?

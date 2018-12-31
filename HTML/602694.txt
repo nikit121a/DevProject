@@ -1,0 +1,4 @@
+Hi guys,
+i bought a new laptop and I cant install VS2012 toolbar for devexpress. I executed Devexpress toolbarcreator exe but unsucessfully. 
+What do I need to do?
+ 

@@ -1,0 +1,6 @@
+Hi
+This piece of code causes the program to slow down 
+When this code is turned off, the program starts quickly. Why?
+In previous versions there were no problems
+Piotr
+ 

@@ -1,0 +1,4 @@
+I want to use a custom message when deleting a row in a grid and followed the steps in 
+. This requires that I replace the  GridViewToolbarCommand.Delete button with a GridViewToolbarCommand.Custom button. 
+To keep the look of the toolbar buttons consistent I want to use the same icon for my custom button as is used by the Delete button. 
+Is there a way to set the icon  to the same icon as used by GridViewToolbarCommand.Delete?

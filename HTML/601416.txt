@@ -1,0 +1,6 @@
+I am using the following DevExpress dlls with a VS2013 theme. Is there a way to speed up the Initial loading time? The Form takes about 5 seconds to load, and even longer on network drives. Subsequent loading times are almost instant.
+   
+  
+   
+Thanks,
+Jason 

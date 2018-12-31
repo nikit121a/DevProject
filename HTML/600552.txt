@@ -1,0 +1,3 @@
+Hello Support,
+We are using custom delete popup in GridView, On click of delete button popup is appearing in top left corner as you can see in attached image. Kindly suggest how to fix.
+ 

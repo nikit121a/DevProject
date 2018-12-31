@@ -1,0 +1,6 @@
+
+Hi,
+I am working with the PictureEdit control in a WinForms application.  A couple of specific issues that I am having is:
+3) Should I be using a different image control all together?
+Thanks
+Kerry

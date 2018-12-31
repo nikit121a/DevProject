@@ -1,0 +1,6 @@
+Hi,
+I can't open some of my View Controllers in Design View;  I get the following error:
+Severity Code Description Project File Line Suppression State
+Message The designer must create an instance of type 'DevExpress.ExpressApp.ViewController`1[[DevExpress.ExpressApp.ListView, DevExpress.ExpressApp.v17.2, Version=17.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a]]' but it cannot because the type is declared as abstract. 0 
+This does not happen on all View Controllers, but it is happening on quite a few.  
+What does this mean and how can I fix it? 

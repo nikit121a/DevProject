@@ -1,0 +1,6 @@
+Our XML dashboard files are stored in a table and we have both a window and webform dashboard viewer to display the same xml... We recently made a change to a dashboard that caused the web version to render incorrectly when compared to the windows version... 
+Please see attached video (Left is window (Good), Right is Web (Wrong))
+Notice the TreeMap slices when used to filter, they change size on the web version, why? on window version they do not which is the correct behavior
+BTW: the change we made was to disable "ignore master filter" on the combo-box, if we re-enable that, they they both behave the same ...Again this is the same XML being accessed by both viewer
+size of the treemap slices should not be changing when used to filter data...
+Please help

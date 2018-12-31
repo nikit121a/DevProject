@@ -1,0 +1,7 @@
+Dear DevExpress Support Team,
+We have an eXpress App Web Application runing an a Windows 2012 R2 Maschine (actual patch level).
+Since DevExpress Version 17.2.4 i get the Validation Error Message "File should be assignd" then i would like to Upload a File into a descendants of the FileAttachmanetBase. I have deactivated the responding validation rule to see whats going wrong.  The FileData Property of the descendants is null and have no FileData. In the IIS and Windows Event Log i cant find any Error or Exception corresponding to this Issue.  The Upload processes fine without Errors. 
+I have a single FileData Property in another BusinessObject. Here works all fine. 
+Do you have any idea wahts going wrong?
+Best regards
+Christian 

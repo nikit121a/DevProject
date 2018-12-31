@@ -1,0 +1,7 @@
+Hi!
+Today, the unique way for me give a ZOOM in a item, is remove other items.. and keep only item that I need ZOOM..
+but, if I have "m?ster filters", when remove some item, I lost this m?ster filter..
+some idea how I keep filters, after I remove some item?
+(or, other idea for a ITEM ZOOM ??)
+                    designer.Dashboard.Items.RemoveAt(k) 
+thanks!! 

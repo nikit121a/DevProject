@@ -1,0 +1,6 @@
+Hi,
+I have a grid with a datasource based on a stored procedure.
+When the page loads, it should show the data that the procedure returns, but in this case the grid appears as filtering. That is, the number of records that appear in the footer is correct, but no rows appear. To see something I have to filter by any column and then click on empty filter. That is when all the information appears.
+The code aspx:
+The VB code behin d:
+ What can i do?

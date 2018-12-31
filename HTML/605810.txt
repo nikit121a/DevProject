@@ -1,0 +1,4 @@
+Hi,
+I'm using the scheduler with AngularJS and you can see on this codepen my problem : 
+In Chrome it works perfectly, in view day, workWeek and timelineDay, the background-color take correctly the height:100%; But not in Mozilla Firefox and IE !
+Can you fix it or show me an alternative ? Thanks ! 

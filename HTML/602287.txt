@@ -1,0 +1,1 @@
+I am having trouble clicking on the master column which scrolls way below the window and then scrolling up to a detail query that has only a handful of columns. Is there a way to set the relationship differently? I tried to click on the master column and hold the control key and then scroll up to the detail column but that does not appear to work. 

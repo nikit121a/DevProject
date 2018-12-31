@@ -1,0 +1,3 @@
+I  need to be able to calculate quartile information for a specific group in the reporting suite. For example in group 1, I need to show quartile1, 2, 3, and 4. Is this possible using your suite with regards to the report builder?
+I see we can do this for a spreadsheet such as here: 
+ 

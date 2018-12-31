@@ -1,0 +1,8 @@
+Hello Support,
+I have placed one label in group footer which shows summary of one field  with Sum per Group.
+Let say I am getting total value 124 as sum but I want to display this value as 02:04 .
+Here 124 is total minutes and I want to convert  it in HH:mm format so it will be 02:04.
+ Is this possible without writing server side events in version 17.1.9 ?
+OR
+ Is this possible without writing server side events in version 17.2 ?
+Thank You.

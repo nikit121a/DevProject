@@ -1,0 +1,7 @@
+Good morning.
+I need equivalency to:
+1.  TdxDBGrid( MyObject).FocusedNode
+2.  TdxDBGrid( MyObject).FocusedField.DataSet.State
+3.  TdxDBGrid( MyObject).Columns[ TdxDBGrid( MyObject).FocusedColumn ].ReadOnly 
+4.  TdxDBGrid( MyObject).FocusedField.Value
+Thanks

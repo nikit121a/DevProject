@@ -1,0 +1,4 @@
+Hi, 
+I am trying to export grid data into pdf and excel. issue is for date type columns format get changed after export. although in exported excel file cell having the right value like "mm/dd/yyyy hh:mm:ss AM/PM" but it shows as mm/dd/yyyy hh:mm AM/PM , second part is not displaying. 
+same format mm/dd/yyyy hh:mm AM/PM  also in pdf. 
+ Please suggest.. 

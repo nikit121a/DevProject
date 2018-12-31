@@ -1,0 +1,9 @@
+So I have a list of buttons that I am trying to hide on my form.
+I know to hide them I need to set the layoutcontrolItem for each Control to Visibility.Never.
+I am also using a layoutcontrol which sets my buttons parent to the layoutcontrol which would then hide everything.
+foreach (SimpleButton b in l)
+            {
+                if (string.IsNullOrEmpty(b.Text))
+                    b.Visible = false;
+            }
+Anyway to access the layoutControlItem? 

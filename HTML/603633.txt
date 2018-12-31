@@ -1,0 +1,5 @@
+Hello DevExpress Team,
+I?m using TcxVirtualVerticalGrid as property editor in our project. For TcxCheckbox Editor rows I use a TcxBitmap graphic to show the Checkstates. It works fine, but the complete cell area can be clicked to change the Checkstate. I want, that the checkstate only changes when click on my bitmap. 
+I cannot find any sample or hint in documentation. See attached a screenshot to explain.
+Regards
+Michael

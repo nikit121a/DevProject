@@ -1,0 +1,7 @@
+Hi,
+I have a DxGrid in my code designed to set authorizations to  multiple entities. There are two different checkbox columns bound to different booleans (note: their status isn't related at all to the row selection- I could only find ways to implement selection-related checkboxes here so far).
+A typical use case would be a user would enter a group on the SearchBox, the Grid will filter itself showing only members of said group, and user would click on the column header to select/unselect all visible values.
+Simple code for the grid:
+Here the fields IsAuthorized and IsReporting are boolean values.
+How can I put a checkbox in the column header and make it behave so clicking on the header checkbox will select/unselect all booleans on the visible rows only? Note that just like a selector checkbox. the header column status will be updated depending on what's being displayed
+Thank you 

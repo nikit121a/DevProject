@@ -1,0 +1,6 @@
+Hi,
+I am currently trying to integrate dxMap for MVC in my project with Google Maps as the provider. I needed to display the transit and railway layer provider by Google Maps. 
+How can I realise this in dxMap? Is there a property I can configure?
+Thank you.
+Best Regards,
+Kathereen

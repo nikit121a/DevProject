@@ -1,0 +1,7 @@
+Hi,
+I am rebuilding an existing website to come up with a landing page which displays all the menu options to the user . Each menu will have multiple sub menus on click of which we should be either navigated to open page in another tab or should have contents posted on the same page. 
+Here, we want to show the menubar on the left side vertical oriented and would want the sub menus to appear below each of the menu. We have a long list of menus that are fetched from database, so the sub menu have to be collapsed by default and only open when we hover over or click on menu.
+ And  once we click on the sub menu, it should auto hide menubar and show just the view.
+I am looking at multiple widgets Menu, NavBar, Slideout.  Which one would be the best fit here and what settings can be done to achieve this behavior.
+Thanks,
+Silpa 

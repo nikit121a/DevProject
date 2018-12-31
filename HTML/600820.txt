@@ -1,0 +1,9 @@
+Hi
+I have a lookupedit that is loaded from the database with for example VALUE1
+Then I change the dropdown list and remove VALUE1 from available values
+When the user loads the grid, the column using a RepositoryItemLookUpEdit   will show an empty cell since the value is VALUE1 but the dropdown does not have VALUE1 anymore
+I dont necessarealy want users to be able to add new items but since it is already inputted, I would like to show them the current "wrong" value and not an empty value.
+I tried with repo.AcceptEditorTextAsNewValue  but this is only for newly typed values.
+In my case the column comes from a table and ALREADY have the invalid value.
+What would be the best approach to let the user see the current value ?
+ 

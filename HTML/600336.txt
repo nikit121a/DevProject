@@ -1,0 +1,4 @@
+My XAF win application requires more than 4 minutes to comes up. Users are facing this issue only on Windows 10; using Windows 7, the application start up performance is better than Windows 10 (30 sec, more or less).
+T?he XAF release version (15.2.7) could be the problem on Windows 10?
+T?hanks,
+M?arco

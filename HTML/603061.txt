@@ -1,0 +1,6 @@
+Hi,
+How can I highlight the resource row in the Scheduler when a user clicks the resource in that row? 
+See attachment: Let's say the user clicks at the position of the blue arrow, how can I highlight the whole row? It's allright when the styling of the highlight is the same as when the user clicks a single cell in the row (see yellow circle in the attachment)
+Best regards! 
+Martijn van der Heden
+ 

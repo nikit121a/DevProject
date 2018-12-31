@@ -1,0 +1,6 @@
+Hi
+I have a large Data Grid that seems to hit some kind of limitation on the API side when grouping in several levels 
+~ 25 columns, grouping in 3 or 4 levels.
+Depending on amount of data rows, returns 404 Not found from the API.
+It looks like  there is some kind of limitation that DataSourceLoadOptions loadOptions can handle?
+ 

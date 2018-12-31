@@ -1,0 +1,26 @@
+When I try to use a XML Chart definition from 14.2 with a  Assembly DevExpress.XtraCharts, Version=17.1.6.0, 
+ 
+<?xml version="1.0" encoding="utf-8"?>
+<ChartXmlSerializer version="14.2.5.0"><StylePriority Ref="16" UseBackColor="false" />
+<Chart Ref="17" BackColor="Red" SelectionMode="None" SeriesSelectionMode="Series">
+<Diagram Ref="18" TypeNameSerializable="XYDiagram">
+<DefaultPane Ref="19" EnableAxisYZooming="False" EnableAxisXZooming="False" EnableAxisYScrolling="False" EnableAxisXScrolling="False" />
+<AxisY Ref="20" VisibleInPanesSerializable="-1" />
+<AxisX Ref="21" VisibleInPanesSerializable="-1" />
+</Diagram>
+<DataContainer Ref="22" SeriesDataMember="No" DataMember="Customer">
+<SeriesSerializable>
+<Item1 Ref="23" ValueDataMembersSerializable="Balance_LCY" ArgumentScaleType="Qualitative" />
+<Item2 Ref="24" ValueDataMembersSerializable="NetChange_LCY" ArgumentScaleType="Qualitative" />
+</SeriesSerializable>
+</DataContainer>
+</Chart></ChartXmlSerializer>
+ 
+I get the following message when I call Control.LoadFromStream:
+ 
+Die angegebene XML-Datei kann nicht ge?ffnet werden, da sie entweder ung?ltig ist, oder defekt ist.'
+If I reset the backcolor  to default It loads 
+Is there a way to upgrade the definition? 
+Regards
+Michael
+ 

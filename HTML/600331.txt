@@ -1,0 +1,6 @@
+Hi,
+we use the reporting tools to deliver reports to users across two offices through our intranet. As the number of reports grows and delivery preferences vary across users we are now looking into automating report generation and delivery. 
+What would be the most efficient way to utilize already existing XtraReport files and generate files by executing code? Can we create a windows application that can use the report template and generate a pdf or Excel file unattended - e.g. on a server with a scheduler so we can run automated reports before business hours and send these to email recipients or store them in the company directory?
+My preferred platform is VB.
+Thanks,
+Kai 

@@ -1,0 +1,3 @@
+We have a business requirement to have a multi-line text area for an address.  That works fine, but we want to put a placeholder/watermark on it.  We tried this:
+but the new lines do not render.    Is there a way to implement a multi-line placeholder in a dxTextArea?
+Thank you 

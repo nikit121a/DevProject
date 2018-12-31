@@ -1,0 +1,29 @@
+WPF  VB.net
+I am looking for a way to build Custom work days, times, and work day intervals by resource by date range.  Also set holidays and days off where the entire schedule is blocked.  I found this ticket but have found no other reference to this.
+Any work day that is blocked out should be shaded color #1 w opacity to see through to grid in case an appointment does occur
+Lunch should be shaded color #2 w opacity
+Before and after work hours and off days should be color #3 w opacity
+Here's what I need:
+Resource #1:
+from 01/01/2017 to 12/31/2017
+Work days:
+-M, T, W
+work hours:
+-Mondays: 9:30-12:30 and 3:00-6:00 (lunch 12:31-2:59p)
+-Tuesdays: 9:30-12:30
+-Wed: 9:30-12:30 and 3:00-6:00 (lunch 12:31-2:59p)
+Additional Closed workdays:
+- Monday 7/4/17
+from 01/01/2018 to present
+Work days:
+-M, T, W, Th
+work hours:
+-Mondays: 9:30-12:30 and 3:00-6:00 (lunch 12:31-2:59p)
+-Tuesdays: 9:30-12:30
+-Wed: 9:30-12:30 and 3:00-6:00 (lunch 12:31-2:59p)
+-Thur: 9:30-12:30
+Additional Closed workdays:
+- Tuesday 7/4/18
+Resource #2:
+Same things
+ 

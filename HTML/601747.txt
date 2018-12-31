@@ -1,0 +1,10 @@
+Hi,
+I use the GridView with the Compact theme.
+The display of the grouped rows arrows  is a little bit confusing:
+The arrow of the group should point to the bottom when the group is opened.
+The arrow of the group should point to the  top when the group is closed.
+ But now the direction of the arrow changes whenever the group gets activated/deactivated.
+Instead it should be static...
+Please find the demo video attached.
+Kind regards
+Andy 

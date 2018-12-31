@@ -1,0 +1,1 @@
+The default message on the pop up for Angular Data Grid on Delete row click is "Are you sure you want to delete this record? " Can you please let me know how can we change this message to a custom message.? Thanks.

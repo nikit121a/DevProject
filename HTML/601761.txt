@@ -1,0 +1,9 @@
+Hi,
+I have a question for you.
+I have a UserControl with a ExpandoObject DependencyProperty .
+I need to create a simple template when I generate a label and textbox for any properties of my ExpandoObject. How can I do this?
+This is my xaml.cs code:
+    
+and this is my xaml code:
+the items must be recreated every time that I change the SelectedObject because the new Expando object could have other properties with other value.
+Thank you

@@ -1,0 +1,8 @@
+Hi,
+In our application  a user has a list of available modules, depending on the rights of the user.
+When a user closes the application while a module is open, the state is stored.
+If the rights to a module are revoked , and the users starts the application the state is restored.
+Since the user has no longer the right to a specific module, this module is not registred in MIF and the restore of the state throws an exception.
+This because the self implemented ViewModelLocator returns null (after an exeption occures in the ResolveViewModelType).
+What is the best way to intercep errors during the restore of the MIF state? The final exception now occures in the MainWindow InitializeComponents
+ 

@@ -1,0 +1,14 @@
+Greetings,
+Please find attached ScreenCasts to demonstrate the issue(s) I am facing and the 
+ I've created for demonstration
+Ref. 
+I've tried to demonstrate that initially, when the (map) box loads, the map isn't displayed. After clicking a few times, the map controls show up and then further, when I click on the 
+ button, the map shows up in the full screen view and after clicking 
+keyboard button, the map now shows up in the box.
+Ref. 
+this issue is in continuation to the above, where the map isn't loaded up even after a location is entered until the full screen is toggled.
+The Map is being displayed over a HTML popup. 
+Also, in addition to the above, I would also like to check whether the map information (as displayed in google's search result) is available for us to access (ref. highlighted area in 
+)
+Regards,
+Sachin Pise

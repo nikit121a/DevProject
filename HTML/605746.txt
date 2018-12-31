@@ -1,0 +1,5 @@
+Hello,
+let's say I have BootstrapGridView showing some data. Data in grid depends on a value of some other component, eg. BootstrapDatePicker. I would like to refresh data in grid every time edit value is changed in the date picker (by refreshing data I mean sending request to Controller with a value from date picker). 
+Could you plese advise me a way how to achieve this?
+Thanks,
+Jan 

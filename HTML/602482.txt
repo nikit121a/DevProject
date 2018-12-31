@@ -1,0 +1,11 @@
+Hello 
+I've been trying to develp a planner solution using tcxScheduler and i've come across some issues, 
+1
+if i use a "large" timestep like 30/60 minute its possible that my events will overlap eachother, 
+ie. event1 - 10:00 -> 12h13 
+     event2 - 12h25->13h00
+if i use timestep 30' this will occur, 
+can the event be displayed in it's correct position, the only way i eas able to reproduce the intended behaviour was to define 1min as time step and then hide lines, this is not satisfactory because of the space consumed and makes horizontal scroll a pain..
+  
+thanks for your time
+Bruno

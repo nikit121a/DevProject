@@ -1,0 +1,4 @@
+Hi team,
+I have created application with the help of scafolding in MVC.
+How can we convert scafolding controls to dev express controls.
+ 

@@ -1,0 +1,5 @@
+We sometimes experience the data grid header position being slightly out of sync with the grid contents.  Usually the difference is approximately the width of the scrollbar.  We have seen the issue in both directions- off to the left or right.  We have also seen it on both IE11 and Chrome.  Using Chrome with this example: 
+if you scroll all the way to the right, the alignment is off.  Please see the attached screen capture.
+Again, we see this in other cases as well, but those may be much more difficult to recreate.   Can this be resolved in the next release?
+Thanks,
+Justin 

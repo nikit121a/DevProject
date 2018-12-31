@@ -1,0 +1,14 @@
+I have a layout.
+Top area is menu and rest of the area used to display usecontrol.
+Now I want to add multiple usercontrol when click on menuitem in 
+ using 
+.
+So the UI Should be similar to 
+and Each tab represents userControl.
+How can I load Usercontrol in the tab usign Viewmodel
+I was using Navigatoin Service to load Usercontrol in NavigationFrame. but Now I cant use in documentGroup.
+I try to play with DevExpress Demo 
+.
+It is loading usercontrol when click 
+ Button but it is in codeBehind.
+ 

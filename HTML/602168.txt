@@ -1,0 +1,7 @@
+Hello
+1. See video from attach
+2. Problem what font in CalloutPopup.PopupContro is smaller what in base form
+3. See attach to reproduce
+4. Delphi XE2, DPI= 125%, W10  FCU
+ 5. Not urgent
+6. Thank you ;) 

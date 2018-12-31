@@ -1,0 +1,5 @@
+I have set up a navigation pane control and added three pages to it, each with a couple of controls on them. I can switch between pages just fine, but whenever I click on the currently selected page once more it kind of closes. That by itself wouldn't be too much of a problem, but whichever page I click on next won't show its controls either until I click *yet* another page.
+Is this desired behaviour? Even if clicking on the active page selector would close the current page I would at least expect all controls to appear again when another page gets selected after that.
+I have disabled the Expand/Collapse button in my project but the same thing happens when using those.
+Best regards,
+Thomas Touzimsky

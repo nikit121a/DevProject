@@ -1,0 +1,6 @@
+I need to validation  closest columns (both are or not) before updating like in the following example:
+but it will be the best if columns have standard validation option like in the form editing:
+How can I do like in the form editing? Is it possible?
+My dataField:
+And why i can't find :
+ 

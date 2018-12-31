@@ -1,0 +1,4 @@
+Go on the following demo page: 
+And paste this code at the top:
+Modify a date and when you focus out the cell is blanked.
+How can I get this to work?

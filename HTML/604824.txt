@@ -1,0 +1,2 @@
+I'm looking for an editor that lets the user edit XML-data in syntax highlighted mode.
+Can I use ASPxHtmlEditor for this. 

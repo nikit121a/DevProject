@@ -1,0 +1,14 @@
+I created a dashboard that uses and Excel Data Source and saved the Dashboard as an xml file. Then i created a Winforms app and loaded the xml file in a Dashboard viewer. Each week we want to select a new spreadsheet with the same schema that has new data. I've been struggling for more than a week trying to get the dashboard to refresh with a new data source. The Dashboard viewer always shows data associated with the original Excel file.
+I've tried using event handlers like LoadingData, tried the refresh() method, changing data sources after the following code snippet:
+ 
+                var dashboard2 = new Dashboard();
+                DashboardViewer dashboardViewer2 = new DashboardViewer();
+                dashboardViewer2.Dashboard = dashboard2;
+                dashboardViewer2.Dock = DockStyle.Fill;
+                tabControl1.TabPages["tabPage2"].Controls.Add(dashboardViewer2);
+                dashboardViewer2.LoadDashboard(@"C:\Metrics\Prototype2.xml");
+                DashboardExcelDataSource excelDataSource = new DashboardExcelDataSource("NewExcelData");
+                excelDataSource.FileName = openFileDialog1.FileName;
+                ExcelWorksheetSettings worksheetSettings = new ExcelWorksheetSettings("DocQuery");
+                excelDataSource.SourceOptions = new ExcelSourceOptions(worksheetSettings);
+                excelDataSource.Fill();   

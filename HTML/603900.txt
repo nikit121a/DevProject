@@ -1,0 +1,7 @@
+Hello!
+We implemented the Spellchecker in our project.
+So far everything works fine but we have the situation that we use some extended Layouts. We use the Layoutcontrol with some EditControls on it and built a TabbedLayoutControlGroup with UserControls. So you have direct Editcontrols mixed with tabs.
+SpellChecker.CheckContainer works fine but only for these controls which are visible. That means also onyl for the selected tab in the TabbedLayoutControlGroup.
+Is it possible to extend the SpellChecker that with the method CheckContainer I can also check all the tabs with one click?
+Thanks
+Peter 

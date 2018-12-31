@@ -1,0 +1,13 @@
+Hi 
+   When I handle double click and also click event , only click event handled.
+Benjamin
+            TileItem t = new TileItem();
+            t.Name = "ReasonTile" + id.ToString();
+ 
+            t.Tag = id;
+            t.EnableItemDoubleClickEvent = DefaultBoolean.True;
+             
+            
+            t.ItemDoubleClick +=   new DevExpress.XtraEditors.TileItemClickEventHandler(tileItem1_ItemDoubleClick);
+            t.ItemClick += new DevExpress.XtraEditors.TileItemClickEventHandler(tileItem1_ItemClick);
+ 

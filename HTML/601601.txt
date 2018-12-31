@@ -1,0 +1,11 @@
+Hi
+I have a  dxg:TreeListView located inside a dxlc:GroupBox. 
+The group box, is located inside a dxlc:DockLayoutControl together with another group box.
+This tree list view has several columns, however only one of the columns is visible.
+The group box has the property dxlc:DockLayoutControl.AllowHorizontalSizing="True". This allows horizontal resizing of the two group boxes.
+I would like to have the width of the single visible column changed according to the current width of the groupbox; however, when horizontally resizing the group box containing the tree, the width of the column doesn't change. 
+I tried setting the AutoWidth property of the TreeListView to true, however this causes the width of the entire groupbox to actually be the total size of the dock control, overriding the second group box.
+Adding Width="*" to the definition of the single visible column also causes the same.
+What would be the right way to define the width of the single visible column to be automatically resized to the width of the containing object which is the group box?
+Thanks.
+ 

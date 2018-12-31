@@ -1,0 +1,6 @@
+I have the following progress bar in Angular 4
+ <dx-progress-bar 
+            [min]="0" [max]="progress_total" [statusFormat]="overallProgressFormat" [value]="progress_counted">
+ </dx-progress-bar>
+It shows the 'loading' animation when the page is loading and then when the page is loaded it retains the animation but shows the bar that I expect to see directly under it (see attachment).
+I can't find a way to make it behave normally. 

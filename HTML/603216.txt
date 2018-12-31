@@ -1,0 +1,1 @@
+I installed the latest version of DevExpress (Universal Subscription) and then ran the project converter on a saved solution - reporting no errors with all references in the project being updated.  Now, when I try to open any XtraReport for the solution I get the attached error.

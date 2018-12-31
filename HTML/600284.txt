@@ -1,0 +1,12 @@
+Hello,
+ we are facing a problem while exporting reports to csv.
+In the result all headers and fields  should be wrapped in quotation marks.
+I found some tickets regarding this topic. Most of them are for the grid control (eg 
+).
+In
+one solution is presented.
+There CsvExportOptionsEx is used with the CustomizeCell event.
+But when exporting a report to csv, this event isn't called.
+Why is that? Do you have an other way to add quotation marks?
+Thanks
+Matthias 

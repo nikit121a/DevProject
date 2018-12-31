@@ -1,0 +1,7 @@
+Hi,
+Setting OptionsView.ZeroValues := False makes FALSE values in cells invisible. While excel doesn't.
+Steps to reproduce:
+1) Put dxSpreadSheet onto form
+2) Set in design time  OptionsView.ZeroValues := False
+3) Run program, enter word FALSE to any cell, press E NTER
+4) Value was hidden 

@@ -1,0 +1,7 @@
+Hello,
+since the update to the version DevExpress 17.2.5, we have in all Headerfilter the same display problem.
+You can see this in the picture 1 and picture 2 , in picture 3 you can see the old and correct view.
+I hope you have a solution for me.
+Best regards,
+Mirko
+ 

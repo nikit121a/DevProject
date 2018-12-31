@@ -1,0 +1,4 @@
+I'm trying to make a column visible at design time. I've set visible index but the column is not displayed in the correct Position.
+See the attached project for more details.
+How can i move the column after the last one?
+Thanks in Advice.

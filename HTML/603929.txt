@@ -1,0 +1,22 @@
+Hello,
+I have in my grid view have two combo box controls. I don't have any required field validation in that comb box but still at the time of saving i am getting validation icon.
+I am sending my code and screenshot so that you can understand my problem.
+  settings.Columns.Add(column =>
+        {
+            column.FieldName = "ModelManufacturerName";
+            column.Caption = "Manufacturer";
+            column.Width = System.Web.UI.WebControls.Unit.Pixel(106);
+            column.ColumnType = MVCxGridViewColumnType.ComboBox;
+            column.CellStyle.HorizontalAlign = System.Web.UI.WebControls.HorizontalAlign.Left;
+            ComboBoxProperties C = column.PropertiesEdit as ComboBoxProperties;
+            C.IncrementalFilteringMode = IncrementalFilteringMode.Contains;
+            C.Style.CssClass = "ComboBoxSize2";
+            var comboBoxProperties = column.PropertiesEdit as ComboBoxProperties;
+            comboBoxProperties.DataSource = CyaAdmin.Models.ModelPartBuilder.ManufacturerListGrid(UserSessions.LoggedinUserAccountId, 0);
+            comboBoxProperties.ValueField = "ManufacturerID";
+            comboBoxProperties.ValueType = typeof(int);
+            comboBoxProperties.TextField = "ManufacturerName";
+            comboBoxProperties.EnableSynchronization = DefaultBoolean.False;
+            comboBoxProperties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+            comboBoxProperties.ClientSideEvents.SelectedIndexChanged = "ManufacturerCombo_SelectedIndexChanged";
+        });

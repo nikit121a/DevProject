@@ -1,0 +1,2 @@
+Hello, i use Skin base on Seven 7.
+When i open Spellchek Settings form i see scrollbars right and bottom of forms. It is correct?

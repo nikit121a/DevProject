@@ -1,0 +1,5 @@
+Hello,
+I have tried several ways to find a way to modify the tab header of a NavigationPage, but until now I was not able to find a solution. The tab header should have two optional location for an image. As far as I understand the underlying control of the tab header is a button, where you can include an image, but only on the left side of the text.
+In WPF it is very easy to achieve this goal, because you can style the header the way how it should look like. Unfortunately WPF is not an option in the project. I have attached an example, how the header should look like, the images in the example are only placeholders.
+Could you give me perhaps a hint how I can modify the tab header button?
+Best regards

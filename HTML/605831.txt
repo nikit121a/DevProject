@@ -1,0 +1,4 @@
+Hi,
+I have a grid with filter row enabled,Can you please suggest me how to change the filter rows selected item from external source.As you can see in the attachment where i have both dx-tree and  dx-data grid in my component.On selection of any item from the tree i need to filter out rows from the grid.Please note in grid filter-column i have is drop down hence i need to change its selected item to filter out rows in the grid on any selections from tree.
+Kind regards
+Jailani M M

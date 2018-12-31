@@ -1,0 +1,6 @@
+Hi,
+I have a business object with a required property (SocialSecurityNumber with attribute RuleRequiredField). Only a limited number of users is allowed to actually see this number, so I created the necessary security roles to achieve this.
+A problem arises when a user is not allowed to view this property, but needs to modify an other property (e.g. the address).  When he tries to persist the record he gets a "Social security number is missing" error. The number is not missing, but because of the permissions he is not allowed to see it and because of the RuleRequiredField attribute he can't save the record.
+Is there a way around this? 
+regards,
+Michiel 

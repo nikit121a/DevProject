@@ -1,0 +1,2 @@
+Enter the name of node "Child1" : if "Chi" - the parent node will expand, but if "ild1" - it will not expand. 
+ 

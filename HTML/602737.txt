@@ -1,0 +1,4 @@
+Hi,
+I need to be able to refresh a listview whenever it is brought into focus (i.e. activated).
+I have used this code in the Activated event on a ViewController , but it does not seem to be Refreshing the data.
+ 

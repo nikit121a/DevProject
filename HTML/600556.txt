@@ -1,0 +1,18 @@
+I have my AppoitmentViewModel, which is bound to Scheduler via mapping
+<dxsch:DataSource.AppointmentMappings>
+                        <dxsch:AppointmentMappings Start="StartTime" 
+                                                   End="EndTime" 
+                                                   AllDay="AllDay" 
+                                                   Subject="Subject" 
+                                                   Id="ID" 
+                                                   Description="Description" 
+                                                   LabelId="Label" 
+                                                   Location="Location" 
+                                                   RecurrenceInfo="RecurrenceInfo" 
+                                                   Reminder="ReminderInfo" 
+                                                   ResourceId="CarId" 
+                                                   StatusId="Status" 
+                                                   Type="EventType" />
+                    </dxsch:DataSource.AppointmentMappings>
+Inside  AppoitmentViewModel I want to have properties of some class type RecurrenceInfo and Collection of ReminderInfo, which want to Bind to Scheduler.
+Question: Am I right, that DXScheduler supports the case when  RecurrenceInfo and ReminderInfo are string? Is it possible to have custom classes isntead of string for this properties?

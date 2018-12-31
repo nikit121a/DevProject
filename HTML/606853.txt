@@ -1,0 +1,16 @@
+ok, i just read this:
+and this maybe explains  why i've been having those problems. 
+please ignore this post for now, i will have to change a few things in my architecture and when i run into problems, i'll be coming back at you..
+hi there.
+i am having problems with the edit form  of the datagid.
+this:
+is a simple example.
+please go into edit mode and see that the form is not built. as this is a really simple one, i cannot see what should be the problem. 
+used in a standalone form it works:  
+in my project, when i use the same definition of items i use for the datagrid's column option, it works, but i cannot reproduce it here.
+i also do not really understand how the columns definition and the editing's form definiton work together.
+for example i can define an editCellTemplate in one of the coumns . how does this intertwine with the definition for the corresponding datafield defined in the form? 
+what i actually want is to have a grid form that displays a tabpanel. in this tabpanel there should be tagboxes.
+i just can't get my head around it because it behaves not very consistent.
+for example for tagboxes that are outside the tabpanel, when i define the editortype in the form-option, with showSelectionControls = true, the selection controls are radioboxes!!! what is working  for them is to define an editCellTemplate. but this has to come from the columns definition. but this won't work for the fields under the tabpanel, but these will work by the aforementioned defintion in the form.  (okay, i would not know how to set the value, but that may be the next step :)
+what is best working is the editCellTemplate, but as mentioned, it does not work with the tabbed items. is this expected behaviour?

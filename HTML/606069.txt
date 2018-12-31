@@ -1,0 +1,3 @@
+Hello Support Center,
+I am working on a project and notice an interesting occurrence that I can not pin-point.  On initial load of a form/control which contains a grid with a child advanced banded grid view, a row selection can be made.  This then moves the row to the nearest top of the grid.  After this initial selection, the grid maintains row placement and does not auto-scroll.  I would prefer this to not happen and maintain the general placement of the row.  I have attached a sample project with screen shot samples embedded in the zip.  
+Thank you for your help!

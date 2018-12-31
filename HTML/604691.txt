@@ -1,0 +1,7 @@
+The dxDataGrid function getSelectedRowKeys() will not return the accurate keys if a row has been selected and re-selected a few times. 
+To duplicate this bug:
+Create a dxDataGrid : 
+Note this function is also used to generate a property of obj called selectedRowKeys when using the onSelectionChanged, like in this example.
+Select multiple rows, then select and deselect the same row a few times.
+The console logs will show that the row keys in the selectedRowKeys array is being overridden.
+The keys do not correspond with the actual keys, which can be seen in obj.selectedRowData.realKey.

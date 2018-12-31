@@ -1,0 +1,2 @@
+Hi Team,
+I need help with updating Tab Caption with List count dynamically. I was able to achieve this on Web but not working on WinForm 

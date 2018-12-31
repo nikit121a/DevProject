@@ -1,0 +1,6 @@
+Hi,
+Is it posible to launch the Conditional Formatting Manager Dialog externally?
+We have a custom dialog to configure our GridControl and we would like to be able to launch the formatting dialog (see Dialog.png) via a button within this custom dialog.
+Thank you.
+Best regards,
+Serene  

@@ -1,0 +1,5 @@
+steps to reproduce
+1) open 
+ in ie 11
+2) click the SEARCH button
+Check In, Check Out, Rooms editors have the wrong width. See attachment

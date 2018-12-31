@@ -1,0 +1,20 @@
+I am using both Automatic Mask and Manual Validation Rule method to valide my TextEdit Control
+So for example
+                <dxlc:LayoutItem Label="Email">
+                    <dxe:TextEdit 
+                                  InvalidValueBehavior="WaitForValidValue" Name="txtEmail" 
+                                  NullText="Please input email address" NullValue="" AllowNullInput="False" ShowNullTextForEmptyValue="True"
+                                 MaskType="RegEx" Mask="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}"
+                                  ValidateOnEnterKeyPressed="False" ValidateOnTextInput="True" CausesValidation="True">
+                        <dxe:TextEdit.EditValue>
+                            <Binding Path="input.Email" UpdateSourceTrigger="PropertyChanged" Mode="TwoWay">
+                                <Binding.ValidationRules>
+                                    <validate:RequiredValidationRule FieldName="Email"/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </dxe:TextEdit.EditValue>
+                    </dxe:TextEdit>
+                </dxlc:LayoutItem>
+My question is , when the validation has error, i want to give a validation error message on the screen
+may i know how to do that ?  
+ 

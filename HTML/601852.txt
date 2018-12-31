@@ -1,0 +1,16 @@
+Hello.
+My scripts are broken everywhere because some changes that were made on your dx.all.d.ts file.
+These are the problems:
+======================
+- dxPivot, dxDataGrid, dxLookupOptions breakings
+dataSource members are breaking my KnockoutObservable<any> assignments.
+So  I noticed the interface now forces:
+==>>    string | Array<any> | DevExpress.data.DataSource | DevExpress.data.DataSourceOptions
+It should be <any> because you dont know what datasource one would use AND consume.
+Also, getting the array from the observable datasource is impossible (I.E.  var array = grid.dataSource()   <-- throws error)
+======================
+- DevExpress.ui.dxPopupToolbarItemOptions is missing
+It is definitely removed? Have something in the functionality (the js code) somewhat removed also?
+if the js code is intact can you summon that interface back?
+I have changed your dx.all.d.ts so I can have the project back, but it will break everything again after every upgrade.
+Can you help me addressing these issues?

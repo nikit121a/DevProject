@@ -1,0 +1,3 @@
+Hi there,
+I?m having a little trouble with customizing the scheduler?s context menu. I?m clearing all default items and add custom item?s. But the menu is too narrow, and explicitly setting it?s width creates an odd result (see attached image). How can I get the menu to have the exact width to display it?s items texts? Btw. is it possible to remove the space reserved for item icons?
+Thank you, Raphael

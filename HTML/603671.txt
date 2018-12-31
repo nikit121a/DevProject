@@ -1,0 +1,7 @@
+Hello DevExpress-Team!
+I want to achieve that if the voucher is canceled the whole row is gray (IsCanceledGray), even if there is a OpenAmount (OpenAmountNegativeRed). 
+Unfortunately it doesn't change when I have the IsCanceled rule on the first or last position in the Format Rules Options.
+From the Designer File
+ I hope you can help me.
+Regards,
+Mario 

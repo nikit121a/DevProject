@@ -1,0 +1,3 @@
+Hi
+I am trying to do a custom calculation for a GroupSummary item based on other group Summary items.
+For example my group summary has total GP and total Sales for thier columns i would like to make a group summary that calculates Sales * GP, but at a group level.

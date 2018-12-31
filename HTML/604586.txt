@@ -1,0 +1,3 @@
+Submitted by Titus:
+Is there a threshold of how much you should user the Messenger functional within the WPF MVVM model?
+Example: In .net application, if you have too much session data by using Session variables, then you can run into issues with memory etc. 

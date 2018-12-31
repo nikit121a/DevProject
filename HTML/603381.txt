@@ -1,0 +1,20 @@
+Hello,
+I have treelists one as a source tree list and other treelists views acts as destination for node droping. Source tree list is bind at design time. But the child tree lists are added at runtime. I have written the InsertBrunch method as follows:
+private void InsertBrunch(TreeList list, TreeListNode node, int parent)
+        {
+            try
+            {
+                ArrayList data = new ArrayList();
+                foreach (TreeListColumn column in node.TreeList.Columns)
+                    data.Add(node[column]);
+                parent = list.AppendNode(data.ToArray(), parent).Id;
+                if (node.HasChildren)
+                    foreach (TreeListNode n in node.Nodes)
+                        InsertBrunch(list, n, parent);
+            }
+            catch (Exception ex)
+            {
+            }
+        }
+But, parent = list.AppendNode(data.ToArray(), parent).Id; this id i am getting null. And it throws object reference not set to instance of object exception.
+Will you please tell me why this is happening? 

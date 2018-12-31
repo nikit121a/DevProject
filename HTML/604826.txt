@@ -1,0 +1,12 @@
+Hi,
+This is Nagaiah here.
+ 
+We are using TcxGrid with TcxGridBandedTableView.
+Requirement:
+We had a problem with the text selection in the grid , when we want to edit the cell value of the grid (f2 key press )then total cell gets selected .
+But we had a requirement from the user that whole cell value  should not be selected and cursor should be  place at the last position of the text
+Please find TestApp.Zip it contains 
+1. C++ project 
+2.Cursor should be at last position of the text.png
+Thanks and Best Regards,
+Nagaiah Polamala  

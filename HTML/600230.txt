@@ -1,0 +1,8 @@
+Hello,
+I have a PivotGrid with a column that has a LookUpEdit.
+The ValueMember is a integer and the DisplayMember is a string.
+When I print the PivotGrid (ShowRibbonPrintPreview()), the column shows the DisplayMember, but when I use the control in the RibbonPrintPreview to export to Excel ( .xls  OR .xlsx ), the colum shows the ValueMember.
+I want the Excel to show the DisplayMember. How can I achieve this?
+The project sample is attached in this ticket.
+I also created a video to reproduce the error.
+Thank you 

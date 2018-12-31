@@ -1,0 +1,9 @@
+I have a master form with a LayoutControl on it and a WindowsUIButtonPanel docked on the latter. I have added some buttons on WindowsUIButtonPanel in which I have assigned an Image for every button state (normal, pressed, hovered) using an ImageCollection, trying to hide the default appearance with the circle and show only the image.
+Furthermore, I have created a detail form with a LayoutControl and a WindowsUIButtonPanel on it, but this time I use the default appearance of the WindowsUIButtonPanel (with the circle). 
+After showing the detail form as dialog, and closing it, I hover the mouse over the WindowsUIButtonPanel of the master form. The layout of the WindowsUIButtonPanel changes and shows the black circle, as you can see in the attached picture.
+I have attached a sample project also, in which you can test the behavior of the WindosUIButtonPanel control for the following cases:
+ when the modal form does not contain a WindosUIButtonPanel control, 
+ when the modal form contains one as describe above
+ when the modal form contains a WindosUIButtonPanel control with the same layout.
+Thank you in advance
+Yiannis 

@@ -1,0 +1,7 @@
+Hi,
+When I edit table in HtmlEditor (MVC) with Table Properties dialogue, the <th> tags be replaced by <td> tags. Is there any way to keep this tags? Also for <thead> be deleted.
+Regards
+/Issa
+Before editing
+After editing
+  

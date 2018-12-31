@@ -1,0 +1,13 @@
+Dear supporters.
+We are using DataAnalysis control. 
+I have write code for export data to MS Excel in .xlsx format. 
+
+
+
+Response is very slow or neverending, but I do not know why. Application still shows Loading window.
+I win application  export works.
+
+
+
+Thanks for help.
+Jiri Vesely

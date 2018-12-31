@@ -1,0 +1,7 @@
+Hello
+When the display scaling and layout are set to 125% on Windows 10, the display speed of cxGrid 1 DBTableView 1 slows down.
+The data is MariaDB's 10.2, using FireDAC's TFDQuery.
+The table has three VARBINARY (30), one Integer, about 20000 records.
+There is no problem when the scale is 100%, but if it is 125%, the speed will decrease to such an extent that it can not be used.
+Is there a way to improve it?
+Thank you.

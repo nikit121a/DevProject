@@ -1,0 +1,5 @@
+Hi Support,
+I'm trying to handle the XtraTabControls CloseButtonClick Event to optionally cancel the event.  For example I have a non committed data on the tab and I want to prompt the user to Save prior to closing or to simply cancel the action.
+Casting the EventArgs to ClosePageButtonEventArgs doesn't expose a cancel property.  Is there a way to do this or do I need to handle a different event.
+Thanks
+P 

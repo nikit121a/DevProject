@@ -1,0 +1,9 @@
+
+Hello 
+I've been trying to develp a planner solution using tcxScheduler and i've come across some issues, 
+
+
+
+
+thanks for your time
+Bruno

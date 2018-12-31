@@ -1,0 +1,11 @@
+Hi DevExpress Support,
+      I just want to ask for help about a certain use case where I have a view model called "CreateUserViewModel" as shown below.
+that is bound to a devextreme form, but I have a property of that view model which is a collection of a certain type, "CategoryViewModel" and "CategoryViewModel"  acts as a parent node in a heirarchy as shown below.
+Its child nodes which are of the "RoleViewModel" type have a property called "Selected" which is either true or false as shown below.
+The goal is to push the updates to the "Selected" property of the RoleViewModel type when the form is submitted.
+ My initial plan was to use a separate control from a devextreme from which is a devextreme tree view, since the view model is being passed into the view, I'm expecting that whenever I made changes to that "Selected" property of RoleViewModel by checking or unchecking child nodes in the tree view, I would be able to still capture it when I submit the form, but turns out, I'm only passing the property values that are bound inside of a devextreme form even though both the devextreme form and devextreme tree view are inside of a form tag, 
+     Here is the view code which details my initial plan
+Just want your suggestion on what is the most effective approach to this ? 
+Thanks!
+Jude Alquiza.
+ 

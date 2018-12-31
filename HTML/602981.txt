@@ -1,0 +1,5 @@
+Hello,
+1. what is the simplest way to pivot.export ToPdf in landscape mode ?
+ 2. same question with fit to 1 page wide.
+Thank you !
+ 

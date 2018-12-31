@@ -1,0 +1,6 @@
+Hello,
+How can I set date format for new row in grid (forms)? Property DisplayFormat (dd-MM-yyyy ) is not working for me. Only the saved dates are displayed correctly in grid.
+Regards,
+RP
+-----------------------
+I solved the problem by adding the dateedit control to the repository of this column  (ColumnEdit Property). For this control I can set the mask in the EditFormat property to the required one (dd-MM-yyyy) and date in the grid is displayed correctly.

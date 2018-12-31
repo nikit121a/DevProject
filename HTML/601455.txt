@@ -1,0 +1,6 @@
+Hi Team,
+we ate trying to automate the test scenarios using the script , so need u r help in finding the attributes and also help us to add some unique Id for the cells in the scheduler
+we are not able to find the Id for the 3 more button  when we have more appointment on the same date, so requesting you to help us in finding the unique Id's for the mentioned scenario.
+added the screenshot for your reference and better understanding.
+Regards
+Hareesh 

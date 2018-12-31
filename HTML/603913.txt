@@ -1,0 +1,2 @@
+In ANgular front end , i am using the dropdown with single selection
+right now its taking an entire row , how can I change the size of the this component

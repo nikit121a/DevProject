@@ -1,0 +1,4 @@
+I have an ASPxPageControl with several TabPages. I would like to be able to have the TabText occupy two lines and be able to control where the TabText breaks such that I could have:
+TabTextLine1
+TabTextLine2
+I have been unable to figure out how to do this. I will be changing the TabText from the client side. 

@@ -1,0 +1,6 @@
+I have a grid that uses a MemoEdit. I have enabled auto row height and pixel scrolling.
+I'm finding that the scrolling will not go to the bottom if the form height is not large enough to show the last row in full.
+See images.
+Image 1 : Working because last row fits
+Image 2: Not working I cannot scroll to bottom because row does not fit
+Additional Info: exporting to Excel exports all data correctly

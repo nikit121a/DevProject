@@ -1,0 +1,7 @@
+Hello Support.
+I have a grid with Angular 5  having calculated cell values not related to any dataField.
+The filterBuilder setup for this grid as described in your demo not works because the dataField is missing on some colums and exceptions are thrown.
+Is there any way to use the filterBuilder with calculated cell values?
+Thank you.
+Best regards,
+Alberto 

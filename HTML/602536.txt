@@ -1,0 +1,6 @@
+Hi guys,
+I'm using the Scheduler BeginCallback as follows:
+To pass some information on the callback; the command comes through fine, however in the case of "GOTODATE" I am not able to find the clientside property that tells me what date we are trying to go to; I've had a look on both the sender (s) and event (e) objects.
+Please can you advise what I need to use?
+Thank you,
+Stan

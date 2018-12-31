@@ -1,0 +1,10 @@
+Hi guys
+I had a new issue related to aspxdockpanels. 
+When I create the DockPanels directly into the aspx code, Aspxdockmanager's GetPanelByUID method finds the Dockpanel. 
+If I create it in realtime, I mean, in codebehind, with exatcly the same parameters, so this method mentioned above doesnt ! Why?
+I created the attached sample project based on this demo:  
+Explanation:
+There're 2 dockpanels inside aspx code (lines 102 to 116) . It's commented. So, I create these 2 dockpanels in codebehind. In JS, I cant find the panel, so, state cookies doesnt save aniyhing. too. 
+If I do the inverse, it means, I "uncomment" the DocksPanels in aspx code, and I comment all the lines in codebehind, so it works fine! JS and cookies! Normally. 
+How to fix it?
+ 

@@ -1,0 +1,1 @@
+After upgrading 17.1.5 to the current 17.2.5 I no longer have the DevExpress "Add" menu item.  This is found on the right click menu when selecting a folder like BusinessObjects, Controllers, etc.  Any idea what happened ?  I attached a screen shot to clarify.

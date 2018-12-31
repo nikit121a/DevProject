@@ -1,0 +1,14 @@
+Libraries:
+@Angular/CLI@1.4.9
+@Angular@4.2.4
+devextreme@17.2.5
+devextreme-angular@17.2.5
+jquery@3.2.1
+typescript@2.6.2
+We have an app which uses the many of the dx-angular components throughout, but in atleast one section we will need the dynamism of the jquery version since the page will be database driven and I don't want a thousand line template to account for all the variations.  To do this, I have created a component in which I am attempting to create a data grid from a div and getting the error "$(...).dxDataGrid is not a function".  The confusing thing is that I can execute the line in the Chrome dev console with no error, but any normal execution of the code results in the error.
+In the component, I'm importing dx.all, 
+ I'm referring to the element via ViewChild,
+ ...and executing the dg creation in ngAfterViewInit.  
+I also tried ngOnInit and in a timeout, but I get the same result each time.
+I also tried referring to the dist/js/dx.all.js in the angular-cli.json right after the jquery reference, but that didn't seem to change anything.
+Thoughts?  Suggestions?

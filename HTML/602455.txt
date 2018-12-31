@@ -1,0 +1,2 @@
+I'm looking for a way to show a group footer only if the group is expanded. I've read about the GroupFooterShowMode enumeration. The VisibleAlways allows to display group footer for every group, even if they are not expanded. The VisibleIfExpanded shows group footer for expanded groups only, as I desire, but only if there are group summaries already set up. How to avoid this? I mean, I would like to show group footer for expanded groups only, but always, even if group summaries are not set up. Is there a way to achieve this?
+Thank you. 

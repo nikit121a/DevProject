@@ -1,0 +1,6 @@
+Hi,
+Is it possible to set the row height to 2/3/4 lines during runtime, depending on how long a field value is? 
+For example, I might have a longer field value, which I would like to be wrapped on two lines, but the next record will have a shorter field value, which should use one line only? 
+I have attached a snapshot for illustration, where the "Concerns" field might have shorter/longer values.
+Thanks!
+Mery 

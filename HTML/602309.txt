@@ -1,0 +1,50 @@
+I'm new to DevExtreme so I'm still learning. I have a SelectBox that I want to update a DataGrid when the SelectBox selection is changed. I can populate the SelectBox and DataGrid separately just not load the DataGrid from the SelectBox.
+Here is what I have in the view so far:
+<h2>Home</h2>
+@(Html.DevExtreme().SelectBox()
+            .ValueExpr("ProjectId")
+            .DisplayExpr("ProjectName")
+            .DataSource(d => d.Mvc().Controller("Tasks").LoadAction("GetQueues").Key("MemberId"))
+            .ValueExpr("ProjectId")
+            .DisplayExpr("ProjectName")
+            .Value("Assigned To You")
+            .OnSelectionChanged("queue_selectionChanged")
+)
+@(Html.DevExtreme().DataGrid<TMS_UI.Models.Task>()
+                                               .ShowBorders(true)
+                                               .AllowColumnResizing(true)
+                                               .ID("taskGrid")
+                                               .DataSource(d => d.Mvc().Controller("Tasks").LoadAction("GetTasks").Key("Id").LoadParams(0))
+                                               .Columns(columns =>
+                                               {
+                                                   columns.AddFor(m => m.TaskId);
+                                                   columns.AddFor(m => m.Title);
+                                                   columns.AddFor(m => m.Description);
+                                                   columns.AddFor(m => m.CreatedBy);
+                                                   columns.AddFor(m => m.AssignedTo);
+                                                   columns.AddFor(m => m.ProjectName);
+                                                   columns.AddFor(m => m.StartDate);
+                                                   columns.AddFor(m => m.DueDate);
+                                                   columns.AddFor(m => m.Priority);
+                                                   columns.AddFor(m => m.Status);
+                                               })
+                                               .Paging(p => p.PageSize(25))
+                                               .FilterRow(f => f.Visible(true))
+                                               .HeaderFilter(f => f.Visible(true))
+                                               .GroupPanel(p => p.Visible(true))
+                                               .Grouping(g => g.AutoExpandAll(true))
+                                               .RemoteOperations(true)
+                                               .OnRowClick("openTask")
+)
+<script>
+    function selectBox_selectionChanged(selectedItem) {
+        
+    }
+    function openTask(selectedItems) {
+        var data = selectedItems.data;
+        if (data) {
+            var baseUrl = ("/Task/Index/?id=");
+            window.location.href = baseUrl + data.Id;
+        }
+    }
+</script>

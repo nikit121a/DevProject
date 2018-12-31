@@ -1,0 +1,6 @@
+hello sir ,, i have use Gridview contol 
+and i have Export   excel Grid to excel in click of sinlge button
+but i have click onother Time so he is give error FILE IN USE
+....but i have use muliple system and expoted multiple worksheet 
+so how can exported the file i have attached a capture u see and give the better answer 
+ 

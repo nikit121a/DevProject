@@ -1,0 +1,9 @@
+Hi !
+I've a trouble with some additional header after export to Excel. If I do it using DeatilArea or DetailHeaderArea, this will merge my Columns bellow this Area. Is it possible to add some text above pivotgrid, without merge? 
+What I really need:
+Export to Excel;
+Add 2 rows above
+Write text  in this additional rows;
+Save Excel:
+Best regards,
+Konrad  

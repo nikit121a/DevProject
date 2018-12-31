@@ -1,0 +1,4 @@
+Dear Support,
+in my application I have defined a state diagram. I have specified the corresponding transitions for each status. That's what I did when the application was done in English. The users who run the application in German also have the English buttons. It's not pretty. How can I do the localization?
+Thank you very much!
+Eugen Kremer

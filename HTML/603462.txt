@@ -1,0 +1,9 @@
+Hi , 
+ i have implemented combox like below but in this user is not able to type anything in combox editor .
+ <dxe:ComboBoxEdit ItemsSource="{Binding EnvironmentUserList}" AutoComplete="True"  AcceptsReturn="True" DisplayMember="UserName" IncrementalSearch="True" IsTextEditable="True">
+                                    <dxe:ComboBoxEdit.StyleSettings>
+                                        <dxe:ComboBoxStyleSettings/>
+                                    </dxe:ComboBoxEdit.StyleSettings>
+                                </dxe:ComboBoxEdit>
+Requirement :  I want that combox editior should be editable so user able to type any text and able to search the text present in combobox 
+please help me ASAP  client requirement  

@@ -1,0 +1,2 @@
+How can I add the Insert=>Insert Table (and various other options) into the right click context menu from the xtrarichedit. E.g. the context menu in the attached screenshot.
+ 

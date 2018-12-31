@@ -1,0 +1,5 @@
+Hi,
+Paste operation in WinForms GridView is not behaving correctly, when a cell block is copy-pasted from Excel to the grid and the block selected in Excel does not start from the first column. The data does not end up in the region which starts from the focuced cell, as indicated in documentation, but it is skewed rightwards as many columns as there are non-selected columns in Excel source.
+According to this:
+"Update - The pasted data updates the rectangular cell block whose upper left corner is the currently focused cell. Cells in the columns to the left of the focused column are not updated."
+See the attached project for example.

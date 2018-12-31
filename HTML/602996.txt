@@ -1,0 +1,10 @@
+Hi,
+I have a aspxgridlookup and I want to grab filtered  text on header or get like incremental filtering on server side.
+Like: 
+ 
+Why i want this;
+ I have a product list, all items singular in gridlookup. Some products has more than one barcode.
+I want to do manual server-side filtering for the barcode when the user writes any text.
+To do this I placed a button next to the grill. In debug mode, I can see the server-side Grid's 'clienttext' property in text, but I can not use it in code. 
+How can i do this? 
+Thanks 

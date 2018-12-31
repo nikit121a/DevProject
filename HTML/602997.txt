@@ -1,0 +1,4 @@
+Hi,
+is it possible to get a hotfix for Version 17.1.6 containing the Solutions to the two ids T551930 and T601547?
+Thanks,
+Franz 

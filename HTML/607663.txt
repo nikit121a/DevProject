@@ -1,0 +1,7 @@
+Hi
+the attached document contains a PDF file and a JPG
+I have used the PDF processor to convert the PDF file.
+As you can see by comparing the files. The Logo shading in the original PDF is missing in the output JPG.
+Is this a setting or a known issue? Any workaround?
+Many thanks, Paul
+ 

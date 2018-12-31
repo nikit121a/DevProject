@@ -1,0 +1,9 @@
+Hi,
+We have a excel filter dropdown checklist with customized items added.
+If open the dropdown list, check a few items (A, B, C) and close it. Next time when open the drop down list, I am wondering if
+there is a way to get those items (A, B, C) remain selected.
+I am following the following post:
+, but it does not provide a way to check any of the customized items added.
+Thanks!
+Fang
+ 

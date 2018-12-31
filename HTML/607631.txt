@@ -1,0 +1,5 @@
+Hi,
+I am examing this sample 
+I want to update a record with form layout. But i am not binding the object id to layout, i am getting it from the querystring  .
+In this sample , the related id passing to  the controller and object getting from database(actually Session) and changing its properties with the new ones .
+Is this the best way ? Can i get all the new object with new values from form layout without getting the old object from database.I can post the updated object  to controller but its own id is missing. Can you provide me a sample ?

@@ -1,0 +1,8 @@
+Hello,
+I have an application that processes data from a database and uses xtrareports to present some of the process results to the user in the form of pdf files. The xtrareports are using templates made from the report designer in visual studio, so lets say that we deploy the application with ReportTemplate1 and ReportTemplate2, for producing DataReport1 and DataReport2.
+Now after sometime we need to update the deployed application, in order to change the provided reports. Data are exactly the same so we only need to alter the templates, eg. modifying ReportTemplate2 to a new ReportTemplate2 and additionally adding ReportTemplate3 as a new template ,  
+preferably without changing the installed executable, probably by changing an assembly or another data file that containg only the report templates.
+It the above possible and how can this be implemented, please provide me with a sample project.
+Thanks in advance for your time.
+Regards,
+PA 

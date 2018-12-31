@@ -1,0 +1,1 @@
+My smart tags are missing on all controls in the wpf designer. I see there is an option to turn them off and on (which I have tried to no avail). Anything else I can do? As far as I can tell nothing changed to make them go away.

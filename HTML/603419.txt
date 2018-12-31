@@ -1,0 +1,32 @@
+Hi Alessandro,
+i checked the T589822 and able to download the sample given and i am getting as expected in  your example but i changed that code as per my need as follows 
+that time save is not working 
+@(Html.DevExtreme().DataGrid<Programs>()
+    .ShowBorders(true)
+    .DataSource(d => d.WebApi().RouteName("Driver").LoadAction("DriverDiscounts").LoadParams(new { Subline = new JS("6") }))
+    .Columns(columns =>
+    {
+    columns.AddFor(m => m.ProgramId);
+    columns.AddFor(m => m.Description);
+    columns.AddFor(m => m.values).EditCellTemplate(@<text>
+        @(Html.DevExtreme().SelectBox()
+                .Value(new JS("data.values"))
+                 .DataSource(d => d.WebApi().RouteName("Driver").LoadAction("DiscountPrograms").LoadParams(new { Program_id = new JS("data.ProgramId") }))
+                 .ValueExpr("Value")
+                 .DisplayExpr("Text")
+                .AcceptCustomValue(true)
+                .OnValueChanged(@"function(e){
+                    setValue(e.value);
+                }")
+        )
+    </text>);
+    })
+    .Editing(e => e.AllowUpdating(true))
+    .Paging(p => p.PageSize(10))
+    .FilterRow(f => f.Visible(true))
+    .HeaderFilter(f => f.Visible(true))
+    .GroupPanel(p => p.Visible(true))
+    .Grouping(g => g.AutoExpandAll(false))
+    .RemoteOperations(true)
+    )
+ 

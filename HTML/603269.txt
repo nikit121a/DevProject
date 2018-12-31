@@ -1,0 +1,7 @@
+Hello,
+I'm using your SpinEdit control,  and I'd like to make it look like stock Windows 10 controls.
+I found 
+ ticket, but in the example the x doesn't look like the one in stock TextBox (see attached image).
+Could you give me a step-by-step solution for this issue?
+Thank you in advance
+Tamas 

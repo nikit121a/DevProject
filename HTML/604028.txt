@@ -1,0 +1,6 @@
+Hi,
+In a store, I need to make sure only one record is flagged - so I need to unflagged the other records when a diff record is flagged.
+To do this, I need to know which record was previously flagged.   The flagged  column is a boolean on the record.   If a user flags a new record while a prior record is flagged, I need to know which record to unflag.
+A broader, more important question is:   On a modified, inserted, etc event, how do I tell what was modified, inserted, etc?   They don't appear to have any parameters.  
+Thanks,
+Nick H 

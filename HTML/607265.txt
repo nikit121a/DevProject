@@ -1,0 +1,4 @@
+Hello Dear XAF Team,
+I have a report parameter with multi selection. And i want to lookup search in it. 
+I described on attached image. How can i do that ?
+Thanks for your help and support.

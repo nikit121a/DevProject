@@ -1,0 +1,3 @@
+If you use a DevExpress.XtraBars.Docking.DockPanel on WIn10 and set Scale and Layout to 125% or 150% 
+the DockPanel title fonts get messed up.
+Is there a fix for this issue? 

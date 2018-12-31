@@ -1,0 +1,1 @@
+In the DocumentManager when the Close All is selected, Is there a way to prompt the user to make sure they want to close all Documents?

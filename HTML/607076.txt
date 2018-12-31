@@ -1,0 +1,3 @@
+I like to conditionally change the appearance of the total summary in the devextreme datagrid. 
+As an example I like to display the value of a total summary in Red if the value is negative or in black if its positive.
+Is that possible and if how?

@@ -1,0 +1,11 @@
+Hello,
+I need to localize the validation messages of 
+ (and maybe others later on).
+Specifically I need to localize the message: "The date must be greater than or equal to {0}" as a start.
+At the moment I need translations for Danish and Czech but more will follow. The fallback is German.
+I found this 
+ and this 
+ but neither is sufficient for my needs.
+The first option lacks of supported languages (just 5 so far) and the latter has no option for AspNetCore.Bootstrap. I also searched in the ASP.Net Platform for "DateEdit" but did not find the localizable string I was searching for and in fact besides two accessibility strings not any other the used search term.
+What options do I have to get the needed translations?
+Thanks in advance. 

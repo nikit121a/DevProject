@@ -1,0 +1,6 @@
+Hi, Team:
+I would like to draw thicker lines for GridBand borders. I searched over the web and found this page has a couple of approaches:
+The problem for me is the approaches are not  using light weight edit. They either set "UseLightweightTemplates="None" or use "InplaceBaseEdit". If I use this kind of edit, "FormatCondition" would not work.
+Could you please show me how to draw thicker lines for band borders while my format conditions still work?
+Thanks a lot in advance.
+Bo 

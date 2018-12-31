@@ -1,0 +1,4 @@
+Hi Team,
+we need tool-tip on mouser-hover on values under a tag-box.  Please follow the below attached file for implementation.
+Thanks
+ 

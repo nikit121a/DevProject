@@ -1,0 +1,10 @@
+Dear Team , 
+I need to Capture if there is any changes happend inside the AspxHTMLEditor after page load. To brief my need,
+1) Im using AspxHTMLEditor control.
+2) On page load of aspx page it will load some content 
+3) On a save button click i just want to know whether any changes happend inside the control. I dont even want to know what has changed, i just want ti know a true , false statement . 
+4) If any change happened return true , if not return false.
+Kindly do the needful.
+Thank you Team. 
+Regards,
+Vijay 

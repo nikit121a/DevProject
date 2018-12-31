@@ -1,0 +1,5 @@
+Hi DevExpress,
+I was going to write that due to missing SelectionChanged event in new scheduler it would be very useful to have SchedulerControl.SelectedInterval as a dependency property, but I just found that it already is. However, you don't mention that in your documentation nor it is mentioned in the tooltip hint in the Visual Studio. In other dependency properties it is explicitly mentioned, so I suppose you just forgot to update the docs.
+Just a minor thing, but it might help others to immediately see whether they can use binding or not ;)
+Kind regards
+Peter 

@@ -1,0 +1,5 @@
+Hello!
+What can be done so that when zooming in the popup the dxi-item look complete?
+I attached a screenshot, in fact in  Popup Editing demo
+When zooming the same thing happens and if I zoom in  grid does not the same thing happen.
+ 

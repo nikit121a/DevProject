@@ -1,0 +1,28 @@
+Hi,
+     I configured dxTagBox with datasource value of length 4. datasource length is not consisitent when i try to select value by selecting checkboxes and using search.
+Please find the code below:
+var source = [{"ID":1,"Name":"HD Video Player","Price":330,"Current_Inventory":225,"Backorder":0,"Manufacturing":10,"Category":"Video Players","ImageSrc":"images/products/1.png"},{"ID":4,"Name":"SuperLED 50","Price":1600,"Current_Inventory":77,"Backorder":0,"Manufacturing":55,"Category":"Televisions","ImageSrc":"images/products/4.png"},{"ID":8,"Name":"SuperPlasma 65","Price":3500,"Current_Inventory":0,"Backorder":0,"Manufacturing":0,"Category":"Televisions","ImageSrc":"images/products/8.png"},{"ID":9,"Name":"SuperLCD 70","Price":4000,"Current_Inventory":95,"Backorder":0,"Manufacturing":5,"Category":"Televisions","ImageSrc":"images/products/9.png"}];
+ 
+  $("#productsSelection").dxTagBox({
+        dataSource: new DevExpress.data.ArrayStore({ 
+ data: source,
+ key: "ID",
+ paginate: true,
+ pageSize: 50
+ }),
+ showSelectionControls: true,
+ applyValueMode: "useButtons",
+ multiline: false,
+ showDropButton: true,
+ searchEnabled: true,
+ displayExpr: "Name",
+ valueExpr: "ID",                                   
+ deferRendering: false,
+ onSelectionChanged: function (e) {
+ console.log("e.component.getDataSource().items().length",e.component.getDataSource().items().length);
+ }
+    });
+Here actual source length is 4.
+scenario 1) --->  when i open tagbox and select checkbox near "HD Video Player" and click ok it showing datasource length is 4.
+scenario 2) ----> deselect all and click ok, after that search for HD then click on "select all" in console it is showing datasource length is 1
+How to get actual datasource length value in both scenarios, Please suggest us.

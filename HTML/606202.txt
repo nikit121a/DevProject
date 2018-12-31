@@ -1,0 +1,19 @@
+Hello,
+i have a XtraGrid which display some values:
+Header 1 | Header 2 | Header 3
+1              |  1              | 1
+2              | 2               | 2
+The values in the grid are changing in a very short time span (for example every 10 ms).
+Now it should be possible for the user to define the column width by left click on the space between two headers and drag and drop  to the wanted width.
+When the data are not changing it is not a problem, but when they change the user can't do that.
+ I have tried some ways (not on the same time)
+ on Mouse down event of the GridControl
+1.) set DataSource = null,
+ On Mouse down event of the GridView:
+1.) BeginUpdate
+2.) BeginDataUpdate
+On the Mouse up event i have reverse every try. 
+ How does i make it correctly?
+Best Regards
+Stefan
+ 

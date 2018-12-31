@@ -1,0 +1,4 @@
+Hi. Whether prompt there is a possibility of change of the selected folder on the client?
+I found only the option with the callback using FileManager.
+.
+I need this to implement a recursive search.

@@ -1,0 +1,4 @@
+Hi,
+How can I remove the padding between the Tab Header Item and Tab Contents as shown in attached image.
+Sample Code:
+ 

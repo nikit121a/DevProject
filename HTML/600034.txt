@@ -1,0 +1,4 @@
+Hi,
+I detected a significant performance loss in page load with dx.all.js or dx.all.debug.js.
+I tested it with an html file with two dxDateBoxes inside (no additional logic in document ready function)  and always get between 450ms and 600ms load time for "Evaluate Script" of dx.all.js file. See attached screenshot.
+Is there anything that has to be done to increase the load time ?

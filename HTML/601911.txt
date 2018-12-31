@@ -1,0 +1,5 @@
+I have a Xaf Winforms MDI Tabbed Application and I want for all users to show a predefined list view at start up. I have used the techniques described in the KB but I cannot make it work properly. I managed to create the predefined view in one tab at start up and to assign this view to the StartUpNavigationItem but the application selects the last tab the user had selected when he closed the application. 
+I want the focus to be on the tab I created without focusing on any of the tabs the user had when he closed the application. 
+Could you please help me with this?
+Thank you very much, 
+Enrique 

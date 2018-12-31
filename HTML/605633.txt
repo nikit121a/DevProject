@@ -1,0 +1,9 @@
+We have an MDI form frmMain which is initially   showing the home tab   of the ribbon, which is initialized at MDI's load event:
+
+
+
+
+
+
+
+

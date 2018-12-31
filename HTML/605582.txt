@@ -1,0 +1,6 @@
+Hello,
+I would like to know if the DXTreeList control supports the INotifyDataErrorInfo interface for validating nodes.
+I am building an editor for a hierarchical  structure of classes. Some of these classes are leafs (no children) and contain a single value. Some others are containers and do not have a value. The treelist shows two columns: the first contains the label of the object, the second the editable value.
+The tree is build by using ChildNodesSelector as TreeDerivationMode for the TreeListView and providing a CellTemplateSelector for the Value column.
+Validating the value of the leafs with IDataErrorInfo  is ok and can be done when setting the value, but I need to validate the containers also based on the content of the childs. I do not see a simple way to do this with IDataErrorInfo.
+Thanks

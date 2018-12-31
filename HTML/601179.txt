@@ -1,0 +1,12 @@
+So this is related to some other tickets ive written but i think it need to be separate.
+So i have a report, that has a sqlDataSource that gets its data from a stored procedure with 2 parameters.
+Those 2 params of the stored procedure are mapped to 2 parameters of the report.
+If i set Visible=true to the report params, and set them when trying to preview (at runtime), everything is ok.
+I then create a report parameter object and assign it to the mentioned report. I set the report parameters to Visible=false.
+When i click the report, i get the ui of the report param object, i set them, then click preview.
+I want to set the values of the parameters  of the report with the values from the report parameter object.
+So i have this link : 
+It says here that i need to set the report parameters in the BeforePrint event, but the problem is that i get an error about populating the datasource, and it never reaches the BeforePrint event.
+I tried to access the report parameter in the  DataSourceDemanded event, but the value of the report parameter object is not set yet.
+So  the DataSourceDemanded is to early to access the report parameter object, and BeforePrint is to late.
+What can i do ? How can i set the report parameters before the report tries to execute the procedure (because that is what it seems its happening) 

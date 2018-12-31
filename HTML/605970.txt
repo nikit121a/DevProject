@@ -1,0 +1,12 @@
+Hello DevExpress team !
+I'm trying to display custom objects in a Listbox. This object is a line with values about a measurement point (time, temperature, strenght..).
+But, I can have 10 000 measurement points in the same file, and so, 10 000 lines.
+If I try to load 10 000 line into the Listbox, my application is frozen for a while.
+Do you have quick solution to :
+-To load the objects in background application and do not freeze the HMI
+or
+-To load only the X first objects (the ones the operator can see on the screen), and load other measurement when the operator will scroll into the listbox  
+Thank you in advance.
+I wish you a good day !
+Kind regards,
+M.Lozach 

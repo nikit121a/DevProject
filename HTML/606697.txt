@@ -1,0 +1,6 @@
+Hello Support,
+On the backstageview the helprequested event is not raised on the  RibbonApplicationUserControl when pressing F1 when the backstageview is open.
+On dialogs its working fine.
+Is this a known issue?
+Kind regards
+Alwin 

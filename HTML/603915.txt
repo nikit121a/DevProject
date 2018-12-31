@@ -1,0 +1,5 @@
+1. Create a dashboard with an "Image" (use Load/import image)
+2. Show the dashboard from the ASPxDashboardViewer
+3. Call "ReloadData()" on client side (javascript).
+The "Loading..." message does not disappear from the Image.
+ 

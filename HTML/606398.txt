@@ -1,0 +1,5 @@
+Good day,
+we've recently updated from version 17.1  to 17.2.3 and then 17.2.5. Starting in Version 17.2.3 the background of a DiagramContainer with the shape set to StandardContainer.Corners is no longer transparent. 
+Is this an intended change and is there a way to set it to transparent again? Background sets the background of the corners and ContentBackground only sets the background of the header. 
+If this is intended is there a way to set the DiagramContainer to always be in the background or set its ZIndex?
+Have a nice week!

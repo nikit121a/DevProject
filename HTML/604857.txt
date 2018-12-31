@@ -1,0 +1,5 @@
+Hi
+I have a XtraReport file with a xrBarCo ntrol. I assigned a sqldatasource to run a SQL SP with a single parameter, that is passed from other aspx page.I handle the BeforePrint method for the xrBarControl (QR code).
+Always returns null. So I use GetCurrentRow(), which the VS watch shows a SQL ResultSet with the data I want, although type is object and data is not a row. And I cannot get data from GetCurrentColumnValue() which get's always null.
+I cast it as DataRowView as documentation and other solutions, and value is null. Also I tried other type like DataSet, DataView without sucess.
+I attached a screenshot

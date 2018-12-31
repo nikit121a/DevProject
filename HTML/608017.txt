@@ -1,0 +1,5 @@
+I have a TreeList with multiple columns. I would like to move my focus to the next cell when I press the TAB key. How do I achieve this?
+I have tried to use the PreviewKeyDown event, but haven't come up with a proper solution yet.
+Please remark that i use the 15.1 build. I have attached a picture, that shows how my treelist is structured. 
+Best regards,
+Perfion 

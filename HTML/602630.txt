@@ -1,0 +1,2 @@
+I'm using a RepositoryItemRadioGroup bound to a RibbonControl. Whenever the GUI refreshes, it appears as if the selected index of the radio group is reset to default values. However, the selected index changed event does not fire which suggests that it's something surface level.
+I've attached a sample project that demonstrates this. 

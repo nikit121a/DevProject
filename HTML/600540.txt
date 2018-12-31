@@ -1,0 +1,2 @@
+In 17.2.5, why is the new permission not available when it added by the Updater class?
+If you are new to your own permissions is no problem, but in the updater of this class automatically new permissions will not take effect.

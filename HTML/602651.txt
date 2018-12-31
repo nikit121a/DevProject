@@ -1,0 +1,5 @@
+  Hi,
+I am trying to get the value from the "barEditItem1"  
+If it was a textbox it would be textbox1.text
+How would i retrieve value from the bar text edit field. 
+Thank You 

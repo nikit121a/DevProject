@@ -1,0 +1,4 @@
+Hey,
+So I am trying to customize the legend of a piechart. The issue is for all the chart types though. All ItemTextPositions work just fine except for Right, This is happening when using horizontal align center. The rest top bottom left itemtextposition do keep working.
+Kind regards,
+Heijmen de Raad

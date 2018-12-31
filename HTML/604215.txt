@@ -1,0 +1,9 @@
+Dear Support,
+I have 1 master report RP_Bilan
+ and 2 subreport 2 x RP_Actif
+My report is connected to a db, but I create for you in case you need a csv file is my record set
+I try to modify the filterstring but is not working for me
+When I evaluate the expression
+Iif([comptetype] = [ReportItems].[Report].[FilterString], [solde],'') is not working
+Thanks for your help.
+Lino 

@@ -1,0 +1,3 @@
+Hello!
+Noticed that not all the constants in the dxPDFViewerActionsStrs file are used in the generated PDFViewer component menu.
+I translated all the constants, but not all of them are used in runtime. This applies to items that have a drop-down menu.

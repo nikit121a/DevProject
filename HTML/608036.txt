@@ -1,0 +1,4 @@
+Hi,
+Can you point me to an example of how to use the ValidationErrorTemplate property of the TextEdit control? We would like to change the default tooltip  error message display to a textblock or label underneath the edit control
+Thanks
+Ewan 

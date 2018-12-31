@@ -1,0 +1,11 @@
+Hi,
+I have one of these "strange" issues and hope I don't do anything stupid :)
+We have a grid with one custom column which contains an edit link. We create it as a column template and inserting  it using jQuery.
+For dxclick event we want to just change a one variable in scope but it doesn't work for us. The handler is executed correctly but the change isn't visible in scope. What we found is that after click right button on the grid the change appears :O It also works perfectly when we define handler for onCellClick event - even when the handler is empty. 
+Here is the example: 
+Please click test button - the 'false' text should be changed to 'true' - and try do right button click :) you can also add:
+ onCellClick: (e) => { },
+to the grid definition and it will work correctly as well. 
+Thanks for the help!
+Kind regards,
+Marek Kajda 

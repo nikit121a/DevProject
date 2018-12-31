@@ -1,0 +1,7 @@
+Hi,
+I'm using Doughnut charts to show my information, and I added a Total in the midle using a div and css. 
+However, I have my legend in the bottom, and if it has a lot of items, the css palces it out of place.
+I attached a printscreen exemplifying this.
+Is there any way the cart can display this center total information on its own? Similiar to this exemple in the stacked bars: 
+.
+Thank you.

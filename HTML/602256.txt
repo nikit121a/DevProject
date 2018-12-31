@@ -1,0 +1,3 @@
+I have a MDI- Child Ribbon form which has a AccordionControl set to Dock=Fill.  In my IDE Designer I have the AccordionControl Expanded.
+As you can see in the provided video When I first load my screen the AccordionControl is not visible nor does it seem to be rendered.  Then If I resize my form the Accordion shows up and behaves as desired.
+Is there a setting I am missing or is this a glitch/bug?

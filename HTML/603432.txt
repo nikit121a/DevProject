@@ -1,0 +1,30 @@
+Hi, Im trying to use the CustomDisplayText to assign my own Text, I notice it will not work when I using it with Linq service. Below are some of my code. I notice this is the code that causing the problem 
+that the program keep querying the data which make my own Text cant display in the Se archLookupEdit, can u please advice me ? Thanks.
+**************************************************************************************************************************************************************
+private void searchLookupEdit_CustomDisplayText(object sender, DevExpress.XtraEditors.Controls.CustomDisplayTextEventArgs e)
+            {
+                if (e.Value != null)
+                    e.DisplayText = e.Value.ToString();
+            }
+protected virtual void SetupSearchLookupEdit(RepositoryItemSearchLookUpEdit searchLookupEdit)
+            {
+                searchLookupEdit.NullText = string.Empty;
+                searchLookupEdit.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard;
+                searchLookupEdit.ShowAddNewButton = false;
+                searchLookupEdit.ShowFooter = false;
+                searchLookupEdit.View.OptionsFind.FindDelay = 1000;
+                
+                myLinqInstantFeedbackSource = new LinqInstantFeedbackSource();
+                
+                    
+               myLinqInstantFeedbackSource.KeyExpression = myKeyExpression;
+               searchLookupEdit.DataSource = myLinqInstantFeedbackSource;
+            }
+void linqInstantFeedbackSource_GetQueryable(object sender, GetQueryableEventArgs e)
+            {
+                if (myQueryable == null) return;
+                
+                e.QueryableSource = myQueryable.AsQueryable();
+            }
+**************************************************************************************************************************************************************
+ 

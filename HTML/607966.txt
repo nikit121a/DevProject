@@ -1,0 +1,6 @@
+hi DevExpress team,
+ How can I the Print Dialog set to Center Parent / Screen? 
+In the attachment screenshot
+Thanks.
+Greetings Peter
+ 

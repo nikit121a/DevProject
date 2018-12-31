@@ -1,0 +1,4 @@
+I am using this to create a drop-down control on the right side of the RibbonControl:
+My problem is the Width binding on the embedded Grid control.  I want the drop-down width to match the width of the control in the ribbon, as well as making it so that the buttons align right (vertically).  But no matter how I bind that Width, I either get something that looks like "auto" (the drop-down items have inconsistent widths) , or I get something wider than the ribbon's control.  The attached image shows both results.  The left image is the sort of alignment I need, but limited to the width of the control in the ribbon.
+I have tried binding to both "Width" and "ActualWidth" and on both "BarButtonItemLinkControl" and "BarSubItemLinkControl".
+How can I make this work?

@@ -1,0 +1,16 @@
+Hi!
+I am facing certain problem with implementing "Undoable" action with rich edit control.
+ So the feature is folowing:
+1) When the space is pressed the code searches the word before the caret  which consist of letters/digits only ([\w\d]+);
+2) If there is any configured replacement for the word  then the word in the editor is replaced with the configured replacement text + space symbol.
+That part work well.
+But then there is another requirement:
+When user right after the "automatic replacement"  presses the Backspace key the editor should change last replaced range back to the "word" and the cursor stays after the space which is following that "word".
+Example:
+1) User types "wtf";
+2) user presses space and editor now contains "what the flower " (with space in the end); 
+3) Now if user presses backspace then the editor should contain "wtf "  (with space in the end).
+This very easy only while there is no line-breaks in the replacement text!My first thought was to use the Undo and then just append space to the caret position, but Undo via calling dxRichEditControl.Undo  (neither via DocumentModel or DocumentModel.History).
+The code above is used to replace the found "word" with the configured text - so as you see the Document.Replace method is used.
+One more strange thing is that Ctrl+Z does undo that, but not Document.Undo!
+Thank you in advance!

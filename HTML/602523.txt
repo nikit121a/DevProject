@@ -1,0 +1,19 @@
+Hi Support,
+I'd like to implement the select all and unselect all behavior in a GridView .
+There are two button in the Status's column Header , one is select all another one is unselect all .
+My question as below :
+1. When I click select all button  then status column will be set to 1 by callback , 
+   or click unselect all button  then status column will be set to 0 by callback .
+     But  the gridview status 's checkbox  does not show  correctly .
+The checkbox value is difference with database table value. 
+2. If I want to use one checkbox in the status column  header to instead of select all and unselect all buttons .
+  How to make this checkbox value correctly.  when I just checked the checkbox or just unchecked the checkbox  ? 
+Table schema : 
+ 
+CREATE TABLE [dbo].[Parts](
+ [PartNo] [int] IDENTITY(1,1) NOT NULL,
+ [PartName] [nvarchar](50) NOT NULL,
+ [Status] [int] NOT NULL
+) ON [PRIMARY]
+GO
+Please help me to solve these issues, Thanks ! 

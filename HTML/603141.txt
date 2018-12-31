@@ -1,0 +1,9 @@
+Hi
+I have question
+For i example i have 3 tables
+A master
+B detail
+If i add data to A table, A controller also instert data to B table
+Also i have C table, when i add data to C table, C controller add data to A table but then i want to triger A controller for add data also B table.
+But controller not triger where i have to put insert logic code? For also use them like triger
+Thank you 

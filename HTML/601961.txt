@@ -1,0 +1,4 @@
+We use the following ChartControl to show a series of data points with error bars. For some of the data points, we do not have an error and the Properties PositiveError and NegativeError given as PositiveErrorDataMember and NegativeDataMember are null (they are of type double?).
+I am looking for a way to not show the empty error bars (shown as a horizontal dash in the data point) while keeping the elements of the DataCurve that do have a value. 
+Could you please point out a way how we could achieve this?
+ 

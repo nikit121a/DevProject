@@ -1,0 +1,4 @@
+Hi,
+I am currently running my project on V16.1.5 and it works ok but am trying to upgrade to V17.2.5 and the graphs in group footer display blank or causes object reference not set to an instance of an object error . I have the code for the graph in scripting but have also tried the data filter from the designer as well. The error happens from the designer, viewer and from creating a new report in visual studio. I am just creating a new report by wizard and connecting to a sql server database and using a stored procedure with some data in the detail section and a group header and footer with the graph in the footer.
+Regards
+Craig Smith 

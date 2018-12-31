@@ -1,0 +1,4 @@
+Hi team,
+ am loading some partial view on appointment click event , but my problem is even in double click on the appointment also the same partial view is loading how can i stop this , i want to load the partial view only on the single click .
+Regards
+Hareesh 

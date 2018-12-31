@@ -1,0 +1,7 @@
+You can use CTRL+F to show the find panel and then press ENTER to search for the text.
+Once a text is found it is selected and shown accordingly.
+However, as the find panel always slides away automatically, I have not found any quick way to search for the next occurrence of the find text.
+In almost all windows applications there does a Find-Next operation exist (typically invoked via F3), this to quickly skip through all occurrences.
+Is there anything similar for the PDFViewer; or can I code something dynamically myself?
+I only found the pdfViewer.FindText method, but unfortunately, if the user invoked the search via the standard find panel, it seems, that there is no property or event letting me know what text the end user search for, as such, a sub-subsequent call to the pdfViewer.FindText method seems impossible for me... ?
+ 

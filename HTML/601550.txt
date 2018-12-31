@@ -1,0 +1,6 @@
+Hi!
+We would like to use FilterControl to create filter criteria for a sort of our own internal dataset (logically, it can be represented as a data table with columns and rows) and apply the criteria to the dataset's row (predicate function would be great). No GridControl or any other UI for the dataset should be involved at this stage.
+Moreover, we want these criteria to be saved (serialized to text?) and then can be loaded and applied to our dataset with no UI at all (even no FilterControl created).
+Is it possible to do this?
+Could you please provide a general guidance what to start from? (class names?) 
+ 

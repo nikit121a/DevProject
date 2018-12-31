@@ -1,0 +1,4 @@
+
+Hi, 
+In my WinForms app I want to work both with dashboards saved to file and dashboards saved to database/stream. I use DashboardSaving and DashboardOpening events, and it works fine except the Recent Dashboard section. 
+I can see there dashboards, which where opened from file, but after that comes the "DashboardOpening" event, and I cannot say, if it was fired by "Open" button (and I have to show my form, where user can select dashboard both from file or from database), or it was fired by selecting dashboard from Recent Dashboards list (and there is no need for additional form). What am I missing here?

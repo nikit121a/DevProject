@@ -1,0 +1,5 @@
+So it looks like PreviewRow is the closest I can get to what I want, unless I'm missing something somewhere.
+I am basically looking to be able to insert a row that has a colspan of all columns.
+I think the issue with PreviewRow is that it's going to more than likely add a preview to every row - so it may not actually be the best choice - but unless there's a column span option that I'm just missing or not seeing for some reason...
+The behavior that I want would be *similar* to (but not)  Grouping rows. I'm creating a chat module, and after some testing, I think a grid is the best means of display for me. But what I want is to be able to have 1 row for each date with a colspan of 100% that has a date, and then "normal" rows that have multiple columns that fall under that date.
+Is there some way to make this happen with a gridcontrol?

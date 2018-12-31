@@ -1,0 +1,2 @@
+Hey guys, I have placed a DateEdit on a Razor View and the date edit works as expected, except for the drop down icon. It does not show up at all. If you click where it is supposed to be, the drop down works, but as I said, no icon. 
+I followed the instructions to setup bootstrap core. I am not sure why this is happening. 

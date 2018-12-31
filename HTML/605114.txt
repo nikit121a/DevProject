@@ -1,0 +1,5 @@
+Hello Supportteam,
+I have to open and Close the Header/fooder section by Code instead of going via the Buttons from the ribbon  (Ribbon will not be visible to Enduser).
+Hope you can share a small Code snippet .
+Thank you.
+Klaus 

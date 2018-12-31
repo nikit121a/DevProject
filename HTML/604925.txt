@@ -1,0 +1,4 @@
+Hi,
+I cannot find Style schemes  in my XtraTreeList. Tried to add DevExpress.XtraTreeList.Appearances.xml to system32 and syswow64, but it didn't help.
+Can you please help me?
+BR /Magnus 

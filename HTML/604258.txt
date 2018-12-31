@@ -1,0 +1,2 @@
+Hi,
+Just wondering if it is possible to add filtering and sorting to the web forms version of dashboards as it is currently available in the desktop version. 

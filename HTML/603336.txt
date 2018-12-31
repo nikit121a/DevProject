@@ -1,0 +1,2 @@
+I need to be able to select all the cells in a column, which is selected through a contextual menu.
+I know how to select the cells, but I can not find an example of how to determine on which column I am opening the menu.

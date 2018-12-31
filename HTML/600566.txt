@@ -1,0 +1,3 @@
+Hi there,
+There seems to be another bug in the new Grid's Clipboard pasting feature . When I copy a range of cells from Excel and paste to XtraGrid, blank rows (rows having all columns blank) are skipped. Tried in Update mode, datasource allows blank value.
+HN. 

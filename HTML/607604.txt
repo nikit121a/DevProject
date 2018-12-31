@@ -1,0 +1,6 @@
+HI,
+I'd like to partially paint a grid cell with multiple solid colors in terms of percentage where each solid color represent something (not linear gradient)
+See attached sample for example - here green color represent % OK, red means % wrong, yellow means % warning.
+Would you suggest how to achieve something like this, so far all the API and documentation i've read fills rectangle in one or two colors. Please do correct me.
+Many Thanks,
+ 

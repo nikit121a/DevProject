@@ -1,0 +1,4 @@
+Under certain circumstances I need to load a popup editor lookup with values different from initial values - I finally got this to work (except for the lookup initially showing the key and not the value - I will submit a separate ticked for this).
+The issue is that this will not work for the popup editor: as pictured in the attached image - the issue appears to be connected with the fact that a second instance of the lookup drop-down field is created for the popup mirroring the underlying grid lookup field- because the underlying lookup DOES get the new lookup values  - but the popup editor lookup I specify does not.
+I am doing this using this (essentially):
+ 

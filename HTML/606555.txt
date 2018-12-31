@@ -1,0 +1,43 @@
+Hi,
+I am using a TreeListControl in my application and one of its main feature is to receive and display real time data. We chose this component because we need to display a hierarchical view and we like the sorting, grouping etc... We have around 200 columns.
+We have around 10 columns in realtime and I noticed that every time one of these columns changed (ie we call NotifyPropertyChanged event), our grid freezes/hangs for a few second. After deep investigation, I spotted the issue, it is coming from a full refresh of the entire row:
+
+
+
+
+
+
+
+that calls RefreshRow (through DoRefreshRow):
+
+
+
+
+
+
+
+
+
+
+
+
+
+I created 4 classes to override some native DevExpress behaviors:
+
+
+
+
+
+
+
+
+
+
+Unfortunately in Devexpress 17.1.4, I did not find a way to get what I wanted since almost all the methods are declared as protected internal.
+My questions:
+1/ Is it worth it to switch to a GridControl (way more optimized than TreeListControl?) in master-details to keep the hierarchical view but have better performances?
+2/ What can we do to update only ONE cell by row, and not the entire row every time a field changes? It seems like a something very basic.
+Please give us a quick solution that requires no dev from you.
+(one solution with dev would be to be able to call UpdateData(ColumnBase column, int listSourceRowIndex) in RefreshRow)
+Thank you for your help.
+Best regards,

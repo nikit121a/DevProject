@@ -1,0 +1,4 @@
+We have DevExtreme line chart with multiple series. The x-axis is of datetime type. The issue is the labels repeated twice: February, March...
+The JavaScript code looks as following:
+How to get rid of extra labels?
+Please, take a look at the screen shot attached.

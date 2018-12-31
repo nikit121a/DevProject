@@ -1,0 +1,5 @@
+
+Hi Nikolai,
+I am able to bind now my data grid and it is working fine. Now this i have done with GET Method and as i have mentioned above now i have the button in page. When i click on button then again i need to call some action method to load grid based on some filter. How do i use here post method?
+Thanks,
+Veera

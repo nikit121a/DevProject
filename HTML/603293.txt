@@ -1,0 +1,6 @@
+Hi,
+I would like to do the same thing as seen here in this thread:
+ Image: 
+ Essentially, I want to split certain columns into two rows, using a MVCxGridView as in the above image. I'd also like to be able to still support Batch Editing as well, if possible.
+Is there something like this currently for MVCxGridViews? The above solution was to use StackPanels, but I don't see that as an option in MVC.
+Thanks

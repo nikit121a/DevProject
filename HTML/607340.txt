@@ -1,0 +1,4 @@
+ I am facing one problem when I make a filter in a query utilizing TcxDBPivotGrid
+When I fire the event DblClick I am realizing a filter to manip ulate a selected row in other screen. When I disable the filter and come back to the grid, I lost the selected row, always that the selected row is after scroll row (for example select the last record).
+I am attaching a video and a pro ject with the example about the problem.
+I would like to come back to the selected record independently of the grid position. 

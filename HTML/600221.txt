@@ -1,0 +1,1 @@
+When I click on "Runs cleanup foractive document", coderush perform wrong action: it delete a portion of code that is in use. In attached code, CR removes submit and submitGen.

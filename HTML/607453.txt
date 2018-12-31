@@ -1,0 +1,9 @@
+Hello there,
+I have a particular grid that I am grouping and ordering by an unbound column . The column value is set by a timer in a behavior class....When the row is expanded (by clicking on it with mouse) the row gets automatically collapsed again (when the behavior timer ticks over)...
+I am wondering if there was a way to change that?
+(I have attached a mp4 video that demonstrates the problem I am having. I hope that it helps)
+For reference the timer behavior code is here;
+I have noticed that if I expand ALL the rows. They remain expanded. It is only if I expand individual rows that they get collapsed. The code I use to expand the columns is as follows;
+Thank you kindly for any thoughts
+John
+ 

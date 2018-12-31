@@ -1,0 +1,7 @@
+
+Hello,
+Consider toolbar in attached picture. 
+A toolbar contains a BarCheckItem (Enable Radio Group).
+There are BarCheckItems as radio buttons grouped with BarBaseButtonItem.GroupIndex Property (func1, func2, func3).
+3. Avoiding "Enable Radio Group" check, would it be possible to uncheck all radio buttons?
+Thank you for support.

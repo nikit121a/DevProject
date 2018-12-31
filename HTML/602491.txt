@@ -1,0 +1,6 @@
+Hello DevExpressTeam,
+i am currently trying out your new SkinEditor v2.
+Can you please explain in detail how I can make changes to the XForm Header, for example spacing the icon more to the right?
+Like in this example:
+Thank you in advance
+Daniel

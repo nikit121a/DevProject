@@ -1,0 +1,3 @@
+I have some records to show in gridview, there is no issue when show them in horizental.
+But there is another requirement need to show them in vertical, same column, same records.
+Is there any solution to implement thus requirement, maybe use other devexpress control? you can refer to my attachment snapshot

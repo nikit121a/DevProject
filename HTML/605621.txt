@@ -1,0 +1,1 @@
+Is the ParametersRequestBeforeShow event not supported in the WPF designer?  I'm trying to use it to pre-populate known parameters but it doesn't fire. 

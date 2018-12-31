@@ -1,0 +1,4 @@
+Hi
+I've downloaded a trial version of DevExpress and I'm trying to use DevExtreme nuget packages .... I followed 
+, but the packages are not visible ... What I have to do in way to have access to Nuget packages considering I'm using a trial version.
+Thanks 

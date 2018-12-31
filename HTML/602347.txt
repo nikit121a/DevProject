@@ -1,0 +1,5 @@
+We have discovered that dashboard master filtering does not work properly in IE 11. We noted a similar ticket that had no resolution at 
+.
+To set up a test, you must create a dashboard with multiple widgets that have multiple master filter set . When you select the first widget to filter it, the effect of the filter is seen, but the dashboard appears to forever be in loading state (spinning icon in upper right). If you select a second widget, no additional filtering is applied and the state of all of the other widgets goes to the spinning/loading state.
+After debugging, we found that  the dashboard Javascript is using an Array.findIndex call that IE does not implement that causes a Javascript error. We included a definition for Array.findIndex that we found from 
+ in one of our Javascript files and found that the dashboard now appears to work.

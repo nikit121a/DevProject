@@ -1,0 +1,25 @@
+Dear Support!
+We have an "overcomplicated" navigation bar (TdxNavBar).
+We use more subgroups in it.
+We have "A" and "B" link in Navbar, and "A"/"B" functions in the background.
+"A" makes a dialog, and it have button can call "B". In "B" dialog we have button that call "A".
+In the buttons I search for the another NavBar link, and I select it.
+Yesterday my boss moved these two links (A, B) into separated subgroups. Now they are far in position.
+After this I the "Select" function don't make the another link visible.
+The link is selected, but the view not scrolled to needed area.
+So I'm in dialog "A", and I push the button "B". 
+After the form close I navigate to "B" link, I selected it. 
+The function started, but the "B" link don't visible in the upper area, the scrollbar remains on original position.
+I found "MakeLinkVisible" function in Navbar, but it have strange effects or it have not effects. :-(
+We have more other problems with this NavBar, and I suspect these subgroups cause them.
+(Expands/collapses makes wrong scrollbar, the control is not well formatted)
+ Subgroup:
+I have created a demo application.
+I dynamically create a dxNavBar with groups, and subgroups.
+The subgroup items everytime created  in 14. item (0 based).
+When you search without subgroups, for example, 5. group / 12. element - the selection is ok, and you can see this item (MakeVisible is working well).
+Next you search with subgroup, for example: 3. group, 14. element (you need to use it as constant), and 5. subelement.
+The group changes. The selected element is ok. But it is not visible. The control remains in previous state.
+You can scroll down with scrollbar, and you can see the element, it is selected, but the MakeLinkVisible isn't working.
+I hope you can also see this problem in the demo.
+Thank your for any help!

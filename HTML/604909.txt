@@ -1,0 +1,7 @@
+I've added this to my main mdiparent
+works perfect!
+Another question. Is there a way to have next to the X button the 
+? Also change it's behavior to (when Minimize) 
+, and (when maximize) 
+?
+ 

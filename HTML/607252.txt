@@ -1,0 +1,4 @@
+In the BeforePrint of XRTable row, e.cancel is no longer working. It had previously been working for a couple of years and I recently updates to 17.2.5.
+I found the ticket 
+and have requested the hot fix, however, this is urgent as incorrect information is being printed on client's invoices and Bill of Ladings.
+Is there a workaround  I can implement until the hotfix is ready?

@@ -1,0 +1,2 @@
+Hi I am using FileData approach to read byte stream to display a pdf document. The new tab loads successfully and the byte stream is in the url but it does not open the file and the page just remain blank.
+Can you please identify if I am doing it incorrectly.

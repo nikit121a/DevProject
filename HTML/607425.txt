@@ -1,0 +1,15 @@
+Hello,
+let we have flow of trades with following characteristics:
+* Trade direction (Buy or Sell)
+* Currency (USD/RUB, EUR/RUB etc)
+* Trade Volume
+I need to visualize structure of this flow taking into account both Buy/Sell and Currency features:
+Buy
+ - USD/RUB: 100
+ - EUR/USD: 250
+Sell
+ - USD/RUB:120
+ - EUR/USD: 300
+ - CNY/USD: 120
+I.e. we have two categorical dimensions (trade direction, currency) and one floating-point direction. 
+How to visualize it using DevExtreme? (I have posted related ticket with two pie-chart-halves)

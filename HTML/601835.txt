@@ -1,0 +1,5 @@
+Hi,
+I am working with the Data Grid, and I would like for one of my columns to have a default value applied to the filter in the Filter Row.
+The column I would like to current has a Yes/No drop down selection box filter, and I would like for it to default to 'No' instead of 'All'. 
+I have attached an image with the desired outcome. Is this possible? Could you provide some example? 
+ 

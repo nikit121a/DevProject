@@ -1,0 +1,5 @@
+Hello Dears,
+I am using the MVVM binding in wpf application with ChartControl that contains LineScatterSeries2D, I am binding the MarkerVisibility and some properties to some properties defined in my view model [DataContext of the view] 
+bellow my code and bellow the error I got from the output window
+System.Windows.Data Error: 4 : Cannot find source for binding with reference 'RelativeSource FindAncestor, AncestorType='System.Windows.Controls.UserControl', AncestorLevel='1''. BindingExpression:Path=DataContext.ShowMarkers; DataItem=null; target element is 'LineScatterSeries2D' (Name='LineScatterSeries2D'); target property is 'MarkerVisible' (type 'Boolean')
+ 

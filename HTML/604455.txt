@@ -1,0 +1,7 @@
+Hi Mariya,
+Thank you very much for your response. I can now loop through the individual documents. The example you provided exported to PDF, I have modified it to  just grab the HTML instead e.g. 
+This gets the HTML but when sending the HTML as an email all seems fine except for images are not displayed. I can see in the HTML that the image is saved as base64 e.g. 
+It appears that this is not compatible with Outlook 2007+. 
+Do you have any suggestions to get around this? Are there any options with the RichEdit / RichEdit DocumentServer that can change the way this works?
+I have seen a few posts that are very old asking for feature enhancements so I thought it would be best to ask first before pulling all my hair out!
+Once again, thank you in advance, your help is appreciated.  

@@ -1,0 +1,4 @@
+I try to add a module to a VB Solution.
+When I start the wizard I have no possibility to choose VB.Net. I try to select but it not change from C# to VB. 
+I reinstalled Devexpress and try also to another computer. The result is the same: only C# option.
+Print screen attached. 

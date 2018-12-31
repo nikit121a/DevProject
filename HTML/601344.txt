@@ -1,0 +1,40 @@
+Hello,
+Is there a way to access a dynamically created header template  control in column header (the columns are dynamically created as well) on client side. The header templates are created by Itemplate class on server side. Column is dynamically created and the header has checkbox control. Below is the code to create the template control.
+ Friend Class MyCheckBoxTemplateHeader
+    Implements ITemplate
+    Public Sub InstantiateIn(ByVal container As Control) Implements ITemplate.InstantiateIn
+        Dim chbox As New DevExpress.Web.ASPxCheckBox
+        Dim gridContainer As DevExpress.Web.GridViewHeaderTemplateContainer = CType(container, DevExpress.Web.GridViewHeaderTemplateContainer)
+        chbox.ID = gridContainer.Column.Name
+        chbox.Text = gridContainer.Column.Name
+        chbox.TextAlign = TextAlign.Left
+        chbox.ClientInstanceName = "hdr" + gridContainer.Column.Name
+        container.Controls.Add(chbox)
+        chbox.ClientSideEvents.CheckedChanged = String.Format("function(s,e) {{ AllCheckColumn({0},s.GetChecked());}}", gridContainer.Column.Index)
+        'chbox.AutoPostBack = False
+        chbox.EnableViewState = False
+        chbox.Font.Bold = True
+    End Sub
+End Class
+I am trying to access the header checkbox control in client side to set checked value. Below is the client side coding. This same coding works for cell template of the column but not for header template. 
+var columncount = GVSelectPartList.GetColumnCount();
+ for (var c = 6; c < columncount; c++) {
+            var col = GVSelectPartList.GetColumn(c);
+            
+            alert(col.name);
+            var hboxname = 'hdr' + col.name;
+            alert(hboxname);
+            try {
+                var hkbox = eval(hboxname);
+                alert(hkbox);
+                hkbox.SetChecked(false);
+            }
+            catch (e) {
+                //alert('in continue');
+                continue;
+            }
+        }
+Any help is   appreciated.
+Thank you
+Beena.
+ 

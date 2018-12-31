@@ -1,0 +1,3 @@
+Hi.
+I'm having some problems with extensions in my MVC4 app. The issues is described in the attached document.
+Regards, Paul Moore.

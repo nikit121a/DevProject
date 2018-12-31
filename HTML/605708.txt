@@ -1,0 +1,3 @@
+Hello!
+How do we specific that a string should render as a textarea with word wrap, rather than a textbox in the popup edit mode for a DataGrid?
+Thanks! 

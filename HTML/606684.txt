@@ -1,0 +1,8 @@
+Hi,
+new surprise this morning, I was editing the xafml and when I saved it I had this warning telling me that there are unused nodes.
+I checked it and noticed that an entire object and its view have disappeared.
+All my business objects are in one library, except 2 of them which are in the Module project, under the folder BusinessObjects .
+Those 2 are not detected/referenced anymore neither in the xafml , neither in the Module.cs !
+If I leave it like this and run the application, then the related pages are not working anymore.
+If I put back the removed xaml in place, it works again.
+What can I do about this?  Please help, it's urgent

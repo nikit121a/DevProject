@@ -1,0 +1,23 @@
+
+Hi Guys,
+currently we are on 17.2.5 and have DirectXPaint enabled. we have one device (Win10) where we currently regulary get random outofmemory exceptions - even if the application only uses 400-500 mb. today we tested with disabled DirectX which seems to fix the issue. are there any Infos on how we could Isolate the problem on this machine? callstacks look like this, which seems the application has a Problem to paint Images:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

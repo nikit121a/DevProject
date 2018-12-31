@@ -1,0 +1,10 @@
+
+
+I'm also trying to add "Select all" option in the tagbox before my datasource list, I have successfully added this using 
+
+
+
+which seems to partially work, however when selected the value is an empty string.
+What is the best way for me to implement this?
+Regards,
+Ágúst

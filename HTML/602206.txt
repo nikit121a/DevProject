@@ -1,0 +1,9 @@
+Hi,
+I am using a grid control. One of the column type is Repositionary Item.  Type of the column is lookup edit.
+I am binding gridview to a datasource. LookUpEdit column populate values from another datasource. 
+When I select any value in the lookupedit, I am getting always the value of first item, not the selected one.
+I am using the code as below:
+GridView1.GetRowCellValue(IntRecCounter, "Status").ToString().
+Please help me how I can get the selected valur of lookupedit column
+Regards,
+Anil 

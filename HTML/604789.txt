@@ -1,0 +1,3 @@
+There is a problem with the latest version of XtraVerticalGrid. We're receiving ArgumentOutOfRangeExceptions after upgrading to v17.2.
+The crash occurs when we change the visibility of a CategoryRow in code to false. 
+Callstack:

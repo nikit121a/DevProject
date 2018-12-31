@@ -1,0 +1,12 @@
+Hello,
+I am trying to change the  ColumnEdit of a BandedGridColumn to a ComboBoxEdit. 
+However the displayed Value is always null, no matter what I do.
+First I set up my cell editor like that:
+then I am dynamically generating my grid and for every BandedGridColumn I try to assign this editor by:
+ 
+The Values can be edited, but the DisplayText is always "null"
+ [CaptureSelectCell.png]
+however when I enter edit mode, the Value is displayed correctly, I can also edit it and the value is also correctly set
+ [CaptureEditMode.png]
+when the edit mode is exited, null will be displayed again.
+the same behaviour is without handling CustomDisplayText(empty cell instead of "null")

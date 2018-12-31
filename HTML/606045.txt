@@ -1,0 +1,7 @@
+Hi,
+We currently are using the deprecated 
+ and we are using at the deprecated 
+.
+We have today installed visual studio and as apart of an existing subscription we have with you, we installed the .NET framework components too.
+We are unable to use the shipped databases with your demo projects because of our version of MSSQL SQL Server. I have instructed by my director to no update MSSQL Server to the latest version and as such, I have been asked by my director to request from DevExpress, a Set of database files that are compatible with our version.
+We are particularly interested in your dashboard demos. We would ideally like to see the project as it shows on your website - to get an idea of what code is required etc, is this something you can provide us with specifically:

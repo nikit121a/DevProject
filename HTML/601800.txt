@@ -1,0 +1,5 @@
+Hello,
+I've defined an IList property on my viewmodel and I bind it to the SelectedItems property of the  GridControl, but when selection changes the binded property is not updated.
+How can I do this? 
+Thanks,
+Asier 

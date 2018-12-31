@@ -1,0 +1,5 @@
+Hi. Trying to export an MVC Pivot Grid, but can't find a supported datasource. Need to bind to dynamically generated SQL string, so EF/LINQ is not an option.
+For display purposes we use SqlDataSource, which works,  but results in no data at export. Have also tried DataTable, same result.
+?
+Using PivotGridExtensions.ExportToXlsx/Pdf
+/Peter

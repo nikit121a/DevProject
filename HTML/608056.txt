@@ -1,0 +1,6 @@
+Hi,
+When i load rows to grid control , rows that have been hidden by the grid scroller are not loaded well (with emphasis on 
+).
+can you help?
+thanks..
+ 

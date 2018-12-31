@@ -1,0 +1,6 @@
+Hello,
+I am trying to print multiple copy of an Invoice report in XAF application. But unfortunately I could not able to find a way to achieve this.  In my ListView screen I have a button to preview the report based in a selected invoice. I am following the below way but still not working.
+My Controller Code
+I want to generate five copies of same invoice e.g - Original, Duplicate, Triplicate etc.
+Any help would be appreciated to achieve this in proper way.  
+Thanks

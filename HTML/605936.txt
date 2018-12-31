@@ -1,0 +1,9 @@
+Hi ,
+Is there way to edit unbound coloumn in grid .
+for example 
+ColA  ColB  ColC
+all of them becomes editable so i can change values in them by typing.
+And each time when  value is changed in any coloumn formula of  colC=ColA * ColB needs to be implemented.
+And Total Summary in bottom of page also needs to be updated.
+How i do this?
+Can you provide example to do it? 

@@ -1,0 +1,10 @@
+We're getting a repeated random non-reproducible crash on customer machines with:
+ Object reference not set to an instance of an object.
+System.NullReferenceException
+Stack Trace:
+   at DevExpress.XtraGrid.Views.Grid.GridView.CanResizeColumn(GridColumn column)
+   at DevExpress.XtraGrid.Views.Grid.GridView.BestFitColumns(Boolean forceResize)
+   at BioG.frmGantt.initializeSelectionDataTable() in C:\app-source\BioG\Operations\Simulation\Reporting\frmGantt.vb:line 7355
+Basically  a call to BestFitColumns crashes - our in-field crash collector gets these quite a bit and we have no repro steps.
+Any suggestions? ( I understand this is a longshot, having zero repro steps :) )
+ 

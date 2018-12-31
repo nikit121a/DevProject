@@ -1,0 +1,5 @@
+Hello.
+I have a DevExpress.XtraEditors.XtraUserControl (I try to use an xtraScrollableControl, but I can not make it work), in this control I want to insert other user controls (for example, a graphic) as shown in the attached image; and having the container show a scroll bar when the number of internal controls needs more width than the container and to be able to move the container to show the controls.
+Please, it is possible indications to an example of how to achieve functionality like this.
+Thank you in advance for your help and support.
+ 

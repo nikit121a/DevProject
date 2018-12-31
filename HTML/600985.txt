@@ -1,0 +1,5 @@
+Hallo
+I have a simple button inside a CellTemplate, however, some properties are ignored.
+Background, BorderBrush and BorderThickness does not seem to work. How do I style those?
+ 
+Thanks

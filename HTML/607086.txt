@@ -1,0 +1,4 @@
+Hello,
+Enviroment: Windows 7 and Windows 2008R2, through terminal server .
+I do right-click in the column header to diplay the grid-popupmenu . It display, but whichever option I choose, I get an access violation.
+Only I get it through Terminal Server, in versions before windows 10. 

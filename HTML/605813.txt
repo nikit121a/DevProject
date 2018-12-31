@@ -1,0 +1,5 @@
+Hi,
+here a sample project that i built to test the Token editor provided here:  
+if you launch the application, and add a new DomainObject1, you will have a detailview with a token Editor called 'DomainObject2s' and a 'My display name' text box. The latest takes the last selected item from the token box: see... it doesn't work
+BUT, if you go the Model.DesignedDiffs.xafml of the web project, and change the order of the 2 properties ('My display name' comes above the 'DomainObject2s')  then it works perfectly.
+Any idea? 

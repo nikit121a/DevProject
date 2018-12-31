@@ -1,0 +1,6 @@
+Hi DevEx Team,
+I am working on angular 4. I need your help regarding a pagination problem.
+I don't want to show page navigator  numbers on screen and only want to show the page info.
+Attaching file for the same.
+Thanks and Regards,
+Param Kewale

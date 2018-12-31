@@ -1,0 +1,7 @@
+Hi
+I have a repositoryItemGridLookUpEdit on a barEditItem
+I manage the barEditItem.EditValueChanged  
+I would like to know if the CRTL key was held when the user selected an item in the lookup.
+How can I accomplish that
+Thank you
+ 

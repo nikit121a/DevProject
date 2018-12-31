@@ -1,0 +1,4 @@
+I am using the report builder tool. 
+Sometime when I programmaticly request a report to be generated it  turns out that the person for whom the report was generated didn't have any data, so they get lines and column headers but no data and it doesn't look very good. (I cant capture for that in advance.)
+My question: Is there a way to place a label after the report title that says "No data for this person"  and suppress the rest of the report from printing.
+Thanks

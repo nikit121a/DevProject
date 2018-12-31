@@ -1,0 +1,3 @@
+I have added an ASPxImageSkider within an Update Panel
+it shows on the first picture , when I click the arrow to the next picture, it shows a black page.
+Also, I did not see the list of pictures at the bottom as show in the demo. 

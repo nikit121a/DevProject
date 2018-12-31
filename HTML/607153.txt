@@ -1,0 +1,16 @@
+Hello!
+I'm using your WPF control suite together with the docking-solution from actipro  (
+)
+In my vb.net project I have a serious issue.
+I have two actipro document tabs. I'd like to activate the second from within a RowDoubleklick Event of a DXGrid.on the first tab.
+If the grid has set
+everything works perfect. But if I set 
+the tab will not be activated.
+I have to set Row-Style in my UI because I do not want the editmode. Also if I set the Navigation style to Cell and disable editing the DoubleClick does not work.
+In my opinion this is an issue coming from DevExpress. What do you think about?
+In the attachment you find a Vs2017 sample solution   with three tabs. One tab that should be activated, one with a grid with Navigationstyle Row an one with cell. On both you see a standanrd button that activates the inactive tab, too.
+Can you reproduce  the issue? Do you allready know this Problem? Do you know a solution?
+It would be great if you could help me !
+If you have any further questions please let me know.
+ KR
+Stefan 

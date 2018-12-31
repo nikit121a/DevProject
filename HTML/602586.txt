@@ -1,0 +1,3 @@
+Hi,
+Have a query on Export , when merging and grouping enabled in the aspxgridview is  it possible to get the export without the merge and grouping ? 
+We tried ExportType DataAware, Default and WYSIWYG. In all we could see the data merge and grouping preserved. Is there any way in aspxgridview , we can export the raw data as it is. no merge and no grouping.

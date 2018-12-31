@@ -1,0 +1,9 @@
+Hi,
+I'm programming app with XAF (Web & Windows) and created two different XPO-Classes. One class derived from built-in person XPO and the 2nd is an own class for representing a list of all german ZIP-codes and towns.
+Now I want to assgin every object of my person class 1 to x entries of my prefilled ZIP-Code-class. For that I would like invoke an dialog, which represents all entries of ZIP-Code-Class in a list-view or tree view, so that the user can select one or more rows, that will added to the person class.
+It should not be possible to create own entries in ZIP-Code-Class, the zip-codes are only a datasource for the invoked dialog to select and add.
+The goal is, to assign towns and regions, the person is responsible for. e.g. a sales representative is responsible for Los Angeles, Chicago and Detroit. Another sales representative is responsible for Washington, Chicago and New York.
+How can I achieve this? Do you have any example (code) or tutorial for that?
+Thx for supporting me.
+regards
+Michael

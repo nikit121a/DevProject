@@ -1,0 +1,39 @@
+Hi,
+I am getting an exception on the DXPopupMenu closeup when it's already disposed. is there any way to check if it's disposed and not fire those events or any other solutions? 
+Here is the callstack:
+System.ObjectDisposedException: N?o ? poss?vel aceder a um objecto eliminado.
+Nome do objecto: 'StdDropDownButton'.
+   em System.Windows.Forms.Control.CreateHandle()
+   em System.Windows.Forms.Control.get_Handle()
+   em System.Windows.Forms.Control.PointToClientInternal(Point p)
+   em DevExpress.XtraEditors.DropDownButton.OnDropDownCloseUp(Object sender, EventArgs e)
+   em System.EventHandler.Invoke(Object sender, EventArgs e)
+   em DevExpress.XtraBars.PopupMenuBase.RaiseCloseUp()
+   em DevExpress.XtraBars.PopupMenu.RaiseDelayedCloseUp()
+   em DevExpress.XtraBars.Controls.PopupMenuBarControl.FireCloseUp()
+   em DevExpress.XtraBars.Controls.CustomPopupBarControl.UnLockCloseUp()
+   em DevExpress.XtraBars.BarItemLink.OnLinkClick()
+   em DevExpress.XtraBars.BarButtonItemLink.OnLinkClick()
+   em DevExpress.XtraBars.BarItemLink.OnLinkAction(BarLinkAction action, Object actionArgs)
+   em DevExpress.XtraBars.BarButtonItemLink.OnLinkAction(BarLinkAction action, Object actionArgs)
+   em DevExpress.XtraBars.ViewInfo.BarSelectionInfo.ClickLink(BarItemLink link)
+   em DevExpress.XtraBars.ViewInfo.BarSelectionInfo.UnPressLink(BarItemLink link)
+   em DevExpress.XtraBars.Controls.CustomLinksControl.OnMouseUp(MouseEventArgs e)
+   em DevExpress.XtraBars.Controls.CustomPopupBarControl.OnMouseUp(MouseEventArgs e)
+   em System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   em System.Windows.Forms.Control.WndProc(Message& m)
+   em DevExpress.XtraBars.Controls.CustomControl.WndProc(Message& msg)
+   em System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   em System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   em System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   em System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   em System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   em System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   em System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   em System.Windows.Forms.Application.RunDialog(Form form)
+   em System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   em framework.ui.windows.forms.common.StdApplicationFormNavigation.createChildInternal(Form sender, IForm newForm, Object data, Int32 operacao, Boolean modal, Boolean hideParent) em C:\Projectos\DOCbase\Source\Trunk\Framework\ui\windows\forms\common\StdApplicationFormNavigation.cs:line 1489
+   em framework.ui.windows.forms.common.StdApplicationFormNavigation.createChild(Form sender, IForm newForm, Object data, Int32 operacao, Boolean modal, Boolean hideParent) em C:\Projectos\DOCbase\Source\Trunk\Framework\ui\windows\forms\common\StdApplicationFormNavigation.cs:line 1395
+   em framework.ui.windows.forms.common.StdApplicationFormNavigation.createChild(Form sender, IForm newForm, Object data, Int32 operacao, Boolean modal) em C:\Projectos\DOCbase\Source\Trunk\Framework\ui\windows\forms\common\StdApplicationFormNavigation.cs:line 1390
+   em mwcontabilidade.ContabilidadeConvencao.ConvencaoFacturacao2.detalheDocumento(Int32 id, Int32 idDocumentoVendaConfig) em C:\Projectos\DOCbase\Source\Trunk\MWContabilidade\ContabilidadeConvencao\ConvencaoFacturacao2.cs:line 1123
+Thanks

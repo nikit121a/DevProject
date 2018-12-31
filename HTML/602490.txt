@@ -1,0 +1,10 @@
+
+Hello,
+i did above solution and i found the warring that was appeared before for 1024 icon is gone but now i got another warning ,do i have to do anything or what i did is enough :
+
+
+
+**log attached.
+ 
+Regards,
+Nedal

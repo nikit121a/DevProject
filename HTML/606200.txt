@@ -1,0 +1,6 @@
+
+hi Andrey,
+Thanks for that. I was able to fix the issue but i have another issue with same paramaters
+In preview, when i have date paramaters, it won't show time with date but when i run the report in browser, it does shows time with date.
+how can i remove the time from data.
+my parameter data type is date.

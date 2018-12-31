@@ -1,0 +1,37 @@
+Hello there,
+What could be the cause of this exception, and how to prevent it?
+1)
+************** Exception Text ************** 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. 
+Parameter name: index 
+at DevExpress.Utils.DXCollectionBase`1.ThrowIndexOutOfRangeException() 
+at DevExpress.Utils.DXCollectionBase`1.GetItem(Int32 index) 
+at DevExpress.Utils.DXCollection`1.get_Item(Int32 index) 
+at DevExpress.XtraScheduler.Native.ReminderEngineBase.ProcessReminderAlerts(DateTime currentTime, ReminderBaseAlertNotificationCollection alertNotifications) 
+at DevExpress.XtraScheduler.Native.ReminderEngineBase.RaiseRemindersAlerts(DateTime currentTime) 
+at DevExpress.XtraScheduler.Native.ReminderEngineBase.OnTimerTick(Object sender, EventArgs e) 
+at DevExpress.XtraScheduler.Native.LeakSafeTimerTickEventRouter.OnTimerTick(Object sender, EventArgs e) 
+at System.Windows.Forms.Timer.OnTick(EventArgs e) 
+at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m) 
+at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)  
+2)
+************** Exception Text ************** 
+System.NullReferenceException: Object reference not set to an instance of an object. 
+at DevExpress.XtraScheduler.OccurrenceCalculator.CreateInstance(IRecurrenceInfo info, TimeZoneEngine timeZoneEngine) 
+at DevExpress.XtraScheduler.RecurringReminder.CalcNextReminderInfo(DateTime after) 
+at DevExpress.XtraScheduler.ReminderBase.CalcNextAlertInfo(AlertInfoBase afterInfo) 
+at DevExpress.XtraScheduler.RecurringReminder.SwitchToTheLatestExpiredAlertTime(DateTime currentTime) 
+at DevExpress.XtraScheduler.Native.ReminderEngineBase.ProcessReminderAlert(ReminderBaseAlertNotificationCollection alertNotifications, ReminderBase reminder, DateTime currentTime) 
+at DevExpress.XtraScheduler.Native.ReminderEngineBase.ProcessReminderAlerts(DateTime currentTime, ReminderBaseAlertNotificationCollection alertNotifications) 
+at DevExpress.XtraScheduler.Native.ReminderEngineBase.RaiseRemindersAlerts(DateTime currentTime) 
+at DevExpress.XtraScheduler.Native.ReminderEngineBase.OnTimerTick(Object sender, EventArgs e) 
+at DevExpress.XtraScheduler.Native.LeakSafeTimerTickEventRouter.OnTimerTick(Object sender, EventArgs e) 
+at System.Windows.Forms.Timer.OnTick(EventArgs e) 
+at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m) 
+at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam) 
+Code:
+When the timer refresh the appointments, it will go to  
+Which should be safe.
+I don't understand what's wrong..
+The 2nd exception kept popping up.
+Thanks. 

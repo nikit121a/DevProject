@@ -1,0 +1,7 @@
+hi
+When i am filter applay on the xpo object then following errors generate.i am also attech the image
+Then How to Fileter creteria apply
+
+
+
+ThenGenerate Following Errrors

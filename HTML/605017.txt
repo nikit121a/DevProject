@@ -1,0 +1,20 @@
+Hello, i have a gridview and i would like to set up  a custom edit template.
+I have done this in razor and it is pretty simple i just need to do this
+ column.SetEditItemTemplateContent(c =>
+                {
+                    string NDC = c.Grid.GetRowValues(c.Grid.EditingRowVisibleIndex, c.Column.FieldName).ToString();
+                                      Html.DevExpress().Label(textboxSett =>
+                {
+                    textboxSett.Name = "StarTime";
+                    textboxSett.Width = Unit.Percentage(100);
+                    textboxSett.Height = 30;
+                    textboxSett.ControlStyle.CssClass = "textCharges";
+                    textboxSett.Text = d.ToString("MM/dd/yyyy");
+                }).Render();
+ 
+                });
+but since this gridview im generating the settings in a C# Controller dont know how to make this possible in the c# controller.
+because i cant call HTML.Devexpress().Label
+Thanks
+ 
+ 

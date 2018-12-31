@@ -1,0 +1,5 @@
+Hello,
+I need to add GridViewCommandColumnCustomButton to my ASPxGridView in code behind.
+I would like to be able to display a caption in addition to the image (like paintstyle option captionglyph in winforms) without using Template.
+Thanks in advance
+ 

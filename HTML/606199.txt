@@ -1,0 +1,5 @@
+
+thanks . Constant~
+PivotGridControl.RefreshData
+Memory is increased when using this method. (30 to 40 updates per second)  
+Is there a way to initialize the memory?

@@ -1,0 +1,11 @@
+
+Hi, i am using the dataGrid with the folowing configuration
+...
+
+
+
+
+But i have the folowing problems:
+Is there a way to build a 100% custon form? like  popupContenteTemplate?
+thanks
+...

@@ -1,0 +1,5 @@
+Hello.
+I would like to add a new item to context menu that appears when selecting an export button.
+When this item is clicked a custom logic is processed. 
+In this moment in context menu we we have Export all data and Export selected rows items.
+Thank you in advance. 

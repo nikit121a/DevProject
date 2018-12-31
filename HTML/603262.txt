@@ -1,0 +1,9 @@
+Hi DevExpress Team
+I would like to take the DocumentViewer control because Papername
+and display the Papersize.
+The user should be able to see on which Paper format the report was created. 
+Do not recognize the size.
+Is there a way to Reach?
+ 
+Thank you for your help
+ 

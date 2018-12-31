@@ -1,0 +1,8 @@
+Good morning, I?'ve a question about TcxGrid.
+I? need to create dynamically a grid at with I assign a "copy" of an existing grid created in a frame. Here is my code:
+The function GetDocGrid is some this like this:
+Where grdF24 is the name of the grid present in the frame named fraListF24.
+The problem is that when I try to execute the ExportGridToExcel routine I get an "Access violation" error. So my question is: is it possible to clone an existing grid to a new one created on the fly?
+Thanks for your answer.
+Eros
+?

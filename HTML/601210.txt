@@ -1,0 +1,12 @@
+Hi,
+I am using XtraReport control to show report.
+I have one total which is report total. I need to show another total after discounts     
+My net total line is XrLabel11.  I am setting below code after i calculated totals.
+Private Sub cTotBid_SummaryCalculated(sender As Object, e As TextFormatEventArgs) Handles cTotBid.SummaryCalculated
+        If Me.XrLblCapShipName.Text = "INVOICE FOR:" Then
+            ReportBidTotal = ClsCommon.ZCDbl(e.Value)
+            Me.XrLabel11.Text = (ReportBidTotal-RBMain.AgreedPC.Amount).ToString("N2")
+        End If
+   End Sub
+This code is not updating the label text .
+Could you please explain how to achieve this. 

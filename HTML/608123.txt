@@ -1,0 +1,4 @@
+Hi Team,
+I am creating a textbox server side with same id and ClientInstanceName ("txtTestStg") and placing in different formlayout.
+ Now in textchange event i will pass the formlayout id so i will know which text box i need to read.
+Now problem is i am able to get client formlayout clientid but how to read textbox with ID "txtTestStg"  under that formlayout client id.

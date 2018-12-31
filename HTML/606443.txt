@@ -1,0 +1,28 @@
+Hello,
+My TreeList uses FilterMode="Extended"
+and
+TreeDerivationMode="HierarchicalDataTemplate"
+I want to show children nodes of the parent when the parent matches 
+criteria. 
+ I need to be able to search among children and display them 
+ their parent. 
+A
+B
+-->C
+-->D
+E
+-->F
+So when I search for B I'd like to see:
+B
+-->C
+-->D
+and when searching for C:
+B
+-->C
+To achieve that I've inspired myself  from 
+However this won't work since some nodes have IsFiltered set to false even if the do not match specified search criteria.
+In the attached example from the 
+ there is a weird
+function that takes hardcoded "Name" parameter, and anyway the provided T490089 does not suits me as it also displays nodes that do not match search criteria.
+Why Node.IsFiltered set to false even when node does not correspond to search criteria? How can this be fixed?
+Thank you.

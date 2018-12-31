@@ -1,0 +1,5 @@
+Hi DevExpress,
+I'm currently evaluating your Xamarin grid control. I would like to ask you, if it is somehow possible to customize the grouped row template. Basically, I need to add one or two buttons to each grouped row. Based on your documentation, I suppose this is currently not possible. Or is there a way how to achieve it?
+Thanks.
+Kind regards
+Peter 

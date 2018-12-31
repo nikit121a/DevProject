@@ -1,0 +1,3 @@
+I am using a class derived from the richedit control. When I set the readonly property in my form load, it is ignored, and inspection shows the readonly property is set to false, despite being explicitly set true.
+I dont think I do anything to worry the behaviour when I modify the control - definition below FYI
+ 

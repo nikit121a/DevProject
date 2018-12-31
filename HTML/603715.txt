@@ -1,0 +1,4 @@
+Current documentation and experimentation indicates that the data source must be an array of objects, where each value is a property in the object. When transferring LARGE amounts of data from the server to the client it is far more efficient to use an array of array of values (i.e. a matrix) to reduce the amount of data transferred and stored in the browser. Because of this, "jqGrid" supports either an array of objects or an array of array of values as a data source.
+Can the data grid support an array of array of values? 
+At the moment I am force to convert my array of array of values to an array of objects for display purposes.
+Thanks. 

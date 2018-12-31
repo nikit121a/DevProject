@@ -1,0 +1,9 @@
+My objective is to drag an element from the DevExpress 
+ control to the 
+.  It appears the Accordion 
+ supports drag-and-drop for Winform, but not WPF.  Therefore can you provide an example of how I could implement this functionality manually.  Should I follow the code in this old 
+, or is there a better way.  I was also concerned that 
+ using drag-and-drop manager is a legacy approach.  Because I imagine a solution would involve an Accordion drag source having the legacy drag manager while the destination being a GridControl with native drag-and-drop.  On the destination TreeListControl I just need a method to be called upon drop.  The method would need to be called with the Accordion source item and the TreeListControl destination item.
+Here is a partial 
+, but it does not provide the details of a full implementation. 
+Thanks,

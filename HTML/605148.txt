@@ -1,0 +1,4 @@
+Hi, I use my own procedures to draw checkboxes on a spreadsheet and respond to user clicks. I use custom drawing:
+Of course this approach makes my check boxes invisible on print. Could you tell me if there is any approach which, would allow: 
+1) drawing on canvas in the same manner, 
+2) drawing checkbox on a print canvas in any other way?

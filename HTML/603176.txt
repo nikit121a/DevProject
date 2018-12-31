@@ -1,0 +1,5 @@
+Hello,
+I was reading about the EditForm here:
+My question is about the possibility of saving/restoring the Grid's EditForm layout. For example, if we know the type of an object list shown in the grid, have different EditForms layouts stored somewhere and apply the corresponding that we want to use for the type of the objects and fields shown in the grid. Basically is to have a custom way of loading the EditForms layouts.
+Could you help me?
+Thanks in advance!!!

@@ -1,0 +1,1 @@
+I am trying to use the CellContentPresenterTemplate. In version 17.2.5 it is not working, but in version 13.2.7 all is well. I attach the project for the first case

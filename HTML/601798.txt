@@ -1,0 +1,5 @@
+Hello,
+I'm creating a custom notification with the following template:
+ Here's the creation and the view model:
+ 
+Now, the UpdateImportProgress method in the view model gets triggered during an import function and the ImportProgressInPercent does get updated, however, the changes do not reflect in the view. If I set the property to a different value upon creating the notification I can see the changed value, but it also doesn't change afterwards. How do I get the notification to show the progress?

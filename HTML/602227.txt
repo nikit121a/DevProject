@@ -1,0 +1,2 @@
+You see the section from my MVC VerticalGrid above.
+What is the javascript command to make row "B" to be invisible and vise versa? 

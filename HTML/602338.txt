@@ -1,0 +1,4 @@
+Hello,
+I am using dxTagBox within an Angular application. Can you please advise how to show the selected items first and then other items?
+Thanks
+Balinder

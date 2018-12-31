@@ -1,0 +1,18 @@
+Hello,
+let we have flow of with following characteristics:
+* Buy or Sell
+* Currency
+* Volume
+I need to visualize structure of this flow taking into account both Buy/Sell and Currency, e.g.
+Buy
+ - USD/RUB: 100
+ - EUR/USD: 250
+Sell
+ - USD/RUB:120
+ - EUR/USD: 300
+ - CNY/USD: 120
+I'm thinking about two half-pie-charts:
+* Two half-pie-charts, let left one half represents structure of Buy flow and right one represents structure of Sell flow
+* Halves have different squares (square = flow volume)
+(see attached image)
+How to do it with DevExtreme? 

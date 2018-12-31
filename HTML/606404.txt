@@ -1,0 +1,8 @@
+Hi!
+I am generating Excel Spreadsheets with double values and would like to format a cell with white spaces and currency according to the following format
+3333 -> 3 333 kr
+150000,32 -> 150 000,32 kr
+2132222,34 -> 2 132 222,34 kr
+Am trying to using the NumberFormat like this
+But it doesn't seem to work. Can you please advice.
+Thx!

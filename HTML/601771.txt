@@ -1,0 +1,5 @@
+I get an error message for the data binding from an ASP Combobox of: Description: An error occurred during the parsing of a resource required to service this request. Please review the following specific parse error details and modify your source file appropriately. 
+Parser Error Message: The ListEditItem control with a two-way databinding to field BranchAbbr must have an ID.
+I have created a custom edit template with an asp gridview as a test for a larger productions page. This test page has five data columns on it, four of them are textboxes that are working and the last I use a asp combobox list a list of data from a SQL database table. The data binding to the column that I need to set the data to from the combobox selection does not work. This is the code I am using, the is with BranchAbbr field column.
+
+

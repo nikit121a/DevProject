@@ -1,0 +1,2 @@
+I am just trying to populate the TcxDBEXTLookupCombobox with a datasource. I use this datasource for other db grids so I know it works. When I go to select ListFieldItem from the properties it is empty.
+I have got to be missing something really simple - I am a VB.Net developer working with Delphi now. 

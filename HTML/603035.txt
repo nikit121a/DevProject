@@ -1,0 +1,5 @@
+Hi Konstantin,
+Please let me know how to disable to markervisibility for bootstrap chart and Please refer the attachment and output of bootstrap chart should be like descibed in the first screen shot .Currently chart displaying as per the second screen shot which not desired one and  tooltip also should be like in the screen shot 1.
+Please advise me for the above request as soon as possible .
+Thanks,
+AshokKumar.K 

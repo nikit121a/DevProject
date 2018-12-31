@@ -1,0 +1,8 @@
+Hi,
+ We are creating reports in MVC Application using XtraReport components, we have already used in window application including parameters.
+Now we are tried the same approach for adding Parameters on left side of the mvc Report.  
+Expectation:
+How to add parameters in MVC Report in mvc application as well as same approach from window application ..
+We are expecting sample solution and demonstrate video.. I have attached screen shot of my window application in parameters included report with your reference.
+Thank you.
+ 

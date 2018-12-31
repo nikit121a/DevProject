@@ -1,0 +1,6 @@
+Hello,
+I draw a graph with x-axis values such as 703383.0, 703384.0,...
+On  the graph, the x-axis of these points are aligned and get the same value 700000.
+Is there a graph option   that cause this alignment ?
+Thanks,
+Amir 

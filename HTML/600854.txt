@@ -1,0 +1,5 @@
+hi, I have 2 fields in my grid, a type drop down and an hours column.
+ the hours column is required.
+where the type is == 2 i want the field to not be required and not be validated.
+this is the code on selected index changed  
+the js is triggered on selected index changed but the field is still required. 

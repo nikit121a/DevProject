@@ -1,0 +1,2 @@
+Hi,
+I tried to override the default yellow color of listoxEdit But I was unable to solve it. Can you please help me with the solution. Thanks 

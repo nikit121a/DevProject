@@ -1,0 +1,11 @@
+hi,
+i would liek your opinion on what kind of best practice you recomend when using your controls for a big, CRM/ERP type application winforms, that i wish to have as less as usniqe and repeated work as possible.
+for example, i was imagening if i create a devexress usercontrol, and put there 1 ribbon control (blank), and one xtratabe control with 2 tabs (list) and (details), then put a blank xtraGrid in the List tab, and nothing more....
+someohow i would then use that when i make new winforms, and jst drag and drop it in my form, and have the basic UI the same and ready to use.
+but even thought the modifier is set to public, that usercontrol into my form is useless in the designer! i cant interact with any of the controls that are inside to add custom code and my functions. ure i could all do that from code but is a lot of work to do soemthing the visual designer can do in seconds and i can SEE what i am building without runnin it all the time!
+i cant click the ribon to add new buttons, i cant switch the tab to add new controls in the details for example etc.
+i know its pobably a noob question but it just never happented to need that before and i wnt to do more inherit and not copy psting the same ui again and again and have to maintane the same code in various locations.
+i am now trying to use your winforms mvvm poco framework...but maybe i am just doing or thinking this all wrong, so i decided to just ask the experts.
+thanks for your time i really hope for a reply.
+regards
+John 

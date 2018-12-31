@@ -1,0 +1,6 @@
+1) Run the attached project w/ 17.1.8
+2) Invoke the popup editor on the single cell
+3) Note that the popup remains active and properly displays the messagebox
+Now upgrade the project to 17.2.5 and try the same scenario.
+Note that the popup closes as soon as the MessageBox is invoked.
+The hotfix for T600459 does not address this.

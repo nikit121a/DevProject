@@ -1,0 +1,13 @@
+Hi.
+Got a propertygrid and at times I want certain rows to be disabled, certain rows readonly etc. I want all cases to have different styling. 
+For
+ I make use of `propertyGridControl.Appearance.ModifiedRow`
+For
+I make use of `propertyGridControl.Appearance.RecordValue`
+For
+ I make use of `propertyGridControl.Appearance.ReadOnlyRow`  
+For
+I make use of `propertyGridControl.Appearance.ReadOnlyRecordValue`  
+But what about disabled value and headers?  I tried  
+ Makes no difference. This is how I disable an editor row:
+I have attached a tiny sample that demonstrates the issue.

@@ -1,0 +1,3 @@
+Hi,
+ I'm trying to change the chart default colors on a dash board. How could i do it with different colors? Image attached.
+Cheers. 

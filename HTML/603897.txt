@@ -1,0 +1,6 @@
+Hi,
+About SaveCopy, this is a simple example, but i have any other interaction with RihEdit. Yes, in must cases i needed of SaveCopy.
+All time i will send information (texts) for richedit after rendering it by ajax.
+I realized that after rendering richedit via ajax, all interaction with ajax to the controller functions causes problems if I try to access the document contained in RichEdit.
+I think this problem are the calls by ajax, you know, because when rendering the Rich edit usually via cshtml, everything works fine.
+Tks for your help and attention.

@@ -1,0 +1,4 @@
+Hello Support,
+Please see attached.
+Can you please provide me MVC cshtml code to hide entire "Parameters" tab in report designer ?
+Thank You. 

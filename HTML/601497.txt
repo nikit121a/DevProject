@@ -1,0 +1,7 @@
+Dear support.
+I would like to suggest that you include the Microsoft Terminology Service API as a third source.
+They provide an API to automatically translate strings into other languages.
+I already used a few strings to make some progress in the German translation of your components.
+This is a very good and already validated source.
+Regards
+MIchel

@@ -1,0 +1,4 @@
+Hello, region created by CodeRush is miplaced:
+Original code:
+ Then I set cursor to public void SetUnitPrice and press Ctrl+3. I get this code:
+As you see, the region #region SetUnitPrice is placed incorrectly (overlapped with region constructors). 

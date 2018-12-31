@@ -1,0 +1,7 @@
+Dear Support,
+I have added to the map control vector layer that shows call outs. I face few issues regarding mouse click events:
+1. I need the click and  double click event functionality. however, when click event is engaged, double click event is never activated. how do I used both?
+2. my callouts are generated based on databases data. is there a way to connect radial menu to rightclick event of a call out?
+3.  is there a way to show on mouse hover a popup (user control) based on the call out text?
+thanks and Regards, 
+Izak. 

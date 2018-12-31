@@ -1,0 +1,2 @@
+Hi!
+I removed devexpress old version (16.2) from my pc   and installed latest version.Aftewr that i went to my  project publish properties (where i need to choose files for my application) i see libraries and rersources from this old version. How can i remove it completely?

@@ -1,0 +1,3 @@
+I must be overlooking something very obvious:
+I can't deselected the selected item in a readonly TcxTreeList (so that no selection remains) using Ctrl-click (or Shift-click)
+Attached are screenshots with my Options... settings.

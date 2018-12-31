@@ -1,0 +1,4 @@
+Hi,
+I am trying to order a dxDataGrid by the selected rows, I tried to implement sortingMode function but such code is never reached.
+How can I achieve this behavior? I need to bind the grid, then check against another array variable to set certain rows selected as default and then order by those selected rows so they appear at top of the grid. Here is my code snippet. Thanks
+ 

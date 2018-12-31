@@ -1,0 +1,4 @@
+The attachment, focus.png, shows a Treelist with the root node identified by the text "All Groups" and with the focus set on a lower node identified by the text "temp1".
+The focus has been placed on "temp1" with a call to Treelist.SetFocusedNode() and is shown by the marker/pointer to the left of the node.
+However, if I set the focus on the node 
+, the  node also appears with a border round it. How can I achieve the same outcome programmatically?

@@ -1,0 +1,4 @@
+We are trying to use a style to set the background color of a group and total summary item. Using the following XAML ALMOST works
+and 
+Unfortunately it only changes the background of the text as per the attached image (highlighted in orange). Is it possible to change the background of the text's container as highlighted in green? We also attempted to override the TableView.TotalSummaryItemTemplate, but weren't able to use the required conditional logic in the DataTrigger Binding.
+ 

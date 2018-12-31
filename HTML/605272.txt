@@ -1,0 +1,5 @@
+hi,
+when i working with xaf workflow,it's ok to import  dll of a xaf module to workflow when wofkflow activity definetion. but , for a general dll, (not xaf module), i can not find the dll, even though i reference it in the project.
+is there anything i have to do before import?
+Thanks,
+Michael Jiang 

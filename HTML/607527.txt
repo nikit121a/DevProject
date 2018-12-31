@@ -1,0 +1,6 @@
+Hi,
+In our production server I cannot access XAF Mobile simulator page, since it throws an exception.
+The Server is a Windows 2012 R2. .Net Framework 4.5 with IIS 8. The following Features are installed: 
+.Net Framework 3.5 Features: , HTTP Activation, non.HTTP Activation, .Net Framework 4.5 Features: ASP.Net 4.5,  WCF Services: HTTP Activation, Message Queueing, Named Pipe activation, TCP Activation.
+Thanks, 
+Peter 

@@ -1,0 +1,8 @@
+Hello,
+Im using ASPxGridview in a master detail scenario.
+In each of the detail rows (template) im having a ASPxMenu.
+When I click a specific button, a popup shows which needs to show some specifics to the current detailrow.
+My question; How can I 'pass' the RowKey (GetDetailRowKeyValue??) to the code behind (or to the client for that matter) So I can identify which row Im working on...
+thnks.
+Br,
+Richard

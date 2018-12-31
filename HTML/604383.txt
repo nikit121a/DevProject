@@ -1,0 +1,12 @@
+
+Hi, i am using the dataGrid with the folowing configuration
+...
+
+
+
+
+But i have the folowing problems:
+3 -how do i change those editors visibility on valuechange from the template editor (RepresentanteTipoID)
+Any help with be apreciated.
+thanks
+...

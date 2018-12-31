@@ -1,0 +1,16 @@
+Hello,
+We are stuck with a problem in DevExpress end user designer report . I am creating a report on the basis of datasets provided by Sql procedure.
+Our requirement to facilitate user to group data(provided by dataset) as per his/her requirement .  We have gone through your documents but unable to find such used case. Although we do get example of group wise segregation of data with the help of Group Header Band but there is no real time example which can show grouped data with aggregate(Sum, Count, Avg etc.) functions applied.
+Can you tell me if DevExpress provides this feature to make end user capable of doing group by with aggregation. 
+Below is our problem statement:
+We get data from a dataset:
+User  Browser     IP         LoginDate
+ 1       Chrome   x.x.x.x   10-Jan-2017
+2       Chrome   x.x.x.x    11-Jan-2017
+ 1       Mozilla     x.x.x.x   10-Jan-2017
+2       Mozilla     x.x.x.x    11-Jan-2017
+ 1       Safari       x.x.x.x   10-Jan-2017
+2       Safari       x.x.x.x    11-Jan-2017
+Expected result that we need from report viewer is as below:
+Thanks
+ 

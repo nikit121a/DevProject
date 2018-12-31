@@ -1,0 +1,4 @@
+For my PropertyGridControl I want to be able to set custom editors per row at runtime. Therefore, I set them during the CustomDrawRowValueCell event. However, this prevents the UI from updating/drawing automatically.
+The appended example shows the problem. Changing the properties should show/hide the legend or the title of the chart.
+ I am guessing I am missing a certain event?
+Best Regards

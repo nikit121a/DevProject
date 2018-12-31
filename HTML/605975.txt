@@ -1,0 +1,7 @@
+Hi,
+I have a treeview with fixed depth (maximum level is 3, and all nodes on last level are leafs). I'm filling this tree manually via the settings.Nodes.Add() and loading works fine. Each node has a checkbox, and I use recursive checking, so, if I check a node with child nodes, they become checked too.
+On the client side a have a js script attached to the treeview CheckedChanged event. It should list all checked leafs (nodes from level 3) as rows in other component.
+ All works ok, when node was previously expanded to the full depth. If node was never expanded, in js GetNodeCount() for node returns 0.
+I understand this behaviour when nodes are loading on demand, but in my case all nodes are already added to the treeview. Can you advise anything?
+Thank you
+ 

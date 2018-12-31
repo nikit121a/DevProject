@@ -1,0 +1,2 @@
+The vertical code analysis bar on the right of the coding area is missing. This is the CR bar that would have markers for issues, and you could hover over the marker to see the issue and suggestions for fixes.  I use that a LOT, and now it's gone!
+I have completely uninstalled CR, erased AppData folder and ProgramData folders as well as the C:\Program Files (x86) directories for it and then re-installed, but no luck - the  bar is still gone.

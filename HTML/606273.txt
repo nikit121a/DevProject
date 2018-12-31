@@ -1,0 +1,6 @@
+How do we handle long and short days in chart control?
+Please see attached project. In that, for 12th March, 2017,  the duration from 2am to 3am should not be shown.
+How do I achieve this?
+Thank you,
+Shivani
+ 

@@ -1,0 +1,8 @@
+Hi,
+I'm using the scheduler control with a custom appointment form.
+On the Ok button click i want to check if the values are compliant with a set of rules (located in the database).
+Where do i place the validation?
+ I tried the frmCustomPlanningForm_Validating event, but it's never called.
+If i do it on the ok button click, the record is already written to the database.
+Regards,
+peter 

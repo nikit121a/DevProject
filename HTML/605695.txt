@@ -1,0 +1,11 @@
+I used E108, but it has no report or page headers like most reports do. How do I get the column headings to appear differently for the first page?
+For example, my report should look like this when rendered:
+Report Header
+  First page info goes here
+Detail Report
+  Column headings go here
+  First page of grid goes here
+Page Break
+Page Header
+  Column headings go here
+  Rest of grid goes here

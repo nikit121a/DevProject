@@ -1,0 +1,5 @@
+I have an issue where I cannot seem to get display format of dates for Australian culture.
+In my shared view I have this JavaScript code.
+Than in my other view which is using this shared view I do a call like this...
+However, the date box keeps the usual american culture which is, I suppose, default for your controls.
+Am I understanding this right....If I load locale via Globalize, than all of the devextreme controls should use it out of the box or do I have to explicitly state this somewhere.

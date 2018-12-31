@@ -1,0 +1,5 @@
+Hello DevExpress Team!
+This question has the same context as this 
+, but for 
+What is the best way to implement a custom painting for PopupGalleryEdit of repository item?
+Thank you

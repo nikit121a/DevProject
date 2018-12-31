@@ -1,0 +1,11 @@
+Hi Support,
+I have a customer who connects remotely to my application using remote desktop of windows.
+Remote Desktop  redirect Resource and Printer.
+I have a RichEditControl on a form and I would like to print it in runtime mode.
+I have a Button and on OnClick  Event I  had write :
+where dxPrinter is TdxComponentPrinter
+In the next Dialog I do not see the printer that are redirected by Remote Desktop of Windows.
+If I use standard TPrintDialog of delphi I see my redirected printer but passing PrinterIndex to dxPrintDevice I have an error Printer Index Out of Range.
+ 
+Can you help me ?
+Thanks

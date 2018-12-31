@@ -1,0 +1,5 @@
+
+If the Annotations are defined with dates that are close enough there will be annotations "Colliding" with each other; that is, Annotations will overlap and when they overlap they become difficult to read. What guidance if any can you provide in predetermining when items overlap?
+Your help here would be much appreciated.
+That said, I believe this ticket can be closed as resolved.
+Thanks for your assistance.

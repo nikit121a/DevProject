@@ -1,0 +1,16 @@
+Hi there, 
+I have searched through your KB and have not been able to find a satisfying answer although simillar questions have been asked - please help me out or point in the right direction.
+What I am trying to achieve is to create a datetime editor for my application in which the user could enter certain shortcuts (more on that below) as well as regular dates - all that in w a windows forms application (which is important as most of your answers I have found pertained to WPF). 
+Shortcuts: eg. T+11 (for Today plus eleven days), Y (yesterday), or 13 (for 13th day of current month and year).
+Of course the logic needed to resolve the shortcuts to proper dates is not a problem. The problem lies in the events needed to handle it and/or right approach - which I obviously can't figure out.
+I have had some success:
+- set the masktype to RegEx, and editMask ".+" (all input)
+- have a handler for TextChanged event (where i process the input but not output anything, just store the info)
+- have a handler for LostFocus event (where I want to display date based on input).
+Two things happen:
+a. When I click out of the dateedit control and therefore move the focus out of it into some other control (via mouse) everything works fine.
+b. When I tab out of the dateedit then I end up with a default datetime entered into to the control (0001-01-01).
+(in both cases the lostfocus is fired but in the later it's like an extra event on dateedit's part has been fired)
+Hope you can help me out.
+Thanks,
+Adam

@@ -1,0 +1,2 @@
+Hi,
+I am using DevExtreme().FileUploader() control and in that i want user to select only PDF files and "prevent" from selecting other files. I specified accept attribute as Accept(".pdf") but it is still showing "All Files". Can you please tell me how i can hide that? Please refer attached screenshot.

@@ -1,0 +1,4 @@
+I am currently using this datagrid as a drill through chart. I would like to display what filter is being applied and let the user clear that filter if they would like. 
+I am calling the filter with this code 
+But it is currently applying the filter and won't display that to the user. It also removes other data that isn't included in the filter. 
+How can I make it behave the same as if the user were to type a filter in the filter row? 

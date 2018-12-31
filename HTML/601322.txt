@@ -1,0 +1,3 @@
+Using XtraMessageBox in common manner it plays "warning" sound:
+But if I try to show message box with help button it doesn't play "warning" sound.
+Please, see attachet sample project.

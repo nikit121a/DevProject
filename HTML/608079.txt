@@ -1,0 +1,6 @@
+Hi,
+I'm trying to get the filtered or the non filtered items of a ComboBoxEdit.
+Here is a small example.
+So, what I want to do now is to query either the filtered(everything except 5) or the non filtered items(5).
+Any idea?
+ 

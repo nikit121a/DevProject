@@ -1,0 +1,2 @@
+Hai  Team,
+         When iam trying to delete the row after  updating the row in gridview,Delete Function is not working properly..instead it  is going into updatable mode ..can u please help me out to resolve this issue..

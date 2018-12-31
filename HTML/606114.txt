@@ -1,0 +1,4 @@
+Please note that this issue only occurs in IE (Chrome works fine).
+We have a page which has both an ASP GridView and a DevExpress ASPxGridView.  As part of a recent change we made the ASPxGridView a Batch edit grid.  Upon doing so, the ASP GridView when viewed in IE, is no longer able to enter Edit Mode.
+Please see the attached project, where the Edit button doesn't work when viewed in IE.  If the Batch mode is removed on the ASPXGridView,  then the Edit button will work again.  Obviously, we are just looking for a way to get this to work in IE.
+Thank you for your time as always.

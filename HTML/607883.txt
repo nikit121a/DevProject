@@ -1,0 +1,2 @@
+I would like to be able to change the columns of the GridControl according to the the data that is being pushed into it  using MVVM. I have created an example of what I am trying to accomplish I hope this helps. Thanks in advance.
+ 

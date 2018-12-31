@@ -1,0 +1,15 @@
+Hi,
+We're using ASP.NET MVC report designer to create report templates in our web application. The chinese lables do not display correctly when the report is exported into PDF. We've tried using "Arial" font in the report and this hasn't worked. Any suggestions on how to get around this issue?
+I have tried the below approaches to try to make the "Arial Unicode MS" font to show up in the Font dropdown inside the designer. But, not successful.
+    function reportDesigner_Init(s, e) {
+            //Add Font
+            s.GetDesignerModel().updateFont({ 'Arial Unicode MS': 'Arial Unicode MS' });
+            //Remove Font
+            delete DevExpress.JS.Widgets.availableFonts['Arial'];
+    }
+     function reportDesigner_Init(s, e) {
+        DevExpress.Designer.fontInfoFake.filter(function (value) { return value.displayName === "Font Name"; })[0].values["Arial Unicode MS"] = "Arial Unicode MS";
+    }
+Thanks,
+Shiva
+ 

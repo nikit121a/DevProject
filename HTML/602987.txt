@@ -1,0 +1,18 @@
+Hi guys,
+this is mostly a follow-up to 
+, where I had a similar question regarding the Dashboards module.
+This time, I'm inquiring regarding the ReportsV2 module. Let me just copy & paste my previous inquiry from the above mentioned ticket:
+"I'm currently creating a XAF-Web application with XPO dataobjects for a client. I got the datamodel ready and my client is already using the platform to input his data. Now, of course some kind of Reports are required using your ReportsV2 module. I have various questions/requests. Let me start with the basic behind the current platform:
+1. The project uses the SecurityModule with SecuritySystemUser/Roles to deny object access to certain types/objects depending on the user role
+2. The meat of the data is stored in unsecured types (
+, 
+, 
+, etc. - more on that later), that are aggregated objects on a secured parent-type called 
+.
+*) As defined above in 2., my data classes are unsecured types, so I currently have to check in the Filter part of the dashboard datasource if the Parent property is not null, because if the ParentEntry is null, this means it has been filtered by the security module and thus the user does not have access to this specific data. So I need a way to set this filter automatically, programatically and DO NOT let the user change this filter. Otherwise they would be able to see data they're not supposed to. Is there a way to do this?" 
+So I'm looking for a similar solution to the one provided in the referenced ticket.  A bit of my own research into your classes reveals that I might need to implement my own 
+, override the 
+, maybe even override the 
+module. But I'd like to hear your suggestion before I start anything.
+Kind regards,
+- Christoph 

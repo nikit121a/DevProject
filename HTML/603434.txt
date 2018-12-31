@@ -1,0 +1,15 @@
+When I click on a specific row area of the pivot, I want to get the summary values of the selected cells.
+ 
+The PivotDrillDownDataSource function is very inefficient because it needs to find all the clicked values and calculate summary value.
+ 
+The PivotSummaryDataSource function is very inefficient because the developer has to calcurate summary value if the cell is not collapsed. Also the data corresponding to the clicked cell must be filtered.
+ 
+When I click the row area of the pivot, multiple cells are selected. With the pivot function, the sum or average is calculated when the area is folded. 
+It also provides a pivot function that allows you to view summation values for each column or row.
+Can you use the information to solve the following problems?
+ 
+The exact function I want is:
+1. Get the information of the cells corresponding to the clicked row area.
+2. I want to get the sum or average summary value that appears when the row area is collapsed even if the row area is not collapsed. Data is taken in the form of a Datatable.
+Do you have an API to do this? Or seek advice.
+ 

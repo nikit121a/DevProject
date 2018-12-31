@@ -1,0 +1,7 @@
+Hi, 
+we are using AccordionControl as menu item repository.
+As you could see in attached screen shot, red circle is on all child element item.
+"Tabelle Calendario" is a child of "Tabelle", it's clear because it has a 5 mm indent, "Application Audit Info" is child of "Visualizza" but it has not got indentation.
+Could we indent child item in order to have facility in comprehension which is the group and which is the element item?
+Thank you
+Fabio 

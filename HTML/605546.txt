@@ -1,0 +1,4 @@
+Hello,
+I'm populating a MainMenuControl  in code behind, but I cannot change the cursor to Hand in neither the BarSubItem nor the BarButtonItem.
+Thanks,
+Fabio 

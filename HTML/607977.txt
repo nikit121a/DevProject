@@ -1,0 +1,10 @@
+HI.
+How to edit style of ComboBoxEdit NullValueButtonPlacement button in WPF Theme Editor?
+I have code
+ <dxe:ComboBoxEdit AllowNullInput="True" NullValueButtonPlacement="EditBox" IsTextEditable="False" NullText="test">
+                <dxe:ComboBoxEditItem>item 1</dxe:ComboBoxEditItem>
+                <dxe:ComboBoxEditItem>skm2</dxe:ComboBoxEditItem>
+                <dxe:ComboBoxEditItem>skm3</dxe:ComboBoxEditItem>
+                <dxe:ComboBoxEditItem>skm4</dxe:ComboBoxEditItem>
+            </dxe:ComboBoxEdit>
+In WPF Theme Editor that button is not visible.How can I edit style of that button?

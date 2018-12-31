@@ -1,0 +1,3 @@
+Hi,
+There is a strange problem in dev extreme angular directives, that happens after window resizes.
+For example,  I have the following part of code inside a dxform. When window resizes and reaches a breakpoint for small screens, everything inside  the dropDownBox is being removed from the dom. After that, it appears only after window reloading. 

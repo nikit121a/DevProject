@@ -1,0 +1,8 @@
+Hallo,
+ after upgrading DevExtreme to Version 17.2.5, the IOS App icons are no longer working.
+I found this KB article: 
+According to this article, this bug was resolved in 17.1.3. I did skip some versions when upgrading. I think I came from  16.2.*, not sure though.
+the problem is the same as described in the KB: The icon is just a white, blank image.  
+Strangely, forcing an old phonegap-cli version as suggested in the KB, did not help:
+If I unpack the *.ipa file, I see my icons in the folder payload/appName. In the subfolder payload/appName/www/res I can see all the empty images. Seems like the files are not correctly copied when built. I build with VisualStudio "Build native package" .
+Is there a fix for this? Maybe define the icon path manually?

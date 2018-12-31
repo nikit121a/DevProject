@@ -1,0 +1,8 @@
+Hallow DevExpress team
+We have an application with pivot control that works fine.
+In one specific computer, after working a few seconds with the pivot control, we get an error.
+Attached the error message.
+In the response to this message, I will attach a short movie that demonstrate the error while happening.
+Please help.
+Best regards
+Izak

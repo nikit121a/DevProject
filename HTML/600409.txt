@@ -1,0 +1,38 @@
+Hi,
+I need replace text in richeditcontrol html document.
+this my code and replace not working:
+private void LoadMessages()
+{
+//connect to DB and get new text in html format
+ WriteBodyText(addingMessages);
+ ReplaceText();
+}
+private void WriteBodyText(string text)
+{
+ using (Stream stream = new MemoryStream())
+ {
+  TextWriter writer = new StreamWriter(stream);
+        writer.Write(text);
+        writer.Flush();
+        stream.Position = 0;
+        richEditControl1.LoadDocument(stream, DocumentFormat.Html);
+  }
+}
+private void ReplaceText()
+{
+        //first option for replace - remove text specify- not work
+          string strRemove= "string for  remove";
+        //never finds this string
+        DocumentRange[] foundRanges = richEditControl1.Document.FindAll(strRemove, SearchOptions.None);
+        foreach (DocumentRange range in foundRanges)
+        {
+            richEditControl1.Document.Delete(range);
+        }
+        //second option - replace string - not work
+        richEditControl1.Document.BeginUpdate();
+        richEditControl1.Document.HtmlText.Replace(strRemove, "");
+        richEditControl1.Document.EndUpdate();
+}
+How can I do this?
+Thanks.
+ 

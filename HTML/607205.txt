@@ -1,0 +1,8 @@
+I have attached a sample that contains a dummy select Statement with 3 lines.
+The report shows a table with 3 columns:
+- a number
+- a Picture (the property Keep Together=true)
+- and a rich text 
+If the rich text contains text that exceeds the length of a page, the picture is split although pictures property "Keep Together" is set to true.
+Do you know how I can tell the report to show pictures together?
+ 

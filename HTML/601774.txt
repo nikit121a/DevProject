@@ -1,0 +1,15 @@
+Hi,
+when you copy cell form excel to dxSpreadSheet it copies also Locked property when the source cell is formatted (i.e. bold). 
+So when the destination Sheet  (id dxSpreadSheet) is protected and one copies cell to unlocked cell it becomes locked (non editable).
+- it happens only when source cell has any format on it (not default one). 
+Steps to reproduce:
+1) prepare in Excel a sheet with some cell range unlocked.
+2) enable protection in this sheet.
+3) save it for future use as dst.xlsx
+4) prepare application with dxSpreadSheet on it
+5) run application and load prepared dst.xlsx file
+6) open new excel put some value to A1, make it bold (or apply any other formatting)
+7) copy this cell
+8) paste this cell on SpreadSheet in your application to any unlocked cell
+9) try to edit this cell - it now is not editable - the default locked state was copied (and it was set)
+Excel in such situation leaves this cell Editable - discards locked value from source cell.

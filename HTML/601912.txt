@@ -1,0 +1,7 @@
+Hi, I am trying to create a button that uses the @ string to do localization. Here is the problem:
+1) HTML Binding Works
+This button will correctly put the text associated with the billTotal  language entry into the text of the button, in a default button and the onClick works.
+2) Knockout Biding Does Not Work
+with javascript of:
+This button displays the string @billTotal as the text of the button, in a default button and the onClick works.
+I don't want to have to embed all of my binding objects into the HTML, this seems like a bug in the system in some way. Any explanation you can give me would be appreciated.

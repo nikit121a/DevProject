@@ -1,0 +1,4 @@
+Hi,
+I'm trying to upgrade my projects but show this error: The dependencies can not be resolved. 'DevExpress.Data 17.2.5' is not compatible with 'DevExpress.Core 17.1.9 restriction: DevExpress.Data (= 17.1.9)'.
+I'm used Nuget to do this upgrade from 17.1.8 version
+ 

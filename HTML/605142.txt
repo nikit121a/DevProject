@@ -1,0 +1,7 @@
+Hello,
+I have a GridView with a number of columns which I add at runtime. Among these there is an unbound column, to which I assign a RepositoryItemPopupContainerEdit.
+I then assign an existing PopupContainerControl to the RepositoryItemPopupContainerEdit.PopupContol property.
+If I for any reason clear the GridView.Columns colection, it automatically not only disposes of the  RepositoryItemPopupContainerEdit, but it also disposes the PopupControlContainer, which I believe it should not do. 
+Does anyone have any thought on this? Is there a way around this, other than creating a new PopupContainerControl and all of its contents each time I create the unbound column? 
+EDIT: I have figured out the disposal of the PopupContainerControl occurs at Grid.RepositoryItems.Clear(). So disposing of the RepositoryItemPopupContainerEdit will automatically dispose of the PopupContainerContol as well. How can I avoid this??
+Thank you!

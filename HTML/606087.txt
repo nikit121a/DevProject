@@ -1,0 +1,5 @@
+Hi,
+Once the column width is expanded by double clicking it, the column width can not be reduced back to its original width. A second double on the expanded column causes the width to exceed the width of the displayed grid.
+I have attached and a screen capture. I will include my sample project in the next comment.
+Thanks,
+Mike 

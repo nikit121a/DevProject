@@ -1,0 +1,3 @@
+I need to export a chart (ChartControl with XYDiagram2D) in a scalable vector graphics format (pdf, xps or svg). When I use ChartControlBase.ExportAsPdf, a pdf with a bitmap is created instead of a vector graphic. I looked through the support center, but could not find a solution for WPF/DXCharts. Could you please let me know if there is a way to achieve  this? 
+Thanks
+Martin

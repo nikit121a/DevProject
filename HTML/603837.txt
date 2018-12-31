@@ -1,0 +1,4 @@
+Good day,
+I would like to ask if it's possible to add a tooltip upon mouseover on the header ? I have enabled the checkbox select all on the ASPxTreeList control header and our user wants to have a tooltip on it.
+ Thanks,
+Daryl

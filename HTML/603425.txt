@@ -1,0 +1,8 @@
+Hello DevExpress team,
+Please, have a look at a screenshot.
+Is it somehow possible to align some toolbar items to the left and some to the right within one toolbar?
+We had till now all items aligned to the right
+Now we want to add new item 'Actions' which should be aligned to the left.
+As i understood, it can be done with another toolbar, but another toolbar row looks not nice. Maybe there is some nicer way to configure the toolbar?
+Thank you,
+Aleksandr. 

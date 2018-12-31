@@ -1,0 +1,4 @@
+Hi !
+I need to identify the "Show find panel" item in a GridView column menu.
+How can I do that ? I didnt' find a StringId I could use with the GetLocalizedString function.
+Thank you.

@@ -1,0 +1,9 @@
+Hello,
+I have a cxpivotgrid with a field that corrispond to a code; I have used this field for all operation (grouping etc etc) but I display the relative descriction locate by another field, by using this code (and it works fine):
+
+
+
+This pivot grid is linked to a chart and in the legend of a chart there is the code (10,  30, 60 ); could you view the image attached
+How can I substitute the "Id Value" with the "Description Value" in the chart?
+Thanks,
+Bye

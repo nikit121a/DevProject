@@ -1,0 +1,10 @@
+Hai Team,
+    Iam Trying To Apply Validations to the Row When updating the row in gridview..iam using below code in  gridview_rowupdating event
+ if (!System.Text.RegularExpressions.Regex.IsMatch(Convert.ToString(e.NewValues["Columnname"]), "^[0-9-a-zA-Z-.@]*$"))
+        {
+            lblMessage.Text = "Error Msg"
+            return;
+        }
+ if the regular expression matches the row is updating properly but if it doesn't matches then it is showing the error like "specified method is not supported"
+can u help me to solve out this..
+here iam attaching the screenshot of the issue 

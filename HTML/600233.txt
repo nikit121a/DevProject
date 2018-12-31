@@ -1,0 +1,6 @@
+Hi, I just have a quick question about the alert control vs. the toast notification control.
+I liked the concept of not showing a dialog with an OK button letting the user know "widget saved".  seems really old-school.   I tried the toastnofification control, but it only works on windows 8 and above , and didn't seem to work on my office dev machine (Win10), and it did work at home on Win10.
+so I am going down to the lower common denominator, and using the alertcontrol.   
+Question: is if there is a way to do a sound with the pop up and trick it to look like a modern toast notification?
+thanks,
+george 

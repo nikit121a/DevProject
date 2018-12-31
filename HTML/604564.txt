@@ -1,0 +1,2 @@
+I am trying to use a dxForm widget within the master/detail of the dxDataGrid.  When I generate a DIV element within the template property and instantiate the dxForm widget, I get labels but no data rendered in IE.
+Snippet:

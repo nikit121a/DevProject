@@ -1,0 +1,10 @@
+With 96 PPI the MiniToolBar is always very well split in two rows. At 144 PPI all items are on in one row!
+To reproduce just add a bunch of standard button in a MiniToolBar (i always use a MTB together with a PopUp menu).
+I found a reason/fix in your code:
+function TdxRibbonMiniToolbarControl.GetPopupSize: TSize;
+   Result := GetSizeForHeight(dsNone, ScaleFactor.Apply(IfThen(cxIsTouchModeEnabled, 75, 50)), True);
+50(75) scaled up to 144 PPI -> 75(112) seems to be to small. To split on the rows with 144 PPI the height should at least 80.
+Thus i tried this, and it works very well - at least for 96 and 144 PPI:
+ 
+   Result := GetSizeForHeight(dsNone, ScaleFactor.Apply(IfThen(cxIsTouchModeEnabled, 80, 55)), True);
+(I did not the with TouchMode enabled!)

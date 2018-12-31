@@ -1,0 +1,8 @@
+Hello
+We have a strange issue on 1 productive server  with Windows Server 2012 R2 Standard.
+Other 3 productive server s use Windows Server 2012 Standard
+Development PCs have Windows 7 Professional
+On development PCs, test and 3 productive servers, this problem doesn't exist:  
+Thread.CurrentThread.CurrentUICulture and CurrentCulture  are set to de-AT right before using the report, but exported PDF shows that it was generated from default resx file.
+To fix it, we reinstalled Windows on the server, upgraded DevExpress controls to 17.2.5 and it still doesn't take de-AT resources for the report.
+What can be wrong on server or web site  ?

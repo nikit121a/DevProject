@@ -1,0 +1,10 @@
+OK - so where evaluating the New CodeRush (we previously bought some licenses for the Classic but now we evaulating whether we should buy for the whole team.)
+Organize Members : 
+We currently use CodeMaid to reorganize our code - it works - it puts everything in regions the way we want - there are a few issues with spacing but nothing major. 
+If we purchase your product we hope to load one less tool and use your "Organize Members" but when I invoke that function something happens but it is not what I want. Code elements are not moved together (a public method  at the top of the file is still there and not moved to the region where all the other public methods are.)  The order of the elements does not match the order established in the "Editor\All Languages\Organize Members" and I do not see an "Editor\Visual Basic\Organize Members" section. Is this function broken?
+Code Issues:
+I don't see the same range of issues that CodeRush classic was able to report.  (I like what I see and it is certainly much less of a resource burden.) It does seem from the documentation that the tool might be open to including 3rd party and self-authored Static Analyzers in the future. Is this true? Is there (or will there be) a defined way to add analyzers to the cataloging of Code Issues?  Also, will the analyzers available in Classic be added to the current version?
+ My dream issue would be the identification of "Late Binding calls" - been a while since I fiddled with Roslyn but it would seem like it should be able to identify late-binding calls. Is that possible? (Obviously, my code is a absolute mess and anything that would help clean it up would be greatly appreciated.) Just a thought.
+You are really the only people who take the problems of VB developer seriously (and tho we'd all love not to be VB developers it looks like that road will be closed if we can't use a tool like yours to get over some immediate hurdles.)
+Thanks, Charles C. Poston
+ 

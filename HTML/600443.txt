@@ -1,0 +1,76 @@
+As I see from your several support items and demo's, many users are looking for the ability to change node order within a sibling collection, both by button press and by drag-drop.  My Treelist (see code below) has a DispOrder column to contain each node's position within the sibling collection.  The Treelist out of the box allows dragging and dropping nodes, but the dragged node is automatically demoted to the next level and made a child node of the drop target node. It seems very likely that I need to capture the index of the target node when the drop occurs, but the code block I found in your help does not run correctly and thereby prevents the treelist from doing anything.
+Here is the code fragment I am trying to use:
+ <ClientSideEvents EndDragNode="function(s, e) {
+         var nodeKeys = s.GetVisibleNodeKeys();
+                        For (var i = 0; i &lt; nodeKeys.length; i++) {
+                            If (s.GetNodeHtmlElement(nodeKeys[i]) == e.targetElement) Then {
+                                s.PerformCallback(&quot;DRAGNODE&quot; + e.nodeKey + &quot;|&quot; + nodeKeys[i]);
+                                Return;
+                            }
+            }
+There is my Treelist code:
+       <dx:ASPxTreeList ID="ASPxTreeList1" runat="server" AutoGenerateColumns="False" AutoPostBack="False"
+        DataSourceID="dsPoints" clientinstancename ="tree1" EnableCallBacks="true" keyboardsupport="true" Height="700px" 
+        KeyFieldName="PointID" Width="100%" 
+        Font-Names="Arial" Font-Size="12pt" ForeColor="#0F446E" Font-Bold="true" ParentFieldName="ParentID">
+   <Settings 
+    Gridlines="Both"
+     VerticalScrollBarMode="Visible" 
+      ScrollableHeight="740"
+   />
+         <SettingsBehavior AllowFocusedNode="True" AllowDragDrop="true" AutoExpandAllNodes="True" 
+             ProcessFocusedNodeChangedOnServer="True" />
+       <SettingsEditing Mode ="InLine" AllowNodeDragDrop="True" AllowRecursiveDelete="true" />
+<SettingsCustomizationWindow PopupHorizontalAlign="RightSides" PopupVerticalAlign="BottomSides"></SettingsCustomizationWindow>
+<SettingsSelection Enabled="True" Recursive="false"/>
+            
+<SettingsPopupEditForm VerticalOffset="-1"></SettingsPopupEditForm>
+<SettingsPopup>
+<EditForm VerticalOffset="-1"></EditForm>
+</SettingsPopup>
+ <Styles 
+         
+        EditForm-BackColor="#F2F2F2" EditForm-ForeColor ="#0F446E"  
+        SelectedNode-ForeColor    ="#0F446E"  SelectedNode-BackColor="#F2F2F2" 
+        FocusedNode-BackColor ="#F2F2F2" FocusedNode-ForeColor="#0F446E"  >            
+        <SelectedNode BackColor="#F2F2F2" ForeColor="#0F446E"></SelectedNode>
+        <FocusedNode BackColor="#F2F2F2" ForeColor="#0F446E"></FocusedNode>
+        <EditForm BackColor="#F2F2F2" ForeColor="#0F446E"></EditForm>
+    </Styles>    
+            
+   <Columns>
+          
+            <dx:TreeListTextColumn FieldName="Point"  CellStyle-Wrap="True" VisibleIndex="1" AllowSort="False" 
+                Caption="Point" Width="300px" >
+            <CellStyle Wrap="True"></CellStyle>
+            </dx:TreeListTextColumn>
+            
+            <dx:TreeListTextColumn FieldName="Parentid"  VisibleIndex="1" AllowSort="False" Width= "50px" Visible="True">
+            </dx:TreeListTextColumn>
+            
+            <dx:TreeListTextColumn FieldName="Level" ShowInCustomizationForm="True" Width="50px" Visible="True"  VisibleIndex="2" >
+            </dx:TreeListTextColumn>
+            
+            <dx:TreeListTextColumn FieldName="DispOrder" Width="50px" ShowInCustomizationForm="True"  
+                Visible="True" sortindex="0" sortorder="Ascending" VisibleIndex="3"  >
+            </dx:TreeListTextColumn>
+<dx:TreeListTextColumn FieldName="MatterID" ShowInCustomizationForm="True" Width="50px" 
+    Visible="True" AllowSort="False"  VisibleIndex="4">
+            </dx:TreeListTextColumn>
+            
+      
+            <dx:TreeListDateTimeColumn FieldName="Chrono" ShowInCustomizationForm="True" VisibleIndex="5" 
+                AllowSort="False" Caption="Chrono" Width="100px">
+            </dx:TreeListDateTimeColumn>
+                      
+        <dx:TreeListCommandColumn ButtonType="Button" Width="100px" DeleteButton-Text="Delete" visible="true" VisibleIndex="6" > 
+        
+<DeleteButton Text="Delete"></DeleteButton>
+        
+        </dx:TreeListCommandColumn>
+        </Columns>
+   <ClientSideEvents EndDragNode="function(s, e) {
+ 
+ }" />
+</dx:ASPxTreeList>
+I figure if I can get the Drag-Drop reordering going the button navigation will be easier.  I will appreciate your help in  pointing me in the right direction.

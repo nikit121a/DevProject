@@ -1,0 +1,8 @@
+Hi
+I'm using the Scheduler component in my project ASP.Net Core 2 MVC . I have open the Scheduler and want to add an appointment when I click on a cell.
+I'm trying this:
+To add the appointment:
+It doesn't work, the "scheduler.addAppointment" method is "undefined".
+What am I doing wrong?
+Regards
+ 

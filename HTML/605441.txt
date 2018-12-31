@@ -1,0 +1,7 @@
+Hi
+There is a bug in Pivot Grid exporting.
+It's generating data only for first page.
+The same bug is in Your example
+Please give me info when this issue will be resolved
+This is very important for us and Our clients because this is major functionality of our application.
+ 

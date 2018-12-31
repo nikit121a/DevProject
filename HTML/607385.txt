@@ -1,0 +1,20 @@
+Hello,
+Before the question I'll ask in the end, let me talk what happened to me using XAF, so it justifies why I need to change the form OIDs are generated and also hopefully your engineers do something to fix this problem out of the box.
+Here is:
+========================
+I was always fighting about why my XAF database is kinda slow, sufering to add 1000 lines of data by taking 50s to accomplish that.
+Wonder how my customers complained with me saying that is unacceptable.
+I agree with them, even with those who have abandoned me because of this.
+After  too many hours wasted to create workarounds to mitigate this and get some breath, finally I got a time to investigate this problem deeper.
+Result:
+** The problem is everything to do with OIDs being GUIDs (with inserts at least) **
+After discovered this problem, I got to research over Web, and now I found several articles saying that, even with a real nice solution, which I share here for the posterity (I resumed to the ones I found most important in this case):
+ <-- ***this one is very detailed and useful
+In my tests, without tweeking anything else in database, I went from 50s to **0s** to insert 1000 records into database.
+Zero seconds. Amazing.
+Now I think my business cell which is all set with XAF has a better chance to succeed. 
+====================
+After the explained, I ask you:
+How can I change my DCs to completely use CombGuids?
+I say completely, because I've tried to use AfterConstruction() method, but then I noticed I have implicit object relations which I don't have control over the generated OIDs
+ 

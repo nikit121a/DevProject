@@ -1,0 +1,8 @@
+Hi. I am trying to achieve that only one subnode to a node may be expanded.
+I use the sample in Q26002  but the tree will not expand again after invoking collapseAll.
+If I do the same server side it works ok (T492957).
+Client code
+Server code
+Also a mini function does not work:
+In both client code cases, I end up with the ttree collapsed.
+ 

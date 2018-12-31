@@ -1,0 +1,7 @@
+I'm trying to override the 
+styles, I tried to find the 
+using 
+ but no luck. 
+It's weird  that when pressing shift and clicking on what I want to change, the Theme editor does not show anything, and does not show the ControlTemplate. as you can see from the attached image.
+I have done something similar for the docking control  and it worked fine with theme editor.
+I took a screen shot which shows how I need the TabControl to look like. please check the attached image. 

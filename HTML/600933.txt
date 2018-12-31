@@ -1,0 +1,19 @@
+How can i create a new IDataLayer using 3-tier architecture with wcf security.? 
+blow is my code.
+This is my server side code for connect to server.
+
+
+
+
+and client side code.
+
+
+
+
+and code for creating a new datalayer at server side
+
+
+
+
+ this code for creating a new datalayer  is working under local system ( the client can access to database) but remote is not.
+did i  missing something or is there any solution for creating a new datalayer  using 3-tier model.?

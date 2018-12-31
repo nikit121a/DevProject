@@ -1,0 +1,7 @@
+I have some report code that was running fine prior to upgrading to 17.2 and now I am having some trouble.  The issue I have is strange as I don't have a problem on my development PC, but when I install my software on a non-development PC and try to print a report I get the following error 
+"The following error occurred when the script in the procedure XrTableCell115.BeforePrint was executed: 
+There are following errors in scripts(s) :
+line 1, column 1: error CS1056: Entered code is not correct"
+Because the error doesn't occur on my development PC  I am having a difficult time troubleshooting it.  I have attached a call stack from my error reporting software for you to reference.
+Please help, many thanks in advance.
+Jeff 

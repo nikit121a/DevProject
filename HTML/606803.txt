@@ -1,0 +1,3 @@
+Hi. I wonder if it's possible to somehow translate a saved layout from a WinForms PivotGrid (XML) to an MVC PivotGrid?
+Details:
+Our previous tool in WinForms? allowed users to save a PivotGrid layout to file (SaveLayoutToStream). We are now moving this tool to MVC, and it would be really good to have automatic conversion of saved layouts.

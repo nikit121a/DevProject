@@ -1,0 +1,5 @@
+We have an MVC view with a data grid that is hidden when the view is loaded.
+The grid should 
+ its data source until it is shown later on by the user (button).
+I tried with several settings (disabled = true, visible = false).
+ 

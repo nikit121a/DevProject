@@ -1,0 +1,6 @@
+Hi,
+i'm using a BootstrapPopupControl in my application that i'd like to keep in the browser window's center even if the window is resized.
+Using the 
+ and 
+ attributes the popup can initially be brought up centered. Upon resizing the browser window, however, the popup appears to remain anchored to it's absolute top-left corner. Is there any way to keep it in the center even if the window is resized?
+Thx in advance!

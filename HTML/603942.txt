@@ -1,0 +1,64 @@
+Hello,
+I faced challenges on excel export from Gridview. I have customized summary in the Gridview  which seems not showing proper in excel export where as it shows as expected result in Gridview.
+please find the code used and attached picture of the same.
+ var filepath = Path.GetTempFileName();
+            filepath = filepath.Remove(filepath.LastIndexOf('.') + 1);
+            filepath = String.Concat(filepath, "xls");
+            var xlopt = new XlsExportOptionsEx();
+            _skipBaseRunningTotal = 0;
+            _skipSecBaseRunningTotal = 0;
+            _skipNcuRunningTotal = 0;
+           
+            
+            xlopt.CustomizeCell += options_CustomizeCell;
+            xlopt.AllowSortingAndFiltering = DefaultBoolean.False;
+           
+            xlopt.TextExportMode = TextExportMode.Value;
+            gViewAccountDetail.ExpandAllGroups();
+//custom event used.
+void options_CustomizeCell(CustomizeCellEventArgs e)
+        {
+            bool rowStatus = gViewAccountDetail.IsGroupRow(e.RowHandle);
+            if (e.ColumnFieldName == "Base Running Total")
+            {
+                if (!rowStatus && (e.RowHandle != 0 || _skipBaseRunningTotal != 0))
+                {
+                    var displayName = gViewAccountDetail.GetRowCellDisplayText(e.RowHandle, gColBaseAmountRunningTotal);//, gColBaseAmountRunningTotal );
+                    e.Value = displayName;
+                    e.Handled = true;
+                }
+                else
+                {
+                    _skipBaseRunningTotal++;
+                }
+            }
+            else if (e.ColumnFieldName == "Sec. Base Running Total")
+            {
+                if (!rowStatus  && (e.RowHandle != 0 || _skipSecBaseRunningTotal != 0))
+                {
+                    var displayName = gViewAccountDetail.GetRowCellDisplayText(e.RowHandle,gColSecondaryBaseRunningTotal); //, gColSecondaryBaseAmountRunningTotal );
+                    e.Value = displayName;
+                    e.Handled = true;
+                }
+                else
+                {
+                    _skipSecBaseRunningTotal++;
+                }
+            }
+            else if (e.ColumnFieldName == "NCU Running Total" )
+            {
+                if (!rowStatus && (e.RowHandle != 0 || _skipNcuRunningTotal != 0))
+                {
+                    var displayName = gViewAccountDetail.GetRowCellDisplayText(e.RowHandle, gColNCURunningTotal);
+                        //, gColNCURunningTotalTotal );
+                    e.Value = displayName;
+                    e.Handled = true;
+                }
+                else
+                {
+                    _skipNcuRunningTotal++;
+                }
+            }
+        }
+Regards,
+Manivannan 

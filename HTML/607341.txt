@@ -1,0 +1,20 @@
+I am using your richeditdocument service to translate HTML into RTF.
+I create a  new instance of document server and set the RtfText property to the html I'm passing in:
+var reds = new RichEditDocumentServer();
+reds.RtfText = myHtml;
+If the html I pass in does not have any margin setting or style info, then the richedit document server is putting space before and after every paragraph. 
+For example, if I pass the html "<p>test</p>", I get the following RTF:
+{\rtf1\deff0{\fonttbl{\f0 Calibri;}{\f1 Times New Roman;}}{\colortbl ;}{\*\defchp \f1}{\stylesheet {\ql\f1 Normal;}{\*\cs1\f1 Default Paragraph Font;}{\*\ts2\tsrowd\f1\ql\tscellpaddfl3\tscellpaddl108\tscellpaddfb3\tscellpaddfr3\tscellpaddr108\tscellpaddft3\tsvertalt\cltxlrtb Normal Table;}}{\*\listoverridetable}\nouicompat\splytwnine\htmautsp\sectd\pard\plain\ql\sb240\sa240{\f1\cf0 test}\f1\par}
+ Note the \sb240 and \sa240 in the paragraph.
+I tried doing the following to remove the spacing before and after the paragraphs:
+            var pp = reds.Document.BeginUpdateParagraphs(reds.Document.Range);
+            pp.SpacingBefore = 0f;
+            pp.SpacingAfter = 0f;
+            reds.Document.EndUpdateParagraphs(pp);
+The problem is that this always removes spacing from every paragraph, even if my html has paragraph spacing set in a style. 
+For instance, the following HTML has a bottom margin of 10 pts on the paragraph
+"<body>\r\n\t<style type=\"text/css\">\r\n\t\t.cs40314EBF{text-align:left;text-indent:0pt;margin:0pt 0pt 10pt 0pt;line-height:1.15}\r\n\t\t.cs957795DE{color:#000000;background-color:transparent;font-weight:normal;font-style:normal;}\r\n\t</style>\r\n\t<p class=\"cs40314EBF\"><span class=\"cs957795DE\">word</span></p><p class=\"cs40314EBF\"><span class=\"cs957795DE\">paste</span></p></body>\r\n"
+What I want is to just have the richeditdocumentserver not set any default paragraph spacing but to keep whatever spacing is in the html (and if there is none, don't set any spacing at all or set it to zero). So in the first example above, it would not set any spacing and in the second example, it would  preserve the spacing after (bottom margin) in the html.
+Is there a way to do this?
+Keith Smith
+Texas Legislative Council 

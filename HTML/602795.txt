@@ -1,0 +1,7 @@
+Hello support team,
+I have a problem with a pretty trivial situation: There is a BarManager on the form. The menu bar has one sub menu (BarSubItem) with one sub button in this menu (BarButtonItem), e.g. File / Open. This item is set visible or hidden depending on user rights. When hidden I also want to hide the menu since it has no more visible sub items. How can I achieve this behaviour?
+I tried (and it doesn't work): 
+I also tried the 11 years old solution provided for this purpose in 
+ (and it doesn't work as well):
+Is there still no easier solution, e.g. a HideItemIfEmpty property?
+Thank you!

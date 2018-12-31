@@ -1,0 +1,8 @@
+Hi -
+I'm using the ASPxDashboard control.  I've built my dashboard but I'm having trouble with formatting the "Grid" component.  I've attached a picture of what it currently looks like and what I'm trying to make it look like.  Can you tell me where the "formatting" tools are?    I'm trying to:
+1. Format the numbers so 3.08K shows up as 3,805.  
+2. Center the header and the details.
+3. Change the font size and color.
+4.  Change the header background color.
+I appreciate the help.
+Thanks 

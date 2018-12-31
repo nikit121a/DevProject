@@ -1,0 +1,3 @@
+Good morning.
+Remove skins in current use load or option for resources of images to part. For example, I just need to use the UserSkin type. How could I just load this Skin? Do I have to remove the other Skins from Install Components?
+Thanks

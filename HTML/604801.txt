@@ -1,0 +1,2 @@
+In my grid I have columns that are bound to SQL Server DateTime columns but I am only concerned with the time part and use the RepositoryItemTimeEdit as their column editor. However, the excel style drop down shows options for dates and nothing for times.
+Is there any way to configure this to display something suitable for times?  Ideally be able to specify a time range (i.e. 09:00 to 12:00).

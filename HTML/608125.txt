@@ -1,0 +1,13 @@
+Hello,
+we embedded your 
+ in some of our Dialogs. Such dialogs for invoices and so on, have their own report engine behind. Therefore we don?t need the integrated page management und printing features. We have already found the DocumentCapabilitiesOptions and RichEditBehaviorOptions to configure the control. The only thing we can?t configure is the "Line and Page breaks" tab on the 
+. We wish to remove it. Is it possible?
+By the way, we have found some DocumentCapabilitiesOptions without a documentation.
+Maybe you like to complete the docu sometimes:
+     EndNotes 
+     FootNotes 
+     HeadersFooters 
+     InlineShapes
+     ParagraphFrames  
+Best regards
+ Lutz Fritsche

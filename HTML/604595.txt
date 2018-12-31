@@ -1,0 +1,7 @@
+Hello,
+I am using the map control for winforms and have started playing around with legends.
+I have  found two issues that I have been unable to resolve by experimenting or by searching for ideas.
+1. The legend display the same size regardless of the size of the map control so if the map is resized to be smaller the legend takes over the whole map.
+2. It there are a large number of items in the legend it simply overflows the control.  We have had an idea to display only every n-th item but even for this we would need to know how many items could safely fit to be able to calculate n.  In many cases the legend could safely be smaller and fit in more items.
+Regards,
+Ben

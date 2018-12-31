@@ -1,0 +1,4 @@
+Dear DevExpress team
+we want to develop a lucid dashboard as attached....
+xaf dasboard capabilities can be used for graphs... but to add any custom dashlet is difficult.
+Please suggest us what best can be done.

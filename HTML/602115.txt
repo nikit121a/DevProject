@@ -1,0 +1,12 @@
+
+                                The PDF Viewer has several types of popup menus that can be invoked by an end-user for bookmark options, bookmark tree, page content, a thumbnail, and thumbnail options. 
+This example shows how to hide the popup menu for the bookmark tree and remove specific items from the page content popup menu.
+To customize items of the PDF Viewer's popup menu, handle the 
+ event. This event fires every time an end-user opens a popup menu in the PDF Viewer. 
+Each popup menu type has a unique set of bar items that are located in the bar item link collection. To access a bar item link collection, check the popup menu type using the 
+ property and use the 
+ property.
+To hide a popup menu, clear all items from the bar item link collection. 
+To remove an item from the popup menu, find the item by the caption in the bar item link collection and then remove it.
+
+                            

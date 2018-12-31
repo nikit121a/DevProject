@@ -1,0 +1,6 @@
+Hi,
+I have a master detail grid defined (angular 4) as shown below.
+However, when I click the expand icon (the > arrow), it expands the wrong row.
+When stepping into it via browser debugger, it looks like the "e" event passed to onMasterRowPrepared(e) is just straight up not the correct row.
+Do you know of why this is happening?
+ 

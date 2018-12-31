@@ -1,0 +1,3 @@
+I have attached a samply project and movie.
+You see that when the grid is hosted in a tabcontrol, the value of the editor is not pussed to the datasource.
+How can this be fixed? 

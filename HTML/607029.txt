@@ -1,0 +1,9 @@
+Hello, 
+I create a report with a richlabel with text (text in regular style and bold style) and a picture. 
+In code i use the html export function and get the html code.
+I put the html in a email, but when i receive the mail, the picture is not shown (in the export, i put the property embedimagesinHtml true)
+Also when i open the mail in Outlook, ive got the regular and the bold style OK but in gmail, it's only show in regular.
+Is it possible to send a base64 image in a mail ?
+Have you ever see the formatting problem (with bold text) ?
+thanks
+ 

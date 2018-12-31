@@ -1,0 +1,3 @@
+I am newbie on ASP.NET and Bootstrap.
+I have a buttonedit control on my grid's toolbar  and a bootstrapPopupControl. I want to add a new grid on popupControl and bind it to a datasource (Firebird) when clicked on buttonedit's button. How an i achive that ? 
+ 

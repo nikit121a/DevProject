@@ -1,0 +1,3 @@
+Hi,
+please check my sample project and see what I found while using refactor methods in my project.
+Look for keyword ACTION (1 and 2) and find additional notes there.

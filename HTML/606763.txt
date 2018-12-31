@@ -1,0 +1,13 @@
+Hello DevExpress team,
+I've a strange issue with a chart.
+I'm work with MVVM architecture, and I've a chart to display 4 curves dynamically. I want to be able to suppress some point from the chart (with a listbox near it). I'm be able to do it, by recreate the collection of data.
+But, I have two issues:
+-If I zoom in/out the chart, and I try to refresh it, the autoscale of the both Axis are not working and the both range take values [0..1].
+I was be able to fix this issue with this ticket : 
+I create a button to send function "SetAuto()" at the both range.
+But, after that, I have a new issue :
+-If i refresh the data, I can see only the first curve, and not the others ones. But, if I zoom in, the others appear. I cannot explain why.
+Can you help me on this strange behavior ?
+Thank you for your help.
+Kind regards,
+Maxime Lozach

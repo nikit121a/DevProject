@@ -1,0 +1,4 @@
+The linechart in my project will be updated every  10 seconds with a new value, that "problem" I solved already. But now I want the chart setup with the follwing, is that posible?
+Is it posible to make the line chart always shows the last 15minutes? And for example scroll to show the earlier values/points
+Is it posible to have always the same distance "on the chart" between two values/points? Now the distance is being reduced when a value/point is added to the chart. I also want to start the chart with the first point on the left.
+An example of my project you can find here:

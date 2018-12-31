@@ -1,0 +1,3 @@
+When opening a PDF Arabic, using DevExpress.Pdf.17.2 the text become scramble, I am not sure what is the problem is I attached a photo with PDF viewed in Another App and using the component.
+I will attach the PDF file in another replay.
+ 

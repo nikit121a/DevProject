@@ -1,0 +1,7 @@
+Hi,
+after Upgrading from 17.1.6 to 17.1.7 i got the following error:
+ An unhandled exception of type 'System.InvalidOperationException' occurred in DevExpress.Diagram.v17.1.Core.dll
+Additional information: Operation is not valid due to the current state of the object.
+for the bolded line inside the following piece of code :
+Thank You,
+Lorenzo 

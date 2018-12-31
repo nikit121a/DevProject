@@ -1,0 +1,6 @@
+Hello:
+After upgrading to 17.2.5 from 17.2.4, I'm getting  E1035 error (see attached screenshot) when:
+1) The grid contains columns that are pushed in the "customizeColumns" method.
+2) The error occurs when the "Edit" button is clicked which is when the edit form is created. 
+I cannot give you right now a sample to reproduce the issue but if needed I can make one and send you. Please help.
+Thanks!

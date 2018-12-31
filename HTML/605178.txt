@@ -1,0 +1,12 @@
+Hi
+In a View using the GridControl I want to show in the FixedTotalSummary
+1) The Total row count. That is the full count of the ItemsSource BEFORE any column filters and search criteria are applied
+2) The 'filtered' row count, i.e. what is shown on screen AFTER any column filters and search criteria are applied
+I can get (2) to happen using the following XAML
+but I don't know how to get (1).   
+Ideally, what I would like to show is ONE message in the FixedTotalSummary so that
+when there are NO filtered rows : Message = "Row Count = XXX"  
+when there are >0 filtered rows : Message = "Row Count = YYY of XXX"
+Is any of this possible?
+Thanks for any help.
+ 

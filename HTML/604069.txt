@@ -1,0 +1,4 @@
+How to hide search panel group in TreeListView using c# code?
+Example : 
+When I press CTRL+F search panel will be open and I can search any text in tree view. working as expected.
+search panel is visible when move to different card, so would like to hide when moving to different card/ any other different action in application.

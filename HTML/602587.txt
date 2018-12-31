@@ -1,0 +1,4 @@
+Hello,
+i have created an application mainly using devexpress. I am also using spreadsheet and navigationframe. My main application language is English, but for some automatic created controls it seems that the system language is used. How can I fix that to only use english?
+TY
+Hannes 

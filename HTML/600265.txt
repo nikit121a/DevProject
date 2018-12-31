@@ -1,0 +1,17 @@
+Hello,
+I am using dxDataGrid to display some data and running into an issue when trying to export the data into excel. Following is the scenario/requirement:
+Only selected columns are displayed using dxDataGrid but when exportToExcel is clicked, application should get data for all the columns (even for the ones which are not displayed on UI) and export it to excel.
+1. I have 2 dxDataGrids on the UI (dxDataGrid1, dxDataGrd2). dxDataGrid1 displays the selected column on UI. dxDataGrid2 is hidden.
+2. On export to excel click, service gets all the required data, populates  dxDataGrid2 and then export to excel using dxDataGrid method 
+I tried implementing as suggested above but the 
+ functionality does not work from within the callback method of the service. Following is the snippet of 
+:
+private exportGridDataToExcel(): void {   
+        //this.getExcelGridData(); <<---- this is pushed to page_load just to make sure data is there before export happens
+        this.excelGridInstance.exportToExcel(false);  <<---- CALL TO EXPORT TO EXCEL IS MOVED OUTSIDE THE SERVICE CALLBACK
+ }
+Please advise:
+1. If the suggested implementation is right approach?
+2. If yes, how to make export work from within the service call.
+Thanks
+Balinder

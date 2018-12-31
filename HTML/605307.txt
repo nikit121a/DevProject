@@ -1,0 +1,3 @@
+Hi there
+Is it possible to change the horizontal alignment of the "Save Changes" / "Cancel Changes" links to be left aligned (in stead of right aligned)?
+Thanks!

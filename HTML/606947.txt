@@ -1,0 +1,1 @@
+Only two columns in my data grid are editable. Is there a way to preserve the row in the data grid, while displaying the editable columns in the form?

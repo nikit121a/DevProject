@@ -1,0 +1,8 @@
+
+Hi,
+I've just created a basic asp.net mvc app using the DevExpress wizard which includes a grid as its main content and while it seems to be resizing correctly in some browsers, it doesn't seem to be the case for all browsers.
+I've included a screencast to highlight the problem. Hopefully this will help in resolving the problem.
+In the recording, I've included a couple of other questions i.e. 
+I'm only getting started with this new app and I will have a lot of questions over the next few months but I really need this new app to be compatible with all browsers on desktop (and hopefully on mobile devices as well but not as important right now).
+Thanks.
+Thierry

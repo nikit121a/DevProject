@@ -1,0 +1,13 @@
+Hello, 
+In 
+ its is stated that: 
+"Both MouseDown and DoubleClick events are not raised in response to a double-click in the row indicator area because they are suppressed by the GridListEditor that raised the ProcessSelectedItem event processed by ListViewProcessCurrentObjectController."
+I have a situation in a XAF project which is under the following criteria: 
+- The View is a ListView
+- The View is not editable
+- On single click, I want to do an action. 
+- On double click, I want the regular ProcessCurrentObject behavior but without doing the above action. 
+I followed 
+ with the MouseDown event, but the second click is not recorded, since the ProcessCurrentObject method is called, therefore I only get the SingleClick action. 
+Is there another way I can achieve the above? 
+Thanks in advance. 

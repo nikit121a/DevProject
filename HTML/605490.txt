@@ -1,0 +1,7 @@
+Hello,
+Is there a way to change the focused row from Javascript, or at least remove the focus?
+I have an app which needs to update the focused row according to the result of an AJAX call, but I can't figure out how to do that.
+I've read about row handles but I couldn't find a clear example.
+Is there a way to do this on the client side with Javascript?
+Thank you in advance,
+Michele

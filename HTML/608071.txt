@@ -1,0 +1,7 @@
+Hi,
+it is possible to sort the  Row and Column fields in the dashboard designer.
+Wondering if there is a way for an end user to change  sort mode in the dashboard viewer. With a normal grid this does work, but within the pivot in seems impossible ?
+Also there is no way to sort by Value field.
+Since the idea of a dashboard is that the end user shoud be able to easily see management information this would be a necessary feature ?
+ I have found a ticket which is over 2 years old with the same question, but it is still not implemented...
+Thanks 

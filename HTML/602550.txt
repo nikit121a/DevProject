@@ -1,0 +1,8 @@
+Hi support team!
+The first component selected has the AutoPostBack = False property, the second AutoPostBack = True.
+When I select the "Montadora", reload my screen completely.
+How to make the screen does not recharge completely.
+I used to use UpdatePanel, but I do not know how to do it in DevExpress. Do you have an example, please?
+See the video attachment as an example.
+TKS
+ 

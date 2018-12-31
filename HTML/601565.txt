@@ -1,0 +1,19 @@
+Dear Support,
+I have an application witch is using AspxRichEdit in order to edit docx and html files.
+There is a problem with some documents when trying to open them. The editor does not render them entirely or is not render them at all in some cases.
+I will give you 4 file examples:
+ - "doc1_v1_loadsWithoutFirst2pages.docx"
+the editor don't load the first 2 pages.
+ - "doc1_v2_modified_loads all pages.docx"
+is almost the same document as previous, but i removed some text from bullet "4."
+this document shows all pages. I tried in many ways to find the cause of this. Even changed the extension from ".docx" to ".zip" and compared the XMLs. I couldn't find nothig special that could cause this behabiour.
+ - "doc2_first2pages.docx" 
+loads only the first 2 pages out of 24
+ - "doc3_notLoadingAnything.docx"
+not loading anything. Stays on "Loading..." forever
+We also have problems with other documents. For some only the first 4 or 5 pages are renderd. We didn't find a pattern.
+If I open one problematic document and save it back to disk, the editor saves the hole content in the new file. 
+So the content exist in the editor's internal structure but for some reasons it doesn't render all the content in page.
+I also made a sample with an empty WebForms Project that contains an AspxRichEdit editor.
+Thank you an I look forward for a solution,
+Robert

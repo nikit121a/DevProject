@@ -1,0 +1,3 @@
+Even if ChartControl's LayoutUpdated is not doing anything, it is running.
+How can I do this only when the graph size or rendering content is 
+For details, refer to the sample source.

@@ -1,0 +1,3 @@
+Hello,
+I have a SideBySideGantt chart and I want to display the full datetime for the Two Labels option.
+I am aware that I can change the text pattern, but that overrides the possibilty to display two different labels for the same bar.

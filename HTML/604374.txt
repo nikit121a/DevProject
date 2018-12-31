@@ -1,0 +1,7 @@
+Hello,
+we need to calculate the average - please see attached screenshot.
+Row Total - we need sum
+Col Total - we need average
+Thank you
+Ralf
+ 

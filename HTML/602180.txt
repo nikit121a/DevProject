@@ -1,0 +1,5 @@
+Hi
+When hovering some piece of a chart or piechart, you get indicator lines on Chrome and Firefox (together with transparency), but not on Safari, it just turns completely transparent for dxPieCharts instead, no indication at all for dxCharts (just the same solid color as selected).
+Same goes for IOS devices (like an iPhone or iPad).
+Also, the tooltip property does not look the same. In chrome (both desktop and android) the tooltip will receive a white box with an arrow, but on Safari (both Mac and iPhone) you only get the plain text (and nothing else).
+// Erik 

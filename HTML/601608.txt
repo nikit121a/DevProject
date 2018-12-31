@@ -1,0 +1,5 @@
+Hello,
+I'm using the 'calculateCustomSummary' function to create a custom column in my pivotGrid  like this:
+I'm trying to set an link into the 'cell.text' of my fields, letting the 'cell.value' with value from 'Value' column. Is there a way that i can manipulate the text and the value separately in the customSummary, so i can show the correct value in the fields and open the link only on click? 
+I'm expecting to build my links with somenthing like this:
+Or, if possible, create the link right in the summaryProcess.

@@ -1,0 +1,4 @@
+
+I am able to split the pages using your code.  However, also running into a couple issues.  I have attached the main document I am using, and will attach each page as another comment.
+...
+2.  First Page shouldn't have the header banner

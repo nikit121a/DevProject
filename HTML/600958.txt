@@ -1,0 +1,7 @@
+I need to show a red circle with lots of pending messages.
+I am using BarButtonItem, how can I do this?
+             <dxb: BarButtonItem x: Name = "notificationsBtn"
+                                Glyph = "Images / talk-16x16.png"
+                                Command = "{Binding NotificationCommand}"
+                                Content = "Notifications" />
+Example of how I would like to:

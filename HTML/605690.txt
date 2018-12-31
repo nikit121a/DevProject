@@ -1,0 +1,7 @@
+Tested in on a company machine and on my private machine,
+i seem to can't get the Demo working you have provided for DevExtreme with .NetCore support.
+The Page starts, but the Frame where the Grid should appear stays empty.
+I've checked the source and Javascript Console and couldn't find any obvious reasons.
+Any pointers where the problem might lay?
+Other Demos ,not using .NetCore seem to work properly.
+ 

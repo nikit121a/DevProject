@@ -1,0 +1,4 @@
+Hello,
+I have an MVVM, Windows UI, Scaffolded Applcation with two entities:  Parents and Chidren.  There is a One to many relationship from Parents to Children.  I wish to edit the children entities in the same View as the parent fields, instead of editing each child separately. The scaffold generates a Grid for the children in the parent view, but you have to switch views to the child view in order to edit each child.  I hope this makes sense.  I have uploaded a simple app to show you my starting point.
+Thanks,
+Anand 

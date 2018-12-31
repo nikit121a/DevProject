@@ -1,0 +1,2 @@
+See attached project (from which you can see that I selected wrong IDE when creating this ticket. Correct IDE is Delphi 10.2).
+When running this project and opening  a PDF, the code in the ShowFindPanel event should set the search to a case-sensitive, whole-word search for the term "search text". But when the panel opens, only the two first parameters actually happen. As can be seen from the settings dropdown in the panel, the setting of these booleans manifests in the UI, but not the search text change. 

@@ -1,0 +1,13 @@
+Hi,
+we have verified an error exporting large datasets in server mode grid.
+This is the scenario:
+We have a query that extract from a "SQL Server 2012 Standard" 290K records, and the application compiled at 32bits stops working, for memory issue.
+We used an  EntityServerModeSource, this is my export code:
+
+
+
+
+I've attached the screenshot of memory situation.
+Seems that the ExportToXls method write all record in memory before writing on the excel file.
+Bye,
+a.

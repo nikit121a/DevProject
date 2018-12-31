@@ -1,0 +1,3 @@
+Hi, 
+We are looking for the grid to auto-scroll when you are dragging a column over to the other end of the grid . As it does in Excel and other drag and drop systems. Is there a way to accomplish this? We have not been able to find a solution.
+Thank you 

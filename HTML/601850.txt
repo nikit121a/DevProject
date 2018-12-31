@@ -1,0 +1,3 @@
+HI Lanette ,
+Could you please provide sample  on how to prepare series and animation ,zooming X,Y,Secondary multiple  y  axses in codebehiond(C#) and binding data to x,y ,sereies is using data table which is filed using database .
+ 

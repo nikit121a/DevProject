@@ -1,0 +1,4 @@
+I have attached a sample which describes the grid behavior when added to ToolStripDropDown
+When I put the grid in toolstrip it loses its datasource
+Please look at the project attached
+ 

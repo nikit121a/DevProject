@@ -1,0 +1,1 @@
+Does the Map control in WPF (or Winforms) support vector labeling rather than having them right on the map tiles?  I want to be able to add my own layer and have the street names appear above it so my layer elements don't obscure the map labels.

@@ -1,0 +1,7 @@
+Hello there,
+I got the attached project from this 
+.
+ Can you modify it so when a page is closed, the active page will be the previous one, not the last active one!
+ 
+.
+Thanks! 

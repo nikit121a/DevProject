@@ -1,0 +1,5 @@
+Hi!
+I need some help with changing the progressbar color based on the EditValue.  
+XAML:
+Converter:
+ 

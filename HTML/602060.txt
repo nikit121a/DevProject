@@ -1,0 +1,4 @@
+I'm currently about to exchange all old image with SVGs. In my current test i unfortunatly run into a issue which might be the dealbreaker.
+Until yet, all graphics on buttons which are set to disabled are grayed out by default. The SVGs have a special value therefor "DisabledSvgImage". In the current project, i roughly included 1000 imagefiles to due the fact, that some customer wanted to have their branding. As you can imagen, it would be a humongous workload to create those SVGs now as grayed version on top of it.
+After reading the "How To: Draw and Use SVG Images" i haven't spotted any easy/suitable possebility to have grayed version from SVGs as we are used to have it from all the other images (mostly PNG). Have we just missed the information or is there a plan to add this feature with an upcomming release? (Automatically grayed SVG for disabled buttons).
+ 

@@ -1,0 +1,5 @@
+HI,
+       i'm using  Grid View batch editing functionality while editing the column cell width will be like very less can we increase it? and i tried with increasing the column width but it does not applied as i expected.
+See the attached Screenshot.
+Thanks,
+Madhav. 

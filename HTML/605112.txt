@@ -1,0 +1,6 @@
+I have a ASPxClientCombo that changes value based on other parts of the form.
+In some scenarios, I would like to put the Combo into Readonly mode - meaning that that the following should happen:
+1) Editor's borders disappear
+2) Editor's dropdown does not show when the editor is clicked.
+3) Dropdown button is hidden
+I already know that you can get alot of this fuctionality if you call the ASPxClientCombo.SetEnabled function, however, I need whatever value that has been placed into the editor to be included in the post.

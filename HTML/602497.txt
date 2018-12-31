@@ -1,0 +1,18 @@
+Hi,
+I prefer this type of layout for initializing e.g. a class
+            Class1 cls = new Class1()
+            {
+                PropertyName = "test"
+                , PropertyName1 = "test2"
+                , PropertyName2 = "test3"
+            };
+If I use smart duplicate line (Shift Enter) on e.g. theline with test3, Coderush  copies the line but also adds a comma at the end of the line...
+            Class1 cls = new Class1()
+            {
+                PropertyName = "test"
+                , PropertyName1 = "test2"
+                , PropertyName2 = "test3",
+                ,
+                PropertyName3 = "test3"
+            };
+Also see the attached video 

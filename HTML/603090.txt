@@ -1,0 +1,7 @@
+Hello ,
+          currently i have one window and after click on next button my data will be change.
+so on that time i want to apply slide and fade effect on my window.
+for show there is changes in window.
+can you please help me how to achieve this with your control.
+for more detail please see the attached video.
+if you provide me any sample then it will be helpful for me 

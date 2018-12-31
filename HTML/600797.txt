@@ -1,0 +1,4 @@
+I have a DateTime property in my Business object..
+I just want the user to select "Time ranges" not date...
+I've played around with the edit/display format, but always get a calender control? 
+ 

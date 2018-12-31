@@ -1,0 +1,4 @@
+Hi:
+    In 20,000 lines of the program, when the program goes wrong, Tdxspreadsheet is invisible, the mouse click is of no use. 
+    It is very difficult to find mistakes in these 20,000 programs,If TdxSpreadsheet can be used to display data, so it is easy to find the reason.
+    Dozens of modules of such 20,000 lines of programs, please help solve this problem.I need TdxSpreadsheet to be active for use under any circumstances.

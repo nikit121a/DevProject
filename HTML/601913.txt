@@ -1,0 +1,5 @@
+Hi, 
+I am trying to achieve this 
+. I manage to customize the template but I can't make the text foreground use the same color that the hamburger menu is using. Also is it possible make an oval background behind the text that is using devexpress theme color? Attached is a sample project I'm working on. Hope you can help. Thanks!
+Regards,
+Jobert

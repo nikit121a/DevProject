@@ -1,0 +1,5 @@
+Hi,
+We are using Devexpress version 12.2.18 in our asp.net webform application.
+There is requirement to add hyperlinks directly to data in some fields of excel sheet when we use export to excel functionality using devexpress controls 
+Please let us know how we can implement this functionality.
+Thanks

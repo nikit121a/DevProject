@@ -1,0 +1,13 @@
+Hi,
+I tried to hide the following menus:
+ e.Menu.RemoveMenuItem(RichEditCommandId.NewComment);
+ e.Menu.RemoveMenuItem(RichEditCommandId.NextComment);
+It didn't work, so I figure out that the ID's are not matching which are in the Menu list.
+ RichEditCommandId.NewComment value is 335
+ RichEditCommandId.NextComment value is 341
+But when I use these numbers than it works:
+e.Menu.RemoveMenuItem(new RichEditCommandId(359));
+e.Menu.RemoveMenuItem(new RichEditCommandId(360));
+Am I correct or do I something wrong?
+Tx,
+Sung 

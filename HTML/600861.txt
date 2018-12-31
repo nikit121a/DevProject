@@ -1,0 +1,4 @@
+Hi,
+This morning I updated to v17.2.5 and now I'm trying to insert a devexpress form, but the  "Add DevExpress Item" menu item is disabled.
+Thanks in advance,
+Alex 

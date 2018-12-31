@@ -1,0 +1,1 @@
+I made the combobox readonly. But after this, I am able to select the items in dropdown. I want to stop its selection. How is it possible? I dont want to use disabled properties.

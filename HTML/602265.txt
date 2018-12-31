@@ -1,0 +1,3 @@
+I have a a chart control bound to the selection of a pivot grid control. The pivot grid control can contain any number of data points. I am getting an out of memory exception on the chart control when i change the selection just a few times on the pivot grid control. My pivot grid control contains only 4 points in this instance. The delay in updating the chart control is set to 300 mili seconds and RefreshDataOnRepaint is set to false.
+How is there an out of memory exception on 4 data points on only a few clicks. 
+Please see a screen shot attached.

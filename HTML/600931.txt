@@ -1,0 +1,6 @@
+Step to reproduce :
+1- Have a tdxBarmanager, tdxBar with subitems and links to tdxbarbuttons
+2- Open tdxBarmanager with dbl Click
+3- Open (view itemlinks click) expressbars submenu editor
+4- Close tdxbarmanager (without closing submenu editor before) raise to AV in dxbar24.bpl
+Must close IDE

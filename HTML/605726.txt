@@ -1,0 +1,6 @@
+Hello,
+I want to switch enabling and disabling row editing. I've used the approach stated 
+.
+Now I want to enable row once again after Enter key press in 1st column of that row.
+How to achieve this? (I'm using cell editing mode.)
+Thanks in advance. 

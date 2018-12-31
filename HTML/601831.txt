@@ -1,0 +1,6 @@
+Hello!
+I have a splitter and a combobox with rather long items in it. 
+The popup list is being hidden by the splitter and one can't see the full items.
+How can I make the popup list appear over the splitter?
+What are the DevEx ComboBox settings to use to make sure that a long text value doesn't stretch the ComboBox outside of my Splitter area.
+Is there any other way to solve the problem?

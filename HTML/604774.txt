@@ -1,0 +1,15 @@
+Hi,
+I use tile controls contained into a Windows UI view managed by a DocumentManger   (DevExpress.XtraBars.Docking2010....). The same scenario of the  tiles demo you have provided in Tiles example  of Demo Center ( see the attached picture).
+I want to save the layout of tiles. I add to your solution this event (EndItemDragging) handler on tile container:
+private void StartGroup_EndItemDragging(object sender, TileItemDragEventArgs e)
+        {
+           this.BeginInvoke(new MethodInvoker(delegate {
+                this.windowsUIView.SaveLayoutToXml(Path.Combine(userSettingsPath, Path.GetFileName(String.Concat(LayoutFileName, "WindowsUI.xml"))));
+                this.tileContainer.SaveLayoutToXml(Path.Combine(userSettingsPath, Path.GetFileName(String.Concat(LayoutFileName, "Tile.xml"))));
+            }));
+        }
+ 
+It seems to work properly. Do I call the SaveLayoutToXml functions on the correct controls?
+I want to save also layout after element resize and all possible layout modifications of tiles. Please, could you show me which are the events to handle?
+Thanks,
+David 

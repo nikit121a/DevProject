@@ -1,0 +1,12 @@
+Hi,
+The systems are a bit more diverse than specified in selection, as we are having issues in development and live, and we tested on VS2015 and 2017
+Our product has 15.2 Winforms package installed. We recently upgrade from 15.1 to 15.2 (we are trying to avoid large updates to a stable product where necessary, hence we haven't moved to more recent versions, though 15.2.17 is a fairly recent release) .
+15.1 did not have this issue.
+When we open the Report Designer on our customer's installed application, our product crashes with the following stack trace.:
+When we try this in the IDE we get a freeze.
+I am aware of 
+  that I found referenced in other posts (such as 
+) but this is an old update now and refuses to install when I tried.
+If needs be I can update to 16.2 (our latest available version), though this will be a pain in the rear as we have 5-6 integrated projects over 3 build servers that will all need to be updated, so I would prefer to avoid that.
+I am also lobbying my boss to purchase a new licence ASAP to get newer versions if that is also a fix, though I can't see him being too impressed at being railroaded into that decision by a bug.
+Many thanks in advance. 

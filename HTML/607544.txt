@@ -1,0 +1,4 @@
+Hello,
+please see the attached project.
+I need to get the "DisplayText" value of a cell. If you click on the button you will get a showmessage of the value of the cell, but when you apply a filter on the column "COD" you get a wrong value. 
+I need  to obtain the exact value of a cell, even if a filter is applied.

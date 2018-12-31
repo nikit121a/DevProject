@@ -1,0 +1,21 @@
+I want to make some of my statuses look like:
+1. tentative
+ 2. working elsewhere
+I want to make some of my appointment type colors do similar striped look too.
+in VB.net and WPF 
+Here's what I have so far:
+        Public Shared AppointmentTypes() As String = {"Normal", "New Patient", "Report of Findings", "Walk-in", "New Condition"}
+        Public Shared AppointmentColorTypes() As Color = {
+            Color.FromRgb(51, 51, 51),
+            Color.FromRgb(68, 68, 68),
+            Color.FromRgb(185, 185, 185),
+            Color.FromRgb(89, 171, 255),
+            Color.FromRgb(213, 0, 50)}
+        Public Shared PaymentStates() As String = {"Pending", "Complete", "Cancelled", "Missed", "Rescheduled"}
+        Public Shared PaymentBrushStates() As Brush = {
+        New SolidColorBrush(Color.FromRgb(&HEC, &H70, &H63)),
+        New SolidColorBrush(Colors.White),
+        New SolidColorBrush(Colors.LightBlue),
+        New LinearGradientBrush(Colors.White, Colors.LightBlue, 45.0),
+         New LinearGradientBrush(Colors.Purple, Colors.White, 70.0)}
+ 

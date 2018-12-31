@@ -1,0 +1,20 @@
+Hi,
+We are suffering with devexpress control every time.  Custom control should make developer life easier but devexpress makes complex. If I want to validate some value for a textedit during lost focus then devexpress provides us multiple ways that confused us:
+1. LostFocus  event
+2. LostKeyboardFocus event
+3. LostMouseCapture event
+4. IsKeyboardFocusWithinChanged event
+ 1. LostFocus  event: when we use it, it fires when we click the red cross icon (default close button of a form) and do the validation which is not expected. As I want to close the form so I expect no validation will be executed.
+2. LostKeyboardFocus event: it fires 4/5 times. After searching this issue on devexpress support center, devexpress suggests us to use IsKeyboardFocusWithinChanged event as below
+private void txtSigCode_IsKeyboardFocusWithinChanged(object sender, DependencyPropertyChangedEventArgs e)
+{
+    if ((bool)e.NewValue == false)
+    {
+       // do the validation 
+    }
+}
+4. IsKeyboardFocusWithinChanged event: for this event, we are facing issue as well. I have used Ribbon control so when I got focus on textedit and then I try to open another form from Ribbon menu, it fires the validation as focus is lost. Also when I click default close button of a form then the validation is fired. As DependencyPropertyChangedEventArgs has only bool OldValue and bool NewValue, so I am unable to identify where is the next focus is. If I could identify then I could solve my issue. 
+So please provide me a good solution 
+Thanks
+Khabir
+ 

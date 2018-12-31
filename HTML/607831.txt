@@ -1,0 +1,1 @@
+Has this already been reported? I added a GridControl and click the Item Source Wizard. The wizard opens, but nothing happens. I can close Visual Studio, I can close any window NOT related to the Wizard. This is VERY frustrating

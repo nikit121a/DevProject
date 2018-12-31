@@ -1,0 +1,14 @@
+Been working with the camercontrol and have a working exe app. but now I am trying to create a dll but I am getting an error when trying to create the form with the cameracontrol on it.
+procedure GetPhoto(AFile : pAnsiChar); stdcall;
+var
+  _aFile  : string;
+begin
+  _aFile := String(AFile);
+  frmCamera := TfrmCamera.Create(nil);
+  frmCamera.camPicture.Active := True;
+  frmCamera.camPicture.Capture;
+  frmCamera.camPicture.CapturedBitmap.SaveToFile(_aFile);
+  FreeAndNil(frmCamera);
+end;
+when it runs the create line I get a MAV(memory access violation) error. 
+What am I missing in order to get cameracontrol to work in a dll. 

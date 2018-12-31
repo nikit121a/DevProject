@@ -1,0 +1,2 @@
+
+I have an application that is using the plugin cordova-sqlite-plugin. Unfortunately, this is a rather lighter weight version of SQL. The version of the plugin cordova-sqlite-storage referenced at the URL above fails to build an application template as Don mentions.

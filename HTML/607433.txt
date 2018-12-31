@@ -1,0 +1,6 @@
+Hi guys,
+I have applied bestfit to the async completion event so my Pivotgrid will autofit:
+I only really need this to happen on the top 20 fields  (my XAML has area set to all and visibile rows). When this runs it causes the async loading symbol to freeze and it takes quite a long time for something so simple.
+Is it possible to speed this up? And ensure the loading doesn't freeze?
+Many thanks,
+Joe 

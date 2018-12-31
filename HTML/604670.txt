@@ -1,0 +1,5 @@
+HI
+Is possible Bind large data in a gridview connected to a Sybase Database (ASA 11 or higher)? if yes using witch technology?
+Regards
+ale
+ 

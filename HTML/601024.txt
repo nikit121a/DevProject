@@ -1,0 +1,5 @@
+Hello
+    There is a gridview , click the icon , it will show the detail gridview.
+    Is posible show detail gridview whith double click event on client?
+    See the pic  
+Thanks 

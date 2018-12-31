@@ -1,0 +1,5 @@
+Hello Support,
+ Can I implement a master-detail grid with a localstore data source?
+I declare billingDB in index.js 
+billing.js
+How  to declare localstore for grid detail

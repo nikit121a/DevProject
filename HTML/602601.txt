@@ -1,0 +1,2 @@
+I have a requirement where the user want to do inline editing in the cells in the gridview but when when double clicking the row, the editform should open up so the user can continue editing the rest of the column values.
+Is this possible ?  I am able to do either inPlace or editform mode but could not find a way to do both in the same gridview.

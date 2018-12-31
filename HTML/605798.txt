@@ -1,0 +1,4 @@
+Hi,
+I would like to slowly collapse the TPanel placed to the left of the screen to the left, slowly to the right, but are there any suitable components?
+Also, if you investigate, TdxDockPanel seems to be the best component, but what package can I use?
+Thanks.   

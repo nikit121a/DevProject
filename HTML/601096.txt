@@ -1,0 +1,5 @@
+Hello,
+i've a question about the button edit. What do you think about a new kind of type help?
+I know i can achive that with the glyph. But it looks more nice if its a predefined button and i can use the kind better in code.
+best regards
+Andreas 

@@ -1,0 +1,2 @@
+I handle the customisecontextitem event and can see the contextitem in the event args but if i change anything like caption, visibility or any other property it doesnt seem do anything.
+I wish to make the context button hidden depending on the items state. 

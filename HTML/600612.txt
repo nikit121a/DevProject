@@ -1,0 +1,85 @@
+Default Size for Upload Control of A File is set to : 10 MB.
+At times able to upload file greater than 10 MB. 
+Able to upload more than 16 - 18 files which are all together 32 MB in size, but when trying to upload a 2/3 KB file I get the below error.
+ The server encountered an internal unspecified error that prevented it from fulfilling the request.
+Able to upload a file which is more than 10 MB, although the default size is set to 10MB, and when trying to upload another 2/3 KB file I get the below error.
+ The server encountered an internal unspecified error that prevented it from fulfilling the request.
+ <dx:ASPxUploadControl ID="FileUploadControl" runat="server" CssFilePath="~/App_Themes/DevEx/{0}/styles.css"
+                                CssPostfix="DevEx" Font-Names="Tahoma" Font-Size="9pt" Height="24px" SpriteCssFilePath="~/App_Themes/DevEx/{0}/sprite.css"
+                                Width="475px" ClientInstanceName="FileUploadControl"
+                                FileUploadMode="OnPageLoad" ToolTip="Select the file you wish to upload" OnFileUploadComplete="FileUploadControl_FileUploadComplete" ShowProgressPanel="True">
+                                <ValidationSettings MaxFileSize="10485760" MaxFileSizeErrorText="File must be less than 10MB">
+                                </ValidationSettings>
+                                <ClientSideEvents FileUploadComplete="function(s, e) {
+    AttachmentsGridView.PerformCallback(null);
+    ReturnToIncidentButton.SetEnabled(true);
+    CancelButton.SetEnabled(true);
+    UploadButton.SetEnabled(true);
+}" FileUploadStart="function(s, e) {
+    UploadButton.SetEnabled(false);
+    ReturnToIncidentButton.SetEnabled(false);
+    CancelButton.SetEnabled(false);
+}" />
+                            </dx:ASPxUploadControl>
+<system.web>
+<!-- HTTP RUNTIME -->
+    <httpRuntime requestValidationMode="2.0" maxRequestLength="10485760" executionTimeout="300" />
+    <!-- DEVX -->
+    <httpModules>
+      <add type="DevExpress.Web.ASPxClasses.ASPxHttpHandlerModule, DevExpress.Web.v12.2, Version=12.2.18.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" name="ASPxHttpHandlerModule" />
+    </httpModules>
+    <httpHandlers>
+      <add path="ASPxUploadProgressHandlerPage.ashx" verb="GET,POST" type="DevExpress.Web.ASPxUploadControl.ASPxUploadProgressHttpHandler, DevExpress.Web.v12.2, Version=12.2.18.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" validate="false" />
+      <add path="DX.ashx" verb="GET,POST" type="DevExpress.Web.ASPxClasses.ASPxHttpHandlerModule, DevExpress.Web.v12.2, Version=12.2.18.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" validate="false" />
+      <add path="Reserved.ReportViewerWebControl.axd" verb="*" type="Microsoft.Reporting.WebForms.HttpHandler, Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" validate="false" />
+      <add type="DevExpress.Web.ASPxClasses.ASPxHttpHandlerModule, DevExpress.Web.v12.2, Version=12.2.18.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" verb="GET,POST" path="DX.ashx" validate="false" />
+    </httpHandlers>
+  </system.web>
+<system.webServer>
+    <!-- IIS -->
+    <validation validateIntegratedModeConfiguration="false" />
+    <!-- DEVX -->
+    <modules>
+      <add type="DevExpress.Web.ASPxClasses.ASPxHttpHandlerModule, DevExpress.Web.v12.2, Version=12.2.18.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" name="ASPxHttpHandlerModule" />
+    </modules>
+    <handlers>
+      <add type="DevExpress.Web.ASPxUploadControl.ASPxUploadProgressHttpHandler, DevExpress.Web.v12.2, Version=12.2.18.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" verb="GET,POST" path="ASPxUploadProgressHandlerPage.ashx" name="ASPxUploadProgressHandler" preCondition="integratedMode" />
+      <add type="DevExpress.Web.ASPxClasses.ASPxHttpHandlerModule, DevExpress.Web.v12.2, Version=12.2.18.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" verb="GET,POST" path="DX.ashx" name="ASPxHttpHandlerModule" preCondition="integratedMode" />
+      <add name="ReportViewerWebControlHandler" preCondition="integratedMode" verb="*" path="Reserved.ReportViewerWebControl.axd" type="Microsoft.Reporting.WebForms.HttpHandler, Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    </handlers>
+    <httpProtocol>
+      <customHeaders>
+        <clear />
+        <add name="X-UA-Compatible" value="IE=8" />
+      </customHeaders>
+    </httpProtocol>
+  </system.webServer>
+  <!-- DEVX -->
+  <devExpress>
+    <settings rightToLeft="false" />
+    <compression enableHtmlCompression="false" enableCallbackCompression="true" enableResourceCompression="true" enableResourceMerging="true" />
+    <themes enableThemesAssembly="true" styleSheetTheme="" theme="" customThemeAssemblies="" />
+    <errors callbackErrorRedirectUrl="" />
+  </devExpress>
+Exception thrown: 'System.Web.HttpException' in System.Web.dll
+Additional information: Validation of viewstate MAC failed. If this application is hosted by a Web Farm or cluster, ensure that <machineKey> configuration specifies the same validationKey and validation algorithm. AutoGenerate cannot be used in a cluster.
+After I click ok and Continue, I still get the same error:
+ The server encountered an internal unspecified error that prevented it from fulfilling the request.
+     System.Web.dll!System.Web.UI.Page.ProcessRequest(bool includeStagesBeforeAsyncPoint, bool includeStagesAfterAsyncPoint)    Unknown
+     System.Web.dll!System.Web.UI.Page.ProcessRequest()    Unknown
+     System.Web.dll!System.Web.UI.Page.ProcessRequestWithNoAssert(System.Web.HttpContext context)    Unknown
+     System.Web.dll!System.Web.UI.Page.ProcessRequest(System.Web.HttpContext context)    Unknown
+     App_Web_n0hoiub4.dll!ASP.pages_incidents_addattachments_aspx.ProcessRequest(System.Web.HttpContext context)    C#
+     System.Web.dll!System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()    Unknown
+     System.Web.dll!System.Web.HttpApplication.ExecuteStepImpl(System.Web.HttpApplication.IExecutionStep step)    Unknown
+     System.Web.dll!System.Web.HttpApplication.ExecuteStep(System.Web.HttpApplication.IExecutionStep step, ref bool completedSynchronously)    Unknown
+     System.Web.dll!System.Web.HttpApplication.PipelineStepManager.ResumeSteps(System.Exception error)    Unknown
+     System.Web.dll!System.Web.HttpApplication.BeginProcessRequestNotification(System.Web.HttpContext context, System.AsyncCallback cb)    Unknown
+     System.Web.dll!System.Web.HttpRuntime.ProcessRequestNotificationPrivate(System.Web.Hosting.IIS7WorkerRequest wr, System.Web.HttpContext context)    Unknown
+     System.Web.dll!System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(System.IntPtr rootedObjectsPointer, System.IntPtr nativeRequestContext, System.IntPtr moduleData, int flags)    Unknown
+     System.Web.dll!System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(System.IntPtr rootedObjectsPointer, System.IntPtr nativeRequestContext, System.IntPtr moduleData, int flags)    Unknown
+     [Native to Managed Transition]    
+     [Managed to Native Transition]    
+     System.Web.dll!System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(System.IntPtr rootedObjectsPointer, System.IntPtr nativeRequestContext, System.IntPtr moduleData, int flags)    Unknown
+     System.Web.dll!System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(System.IntPtr rootedObjectsPointer, System.IntPtr nativeRequestContext, System.IntPtr moduleData, int flags)    Unknown
+     [AppDomain Transition]    

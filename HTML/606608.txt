@@ -1,0 +1,5 @@
+
+Turns out it was a mistake on my side. The form with the grid was not freed and got some windows message in the FinallizeUnits procedure that caused the access violation error. It is strange that this error did not occur before I updated from 15.1.4.
+I have found another minor issue though tracking this down.
+Please run the sample in attachment and move the scroll bar slowly. Notice the scroll thumb changes size.
+This only happens if some but not all groups are expanded.

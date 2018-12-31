@@ -1,0 +1,14 @@
+I am using the ColorObjectColorizer on a PointSeries2D.  The Color is in Column "RGB" of a DataTable, which has a binding to DataSource for the Series.
+It was working fine with Version 17.1.   I have the same Code but now with Version 17.2.4  it is no longer working. Please look to  the pictures in the attached pdf-Dokument.
+                                    <dxc:PointSeries2D  x:Name="series" DataSource="{Binding Path=EBits.ChartValuesTable, Mode=OneWay}" 
+                                        ArgumentDataMember="DaTi" ArgumentScaleType="DateTime"   ValueDataMember= "ValueE" 
+                                        ColorDataMember="RGB" MarkerSize="8"
+                                        ToolTipPointPattern="{}{A:hh:mm:ss}" 
+                                        dxc:XYDiagram2D.SeriesAxisY="{Binding ElementName=AxisYBits}"
+                                        dxc:XYDiagram2D.SeriesPane="{Binding ElementName=bitsPane}"         
+                                    >
+                                        <dxc:PointSeries2D.Colorizer>
+                                            <dxc:ColorObjectColorizer/>
+                                        </dxc:PointSeries2D.Colorizer>
+                                    </dxc:PointSeries2D>
+ 

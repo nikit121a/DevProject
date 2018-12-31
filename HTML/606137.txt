@@ -1,0 +1,4 @@
+Team,
+  I have a an html chart.  It has 'time' on the axis.  Currently the chart only shows a few points.  I want to show all of the labels for the time.  Please see attached image .  I would also like the labels to be vertical.  How can I do this?
+Sincerely
+Ravesh Pooran 

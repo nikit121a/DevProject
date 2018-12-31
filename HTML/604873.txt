@@ -1,0 +1,3 @@
+Hello,
+I want to build an AspxFormLayout  where I will set the functionality of the form at runtime. Specifically, based on the role that the user will have,  I want to retrieve the form settings from the database and setup my form on loading. When I say form settings what I mean is whether some items will be visible and whether some items will be required. I did manage to set visibility status but I m finding it really hard to setup the required property at runtime. Is there any chance you can create a sample project for me ? Thank you!
+Stella

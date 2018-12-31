@@ -1,0 +1,7 @@
+Hi,
+I am using a view to load the data into my gridview.  I am using On row updating to save my info into different tables.  I do not need to use the gridview UPDATE command but it is determined to use it.  
+I have added e.cancel to my on row updating function and it works perfectly when I run it through debug in visual studio.  When I publish my code to the website I receive this error.
+DXCallbackErrorMessage=Updating is not supported by data source SqlDataSource1 unless UpdateCommand is specified.
+How do I work around this error?
+Thank you!
+ 

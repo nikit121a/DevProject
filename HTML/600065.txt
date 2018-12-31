@@ -1,0 +1,6 @@
+Hi support team,
+when setting DevExpress.ExpressApp.Web.Editors.ASPx.ASPxGridListEditor.UseASPxGridViewDataSpecificColumns = false it seems that enum localization does not work correctly. In list view it works as expected, but as soon as you group by an enum column it doesn't work.
+Please let me know what is wrong here.
+I have attached a sample project where you can try to group by column "Priorit?t".
+Thanks and regards,
+Michael 

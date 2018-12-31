@@ -1,0 +1,3 @@
+Hi,
+I am having a Problem Using The ThemeManager Control that is under the DevExpress.Xtrabars Library. Could you show me a sample documentation on how i can implement the ThemeManager Correctly?
+Best Regards 

@@ -1,0 +1,1 @@
+Is there a way I can make it fix all the selected rows when I right-click and click pin to top or pin to bottom with multiselect enabled? If there was an OnDataRowFixed event maybe I could do it myself.

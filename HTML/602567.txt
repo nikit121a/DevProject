@@ -1,0 +1,5 @@
+Hi,
+When using  the ContextMenu MVC extension, we have added templates for upload controls and some buttons etc.
+Whenever anything is clicked, the ContextMenu is hidden. Is it possible to keep it show until we hide it programatically?
+Thanks
+ 

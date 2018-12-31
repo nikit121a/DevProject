@@ -1,0 +1,6 @@
+Hello,
+I came across to some strange behavior with the MVVM framework under specific circumstances that I can't really describe :-) 
+Please see attached sample and notice that the PropertyChangedEvent for the SelecedPerson property is fired twice and that  it's value does not correspond to selected person in the grid.
+If you remove either the trigger or the binding, it seems to work.
+Regards,
+Theodore 

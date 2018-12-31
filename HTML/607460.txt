@@ -1,0 +1,11 @@
+Hello,
+     While I'm waiting for my order to be processed, I am using a trial version to get familiar with the DevExtreme controls for .NET Core 2. The issue I'm having is related to MasterDetail configuration using a RemoteContoller. On the child grid, I am trying to pass the ID value to a webservice and everything would work if it wasn't for the extra stuff passed in the query string.
+For example:
+&_=1519004105944
+I don't like having to pass "id=" but that's workable for the most part. The ? character is what's causing me the issue with the grid saying it cannot find the remotecontroller. I would like to simple pass the GUID but I can't figure out how. Any idea's on how to fix this??
+Grid Code:
+
+
+
+
+-Jason Baker

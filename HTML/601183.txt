@@ -1,0 +1,4 @@
+
+Hi -
+The format button is missing when I select a text field.  However, if I select a numeric field the format button is available.  I've attached a screen shot.  How do I get the format button to appear when selecting a text field?
+I appreciate the help.

@@ -1,0 +1,2 @@
+Hello,
+attach the video. How I can activate this behavior out of the box in devexpress gridview. When I click in a cell with more content , that I can see everything contained in the cell.

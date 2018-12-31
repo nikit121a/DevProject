@@ -1,0 +1,12 @@
+Hi,
+I am facing the problem that images (configured as UpdateMode=KeepSize and Sizing=ZoomImage) printed inside Snaplist and using SnapImage are incorrectly exported to PDF when  the SnapList is locked.
+See attached project.
+Click ExportToPdf ribbon item to invoke export to pdf.
+There are two lines in the source code:
+            LockSnapListAndItsFields(snapControl1.Document, true, true);
+            //LockSnapListAndItsFields(snapControl1.Document, false, true);
+If the first line is uncommented and the second line is commented (i.e. snaplist is locked) then the PDF is exported incorrectly (see \resources\EXAMPLE_wrong.pdf - proportions are lost, images are stretched)
+If the second line is uncommented and the first line is commented (i.e. snaplist is unlocked) then the PDF is exported correctly (see \resources\EXAMPLE_correct.pdf  - exactly the sam as on snap report preview).
+Why does it work this way? It looks like a bug , because locking of snaplist does not affect snap report view but it affects PDF.
+How can we workaround this problem (fyi: we don't want to change the settings:  UpdateMode=KeepSize and Sizing=ZoomImage as they are crucial for our needs, if changing the setting is not the only possible option)?
+Thank you. 

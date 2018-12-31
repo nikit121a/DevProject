@@ -1,0 +1,1 @@
+I am using XtraGrid in WinForms application. When I right click on the Column Header a menu pops up. I want to hide/remove some of the options in the menu. See Attached Pic. I have crossed the options that I do not want to be available. Please point me the settings/properties in XtraGrid that will do it.

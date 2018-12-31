@@ -1,0 +1,3 @@
+When the ShowVerticalScrollBar property value is set to "true", an exception is thrown: The DXMainTable must contain row sections in the order header, body, and footer.
+The same problem occurs with the ShowHorizontalScrollBar property. 
+Using the new (non-obsolete) property in code-behind also  causes the same problem: Settings.VerticalScrollBarMode = ScrollBarMode.Visible;

@@ -1,0 +1,4 @@
+Hi,
+when I load a LayoutView for the first time all columns of the grid are displayed in the default layout although the visible Attribut of the column is set to false. Please can you tell me what property to set, to get an empty layout by default.
+kind regards
+Karl 

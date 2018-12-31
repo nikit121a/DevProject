@@ -1,0 +1,5 @@
+Hello,
+I have a pivot grid with column set to LookupComboBox to show the description value but filter for ID value. I have some questions:
+a) How can I apply the best fit for the columns to display all the title without .... (see the attached image). I want to visualize "Rimanenza iniz." not "Rimanen..."
+b) How can I display the value aligned to the right
+c) How can I exclude some columns (for example "Rimanenza", "Acquistato") to be selected? 

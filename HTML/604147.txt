@@ -1,0 +1,9 @@
+Hello,
+we want to create some form to simulate the Search form that is shown in Visual Studio 2017 when  we press Ctrl+T keys. Please find attached the image with that Form with the result we want to achieve.
+I saw a DevExpress sample similar to the goal in the follwing thread:
+I modified this project to use the Office 2016 Colorful skin and also to put the Ribbon RightToLeft property to Yes in order to put the buttons on the title bar at the top-right corner.
+The issues I want to fix in the modified project are:
+1.- I need to see the Title text left aligned, as the Ribbon->RibbonStyle OfficeUniversal paints it sometimes. But we cannot use the RibobnStyle OfficeUniversal because we want the configurable buttons on the right side and I could not see them with that style, and also the title text moved in some point to be centered.
+2.- I also realized at runtime, that when we resize the Form height to a lower height, the buttons on the right side of the title bar dissapear...If I increase the height, they appear again. It is weird.
+Please could you help me with this?
+Thanks in advance!!!

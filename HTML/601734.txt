@@ -1,0 +1,7 @@
+Hi,
+We got a hang in our Report Designer  when we are changing text alignment of a label ( or when changing the datamember of a detailed report band).
+I read about a similar issue reported (see the link below), and I think we have the same issue.
+There is a workaround suggested in that ticket, that I think does not work in our case for our report designer.
+Can you please let me know if there is any workaround for this issue in report designer without updating our devex to a given hotfix version?
+Thank you,
+T?nde Zsigmond

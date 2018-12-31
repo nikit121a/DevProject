@@ -1,0 +1,7 @@
+Hi Paul,
+Can u suggest some solution for below scenario:
+In Master details grid when i expand any row then details grid will populate.
+When i do export i need in first sheet all the master details grid data should render and in next sheet expanded details grid data should render. 
+Please let me know if you have any solution, Kindly share the code as well to implement the same.
+Thanks,
+Veera 

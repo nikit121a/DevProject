@@ -1,0 +1,4 @@
+I have a map control that the nav panel is always showing as nothing although the nav panel exists.
+I try the following but they of course fail.
+I then tried to create a new nav panel options object and set the properties but they also fail
+Any guidance would be appreciated

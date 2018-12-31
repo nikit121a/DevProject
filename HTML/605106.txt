@@ -1,0 +1,6 @@
+Hello,
+I have been learning the Dashboard components over the last few days.  Very nice!!
+When I am using a Dashboard Viewer component I have the ability to print preview and export to PDF, Image and Excel -- from the upper right hand corner of the dashboard viewer.   These print/export options bring up nice little export option screens (see attached images).  I wondering if it is possible for my program to call these options - instead of the standard ExporttoPDF, etc methods?  
+Your little option windows are very nice looking - and I would like to put the same feature set in my ribbon bar at the top of my form.  It would look from a user experience point of view to have your export features from the upper right hand corner and different screens from my ribbon bar at the top.  
+So - my question is "are these export options surfaced in methods I can call from the DashboardViewer component?"  If not - can they be in a future release?  
+Bradley  

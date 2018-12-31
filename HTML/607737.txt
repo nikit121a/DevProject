@@ -1,0 +1,5 @@
+Hi,
+We have a grid that  we are updating in realtime using SetCellValue. All cells including selected cells update fine except for the current selected cell.
+I attach a screenshot showing a test column that I added that just shows the DateTime Now ticks every second. As you can see the current selected cell does not update but all the rest do.
+Thanks
+ 

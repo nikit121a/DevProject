@@ -1,0 +1,2 @@
+Hi, I am able to play pivot raporda with spaces between row columns. I want to make the pivot width more narrow.
+How can I do this with pivot report.I'm making this report on the dashboard.

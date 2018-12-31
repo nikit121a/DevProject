@@ -1,0 +1,8 @@
+Dear supporters.
+I have declared domain component:
+
+
+
+This class is showed in menu but I need set security for this component .
+Thank you for your answer.
+Jiri Vesely

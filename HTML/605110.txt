@@ -1,0 +1,8 @@
+Hi there,
+I got a general question regarding functionality of xpServerCollectionSource, which is for example bound to a grid:
+Let's assume the following scenario:
+- after setting the filter criteria of my xpServerCollectionSource I loop through the results by doing the following:
+- let's assume that while I am looping through, the table in database is updated with records that would also suit to the set criteria of my xpServerCollectionSource
+So my question:
+What happens while we are looping? Are these new datasets in the database table also taken into account or is the IListServer storing the Oids of my original criteria result and by having the oids only those data sets are loaded while looping?
+Thanks in advance for your reply.

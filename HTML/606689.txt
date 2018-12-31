@@ -1,0 +1,17 @@
+Dear support.
+I want to allow my users to create their reports freely with every XP Object we have written.
+In order to do that I've added the XPCollection and the Session component to the ToolBox of the Report Designer.
+Most of the code comes from this KB entry 
+But I have some issues with this project.
+1. If I use the "New Report" button in order to create an empty report, add an XPCollection, choose an ObjectClassInfo and save the report, the XPCollection will not be serialized into the .repx file.
+If instead a new report is created in the Form1_Load() event and I do the same steps as above, the XPCollection will be serialized without a problem.
+Why is this happening?
+2. I must not change the session property of the XPCollection after it is added to the report. Though the property seems to be empty. If I change this property to (default) or session1, I'm unable to select an ObjectClassInfo anymore.
+Instead I get an error: System.NullReferenceException
+I want to avoid that the user gets confused here.
+Either it should work the way it does in VS. -> Add session, Add XPCollection, choose session that was created, choose ObjectClassInfo.
+Or this property should be disabled at all, so user can't mess with it.
+3. Is it possible to localize the properties of the XPCollection and the Session?
+I can't seem to find the properties in the Localization Service.
+Thanks in advance.
+Michel

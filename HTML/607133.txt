@@ -1,0 +1,3 @@
+Hello,
+if grid is grouped on one column it is then sorted  as well. This is clear and as 
+ says they are inseparable. My complaint is that option remove sorting should be removed in this case. It is confusing in this way where it also removes grouping on column.

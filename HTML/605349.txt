@@ -1,0 +1,7 @@
+Good morning.
+We are considering using Test Caf?.
+I see that the current DevExpress has not been update for a long time (although is the one linked on your site) because you have a new one: 
+Will the new one replace totally the existing one? Is the new one ready to use?
+In the new page it says it is free and open source. Will the full product will be free or there will be a free version and a paid version with additional features?
+Regards
+ 

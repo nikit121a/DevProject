@@ -1,0 +1,18 @@
+  
+  
+  In GridView No space should be at the end for the columns. If there are empty space after columns, the column should be auto adjusted, so I set ColumnAutoWidth as True on initiliaze.
+I have used the below code to get it called from the view Load and gridview ColumnPositionChanged event.
+    
+  
+  
+  In gridview Context Menu Best Fit(all columns)  is not working ,in the below scenario
+                   If the gridview with no scroll bar, added sufficient columns. Now by choosing Best Fit(all columns) not working. As the Horizontal                  scroll bar not enabling and columns not expanding.
+                       public override void BestFitColumns()
+        {
+            for (int i = 0; i < gridview1.VisibleColumns.Count - 1; i++)
+            {
+                gridview1.VisibleColumns[i].BestFit();
+            }
+          BestFit();
+        }
+  

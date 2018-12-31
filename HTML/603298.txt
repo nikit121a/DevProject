@@ -1,0 +1,63 @@
+Hello
+I have a lookupEdit like below
+Item source is - ObservableCollection<Person>
+EditValue =
+Can the lookup edit figure out what to display based on the valueMember.
+For  instance,, in this case,
+ValueMember= Id..
+LookupControl looks up in the item Source for Persons matching Id in the selectedPersons
+ <LookUpEdit:LookUpEdit Grid.Row="1"
+                                               Grid.Column="1"
+                                               Grid.ColumnSpan="6"
+                                               Margin="3"
+                                               ItemsSource="{Binding Persons}"
+                                               IsPopupAutoWidth="True"
+                                               AutoComplete="True"
+                                               EditValue="{Binding SelectedPersons, ValidatesOnDataErrors=True, ValidatesOnExceptions=True,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"                                                 IncrementalFiltering="True"
+                                               NullValueButtonPlacement="EditBox"   
+                           ValueMember="Id                                         
+                                               DisplayMember="Name"
+                                               AutoPopulateColumns="False"
+                                               PopupWidth="480">
+                            <dxg:LookUpEdit:LookUpEdit.PopupContentTemplate>
+                                <ControlTemplate>
+                                    <dxg:GridControl x:Name="PART_GridControl">
+                                        <dxg:GridControl.View>
+                                            <dxg:OneClickSelectionView ShowAutoFilterRow="True"
+                                                       AllowFilterEditor="True"
+                                                       AllowBestFit="True"
+                                                       AutoWidth="True"
+                                                       Style="{StaticResource LightweightTableViewStyle}"  />
+                                        </dxg:GridControl.View>
+                                        <dxg:GridControl.Columns>
+                                            <dxg:GridColumn FieldName="Selection"
+                                            Header=""
+                                            FixedWidth="True"
+                                            AllowMoving="False"
+                                            AllowResizing="False"
+                                            AllowBestFit="False"
+                                            Width="30">
+                                                <dxg:GridColumn.CellTemplate>
+                                                    <DataTemplate>
+                                                        <dxe:CheckEdit EditValue="{Binding RowData.IsSelected, Mode=OneWay}"
+                                                       EditMode="InplaceInactive" />
+                                                    </DataTemplate>
+                                                </dxg:GridColumn.CellTemplate>
+                                            </dxg:GridColumn>
+                                            <dxg:GridColumn FieldName="Name"
+                                            Width="190"
+                                            SortIndex="2"
+                                            SortOrder="Ascending" />
+                                            <dxg:GridColumn FieldName="Address"
+                                            Header="Coll Type"
+                                            Width="70"
+                                            SortIndex="0"
+                                            SortOrder="Ascending" />                                           
+                                        </dxg:GridControl.Columns>
+                                    </dxg:GridControl>
+                                </ControlTemplate>
+                            </dxg:LookUpEdit:LookUpEdit.PopupContentTemplate>
+                            <dxg:LookUpEdit:LookUpEdit.StyleSettings>
+                                <dxg:MultiSelectLookUpEditStyleSettings />
+                            </dxg:LookUpEdit:LookUpEdit.StyleSettings>
+                        </dxg:LookUpEdit:LookUpEdit> 

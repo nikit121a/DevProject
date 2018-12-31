@@ -1,0 +1,4 @@
+As I can optimize the data load in a gid view, the data load is 1000 records.
+Currently it dilates 20 seconds for every 53 records,
+16.7 minutes delays to load 1000 records.
+Can you help me please

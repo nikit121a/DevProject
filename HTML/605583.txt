@@ -1,0 +1,1 @@
+Since the new Build 17.2.5 InsertAction doesn't work anymore. RemoveAction works but I can't insert a new BarButtonItem.

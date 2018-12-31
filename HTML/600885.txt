@@ -1,0 +1,18 @@
+I am using 3 TokenEditControls on a form. Call them TokenEdit1, TokenEdit2, TokenEdit3, or simply #1, #2, #3..
+When I load the form, I set some properties for all three in the  Load event.
+Later, I load the desired information from a database query into the 3 controls to use as lists for selection of information. I load them all identically - the same information.
+I have discovered the following:
+1) if I  add the token list information to #1, then perform this: 
+          TokenEdit2.Properties.AddRange(TokenEdit1.Properties.Tokens)
+          TokenEdit3.Properties.AddRange(TokenEdit1.Properties.Tokens)
+    it basically "clones" the lists from #1 to #2 & #3.
+2) Alternately, if in the Load event, I first set the desired properties for TokenEdit1 then do this: 
+          Dim Obj as Object = TokenEdit1.Properties.Clone 
+          TokenEdit2.Properties.Assign(obj)
+          TokenEdit3.Properties.Assign(obj)
+     the #2 & #3 controls are assigned the token lists without having to perform the "AddRange" operations (in method 1). I have to only add the list to #1 and the others receive the same data.
+This leads me to the conclusion that 
+a) my method #1 will copy the tokens from one control to the others, but not necessarily copy the other desired properties, and 
+b) my method #2 essentially makes controls 2 & 3 clones of control #1. I could infer from this that any change I then made to any one of the controls would be reflected in all 3? Or is it just that changes to #1 (like additions or deletions from the list of tokens) will be  "copied" to the other two and any changes to either 2 or 3 will be copied only to itself and control #1?
+Finally, which method is the best approach: method 1 above, or method 2? Or does it depend on desired behavior?
+Thank you.

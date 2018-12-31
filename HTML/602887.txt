@@ -1,0 +1,1 @@
+I am trying to integrate Twilio functionality into a scheduling application build on xaf.  I would like to have a multiple selection on the list view that I can submit to a custom action to call the Twilio API.  How can the multiple selection and action be best implemented in XAF?  Thank you in advance.

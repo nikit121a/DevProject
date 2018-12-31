@@ -1,0 +1,9 @@
+Hello,
+I'm using your RatingEdit  to define an evaluation  on an item (from 1 to 5)
+By defaut, each item has its own value.
+I would like to set a specific color or geometry on the RatingItem  for this value.
+After looking in code-behind or in triggers, I don't find way a way to get a specific RatingItem to change that.
+Dependency property 'Value' should be applied only on first RatingItem and no property on RatingEdit to get items.
+Is it possible ? If yes, any suggestion ?
+Thanks in advance 
+Johan

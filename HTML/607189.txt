@@ -1,0 +1,5 @@
+Hi,
+I use WPF report designer with MVVM. For accessing report definitions I create class that is IReportStorage.
+ It is possible to I disable report wizard when user create new report?
+Regards,
+Kruno

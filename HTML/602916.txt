@@ -1,0 +1,3 @@
+I have a WinForms project that is using the DataGridView.
+Everything was working fine in Visual Studio 2015, but then when trying to compile on Visual Studio 2017, I'm getting this new error "lc.exe exited with code-1".  Can you help point me in the right direction to getting this problem solved?
+ 

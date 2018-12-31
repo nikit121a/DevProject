@@ -1,0 +1,7 @@
+Dear Devexpress,
+I get  exception from ArdornerUI component, when a Guide Element target is a BarButtonItem with BeginGroup = true property.
+The exception occurs when i set the ShowGuides property to True.
+Please start the program and click the Start Tutorial button.
+ 
+Please look at the problem.
+ 

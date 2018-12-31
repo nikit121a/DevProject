@@ -1,0 +1,6 @@
+Hello,
+I need to translate a lot of captions of my dashboard. I'm loading the dashbord from the XML-files. 
+I know that I can iterate through all the nodes and look for all the caption, i already did it, but I think, it will be a better way.
+I can see on the run time that the Dashboardtem contains the NamecCollection - and I found my captions and headers hier. 
+So how can I acces them?
+Thank you!

@@ -1,0 +1,5 @@
+Hi,
+Now the following is fixed,
+I've implemented the buttons in the dropDownAppointmentTemplate. I've noticed that if you call a dxPopup from a button within the template, the z-index seems to be incorrectly worked out meaning the template dropdown is always on top. I need the popup to be on top or as a work around, close for now.
+Please see the attached demo project of this behaviour. In the desktop project, click the scheduler "1 More " button in the month view to show the drop down template. Click the edit (pencil icon) button. See dxPopup is incorrectly shown behind. If you click a normal booking and use the edit button, the popup is correctly shown on top of the popover.
+Thanks 

@@ -1,0 +1,9 @@
+We are trying to export huge number records using gridExport.WriteXlsxToResponse. We are getting Memory out of exception.
+Could some one please help me here.
+We are using DevExpress 11.2 version
+=====
+private void ExportAsXLSX()
+  {
+       gridExport.ReportHeader = String.Join(Environment.NewLine, ResultsPresenter.GetTitleLines());
+       gridExport.WriteXlsxToResponse();
+   }

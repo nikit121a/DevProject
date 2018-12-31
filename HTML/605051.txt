@@ -1,0 +1,6 @@
+Hi,
+I am having hard time implementing cellstyle to gridControlBand gridColumn. I can apply cellstyle property to other gridColumns but not to the gridColumns which are under gridControlBand.
+My cellStyle looks something like this:  Style BasedOn={staticresource gridRowThemeKey ResourceKey=CellStyle, TargetType=CellContentPresenter>
+<Setter Property=Back..> ..
+This doesnt get applied to few gridColmns as I mentioned.
+Please help 

@@ -1,0 +1,9 @@
+Hello,
+We are encountering a mismatch behaviour in spreadsheet control.
+We have a read only table with a defined data range (like C10:D20). 
+Using right click on header row,
+If we try to insert row  at 15th row, we correctly have a warning.
+But if we delete the 15th row, the row is deleted without any protection!
+Is it an issue you have fixed in next version? 
+If not, what is the best way to not allow user to delete row containing read-only table data range?
+Thx in advance

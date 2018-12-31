@@ -1,0 +1,10 @@
+Hi!
+i want to scan QR code. i added some plugin like
+ <plugin name="cordova-plugin-camera" />
+  <plugin name="cordova-plugin-device" />
+  <plugin name="cordova-plugin-splashscreen" onload="true" />
+  <plugin name="cordova-plugin-whitelist" />
+  <plugin name="cordova-plugin-ios-longpress-fix" />
+  <plugin name="cordova-plugin-statusbar" onload="true" />
+How do i call in knockout?
+Thank 

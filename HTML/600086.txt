@@ -1,0 +1,4 @@
+Hello!
+I just check out the example:
+But i cant use that code. The total amount of pictures is to big. I need to load the pictures only when the CX grid column needs to be painted on the screen. Is there som way to accomplish this?
+Best Regards, P?r T?rnell

@@ -1,0 +1,15 @@
+It seems to be an inconsistency in RowObjectEventArgs  properties value when ADDING new row in XtraGrid.
+I first get a "InitNewRow" event, who have e.RowHandle value  -2147483647. In this event I can call GetRow(-2147483647) to obtain the row, cast it and set some initial values.
+But problem comes when I get the "RowUpdated" event when new row is completed (User change row for example). Inside the event, the e.RowHandle (and also gridViewLocations.FocusedRowHandle) have value  -2147483647. But when I call GetRow, I get a null...
+If later the user modify content of the row (who is no longer a "new row"), then I get "RowUpdated" with a valid RowHanfle, for exemple "4", then can get the Row.
+How can I get the new added row to do my works ?   I have to change some properties depending on the value of others.
+ 
+------------------------------------------
+        private void gridViewLocations_RowUpdated(object sender, DevExpress.XtraGrid.Views.Base.RowObjectEventArgs e)
+        {
+            var data = gridViewLocations.GetRow (e.RowHandle);     // always null on new row
+            if (data != null)
+                _DemandeControleur.Rep.RowUpdatedLocations(data);
+        }
+------------------------------------------
+ 

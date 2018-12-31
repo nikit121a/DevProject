@@ -1,0 +1,6 @@
+Hi,
+When deploying a project, I am receiving the following warning :
+C:\VSProjects\AuditApp\AuditApp\AuditApp\AuditApp.ascx.cs(69,17,69,26): warning CS0618: 'ASPxSchedulerPopupMenu.Id' is obsolete: 'Use the MenuId property instead.'
+C:\VSProjects\AuditApp\AuditApp\AuditApp\AuditApp.ascx.g.cs(2933,13,2933,31): warning CS0618: 'GridViewCommandColumn.ButtonType' is obsolete: 'Use the ButtonRenderMode property instead.'
+Do I have to do something ? How ? 
+Thank you  

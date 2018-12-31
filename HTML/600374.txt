@@ -1,0 +1,4 @@
+H?,
+How can i add new item to the dxTabPanel on button click with jquery.  there is an angular aproach example in the forums, but i can not convert to jquery 
+
+

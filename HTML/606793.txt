@@ -1,0 +1,2 @@
+Hello,
+Is it possible to always sort the pivotgrid by the same fields in the row area ? Please have a look at the attached printscreen. The grid should always be sorted on "Pers", "Ploeg" and "Van" ascending no matter where "van" is placed in the row area. 

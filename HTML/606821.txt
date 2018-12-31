@@ -1,0 +1,11 @@
+Hello,
+some months ago I sent the ticket 
+. I would like to discuss the problem anew. You recommended a workaround in T500313  to use an
+invisible "fake" data field to achieve what is needed. I followed that recommendation and it worked at a first glance. But in the meantime
+I had to implement quite a big bunch of workarounds to get rid of the negative side effects of that approach. 
+That's why I would like to ask you anew whether there woudn't be a more straightforward solution now available for that problem instead of using
+an invisible field. 
+The attachment describes the presentation problem I have maybe clearer then in my old ticket. I need to have the "data header" text of the
+pivot grid grand total column even if there is just one data area column. It contains important information for our users about the meaning of the content of that column. Actually that behaviour of the pivot grid should be considered as a bug which should be solved without workarounds from the outside.
+Best regards
+Matthias

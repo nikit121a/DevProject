@@ -1,0 +1,2 @@
+       if i set two object to selectedobjects, the collection editor is not working with it. it display a collection row, and i can open the collection editor, but the data is not changed.
+ 

@@ -1,0 +1,9 @@
+Hi,
+after converting my report to expression mode i have the following problem.
+the data source has the fields x, y, z
+i put the x in a label field
+x has the value "bla bla bla [y] bla bla [z] bla bla"
+when i print the report before converting, [y] and [z] will be replaced withe the right values.
+after converting in the printout i see the text from [x] and [y] and [z] will not be replaced with the right value
+Is there a solution?
+regards Oliver

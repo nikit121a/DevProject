@@ -1,0 +1,2 @@
+See screenshot. When I use the mobile app in a browser, the icons show fine. When I install using PhoneGap, the icons show as three periods.
+Using a GalaxyS8+ 

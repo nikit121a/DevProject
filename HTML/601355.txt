@@ -1,0 +1,5 @@
+I try to use Domain Component to store file attachments in my application.
+i? declare DC like below:
+w?hen I run app and try to add files I get error:
+w?hat do I wrong ?
+?

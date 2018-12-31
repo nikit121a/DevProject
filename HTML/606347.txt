@@ -1,0 +1,4 @@
+Hi,
+I am using a vertical grid to show a single record in BandView. I have added some categories and have placed these above the editors required. I know how to assign the fields to the category using the Layout Editor but when I do this a vertical bar appears to the left and indents the fields. Can this be hidden? Currently I have just placed the categories above and it looks fine but they are not grouped. 
+Thanks
+Kevin 

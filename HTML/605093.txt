@@ -1,0 +1,49 @@
+I need to kinds of objects for Scheduler which are 'Users' and 'Appointments'. I had been implemented like:
+@model SampleNamspace.Model.Sample_Data
+@(Html.DevExtreme().Scheduler()
+    .ID("scheduler")
+    .DataSource(
+)
+    ...
+    .Groups(new string[] { "EmployeeID" })
+    .Resources(res =>
+    {
+        res.Add()
+            .FieldExpr("EmployeeID")
+            .ColorExpr("Color")
+            .DisplayExpr("Text")
+            .ValueExpr("Id")
+            .AllowMultiple(false)
+            .Label("Employee")
+            .DataSource(
+);
+    })
+    ....
+)
+However, I need to use WebAPI to modify appoint for each user. How could I implement it? For instance, the Sample_Data already includes appointments and users data. Each model should be in right place into Scheduler. Let me know any advice for this.
+@(Html.DevExtreme().Scheduler()
+    .ID("scheduler")
+     .DataSource(d => d.WebApi()
+    .RouteName("SampleWeb")
+    .LoadAction("Get")
+    .InsertAction("Post")
+    .UpdateAction("Put")
+    .DeleteAction("Delete") //
+     )
+    ...
+    .Groups(new string[] { "EmployeeID" })
+    .Resources(res =>
+    {
+        res.Add()
+            .FieldExpr("EmployeeID")
+            .ColorExpr("Color")
+            .DisplayExpr("Text")
+            .ValueExpr("Id")
+            .AllowMultiple(false)
+            .Label("Employee")
+            .DataSource(
+);
+    })
+    ....
+)
+or Could I use both? model and Web API? because User will be fixed and only appointment will be changed.

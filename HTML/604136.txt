@@ -1,0 +1,1 @@
+When the Popup is updated, the form currently updates the Gridview.. Perfect!!! The issue that is occurring is that when i select the "Update" button, although it is updating my Gridview, I don't expect the Popup to close (or hide).  I expect the Gridview to update when the Popup form is closed. When I select "Update" I expect for the Popup form to remain.

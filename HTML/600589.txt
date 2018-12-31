@@ -1,0 +1,3 @@
+Is it possible to auto-select/highlight the focused row when the delete link is clicked?    As you can see from the attached image it's not obvious to the user as to what row was originally selected when the delete confirmation prompt is displayed.
+Cheers,
+Andrew 

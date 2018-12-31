@@ -1,0 +1,3 @@
+I have a ASP.Net DevExpress Gridview that displays data (number of columns 8) and except first column all other columns are ASPx button as link columns. All these 7 columns further open grid to display their respective data. Now, for each row, user needs to click 7 different columns to get all data and export into excel separately. So, do we have any features to export all these seven columns data into seven different excel sheet and inside a single excel file on single click (suppose on each row click).
+or do we have any control to export each data table of dataset in separate excel sheet inside a  single Excel file.
+Please suggest.

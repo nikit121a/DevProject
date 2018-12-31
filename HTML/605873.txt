@@ -1,0 +1,5 @@
+Hello,
+1. How can we remove horizontal line separator in dev extreme list box control.
+2. How can we show list data in more than one column.
+I am using dev extreme controls in angular 4. I have attached document to describe what i actually want to achieve from dx List Box control
+  

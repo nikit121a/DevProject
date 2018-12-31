@@ -1,0 +1,8 @@
+Hi Support team,
+I am a beginner and on my way going through the XAF tutorials.
+Now I want to change the given Base Class Library, like described here:
+But how to e.g. delete the MiddleName in Person.cs or the StateProvince in Address.cs? Of course I can edit the file Person.cs, but then I run into a problem where I cannot proceed. 
+Because I cannot change the corresponding class PersonImpl  and the interface IAddress. How to add fields to that classes and interfaces?
+How to deal with that restriction? Or should I better build all my domains from scratch instead of modifying yours?
+Btw. what is the reason to have this "shadow" class PersonImpl or AddressImpl?
+Thanks Florian 

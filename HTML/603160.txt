@@ -1,0 +1,4 @@
+
+A DomainComponent with a property of a type that is non-persistent class fails with an exception is that property is part used in a RuleCombinationOfPropertiesIsUnique when trying to save the DomainComponent.
+To reproduce: Open "Use Non Persistent" list view click "New", on the detail view look for the "Values" nested list, create a new "UseNewPersistent_SpecialValue" object, on the (yet another) detail view click "Save".
+Workaround: In my case I could use for the rule the hidden persistent property that is used to calculate the non-persistent one, but in that case I get the validation error popup, but not the validation indicator on the property.

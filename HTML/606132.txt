@@ -1,0 +1,5 @@
+Hi,
+I have assigned a RepositoryItemTokenEdit to a TileViewColumn.ColumnEdit . 
+However, it has absolutely no effect.
+Is it supported?
+Thanks, 

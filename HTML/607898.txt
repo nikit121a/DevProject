@@ -1,0 +1,7 @@
+We've got this code fragment that's compiling under D7, but under DX10.2.2 Tokyo, it's throwing an error saying RecordIndex is not decleared.
+Either it has been renamed or moved under another object. 
+Can you tell me how to fix this?
+  if AItem is TcxSchedulerReportEventCell then
+    AItem.Data := TcxSchedulerReportEventCellAccess(AItem).Event.RecordIndex
+  else
+    AItem.Data := -1;

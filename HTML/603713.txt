@@ -1,0 +1,34 @@
+Hi!
+How I can to create a custom item for export in aspxdashboardviewer?
+image attach..
+(and, how I create event to fired, in server mode..
+today, I use a "combobox" this way:
+<script type="text/javascript">
+    var dashboardGrids = {};
+    function PerformExport(s, e) {
+        // Define Dashboard Grid Item name to be exported...
+        var gridToExport = comboBox.GetValue();
+        //var hiddenMeasures = dashboardViewer['cp_' + gridToExport + '_HiddenMeasures'];
+        //var itemData = GetDashboardItemData(dashboardViewer, gridToExport, hiddenMeasures);
+        //if (!(typeof (dashboardGrids[gridToExport]) != 'undefined' && dashboardGrids[gridToExport] != null)) {
+        try {
+            ExportGrid(dashboardGrids[gridToExport], gridToExport);
+        }
+        catch(err) {
+        }            
+        //}
+    }
+    Protected Sub ASPxButton1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles combogrades.SelectedIndexChanged
+        Try
+            Dim columnSortOrders = gridColumnSorting.Value.Split(","c)
+            Dim result As Object = Json.Decode(Me.Request("__EVENTARGUMENT"))
+            'grava_log("Export_json= ", Trim(url_json), "")
+            Dim url_json As String = repc(Trim(read(mpath & "\modulos.ini", modulo & "_url_json")))
+            If Trim(url_json) <> "" Then
+                Dim serializer = New JavaScriptSerializer()
+                Dim Json = serializer.Serialize(result.D)
+                'JsonConvert.DeserializeObject<Dictionary<string, string>>
+                Dim data = Encoding.UTF8.GetBytes(Json)
+                Dim muri As Uri = New Uri(url_json)
+                Dim result_post = SendRequest(muri, data, "application/json", "POST")
+thanks!! 

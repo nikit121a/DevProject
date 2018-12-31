@@ -1,0 +1,11 @@
+Hi.
+I have several GV:s where I have  comboboxfields. The comboboxes are filled with items from a SQL-datasource.
+This works exellent.
+But now I have the same situation with one difference: The combobox items are filled from a SQL-datasource that is connected to another database than the datasource for the gridview.
+I also works but the value instead of the text is shown  in this field in grid collapsed mode and also in edit mode.
+The combobox shows the list of texts, selection is possible and the right value is stored.
+But it will always display the value and not the text.
+This only happens in this situation, with the items coming fron another database.
+I have checked and double checked the settings and they are similar to tha other cases when this works ok.
+Especially the VaueType is checked (both Value and Text are strings in this case)
+Is the different database the problem here? 

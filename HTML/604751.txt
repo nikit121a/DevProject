@@ -1,0 +1,6 @@
+Good morning, i am trying to make a report and print it or preview it from a form.. 
+in the report i have a sqlDataSource, a parameter and i have filter the datasource with parameter1(=[Parameters.applicant_id]) and i have manage the query where `column` = @Parameter1
+in the form i have write this:
+the problem is that when i run the form and call the report in a button_Click the app is too slow and i wait about 20 seconds. i wait about 6-8 seconds to load the please wait screen (the first image in the attachment) and (when i preview it) 10-12 seconds to load the screen before (the second image in the attachement). 
+If i make another query in a smaller datasource i wait only about 6-8 seconds about the wait screen..
+i want to know if i can do anything to improve this waiting time or if i have made something wrong.. 

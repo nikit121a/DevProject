@@ -1,0 +1,4 @@
+Hi,
+In my application I am using  RichEditControl to open and edit rtf files. I added BarManager. In that BarManager one of the Category is Home | Paragraphs. 
+The issue is when I save the file which has a bullet list, the first bullet symbol is bigger than others. These rtf files are used to create a reports. When I open this files in my application or with MS Word it is OK, but when I open them with WordPad the first bullet symbols is bigger. And of course in reports the first symbol is bigger as well.  
+For saving I am using RichEdit.SaveDocument(filename, TdxRichEditDocumentFormat.Rtf)  if it's new file, and RichEdit.SaveDocument if the file is loaded. 

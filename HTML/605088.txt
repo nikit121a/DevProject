@@ -1,0 +1,28 @@
+I have a DataField with an autocomplete editor using the following code:
+                        groupItems.AddSimple().DataField("Chapter")
+                          // .Template("<%= code %> | <%= name %>")
+                          .Editor(e => e
+                            .Autocomplete()
+                            .Name("ChapterCode")
+                            .ID("ChapterCode")
+                            .Placeholder("Name or Code...")
+                            .MinSearchLength(3)
+                            .DataSource(d => d.Mvc().Controller("Lookups").LoadAction("Chapters"))
+                            .ItemTemplate("<%= code %> | <%= name %>")
+                          );
+The autocomplete correctly populates the drop-down from the endpoint, but when a value is selected, the initial datafield reads [Object object]. The actual object there has two properties: 'name' and 'code.'
+If I uncomment the line that starts with .Template blows up the page with the following error:
+jquery.js:3855 Uncaught ReferenceError: code is not defined
+    at eval (eval at <anonymous> (dx.aspnet.mvc.js:63), <anonymous>:3:35)
+    at Object.render (dx.aspnet.mvc.js:83)
+    at t._renderCore (dx.all.js:15)
+    at t._renderCore (dx.all.js:10)
+    at t.render (dx.all.js:15)
+    at t._createEditor (dx.all.js:35)
+    at t._renderEditor (dx.all.js:35)
+    at t._renderFieldItem (dx.all.js:35)
+    at t.itemTemplate (dx.all.js:35)
+    at t.<anonymous> (dx.all.js:14)
+How do I code this widget so that it correctly applies the template when there is a value in the control, but uses the placeholder text initially?
+My team is using the ASP.net MVC controls for .NET Core 2.0 in an ASP.net Core web site.
+ 

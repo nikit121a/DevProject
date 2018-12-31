@@ -1,0 +1,4 @@
+Dear Support
+I am using Bezier Theme and want to adjust system wide GroupRowHeight for the XtraGrid Group Rows. It is taking too much space. Could you please assist on how can I achieve it?
+Thanks & Regards,
+Sachin Pise 

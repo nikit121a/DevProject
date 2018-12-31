@@ -1,0 +1,6 @@
+See attached example including 2 jpegs. 1 showing the open password error, the other showing the decryption error.
+I have an existing HTML "Test.html" located in the bin debug folder.
+I load it into the RichEditDocumentServer , set some defaults, convert it to PDF 1.7 via setting encryption, which requires me to set a permissions password. Well this password is sometimes randomly becoming the PDF open password.
+Also, randomly, I'll get an error upon opening the pdf that says " There was an error opening this document. Acrobat cannot decrypt this document."
+I've written a test program for you. It loops on read console if nothing is entered.  I have been able to duplicate both errors with this test program.
+Thanks! 

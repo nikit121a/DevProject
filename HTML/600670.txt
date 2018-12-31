@@ -1,0 +1,4 @@
+
+Hi,
+Sorry for the late response, may i know is it possible to customize the UI DockLayaoutManager's customization window? I wish to add button on it. If it's possible, can i have a sample of it?
+Thank You

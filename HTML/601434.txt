@@ -1,0 +1,7 @@
+Dear Dev Team,
+After upgraded from V 17.2.4 to V 17.2.5, then also I am getting the below known issue in web Dashboard.
+below mentioned ticket ID for that issue.
+ - Web Dashboard Viewer - The title is rendered incorrectly in certain cases
+Could you please guide me to resolve this issue?
+Regards
+Sunil 

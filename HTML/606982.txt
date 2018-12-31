@@ -1,0 +1,7 @@
+Hello,
+I'm trying  to create an app where the user can drag and drop nodes from an "account" treelist (to the left) to a "header" treelist ( to the right), and then back. The left account list is a one level list, and the right header list  is in four levels, where the accounts always should be placed below the least level, the fifth.
+The dragdrop action from left to right works, but all data is lost (or at least not visual).
+The dragdrop action from right (only fifth level) to left should make the node to be placed at root level in the left list.  The data should of cause follow.
+Hope you can understand what I mean/want?
+Best regards 
+/Magnus 

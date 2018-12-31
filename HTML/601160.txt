@@ -1,0 +1,4 @@
+Hello DevExpress Team,
+we need to load SvgImages from external referenced assemblies. Will you add such a feature in the future?
+Kind Regards
+Peter 

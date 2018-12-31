@@ -1,0 +1,22 @@
+
+Hi
+I am using a DXDialogWindow to show a Login Dialog at application startup.  Whist there are examples of this in the help files and support tickets I have need allow the login to allow some fixed values when the application is run first time and then later on refer to the application's backend database to verify a user's name and password.  So to that extent the login view needs to have a corresponding viewmodel that can take this scenario into account.  I have therefore opted to use the messenger service to communicate back to the mainViewModel that instantiated the Login Dialog when the login is closed.
+The problem I'm currently facing is one of layout.  Firstly I'm using the DataLayout control because I want to make use of its ability to show datavalidation symbols (that works).  I also want to be able to show a simple check or cross image to the side of the User Name and Password Datalayout items that will be shown (with the appropriate image) when the user name and password have been validated.  Only a valid combination will trigger the enablement of the login button.
+Before adding the image placeholders into the view the layout (thanks to the datalayout control) worked nicely.  Since adding them it doesn't (see the attached image)
+Lastly is it possible to use your SvgImageSource magic to place svg images into the plain image control (which I wish to do dynamically from the viewmodel depending on whether the Username and Password pass validation or fail, thus giving the end user a visual clue to correctness or otherwise).
+This is the current xaml I have for the view
+
+
+
+
+and for the sake of completeness this is the viewmodel as it stands 
+
+
+
+The Login dialog is called from the main viewmodel like so;
+
+
+
+
+Many thanks
+Dom

@@ -1,0 +1,3 @@
+Hi,
+I was wondering if it is possible to add an icon with text to it inside one cell in a dx grid column , and if so, how would someone implement it?
+Thank you 

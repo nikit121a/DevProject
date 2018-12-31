@@ -1,0 +1,12 @@
+Hi,
+I'm trying to fix a reported bug that has to do with the paste option from a context menu.  To duplicate, I created a simple test application.  This application uses a client dataset and creates 10 data rows in memory.  To duplicate the problem:
+- make sure you have some text in your clipboard
+- run the application
+- put focus in either the edit field or the memo.  Leave focus there.
+- right click from the field with focus and you'll see the standard context menu and the paste option will be enabled
+- click the navigator to go to the last record in the dataset.  
+- now when you right click on the field with focus, the paste option is disabled.  Scrolling through the dataset (via the navigator) doesn't fix it.
+If you change focus to another field, the paste option is available again.   It's also interesting to note, that even when the paste option is disabled, ctrl-V still works (proving there is still text in the clipboard).
+Can you help?  Seems trivial, but we have a customer who relies on this type of thing.
+Thanks,
+Dan 

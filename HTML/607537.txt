@@ -1,0 +1,3 @@
+Hello!
+After changing Win 7 Aero theme to  any Basic or Hight Contrast theme the TrackBarEdit control doesn't work until the application is restarted.
+ 

@@ -1,0 +1,3 @@
+Hello,
+I have a chart control with a line series 2D that is bound to a list of objects containing a double value property for the y-axis and a datetime  property for the x-axis. It is possible that this list contains two objects with the same datetime but a different value. I have to show both of these items in the chart but the chart control calculates the average of those items and displays the resulting value.
+How can I get the diagram to show all of the values? 

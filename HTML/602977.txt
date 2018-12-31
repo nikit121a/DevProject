@@ -1,0 +1,6 @@
+Ok, I see the treeview and menuoptions now.
+Now, the question is I am rendering this on a desktop in Chrome browser. And I believe swipe is a mobile action. 
+How can I achieve this -
+1. Show treeview by default on the left side.
+2. Show a switch button to go back and forth 
+I thought these are set by default. If not, how can I set it.  

@@ -1,0 +1,3 @@
+In my application right now, I have controls which validates on Enter, but the cursor remains in the field.
+When you hit the tab key, the control is also validated, and the cursor leaves the control focus when validation is ok.
+Users of the application would like the ENTER and TAB keys to have the same behaviour however; how can I map the ENTER key behaviour to that of the TAB key.

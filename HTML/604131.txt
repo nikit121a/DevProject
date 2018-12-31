@@ -1,0 +1,3 @@
+Hi, 
+     When I change a page in my pagination AspxGrid I get this error : TypeConverter cannot convert from System.String. A GridViewDataColumn with a DataTemplate and with link inside is causing the problem  see the code:
+ If I comment the column with the Caption "Offer" the pagination works but I need show the link. The field WebOfferLinV2.WebOfferV2Id is of 

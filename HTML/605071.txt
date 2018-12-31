@@ -1,0 +1,2 @@
+I am using the following code to override a grid control's header background color
+This works fine when adding the above to the Window.Resources or UserControl.Resources, but fails when adding it to App.Resources (in a ResourceDirectory). Is there a way to apply this at the app level vs at each Window/UserControl? I realize I can create/edit my own custom Theme, but would prefer not too.

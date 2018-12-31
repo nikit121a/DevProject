@@ -1,0 +1,7 @@
+Hello,
+we uploaded new ios release into apple store but after  we install it we found the icon is not coming into IPAD Pro device so we tried to generate new release using phonegap build and then we upload it to apple store but we got the below error :
+missing app store icon.ios apps must include a 1024x1024 app store icon in png format.without providing the icon in the asset catalog or via itunes connect app can not be submit.
+Error attached .
+please help on this i have client want urgent release .
+regards,
+Nedal  

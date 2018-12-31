@@ -1,0 +1,5 @@
+Hi,
+i've a problem. 
+ I am trying to do custom column naming for the DataGrid according to the above sentence, but I have failed. My codes are as follows.
+Can you help me ?
+Best regards. 

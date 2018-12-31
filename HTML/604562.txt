@@ -1,0 +1,4 @@
+Hi Team,
+I want to implement Copy-Paste functionality in PivotGridControl in DevExpress.Xpf namespace.
+So that I can paste single/multiple cell(s) value(s) within grid and to excel as well.
+Thanks in Advance

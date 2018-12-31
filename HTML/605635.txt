@@ -1,0 +1,5 @@
+Hello,
+I've recorded a video which shows that the Devex demo report cannot be printed on FireFox. It works on Chrom and Opera browsers.
+On FireFox when I click a print icon the new paqe is opened and the URL is "about:blank".
+Thanks,
+Marek

@@ -1,0 +1,3 @@
+We are using the WebDocumentViewer to display reports using XtraReports in MVC.
+Some clients get a blank screen with a broken page icon, Other clients are fine. Please see the file attached.
+EDIT: Please note that this behaviour was reported randomly occuring since yesterday while no code was deployed that could change the application.  It would be helpful if you could point me to the areas i should be looking at to diagnose the issue.

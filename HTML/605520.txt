@@ -1,0 +1,9 @@
+When columnHidingEnabled option is enabled, application performance is slow.
+Please check be low example columnHidingEnabled is 
+(scroll performance is fast).
+    
+ 
+Please check be low example columnHidingEnabled is 
+(scroll performance is slow and unusable).
+   
+ 

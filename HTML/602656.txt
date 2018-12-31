@@ -1,0 +1,5 @@
+Upgrading from DevExpress VCL 12.1.6 to 17.2.4 the file size of my executable increased from 24 MB to 38 MB (Delphi XE).
+Maybe normal (because there are 5 years between these releases) but inspecting the generated DCU files I found out that with 17.2.4 there are many new files. Most of them (97!!!) are DCUs of dxSpreadSheet with a total amount of 15MB.
+I don't use the SpreadSheet component and I can't find any uses for dxSpreadSheet in my source files. Also I haven't added any DevExpress file to the uses sections when upgrading.
+I use GridControl, Bars, LookAndFeel-Controller, ExpressPrinting, VerticalGrid and Express Editors.
+My question: Is it normal that dxSpreadSheet DCUs are necessary for the components I use? If not, how can I find out why dxSpreadSheet DCUs will be compiled for my project?

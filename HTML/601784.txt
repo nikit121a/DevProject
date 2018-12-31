@@ -1,0 +1,6 @@
+Hello support,
+my scenario is that i need to know if inside an IFrame in a DetailView there are any modifications, and if yes,on changing view, I would like to show the message like the one of the WebConfirmUnsavedChangesDetailViewController to notice the user that he has some unsaved changes. 
+I already have a javascript functions that returns if the IFrame has modifications or not, and it would be useful to extend the WebConfirmUnsavedChangesDetailViewController to check both my javascript function and the controller's check. Is there a way to acomplish this task?
+ 
+Thank you,
+Giuseppe

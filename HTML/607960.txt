@@ -1,0 +1,7 @@
+Hello,
+I have the following scenario: 
+I'm using a Grid Control, that displays properties of a model. The Grid Control contains a Cell Template for one of the Grid Columns, where I'm using a Data Template to  add more UI Controls in that Column( Image + Text Edit Controls). When I'm in EditFormShowing Mode, I would like to disable the ability to write to the TextEdit control of that GridColumn. In order to do that I've added a IsReadOnly boolean to the model, binded that to the TextEdit IsReadOnly property and then I've captured the event "EditFormShowing" of the TableView, and tried to set the IsReadOnly property to true for the current Selection, but this does not have any effect, only after I click the update button of the Edit Form ...when obviously it's to late.
+How should I fix this ? I wany my custom cell template to be readonly when the EditForm is active, just how it is working for the other columns, where I didnt make any custom UI displaying.
+I have attached the working project with the problem that I've described here.
+Best Regards,
+Olteanu Radu  

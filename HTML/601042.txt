@@ -1,0 +1,8 @@
+Hi,
+I'm looking for an exa mple.
+I've got several locations (latitude an longitude).
+I'd like to execute query:
+Show all locations within a distance of 10 km of given location.
+Kind regards,
+Paul
+ 

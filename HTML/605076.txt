@@ -1,0 +1,78 @@
+I am trying to dynamically create child nodes under child nodes as needed based on data returned from a database.  I looked at the How To: Create Nodes in Unbound Mode in Code, but the sample does not go beyond the first child node.  This is what I have:
+             dtMasterBDetail1.Columns.Add("OriginalRollID", GetType(String))
+        dtMasterBDetail1.Columns.Add("ParentRollID", GetType(String))
+        dtMasterBDetail1.Columns.Add("Length", GetType(String))
+        dtMasterBDetail1.Rows.Add("F1 NYCJMWS A", "GMC5 NYCJEVQ A", "3150")
+        dtMasterBDetail2.Columns.Add("OriginalRollID", GetType(String))
+        dtMasterBDetail2.Columns.Add("ParentRollID", GetType(String))
+        dtMasterBDetail2.Columns.Add("Length", GetType(String))
+        dtMasterBDetail2.Rows.Add("GMC5 NYCJEVQ A", "D3 NXSIHVT A", 11715)
+        dtMasterBDetail3.Columns.Add("OriginalRollID", GetType(String))
+        dtMasterBDetail3.Columns.Add("ParentRollID", GetType(String))
+        dtMasterBDetail3.Columns.Add("Length", GetType(String))
+        dtMasterBDetail3.Rows.Add("D3 NXSIHVT A", "C11 NXRJJKZ A", 11819)
+        dtMasterBDetail4.Columns.Add("OriginalRollID", GetType(String))
+        dtMasterBDetail4.Columns.Add("ParentRollID", GetType(String))
+        dtMasterBDetail4.Columns.Add("Length", GetType(String))
+        dtMasterBDetail4.Rows.Add("C11 NXRJJKZ A", "RS01 NXHISUI A", 4858)
+        dtMasterBDetail4.Rows.Add("C11 NXRJJKZ A", "R288563", 12036)
+        dtMasterBDetail4.Rows.Add("C11 NXRJJKZ A", "RS01 NWYTBCH A", 7178)
+        dtMasterBDetail5.Columns.Add("OriginalRollID", GetType(String))
+        dtMasterBDetail5.Columns.Add("ParentRollID", GetType(String))
+        dtMasterBDetail5.Columns.Add("Length", GetType(String))
+        dtMasterBDetail5.Rows.Add("RS01 NXHISUI A", "COAT NXAMUBD A", 24134)
+        dtMasterBDetail6.Columns.Add("OriginalRollID", GetType(String))
+        dtMasterBDetail6.Columns.Add("ParentRollID", GetType(String))
+        dtMasterBDetail6.Columns.Add("Length", GetType(String))
+        dtMasterBDetail6.Rows.Add("COAT NXAMUBD A", "20862308", 40345)
+        dtMasterBDetail6.Rows.Add("COAT NXAMUBD A", "7000941705", 49496)
+        dtMasterBDetail6.Rows.Add("COAT NXAMUBD A", "7000940340", 141)
+        dtMasterBDetail6.Rows.Add("COAT NXAMUBD A", "20862306", 9292)
+        dtMasterBDetail7.Columns.Add("OriginalRollID", GetType(String))
+        dtMasterBDetail7.Columns.Add("ParentRollID", GetType(String))
+        dtMasterBDetail7.Columns.Add("Length", GetType(String))
+        dtMasterBDetail7.Rows.Add("RS01 NWYTBCH A", "COAT NWUQEFG A", 30455)
+        dtMasterBDetail8.Columns.Add("OriginalRollID", GetType(String))
+        dtMasterBDetail8.Columns.Add("ParentRollID", GetType(String))
+        dtMasterBDetail8.Columns.Add("Length", GetType(String))
+        dtMasterBDetail8.Rows.Add("COAT NWUQEFG A", "20849456", 46081)
+        dtMasterBDetail8.Rows.Add("COAT NWUQEFG A", "7000936895", 49713)
+        dtMasterBDetail8.Rows.Add("COAT NWUQEFG A", "7000936885", 129)
+        dtMasterBDetail8.Rows.Add("COAT NWUQEFG A", "20849548", 3761)
+        Dim ds As New DataSet
+        ds.Tables.Add(dtMasterBDetail1)
+        ds.Tables.Add(dtMasterBDetail2)
+        ds.Tables.Add(dtMasterBDetail3)
+        ds.Tables.Add(dtMasterBDetail4)
+        ds.Tables.Add(dtMasterBDetail5)
+        ds.Tables.Add(dtMasterBDetail6)
+        ds.Tables.Add(dtMasterBDetail7)
+        ds.Tables.Add(dtMasterBDetail8)                                                     
+        Dim ParentNode As TreeListNode = nothing
+        Dim rootnode As TreeListNode = nothing
+        TreeList1.BeginUpdate
+        Dim col1 As TreeListColumn = TreeList1.Columns.Add()
+        col1.Caption = "OriginalRollID"
+        col1.VisibleIndex = -1
+        Dim col2 As TreeListColumn = TreeList1.Columns.Add()
+        col2.Caption = "ParentRollID"
+        col2.VisibleIndex = 0
+        Dim col3 As TreeListColumn = TreeList1.Columns.Add()
+        col3.Caption = "Length"
+        col3.VisibleIndex = 1
+        TreeList1.EndUpdate()
+        
+        TreeList1.BeginUnboundLoad()
+        For x As Integer = 0 To ds.Tables.Count - 1
+            For i As Integer = 0 To ds.Tables(x).Rows.Count -1
+                If x = 0 then
+                    rootnode = treelist1.AppendNode(ds.Tables(x).Rows(i),ParentNode)                      
+                Else    
+                    TreeList1.AppendNode(ds.Tables(x).Rows(i),rootnode)
+                End if
+            Next
+        Next
+        TreeList1.EndUnboundLoad()
+ 
+But, of course, that just puts all of the subsequent data under the first rootnode.  I would need to create a rootnode1, rootnode2, etc for however many tables there are in the dataset and the rows would append to the current node.  So,in the ELSE I'd like to be able to add the next node under the previous child node.  I though maybe there was a Nodes(0).Add that I could do, but not in this case.  Is this something I am able to do somehow?
+Thank you. 

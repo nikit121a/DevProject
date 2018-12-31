@@ -1,0 +1,14 @@
+Hi,
+I have a requirement to show tooltip on GridColumn as one property of GridControls Itemsource. I am doing it as below:-
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+Hello,
+I have some combo boxes nested in user controls which are dynamically added withing an ASPxGridView EditTemplate.  I am trying to find a way to fire the server-side " ASPxComboBox1_Validation" code without setting the "Autopostback" for the control (as that causes everything to be auto-generated again.)
+I have set the cbx as follows:
+Is there a way to force the server-side validation from the client-side?
+Thank you!
+Jay
+ 

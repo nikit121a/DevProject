@@ -1,0 +1,9 @@
+Hello,
+We've been trying to select a row in a gridView through client side events, which seems to be working fine, unless the the row resides on a different page. We want the grid to navigate to the page that holds the selected row.
+We're currently calling the 
+' method  
+We've ran into this problem before when we wanted'' to select (and navigate to) a new record that was added . And we've managed to fix this in a server side event by calling '
+', but there does not seem to be a method like that on clientside.
+Is there any way to navigate to a page that holds a certain key value on client-side ?
+Or a server-side event  that triggers on selection changed?
+Or do we have to iterate through every possible page and check whether the key value exists on said page? 

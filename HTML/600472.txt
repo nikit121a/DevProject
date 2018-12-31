@@ -1,0 +1,31 @@
+Hi,
+We have created a custom dashboard (web) item to show Gantt Chart. It has two date field that user is able to bind. I would like the Group Interval to be set as "Date-hour-minutes-second" as default. This is the code we have written for the binding field:
+bindings: [{
+        propertyName: 'StartDates',
+        dataItemType: 'Dimension',
+        array: false,
+        enableColoring: false,
+        displayName: 'DashboardWebCustomItemStringId.StartDates',
+        emptyPlaceholder: 'DashboardWebCustomItemStringId.SetDateValue',
+        selectedPlaceholder: 'DashboardWebCustomItemStringId.ConfigureValue'
+    }, {
+        propertyName: 'EndDates',
+        dataItemType: 'Dimension',
+        array: false,
+        enableColoring: false,
+        displayName: 'DashboardWebCustomItemStringId.EndDates',
+        emptyPlaceholder: 'DashboardWebCustomItemStringId.SetDateValue',
+        selectedPlaceholder: 'DashboardWebCustomItemStringId.ConfigureValue'
+    }, {
+        propertyName: 'Arguments',
+        dataItemType: 'Dimension',
+        array: true,
+        enableInteractivity: true,
+        enableColoring: true,
+        displayName: 'DashboardWebCustomItemStringId.Arguments',
+        emptyPlaceholder: 'DashboardWebCustomItemStringId.SetArgument',
+        selectedPlaceholder: 'DashboardWebCustomItemStringId.ConfigureArgument'
+    }]
+Thanks.
+Regards,
+Nav 

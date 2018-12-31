@@ -1,0 +1,1 @@
+The documentation says AutoSize is a property of columns in the Grid Control. But I can't find it anywhere in the wizard or "designer". Where is it, and how do I assign it to a particular column?

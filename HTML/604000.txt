@@ -1,0 +1,7 @@
+Hello,
+I am using MVC grid view and one colum shows a progress bar. 
+However, in some rows I dont have a value to be displayed in such progress bar, but I have a null value instead.
+Is it possible to not display anything in such cases?
+Thank you
+Regards
+Jos?

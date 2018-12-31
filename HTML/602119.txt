@@ -1,0 +1,19 @@
+Hello,
+I am using 
+as a navigation bar and 
+as the bar's items. 
+On the item's 
+event I define the item's ContentControl:
+I noticed that 
+adding a 
+ to ContentControl the 
+ Font property is changed.
+The 
+has the same Font 
+ had 
+ it has been added to ContentControl.
+See the attachments for further details.
+Could you please explain why this is happening? Should I add 
+differently to 
+? Is 
+the wrong event to add controls to the item?

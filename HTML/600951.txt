@@ -1,0 +1,5 @@
+Dear Dev Express Team,
+ I added multiple Object Data source but while creating new dashboard, it was taking only one data source, How can we add more than one data source in single dashboard, how can i make any one data-source selectable option in web application, 
+Just i attached project  which i got sample from example code in devexpress, I tried to do it, but I couldn't achieve it.
+Could you please give some example ?.
+Thank you 

@@ -1,0 +1,4 @@
+Hey:
+I own one current ASP.Net license.  I authorized my associate Wayne Fair to use it and I got a trial subscription which has just expired.  Wayne no longer needs my license.  So I removed him as a licensed User.  Your site says I don't need to register myself as a new user because I am the Owner.  However, I am still getti ng the "EXPIRED" dialog when I try to start a page with VS17. What do I do to take over the rightful use of my one Asp.Net license and have my web app under development compile and run properly??
+Thanks!
+ 

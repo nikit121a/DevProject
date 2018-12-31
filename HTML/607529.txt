@@ -1,0 +1,2 @@
+I have looked at article T502110  to find a way to expand all detail rows fully when a form is opened.  The form has a master with 2 levels of detail.  The first level expands, but the 2nd does not.  Even expanding manually takes a lot of resizing.
+Please look at my attachment.  The first screen shot is how the form presently opens using the example cited.  The second screen shot is how I want the form to open (ie,  expand all the detail rows to show all the child rows in each detail row.)   Note:  the grid control is docked in a split container which is docked in the form.

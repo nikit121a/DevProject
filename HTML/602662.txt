@@ -1,0 +1,22 @@
+Hello!
+I have the following scenario. I display a TreeList with several nodes in it.
+Initially the first node in the TreeList is selected and focused. I then have the functionality in my software to jump to a certain node within the tree list which means setting sole selection and focus on that node. I do that by. 
+//code
+Selection.Clear();
+FocusedNode = nodeToSelect;
+nodeToSelect.Selected = true;
+//end code
+After this every thing looks fine. But when I now try to additionally select the node below the one I jumped to with "Shift + Key Down" then actually the nodes from the TopNode all the way down to the current node are selected. If I by mouse select a different node than the topnode and then to a jump to and then a shift arrow then the range between the jumped to node and the node selected by click are selected. Does this have something to do with this code I found in the TreeListHandler
+if(Data.SelectionAnchor == null)
+                            Data.SelectionAnchor = Data.SelectionOldCell != null ? Data.SelectionAnchor = Data.SelectionOldCell : new TreeListCell(TreeList.FocusedNode, TreeList.FocusedColumn);
+                        SelectAnchorRange(new TreeListCell(node, TreeList.FocusedColumn), Data.SelectionAnchor);
+This lead me to try out to modify my jump to code and just execute it twice:
+//code
+Selection.Clear();
+FocusedNode = nodeToSelect;
+nodeToSelect.Selected = true;
+Selection.Clear();
+FocusedNode = nodeToSelect;
+nodeToSelect.Selected = true;
+//end code
+When I do this everything works as I want it to.

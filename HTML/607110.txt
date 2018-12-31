@@ -1,0 +1,3 @@
+Hi
+I have a search lookup edit control with an extra button added, which is use to link to another form . The problem is the button is disabled when the control is read-only, I have to enable editing on the control for it to work, actually I want the exact reverse functionality
+ 

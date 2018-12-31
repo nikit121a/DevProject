@@ -1,0 +1,9 @@
+Hi, According to the following code, about the property 
+: 
+
+
+
+The image is rescaled to have a certain size, but making sometimes it ugly ...
+==> Ho do I have the caption image kept at the original image size (so no rescale done on it)?
+Thx
+G

@@ -1,0 +1,4 @@
+Hello support, I have an action that uses Frame.SetView to set the last visited listview as current view, I've attached a small sample project with it. I'd like it to check for modification before changing, so that the user can save without losing anything.
+How should i do that?
+Thanks
+Giuseppe 

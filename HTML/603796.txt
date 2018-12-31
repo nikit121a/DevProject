@@ -1,0 +1,9 @@
+Hi,
+We are looking for a way for dxPivotGrid to scroll horizontally (when needed) instead of increasing the size of its parent container  in our Angular project. We've tried the following:
+- adding overflow: auto to the parent container
+ - solution detailed in 
+- different settings for scrolling.useNative
+Instead of adding a horizontal scroll bar to the pivot grid, we get a horizontal scroll bar on the browser window in our application. Is there a workaround to this?
+Thanks
+Mark
+ 

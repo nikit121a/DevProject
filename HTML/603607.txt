@@ -1,0 +1,1 @@
+Is it intentional that when loading a CSV from file that if there are coulmns with no data e.g. ,,, that the columns.count includes them but the column is not assigned?

@@ -1,0 +1,1 @@
+I am using Winform "DevExpress.XtraGrid.GridControl" and binding a DataTable to it. I am not manually creating columns to bind, so using the default behavior. The Grid display the data in editable format. I want to present a Read Only or View only display. How can I do this? Its 

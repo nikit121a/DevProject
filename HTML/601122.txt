@@ -1,0 +1,7 @@
+Hi there,
+I have chart to display data in line chart.
+I am using vertical strip  to show some gap in data.
+I would also like to display annotation  where strip start to display.
+Unfortunately ,annotation shows outside the line.
+Please refer attached screenshot with sample example.
+ 

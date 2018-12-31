@@ -1,0 +1,12 @@
+I have a DxDataGrid. The row editor is launched with a popup (I have checked with a form and I have the same problem).
+ One of the field to edit is of type  string and I want to use a TextArea field type to input the text.
+The text is a short description that may contain line returns (pressing enter).
+But when I press enter, the text area editor does not append a new line character, it tries to validate the entire form.
+The official demo of the textarea editor works well and accepts return chars.
+What  am I doing wrong ?
+The datafield name I'm talking about is "activite" 
+Below is the html code of the component.
+There is no js error in the console.
+Thank you
+  <dx-data-grid #siteGrid id="siteGrid" [dataSource]="siteDataSource" keyExpr="id">
+ 

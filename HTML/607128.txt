@@ -1,0 +1,28 @@
+Good day,
+I have added an "add" icon to the column in the Datagrid on onCellPrepared
+(see code below).
+Now I want to change the color of the icon acordingly some setting.
+i.e. icon green for adding or red for removing the data.
+How can I accomplish this task for colloring the icon?
+Please advice.
+var dataGridZR = $("#ZRDienstcodes").dxDataGrid({
+    dataSource: {store: storeZRDC},
+   paging: {pageSize: 5},
+    loadPanel: {enabled: false},
+    editing: {
+         mode: "cell",
+         allowUpdating: true
+    },    
+    onEditorPreparing: function(e) {
+       glbVeldMutatieNaam = "";
+        glbVeldRijNummer = "";
+      glbVeldRijNummer = e.row.rowIndex;
+    },    
+     onRowValidating: function(e){
+        glbDC = "";
+        glbDC = e.newData.DIENSTCODEID;
+    },
+   onCellPrepared: function (e) {
+       if(e.rowType == "data" && e.column.dataField === 'DCSELECTEER') {e.cellElement.addClass("dx-icon-add");}
+   },  
+ 

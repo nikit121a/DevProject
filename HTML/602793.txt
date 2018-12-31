@@ -1,0 +1,8 @@
+Hi,
+We are getting unexpected timeout errors when uploading large files, and I'm at a loss to understand why. But because the ASPxUploadControl is effectively a black-box (we don't have the source), then I will ask to clarify that it behave the way I think it should.
+So, the timeout on our site is 40 minutes:
+The ASPxUploadControl is nothing too exciting, but here it is:
+As far as I know, any chatter to the backend (callback or postback) should "reset" the session timeout of 40 minutes, since it is set to have a sliding expiration. And since the DX upload control is updating the progress panel via callbacks, then it seems like it shouldn't matter how large the upload file is. In other words, if the file was so large, that it takes  an hour to upload, it shouldn't be impacted by the session timeout since many callbacks would be happening to update that progress bar.
+Can you confirm if the above behaviour is correct so I can rule out the upload control itself causing the timeouts?
+regards,
+-randall sell 

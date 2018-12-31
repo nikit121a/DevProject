@@ -1,0 +1,11 @@
+Hi, I'm having a problem with new forms that are opened through the KeyDown event of a searchControl fixed in the ribbon status bar.
+To explain what happens, run the attached project and check the following:
+ 
+1- Create 2x a new form via the Ribbon Open Form button
+2- Click on any area of the RibbonPageGroup2 and see that the last form is still active
+3- Now, focus the searchEdit on the form's statusbar and press enter
+4- Click on any area of RibbonPageGroup2 and see that the penultimate form is activated, but the focus should remain on the last created tab (form).
+I noticed that this only occurs when the form is created via the searchControl's keyDown event.
+I'm doing something wrong, how do I solve this?
+Thank you very much for your help.
+DevExpress is the best .Net component company in the world !!!

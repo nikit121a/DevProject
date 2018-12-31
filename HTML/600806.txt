@@ -1,0 +1,2 @@
+Hi, I'm building an Update Center module for all our apps, this center will notify the Admin when there is a new version of the modules inside the app, allow him to install,uninstall,disable,update, the customize Modules would be several Xaf Module Projects, I wanna to know if there is a tutorial to point me in the right direction or tips on how to achieve this 
+Thanks 

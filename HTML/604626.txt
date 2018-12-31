@@ -1,0 +1,5 @@
+hi there.
+can i prevent the scheduler from loading it's datasource again when changing an option?
+in this case  when the currentDate changes..
+i reload it elsewhere, so the data would be requested twice..
+best, friede 

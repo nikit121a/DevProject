@@ -1,0 +1,7 @@
+Hi,
+I am using updated version 17.2.5 in my project.
+There is one issue which i am able to reproduce in given demos for localization. 
+Please find below plunker link.
+In Russian language while i am entering 0. it's taking '.' but it won't allow to enter it with any digit except zero
+It could behave same in both the scenario.
+Please let me know how could i resolve it?

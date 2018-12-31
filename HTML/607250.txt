@@ -1,0 +1,1 @@
+See attachment. There is a line above the time in the DayViewTimeRuler. What property controls that? As your docs show the line but when I use the XtraSchedulerReport the line is missing. 

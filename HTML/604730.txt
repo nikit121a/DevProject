@@ -1,0 +1,4 @@
+Hello
+Mailmerge Docvariable remove space in case no value there in docvariable
+When there is no value returned in Docvariable, space or rather line gets engaged in main doc. Can we avoid this scenario.
+Thanks 

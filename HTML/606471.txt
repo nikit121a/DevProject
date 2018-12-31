@@ -1,0 +1,5 @@
+Hello,
+The column filter is not working fine when unbound columns are used with gridcomboboxcolumn.  It's filtering by the expression value instead of by the display value. Moreover the column filter list is not ordered by the DisplayText.
+Try the attached sample and open the column filter of the column "Category".
+Thanks,
+Asier

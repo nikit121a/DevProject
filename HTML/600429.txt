@@ -1,0 +1,5 @@
+I use propertygrid to display some properties,but i found that the numeric data is not auto select on click.
+in the support center, i found that i can complete this by change OptionsBehavior.ShowEditorOnMouseUp = true, it works.
+but this cause another problem, other row will not change value if it not has focus, in other words, if i want to change the value which is not have focused on it, i must click twice at least.
+so i want to know, how to make the row editor can auto select all text when i first click, without OptionsBehavior.ShowEditorOnMouseUp = true.
+relevance ticket:

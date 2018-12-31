@@ -1,0 +1,9 @@
+Hy,
+we have a problem with our new server Windows server 2016.
+The last version of installation DevExpress on Windows server 2008 R2 is ok.
+Now on new server when i launching my report mvc return an immediate error "impossible create a document for current report: Internal Server Error" .
+Can i help me ?
+There's a requirements or component that i must install on new server ?
+Thanks for all.
+Bye
+Claudio 

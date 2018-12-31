@@ -1,0 +1,9 @@
+Hello!
+I am looking for a set of examples, ideally one per project, illustrating the following:
+1) How to keep a current word count of the document
+2) How to keep a paragraph count
+3) Each of the status bar updates in the demo (Modified, zoom, yadda yadda).
+This is because the example is way too complex and difficult to follow and it does not show word and paragraph count.
+Thanks!
+A
+ 

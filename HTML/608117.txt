@@ -1,0 +1,6 @@
+In the past, I've been using 2 TcxImagelist components to contain all my toolbar button images in 16x16 and 24x24 resolution, about 200 images each.
+ After I noticed that DevExpress supports SVG images, I replaced about 95% of the images by SVG graphics.
+As a result, the loading time of the datamodule  that contains the imagelists increased from below 1 second to more than 7 seconds.
+As far as I understand, each SVG gets converted to a bitmap, when the application starts, even if the bitmap is not used on startup.
+That explains the increase of the loading time. 
+Is there a better solution than changing all bitmaps back to BMPs? 

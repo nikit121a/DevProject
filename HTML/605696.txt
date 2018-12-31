@@ -1,0 +1,6 @@
+We are a program with hundreds of actions across a ribbon. There are many tabs. We are finding that the OnUpdate of these actions are being called way too many times.
+We have tracked it down to the fact that there seems to be a timer inside the devEx code that is firing a few times per second. This is backed up by the following post
+This timer is causing the OnIdle to fire over and over again. The problem is the code below only checks if the Bar is visible. It does not check if the Bar is on a visible tab. So, only one tab is visible, the vast majority of the items are hidden from the user, yet their OnUpdate is being fired. Is there a way to check if a particular BarItem is actually showing to the user, and not fire the OnUpdate in that case?
+The code for TdxBarManagerUpdateActionsListener.InitiateAction is below
+
+

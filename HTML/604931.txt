@@ -1,0 +1,4 @@
+In my application, I have used the repositoryItemLookupEdit and when I double click on the grid row to edit, I am able to do an incremental seacrh with the properties SearchMode set to Autofilter.
+I have another form that uses the LookUpEdit control and this control does not do the incremental search.    I read a previous article telling me that this functionality is not available iin current versions.   I don't understand the rational behind this as the repositoryItemLookupEdit has LookupEdit as its base object (or so I understand).  One would expect identical properties and behavior in both of these controls.
+I want to be able to use the LookUpEdit to search in ComboBox.   I have tried both the SearchLookupEdit and GridLookupEdit controls and their behavior is not what I want for searching and neither allow for incremental searching.
+Are there any other controls that can give me this functionality ?

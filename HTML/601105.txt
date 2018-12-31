@@ -1,0 +1,11 @@
+Hi,
+I have a big problem for a month, and I can not solve. I read all posts but without finding a solution.
+I published my website on a server (IIS 8) where there is folder structure like below url
+LOCAL:
+DXR.axd
+But in published site it is showing 404 erroe with below URL, i dont know from where it is generating and it is not occuring in Local
+REMOTE:
+On local server it works, but  not working in live.
+Server Error
+404 - File or directory not found.The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.
+ 

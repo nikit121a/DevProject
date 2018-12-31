@@ -1,0 +1,6 @@
+Working with a pivot table using method described in 
+ I get a correct filter, but in this case they show like the attached example.
+However when the user applies a filter no such box is displayed.
+Is this some difference between regular filters and something called prefilter? I find no information in the help on the difference between filter and prefilter.
+Ideally I would all filters to be displayed as in the attached screenshot (I manually display other filters), but at the very least, be treated in the same way, how can I accomplish this?
+ 

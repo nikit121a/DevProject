@@ -1,0 +1,12 @@
+Below is the code which i have used to display summary data.
+    <dx:ASPxSummaryItem FieldName="TotalPrice" SummaryType="Sum" DisplayFormat="Total Value: {0}" ValueDisplayFormat="C" />
+                            <dx:ASPxSummaryItem FieldName="TotalPrice" SummaryType="Min" DisplayFormat="Min Order Amount: {0}" ValueDisplayFormat="n2" />
+                            <dx:ASPxSummaryItem FieldName="TotalPrice" SummaryType="Average" DisplayFormat="Avg Order Amount: {0}" ValueDisplayFormat="c" />
+                            <dx:ASPxSummaryItem FieldName="TotalPrice" SummaryType="Max" DisplayFormat="Max Order Amount: {0}" ValueDisplayFormat="n2" />
+                            <dx:ASPxSummaryItem FieldName="MarginAmount" SummaryType="Sum" DisplayFormat="Total Margin Value: {0}" ValueDisplayFormat="n2" />
+                            <dx:ASPxSummaryItem FieldName="MarginAmount" SummaryType="Min" DisplayFormat="Min Margin: {0}" ValueDisplayFormat="n2" />
+                            <dx:ASPxSummaryItem FieldName="MarginAmount" SummaryType="Average" DisplayFormat="Avg Marging: {0}" ValueDisplayFormat="n2" />
+                            <dx:ASPxSummaryItem FieldName="MarginAmount" SummaryType="Max" DisplayFormat="Max Margin: {0}" ValueDisplayFormat="n2" />
+And atatched is the screen shot what i get .
+1.  i do not get Currecny symbol.
+2. Avg gives me huge number of digit after decimal when  i wanted to have it limited to 2 digit only.

@@ -1,0 +1,4 @@
+In Turkish Locale,
+if you create new tile template in TileView with Grid Designer, it creates item name with ? (Latin Small Letter Dotless I) (U+0131) instead i (Latin Small Letter I) (U+0069).
+Sample project added.
+ 

@@ -1,0 +1,15 @@
+Hello,
+I need ti set the access permission to the file based on user logged in my application. I try various way to set fileManager-SettingsPermissions-AccessRules programmatically, but it seems it works correctly with folders but not with files.
+finally, I found this: if I set permission for all files in aspx code in this way
+
+
+
+
+for every files are enabled refresh and download toolbar buttons and disabled the other ones ( rename, move, copy, delete).
+But if I try to do the same thing by vb code (deleting the code above from aspx file) :
+
+
+
+
+for every files is disabled only move toolbar button, and enabled the other ones
+ thank you for the support

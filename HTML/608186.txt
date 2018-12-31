@@ -1,0 +1,6 @@
+In the attachment you find a sample of an error condition (batchSize was set to 50).
+Please note the exception itself bur also the value of the member FileData.Content. I think thats the reason the method SaveToStream throws the exception.
+  
+Thanks for your answer in advance
+Regards
+Pierre

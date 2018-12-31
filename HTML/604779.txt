@@ -1,0 +1,7 @@
+Hi, I have a form with a grid.
+I want to make it so that when user change values in the rows, it automatically saves their changes (by running a sql command to update the database)
+Is the best place to do this on the  GridControl LostFocus event?
+If so how d o I capture the text cell I am leaving?
+GridView1.GetRowCellValue(GridView1.FocusedRowHandle, "Description")
+Picks up the cell which is clicked on
+Many Thanks 

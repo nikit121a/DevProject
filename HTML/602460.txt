@@ -1,0 +1,1 @@
+We use the above data template to create a status bar with mvvm. The BarButtonItem has some attached properties that apply our security rules. Those properties are not set to the created BarItemLinkInfo therefore our security is not applied. How can we make sure that the attached properties values are copied to the BarItemLinkInfo?

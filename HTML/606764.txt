@@ -1,0 +1,2 @@
+Hello,
+I have a MasterDetail GridControl.  Each Details section displays the count total of each group.  Is there a way to display to total of the details count's in the Master's Total Summary? 

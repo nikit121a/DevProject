@@ -1,0 +1,5 @@
+Hello, 
+I need to have a fixed steps for drag drop appointment, on a Gantt view, not to be limited by the cell, 
+Is there any option to do this quickly, as i have 5 scales but i need my appointment to be gradable on the smallest scale.
+Thank you
+Kind regards,

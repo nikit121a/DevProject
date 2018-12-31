@@ -1,0 +1,8 @@
+Hi,
+Is it possible to modify the display order of the (default) command buttons:
+It seems that when you use:
+settings.CommandColumn.ShowNewButton = true;
+settings.CommandColumn.ShowDeleteButton = true;
+settings.CommandColumn.ShowEditButton = true;
+The display order is fixed.
+Is there somekind of "DisplayIndex" property or something or do I have to create a special template for this? 

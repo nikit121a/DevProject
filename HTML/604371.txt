@@ -1,0 +1,5 @@
+Hi, 
+I have tabs in my application, that I add them in the code
+and now I want to know how can I hide a tab by the code.
+ It is important for me I will be happy to get answer...
+thank 

@@ -1,0 +1,7 @@
+Can I place a grid control in a layout view?
+ 
+One of my properties is a list
+and I want to display a grid in each card (row) in layoutView .
+I want it like in this example:
+ 
+But I want expanded grid not in popup container.

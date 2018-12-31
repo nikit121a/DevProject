@@ -1,0 +1,15 @@
+I have a project that uses a Word add in. When I open up a WPF dialog and try to open my Popup Color Editor dropdown, nothing seems to happen. When I debug the issue, it seems fine. However, when I run the debug and open the deployed add in, instead of nothing happen, I seem to be hitting this error: 
+ Exception has been thrown by the target of an invocation.
+************** Exception Text **************
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+This seems like some sort of Referencing issue, but It seems impossible to pin down because the debugging build seems to be fine.
+I noticed that the references cannot be loaded in the project properties reference page.
+The devexpress add ins I am using are:
+Version 17.2
+Data
+PDF.Core
+Printing.Core
+Mvvm
+Images
+Xpf.Core
+Xpf.Themes.Office2016White 

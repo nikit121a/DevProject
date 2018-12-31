@@ -1,0 +1,51 @@
+This is the code in question:
+        // see which direction are they going
+        XDiff = Math.Abs(line.startPosition.Point.X - line.endPosition.Point.X);
+        YDiff = Math.Abs(line.startPosition.Point.Y - line.endPosition.Point.Y);
+I am working on limiting the person drawing lines on the PDFViewer to orthogonal only. At issue, is that the "X" and "Y" positions are reversed.
+Let me explain:
+When I set a debug breakpoint just under this, and then move my mouse from left to right, AKA: the "X" axis, it is the "Y" axis that reports a change.
+Conversely when I move the mouse vertically, it is showing up in the X axis - for horizontal - not the "Y" axis.
+What on earth is going on?
+Sincerely,
+Dave
+Other relevant code:
+    private void pdfViewer1_MouseDown(object sender, MouseEventArgs e)
+    {
+      if(e.Button == MouseButtons.Left && pdfViewer1.CursorMode == DevExpress.XtraPdfViewer.PdfCursorMode.SelectTool)
+        {
+      line.startPosition = pdfViewer1.GetDocumentPosition(e.Location);
+      line.endPosition = null;
+      mouseButtonPressed = true;
+      }
+    }//--------------------------------------------------------------------------------------------
+    private void pdfViewer1_MouseMove(object sender, MouseEventArgs e)
+      {
+      if(mouseButtonPressed)
+        {
+        line.endPosition = pdfViewer1.GetDocumentPosition(e.Location);
+        
+        if(line.startPosition != null && line.endPosition != null)
+            {
+          double x1 = line.startPosition.Point.X;
+          double y1 = line.startPosition.Point.Y;
+          double x2 = line.endPosition.Point.X;
+          double y2 = line.endPosition.Point.Y;
+          DistanceInInches = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2)) / 72;
+        }
+      }
+    }//--------------------------------------------------------------------------------------------
+    private void pdfViewer1_MouseUp(object sender, MouseEventArgs e)
+      {
+      mouseButtonPressed = false;
+      // and add the line to the list here
+      if(line.startPosition != null && line.endPosition != null && line.startPosition.PageNumber == line.endPosition.PageNumber) 
+        {
+        line.DistanceInInches = DistanceInInches;
+        line.color = color;
+        line.name = GetLineName(line.color);
+        lines.Add(line);
+        pdfViewer1_MouseClick(sender,e);
+        pdfViewer1.Invalidate();
+      }
+    }//--------------------------------------------------------------------------------------------

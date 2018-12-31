@@ -1,0 +1,4 @@
+Hi, 
+I'm seeing in the documentation on the Web Forms as far as the ASPxPivotGrid control is concerned and I find that there are only two ways to provide data to this control and that is by Linq and by Entity Framework; in the personal case I develop a query to the database of where I want to obtain the data for this control and define in a table to which specific area they belong, this works well when the page where the control is just loaded is first loaded, but when it makes a postback although the data is there but the fields are not defined.  
+I need you to help me how to provide the correct data for this control (I attach the code below). thanks for your help
+ 

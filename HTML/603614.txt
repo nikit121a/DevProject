@@ -1,0 +1,4 @@
+Hi guys,
+I am leaving a comment here to notify that this problem seems to have come back.
+We're currently using v.17.2.5 (devextreme and devextreme-angular packages), but like Chris wrote two years ago, this is easily reproduced on your 
+ with any TagBox, using iOS Safari on iPad / iPhone.

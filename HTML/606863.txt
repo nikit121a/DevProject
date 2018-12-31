@@ -1,0 +1,7 @@
+Hi,
+I need an additional column from the lookup  result. The second column is a boolean, which I would like to display as a read only checkbox.
+So I have a grid with 2 lookup columns, bound to the same field. The first column can be selected, the second column is the result of the selection in the first column. The display member of this second column is a boolean, but is is shown as text.
+How can I display a checkbox in the second column?
+Grid:
+ViewModel:
+ 

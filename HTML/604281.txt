@@ -1,0 +1,7 @@
+Hi,
+So instead of using my own buttons I am trying to use the ChartBarController buttons so I can swap to different chartcontrols easily.
+When I control loading a templated layout, I save the source and then restore the source.
+However, when using the ChartController load layout button, the button's itemclick event fires before the file select dialog, so I can save the current datasource to a variable, fine...
+However, can't figure out what event to use once the layout has been reloaded.  It's not the ChartControlLayout event...
+So what event should I use?
+Jerry  

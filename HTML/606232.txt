@@ -1,0 +1,6 @@
+Hello!
+Im trying to set the following criteria in CriteriaPropertyEditror in XAF Web application:
+Respondent.Name = ?Respondent And Not Respondent.Reports[Date < ?Date And Date > ^.^.Date]
+CriteriaPropertyEditor shows error, stating that ^.^.Date is a wrong property. Please, see attached screenshot illustrating the issue.
+I am using the same criteria elsewhere, but im building it in code and everything is working as expected.
+Thank you! 

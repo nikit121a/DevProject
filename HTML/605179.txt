@@ -1,0 +1,5 @@
+When we add new columns to already existing tables the value for that new data column is set to "NULL" in already existing datasets.
+In this case we added a bool value to the domain object and altered the filter criteria for a gridView from:
+to:
+We are pretty sure that previously the above criteria was true for values not being true also included "NULL"-values.
+Since all our old datasets have the NULL-value in the new column, we get no result anymore for the criteria. Is that a bug in the current version or is this a wanted change? As soon as we run an SQL-update over the new column, setting the new column values to "0", the above new criteria works as needed 

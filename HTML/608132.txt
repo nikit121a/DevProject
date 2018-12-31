@@ -1,0 +1,7 @@
+Hello
+I have a strange problem, but I can't reproduce it in sample project. I also cutted my project to have simple objects, but still can't reproduce...
+So, could you tell me how could I debug this? I need to understand why does the protected content appear and disappear in this case (see video)?
+Totally my problem is opening by popupWindowShowAction an persistent obect to create it (instead of new button). But first time it is show protected content even at bool property. If I once open this object with rowView or new/addPerson button, then it open well without protectedContent till I change view (go to another list and open Registration detail again).
+What could I check to understand what is cause of this? Or maybe you could suggest to check/change something?
+This is simple opening popupWindowShowAction handler: 
+ 

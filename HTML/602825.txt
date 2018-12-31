@@ -1,0 +1,10 @@
+Hi,
+I'm using the TcxTreeList to list layers, like in a CAD software.
+In the first column I list the layers. In the second column I have added an icon that shows / hides each layer when I click on it, so that I can control their status. So far, It works very well.
+Now, from the header I already manage all the layers all together. For instance, clicking on the header in the second column I can show or hide ALL the layers, instead of just one. This help me to avoid to show / hide them clicking one by one.
+The only issue is that I don't know how to change the icons to the whole column. I tried to use OnCustomDrawDataCell with OnMouseUp and OnMouseDown with no luck.
+Could you help me to achieve the result?
+Please see the screenshot.
+I? look forward to hearing from you.
+Best Regards,
+G?ianluigi 

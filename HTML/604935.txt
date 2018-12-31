@@ -1,0 +1,12 @@
+Hi, 
+I am working with dxTreeList in on-demand mode, as explained 
+. 
+In the dataSource's loadData() I make calls to my REST API to obtain proper data. My situation is a bit specific though, because I am not able to determine (easily) for a node whether it has children or not thus I am not able to provide a property similar to hasItems
+as in the referenced example. When such a node (let's name 'A') is expanded (in dxTreeList) and turns out be empty, my REST API returns an empty array, which I return from the loadData() method. dxTreeList recognizes this situation and the "triangle" (allowing to expand the node) disappears. 
+The problem is that when I try to expand other nodes, the dxTreeList keeps asking for children of that 'A' node all over again. In fact it keeps asking for children of any node similar to 'A'. 
+So, the question is what to return from loadData() in order to notify dxTreeList that there are no children of this node and makes no sense to keep asking again? In my case checking whether node has children is expensive thus I would like to avoid doing it all over again (more and more on each request). 
+I have slightly modified your example to show the problem: 
+  It is not perfect (produces 500-errors) but shows the behavior I am talking about - just try to expand any "file" node and then try to expand other node - you will notice on console that dxTreeList keeps asking for children of the previous node as well. 
+Another observation: if I do provide a property hasItems (always true) in data I return (of e.g. node 'A') and the loadData() returns empty array then dxTreeList keeps asking for children (as described above) but additionally the triangle does not disappear in this case. 
+greetings
+Bartek 

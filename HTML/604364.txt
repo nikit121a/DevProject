@@ -1,0 +1,5 @@
+Hi
+I have this problem where I need to export a report which I made in XtraReport into an excel document. But the user wants to be able to filter on 2 of the column, like the status column.
+Like if you have, "New", "Call Back", "Pending". They want to be able to click on the column header in excel after exported and choose which of this statuses should show. 
+Have been going through all your documentation but can't seem to find something to fit my solution.
+ 

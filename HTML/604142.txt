@@ -1,0 +1,5 @@
+Hello,
+I'm using the Gantt chart to show production for our production lines. My problem is the lines at the bottom are faded, so it is hard to see what they are.
+Is there a way to  turn off the fading so that it is easier to see the bottom items? See attached image.
+Thanks,
+Stephen 

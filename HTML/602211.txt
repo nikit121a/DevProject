@@ -1,0 +1,6 @@
+Hello Support,
+I am using a GridLookUp and I am trying to use a customArg  to filter the GridLookUp.
+The BeginCallBack javascript:
+ I am getting error message from 
+Thank you,
+Ron 

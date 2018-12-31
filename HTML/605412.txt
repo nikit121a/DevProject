@@ -1,0 +1,19 @@
+Hello 
+I am tying to manage devexpress spreadsheet module in my project.
+but i am facing some issues like
+1. design is not coming like on demo
+2. how to hide some menus.
+code
+index.chtml
+
+
+
+
+
+
+
+FreezePanesPartial.chtml
+
+
+
+thanks

@@ -1,0 +1,5 @@
+Hello!
+When I launch the ReportDesigner with a binded report, a popup always appears (see attached picture).
+How is it possible to avoid this popup?
+Thanks for your help!
+Alex 

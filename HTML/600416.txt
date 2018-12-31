@@ -1,0 +1,7 @@
+Hi.
+I have upgraded version to 17.2.5 and try to use BS4 nav.
+How can i change items padding as in root, as in sub-menu items?
+Bootstrap menu uses XmlDataSource.
+Thanks
+Victor
+  

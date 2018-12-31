@@ -1,0 +1,4 @@
+Hello,
+For ASPxTexboxes is SetFocus() not a thing anymore? Or have I been using  that wrongly for the last #number of years?
+I see now only Focus() is listed as a property in documentation???????
+Thanks, Jack 

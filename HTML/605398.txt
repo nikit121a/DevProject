@@ -1,0 +1,5 @@
+Hi support team,
+I am using PersistentAlias in my domain object and I am viewing it with several persitent objects in a grid bound to the table through a xpServerCollectionSource - so we are using the grid in server mode.
+However, once I am creating a group summary over this specific persistent alias and show it in the footer, I get an empty grid.
+Is this one of the feature limitations of server mode? For unbound columns I can understand this feature limitation, but for persistent alias-fields, I thought this would be a way to calculate values on server side, so a summary on server side should be possible as well.
+Here is my persistent alias defintion:

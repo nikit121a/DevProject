@@ -1,0 +1,1 @@
+I using this approach to create custom content based on tab selected. The problem I'm facing is when I click on the tab the template content says "item-template1" for Profile Tab and "item-template2" for my Previewer tab instead of showing the html inside my script tag. Is there something I'm missing?

@@ -1,0 +1,6 @@
+Hi
+im using visual studio 2017 with Asp Net Core 2.0 and MvvC, i have a grid with batch edit mode and a simple column to set a price for some items, this column is numeric, its declared as follows:
+the value is saved with 2 decimals as expected but its not showing the decimals in the grid (unless you are editing the value  or adding a new value).
+i have attached a couple of pictures showing this behavior, i have the grid where i set some prices for some call types and then in another i show some calls with their prices but again they are rounded and i am not getting the precise values as needed (because the summary values does take into account the decimals as they are registered as you can see in noDecimals03, the sum of all totals as shown in the grid should be 46 but in reality the values added gives 45.40 so it gets rounded to 45, i need to be able to show the correct decimal values and prevent any rounding).
+so, how can i show the correct decimal values in the grids and prevent the rounding on all summaries? 
+regards. 

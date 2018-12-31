@@ -1,0 +1,5 @@
+Hi. I have a SchedulerControl with three resources. I need to restrict access on some users to create or modify appointments only on specific resource. On the other resources appointments can be created or modify. Is there any way to accomplish this?
+VB only please.
+ 
+Regards.
+Eric

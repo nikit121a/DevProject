@@ -1,0 +1,8 @@
+cellTemplate: function(container, options){
+    console.log(options.data.Status);
+    console.log(typeof(options.data.Status));
+    $("<div />").dxSwitch({
+    value: options.data.Statuss
+    }).appendTo(container);
+}
+In the above code snippet, "value" is not recognizing(binding) the data supplied to it, in spite of the value being of boolean type.

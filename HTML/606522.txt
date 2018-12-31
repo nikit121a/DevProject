@@ -1,0 +1,2 @@
+I need this summary to only allow 2 decimal places.
+sd.TotalItems(Sub(totalItems) totalItems.AddFor(Function(m) m.BBLS).SummaryType(SummaryType.Sum).ValueFormat(Format.FixedPoint)) 

@@ -1,0 +1,6 @@
+Hi, I'm moving my first steps with the scheduler control, I think it is amazing!
+In one of my forms I have to prevent users from creating/editing/deleting appointments, so I used the AllowAppointmentCreate, AllowAppointmentDelete and AllowAppointmentEdit properties.
+Everything is ok but I don't like the tooltip form because it continues to show the Edit and the Delete buttons. They are disabled, by the way, but I prefer not to show them.
+I like the style of the default tooltip, it is possible only to remove the Edit and the Delete buttons? Alternatively, it is available a template that I can modify without starting from an empty ascx file?
+Thanks in advance for your reply.
+Max

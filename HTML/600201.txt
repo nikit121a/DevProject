@@ -1,0 +1,3 @@
+When creating either a DevExtreme 17.2 ASP.NET Core Application (.NET Core) or (.NET Framework) I am unable to save the project.  I get the error - "
+"  (screenshot attached)
+I am able to create other new projects including .NET Core, and even other DevExpress projects.  This appears to only happen with DevExtreme projects. 

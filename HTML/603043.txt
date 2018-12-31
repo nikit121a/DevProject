@@ -1,0 +1,55 @@
+Hello DeveXpress support team,
+At the Middle-Tier Application using wcf, We created 10 users who assigned different role  for Security function testing
+and The role has the Navigation permission only  in order to show Navigation menu.
+During the test, 
+I met a strange situation often that there is a message that 'Access deny'  because Exception occurs while assigning the 'DetailView' view to WinWindow.
+and than I have a persistent ClassA have CreateUser and ModifyUser fields. 
+For concurrency test, A large number of users have logged into the system and send a transactions to  create a object. I expected that the same values are stored in both fields but CreateUser and ModifyUser had different users.
+My Question
+1. Is the login user information likely to be shared on the Security system?
+2. Can the logged in user right affect other users?
+3.  How can we avoid this strange situation?
+ Blow code is my client/server side code for the connection.
+I shoud be use Direct SQL and Custom Log paramater.
+Is there anything wrong with this?
+[Client]
+           SecurityAdapterHelper.Enable(ReloadPermissionStrategy.CacheOnFirstAccess);
+             
+            WcfDataServerHelper.AddKnownType(logonParameters);    
+            var binding = CreateDefaultBinding();
+            WcfSecuredDataServerClient clientDataServer = new WcfSecuredDataServerClient(binding, new EndpointAddress(Endpoint));
+            ServerSecurityClient securityClient = new ServerSecurityClient(clientDataServer, new ClientInfoFactory());
+            securityClient.IsSupportChangePassword = true;
+            client.Security = securityClient;
+            ((ClientBase<IWcfSecuredDataServer>)clientDataServer).Endpoint.EndpointBehaviors.Add(new MaxFaultSizeBehavior(int.MaxValue));
+            client.CreateCustomObjectSpaceProvider +=
+                delegate(object sender, CreateCustomObjectSpaceProviderEventArgs e)
+                {
+                    e.ObjectSpaceProviders.Add(new DataServerObjectSpaceProvider(clientDataServer, securityClient));
+                    e.ObjectSpaceProviders.Add(new NonPersistentObjectSpaceProvider());                  
+                };
+            client.CreateCustomLogonWindowObjectSpace += delegate(object sender, CreateCustomLogonWindowObjectSpaceEventArgs e)
+            {
+                e.ObjectSpace = ((XafApplication)sender).CreateObjectSpace(logonParameters);
+                if (e.ObjectSpace is NonPersistentObjectSpace)
+                {
+                    IObjectSpace objectSpaceLanguage = ((XafApplication)sender).CreateObjectSpace(supportedLanguage);
+                    ((NonPersistentObjectSpace)e.ObjectSpace).AdditionalObjectSpaces.Add(objectSpaceLanguage);
+                }
+            };
+[Server]
+          QueryRequestSecurityStrategyHandler  securityProviderHandler
+                = delegate()
+                   {
+                       return new SecurityStrategyComplex(permissionPolicyUser
+                           , permissionPolicyRole
+                           , customAuthentication);  
+                   };
+            WcfDataServerHelper.AddKnownType(logonParameters);
+            var binding = CreateDefaultBinding();
+            IDataStore mainDataStore = XpoDefault.GetConnectionProvider(DbConnectString, AutoCreateOption.DatabaseAndSchema);
+            ThreadSafeDataLayer dataLayer = new ThreadSafeDataLayer(XpoTypesInfoHelper.GetXpoTypeInfoSource().XPDictionary, mainDataStore);
+            SecuredDataServer dataServer = new SecuredDataServer(dataLayer, securityProviderHandler,null,null,true);
+            ServiceHost serviceHost = new ServiceHost(new WcfSecuredDataServer(dataServer));
+            serviceHost.AddServiceEndpoint(typeof(IWcfSecuredDataServer), binding, Endpoint);
+    

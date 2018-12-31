@@ -1,0 +1,8 @@
+Hello,
+I have a question regarding the LayoutView in a grid.
+Is there a way to modify the background color of the area between the cards?
+We have to set the background to transparent so that the background of the form is shown. We tried to set the Appearance. ViewBackground.BackColor but this has no effect.
+We are using the Black-Skin in our application.
+Perhaps there is a possibility in code that I'm missing?
+Attached you can find a picture. The area I mean is marked.
+Thanks

@@ -1,0 +1,3 @@
+Short of creating an _Enter event for every textedit is there a way that I can select all the text when the control has focus?
+Is there a property on the control that I might be able to utilize?  I do pre-process all my controls before showing my screen to the end user.  So if it is a property then I can make a change in 1 spot and it will take effect system-wide.
+Any suggestions would greatly be appreciated.

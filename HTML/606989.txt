@@ -1,0 +1,1 @@
+Hello, I have to develop a small Windows App running on Android, you indicate some component of the DevExpress palette, or indicate some App that emulates Windows for this. 

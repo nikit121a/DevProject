@@ -1,0 +1,3 @@
+I've found a bug. When i set ExpandNodesOnFiltering to true it gives below error on filtering treelist:
+The ASPxTreeList control 'ASPxTreeList1' does not have a naming container.  Ensure that the control has been added to the page before calling DataBind.
+ 

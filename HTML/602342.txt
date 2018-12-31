@@ -1,0 +1,1 @@
+Intellisense has stopped working for markup in my project. While at the time I could not pinpoint a particular trigger, after seeing ticket T463026  I realized that I had also recently changed the application build to x64. This is happening on both of my PCs, even after reinstalling DevExpress and trying to run project converter/upgrade tool

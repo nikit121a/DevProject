@@ -1,0 +1,2 @@
+Hi,
+Can we expect the feature to move the Save , Cancel button  status bar to top\left\right\bottom in aspxgridview future releases ?

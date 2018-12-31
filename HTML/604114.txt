@@ -1,0 +1,9 @@
+Hi
+I have a view in use SQLFunction but problem with grid
+My View (VacationCount column empty in grid)
+
+
+
+
+
+VacationCount empty in grid but this column has data

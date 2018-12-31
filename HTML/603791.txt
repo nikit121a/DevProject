@@ -1,0 +1,12 @@
+Hi there,
+I am having a problem with two list boxes.
+The first is a list of campuses, and when you select a campus from the first list, it populates a second listbox with a list of rooms at that campus.  This part works fine and everything gets populated ok.
+The problem is that when I click a button to retrieve the room details, it returns a null reference exception for the lstRooms list box, but the lstCampus listbox returns the Campus I selected.
+The code it below:
+The javascript is 
+And the code behind for the cbCampusChanged Callback is
+The code behind to retrieve the values from the list box is
+The lstRooms.SelectedItem.Text causes the exception, but the lstCampus.SelectedItem.Text works without a problem.  The only thing I can think of that is different is that I perform a callback after the Campus has changed and I don't do that after the room is selected, but I am not sure how I do that.
+Anyway, I hope that is clear enough.  Any help or insight would be greatly appreciated.
+thanks,
+Darren

@@ -1,0 +1,6 @@
+Good morning.
+Properties that do not exist.
+- OnCustomDrawCell >> as I can in a cell modify the background color. Before we had access to the TColor of the cell. Now how is it?
+- TdxDBGridCheckColumn >> OnToggleClic - Now in the new version how can I access this property? Is there an equivalent?
+ 
+Thanks 

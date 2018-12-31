@@ -1,0 +1,5 @@
+Hello Support Team,
+there is a css issue with a flexbox fallback in IE 11. See images for details.
+ 
+Can you maybe provide a workaround? Thanks in advance.
+Daniel

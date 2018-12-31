@@ -1,0 +1,7 @@
+Hello,
+I have an issue using the Tab button. When i press the tab button the index doesn't change or follow the correct order.
+I suspect it my be because of the group box. Could it be affecting it?
+I'll be attaching a video illustrating the issue. On the first part i show the indexes and on the second part i try to change them with the tab button.
+One the second part you can see where the issue appears  as it does not move with the proper order.
+Regards,
+Christos. 

@@ -1,0 +1,11 @@
+Hi guys,
+We are facing another odd problem now with logging in app.
+We set TraceLogLocation to CurrentUserApplicationFolder value. In sample project log is stored into odd folder  AppData\Local\-\<App_Name> instead of into AppData\Local\<App_Name> folder. More over application must be run as an administrator to be able to create this log folder.
+In our Main app otherwise we have diffferent problem - no matter if we run app with admin permissions or not we are unable to find log at all with TraceLogLocation=CurrentUserApplicationDataFolder. I can not find any mention about breaking change of this behavior in your documentation thus I am not sure if you forget to mention it or if there is some problem related to new updates to windows 10 or just some bug created by mistake.
+Use case:
+- Run Visual Studio as Admin (when I don't run app with admin permissions I can not find log at all)
+- run the application
+- look into AppData\Local\ there should be new folder with name "-" and inside it there is <App_Name> folder (in our case CurrentUserApplicationDataFolderProblem folder)
+P.S.: Just little fix into your 
+ there you tell in text we should set CurrentUserApplicationDataFolder into TraceLogLocation but in code example you add ApplicationFolder value into TraceLogLocation it is quite confusing.
+Thanks a lot for advice. 

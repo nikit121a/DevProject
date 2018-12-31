@@ -1,0 +1,5 @@
+Hi,
+I'm trying convert word file to PDF using RichEditDocumentServer.
+In Word document i have one page, when i export to PDF i get 3 pages.
+How can i solve this?
+You have the documents in attachment.

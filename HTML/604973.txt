@@ -1,0 +1,28 @@
+This is probably very simple, but I don't see it. I have this code:
+@Html.DevExpress().PageControl(settings =>
+{
+    settings.Name = "RecoveryPageControl";
+    settings.ActiveTabIndex = viewDataTabIndex;
+    settings.TabPages.Add(PortalResources.Resource.ClaimsToApproveOrRejectTabCaption).SetContent(() =>
+    {
+        Html.RenderAction("ToBeApprovedOrRejectedClaims", "ClaimRecovery");
+    });
+    settings.TabPages.Add(PortalResources.Resource.ApprovedClaimsTabCaption).SetContent(() =>
+    {
+        Html.RenderAction("ApprovedClaims", "ClaimRecovery");
+    });
+}).GetHtml()
+<br />
+<input type="button"
+       class="btn btn-info"
+       onclick="location.href='@Url.Action("ExportGrid", "ClaimRecovery")?tabIndex=' + GetTabIndex()"
+       value=@PortalResources.Resource.ExportToPdfButtonCaption />
+@Html.Partial("BackButton")
+<script type="text/javascript">
+    function GetTabIndex() {
+        $("#RecoveryPageControl").GetActiveTabIndex();
+    }
+</script>
+When clicking the  ExportToPdf-button, it should get the active tabindex  from the PageControl, but nothing happens when I click it.
+Can you see what I'm doing wrong?
+ 

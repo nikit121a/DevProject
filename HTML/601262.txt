@@ -1,0 +1,7 @@
+Hi,
+A client of ours wants to use DevExpress Report Server for some reporting needs.
+However, when they try to run the installer on the machine they want to install it on, nothing happens. No error or anything, it just refuses to run.
+Their IT administrator says it most likely has something to do with their anti-virus setting. Is this something known to give problems with DevExpress installers? 
+If so, is there any way for them to get around this so they can actually install the software?
+Thanks in advance.
+ 

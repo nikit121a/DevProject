@@ -1,0 +1,19 @@
+Hello,
+ 
+We are using treelist to display data, there are checkbox and one column (IsChecked) If checkbox is checked then field value of IsChecked should be true otherwise false, for that I have used below code, it is working fine if I have small amount of data, but while I have large amount of data (>50000) it works very much slow.
+class CustomNodeOperation : TreeListOperation
+{
+       public CustomNodeOperation()
+       : base()
+       {           
+       }
+       public override void Execute(TreeListNode node )
+       {
+               node.SetValue("IsChecked", Convert.ToBoolean(node.CheckState));            
+       }
+}
+Please let me know if need more information.
+
+
+
+

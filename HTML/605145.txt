@@ -1,0 +1,7 @@
+Hi
+I know XtraRichEdit has a syntax highlighting mode which can be enabled globally. But what I'd like to do instead is insert code snippets into a regular document, much like many cloud editors offer it (including the one here on DX support). 
+The inserted snippets should be formatted with basic C# syntax highlighting and the usual "gray box background".
+Do you have a working sample of something like this, or can you point me in the right direction?
+Thanks,
+Marco
+ 

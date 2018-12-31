@@ -1,0 +1,5 @@
+Hello,
+I could not find any articles related to my request. I have filled my xtragrid with data from my database and added a check box so that the user can select rows he wants to export.
+now i would like to import the selected rows into a spreadsheet. Up to now I used the import functionality of the workbook for a datatable. Is it possible to import the data from a xtragrid directly?
+TY
+hannes 

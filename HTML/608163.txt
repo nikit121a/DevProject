@@ -1,0 +1,3 @@
+Hello Devexpress,
+ I've been able to localize most of the font dialog via the DXLocalizer (As you can see with all the '$' in the screenshot below), but the value inside the combobox, that i marked in the screenshot, is something that i've been unable to figure out how to translate.
+Any idea/help? 

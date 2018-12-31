@@ -1,0 +1,6 @@
+Hi
+I have a DevExtreme ASP.NET MVC Core webapplication and i am using resource files to translate the UI.
+I am using @Localizer  to translate the words on the UI and this works just fine. 
+Now according to that, i wanted to use the @Localizer to translate the DevExtreme.DataGrid column captions but it this doesnt work:
+Is there a way to use the @Localizer to translate the column captions? 
+Thanks a lot

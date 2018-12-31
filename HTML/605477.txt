@@ -1,0 +1,6 @@
+Hello, i just want to remove the 400ms transition when show and hide navigation menu.
+I'm aware of 
+ but I can not find a solution.
+Is it possibile to do?
+Thanks
+Adriano

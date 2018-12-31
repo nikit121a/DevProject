@@ -1,0 +1,21 @@
+
+
+Has this issue been solved??. I have similar problem. I have created a table in non visual RichEditDocumentServer. When I get the Rtf text from this server (from start of document to end of table), I always with extra paragraph appended at the end. On attempt to to delete the last paragraph even when 
+  is set to false  the last paragraph remains. The behaviour doesnot match with the documentation of the devexpress. The last paragraph remains there when the text is empty.
+Code snippet:
+RichEditDocumentServer richEditServer = new RichEditDocumentServer();
+richEditServer.Options.Export.Rtf.ExportFinalParagraphMark = DevExpress.XtraRichEdit.Export.Rtf.ExportFinalParagraphMark.Never;
+richEditServer.Document.AppendRtfText(CreateRtfTable());//simple methode which gives rtf string for table
+richEditServer.Document.BeginUpdate();
+int countPar=richEditServer.Document.Paragraphs.Count; // o.p=18
+Paragraph lastParagraph = richEditServer.Document.Paragraphs.Last();
+string lastParagraphText = richEditServer.Document.GetText(lastParagraph.Range);
+if (lastParagraphText == "")
+{
+    ParagraphProperties pp = richEditServer.Document.BeginUpdateParagraphs(lastParagraph.Range);
+    richEditServer.Document.Delete(lastParagraph.Range);
+    richEditServer.Document.EndUpdateParagraphs(pp);
+}
+richEditServer.Document.EndUpdate();
+countPar=richEditServer.Document.Paragraphs.Count; // o.p=18
+Somehow I can't get ride of the last paragraph.  

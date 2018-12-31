@@ -1,0 +1,2 @@
+Hi,
+ I need to change command column text for select all section as shown is attached screen shot. Please let me know if it is possible to change.

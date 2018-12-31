@@ -1,0 +1,9 @@
+I am using ASPXFormLayout.
+I've setup a tabbed section at the bottom of the page (TabbedLayoutGroup) 
+On one of the tabs (<dx:LayoutGroup Caption="Photos"  VerticalAlign="Top" >) I have set up three items:
+ASPxComboBox, ASPxImageGallery and ASPxUploadControl
+When using the ASPxUploadControl I want ONLY the  ASPxComboBox and ASPxImageGallery to be refreshed - not the entire page.
+I've put the contents of the tab in an update panel and a nested ASPXFormLayout but cant figure out how get the panel to update the list and images.
+Once a file has been uploaded the code behind runs fine but the changes are not reflected in the list or gallery.
+Hope this makes sense. Thank You.
+ASPX code attached.

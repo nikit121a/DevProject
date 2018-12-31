@@ -1,0 +1,5 @@
+I would like to get the selected appointment id in the c# environment, not on the client environment.
+What event can I use to achieve this ?
+I cannot find any event such as selection Changed etc.
+Can you help please ?
+ 

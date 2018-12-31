@@ -1,0 +1,3 @@
+I must have tens of grid working this way and for an unknown reason this one doesn't want to work. I deleted the form and rebuild it twice already and cant' see where the problem is. If you have a better sample to code to achieve this please point me to it. What's driving me nuts is that I have got a similar form in the same project working just fine. 
+See attached print screen for the error.
+The code behind (I haven't added     OnRowInserting,    OnRowUpdating and      OnRowdeleting event to make sure it wasn't the issue

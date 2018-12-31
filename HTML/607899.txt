@@ -1,0 +1,3 @@
+Hi!
+VCL PivotGrid desperately need a new features. Last new feature for PivotGrid was in Build 16.2 -> OLAP Support.
+I think this year PivotGrid should improved its performance such as Loading time, Filtering, slide & dice.

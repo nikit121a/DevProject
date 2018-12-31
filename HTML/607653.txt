@@ -1,0 +1,9 @@
+Hello,
+I am using asp.net gridview where on edit form popup, I am showing form layout.
+In that screen, I wanted to achieve below:
+1) I wanted to make my Description textbox  quite long spanning whole row. I have tried to increase its width by width property, but it disturb its alignment. Please suggest.
+2) I wanted to show phone box with country code, state code and phone itself together.  for your reference, below is the url, what I am looking for in edit form layout:
+Please suggest how to achieve the same.
+Thanks,
+Jigar
+  

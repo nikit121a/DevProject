@@ -1,0 +1,9 @@
+Greetings, I have an issue setting the height of a cardview control.  In other projects where I am able to use a splitter, I can use the resize events and set the cardview height to 100% of the client area using javascript.
+In this current situation, I have a cardview in Table Layout Mode, in  a partial view, and it is injected as part of a bootstrap 4 column like this:
+If I set paging to Endless, the cardview contracts and only shows Header Pane, one card (with scrollbars to show the rest) and the footer.
+If I set paging to something normal, it adheres to pager settings and the control at least seems to conform to verticalscrollableheight
+These are my settings (those of interest anyway)
+If it matters any, the card content is custom, but that part generally works.
+My main question is, lacking a splitter control to be able to get pane.clientheight, is there way to set the cardview to max bootstrap column height?
+Also, asuming that I want the cardview to fill the client height and use endless paging, what settings do I need to use?
+ 

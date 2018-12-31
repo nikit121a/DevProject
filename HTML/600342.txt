@@ -1,0 +1,6 @@
+Hi
+I wish to delete a column from a SnapList,  or even better make it invisible, by using the dataFieldName as shown in view field codes.
+can you please help?
+many thanks
+john
+ 

@@ -1,0 +1,4 @@
+Hi,
+I'm using a FileManager which start with  "settings.SettingsUpload.Enabled = false;". An action is performed ans the filemanger callback is called, which return its model to set "settings.SettingsUpload.Enabled = true;", but I can't drag and drop file to the filemanager without reloading entire page. How to fix this?
+P.S. the EnableDragAndDrop property is alway to true
+Thanks 

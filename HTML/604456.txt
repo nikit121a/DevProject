@@ -1,0 +1,23 @@
+Hello,
+How can i inject a list of strings in a column area?
+If i inject a string in Value it works fine but a list/array gives me an error.
+How can i achive this? I alreay tryed changing the unboundType as well but it didnt work.
+Eg:
+            settings.Fields.Add(field =>
+            {
+                field.Area = PivotArea.ColumnArea;
+                field.AreaIndex = 0;
+                field.UnboundFieldName = "Targets";
+                field.Caption = "Targets";
+                field.UnboundExpression = @"targets";
+                field.UnboundType = UnboundColumnType.String;
+            });
+            settings.CustomUnboundFieldData = (s, e) =>
+            {
+                if (e.Field.UnboundExpression != @"targets") return; 
+ 
+                    string[] targetsName = {"Test", "Test1"};
+                    e.Value = targetsName;
+             };
+Regards,
+Medialog 

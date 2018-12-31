@@ -1,0 +1,9 @@
+hi Dev express team
+I am facing a challenge with  v7.1 ,  I need to turn on/off other UI controls depending on if a TreeListNode bool column checkbox is checked or not.
+I tried on MouseDown but it is to early,  I tired to add a
+ the column but it does not update the Node["Column"] value 
+I was able to implement GetCheckedNodesOperation approach however, it does I hove not found the correct event that execute this code on time, I never got the correct behavior. 
+I know you have other events/methods available newer versions, but upgrade is not an option at this time
+Can you please advice?
+Thanks,
+Gerardo

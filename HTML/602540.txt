@@ -1,0 +1,4 @@
+Hey folks,
+how would you recommend to show a wizard form to configure some global setting on a XAF Application (Windows and Web)  at the first start?
+Best,
+Micha 

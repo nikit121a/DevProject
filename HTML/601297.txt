@@ -1,0 +1,4 @@
+Hi 
+I have a lisboxcontrol inside a popupcontainercontrol. I am trying to launch a popup menu (with Edit, Delete, etc.) when I right click on a record in the listboxcontrol . The popup menu opens up, but the popupcontainercontrol closes. Is it possible to keep it open?
+Thanks!
+Mey 

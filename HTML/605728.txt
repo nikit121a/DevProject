@@ -1,0 +1,4 @@
+Hello,
+I am using Batch edit for grid view but when i click on save button than it throws error that "Cannot read property 'call' of undefined ".
+I am getting this error only at the time of saving batch edit however i have not defined any client side event for saving of batch edit.
+I am attaching my screen shot so that you can understand my problem. 

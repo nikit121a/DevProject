@@ -1,0 +1,7 @@
+I'm trying to set the GroupFooterRowStyle values to "Bold". (Attached screenshot)
+This is a dynamically constructed Grid and TableView (not via xaml).
+I'm trying to set the values bold in code as follows :-
+I get an exception error when assigning the customResourceDictionary :-
+ 
+What am I missing/doing wrong here ?
+ 

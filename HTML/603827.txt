@@ -1,0 +1,7 @@
+Hi,
+I have a WPF TreeListControl. I want to have a gap between the columns. I'm able to achieve this at the header level using the ContentTemplate as shown below:
+
+
+
+
+This works at the header level. I want to achieve the same thing at the Cell level as well. I have attached the Sample code and ScreenShot. Please update the sample application with the solution.

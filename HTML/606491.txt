@@ -1,0 +1,4 @@
+As my screenshots show, this doesn't make sense. I have a persistent repository item with several repository controls. A few of them are LookupEdit controls. I use them in grids in 2 forms. In one form, I do NOT want the user to be able to CTRL+DEL to make them null. In the other form, I DO want them to be able to do that. So I added code to the Load event of each form.
+In the form where I do NOT want them to set the values to NULL I have this code:
+In the other form I have this code: 
+In both cases, even the "false" code, it actually enables null input. If I comment out the code above, it uses the property setting in the repository itme (false) and does not allow null input. But again, even the FALSE lines of code above, change it to allow nulls. What's up?

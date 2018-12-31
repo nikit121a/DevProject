@@ -1,0 +1,25 @@
+Hi Gosha,
+in my solution the class name was different because i am binding a different template using DropDownAppointmentTemplate event  , now i was able to bind the dblclick event to the body but  the function is giving the  following error in dx.debug.all js file 
+ 3dx.all.debug.js:103558 Uncaught TypeError: Cannot read property 'length' of undefined
+    at inheritor.showAppointmentPopup (dx.all.debug.js:103558)
+    at HTMLDivElement.<anonymous> (BoardMeetingController.js:821)
+    at HTMLBodyElement.dispatch (jquery-2.2.3.js:4737)
+    at HTMLBodyElement.elemData.handle (jquery-2.2.3.js:4549)
+    at Object.trigger (jquery-2.2.3.js:7819)
+    at HTMLDivElement.<anonymous> (jquery-2.2.3.js:7903)
+    at Function.each (jquery-2.2.3.js:365)
+    at jQuery.fn.init.each (jquery-2.2.3.js:137)
+    at jQuery.fn.init.trigger (jquery-2.2.3.js:7902)
+    at Object.trigger (dx.all.debug.js:18401)
+my code :
+ $("body").on("dxdblclick", ".dx-dropdownmenu-list .dx-list-item", function (
+                args
+            ) {
+             
+                $("#boardMeetingSchedule").dxScheduler("instance").showAppointmentPopup(
+                    $(args.currentTarget)
+                    .parent()
+                    .data().dxListItemData
+                );
+            });
+ 

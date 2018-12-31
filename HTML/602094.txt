@@ -1,0 +1,4 @@
+Hello,
+I have a form with a XtraBar s.Bar and BarSubItems with other BarSubItems and BarButtonItems. When I try to add an icon from the DXGallery (after setting the PaintStyle to CaptionGlyph) everything seems fine in the Design, but when I save or build my project the following error ocurs: The argument docData must implement the interface IVs TextStream .
+Do you know why and how should I fix this?
+Thank you!

@@ -1,0 +1,6 @@
+Hello,
+I am creating a layout configurator, which takes information from a table and dynamically create a tilecontrol ...
+However randomly an error occurs that I can not even track the exact moment ... Even putting try catch at all ...
+The code that I know is happening is this... I'll call him by the constructor
+The error is this.
+ sorry about my english

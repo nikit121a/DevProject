@@ -1,0 +1,9 @@
+I cannot find in the 
+ a way to handle the event corresponding to clicking on the clear button in a DxDropDownBoxComponent.
+I have enabled showClearButton = "true".
+I was looking for some kind of "(onClearButtonClicked)=myfunction($event)".
+I need indeed to commit some action when the use clear the dropbox field.
+Any lead ?
+Thank you
+ 
+ 

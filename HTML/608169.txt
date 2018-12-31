@@ -1,0 +1,4 @@
+Hi,
+ 
+When I insert rows or columns over a region that is reference in a Formula, that formula change. I want to know if exist a event to know this change?
+Thanks 

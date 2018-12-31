@@ -1,0 +1,3 @@
+when i use the following code 
+ rptDetailed.ExportToPdf(filePath)   
+with and without specifying pdfOptions the font gets bold and smudgy as well as if i use pdfOptions and compress and set imageQuality the image gets very blurry, when i turn that off the image is fine, but always the font text gets bold and smudgy.    But when i look at the report in report preview it looks perfect and if i use the microsoft pdf writer it comes out just like the preview. 

@@ -1,0 +1,5 @@
+Hello,
+I'm using the report designer in a solution and I get a crash related to the Property-> Lines when editing a field/table cell.
+ I have managed to recreate this in the demo centre using the Reporting Invoice example. 
+The program shows the error (causes a crash in my program) if you double click a table cell and enter a value such as "-". Then click back on the cell go to Property->Lines double click the "..." button that appears clear the "-" from the text box and press ok.
+I have attached a video showing this error in the Reporting Invoice Demo Centre example.

@@ -1,0 +1,3 @@
+Hi, I have discovered a strange behavior in DockLayoutManager. I have attached a sample project to demonstrate that. Just run the app and you will see DockManager with some LayoutGroups. Group named "Clipped" will be cliipped. This is not correct I think. But moreover, if you increase height of main window, relayouting will occur, although the height of DockLayoutManager itself will not change.
+Thanks for help.
+Mira. 

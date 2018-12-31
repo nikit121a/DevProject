@@ -1,0 +1,8 @@
+Hello DevExpress support,
+Need you advice on how to place custom control on top of the ribbon. 
+Please see screenshot in attached archive.
+I need to places there a control consisting of two dropdowns.
+Suspect it will be to implement a custom RepositioryItem but may be you can recommend which one to use as a base one.
+Sample project is attached.
+Thanks in advance.
+Dmtiry

@@ -1,0 +1,12 @@
+Hello,
+I'm experiencing some weird behaviour of the TreeListControl. Filters appear to only work on nodes whose parent nodes have been expanded at least once.
+I've attached an example to demonstrate this.
+1. Start the application.
+2. (Do not touch any nodes yet) Apply a "SomeValue equals 8" filter in the filter editor.
+3. => No results => Disable the filter.
+4. Expand and collapse the node "Parent2".
+5. Reactivate the filter.
+6. => The filter works properly on "Parent2" (but not on "Parent1" or "Parent3").
+I can hardly imagine that this is an intended "feature". My guess here is that there's some visibility property that needs to be set on the child nodes for the filters to work.
+My current workaround is to call ExpandAllNodes() and CollapseAllNodes() on the TreeList after loading all my data. This appears to set the required property of all child nodes.
+Is there some way for me to set a property or a row style or something directly in XAML that enables filters to work properly from the beginning?

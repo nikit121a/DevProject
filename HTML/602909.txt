@@ -1,0 +1,15 @@
+Hi,
+We developed an big project using:
+  - XtraReports (reporting web designer) version 17.1;
+  -  Front end: Angular JS;
+  - BackEnd: Asp.Net core (.Net full).
+We use the document:
+It's work 100%.
+Now, we are migrating this project to Angular 5 and TypeScript (XtraReports 17.2.4).
+1) I developed the frontEnd using the document:
+2) - I read the document bellow, but the aproach is using .Net MVC 4.0.
+Then, i need a example using asp.net core (.net full).
+In my projet version 17.1 Xtrareports, i am using this methods below:
+Then i don't find this method in the version 17.2.
+Can i help me?
+Thanks.

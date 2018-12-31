@@ -1,0 +1,10 @@
+Hi folks,
+i'm trying to set the database version.
+I read the support ticket (
+  ) but it does not help me.
+I change Module Project AssemblyInfo Version, however the Database Version is 0.0.0.0.
+I need the version number to get the updates to work.
+I attached a screenshot showing the Database Version 0.0.0.0 in the DatabaseVersionMismatch Event, while the AssemblyInfo Version is set to 1.0.0.1.
+Your feedback would be appreciated.
+Thanks,
+Micha 

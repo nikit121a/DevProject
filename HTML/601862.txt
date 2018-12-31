@@ -1,0 +1,2 @@
+The Dev Express Template Gallery does not let me create ASP.Net web site projects in Visual Studio 2017.  
+How can I use the Dev Express Template Gallery to create an ASP.net web site project in Visual Studio 2017? 

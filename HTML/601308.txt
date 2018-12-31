@@ -1,0 +1,2 @@
+Hello,
+I have a custom theme inherited from Mater ial Compact. I've noticed the ripple (which appears on click) color is sometimes gray, while sometimes it's the base color of my theme. Those ripples are hard to capture for inspect tools, so maybe you can show me a way to change their color everywhere in a centralized way with a few CSS rules?

@@ -1,0 +1,3 @@
+HI Team ,
+I am using Webchart control ,I should maintain distance between each point  is 50 on x-axis and 100 for y-axis and 50 for secondary y-axis . 
+Please help me what is the property to set interval for each point . 

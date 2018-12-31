@@ -1,0 +1,6 @@
+Hi
+We trying to use the javascript ExportTo('Xlsx') and ExportTo('Pdf') function, it works ok
+except that when there are extra customArgs that we pass in on the BeginCallback  function.
+I got a feeling I know the answer to this, but not sure how we going to handle it.
+Regards
+Francois 

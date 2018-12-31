@@ -1,0 +1,2 @@
+This issue was marked as fixed on ticket T233679, but I am seeing the same behavior with the latest version of the WinForm controls, 17.2.5.  I have confirmed this with ANTS Profiler.  The XtraTabPage is being kept alive by a reference from a TabControlAccessible object, even after all tab pages have been cleared.
+This same behavior does not occur when using the Microsoft TabControl.

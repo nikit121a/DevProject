@@ -1,0 +1,7 @@
+Hi, 
+It seems the option to add DevExpress Items to a project has been disabled from my context menu since I installed version 17.2.5. I used that option frequently when I was working in version 17.1, but now I'm going to recreate Scheluder reports version 17.2.5 using 
+ but I find out that I cannot add new DevExpress items to my project because the option is disabled.
+I'm sending you a screenshot.
+Regards, 
+Jesus
+ 

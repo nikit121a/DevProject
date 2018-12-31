@@ -1,0 +1,5 @@
+Hi,
+ when performing binding wpf-xpo object no show data?
+1?. Simple Editor Binding:   EditValue={Binding XPO.MemberRef.xxxx}. ---> No show data
+2?. LookupEdit with item source LinqInstantFeedbackSource and binding EditValue={Binding XPO.MemberRef!Key} --No show data, no load object
+?

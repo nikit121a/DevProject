@@ -1,0 +1,5 @@
+Hello
+I would like to know if there is a way to get a ASPxGridView column's width  on  the client side?
+Any help would be appreciated.
+regards
+Gauthier 

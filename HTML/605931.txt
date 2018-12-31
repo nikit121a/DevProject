@@ -1,0 +1,6 @@
+
+In version 17.1, this fix likely also fixed a related issue.  The issue is that if you use a parameter in a computed field expression and add it as a dimension (visible, not hidden), it also causes GetUnderlyingData() to return null.
+This issue is not a problem in 17.1, which we were very excited about.  However, we upgraded to 17.2 and now it's returning null again.  So, a bug was reintroduced and I bet it's closely related to this issue, which is why I'm adding this comment here.
+Let me know if you guys are aware of this issue.
+Update: 
+Here is a test project recreating the bug.  I added a computed field called "Computed Field 1" that is an expression adding two parameters together.  When you double-click, it attempts to GetUnderlyingData() for "Computed Field 1" and gets null.  I added a "Computed Field 2" with a simple string expression just to make sure that my code was right.  "Computed Field 2" works, "Computed Field 1" does not.

@@ -1,0 +1,3 @@
+Hi,
+my clients have catastrophic problem. When starting editing data in a cell, text grows each time edit is started. It only occurs when font size in system is set to Medium - 125% (or probably larger). In a 100% everything is ok.
+It probably started after upgrading from 17.1.8 to 17.1.10. Please send a fix Asap.

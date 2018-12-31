@@ -1,0 +1,6 @@
+
+
+2) In legacy version Both Resources where shown when the user grouped the Scheduler by Resource. In this version you must click on a small "+" sign that appears at the bottom of the Scheduler to show both resources in the same space, otherwise you must use the scrollbar. I want to show both resources by default. Is there any propery to adjust that behavior? I have not found any.
+I think that's all for now. Thank you very much for your time. 
+Regards, 
+Jesus

@@ -1,0 +1,8 @@
+Using the Web - Editor aspect of the Dashboard control, I can add a Textbox to my dashboard.  To this dashboard I can add N number of data bound values to it.  How can I access these Values in the textbox?  Additionally I would like to add the Parameters that were selected as well, to this textbox. I have researched and saw many ways to accomplish this in the WinForm version of the Dashboard, but none showed how to accomplish this for the Web version of the dashboard.  
+To expound, I have the value of 
+TotalSales (sum)   added to the Values section and then I have parameters of StartDate1 and EndDate 1 I would like to access as well, to present the line
+The Total sales for the dates of +Start Date thru +EndDate1 was $+TotalSales (Sum)
+Can you show me how to accomplish this
+thank you
+Todd
+ 

@@ -1,0 +1,3 @@
+very small space in NavBarControl for expand and collapse 
+when 
+  DevExpress.XtraEditors.WindowsFormsSettings.ScrollUIMode = ScrollUIMode.Touch; 

@@ -1,0 +1,3 @@
+Hello!
+I would like to specify my custom colors in my theme as resources in one place so a change of colors is easy and use them whereever i want in the rest of my custom theme . Can i get some advice on which resourcedictionary i should put these and how i can access them elsewhere. Do i need to create my own dictionary in my theme and put as merged dictionary where i use it or somwother solution.
+Thank you 

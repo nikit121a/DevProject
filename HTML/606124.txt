@@ -1,0 +1,2 @@
+Hi,
+I am using a checkedComboBoxEdit. When all items are selected the default behavior is that the checkedComboBoxEdit value is a string of  all the items in its list. I want a different behavior. I want to set its value to '' (empty string). How do I do that in VB.NET code?

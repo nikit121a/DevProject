@@ -1,0 +1,6 @@
+I'm currently evaluating migration from PopupWindowShowAction to SimpleAction, since there is no way how to cancel opening popup window once PopupWindowShowAction is clicked (as described here: 
+).
+Once I migrated several actions I found out, there is a difference in ListView loading behavior. When popup window is opened from PopupWindowShowAction, this code works fine:
+When the same code is called from Execute event of SimpleAction, objects are not loaded into respective ListView. Only empty ListView is shown. Nevertheless, if I use XPObjectSpace instead NestedObjectSpace, everything works fine even for SimpleAction.Executed event handler. 
+What is the difference. Do I something wrong? Is this behavior by desing?
+Thanks

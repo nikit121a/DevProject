@@ -1,0 +1,5 @@
+Hi
+Can I get the MemoEdit SelectionStart property as a screen co-ordinate?
+I wish to display a popupmenu at this position. 
+Thanks,
+Niall 

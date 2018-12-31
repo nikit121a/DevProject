@@ -1,0 +1,10 @@
+I need to be able to not only disable but hide right click popup menus as the items don't match custom ribbon or I don't want those features used.
+        Private Sub scheduler_PopupMenuShowing(ByVal sender As Object, ByVal e As DevExpress.Xpf.Scheduling.PopupMenuShowingEventArgs)
+            'Disable the ruler popup menu:
+            If e.MenuType = ContextMenuType.TimeRulerContextMenu Then
+                e.Menu.IsEnabled = False
+                e.Handled = True
+            End If
+        End Sub
+This is what I have which disables the menu, but it still shows up.  Need e.Menu.IsVisible = False but it will not let me.  It's Read only. 
+Thank you. 

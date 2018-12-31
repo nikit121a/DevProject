@@ -1,0 +1,9 @@
+Dear Support Team,
+I am running one application where i used two gridlookups based on the first selection second is populating.
+Now the issue is when change first gridlookups selection then i see in server side code selected value is not the order which i selected there.
+Below is one scenario: When page loads first gridlookup selecting first value by default. Now unselect first value and select second and third value.
+I check this in my second gridlookup init method when getting value of gridlookup1  getting selected order of value. Now uncheck all value on fly and then select third item the second item in that case when see again in init method of gridlookup2 you can see there the select value is still accepting the previous selected order not the current order.
+For understanding purpose i attached one sample project here.
+Please let me know if you have any concern.
+Thanks,
+Veera 

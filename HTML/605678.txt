@@ -1,0 +1,7 @@
+Hello,
+Is there any tool available for nested rows? Consider the following data: 
+{"bedroom": {"bed", "nightstand"}, "livingroom": {"TV, "sofa"}}
+I would like to have a UI that displays a table with "bedroom" and "living room" each has a rowspan of 2. Please see attached screenshot for an example.
+Thanks
+Angel
+ 

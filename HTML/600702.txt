@@ -1,0 +1,7 @@
+Hello, I have a simple table (attachment).
+I have a html code of it: 
+And some C#-code: 
+At last, SQL-procedure (its working) which have 2 IN-parameters:
+Main problem is about to write something in Values (C#) to display information. But nothing appears. Empty table.
+Help me, plz.
+ 

@@ -1,0 +1,3 @@
+
+Hello. 
+How to hide the selection of the values of the formula, if the focus is not on the formula?

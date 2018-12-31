@@ -1,0 +1,11 @@
+I created a codepen with the example : 
+ 
+ When I edit a field and then press the TAB button that goes to the next field, as soon as I type, the focus is lost.
+At every valuechanged I need to update the datasource and I used this instruction:
+                                var changed = function (e)
+                                 {
+                                     options.data.Valore = e.value;
+                                 };
+but as soon as I update the datasource I lose the focus of the field.
+How can I solve the problem?
+ 

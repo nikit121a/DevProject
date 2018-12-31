@@ -1,0 +1,8 @@
+Hello, DevExpress support,
+Please advice me how to adjust spacing between ribbon's PageHeaders items.
+I need to place two controls onto ribbon's Page Header. 
+These two controls should appear with very small distance between them.
+Default distance is too big.
+As I can see that distance comes from some BarEditItem's padding around contained edit.
+Screenshot and sample project are in attached archive.
+Dmitry.

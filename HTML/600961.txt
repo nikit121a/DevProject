@@ -1,0 +1,1 @@
+ In my wpf application, I need to hide the main window, which contains a RibbonControl, and re-show it after a while. After that, the bar item in quick access tool bar cannot update its Enabled status correctly while changing BarItem.IsEnabled property. Actually, in your demo app, this issue still exists. Just hide the RibbonControl and re-show it, and you can find this issue.

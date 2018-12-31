@@ -1,0 +1,2 @@
+Hello, I need to load the DataSource of a grid from an async function, and to do this i use the RegisterAsyncTask to register it. But when I use the RegisterAsyncTask, the OnClick events of eventual ASPxButtons in the GridView are not fired when the buttons are clicked. If I load the DataSource without the RegisterAsyncTask, the events are fired. Is there a way to make the events fire even if I use the RegisterAsyncTask? I attach a sample project.
+Kind Regards.

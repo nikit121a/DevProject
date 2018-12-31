@@ -1,0 +1,11 @@
+Hi Team,
+In my project I am having the scenario as described below.
+Scenario :
+1.  I am using a dropdownbox with treeview template which loads the data from webapi service.
+2. The data will have a boolean field as 'IsSelected' .
+3.  When loading the page it will call the webapi service method and loads data to the dropdownbox.
+4.  If the above said field has data 'true' then checkbox for that item should be checked in the treeview and  also the text should get displayed in the 
+       dropdownbox editor during the initial load.
+Kindly provide me an example for this.
+Regards,
+Sneha 

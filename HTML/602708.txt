@@ -1,0 +1,7 @@
+Hello!
+I installed the VCL normally without any error messages and when I enter Delphi the components do not appear.
+If it is in the add / remove programs it is installed.
+I would like to know how to correct these problems.
+I have already unplugged and reinstalled and the problem persists.
+Att.
+Silvio

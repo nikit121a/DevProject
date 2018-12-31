@@ -1,0 +1,4 @@
+Hi, 
+I am trying to hide the items of a grouped menu items in a dxSlideout, however, the group header would still remain. 
+How can I hide the header as well, please?
+Thanks.

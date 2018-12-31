@@ -1,0 +1,7 @@
+Hi. 
+In a TileNav, if I sent the Command like below the command never fires.  (CanExecute is called many times).   My guess is the NavPane handling the command internally. 
+So how do I get this nav button to fire?    
+  <dxnav:TileNavPane.NavButtons>
+                <dxnav:NavButton Content="test" Command="{x:Static local:StationCommands.NavigateToPage}"/>
+Thanks
+Ivan 

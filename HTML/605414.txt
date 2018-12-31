@@ -1,0 +1,11 @@
+  
+  Check specified Employees by clicking on Employee's Checked row or by clicking on a whole project (in this case all Employees inside this Project must be checked automatically)
+When user checks all Employees, Project must be checked (Checked column)
+When user clicks OK button, all the selected Employees must be displayed
+  
+  When I check Project (Checked column), I need to collapse and expand child table with Employees to repaint it with new values
+If I change the Checked state of Employee, I must focus Projects row to repaint and refresh Project checked status
+When I select for example two Employees in one project and press OK, I see only one of them, even if unfocused Employee row before (Projects Checked column was updated)
+If I select Project, all Employees are selected, but when I click OK button, I dont see it in results list
+  
+  

@@ -1,0 +1,2 @@
+Hello team,
+In one of my screens I am having a gridview with custom binding and filters enabled in it, now one of my requirement is to append some extra conditions when a filter is applied on this grid, so is there any way I can do this

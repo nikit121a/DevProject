@@ -1,0 +1,6 @@
+I am porting a Visual Studio Windows Forms App.
+Now i want to loop through all rows in a  DevExpress.XtraGrid .GridControl.
+With a datagridview i would do:
+But how to do this with a  DevExpress.XtraGrid .GridControl?
+Regards,
+Hein

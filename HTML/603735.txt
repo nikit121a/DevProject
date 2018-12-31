@@ -1,0 +1,6 @@
+Hello,
+When a user clicks a filter button in either the XtraGrid or XtraPivotGrid controls, I want to show my own custom filter dialog.   
+What is the recommended way to handle this logic?
+Thanks,
+Mark
+ 

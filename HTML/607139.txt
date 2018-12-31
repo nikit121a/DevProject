@@ -1,0 +1,4 @@
+I have a GridView.
+I want that by double clicking in a row of the grid you load the detail of the row (a partial view) that replaces 
+the list in the page by taking over the details.
+ 

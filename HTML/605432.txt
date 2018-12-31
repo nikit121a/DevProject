@@ -1,0 +1,3 @@
+Hello:
+      Tdxspreadsheet how to set the length of the column data automatically set the width of the column ?
+      thank you very much  ?

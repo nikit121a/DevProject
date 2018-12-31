@@ -1,0 +1,6 @@
+Hi.
+I've got a DataGrid witch one column has the iditor defined to dxTagBox:
+...
+What I desire is When all items are selected, show just one item with "all" text, not show every select item, like in the image.
+I really wouldn't like to update the devExtreme version in this case.
+Thank you very much.

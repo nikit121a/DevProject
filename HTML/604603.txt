@@ -1,0 +1,7 @@
+I have a Gridview with 2 Custom bound Data Columns.  That's working great, but if I want to hide one of the columns on the grid, I start getting a JavaScript error on the other.
+I thought I might be able to resolve the issue by checking to see if the control exists before doing the PerformCallback like this:
+But I still get the following JavaScript Error Message:
+This issue can be reproduced in the example provided in Ticket T601707.  Just hide the first column by Right clicking the column and hiding it.  When you try to edit the text area the JavaScript error occurs.  
+To further illustrate my issue, I've updated and attached an example program.  If you hide the first column, the second column dropdown no longer works.  If you do it in reverse, the first column dropdown continues to work despite the APILock Error.
+Please advise how I can prevent the issues caused when hiding a column.  Thanks!
+ 

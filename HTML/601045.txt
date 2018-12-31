@@ -1,0 +1,6 @@
+Good morning,
+I have a gridcontrol with the list of dynamically loaded columns. At runtime I change the list of columns (add a new column). The new column does not show the value on the screen, but in the bind list the value is there. 
+How can I improve the content?  
+Attached an example  
+Thanks for the reply  
+Luca

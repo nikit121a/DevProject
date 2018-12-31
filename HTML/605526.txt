@@ -1,0 +1,4 @@
+Hello the present question is linked to the previous one we had regarding the enability of Copy/Paste in the RibbonItem.
+It appears the IsEnabled property of the different RibbonItems  is not linked to the IsEnabled property of their PopupMenuItem counterpart.
+In our case the copy and paste buttons are still available through the PopUp menu of the  spreadsheet.
+Is it the standard behavior  for the frameworks to separate the states of the Ribbon and PopUp buttons even if they are linked to the same action ?

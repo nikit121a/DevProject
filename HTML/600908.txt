@@ -1,0 +1,2 @@
+I have a detailview which is effectively replicating a wizard control. It contains 4 tabs. I have added an ASPxButton to the first page. When I click this button, I want to select the second tab. How do I achieve this? It is relatively easy in WinForms, but doesn't seem as straight forward in the Web (ASPx). Here is my controller:
+ 

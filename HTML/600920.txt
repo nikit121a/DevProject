@@ -1,0 +1,3 @@
+I am trying to Add/Update/Load/Delete a dashboard to my sql server database in the .NET Core Dashboard.  I have reviewed the examples for MVC and Webforms but since they are configured different for .NET Core I can't seem to get it to work.
+Is there a technical document or instructions/examples how to setup and do it in .NET Core ?
+Thanks in advance, 

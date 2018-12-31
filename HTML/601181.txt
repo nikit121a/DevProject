@@ -1,0 +1,6 @@
+I want to call an event on checkbox click in a devexterme grid cell.and add a new row in that event which will copy selected row data in a new row. 
+my grid definitions below:
+
+
+
+

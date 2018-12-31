@@ -1,0 +1,2 @@
+Hello,
+I have been working with the drag and drop behaviors in the 17.2.4 version using the BehaviorManager,  and it works pretty good for two gridviews. When using multiple grids (four views, or two pairs in my case), I can check in the behavior's DragDrop event whether or not to accept the data based on the source and target objects, but is there a way to provide the feedback to the user when dragging over the view in the DragOver event? It would be nice if the user has feedback before trying to drop a row into a grid that is not "paired" with the source grid.

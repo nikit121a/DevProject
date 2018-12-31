@@ -1,0 +1,3 @@
+Hello Dear XAF Team,
+I have a dashboard with 3 card item. I added them click property and atta ched the win and web controllers to the zip. And attached an image which i bordered with red borders, i want to give background color 3 of them both win and web. 
+Thanks for your support. 

@@ -1,0 +1,5 @@
+Hi,
+I need to carry out some live testing but the app is not yet ready for production, so I need to somehow disable the automatic version checking temporarily to prevent the 111 Error message telling users to update the database.
+How can I temporarily disable this check so that the DATABASE is NOT updated with a new version number when the app runs?
+Also, where is this version data stored in the database?
+ 

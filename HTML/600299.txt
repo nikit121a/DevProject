@@ -1,0 +1,1 @@
+I have a simple grid (see attachment).  The records are just loaded into a simple data grid.  I'm just thinking there is probably a better way to handle the case where one user has two roles (see Robert A Wilson).  Do you have any examples on better ways to do this? (I'm thinking grouping by name)

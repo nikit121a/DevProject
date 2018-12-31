@@ -1,0 +1,9 @@
+Hi,
+Please find the attached sample.
+Problem found:
+1) Search for a node and when the search is still in progress make the node bold.
+2) You can make the node bold by applying Snoop and Searching for the property FontWeight and changing it to bold.
+As i could not simulate the same in the sample, I am asking you to use Snoop and reproduce the same issue.
+As a whole i need a solution where in the nodes are bold even though the Search is in progress.
+Thanks and Regards,
+Prajaktha

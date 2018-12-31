@@ -1,0 +1,3 @@
+Hello,
+I have SearchLookupEdit controls  in various places on forms.  I have tried setting the PopupFormSize.Width, and also BestFitMode to BestFitResizePopup.  In both cases, when the popup opens, I see it flash at the width I want for it, and then it immediately resizes to the width of the editor.  How can I have the popup be wider than the editor and stay that way?
+Thanks! 

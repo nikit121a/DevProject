@@ -1,0 +1,1 @@
+How do I determine if the current cursor position is inside a Footer or Header? I Want show or hide RibbonTab when cusron in Header(footer) or in Document body.

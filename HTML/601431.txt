@@ -1,0 +1,9 @@
+Hi,
+I am trying to use ODataStore.keyOf to get the ID from my EMPLOYEE table like this.
+     
+ 
+I have tried different syntax and parameters, but always get "undefined". What might be wrong?
+ 
+Regards
+Atle
+ 

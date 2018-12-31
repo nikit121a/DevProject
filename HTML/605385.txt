@@ -1,0 +1,4 @@
+Hi Dears,
+I have a chart control with line series , I changed the marker model to be cross, circle... etc, and it changed in the series as expected, but the legend still display line, so, how can I change the legend marker model to be the same as series or to be binded to the series marker??
+check snapshot  please...
+thanks in advance 

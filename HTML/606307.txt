@@ -1,0 +1,2 @@
+its clear now how to archive borderlines between bands.
+ there is still one problem: how to draw images when I have assigned a cxImageCombobox?

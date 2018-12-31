@@ -1,0 +1,8 @@
+Hello!
+Speaking about 
+, it allows to implement painters for items and groups to customize drawing text, captions and so on. It is clear how to do so for GalleryControl, but not for 
+. 
+Attached application is an example that illustrates a custom painting for 
+(at the center of the form) and displays red line that separates items from group caption. How to implement a custom paint for 
+?
+Thank you in advance!

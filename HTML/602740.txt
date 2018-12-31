@@ -1,0 +1,8 @@
+Hi
+We have migrated our DevExpress version from 17.2.4 to 17.2.5
+Before doing the migration we were able to create executable files; and those files were  distributed into our Client?s PC; and we were able to run the application there.
+Now, after downloading the upgrade, the application (exe file created under 17.2.5) is not running anymore. The appication asks for the initial login screen, but after doing entering the user & password the application suddenly stops running and no further application screens are displayed. 
+Please take in consideration that in a previous ticket, you suggested us: "
+ " We did that when we had the 17.2.4 version and we solved the problem that time, but now with the 17.2.5 version we started having the same problem again.
+We understand that the executable files created with the license can be re-distributable to other clients or machines without requiring additional licenses.  I?m attaching a file with some screens displaying the error, I hope it helps you to find the solution to our problem. 
+We require your support to make us run that file in other machines. If we are still missing something please let us know. Many thanks in advance for your response.

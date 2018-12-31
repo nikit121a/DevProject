@@ -1,0 +1,70 @@
+I find that the below XAML cannot bind multiple selected items to ComboBoxEdit.EditValue
+How should i change my AddCompanyInput  object in order to bind the list of selected itesm from  ComboBoxEdit.EditValue
+                <dxlc:LayoutItem Label="??">
+                    <dxe:ComboBoxEdit
+                        ItemsSource="{Binding Warehouses}"                        
+                        DisplayMember="Name"
+                        ValueMember="Id"
+                        IsTextEditable="False"
+                        InvalidValueBehavior="WaitForValidValue" Name="cboWareHouse" 
+                                  NullText="?????" NullValue="" AllowNullInput="False" ShowNullTextForEmptyValue="True"
+                                  ValidateOnEnterKeyPressed="False" ValidateOnTextInput="True" CausesValidation="True">
+                            <dxe:ComboBoxEdit.StyleSettings>
+                            <dxe:CheckedTokenComboBoxStyleSettings/>
+                        </dxe:ComboBoxEdit.StyleSettings>
+                        <dxe:ComboBoxEdit.EditValue>
+                            <Binding Path="input.SelectedWarehouseList" UpdateSourceTrigger="PropertyChanged" Mode="OneWay">
+                                <Binding.ValidationRules>
+                                    <validate:RequiredValidationRule FieldName="??"/>
+                                </Binding.ValidationRules>
+                            </Binding>                                
+                        </dxe:ComboBoxEdit.EditValue>
+                    </dxe:ComboBoxEdit>
+                </dxlc:LayoutItem>
+            </dxlc:LayoutGroup>     
+May i know how should my input object to be in order to bind the object in my ViewMode
+    [POCOViewModel]
+    public class AddCompanyViewModel : IDocumentContent
+    {
+        protected virtual IMessageBoxService MessageBoxService { get { return null; } }
+        private static readonly Logger Logger = LogManager.GetCurrentClassLogger();
+        private static int count = 1;
+        public virtual string Caption { get; set; }
+        public virtual bool AllowClose { get; set; }
+        public void Close() => DocumentOwner.Close(this, false);
+        public virtual AddCompanyInput input { get; set; }
+        public virtual ObservableCollection<ParentCompanyDto> ParentCompanies { get; set; }
+        public virtual ObservableCollection<WarehouseDto> Warehouses { get; set; }
+        public static AddCompanyViewModel Create()
+        {
+            return ViewModelSource.Create(() => new AddCompanyViewModel());
+        }
+        public AddCompanyViewModel()
+        {
+            Logger.Info("Start AddCompanyViewModel");
+            Caption = "?????" + count++;
+            AllowClose = true;
+            input = new AddCompanyInput();
+            Refresh();
+            Logger.Info("End AddCompanyViewModel");
+        }
+    public class AddCompanyInput
+    {
+        public string Code { get; set; }
+        public string Name { get; set; }
+        public string NameEn { get; set; }
+        public string ShortName { get; set; }
+        public string Phone { get; set; }
+        public string Fax { get; set; }
+        public string Email { get; set; }
+        public string Addr { get; set; }
+        public string SendAddr { get; set; }
+        public string RevAddr { get; set; }
+        public string ContactPerson { get; set; }
+        public string Mobile { get; set; }
+        public bool Disuse { get; set; }
+        public int ParentCompanyId { get; set; }
+        
+        public List<object> SelectedWarehouseList { get; set; }
+    }
+ 

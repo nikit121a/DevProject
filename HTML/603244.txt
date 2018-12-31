@@ -1,0 +1,14 @@
+Hi,
+We get sometimes the following message: Cannot create a document for the current report
+As i see the build request will be created, but the response is empty, we do not get any logs and any exceptions.
+With VS i can reproduce it, i just compile the application, then i use it everything is fine, i can create reports, then i stop it and restart it.
+The page is still open, so i reload the page, and then i get this following exception, because on the "beforeunload" event we call this "viewer.GetPreviewModel().reportPreview.deactivate();"
+Exception:
+ReleaseHandleFailed occurred
+Message: Managed Debugging Assistant 'ReleaseHandleFailed' has detected a problem in 'C:\Program Files (x86)\IIS Express\iisexpress.exe'.
+Additional information: Ein SafeHandle oder CriticalHandle vom Typ "ZLibStreamHandle" konnte das Handle mit dem Wert 0x00000000 nicht ordnungsgem?? freigeben. Dies zeigt normalerweise an, dass das Handle auf andere Weise falsch freigegeben wurde (z. B. durch Extrahieren des Handles mit DangerousGetHandle und direktes Schlie?en oder durch Erstellen eines anderen umschlie?enden SafeHandles.)
+ After that we can not create reports, all of the responses of the buildrequests are empty.
+If i remove the "deactivate" then everything is fine.
+Do you have an idea for me?
+Thanks,
+Gy?rgy

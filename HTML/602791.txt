@@ -1,0 +1,4 @@
+Hello,
+I am using TdxUIAdornerManager with TdxGuide. Which is great. But for end users who are not  familiar with the concept, it is difficult to close the guide"form". Maybe they did not know to use the "esc" key. Two options are nice to have:
+1.  The esc key shoud also work, if a guide-control is visible/active.
+2. If the user clicks outside a guide (but in the gray area), the form should also close (Active=False).

@@ -1,0 +1,9 @@
+I am wondering if there is a way to set each Point's legend text individually  inside a Pie chart. I need this to accomplish the following scenario:
+I have a pie chart which displays wedges based on the number of records which have values within a given range. 
+I would like to display legend text for each wedge in the chart based on its range like so: "<Argument> <RangeMin>-<RangeMax> <Percentage of Total>"
+Here are some of the issues I've run into and what I've tried:
+1.) 
+When I attempt to format the legend text as written above, the legend will display the average of the minimum and maximum value instead of the Min + "-" + Max. This occurs even if I explicitly set the LegendTextPattern to display a static value. You can see an example of this in the first attached image.
+2.) 
+When attempting to set the legend text for each point individually, it seems to set the legend text for the whole series.  I have tried to do this using the Series.LegendTextPattern as there does not seem to be a property which I can set each Wedge's legend text. In addition, I have also tried overriding the CustomDrawSeriesPoint method and setting the CustomDrawSeriesPointEventArgs.LegendText as well and noticed the same result. To illustrate this point, I have overridden the CustomDrawSeriesPoint method to set the  CustomDrawSeriesPointEventArgs.LegendText to a random integer for each point, however each legend item would display only the last Point's integer in the legend.
+Any help you can give would be appreciated.

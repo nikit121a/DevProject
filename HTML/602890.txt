@@ -1,0 +1,6 @@
+Hello.
+I have code in my xaml 
+:
+When I trying to run my application with this page - all content from window are dissappeared.
+If i delete blocks of code with "<dxmvvm:Interaction.Behaviors>" tags - all works fine.
+So, is that problem on your's side or i'm doing wrong?

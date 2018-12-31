@@ -1,0 +1,1 @@
+I am using GridControl SaveLayoutToXml(FileName) to save a GridControl's layout. Can I save multiple GridControl layout to one single file? Thank you.

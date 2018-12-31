@@ -1,0 +1,3 @@
+Hi, 
+I am using Pivot Grid  in XafReport, i want  to sort the column header by a different field. 
+How i can do that ? 

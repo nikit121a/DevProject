@@ -1,0 +1,3 @@
+Hello DevExpress,
+I inherited a project developed eXpressAppFramework, but I can't find >
+How can I add column summary like: Total Sum of column, Average Sum of column and etc.  in grid's footer like on screenshot which I applied.

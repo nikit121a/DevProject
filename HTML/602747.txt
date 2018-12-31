@@ -1,0 +1,4 @@
+Hi
+I did like this example
+but when i export excel its not merge cells on excel.
+How can i horizontally  merge cells on excel?

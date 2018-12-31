@@ -1,0 +1,7 @@
+Hi guys,
+I want to pass some additional information along with  the files I upload; normally I'd use customArgs on the begin callback  but I note that the MVC UploadControl doesn't have a begin callback and  the 'FilesUploadStart' event's 'e' property does not contain a  customArgs property.
+While searching your help forums I found this: 
+ which says it can't be done directly and one needs to use an ASPxHiddenField control; but I cannot find any reference to this within the mvc framework versions (I also not it is in the ASP demos but not in the MVC set).
+So, do I need to use the HiddenField control; and if so how? Or is there another way I can send additional data along with the file upload?
+Thank you,
+Stan

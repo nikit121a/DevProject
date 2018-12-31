@@ -1,0 +1,6 @@
+Hi, 
+I attached a video to demonstrate this and also a sample application.
+I seems that it does not happen all the time, but you can see in the video how applying Sugiyama algorithm does not correct the connector type. But if I drag a little bit the node connected by the wrong typed connector, the layout updates automatically and connector type is corrected. After this step, if I click again on "Apply Sugiyama" button, the mentioned connector does not get wrong anymore.
+Please take a look.
+Best regards,
+Alin

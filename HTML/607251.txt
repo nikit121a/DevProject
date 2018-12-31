@@ -1,0 +1,11 @@
+I am unsure on how to set the fields in a Filter builder for an Ienumerable datafield's sub properties. I understand we can use the "Allow Hierarchical" if the datafield is not an IEnumerable.
+Below is a sample code, where I am trying to filter the "Products" datamember in the ViewModel, by its name!!
+  @(Html.DevExtreme().FilterBuilder<PageViewModel>()
+                .AllowHierarchicalFields(true)
+                .Fields(fields =>
+                {
+fields.AddFor(m => m.Products.First<ProductModel>().ProductName)
+                            .Lookup(l => l.DataSource(Model.Products.Select(s => s.Name)));
+})
+)
+I understand this is wrong, but could you guide me on how to set it right? Also, the results of this datasource I am populating to a dxlist.

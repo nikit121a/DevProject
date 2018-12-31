@@ -1,0 +1,8 @@
+Hi I've spent the whole night trying to make this work.
+Is this requirement possible? and how can I implement it? I already read several posts and I couldn't see the same requirement as I have in the forums.
+Here's the screenshot of my work,  first the GridControl was displaying all of the data.
+The main usage  GridLookUpEdit is to show the list of users who are not yet added on my table, let's call this "BlacklistTable" In other words, if they're already in the BlacklistTable, they will no longer appear in my  GridLookUpEdit.
+Then I modified the Username column property: ColumnEdit to use GridLookUpEdit, and the Username column doesn't display the values anymore. I think it's because of the datasource of GridLookUpEdit.
+Can you guys help me with this? 
+Thanks,
+Josh

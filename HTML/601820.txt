@@ -1,0 +1,12 @@
+I am using the webchartcontrol and using the funnel type chart.  I run the report fine but I the legend is showing the numbers  for the series point and not the string provided in the "s.Points.Add(new SeriesPoint("StringValue", numval))".  How do I set the legend to show the string and not the number.  Below is my code.
+Series s = new Series("Funnel", ViewType.Funnel);
+ if (chartTypeStr == "Funnel") { wbc[wbcNum].SeriesTemplate.View = new FunnelSeriesView(); }
+ if (chartTypeStr == "Funnel3D") { wbc[wbcNum].SeriesTemplate.View = new Funnel3DSeriesView(); }
+foreach (DataRow row in dtWBC.Rows)
+{
+      int numval = 0;
+      bool result = int.TryParse(row["ChartCounter"].ToString(), out numval);
+                        
+     s.Points.Add(new SeriesPoint("StringValue", numval));
+}
+ wbc[wbcNum].Series.Add(s);

@@ -1,0 +1,5 @@
+We've just upgraded from DX 16.2.3 and an old problem we had has returned where our OCX can no longer be registered with Wndows using REGSVR32 - it just hangs.
+This feels very famliar as we had a similar issue back in the day of 16.2.2 where there was an issue in cxDateUtils.pas to do with InitializeUtils/FinalizeUtils which you supplied a hotfix for and then fixed in 16.2.3
+I've checked this cxDateUtils.pas file again, but thats not the cause of it this time.
+Can you help please?
+Pete

@@ -1,0 +1,4 @@
+Hello,
+Can you send us instructions on how to upgrade our current VCL DevExpress components from V13.2 to V14.2.12.
+Thank you.
+Maria 

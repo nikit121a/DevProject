@@ -1,0 +1,4 @@
+I have tried to integrate the Dev Express Menu Bind template into my project in VS 2017 MVC 5 Razor pages. I can execute the menu as a stand alone in a separate View folder and it works fine.
+The issue is how to incorporate it into all of my page from the Shared HeaderPartialView.  The _rootLayout and Header page keeps giving error that the models will not co-exist. Tried to change the enum code in HomeController to no avail. Tried to research prior topics to no useful information. Examples do not cover the complete integration process. This is my 4th day trying get this to integrate. Please do not even think about: have I read or researched this and that. Dev Express simply does not supply adequate information in how to do complete integration for binded menus.
+ I have attached my project for review and assistance.
+Thank You!

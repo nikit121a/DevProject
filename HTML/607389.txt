@@ -1,0 +1,43 @@
+I am trying to seed a spreadsheet with several tabs.  I don't need two-way databinding, I just need to load each tab from a different SQL datasource.
+Perhaps my approach is incorrect, but I could not find a way to simply import from a datasource in the ASP.NET controls..
+I am using the following command to load the  data:
+Note 1: code cut down for brevity.
+Note 2: the first tab loads correctly.
+       Dim worksheet As DevExpress.Spreadsheet.Worksheet = Nothing
+        worksheet = Spreadsheet.Document.Worksheets(0)
+        Dim dt As DataTable = CType(SDSBuildingUse.Select(DataSourceSelectArguments.Empty), DataView).Table
+        worksheet.DataBindings.BindTableToDataSource(dt, StartRowIndex, StartColumnIndex, opts)
+... format column widths and some formulas
+...
+...
+Second tab....
+        Spreadsheet.Document.Worksheets.Add("Additional Renewal")
+        Dim AddRenewalWKS As DevExpress.Spreadsheet.Worksheet = Spreadsheet.Document.Worksheets("Additional Renewal")
+        Dim dt2 As DataTable = CType(SqlDataSource1.Select(DataSourceSelectArguments.Empty), DataView).Table
+        
+I get the following error on the last line:
+System.InvalidOperationException was unhandled by user code
+  HResult=-2146233079
+  Message=The name you entered already exists. Enter a unique name.
+  Source=DevExpress.Spreadsheet.v17.1.Core
+  StackTrace:
+       at DevExpress.XtraSpreadsheet.API.Native.Implementation.ApiErrorHandler.Visit(ModelErrorInfo info)
+       at DevExpress.XtraSpreadsheet.Model.ModelErrorInfo.Visit(IErrorInfoVisitor visitor)
+       at DevExpress.XtraSpreadsheet.API.Native.Implementation.ApiErrorHandler.HandleError(IModelErrorInfo errorInfo)
+       at DevExpress.XtraSpreadsheet.Model.ErrorHandledWorksheetCommand.HandleError(IModelErrorInfo error)
+       at DevExpress.XtraSpreadsheet.Model.InsertTableCommand.Validate()
+       at DevExpress.XtraSpreadsheet.Model.DataBoundTable.SetTable(CellRange range)
+       at DevExpress.XtraSpreadsheet.API.Native.Implementation.NativeBindingRangeCollection.BindTableToDataSource(Object dataSource, Int32 rowIndex, Int32 columnIndex, ExternalDataSourceOptions options)
+       at DevExpress.XtraSpreadsheet.API.Native.Implementation.NativeBindingRangeCollection.BindTableToDataSource(Object dataSource, Int32 rowIndex, Int32 columnIndex)
+       at FCA_SpreadsheetTest.LoadMainBldgRenewalWks(Worksheet& worksheet) in C:\inetpub\wwwroot\SandboxV2\FCA\SpreadsheetTest.aspx.vb:line 149
+       at FCA_SpreadsheetTest.bntLoad_Click(Object sender, EventArgs e) in C:\inetpub\wwwroot\SandboxV2\FCA\SpreadsheetTest.aspx.vb:line 31
+       at DevExpress.Web.ASPxButton.OnClick(EventArgs e)
+       at DevExpress.Web.ASPxButton.RaisePostBackEvent(String eventArgument)
+       at DevExpress.Web.ASPxWebControl.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+       at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+       at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+       at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+  InnerException: 
+Please help anyway you can as I am on a deadline.
+Many thanks
+D 

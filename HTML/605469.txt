@@ -1,0 +1,2 @@
+Hello Support,
+In gridview we are trying to get summary of a column and its coming also but not properly. Kindly check screen shot . We wanted column SUM total to come below particular column. 

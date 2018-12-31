@@ -1,0 +1,9 @@
+Hello,
+I want to do some operation to  controller side from view.
+devexpress mvc gridview + batch edit mode + client visible false fields doesn't take value to controller 
+when i use batch edit mode in gridview then client visible field's value not getting in controller. why ?
+is there any solution ?
+please help me by giving any example demo....
+Your Reply is so valueable. please resolved my issue as soon as possible.
+thanks,
+Milan

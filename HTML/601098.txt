@@ -1,0 +1,3 @@
+Hi Guys,
+Have an issue with ColumnPanelRowHeight, I've set it to 30 and on some grids it works fine, on others it's only 23 however when I check the value with Msgbox(lst.Gridview1.ColumnPanelRowHeight) it returns 30 on all of them, what am I missing? 
+Ive included a screenshot to show you two Grids side-by-side, visually there is a clear difference but the ColumnPanelRowHeight both reports as 30 when tested 

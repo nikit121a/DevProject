@@ -1,0 +1,5 @@
+Hi,
+I have a customer HTML property editor which works well in the eXpressApp Framework except the object needs to be saved even when no changes have been made.  This happens whenever the form is closed or you move on to the next / previous record - see screen clip.
+Here is the code for the editor:
+The ValueChanged event does not fire unless you actually type something into the control, but something is happening behind the scenes which seems to be making the object modified and require saving.  I have checked the HTML tags and nothing is changing in the HTMLBodyText.
+I have emailed the control developers for help and they say it is a standard Windows .Net control and although it should work fine in any Windows Forms App and although they haven't tried it in an eXpressApp framework they are not aware of any similar issues being reported.  I realise this is not a DevExpress issue but was wandering if the eXpressApp framework itself  calls any particular events which may cause this issue when closing or validating an object for instance?

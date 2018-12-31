@@ -1,0 +1,6 @@
+When I am on the web, I can scroll both horizontally and vertically using only my mouse wheel.
+Wheel up/down -> vertical
+Wheel left/right -> horizontal
+However, this does not seem to work on dxDataGrid for the horizontal scrolling.
+When wheel left/right, result is vertical scroll instad of horizontal.
+Is there any way to scroll horizontally using wheel left/right?  

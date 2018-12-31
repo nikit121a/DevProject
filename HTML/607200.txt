@@ -1,0 +1,11 @@
+Hi,
+I am updating my code that draws custom button in a colu mn's header.
+I am using RepositoryItemButtonEdit with 
+RepositoryItemButtonEdit.Buttons[0].Kind = ButtonPredefines.Plus;
+or 
+RepositoryItemButtonEdit.Buttons[0].Kind = ButtonPredefines.Minus;
+Code is subscribed to CustomDrawColumnHeader event.
+In order to adjust caption's rectangular i need to know button's dimensions.
+In runtime RepositoryItemButtonEdit.Buttons[0].Image is null and other characteristics such as Width and Height are unavailable.
+How do I get  button's dimensions?
+Thank you 

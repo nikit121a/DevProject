@@ -1,0 +1,3 @@
+I am following the examples in the KB for adding file attachments to my project. It is proving difficult to follow them.
+I am failing to see where to add the FileAttachmentBase. I created my table (XPObject), but I can't add the FileAttachmentBase base class since it is already a XPObject base class.
+Do you have a sample project with a simple file attachment with the ORM Data Model? 

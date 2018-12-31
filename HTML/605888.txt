@@ -1,0 +1,3 @@
+I am trying to handle the ShowFilterPopupDate event on a gridview (as demonstrated in this article on your website - 
+), 
+but the event is not being fired when I click on the filter of a date column and the filter popup is displayed.

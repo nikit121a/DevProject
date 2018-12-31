@@ -1,0 +1,3 @@
+Hi
+As you can see in Img2.png, if I'm using a T abForm with one page opened, if I change the TabForm windowstate from maximized to normal, the buttons minimize, maximize and close will not appear until I click the form header...
+Can you solve this probelm? 

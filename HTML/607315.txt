@@ -1,0 +1,23 @@
+I have a ASPxDateEdit set up like this:
+<dx:ASPxDateEdit ID="dateEdit" runat="server" EditFormat="Custom" Date="2009-11-02 09:23" Width="190" Caption="ASPxDateEdit">
+    <TimeSectionProperties Adaptive="true">
+        <TimeEditProperties EditFormatString="hh:mm tt" />
+    </TimeSectionProperties>
+    <CalendarProperties>
+        <FastNavProperties DisplayMode="Inline" />
+    </CalendarProperties>
+</dx:ASPxDateEdit>
+On Page load I do this:
+  dateEdit.TimeSectionProperties.Visible = true;
+  dateEdit.UseMaskBehavior = true;
+  dateEdit.EditFormatString = "dd/MM/yyyy hh:mm tt"; 
+  dateEdit.DisplayFormatString = "dd/MM/yyyy hh:mm tt";  
+        
+When I enter a date of 02/28/2012 it looks like this 02/02/8201. 
+This happens on your web site as well. :
+ 
+Why?  Can you tell me why your demo web page behaves this way or way y code copied from the web page does?
+Thanks you.
+Jack slyfield
+jacks@dlcoffee.com
+ 

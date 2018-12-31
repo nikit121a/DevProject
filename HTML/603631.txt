@@ -1,0 +1,46 @@
+I am having issues with the text blurring on my webDocumentViewer, until now I was using DocumentViewer but we had an issue with text splitting (see this 
+) and was directed to webDocumentViewer where the problem only exists in the PDF export but that is not the issue right now.
+I need to find a way to stop the text blur, I only get a clear inage at 80% or 175% zoom on Chrome(Version 63.0.3239.132 (Official Build) (64-bit)) which ~90% of our users are on. I have spent a whole day now drifting through your support threads not really finding anything that can help me with the issue and I have followed your demo example to the best of my ability.
+We are using our clients own font here, but we never had this issue on DocumentViewer so it shouldn't be that.
+Here's the relevant config:
+  <devExpress>
+    <themes enableThemesAssembly="true" styleSheetTheme="" theme="Moderno" customThemeAssemblies="" font="12px 'ClientsOwnFont'" />
+    <compression enableHtmlCompression="false" enableCallbackCompression="true" enableResourceCompression="true" enableResourceMerging="true" />
+    <settings accessibilityCompliant="false" doctypeMode="Html5" rightToLeft="false" embedRequiredClientLibraries="true" checkReferencesToExternalScripts="false" ieCompatibilityVersion="edge" />
+    <errors callbackErrorRedirectUrl="" />
+    <resources>
+      <add type="ThirdParty" />
+      <add type="DevExtreme" />
+    </resources>
+  </devExpress>
+And here's the settings on the page:
+@Html.DevExpress().WebDocumentViewer(
+settings =>
+{
+    settings.Name = "WebDocumentViewer";
+    //settings.Report = Model.Report;
+    //settings.CallbackRouteValues = new { Controller = "VisitReport", Action = "ClientVisitReportPartial", id = Model.VisitReportId };
+    //settings.ExportRouteValues = new { Controller = "VisitReport", Action = "ClientVisitReportExportTo", id = Model.VisitReportId };
+    //settings.ClientSideEvents.BeginCallback = string.Format("function (s, e) {{ e.customArgs['id'] = '{0}'; e.customArgs['refresh'] = jQuery('#documentRefresh').val(); }}", Model.VisitReportId);
+    //settings.ClientSideEvents.EndCallback = "function(s,e) {{jQuery('#documentRefresh').val('false');}}";
+    //settings.SettingsSplitter.ParametersPanelCollapsed = false;
+    //settings.SettingsSplitter.SidePaneVisible = false;
+    //settings.SettingsReportViewer.UseIFrame = false;
+    //settings.StylesReportViewer.ShowDocumentShadow = true;
+    //settings.PreRender = (sender, e) =>
+    //{
+    //    //// Ugly code to remove some of the standard output options...
+    //    var dv = sender as MVCxDocumentViewer;
+    //    var tb = (ReportToolbarComboBox)dv.ToolbarItems[16];
+    //    tb.Elements.RemoveAt(8);
+    //    tb.Elements.RemoveAt(6);
+    //    tb.Elements.RemoveAt(4);
+    //    tb.Elements.RemoveAt(3);        
+    //    dv.ToolbarItems.RemoveAt(15);
+    //    dv.ToolbarItems.Add(tb);
+    //};
+}).Bind(Model.Report).GetHtml()
+The commented out lines were  used for our DocumentViewer settings.
+I will add that if the page zoom is on Page Width then it looks fine at 100%, is there a way to change that on rendering?
+Ideally the text will change size on page zoom, would this end up being a CSS pixel width job (the reports contain several font sizes so this may prove difficult)
+This contains comercially sensitive data so i cannot provide screenshots unfortunately. 

@@ -1,0 +1,4 @@
+Hello,
+I'm trying to upgrade my MVC project using DevExtreme from 17.1.4 to 17.2.5. When I do this upgrade, my dxLookup boxes don't work in iOS any longer. Tapping on an item in the list doesn't select that item. When I downgrade back to 17.1.4, the dxLookup works again as expected.
+Thanks,
+Eric 

@@ -1,0 +1,8 @@
+Hi DevExpress,
+thank you for your amazing work and quick support. Let's have I look into the issue. Our project is consist of two parts. 
+First part is windows service that is used as data provider. This part communicate with others via SignalR and is connected to database via XPO. 
+Second part is application for presenting data. This application implementing GridControl. DataSource of it have to be provided from first application via SignalR.
+ 
+What kind of data should be returned from SignalR method to get all functionality of GridControl (grouping, filtering etc.).
+ 
+So is there any recommendation how to solve this issue ?  Or could you please provide an example solving this issue ? 

@@ -1,0 +1,10 @@
+Hello Experts, 
+We recently upgraded DevExpress Version 17.25 for our application. 
+But we noticed that ColorDataMember does not display the bindable color property. Earlier version (17.1.4) it was working well. 
+We have Series ItemSource, where ArgumentDataMember, ValueDataMember and ColorDataMember are associated to predefined properties with BarSideBySideStackedSeries2D. 
+Ex) 
+We want to display some specific colors, but currently it shows all default colors. 
+The color property type is System.Windows.Media.Color
+ Please guide me how to fix the issue. 
+Best Regards
+Parth 

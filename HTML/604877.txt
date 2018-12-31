@@ -1,0 +1,8 @@
+Hi,
+I have a slight problem using the grid.
+If I add a column with 
+then the column is ReadOnly immediately.
+The same happens if I just say AutoPopulateColumns. The column Amount gets created but is ReadOnly.
+Is there something I can do to prevent this?
+I have a property called "Amount " in my data, and I'd like to bind to that.
+ 

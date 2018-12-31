@@ -1,0 +1,2 @@
+I am using Chart Control having more than two series of data to be plotted as Line Chart. Some of the series have same valued data hence their lines are overlapped with the one which is added later to graph. 
+I need to increase the thickness of the line which is overlapped by other in case of any overlapping so that both(can be more) the lines are visible. But I want to keep the thickness same if there is no overlap.

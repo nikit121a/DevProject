@@ -1,0 +1,1 @@
+Currently, the EndDate value is calculated automatically based on the StartDate value only when the DateEditRangeSettings.MinDayCount property is greater than 0.

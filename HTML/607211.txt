@@ -1,0 +1,5 @@
+
+
+I have a unique field, when I remove the files from the application level, and then trying to re-set the deleted record, I get a message that the rokord already exists! 
+
+

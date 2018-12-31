@@ -1,0 +1,8 @@
+ Hi
+on a project i just introduced a  skincontroller
+And now some of my icons have purple edges, the png have both the one from imagecontainer and running program.
+The icon is from an Actionmanager and put on an Speedbuttons action. this happens dynamical.
+so no direct load of glyph. just speedbutton.action := myAction.TheAction;
+Have you seen something like this before?
+Thanks
+Per Klitgaard 

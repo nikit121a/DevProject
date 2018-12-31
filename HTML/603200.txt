@@ -1,0 +1,2 @@
+Hello,
+is it possible to fix one resource column, so even if I navigate through the resources  the one stays always visible.

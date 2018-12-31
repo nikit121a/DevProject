@@ -1,0 +1,1 @@
+Hello, how can I change width and height of the my inherited TcxSchedulerEventModernInfoContainer??? 

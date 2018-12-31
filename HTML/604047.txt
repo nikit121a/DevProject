@@ -1,0 +1,8 @@
+Hello. 
+One of our user's most request using our software is that the first impression of a report take too much time to show (in preview dailog or direct print).
+ We supposed that the report is compiled the first time we are printing a data linked to that report, and is cached for the next prints. 
+Is there a way to pre load a list of most printed report (ticket report, bill report...) in another thread when user is connecting to his session in our application ? 
+Do you have some optimisation advice to speed up the first report execution for a datatype when printed ? 
+All our report are created using the Report V1 module. 
+Thank you. 
+Florent. 

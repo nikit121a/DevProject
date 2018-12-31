@@ -1,0 +1,14 @@
+Hello team, 
+  I should create spreadsheet during runtime to meet customers needs.
+  but I stuck on how to create menu bar. 
+  I saw one ticket before. (but now I can't find it.. sorry..)
+  If I want to use the existing menu (like in the attachment, FormatNumberDecreaseDecimal button)
+  then I should  follow up the designer code. 
+  Anyway, I tried to do it but it draws the menu and icon as well
+  however, button is not working. 
+  (plz check WATCHME.gif! try put 0.9281 and click the FormatNumberDecreaseDecimal button) 
+ [Attached solution, VS 2013] 
+  Design project - I add menu with design mode. 
+  Trial project - It's my trial to imitate the design code.
+I hope the FormatNumberDecreaseDecimal works and I can create the menu by code.
+thank you in advance. 

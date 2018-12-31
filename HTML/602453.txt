@@ -1,0 +1,6 @@
+In DevExpress WPF grid, I'm generating columns dynamically see below ticket.
+In Columns I need to bind Columns to objects using indexer that returns System.Object, so I need to type cast it to object. Please note indexer of object and it's contained objects returns System.Object and indexers have some business logic to return objects based on index.
+I tried like below but it doesn't work
+Please note UnboundExpression will evaluate to as below for e.g.
+ 
+Also tried using Binding Path:

@@ -1,0 +1,6 @@
+Hi,
+I want to apply Conditional Formatting on DXGrid Row . Example a grid is bound to database table which is showing orders. Order table has a field called "DueDate". While showing records on Grid all the rows, where "DueDate" is less then Today's date, should be shown in red color.
+Similarly Order Table has a field called "Status", So All the rows with status as "Closed" should be shown as "Strike out"
+Please suggest how can I achieve this.
+Thanks
+Lokendra Kushwah 

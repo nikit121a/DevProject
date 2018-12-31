@@ -1,0 +1,14 @@
+A Web application can raise the NotSupportedException when the report services customization code is called at startup. The exception message is: "Cannot register the 'MainDemo.Web.ViewerOperationLogger' service in the current service provider".
+Call stack:
+  DevExpress.XtraReports.v18.1.Web.dll!DevExpress.XtraReports.Web.Native.ClientControls.DefaultContainerHelper.RegisterSingleton<DevExpress.XtraReports.Web.WebDocumentViewer.WebDocumentViewerOperationLogger, MainDemo.Web.ViewerOperationLogger>(System.IServiceProvider serviceProvider, System.Action<System.Action<DevExpress.XtraReports.Web.Native.ClientControls.Services.IServiceContainerRegistrator>> emptyServiceProviderRegistration) Unknown No symbols loaded.
+  DevExpress.XtraReports.v18.1.Web.dll!DevExpress.XtraReports.Web.WebDocumentViewer.DefaultWebDocumentViewerContainer.RegisterSingleton<DevExpress.XtraReports.Web.WebDocumentViewer.WebDocumentViewerOperationLogger, MainDemo.Web.ViewerOperationLogger>() Unknown No symbols loaded.
+> MainDemo.Web.dll!MainDemo.Web.Global.Application_Start(object sender, System.EventArgs e) Line 41 C# Symbols loaded.
+  [Native to Managed Transition]  Annotated Frame
+  [Managed to Native Transition]  Annotated Frame
+  System.Web.dll!System.Web.HttpApplication.InvokeMethodWithAssert(System.Reflection.MethodInfo method, int paramCount, object eventSource, System.EventArgs eventArgs) Unknown No symbols loaded.
+  System.Web.dll!System.Web.HttpApplication.ProcessSpecialRequest(System.Web.HttpContext context, System.Reflection.MethodInfo method, int paramCount, object eventSource, System.EventArgs eventArgs, System.Web.SessionState.HttpSessionState session) Unknown No symbols loaded.
+  System.Web.dll!System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(System.Web.HttpContext context, System.Web.HttpApplication app) Unknown No symbols loaded.
+  System.Web.dll!System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(System.IntPtr appContext, System.Web.HttpContext context, System.Reflection.MethodInfo[] handlers) Unknown No symbols loaded.
+  System.Web.dll!System.Web.HttpApplication.InitSpecial(System.Web.HttpApplicationState state, System.Reflection.MethodInfo[] handlers, System.IntPtr appContext, System.Web.HttpContext context) Unknown No symbols loaded.
+  System.Web.dll!System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(System.IntPtr appContext, System.Web.HttpContext context) Unknown No symbols loaded.
+  System.Web.dll!System.Web.Hosting.PipelineRuntime.InitializeApplication(System.IntPtr appContext) Unknown No symbols loaded.

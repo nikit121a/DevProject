@@ -1,0 +1,8 @@
+Hi
+We upgraded from Version 16.2.5 To 17.2.5 and thereafter our WebChartControl does not load the data as it dit befor the upgrade.
+Please see attached webapps that I included.
+The data is loded from an xml file.
+It works fine in the 16.2.5 version but the data does not load in 17.2.5 version.
+Could you please advise.
+Thanx
+Shaun 

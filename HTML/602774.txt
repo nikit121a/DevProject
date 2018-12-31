@@ -1,0 +1,5 @@
+Hello,
+I'm adding height to widget for example textbox - height:'23px'  and adding placeHolder:'Search' then placeholder is not adjusted as per the height.
+Please have a look at 
+Waiting for your response.
+Thank you.. 

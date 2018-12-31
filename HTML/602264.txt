@@ -1,0 +1,6 @@
+Hello there,
+ I am using the dashboard designer,  and creating/ saving  "dashboard".xml  files.
+Now, When I open an  file  ( "dashboard.xml") from the designer,  I want to inspect the datasources used by that particular "dashboard.xml" file , and possible replace it by  another one  . (  I understand that the new  datasource has to contain the same queries/structure.  It does, actually the reason why I have to replace it is because it has more queries that  I need to make available to use in the dashboard.xml file.
+any ideas how to accomplish this? Hopefully I was able to explain what  I am trying to do.
+Thanks!
+ 

@@ -1,0 +1,10 @@
+Hello,
+I have used AspxSpreadsheet control in web application to export data from  web page to excel. Some of field entered by user from web page will replace spreadsheet cell value. In my case there are multiple rows which has Qty and Unit Price column that replace by value entered by user in web page.
+If in case of user leave blank either Qty or Unit price column, Amount column is not calculated /evaluated automatically.(I have set formula on Amount column) It works fine if I entered both values (i.e. Qty, Unit Price).
+Please find the attached excel file that I have created runtime from my web page. 
+After replacing value I have used following method that won't work for me.
+Cell.Calculate();
+worksheet.Calculate();
+ Workbook.Calculate();
+ Workbook.CalculateFull();
+ Regards

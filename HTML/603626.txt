@@ -1,0 +1,6 @@
+Hello,
+I have a .NET core 2.0 project, which uses DevExtreme.
+Based on this ticket 
+I understand that DevExtreme does not support Captcha, but there seems to be a way to use the "Captcha for ASP.NET MVC" in a .NET Core project.
+If that is true, would you please provide me an sample project?
+Thanks!

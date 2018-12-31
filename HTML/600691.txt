@@ -1,0 +1,6 @@
+Hi,
+I'm currently trying to implement the AdornerUI Guide Element into my application as an introduction-tutorial for new features.
+A big part of my application is done with an TileNavPane and therefore I would like to explain each TileNavButton / TileNavCategory seperately.
+Unfortunately I can only set the NavPane TargetElement for the Guide, not the individual TileNavButtons, so the Highlighted area contains everything in the NavPane.
+Is it possible to resize the Highlighted Area (with margin, padding, offset or something) to get only single elements of the TileNavPane highlighted?
+I attached a sample project to mess around with. In the example, I just want the "Category1"-Named Button highlighted.

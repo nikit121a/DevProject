@@ -1,0 +1,14 @@
+I am getting a System.NotSupportedException when I call  e.CreateDrillDownDataSource()
+This works fine in 17.1.9, but when I upgrade to 17.2.5 it breaks.  The compiler doesn't complain and the method is available, but at run time the following exception bubbles up:
+System.NotSupportedException
+  HResult=0x80131515
+  Message=Specified method is not supported.
+  Source=DevExpress.PivotGrid.v17.2.Core
+  StackTrace:
+   at DevExpress.PivotGrid.FastDataSource.PivotFastDataSource.DevExpress.XtraPivotGrid.Data.IPivotListDataSource.GetDrillDownDataSource(GroupRowInfo groupRow, VisibleListSourceRowCollection visibleListSourceRows)
+   at DevExpress.PivotGrid.DataCalculation.PivotGridDataSourceProxy.Call[T](IPivotListDataSource[] dss, Func`2 func, Boolean ignoreComparison)
+   at DevExpress.PivotGrid.DataCalculation.PivotGridDataSourceProxy.DevExpress.XtraPivotGrid.Data.IPivotListDataSource.GetDrillDownDataSource(GroupRowInfo groupRow, VisibleListSourceRowCollection visibleListSourceRows)
+   at DevExpress.XtraPivotGrid.Data.PivotGridData.GetDrillDownDataSource(GroupRowInfo groupRow, VisibleListSourceRowCollection visibleListSourceRows)
+   at DevExpress.Xpf.PivotGrid.PivotCustomSummaryEventArgs.get_DataSource()
+...
+I have reverted back to 17.1.9 for the moment.

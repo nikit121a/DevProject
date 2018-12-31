@@ -1,0 +1,2 @@
+Hi,
+Currently I am  using DevEx v15.2.14.0 in my application but I wanted to upgrade to latest version of DevEx. Can you please refer any document where steps to upgrade to latest version and required js script version is mentioned?

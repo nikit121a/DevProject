@@ -1,0 +1,7 @@
+
+
+Just to clarify, I've noticed that new themes have groups in 
+ (backstage, button). 
+Is is possible to create them manually? I am using a 2010 theme and only have "Theme specific" items
+/ Best regards
+Dmitri

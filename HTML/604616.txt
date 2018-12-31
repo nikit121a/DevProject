@@ -1,0 +1,3 @@
+I have a dxDataGrid with a toolbar containing custom controls. When the screen is resized the controls provided as part of the toolbar collapse under the [...] button, while all custom items added do not. Please see the attached screencast.
+How do I configure my custom toolbar controls to hide based on the grid size (similar to how the columns Hiding Priority works).
+Thanks 

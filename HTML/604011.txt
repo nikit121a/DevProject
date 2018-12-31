@@ -1,0 +1,3 @@
+Hi,
+Please show a node with the current View ID in the Diagnostic Info (->Actions) Object .
+We can see all information except the current View ID.

@@ -1,0 +1,7 @@
+Dear,
+In my application I've some Page_load very heavy and very slow.
+Can I improve user experience add some loader as ASPxLoadingPanel ?
+Or I must move part of code from  Page_load  in other time ?
+Do you have some example to use ASPxLoadingPanel in this case ?
+Thanks,
+Rinaldo

@@ -1,0 +1,8 @@
+Hi,
+I am using a calculated column ("Expertise") to show a short description of the collection of names; it works, and in that column I get a semicolon-separater list of names, like "A;B;F;G;", while each single name looks like "A" or "B" or "C" and so on.
+The issue I am facing is that when I try to filter items in this colum, the filter box is empty. Furthermore, if I try to sort this column, the whole table gets blank...
+See the attached pics
+Here is how I declared the "Expertise" column:
+I used the persistenAlias since I use server mode for the listviews
+What I did wrong? 
+Thank you

@@ -1,0 +1,3 @@
+Is it possible to specify more than two colors for a fill gradient?
+I would need a BottomLeftToTopRight gradient for a chart to go from green at the bottom left, to white in the middle of the chart and them red at the top right of the chart.
+Is there a way to do this? 

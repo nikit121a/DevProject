@@ -1,0 +1,51 @@
+
+                                
+This example demonstrates an edge-case scenario and uses XPO in an uncommon way. Refer to the following articles for XPO best practices:
+The approach demonstrated in this example can be used when you need to take advantage of the 
+ feature, but cannot use statically declared business models mapped to the database. This approach can be used to support adding/removing database columns without modifying the application code, to implement a generic View consuming data from an arbitrary table (or even database) selected by the user, or to implement a SaaS application.
+This example is based on the following technologies:
+1. 
+ (aka XPO) are used as a data access layer. Refer to the tutorials in our online documentation to get started with XPO: 
+.
+2. XPO supports dynamic mapping to the database tables without declaring any classes. Refer to this Knowledge Base article to learn more about this functionality: 
+.
+3. Our 
+ component for ASP.NET MVC platform has an API that allows you to populate a grid with data manually taking into account the current grid state (filtering, sorting, grouping) - 
+.
+4. XPO provides components that can be used to load objects without knowing their types at compile time (
+) or building complex queries with grouping, filtering, sorting and data aggregation (
+).
+Refer to our online documentation to understand concepts used in this example.
+ This example extends a standard approach of connecting an ASP.NET application to an XPO data store described in this article: 
+. In this scenario, the persistent classes schema can be changed at run time. To address this requirement, it is necessary to create a separate 
+ for each user, instead of sharing a single 
+ instance between all users as it recommended to do in regular scenarios. Refer to the 
+ file for implementation details.
+ To handle the concurrent access to a 
+, this example uses the DataStorePool component. XPO automatically creates DataStorePool when the connection string contains the special parameter. The 
+ method is used to prepare such connection string.
+ The GetNewSession and GetNewUnitOfWork methods implemented in the extended XpoHelper class accept an 
+ instance as a last parameter. XPDictionary provides metadata information used to map persistent objects to database tables. In the example, the XPDictionary instance is prepared in the 
+ file. This implementation is intended for demonstration purposes only. In real projects, it should be replaced with a custom implementation integrated with the application architecture and business requirements.
+ The 
+ file contains a universal class that can be used in real projects without modifications. It provides the 
+ required to calling to a grid view model's 
+ method. The usage is demonstrated in the 
+ file.
+To add this functionality to an existing ASP.NET MVC project, do the following:
+ Copy the 
+ file to your project. If the project already contains a similar helper class copied from the 
+ article, you can replace it or use both the implementations together.
+ Add required connection strings to your Web.config file. Refer to the Microsoft documentation to learn more about the 
+ configuration section: 
+, 
+. If the application uses a database other than MS SQL Server, it is necessary to add a special parameter to a connection string. Refer to the following article for details: 
+.
+ Copy the 
+ file to your project.
+ Using examples provided in the 
+ file and the 
+ article, implement a helper class that builds metadata to map persistent objects to specific tables according to your business requirements.
+Use the XpoBindingHandler class in your Controllers the same way as it is demonstrated in the 
+ file. This class is independent from other parts of the project and can be re-used without modifications.
+                            

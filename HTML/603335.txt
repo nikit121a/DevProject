@@ -1,0 +1,5 @@
+Hi I have files in the Microsoft Azure Cloud Platform and I am trying to load one into the aspxspreadsheet control for example
+here is the format of the azure url storage (bloburi)
+ Manager%5CiFishManager%5CifishManager%5CApp_Data%5Cfish_feed.xls
+ and when I execute this code
+the url does work and you can paste it into a browser and it downloads. 

@@ -1,0 +1,10 @@
+Hello,
+When I manually try to add 
+<resources>
+   <add type="ThirdParty" />
+   <add type="DevExtreme" />
+</resources>
+in the <devExpress> section of Web.config I get a error/warning:
+the element 'devexpress' has invalid child element 'resources' 
+Thanks, Jack
+ 

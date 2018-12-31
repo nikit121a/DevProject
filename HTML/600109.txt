@@ -1,0 +1,10 @@
+Dear Support Team,
+I know you will say, this is not an XAF specific theme, but I think it is! 
+In our scenario we want to prompt the DashboardParameter Dialog before the Dashboard is loaded. So the user can set the parameters and we do not have to use default values.
+I know the ticket 
+! But this is not what I am looking for! It does not work for use.
+We have the following ViewController for some DashboardViewer customizations:
+Win:
+and Web:
+Please can you give me an advice how to call the DashboardViewer.ShowDashboardParametersForm method and the ASPxClientDashboardViewer.ShowParametersDialog method?
+Thanks!

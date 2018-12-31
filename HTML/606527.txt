@@ -1,0 +1,8 @@
+Hi,
+Problem when calling  TcxTrackNar Parent proprety when creating the control inside a dll.
+My application is loading a dll which create TcxTrackBar object and assign it to a TToolBar object i.e :
+TcxTrackBar* trackBar = new TcxTrackBar(toolBar); // toolBar object is already created before using a TPanel 
+trackBar->Parent = toolBar; ---> this line will throw access violation exception.
+the same code was running perfect with DevExpress59 & Builder2007, as soon as we updated to 17.1.9, we got this error.
+Can you please help with this?
+Thank you

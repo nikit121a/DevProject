@@ -1,0 +1,4 @@
+Hello Support,
+Right now we have multiple report files in .REPX format in version 17.1.9
+And if we upgrade to 17.2 then will we need to make any changes in these .REPX file OR I can continue with these file in editing in Web Report designer and Viewing in Web Report Viewer ?
+Thank You. 

@@ -1,0 +1,7 @@
+I'm using GridMode = False
+but in some browsers it gets very slow with Gridmode = False that way
+when I do these searches I activate GridMode = True to get faster.
+   The problem is that after performing these searches I need to deactivate GridMode again = False at the moment I am doing this in the event
+CellClick of "GridTableView" however is giving me AccessViolation error in
+The code I am using to disable GridMode is this:
+How could I solve this  ?

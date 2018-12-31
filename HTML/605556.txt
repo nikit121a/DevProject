@@ -1,0 +1,5 @@
+After upgrade from 16.2.6 to 17.1.9, saving grid changes when using batch edit mode + cell edit mode causes the page to scroll to the bottom of the page. Previous behaviour was that the scroll position was untouched, and the user could continue working without losing context.
+It seems like the pager at the bottom potentially receives focus, and is then scrolled into view.
+Is this a known issue, and is there a workaround?
+We'd rather not downgrade to 16.2.6 since we have tested the system using this version. For the same reason, we'd rather not upgrade to a later version.
+Best regards 

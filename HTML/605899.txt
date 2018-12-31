@@ -1,0 +1,3 @@
+Hi Team,
+I have a requirement that hides (by subscribing to CustomRowFilter event) rows based on certain condition, when Grid's Row/Cell events are invoked it only invokes for those rows that are visible (Which is a valid case), this index is a Visible index rather absolute index. Is there anyway that I can get absolute index of a row?
+  

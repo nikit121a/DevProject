@@ -1,0 +1,6 @@
+Hello! 
+I have a problem when in the popup the first item is disabled the focus is non-existent, how can I add it so that for example FirstName when opening the popup has the focus?
+I left an example:
+ 
+ 
+ Thank you!

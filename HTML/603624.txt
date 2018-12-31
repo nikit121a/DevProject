@@ -1,0 +1,5 @@
+Hello 
+We have a RichEditControl which uses the BarManager doesn't appear to be disposing/releasing the  memory
+Is there anything that can help the memory be released, for example a dispose method or setting a certain properties to null?
+Kind Regards
+Dan 

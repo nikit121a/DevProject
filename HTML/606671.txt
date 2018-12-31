@@ -1,0 +1,5 @@
+Hi, 
+I have a detailed view and on it related listviews.
+I would like to add a filter to listviews when user switches between tabs.
+I can catch the event when tab changed on the detailview, but how do I call the listviews's event handlers?
+Thanks in advance

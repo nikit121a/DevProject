@@ -1,0 +1,4 @@
+Can you point me to an example of how to reject changes in the DropRecord event handler?
+I noticed a PreviewDrop event.  Maybe I put code in there to evaluate the drop and then I can reject it there?  But I don't know what code to put there to prevent the DropRecord code from running.
+Case: the user is dragging an item from a GridControl to a TreeListControl.   I need to evaluate what node the item is dropped on and then accept the drop or reject it. 
+Thanks. 

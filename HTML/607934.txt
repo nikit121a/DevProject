@@ -1,0 +1,6 @@
+Hi DevExpress team,
+I have a Multichannel app and I built a Web Api OData Service to use as a source for an ODataContext (Web API instead of Wcf because I need to use DTOs). 
+I used the DevExtreme Web API OData Service Template, and so far as I can see the necessary CORS support is already implemented there and should not lead to any problems. But when I actually use the service in my app, I get an unspecified network error; when I use dx.all.debug.js instead of dx.all.js I get an error telling me that CORS support is missing.
+This seems very strange, especially because the actual GET request returns 200 Ok and the expected objects in the response body. Also, there is no error in the web console. I tried to set breakpoints in the errorFromResponse and interpretJsonFormat functions in the dx.all.debug.js to maybe find out more about the error, but the error message appears before the breakpoints are actually hit.
+1. Is there some CORS support still missing in the template, or is the error message misleading, considering the success of the actual GET request?
+2. Could you give me some hints on how I can find out more about where this error is coming from?

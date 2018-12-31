@@ -1,0 +1,1 @@
+Is there any way to use a skin mask color on elements not defined by images? For example, I have an OfficeNavigationBar, and I'm using a mask color. I want to define the "Pressed" color to use the skin mask color.

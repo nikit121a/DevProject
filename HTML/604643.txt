@@ -1,0 +1,3 @@
+I have recently started using the XpoDefault.OptimisticLockingReadBehavior = OptimisticLockingReadBehavior.MergeCollisionThrowException option in my application, and for the most part, it seems to work great. However, I have had a number of instances recently of users claiming they get the warning dialog without the 'Merge' option (implying another user modified the same field), even though they are absolutely certain this is not the case.
+Is there a way to obtain a list of the fields  that collided, thereby blocking the merge option?
+Thank you 

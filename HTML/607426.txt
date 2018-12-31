@@ -1,0 +1,7 @@
+A form is defined in Angular app using DevExtreme 17.2.5 as following:
+For items with colspan=2 occupying entire row, a right padding of 15 px is displayed, via css rule:
+This does not seem correct, as it created visual interference;
+It seems that when an item occupies entire row via colspan, it should have "dx-last-col" class
+Please consider attached screenshots for more details.
+ 
+  

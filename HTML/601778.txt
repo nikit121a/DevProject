@@ -1,0 +1,4 @@
+I have a <dx-popup> element in my component template and I want to add a dxLoadPanel such that it covers and shades the entire popup container not just the content (including header and toolbars).
+I tried using  
+but this doesn't work because the id attribute I assigned to the dx-popup element doesn't actually get applied to the instanced popup at runtime.
+How can I make this work? 

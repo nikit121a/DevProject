@@ -1,0 +1,2 @@
+I am using 3 x Bar Stacked 100% series to display a stacked bar graph as per the attached images. Below this bar I would like to display a marker, as per the "expected" picture.
+If you look at the "actual" picture  I have managed to get a marker to display by using a Point series, but it is displaying in the middle of the bar. How do I get it to display at the bottom?

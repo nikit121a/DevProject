@@ -1,0 +1,5 @@
+Hi ,
+ My Web Page Uses ASPxNavBar Control For Group ,But When i am Trying To Find this From Page Load and Set Some Default Values in to It ,It Take 2-3 Second To Find Every Control so My  Page Performance is Slowing Down 
+Could you please Tell any Way To Resolve This Issue 
+For more Description please Check my Attachment 
+Thanks

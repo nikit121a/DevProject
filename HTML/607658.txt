@@ -1,0 +1,11 @@
+We have introduced some dragdrop functionality which is only active when the dragged data contains 'Rich Text Format' data. This works fine, but there's one thing I don't understand: we see two cursors when dragging. I've attached a screenshot of the two cursors: one with a solid line and one with a dashed line. 
+These cursors behave differently. We're adjusting the position of the solid-line-cursor in OnDragOver. This is done like:
+            float x = ToTargetUnit(richEdit.Unit, richEdit.DpiX, (float)position.X);
+            float y = ToTargetUnit(richEdit.Unit, richEdit.DpiY, (float)position.Y);
+            System.Drawing.PointF point = new System.Drawing.PointF(x, y);
+            return richEdit.GetPositionFromPoint(point);
+If this returns not null, then we set the CaretPosition to the retrieved position. When dropping, the data is inserted at this position.
+The dashed-line-cursor, however, moves much smoother. My questions are:
+1) What is this dashed-line-cursor? 
+2) Is it possible that the caretposition follows this dashed-line-cursor?
+ 

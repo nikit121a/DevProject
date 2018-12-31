@@ -1,0 +1,5 @@
+Hello.
+ASPxUploadControl worked OK when it was just in DIV . But it's event OnFileUploadComplete not  ceased  to fire when I placed thiscontrol into jQuery dialog.
+I found the same ticked  Q489770. But it  was long time ago and jQuery and even does not have method "clean" which was fixed by your developers to resolve the problem.
+Thanks in advance,
+Alexander. 

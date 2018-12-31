@@ -1,0 +1,6 @@
+I put one ASPxSpinEdit in the ASPxGridView DataItemTemplate.
+I want to get the ID of the row where the SpinEdit number changed. While doing it very conveniently with CustomButtonCallback, I could not do this in a situation like this.
+Row Id is registered as UniqueIdentifier in the database.
+I would like help in this regard.
+The application is a basket application.
+Thank you.

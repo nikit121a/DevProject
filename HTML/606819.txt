@@ -1,0 +1,4 @@
+Hi,
+Can we use Report Designer in DevExtreme MVC Application? Is it possible? 
+We tried the ticket that ID is T507978 about the solution. But we don`t see report designer on the page correctly. You can find screenshot in attached .
+Thank you. 

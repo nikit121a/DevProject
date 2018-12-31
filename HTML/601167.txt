@@ -1,0 +1,5 @@
+Hello DevExpress Team,
+when disabling BarButtonItems with custom SvgImages in RibbonControls the text is grayed out, but not the image.
+Please see attachments.
+Kind Regards
+Peter 

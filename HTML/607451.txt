@@ -1,0 +1,5 @@
+Hi,
+I've added a menuitem to the ContentPopupMenu of the scheduler. 
+Is there a way to assign a custom image to the menuitem (like I can with EventPopupMenu)?
+And where do the standard images that are used in the menu come from?
+Thanks.

@@ -1,0 +1,11 @@
+Hi,
+When porting code from a previous .NET 4.7.1 application I encountered the following problem:
+When the unit tests projects are .NET Standard/Core projects the unit tests are detected but not executed.
+There is already a support ticket for this issue that seems to be resolved. Maybe it will be included in the next version.
+As a workaround I changed the test projects to .NET 4.7.1 as target framework.
+Afterwards the tests are executed again unless they are inherited from a base class that is located in another assembly.
+When placing the base class in the same assembly everything works fine.
+This functionality worked fine in the past (even across assemblies) if all projects are referencing .NET 4.7.1 as target framework.
+I attached a Demo project and screenshots of a loca test run (Run all)
+Kind regards
+Wolfgang

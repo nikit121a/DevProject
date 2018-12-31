@@ -1,0 +1,4 @@
+Hi,
+I'd like to hide field buttons that show in the row and column area (see image) without losing the row and column data they show when they are visible. Is this possible? 
+Thanks and regards,
+JC 

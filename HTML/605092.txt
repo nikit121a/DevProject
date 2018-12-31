@@ -1,0 +1,4 @@
+Hi,
+In previous version this works $("#simple").dxNumberBox("instance").option("text"), but it doesn't work anymore with version 17.2.5 
+Here is your sample codes; 
+Thanks,

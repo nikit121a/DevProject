@@ -1,0 +1,8 @@
+Hello,
+I use view controller  to customize list view of an object. in this case I need to change columns displayed and rename them. My problem is that Model remembers and loads reduced number of columns next time. I try to reset the view using Frame.GetController<ResetViewSettingsController>().ResetViewSettingsAction.DoExecute(); but get 
+Exception occurs while assigning the 'ListView, ID:ScheduleView_ListView' view to WinWindow:
+An error with number 1007 has occurred.
+Error message: Unable to execute disabled or inactive action ResetViewSettings. Disable reasons: , inactive reasons: View is not null
+ My code 
+ How I can rebuild view with all columns before removing extra columns in this case?
+Thank you. 

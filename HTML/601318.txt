@@ -1,0 +1,3 @@
+i have created a gridview with search panel and GridViewCommandColumn . when a i click on  a command and then use search panel the search panel repeat the last call back of the command (open a window) . how to clear the last call back previous to execute the search panel. and not to repeat the call back of the GridViewCommandColumn 
+I have read something about APPLYSEARCHPANELFILTER DevExpress.Web.Scripts
+how can i catch this variable on ClientSideEvents 

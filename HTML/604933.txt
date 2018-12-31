@@ -1,0 +1,21 @@
+Hello! I had the following problem situation:
+1) The following line is stored in the xml form settings file:
+
+
+
+
+2) In the program, the date (01.11.2017) from this file is correctly read and saved in a string. The value 01.11.2017 is stored in the line. Next I assign this value to my DataEdit :
+
+
+
+where 
+is string with the correct date value,  
+ is DataEdit.
+3) Next, a form opens on which the dtpPeriodFrom date is displayed correctly, that is, the value is displayed 
+. 
+4) Next, when I click on an element or click on a black triangle, the value in dtpPeriodFrom is displayed as 
+, which is incorrect.
+5) Then when I shift focus to another element the value dtpPeriodFrom to become true, i.e. 
+.
+: how to correct this situation so that in both cases the dtpPeriodFrom value is displayed as 11.01.2017.
+: In the attached video file, I showed this problem in detail.

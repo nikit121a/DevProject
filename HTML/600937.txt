@@ -1,0 +1,5 @@
+vb.net# scripts
+I have a report design like the one I attached, 
+but I want to display 5 pages at once with the same content, 
+how to multiply up to five with first page description Original second page of page II, page III, page IV, page V 
+can some one help me please....

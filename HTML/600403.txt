@@ -1,0 +1,4 @@
+I want to create a simple custom editor to edit some special property. this is a demo code:
+    I hope the dropdown listcontrol auto select my old value, but it always select the first one even if i force set the Selected index of the editor.
+   how to make listboxcontrol select the correct item in this demo? the attachment is the demo project.
+ 

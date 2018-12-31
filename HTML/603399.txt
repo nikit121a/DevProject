@@ -1,0 +1,3 @@
+Hello,
+I am trying to retrieve fields of DataSource but retrieve fields does not work. I paused application and recorded immediate window of Visual Studio below. 
+ 

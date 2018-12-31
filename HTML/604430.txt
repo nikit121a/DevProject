@@ -1,0 +1,4 @@
+Hi,
+my code is used to delete columns:
+before running code above I have Dimensions.Right = 300
+after that code, it is the same value. What shall I perform to update dimensions?

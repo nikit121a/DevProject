@@ -1,0 +1,6 @@
+The solution might be absolutely simple, but I am unable to find. 
+I have a column in a database table that stores RTF Value.
+On one my forms I use the DevExpress Grid control with the View as tile view (list). I am trying to display the RTF into one of the columns, but it gets displayed as plain text as opposed to Rich Text. I have also added a RichTextEditor in the Column Edit, but still the value is displayed as plain text. 
+Would appreciate your help.
+Regards,
+Girish 

@@ -1,0 +1,10 @@
+Hi,
+after upgrading to the last version i have the following error message when i try to 'Update model on all projects'
+Error:
+Cannot find a descendant of the XafApplication class to detect settings of your application in the following folder(s):
+D:\RMA\RMA\RMA.Win\bin\Debug\
+For a Windows Forms application, this folder(s) must contain your application executable file.
+For an ASP.NET application, this folder(s) must contain the assembly containing your WebApplication descendant.
+Update failed
+i can run the application without any issue
+how i can resolve this?

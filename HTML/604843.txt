@@ -1,0 +1,3 @@
+Hello Support,
+How can we access or set cell value of a column by row index? As we can not do the same by column index because if we do there we will be multiple rows it will update column for all the rows.  Kindly suggest.
+Check the given screen shot. In that let say we want to change the Amount (FC) column in the second row when i edit the Agent commission value. How can we achieve this? Kindly Guide.

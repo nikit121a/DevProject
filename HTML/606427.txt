@@ -1,0 +1,7 @@
+Dear DevExpress,
+When we were testing on a digital whiteboard, we noticed that as a user, you can use multi-touch zoom when viewing charts in dashboards: when dragging two fingers away from each other ('spreading'), the graph is zoomed in, albeit that during the spreading no new data is loaded and that the existing pixels simply get bigger as you zoom in. After ending the zoom (lifting fingers from screen), data for the zoomed area is (re)loaded.
+The speed of this operation is (in our case) very, very fast compared to zooming in several steps with the mouse wheel.
+So our question is: is it possible to mimic the 'spread' zoom when using mouse & keyboard?
+Thanks in advance.
+Best regards,
+Bob Dijck

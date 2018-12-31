@@ -1,0 +1,18 @@
+Hi,
+I am using the XtraBar   BarSubItem to dynamically create a Itemlinks to allow the user to select an item (in this case a letter for printing) . 
+  ..
+Me.mnuSendLetter = New DevExpress.XtraBars.BarSubItem()
+.. 
+..
+ .mnuSendLetter.ItemLinks.Clear()
+For Each fi As IO.FileInfo In pFileArray
+    Dim ContactBarItem As DevExpress.XtraBars.BarButtonItem = New DevExpress.XtraBars.BarButtonItem
+    ContactBarItem.Caption = fi.Name.Substring(9, fi.Name.Length - 13)
+    ContactBarItem.Glyph = cManager.My.Resources.Resources.document_pencil_16
+    Me.mnuSendLetter.AddItem(ContactBarItem)
+ 
+      AddHandler ContactBarItem.ItemClick, AddressOf mnuSendLetter_ItemClick
+Next
+When there are a lot of letters to select from , it's tedious for users to scroll through the list. How can I add a autocomplete box or a search box at the top of the list so that users can quickly select the letter they need?
+Many Thanks
+ 

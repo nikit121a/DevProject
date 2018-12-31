@@ -1,0 +1,5 @@
+I wonder why it is natural for an UnMergeStatutbar process to show (i mean set visible true) previously hidden
+merged ribbonstatutbar ?
+Or is there a specific property as the opposite of 
+ to set a full lifetime hidden behavior ?
+The only way i found is to manage VisibleChange event.

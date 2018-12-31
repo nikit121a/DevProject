@@ -1,0 +1,7 @@
+Hello Team,
+We have upgraded dll's from 16.2.3 version to 17.2.5 version and generating the reports using .repx file path, but in upgrade version not export generated report design to .pdf file properly, getting some zooming issues at 100%, line spacing, truncate lines etc.
+Please let me know how to resolve these design issues in 17.2.5 and provide any example to solve the problem.
+Please run the attached sample applications and observe the export pdf files in both the versions.
+Pdf and .repx files.
+Sample application for 17.2.5
+Sample application for 16.2.3

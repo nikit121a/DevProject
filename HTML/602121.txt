@@ -1,0 +1,4 @@
+Hi,
+You provided ability to reference cells from another sheet by manually adding sheet name and exclamation mark '!' but it is very inconvenient and error-prone.  Microsoft Excel provides a way to point a cell from another sheet by start typing formula with '=' and then switch to required sheet and just select the cell. I can't do same in Devexpress spreadsheet. Is it by design or am I missing something? How can it be achieved (even with some code)?
+thanks
+Pawel 

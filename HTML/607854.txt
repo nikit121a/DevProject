@@ -1,0 +1,3 @@
+Hi,
+I have the following column defined in a DXGrid with a PopupColorEditSettings. How do I disable the hex code that accompanies the selected color? 
+ 

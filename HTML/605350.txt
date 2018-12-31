@@ -1,0 +1,4 @@
+Hi,
+I am having a hard time to figure on how to validate having a callback to server.
+Currently I have my code as 
+ I know that if I return directly a value it validates field... however witrh this code althought I know that it is invalid it still shows field as valid.

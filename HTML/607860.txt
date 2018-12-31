@@ -1,0 +1,4 @@
+I use event "EditValueChanged"  on some TextEdit to set error icon with DXErrorProvider.
+But when form opening (TextEdit.EditValue is null), if I set "null" to  TextEdit.EditValue in initialization routine event doesn't fire and then error icon are not properly set.
+To get around this I first set a none null value to the control, then set the real value (can be null or not). In this case event fire.
+Is it a desired behavior or a bug ?

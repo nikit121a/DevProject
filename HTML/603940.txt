@@ -1,0 +1,7 @@
+update the typescript definition to allow the showTitle option
+/** Creates a custom dialog using the options specified by the passed configuration object. */
+            custom(options: { title?: string; showTitle?: boolean, message?: string; buttons?: Array<Object>; }): {
+                show(): JQueryPromise<any>;
+                hide(): void;
+                hide(value: any): void;
+            };

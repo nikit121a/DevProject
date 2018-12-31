@@ -1,0 +1,4 @@
+I'm using the GalleryControl to show images, along with the HoverImage properties to let users see larger versions of the images when they mouseover.
+The cool thing about the default thumbnail view is that i can set the layout so the whole image is shown, and not distorted:
+But when the user mouses over a thumbnail to see a larger version, that larger version is stretched and distorted. Is there any way I can set the HoverImage properties so the larger version is not twisted to match the dimensions of the frame?
+Thanks!  

@@ -1,0 +1,17 @@
+Hi,
+I have issue how to put date format in scheduler
+here my code
+<dxsc:AppointmentRecurrenceForm ID="AppointmentRecurrenceForm1" runat="server" IsRecurring='<%#CType(Container, AppointmentFormTemplateContainer).Appointment.IsRecurring%>'
+    DayNumber='<%#CType(Container, AppointmentFormTemplateContainer).RecurrenceDayNumber%>'
+    
+    Month='<%#CType(Container, AppointmentFormTemplateContainer).RecurrenceMonth%>'
+    OccurrenceCount='<%#CType(Container, AppointmentFormTemplateContainer).RecurrenceOccurrenceCount%>'
+    Periodicity='<%#CType(Container, AppointmentFormTemplateContainer).RecurrencePeriodicity%>'
+    RecurrenceRange='<%#CType(Container, AppointmentFormTemplateContainer).RecurrenceRange%>'
+    Start='<%#CType(Container, AppointmentFormTemplateContainer).RecurrenceStart%>'
+    WeekDays='<%#CType(Container, AppointmentFormTemplateContainer).RecurrenceWeekDays%>'
+    WeekOfMonth='<%#CType(Container, AppointmentFormTemplateContainer).RecurrenceWeekOfMonth%>'
+    RecurrenceType='<%#CType(Container, AppointmentFormTemplateContainer).RecurrenceType%>'
+    IsFormRecreated='<%#CType(Container, AppointmentFormTemplateContainer).IsFormRecreated%>'>
+</dxsc:AppointmentRecurrenceForm>
+My question is how to put date format in this

@@ -1,0 +1,16 @@
+Hello support team,
+once again I need your help, please. I am trying to create a simple WinExplorerView in ExtraLarge style from a list of objects. The object structure is as follows:
+- string Name -> assigned to ColumnSet.TextColumn
+- image Image -> assigned to ColumnSet.LargeImageColumn
+- string ItemInfo -> assigned to ColumnSet.DescriptionColumn
+- int Rating -> standard column, not visible
+- ... lots of other columns, all not visible but intended to be used for grouping/sorting
+Everything is well so far. Then I was trying to implement (custom) grouping and sorting for the view and after hours of trying I still didn't proceed. Perhaps you can help me on how to achieve the following programmatically:
+- Group alphabetically descending by (first letter of) Name, group items sorted by Name descending
+- Group descending by Rating, group items sorted by Name ascending
+Or, in general, for other columns;
+- Group alphabetically asc/desc by ColumnX, group item sorted by same column asc/desc
+- Group asc/desc by ColumnX, group items sorted by ColumnY asc/desc
+Also, is it possible to use a rating control for rating group caption instead of numbers?
+I also could provide all sorting by the data source but I noticed that the view always does it's own sorting. I tried to avoid this by using the CustomColumnSort event but this also seems to influence grouping. All together this is more than confusing. I noticed that the WinExplorerView is far not as flexible as other view styles but perhaps some things can be done by code anyway. Can you give me a direction what I can do? 
+Thank you!

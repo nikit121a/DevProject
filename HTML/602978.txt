@@ -1,0 +1,10 @@
+Hello,
+I'm migrating an old project to use XAF.
+I've created a code-first from database EF assembly which contains  the business class to access my existing database.
+I've referenced this data model assembly into the XAF's main module, renamed the HashSet to List etc.
+So far, I can access data in a list view.
+As Visual studio wizard to import the database was not aware of all field names, I got some properties with unusefull names like Contact and Contact 1 for two references to a Contact table (i.e. Contact is in fact SalesContact and Contact1 is TechnicalContact), so I renamed the virtual properties in the code-first model.
+My problem is that whatever I try, XAF's BO model continues to have  two items named Contact and Contact1. I was expecting that after a rebuild and UpdateModel I would see SalesContact and TechnicalContact.
+Also I made another test, I renamed a real field  (a column in the table). here again, the BOModel remains with the old name; but when I run the view, I see the new column name even if it is not included in the model's view (like if the field is found and added because the model does not contains a reference to hide it)
+What should I make to ensure that the properties name are correctly updated to reflect the current data model  ?
+Thanks

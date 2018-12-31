@@ -1,0 +1,7 @@
+Hi,
+I am using a TreeListControl.
+I have an issue where, if the user searches the tree list for a particular string, and after the results are shown, the user refreshes the underlying collection by pressing a refresh button, the tree is empty.
+The attached sample shows the behavior. Can you please suggest what is wrong?
+Thanks,
+Vijay
+ 

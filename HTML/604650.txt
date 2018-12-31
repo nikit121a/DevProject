@@ -1,0 +1,2 @@
+I have an app where there is a class called SPR_Detail.  One of the fields of this links to an SPR_Item Class.  After the user selects one of the values from the SPR_Item class, I would like certain fields in the SPR_Detail class to be updated with the values from the SPR_Item class associated with the value that the user chose.
+W?hat's he best way to do this in VB?

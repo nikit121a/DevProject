@@ -1,0 +1,4 @@
+Hi,
+With the dataGrid, I would like to give a custom, Success or Fail message to the users. 
+Is the the best way to use the OnRowUpdated event and then show a custom toast? What about the fail event. How would I show a consistent toast for the error event?
+Thanks 

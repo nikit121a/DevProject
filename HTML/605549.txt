@@ -1,0 +1,4 @@
+Hi
+How do I prevent a WPF grid cell that is not editable from getting an editor so that it doesn't respond  to any key presses?  The documentation says that setting AllowEdit to false achieves this, but it turns out to be yet another fiction.  Is there some obscure setting that has nothing to do with a cell being editable that will disable the editor entirely?
+Thanks
+Craig 

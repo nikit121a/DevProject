@@ -1,0 +1,5 @@
+I need to apply a custom validation to the PivotGrid unbound expressions when using the new intellisense-like editor.
+This customized validation approach was provided by you recently in another ticket created by me, regarding the GridControl:
+I missed this event when applying such workaround in the PivotGridControl.
+Could you please consider adding this event?
+PS: Not urgent, since we can roll back  to the legacy editor by now.

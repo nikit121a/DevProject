@@ -1,0 +1,5 @@
+I would like to have a single dx-form field which is a couple of checkbox controls where the user has to select at 
+ one of the checkboxes. If they do not select at least one I would like a form validation error message to appear but for the group of checkboxes, not a validation message on 
+ checkbox.
+Basically, I would like something that behaves like a dxRadioGroup but allows one or more items to be selected. It would also be a plus if the controls could be arranged horizontally like what is possible with the radiogroup control.
+How could I achieve this?

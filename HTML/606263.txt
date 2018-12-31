@@ -1,0 +1,3 @@
+Hello
+1. When i try load svg-image to default TcxImageList  in IDE raise exception "Invalid Operation in GDI+ (Code 2)".
+2. svg file in attach.

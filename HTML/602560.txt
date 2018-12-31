@@ -1,0 +1,3 @@
+Hi, 
+i build a MVC sample that works with IE and Firefox, but not with Chrome. Start it, select "Edit" in the grid column and choose a file. In IE and FireFox the UploadControlCallback is called first, and after this the AddNewUploadItem, so my code works. In Chrome its turned around, so my code is not working... Can you check this out?
+Tim

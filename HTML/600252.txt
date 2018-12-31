@@ -1,0 +1,11 @@
+Hi Guys, First i wanna congratulate for this great tool!
+Im having some issues trying to accomplish a smooth ajax refresh to the Grid, what should be simple task, but maybe im going on the wrong way.
+Im developing a website where  i have 2 grids, that are updated every 5 seconds, and the first grid row selection is what filter the second one.
+The first one is done using StaticJson and its working fine.
+The problem is with the second...  That i need to update my SourceUrl, with row selecion parameters and ask for a grid refresh....
+Im able to do that using CustomDataSource, like this:
+and them setting option:dataSource to force the grid refresh...
+It seems to work, but the grid refresh is not an Ajax refresh.... It blinks the hole grid during the update...
+Maybe the grid does not kown the key, and is not doing an ajax refresh ?
+Ou maybe there is another way to do that ?
+Thanks in advance.

@@ -1,0 +1,6 @@
+Hello,
+   I am working with image combo box filled with enum items. I wouldl ike to remove (or disable) some items in the image combo box. I was trying this approach, but I was unsuccessful :
+   
+ Thanks for your help.
+   Best Regards,
+     Radim 

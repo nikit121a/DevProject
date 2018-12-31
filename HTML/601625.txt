@@ -1,0 +1,7 @@
+hello i want i have make Report and saVE THE file ..
+after Saving File save with Report. Repx name file ...
+after making the report i have take grid view and ,,,,take a button on grid ....
+then i have filling data in grid .....then click a button 
+i have set column in report according to grid 
+i want the recode in the print preveiw so sir 
+how can use in REporting 

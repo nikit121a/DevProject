@@ -1,0 +1,12 @@
+Hello,
+I created two views (a cardview and a TcxGriDBTableView)
+and I'm building a TPopupMenu that I use on both the Cardview and on
+the TcxGridDBTableView this way:
+Until then, the TPopupMenu is working on both views
+Now, I would like to put an item in the TPopupMenu allowing me
+to save the TcxGridDBTableView configuration with this code: 
+But of course that can not work since
+in this process, the TPopupMenu is not connected to the TcxGridDBTableView! 
+How to fix this problem ?
+Thank you for your help
+Didier 

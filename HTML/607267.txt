@@ -1,0 +1,7 @@
+Hello there,
+ In the first 30 seconds, the redraw issue is there.
+But on the rest of the video I added this code to the 
+Event
+and the issue is gone.
+Now is it save to invalidate every time a form gets activated?
+Thanks 

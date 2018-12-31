@@ -1,0 +1,7 @@
+this is actually like a bug that was just appeared again in 16.2.12.
+after my project conversion a dynamic grid got a timespan that was converting my xallues to a strange format
+xxxxxxxxx.hhmm.ssssssssssss and i jsut wanted HH:mm.
+this example helped find a work arround but i believe the team must look aout for this again.
+my database type was time(0) or time (7) and it was still giving me an error when the bindingsource was doing update the Dataset.
+please have a look at this again.
+thanks 

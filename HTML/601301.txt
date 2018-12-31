@@ -1,0 +1,6 @@
+Hi,
+I upgraded to 17.2.5 this morning and am now getting this error where I did not get it before.  Could you please assist?
+Object doesn't support property or method 'isDefined'
+It is breaking specifically on the if (DevExpress.utils.common.isDefined($cell)) { line in the code.
+I have this in the OnInitialized of several datagrids on my page where I am attempting to handle keyboard navigation:
+Thanks! 

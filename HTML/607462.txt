@@ -1,0 +1,5 @@
+Hi there,
+I need some help here. I keep following tutorial from youtube about DevExpress and make it Try and Error for myself.
+But here I got something that I can't handle even I read the documentation, I still can't make it.
+How do I select CurrentRow for Data Grid Control?
+Here is my code. 

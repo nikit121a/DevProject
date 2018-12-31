@@ -1,0 +1,4 @@
+I have a GridView whith DetailRow, so when a determinated group of user open the page some columns are hided.
+Then the first column that is the column to expand the DetailRow enlarged to much. 
+I need to limit the Width of this caolumn.
+ 

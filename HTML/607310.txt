@@ -1,0 +1,1 @@
+I have a column that displays an image. I created a repositoryItemPictureEdit1 attached to it and put the property MaskType = Circle, but it does not work in tileview.

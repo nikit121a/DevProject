@@ -1,0 +1,8 @@
+
+Dear Sirs,
+How I can get total value of column without calculate it again.
+ Thanks in advance,
+ George
+ 
+ 
+ 

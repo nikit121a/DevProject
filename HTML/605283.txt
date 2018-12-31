@@ -1,0 +1,2 @@
+Hi, we use own ObjectSpaseProvider  defined in CreateDefaultObjectSpaceProvider
+But looks like data for Reports  go through default provider. Is it possible? And how to change provider for reports too.

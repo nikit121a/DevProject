@@ -1,0 +1,4 @@
+Hi, I have a gridview with EditingMode = EditForm. I have a field with a RepositoryItemTextedit.PasswordChar=*. I need to provide access to some users to read that field but with a condition. In other words, the users will be able to read the protected field only from the rows that contains their names.
+Any help to implement this will be appreciated.
+Regards,
+Eric

@@ -1,0 +1,7 @@
+Hi,
+I've found an issue where a toolbar item is incorrectly ellipsed when over 6 characters in non webkit browsers, i.e. IE and Firefox.
+I've attached a test project for you to see this.  
+"Summary" looks like "Summar..."
+This is the correct behaviour (taken from Chrome):
+This is the incorrect behaviour (taken from IE 11):
+hanks

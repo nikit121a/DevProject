@@ -1,0 +1,7 @@
+HI,
+How do we setup and ASPxCardView with adaptivity so that the number of cards displayed are affected by the screen width so that no more cards are displayed than can fit the screen? We can only find how to decide when a single card collapses into single column width.
+What we want to achieve is that the number of cards shown are only what can fit the screen, and that a single card only collapses to singe width when it is the only card displayed and even then can't fit the screen.
+Thanks.
+Regards,
+Patrik Johansson
+ 

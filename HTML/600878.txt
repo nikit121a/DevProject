@@ -1,0 +1,8 @@
+Hello,
+Currently the code cleaning utility will change the following, valid C# code:
+... to this invalid code:
+The parenthesis around _Numbers?.Length gets removed, causing the compiler to detect a syntax error. Truth is: parenthesis shouldn't have been removed in the first place.
+Please advise. Thanks.
+ :
+Some additional details: this seems to occur only if the  following cleanup rule is set: "Apply 'optional parenthesis' style to explicitly declare precedence of expressions". Checking it off solves the issue.
+Of course it doesn't change the fact that CodeRush should be smart enough to detect if it can safely remove parenthesis or not. :) 

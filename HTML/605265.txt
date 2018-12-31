@@ -1,0 +1,1 @@
+Hi, i have a gridcontrol and when put value to numeric column the decimal are not show. By example i read from Access Table A Price=93.12, when put this value to gridview only show 93.   I attache 2 images and one video.

@@ -1,0 +1,12 @@
+At design time, the font size for an editor is set incorrectly when it's style is assigned a style controller. This happens when designing at 120 PPI.
+The Delphi IDE is running with the monitor scale set to 120 PPI.
+There is a datamodule containing a TcxEditStyleController.
+The StyleController's Style font is set to Segoe UI, 9 point (height is consequently set to -15).
+The StyleController's Scalable property is set to true.
+There is a form with pixelsperinch set to 120.
+The user places an editor, for example a TcxLabel, on the form.
+The editor's style.stylecontroler is set to the StyleController from the datamidule.
+The editor's font size is scaled so that the size is set to 7 (height is consequently set to -12)..
+If the editor's style font property is set directly to Segoe 9 point, it is displayed as expected in the form designer. It is only after assinging the style controller that the font is scaled down.
+Displaying the form and datamodule as text confrms that the pixelsperinch value is 120).
+Note that when the editor is hosted in a frame rather than a form, the problem does not occur.

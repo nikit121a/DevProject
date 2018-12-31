@@ -1,0 +1,8 @@
+Hi,
+I'm using the scheduler with AngularJS and I have a bug in Mozilla Firefox. You can reproduce the bug in your demo on the link :  
+Steps:
+1- Choose "Timeline Work Week" view
+2- Scroll vertica lly on the middle
+3- Click on the scheduler (an empty cell)
+4- Scroll on the left, on the right, on the left, and you can use the time scale header is stuck, the scroll works fine but not the time scale header
+Thanks ! 

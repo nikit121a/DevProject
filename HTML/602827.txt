@@ -1,0 +1,4 @@
+Hi, I'm facing a really strange issue that is appearing only in 
+. Everything is working correctly in Chrome.
+I'm having an application page in SharePoint 2013 that is using ASPxGridView in batch mode to edit data. I'm using cascade comboboxes and also "looking for records" with the ItemRequestedByValue and ItemsRequestedByFilterCondition. In Combobox column when I start to write a text to be looked up in the database, callback appears on the server (code-behind), wait indicator is displayed on client, but before the callback ends, the edit mode is interrupted (switched to non edit mode) and combobox is empty. Any other attempt to filter the data does not event show the load indicator though the callback is sent to the server and processed. It's really strange but I'm sure it can be solved.
+Can you help me with that? 

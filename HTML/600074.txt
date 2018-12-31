@@ -1,0 +1,5 @@
+I would like to position a loading panel above a certain element (div/ canvas etc)
+On DevExpress I could do the following
+ How would i acieve the same thing on Devextreme
+I tried using Position, but it just seems to shove it in the middle of the screen and shade over the entire screen. (acts even more odd without valid selector)
+ 

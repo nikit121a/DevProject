@@ -1,0 +1,4 @@
+I've mentioned in another post that I have a form in my current project that has a great many controls on it. In VS 2012 it's very slow to make modifications. It's a nightmare in fact. I avoid working with it. Someone outside of DevExpress suggested the notion of using something like frames where each group of controls in a tab page for example is on its own form and then I refer to that form as a sort of "sub form" in the main form when running the application.  
+In MS Access this is easy. It's also not a big deal in Delphi. But there's no native ability in vb.net to put a subform on a form. 
+It seemed from this other guy's suggestion that he might have been talking about your EditFormUserControl but I looked into it and that doesn't seem to be right.
+Is there a way to do what he suggested? It might make code behind a little more awkward but it would relieve the nightmare of the speed problem with a form with a great many controls on it.

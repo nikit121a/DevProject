@@ -1,0 +1,2 @@
+See attached image, when you initially view you get what you see on the right side, even when there are more rows as you can see the same report but exported to excel.
+how can I make sure the whole data is displayed. 

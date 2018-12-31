@@ -1,0 +1,5 @@
+I am using CrosshairLabelPattern and CrosshairLabelTemplate to show custom template in chartControl.
+Tooltip Generated is like =>  ElementName : Value
+I want to show legend color in front of the element name in the tooltip of the chart.
+Ex: <Color> ElemnetName : Value
+How can I achieve this? 

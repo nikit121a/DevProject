@@ -1,0 +1,18 @@
+Good morning, 
+I am developing my application using XAF and in the web application I created a custom view to represent the data contained inside of an XML document. I can display the node attributes without any problem by adding a TreeListTextColumn with the FieldName = attribute name. I wanted to know if it was possible to add a column that displayed the tag name of the node, for example:
+the treelist would show:
+- dvs 
+ 347
+    - vrb 
+355
+        - idf 
+ 355
+    - pgh 
+ 367
+        - pgh 
+ 1337
+          - pgh 
+ 1350
+The following is the markup of what I have so far:
+Thanks,
+Pablo.

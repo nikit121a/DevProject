@@ -1,0 +1,4 @@
+I have a an issue which is related to the Values section of a PivotGrid inside a DashBoard. I am using DashBoard builder to create this dashboard.
+Is it possible to disable the SUM functionality from the Value section ? (Image attached). I would like to have no function associated with this because as it is now the row values (red circle) do not coincide with the database values.
+Can you help me with this issue ?
+Thank you 

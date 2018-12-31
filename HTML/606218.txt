@@ -1,0 +1,4 @@
+Dear Devexpress,
+I opened an existing report by calling "OpenDocument":
+How could I hide the "+" button? Please refer to the top red circle on the right hand side for reference. 
+Thank you!

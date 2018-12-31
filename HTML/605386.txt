@@ -1,0 +1,4 @@
+I am calling ZoomToFitLayerItems on a winforms map control from a layer's DataLoaded event.  This is working fine except that I want to export to an image once it is completed and the  ZoomToFitLayerItems  appears to also be asynchronous.
+I have tried hooking into the ViewportChanged event but whilst this seems to fire many times it does not seem to fire when the zoom has completed rendering entirely.
+Is there a way to capture some sort of ZoomToFitLayerItems OnCompleted event?
+ 

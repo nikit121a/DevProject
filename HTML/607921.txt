@@ -1,0 +1,5 @@
+Hi,
+I am trying to display full column header text without any cropping of text, used AllowBestFit and BestFitArea against Header. But still I can see column header text is cropped. How to achieve this?
+Attached sample project.
+Regards,
+Prasad 

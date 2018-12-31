@@ -1,0 +1,4 @@
+Hi Dev Ex,
+I know this is possible i have a gri dcontrol that i load via Datatable and I want to insert an image on the last row, my image is stored as byte in the database. 
+How can i accomplish this task .
+Can I insert image on datatable and  show it in DevExpress.XtraGrid.GridControl ?

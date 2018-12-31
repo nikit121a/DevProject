@@ -1,0 +1,5 @@
+Hello,
+Last week, due to problems with Visual Studio 2017, I had to format my hard drive. As I have projects created with Visual Studio 2008 and Devexpress 8.3.6 I have also installed it from scratch. Since then I have problems with all the projects that use Devexpress 8.3.6. When I add any new devexpress control in a previously created form I get this error: 
+The existing forms that I have edited after installing Devexpress from scratch do not open and I am getting the error. I can not continue designing any form. Only I can open forms that I have created / modified before the new installation Devexpress (before last week).
+Before reinstalling Devexpress I could work correctly with the projects and this error did not appear.
+Any idea how to solve this? 

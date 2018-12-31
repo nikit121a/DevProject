@@ -1,0 +1,4 @@
+Using TestCafe with Windows Authentication, if the domain is different than the one expected by the web, testcafe is no able to perform the authentication.
+Trying 
+"@auth {username:'user',password:'password',domain:'domain'}";
+the authentication pass, but the next page is not loaded.

@@ -1,0 +1,8 @@
+Hello,
+I've another question on the ASPxTreelist.
+ Strange or not: I'm willing to build my own customization window.
+However, in the source where I've to handle the information of the tree, I can't reach the tree. I've only the information saved by 
+My question: is it possible to retrieve information on the visibility of the columns of the ASPxTreelist from this byte array?
+And if this is possible: how to do this!?
+Thanks in advance,
+Corbins

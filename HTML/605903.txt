@@ -1,0 +1,3 @@
+Hi,
+there is the posibility of configure the map coloring in this kind of dashboard in windows version, but I can't find this configuration option with the web type.
+It is available to configure the map coloring in web dashboard Choropleth Map? if it is not available, it could be available soon? 

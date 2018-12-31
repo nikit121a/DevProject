@@ -1,0 +1,3 @@
+I'm trying to develop a new skin for our company. I'm getting there, but there are a couple items which I haven't figured out how to edit.
+One of these is the BarHeader item for the Bars product. It uses the ColorScheme (or skin mask) color, and lightly colors the background of the BarHeader. I was able to find several help threads on how to custom draw this at runtime, but we don't want 100+ programmers to have to do this for every header Item. Rather, I want to be able to tell it in the Skin Editor (V2)  "Don't apply color".
+I just can't seem to find what option in the editor controls this element. 

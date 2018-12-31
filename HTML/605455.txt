@@ -1,0 +1,15 @@
+I am loading a devexpress gridview which has a product column loaded with a list of products. When a product is selected from the combo box within the grid view i need it to fill the price cell in the same row with the corresponding price.
+ <Columns>
+                                                            <dx:GridViewCommandColumn ShowNewButtonInHeader="true" ShowSelectCheckbox="false" VisibleIndex="0" Width="40" />
+                                                            <dx:GridViewDataTextColumn FieldName="ProposalID" Caption="ProposalID" VisibleIndex="0" Visible="false"></dx:GridViewDataTextColumn>
+                                                            <dx:GridViewDataTextColumn FieldName="AccountID" Caption="AccountID" VisibleIndex="1" Visible="false"></dx:GridViewDataTextColumn>
+                                                            <dx:GridViewDataComboBoxColumn FieldName="Product" Caption="Product" VisibleIndex="2">
+                                                                 <PropertiesComboBox TextField="ProductName" ValueField="ProductID" DropDownStyle="DropDownList" IncrementalFilteringMode="None"
+                                                                      ClientSideEvents-SelectedIndexChanged="btnSubmitClientClicked"></PropertiesComboBox>
+                                                            </dx:GridViewDataComboBoxColumn>
+                                                            <dx:GridViewDataDateColumn FieldName="StartDate" Caption="StartDate" VisibleIndex="3"></dx:GridViewDataDateColumn>
+                                                            <dx:GridViewDataDateColumn FieldName="EndDate" Caption="EndDate" VisibleIndex="4"></dx:GridViewDataDateColumn>
+                                                            <dx:GridViewDataSpinEditColumn FieldName="Price" Caption="Price (?)" VisibleIndex="5">                                                            </dx:GridViewDataSpinEditColumn>
+                                                            <dx:GridViewDataSpinEditColumn FieldName="Discount" Caption="Discount (%)" VisibleIndex="6"></dx:GridViewDataSpinEditColumn>
+                                                            <dx:GridViewDataCheckColumn FieldName="ReadyForApproval" Caption="Ready For Approval" VisibleIndex="7"></dx:GridViewDataCheckColumn>
+                                                        </Columns>

@@ -1,0 +1,4 @@
+Hello!
+Suppose there is a GridControl with GridView, and latter displays SQLite table rows in async server mode (readonly). GridView allows us to filter, order by column values, etc. After applying such operations we have different order of rows, and the question is how to get a list of indices (indices of original rowIDs) in order of their presence on GridView, especially in case of large datasource.
+Attaching an application initializes large SQLite table (Person info) and then GridView connection to it via XPInstanceFeedbackSource session. This application already includes selection of rowIDs (by clicking at right upper button) using a simple approach by selecting all rows and then retrieving 'id' values from related cells of each row. Is there a way to improve a performance for such operation, and the other question, is it possible to impelement so in case when 'id' column is omitted?
+Thank you!

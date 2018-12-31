@@ -1,0 +1,7 @@
+Hello,
+I have a problem with the pivot grid comtroller: as documented in the attach, I would split free space between all columns of pivot, and not only in the first one.
+The width of the pivot grid is set by a javascirpt on the windows ready or resize windows.
+Could you please give me any suggestion to overcome such an issue?
+Thanks in advance,
+Best Regards.
+ 

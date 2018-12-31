@@ -1,0 +1,10 @@
+Hi, i'm having issues with a functionality i'd wish to implement.
+I've got a master-detail gridview.
+The detail view displays the exact same fields of the master view.
+I'd like to implement a functionality allowing to filter from the header of the master view and allowing to check in the corresponding field of the detail rows, displaying:
+The master rows fulfulling directly the filter criteria
+OR
+The master rows whose at least one detail view row fulfills the filter criteria.
+I was thinking about using the FilterPopUpCheckedList and maybe manipulate it to add the detail values but i noticed on the documentation that adding items is not allowed.
+Is there any other functionality allowing this? FilterRow maybe? What should be the appropriate events to handle to obtain that?
+Thanks in advance! 

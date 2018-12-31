@@ -1,0 +1,3 @@
+I have a dxDataGrid that is loaded via a collection in the Model. Can I also set an MVC Insert Action?
+Basically I want to config the DataSource 2 ways, one for load and the other for Insertion...
+ 

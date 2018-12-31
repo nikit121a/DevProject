@@ -1,0 +1,3 @@
+Hello,
+I have a web user control widget that contains a gridview (gridView A). In my aspx page, it contains another gridview(gridView B) and two popup controls. One of the popup controls contains the widget. In gridView B,there is a column that has a href that calls a javascript funtion as shown below.
+I set a break point on the ShowPopup function. If gridView A's editing Mode is set to batch, that ShowPopup javascript function will not trigger after the hyperlink is clicked. If gridView A's editing Mode is set to the options other than batch, it works properly. What is the reason? and how should I solve it?

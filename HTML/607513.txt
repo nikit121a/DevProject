@@ -1,0 +1,3 @@
+Hi Gosha,
+There is another bug like this, try pasting any number which finishes with 0, when textbox loses focus, pasted number will be deleted. For example try pasting 
+ then click any other place In your plunk sample.

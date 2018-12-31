@@ -1,0 +1,7 @@
+NavigationFrame, BackNavigationMode is set to "
+" 
+)
+I have 2 screens for the user to go to, and they have an "
+" screen to navigate to . (the 2 screens have a grid, double-click goes to an edit screen).
+But the 2 screens, I would like their "
+" screens' PageAdornerControl, to only send them back one screen. 

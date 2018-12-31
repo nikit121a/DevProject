@@ -1,0 +1,14 @@
+Hello,
+We have a text editor for a field which should allow alphanumeric characters and should only allow uppercase letters. The following edit mask works fine but allows tab or new line characters if user is copy/pasting from a text/excel file so I have updated the mask to remove the tab or new line characters as shown under the Modified code section. Now when I type the editor displays the field in uppercase but it saves back into the database as lowercase. Can you please let me know how to resolve this problem?
+Original code:
+           RepositoryItemTextEdit AccountNumEditor = new RepositoryItemTextEdit();
+            AccountNumEditor.MaxLength = 18;
+            AccountNumEditor.CharacterCasing = CharacterCasing.Upper;
+            AccountNumEditor.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.RegEx;
+            AccountNumEditor.Mask.EditMask = "[^a-z]*";           
+            AccountNumEditor.Mask.UseMaskAsDisplayFormat = true;
+ 
+Modified code:
+          AccountNumEditor.Mask.EditMask = "[^a-z][^\r\n\t]*";
+Regards,
+--Satya 

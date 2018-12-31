@@ -1,0 +1,28 @@
+We upgraded from 16.1 to 17.1.5 and the form which has a RibbonControl is throwing an error during InitializeComponent.
+The declaration of the ribbon
+this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
+The error is thrown at Devexpress.XtraEditors.ViewInfo.ToggleSwitchViewInfo.GetIntProperty for "SwitchWidth"
+Error: Object reference not set to an instance of an object.
+Stacktrace
+   at DevExpress.XtraEditors.ViewInfo.ToggleSwitchViewInfo.GetIntProperty(String propertyName)
+   at DevExpress.XtraEditors.ViewInfo.ToggleSwitchViewInfo.GetSwitchWidth()
+   at DevExpress.XtraEditors.ViewInfo.ToggleSwitchViewInfo.UpdateCheckProperties(BaseCheckObjectInfoArgs e)
+   at DevExpress.XtraEditors.ViewInfo.BaseCheckEditViewInfo.CalcContentSize(Graphics g)
+   at DevExpress.XtraEditors.ViewInfo.BaseEditViewInfo.CalcClientSize(Graphics g)
+   at DevExpress.XtraEditors.ViewInfo.BaseEditViewInfo.CalcBestFit(Graphics g)
+   at DevExpress.XtraBars.Ribbon.ViewInfo.RibbonItemViewInfoCalculator.CalcToggleSwitchEditHeight(Graphics graphics)
+   at DevExpress.XtraBars.Ribbon.ViewInfo.BaseRibbonViewInfo.CalcConstants()
+   at DevExpress.XtraBars.Ribbon.ViewInfo.RibbonViewInfo.CalcConstants()
+   at DevExpress.XtraBars.Ribbon.ViewInfo.RibbonViewInfo.CalcViewInfo(Rectangle bounds)
+   at DevExpress.XtraBars.Ribbon.RibbonControl.CheckViewInfo(Boolean checkForGhostItems)
+   at DevExpress.XtraBars.Ribbon.RibbonControl.CheckViewInfo()
+   at DevExpress.XtraBars.Ribbon.RibbonControl.GetMinHeight()
+   at DevExpress.XtraBars.Ribbon.RibbonControl.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.Layout.DefaultLayout.SetDock(IArrangedElement element, DockStyle value)
+   at System.Windows.Forms.Control.set_Dock(DockStyle value)
+   at DevExpress.XtraBars.Ribbon.RibbonControl.set_Dock(DockStyle value)
+   at DevExpress.XtraBars.Ribbon.RibbonControl..ctor()
+   at Adastra.ReferralLetters.LetterEditControl.InitializeComponent() in XXXX.Designer.cs:line 35
+   at Adastra.ReferralLetters.LetterEditControl..ctor() in XXXX.cs:line 47
+ 

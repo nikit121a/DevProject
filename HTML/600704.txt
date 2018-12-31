@@ -1,0 +1,55 @@
+Hi.
+I get some infrequent crashes on application termination. I searched the DX knowledge base for something similar and found T271237.
+The call stack looks exactly like mine. 
+Has this been fixed? I am using the latest version though.
+Here is the call stack:
+5034f0e3 +00f vcl150.bpl        Forms               3569   +0 TCustomForm.IsFormSizeStored
+5034f0c9 +005 vcl150.bpl        Forms               3564   +1 TCustomForm.IsClientSizeStored
+503517df +58b vcl150.bpl        Forms               4969 +177 TCustomForm.CreateParams
+04c58e4e +00a dxRibbonRS15.bpl  Dxribbonform                  TdxCustomRibbonForm.CreateParams
+502813ca +02e vcl150.bpl        Controls            9158   +1 TWinControl.CreateWnd
+5034d641 +005 vcl150.bpl        Forms               2679   +1 TScrollingWinControl.CreateWnd
+5035185a +00a vcl150.bpl        Forms               5033   +1 TCustomForm.CreateWnd
+04c58f2b +013 dxRibbonRS15.bpl  Dxribbonform                  TdxCustomRibbonForm.CreateWnd
+5028191a +016 vcl150.bpl        Controls            9340   +3 TWinControl.CreateHandle
+502856f8 +01c vcl150.bpl        Controls           11874   +4 TWinControl.HandleNeeded
+50285705 +005 vcl150.bpl        Controls           11880   +1 TWinControl.GetHandle
+5035749d +02d vcl150.bpl        Forms               8966   +3 GetTopMostWindows
+76635975 +015 user32.dll                                      EnumWindows
+50357551 +02d vcl150.bpl        Forms               9004  +14 TApplication.DoNormalizeTopMosts
+50357626 +002 vcl150.bpl        Forms               9036   +0 TApplication.NormalizeTopMosts
+50357e5c +31c vcl150.bpl        Forms               9302  +48 TApplication.WndProc
+500afa64 +014 rtl150.bpl        Classes            13491   +8 StdWndProc
+77310bcb +04b ntdll.dll                                       KiUserCallbackDispatcher
+5027fc40 +080 vcl150.bpl        Controls            8207  +14 TWinControl.Destroy
+50288365 +01d vcl150.bpl        Controls           13525   +2 TCustomControl.Destroy
+5003a118 +008 rtl150.bpl        System             11069   +1 TObject.Free
+04cc3880 +018 dxRibbonRS15.bpl  Dxribbon                      TdxRibbonCustomKeyTipWindows.Delete
+04ae690e +02e dxBarRS15.bpl     Dxbar                         TdxBarKeyTipData.HideKeyTipWindow
+04b147a7 +083 dxBarRS15.bpl     Dxbar                         TdxBarNavigationController.SetKeyTipsShowingState
+04b14fb6 +012 dxBarRS15.bpl     Dxbar                         TdxBarNavigationController.StopKeyTipsHandlingMode
+04b14929 +075 dxBarRS15.bpl     Dxbar                         TdxBarNavigationController.StopKeyboardHandling
+04cc398f +02b dxRibbonRS15.bpl  Dxribbon                      TdxRibbonCustomKeyTipWindows.FreeNotificationHandler
+02f1b691 +025 dxCoreRS15.bpl    Dxcoreclasses                 TcxFreeNotificator.Notification
+500add21 +01d rtl150.bpl        Classes            12208   +4 TComponent.RemoveFreeNotifications
+500adcc4 +014 rtl150.bpl        Classes            12191   +2 TComponent.Destroy
+5027b4c7 +0e3 vcl150.bpl        Controls            5234  +24 TControl.Destroy
+5027fcbc +0fc vcl150.bpl        Controls            8227  +34 TWinControl.Destroy
+50288365 +01d vcl150.bpl        Controls           13525   +2 TCustomControl.Destroy
+02bd77f8 +024 cxLibraryRS15.bpl Cxcontrols                    TcxCustomControl.Destroy
+02bd7b5e +08e cxLibraryRS15.bpl Cxcontrols                    TcxControl.Destroy
+04cb9a12 +136 dxRibbonRS15.bpl  Dxribbon                      TdxCustomRibbon.Destroy
+5027fc6e +0ae vcl150.bpl        Controls            8213  +20 TWinControl.Destroy
+5034d618 +038 vcl150.bpl        Forms               2666   +3 TScrollingWinControl.Destroy
+5034e8b9 +0f9 vcl150.bpl        Forms               3306  +32 TCustomForm.Destroy
+02ba550d +01d cxLibraryRS15.bpl Dxforms                       TdxForm.Destroy
+04c58e0e +02e dxRibbonRS15.bpl  Dxribbonform                  TdxCustomRibbonForm.Destroy
+08da4803 +037 GELCALCCORE.DLL   dxRibbonForm.hpp     445   +0 Dxribbonform.TdxRibbonForm.Destroy
+08ec87e0 +2f0 GELCALCCORE.DLL   formVspMain.cpp      158  +35 TfrmVspMain.Destroy
+091106c9 +039 GELCALCCORE.DLL   vspFormFactory.cpp         38 VspFormFactory.DestroyMainForm
+08f0f383 +01b GELCALCCORE.DLL   gcCoreFacade.cpp     505   +3 GcCoreFacadeI.DestroyMainForm
+00404239 +009 vsp.exe           gcApplication.cpp    183   +2 GcApplication.DestroyMainForm
+004042c6 +082 vsp.exe           gcApplication.cpp    208  +21 GcApplication.Shutdown
+0040523a +2f6 vsp.exe           vsp.cpp              102  +67 wWinMain
+0042502c +170 vsp.exe                                         __wstartup
+Thanks.

@@ -1,0 +1,8 @@
+Hi,
+Using Angular 2.x Approach Component Framework.
+I have an interesting issue with dxDateBox component . Some of years shows incorrect month name. 
+For  example, when i select 2016 and February, it shows January on the title but the numbers of mount belong to February indeed. (First gif shows). Also when i click next mounth button it is passing April, it means there is no March but again the numbers of mount  belong to March. (Second gif shows). Interesting point is this situation occurs not for all years. For example 2017 is correct but 2016 is incorrect (thirth gif shows.)
+Actually i have checked your demo and there is no this issue there. also i downloaded your 
+ to my local and run. There is no this issue again. I have wanted to ask maybe you have an idea which situation causes of this behaviour. (packages in my app, cldr  or anything else etc.)
+i have attached some screen capture gifs for clarity .
+Thanks. 

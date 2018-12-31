@@ -1,0 +1,11 @@
+Hello,
+we  are developing an application in which some data are received real time and are shown in a chart using 7 different series on the same chart (only 3 of them are visible at the same time but we prepare all of them using Visible=false).
+We have a new x,y point every 10ms (for every serie) and a total of 30-60s of data to draw.
+We receive about 30-40 points for each serie at the same time and we add them one by one to series using AddPoint(x,y).
+When the chart is empty  the first 5 sec of data (500 points for each serie) are shown in an acceptable real time.
+The problem is that after 6 sec of data it becomes slow. The AddPoint(x,y) function tackes a lot of time to complete. It seems like the chart require more time to draw data and the gap increments when the total number of points increase.
+After 20 seconds of data the gap is about 5-7 sec.
+Hoping in a quick reply and in a solution for this issue.
+Another question about this type of chart: how to fix the x-axis to the last 10s of data? I've already add the Xnavigation bar and the user are able to zoom and scroll the data but we need to show the last 10sec while data are drawn.
+Thanks
+Best regards.

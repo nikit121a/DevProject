@@ -1,0 +1,10 @@
+Hello,
+How can i fill dataset that are already created in sqlDatasource ?
+My scenario is like this.
+I have created one Data-Source that contains two result set one result set is bind with report data and second result set i want to used in report BeforePrint event. (refer screenshot dev1.png)
+But i have problem that how can i fill or bind my second result set to other dataset that i have manually created in event of before print. I don't know how to fill my second result set with other dataset.
+I am not using any detail report. 
+i have just one simple report there is no complication.
+Please refer screenshots
+Please provide your suggestion.
+Thanks, 

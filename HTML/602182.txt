@@ -1,0 +1,6 @@
+I use SaveLayoutToXml and RestoreLayoutFromXml from TabbedView.
+It works fine, but how can I reset the TabbedView if it fails? If the user modifies the xml-file...
+If RestoreLayoutFromXml throws an exception I can?t add documents anymore. (The return value of TabbedView.AddDocument is null) 
+How can I reset the TabbedView to avoid this?
+TabbedView.Controller.ResetLayout is not the solution.
+I modified a sample project and made a video.

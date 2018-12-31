@@ -1,0 +1,3 @@
+Hello,
+ I am using Main Demo that installs to C:\Users\Public\Documents\DevExpress Demos 17.2\Components\eXpressApp Framework\MainDemo\CS to test your scheduler. I create a recurring event for one resource then add a second resource to one occurance of this event. This event shows on the second resource schedule only if second resource is added to all recurrences of the event and does not show if added to a single occurrence. Attached is a video with steps. How I can make it to show on the second resource schedule?
+Thank you. 

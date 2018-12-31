@@ -1,0 +1,7 @@
+Dear Support,
+I'm using dxLookup like you see in the attached project.
+On IOS 11.2.5 (IPad) you can't select any Item -> the popup hangs in open state and the value doesn't change.
+On Android everything is working fine.
+In Simulation everything is working fine.
+I need urgent help...
+Kind Regards 

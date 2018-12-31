@@ -1,0 +1,1 @@
+Hi, I'm trying to show the popupmenu, but it steals focus. Is there a way to load the popup menu in the background? I'm making a sort of intellisense on a richtextedit.

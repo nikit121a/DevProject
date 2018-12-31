@@ -1,0 +1,8 @@
+Hi Nikolia, 
+I like the way items are organized inside a user control. 
+A user control is a class, so i create a properties send data back and forth. (getters and setters)
+I did have an issue with ASPxGridView  inside a user control.  Apparently, I need to turn off the View State. 
+Other issues with grouping controls into user controls.  
+VS is slow. I had to add a property into the DIV css class  display:none; to hide control in the designer and change the css class when form loads.
+Like this  header3.Attributes["class"] = "header3show";   
+Joe

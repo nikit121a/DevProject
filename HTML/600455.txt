@@ -1,0 +1,10 @@
+Hi!
+After update to 17.2.4 version.. do you have idea why em some clients, using IE11 or EDGE, dashboard open blank?
+- how if "dataloading"event not fired..
+but, is for some clients.. here for me, open correct...
+do you can to test in our test site:
+www.mybi-nuvem.com.br
+login: demo
+pass: demo
+click em dashboard..
+In some machines, open correct (IE11 oe EDGE), but in others machine, not open...!

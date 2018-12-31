@@ -1,0 +1,8 @@
+Hello!
+I want to restore some saved filter expressions.
+It's impossible to restore FilterRowMenu condition. The first condition is always selected. But data are correctly filtered.
+ Only for some conditions, the filter value is not restored in the filter column. If you click on the "Filter 1" button, the filter condition contains "Not Contains([ProductName], '2')". The filter value (2) is not restored, but data are correctly filtered.
+See the attached zip which contains the sample project and a video.
+Thanks for your help!
+Best regards!
+Alex

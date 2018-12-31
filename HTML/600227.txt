@@ -1,0 +1,11 @@
+I have a XAF winforms application and the following scenario:
+- there is a DetailView with several fields date, duration, description ...
+- on this DetailView some action can be triggered automatically (after certain time - this is related to the application logic)
+- triggered action access the DetailView.CurrentObject and updates the duration field
+Now consider the following scenario:
+- user is typing text into description field
+- automatic action is triggered and updates DetailView.CurrentObject
+- text typed by user into the description field disappears
+I know why this happens - because the datasource (in this case DetailView.CurrentObject) is updated after the editor lost its focus. So while running the automatic triggered action it can see the previous value of description.
+Is it somehow possible to "end edit" before the automatically triggered action is executed?
+ 

@@ -1,0 +1,4 @@
+Schedule Day viewReport printing issues:
+1. theme background color - this does not appear in preview but then appears during print from main app.
+2. Appt. width - appts are printing stretched across the row.  this does not match the UI.  
+ 

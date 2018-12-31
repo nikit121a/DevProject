@@ -1,0 +1,2 @@
+Hi Team,
+We have an aspxgridview with Group Summary enabled. We want to highlight one of the cell in the group summary row. Can we do that ? if yes , how can we achieve it ? please help! 

@@ -1,0 +1,6 @@
+Hi,
+i?m using the ListBoxEdit in a context menu and wondering how to achieve the expandable grouping as documented in your online documentation at 
+.
+I tried some of the available customizations but did not succeed yet ...
+Can you give me a hint?
+thx in advance 

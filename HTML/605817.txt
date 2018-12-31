@@ -1,0 +1,6 @@
+
+Hello,
+I try to use ASPxObjectContainer with asx file in the ObjectUrl. It's good with IE, but not with Firefox or Chrome.
+How can I make live audio with these browsers ?
+Thanks,
+Ingrid

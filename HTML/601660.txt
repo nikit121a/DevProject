@@ -1,0 +1,8 @@
+Hi,
+I'm currently creating a project that needs to present a spreadsheet for multiple users.
+When the first user  makes a request to the view, which contains the spreadsheet, that document must be editable(readonly=false), but when another user makes the same request (and the previous user is still editing the document) the document must be locked(readonly=true).
+Can you give me an ideia how should i create this behaviour?
+Currently I'm creating a static variable in a class Helper, which is beeing used as the value for settings.ReadOnly. 
+ I'll give bellow the piece of code related to this problem:
+The variable MapaInfinsHelper.readonly is beeing changed in the function MapaInfinsHelper.PerformDataMerging() when the first user makes the request(starts with FALSE, then sets to TRUE). When the second user comes the static variable it's correct, but now the first user cant edit the document.
+ 

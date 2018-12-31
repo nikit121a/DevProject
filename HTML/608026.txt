@@ -1,0 +1,4 @@
+Hi, I have a problem with Mail Merge function: I want to load an html document into a RichEditControl and apply some mergefields.
+In the same time I apply the mergefield, the "view merged data" function works correctly, but, after saving the html document and reload it, I can see only the original filed name between "<<" and ">>" and the "view merged data" stops working.
+Is this behaviour correct?
+Thanks 

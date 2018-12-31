@@ -1,0 +1,6 @@
+Hi..
+i use the IsInteractive property for disable the interaction with Needle, but if click on the center of needle, the needle moves randomly. 
+see the attached video..
+is it possible to disable the mouse in order not to move the needle?
+Many Thanks
+Aurelio 

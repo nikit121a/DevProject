@@ -1,0 +1,7 @@
+Hello Support,
+Before showing report, we have  one page which asks user to select date range of which he wants to see report. So on this page user will have to input i.e. from-date and to-date
+Now our requirement is to show inputs given in from-date and to-date on generated report header with big fonts like 
+"Report generated for 01-Jan-2018 TO 01-Feb-2018"
+I have taken care of applying filter string to data source, but still looking for ways for how to show such filter-string like above on report.
+ Can you please highlight any approach through which I can implement above requirement ?
+Thank You. 

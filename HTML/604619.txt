@@ -1,0 +1,5 @@
+Hi support; 
+I have a  @Html.DevExpress().Dashboard(settings => { settings.Name = "Dashboard"; }) created in an ASP.NET MVC application. Within this Dashboard I've included a Gauge widget. Within the Chrome developer console I call Dashboard.SetVisible(false) via javascript, then Dashboard.SetVisible(true), and each time a gauge disappears. Please see attached screenshot. 
+In the Chrome console an error is thrown: dxCircularGauge incident occurred. Code: W2103  DXR.axd?r=1 228.1 22.., 15 12-vzBcg:120867
+Please advise. 
+Thanks! 

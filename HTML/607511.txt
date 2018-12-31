@@ -1,0 +1,4 @@
+Hi,
+I have a little  problem with setting of Background color to ButtonEdit. I wanted to indicate ReadOnly state of the ButtonEdit by Transparent background. But setttng of the Background property of the ButtonEdit seems set background only to inner TextBox of ButtonEdit, but not ButtonEdit element itself. How can I achieve this please? I attached a simple project to demonstrate this issue.
+Thanks, Mira
+ 

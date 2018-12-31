@@ -1,0 +1,4 @@
+I am looking to change the background color of tooltip in above scenario, but it's not working when using text block.
+text block background color changes not changing complete tooltip container background, so
+How can we use tooltip container in above scenario (similar to below code) ?
+<tooltip content="{Binding Content}" background="Red" TextWrapping="WrapWithOverflow"/>

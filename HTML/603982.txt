@@ -1,0 +1,6 @@
+Hello,
+ I want to bind a command to a button which is inside a DataTemplate.
+I tried  element-to-element binding and RelativeSource binding but didn't worked.
+Can you please modify my project to work as expected? 
+Best regards,
+Radu Olteanu 

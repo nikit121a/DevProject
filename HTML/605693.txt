@@ -1,0 +1,5 @@
+Hi,
+We recently upgraded Dev Express version 12.2.18.0 to  17.1.6. With older version, it used to copy the font style, format of the source to the RichEditControl. But after upgrade it doesn't.  After setting the CopyPaste and set it to 'KeepSourceFormatting',  we can see the font style and size are copied over. LayoutUnit is Document in both the old and new version. We notice that the size of the font is slightly thicker/bigger because of which the text doesn't fit in a line and last line appears in next page (attached is the sample text of different version, the bottom is ver 17.1.6. because of the change in the formatting of the rtf document, user has to go to every template document before faxing/printing. 
+Note:The size of the RichEditBar Controller tool/menu of v17.1.6 is slightly bigger than v12.2.18.
+Thanks & Regards,
+Sarju

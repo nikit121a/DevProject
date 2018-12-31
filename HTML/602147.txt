@@ -1,0 +1,3 @@
+Hello,
+I would like to change the bordercolor  and the header/title backgroundcolor for the themedwindow control. Im using a custom theme so i would like to change it in the theme. Where can i find these colors?
+Thanks 

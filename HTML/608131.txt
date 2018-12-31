@@ -1,0 +1,3 @@
+When the button is pressed I want to catch the event and run some code.
+I cant select the button in designer and when sepected in source I don't get lighning both to look at events.
+ 

@@ -1,0 +1,7 @@
+I have a BootstrapTagBox with an ObjectDataSource and I would like to be able to filter items in the datasource after "Name" and/or "Number". 
+This is my Code: 
+At the moment, I can only filter the datasource by the "Number" because TextField="Number"
+I need the same functionality as in BootstrapCombobox where I can have multiple "Fields" and search by name and/or number.
+ Like so:
+Regards,
+?g?st 

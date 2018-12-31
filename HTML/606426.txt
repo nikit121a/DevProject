@@ -1,0 +1,4 @@
+Hello team,
+I have a dx-data-grid which has fields from one table along the side there is field called comments for each row added into datagrid.The comments field maintained in a different table by associating with foriegh key from first table.Can you please guide me how to associate this column in the same grid.....  I need to insert/update/delete row from this table on each row added/deleted/updated from datagrid.... please guide...
+Kind regards
+ 

@@ -1,0 +1,9 @@
+I would Like to display multiple Graphs in a Report. But I am facing the Issue that  same Graph repeats for each element in first element of the List.
+example: My datasource is a list of Products, so I have 2 items in this Products List. Each Item in this has a List of child Items say{ x,y}
+I have to show in my report that first Item graph with its {x,y} list, and second graph with its list of {x,y}
+List<Products>{
+                         [0]{ (x1,y1),(x2,y2),(x3,y3),(x4,y4)},
+                         [1]{ (x1,y1),(x2,y2),(x3,y3),(x4,y4),(x5,y5)}
+                        }
+But issue is that graph for [0]th item appears number of times of its items. the [1] item will not appear (when I put the graph under detail slab). 
+expectation is to get one graph for each item [0]th and [1] and so on.

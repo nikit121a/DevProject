@@ -1,0 +1,4 @@
+Hi Team , 
+ Could you please let me know how to change the Icon for the autofilter in the WPF spreadsheetControl. Thanks 
+regards,
+Dinesh

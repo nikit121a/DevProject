@@ -1,0 +1,5 @@
+Hello,
+I am using custom controls in my XAF project and the updated version for E911 with the IComplexControl interface is working perfectly however, currently I want to implement Custom Win/Web Form (not just as embedded Win/Web User Control).
+In the old E911 this was possible thanks to WebCustomFormPathNavigationItem (WebShowCustomFormWindowController). How can achieve the same result - invoking of Custom Win/Web form which is session aware from menu item with the new method.
+Thank you,
+VS 

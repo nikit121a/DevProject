@@ -1,0 +1,2 @@
+Hi Guys,
+Just wish to advise that SVG icons don't work correctly  in Layout Groups and Ribbons, they get cut off and create edges. I've attached a screenshot to demonstrate this, the 'Help' button is the issue. I've resolved this issue by changing it back to PNG images and all ok now.

@@ -1,0 +1,5 @@
+The problem reported in ticket 
+ has not been fixed completely.
+Let me first inform you that the paint problem before 17.2.4 was much worse when sorting on a Sum group summary of a float field (not sure if type of field makes a difference or not). In my test sometimes only the first group row was not drawn as stated in the ticket but more often there were many records from multiple groups on top and some of them were duplicated in groups bellow. The other problem was that when you use sort by group summary, on closing the application, it would throw many access violation errors in the FinalizeUnits procedure. 
+The painting has been fixed in 17.2.4. the access violations in FinalizeUnits procedure remain.
+I think this should be easy to replicate. Load a table with at least 200 records and group on a column that will produce at least 10 groups. Add a Sum summary on a float field  and then sort on group summary. Now close the application.

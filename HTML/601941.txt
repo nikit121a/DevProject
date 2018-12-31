@@ -1,0 +1,17 @@
+Hello together,
+pdfviewer cannot load the attached PDF.
+Exception:
+"The input data is not recognized as a valid PDF"
+Stack Trace:
+   bei DevExpress.Pdf.PdfSignature..ctor(PdfReaderDictionary dictionary)
+   bei DevExpress.Pdf.PdfSignatureFormField..ctor(PdfInteractiveForm form, PdfInteractiveFormField parent, PdfReaderDictionary dictionary, PdfObjectReference valueReference)
+   bei DevExpress.Pdf.PdfInteractiveFormField.Parse(PdfInteractiveForm form, PdfInteractiveFormField parent, PdfReaderDictionary dictionary, PdfObjectReference reference)
+   bei DevExpress.Pdf.Native.PdfObjectCollection.GetInteractiveFormField(PdfInteractiveForm form, PdfInteractiveFormField parent, Object value)
+   bei DevExpress.Pdf.Native.PdfInteractiveFormFieldCollection..ctor(IList`1 fieldsArray, PdfInteractiveForm form, PdfInteractiveFormField parent, PdfObjectCollection objects)
+   bei DevExpress.Pdf.PdfInteractiveForm..ctor(PdfReaderDictionary dictionary)
+   bei DevExpress.Pdf.Native.PdfDocumentCatalog..ctor(PdfReaderDictionary dictionary)
+   bei DevExpress.Pdf.Native.PdfDocumentReader.Read(Boolean detachStreamAfterLoadComplete)
+   bei DevExpress.Pdf.Native.PdfDocumentReader.Read(Stream stream, Boolean detachStreamAfterLoadComplete, PdfGetPasswordAction getPasswordAction)
+   bei DevExpress.XtraPdfViewer.PdfViewer.LoadDocument(Stream stream, String path, Boolean resetRotateAndZoom)
+   bei DevExpress.XtraPdfViewer.PdfViewer.LoadDocument(String path, Boolean resetRotateAndZoom)
+   bei DevExpress.XtraPdfViewer.PdfViewer.LoadDocument(String path)

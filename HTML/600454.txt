@@ -1,0 +1,3 @@
+Hello,
+What is your suggested approach to display an empty message, when dxRadioGroup (inside a dxForm) dataSource is empty? 
+Thanks 

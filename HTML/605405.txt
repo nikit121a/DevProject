@@ -1,0 +1,5 @@
+Hello!  
+Is it possible to customize the gridcontrol which appears in the selection window after clicking the add button in the many to many scenario?
+Please take a look at me attached png-file.
+Thank you very much in advance and nice greetings.
+Fritz 

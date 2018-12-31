@@ -1,0 +1,3 @@
+Hi
+I developed some charts for stock  trading. The trading hours cover  from 9:30 to 1:00pm. Currently if the time is 11am then the chart will start at 9:30am and autofill the chart with 11am being at end of the chart. In this situation, how can I show the hours for the chart being fixed from 9:30 to 1pm and the data only displays up to the point in time elapsed, eg 11:00? So  instead of always having a filled chart, only part of the chart would be filled until the end of the trading session.
+Thanks 

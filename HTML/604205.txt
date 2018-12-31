@@ -1,0 +1,27 @@
+Hi,
+We are migrating our project to Angular 5 and TypeScript (XtraReports 17.2.4).
+We're using the web reporting designer.
+1) We're developing  our frontEnd using the document:
+1) - In an earlier version angular JS, we created a callback bellow.
+2) - We need a repor layout in this callback because we need to save this in our db.
+ngAfterViewInit() {
+      const report = AppContext.getReport();
+      if ((report) && (report.id > 0)) {
+        const reportUrl = '';
+        const host = 
+;
+        const container = this.renderer.createElement('div');
+        container.innerHTML = Html;
+        this.renderer.appendChild(this.scripts.nativeElement, container);
+        ko.applyBindings({
+          reportUrl,
+          requestOptions: {
+            host,
+            getDesignerModelAction: '/api/1/designer' // Action that returns the Report Designer model.
+            
+ 
+          }
+        }, this.control.nativeElement);
+   
+Thanks
+ 

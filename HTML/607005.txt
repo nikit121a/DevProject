@@ -1,0 +1,4 @@
+Hi the attachment image you can see the Source Date Assigned should take up 2 columns and the Destination Tank Id should be on the next line. but it isn't even though in my html mark up code.
+You can see I only have 2 columnspan="2" settings for the 2 date columns.
+
+

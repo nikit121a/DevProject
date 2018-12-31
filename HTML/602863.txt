@@ -1,0 +1,6 @@
+Hi,
+In the Pivot Grid, the user can filter various parameters and move data fields.
+Is there a way for the user to save the such settings in Pivot Grid?
+If yes, can such save settings be shared with others users using the same Pivot Grid.
+For example, one user save the Pivot Grid setting with Year : 2017.  One returning to the Pivot Grid (same web page) the user can re-call the Year setting.
+Thanks for assistance. 

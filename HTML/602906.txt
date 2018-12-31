@@ -1,0 +1,13 @@
+Hello,
+We have a number of DevExpress.XtraReports.UI.XtraReports that are currently working fine, however, when we make any change to a report then try to generate it we receive a MissingManifestResourceException.
+Please see full exception below:
+"An exception of type 'System.Resources.MissingManifestResourceException' occurred in mscorlib.dll but was not handled in user code
+Additional information: Could not find any resources appropriate for the specified culture or the neutral culture.  Make sure "ReportName" was correctly embedded or linked into assembly "Project" at compile time, or that all the satellite assemblies required are loadable and fully signed."
+Our XtraReport's are version 13.2 and following code retrieves the report resources:
+System.Resources.ResourceManager resources = global::Resources.InitialMeetingWithNewFamilyForm.ResourceManager;
+When we make change to the XtraReports the version changes automatically to 17.1 and the code changes to:
+System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ReportName));
+The file structure of of our XtraReports:
+- Report and resource file (without designer file) in same folder
+- Another resource file (with designer file) in App_GlobalResources
+Do you know why this exception is occurring and how we can fix it?

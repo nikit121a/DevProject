@@ -1,0 +1,3 @@
+Hi,
+I would like to use the DataRowFixing feature of the TcxDBTableView, but i already have a popup menu assigned to right click but now the Pin Popmenu shows up instead. I only want to click Pin column and have pin popup menu.. NOT all regular data columns (this should remain my popup). How can I do this?
+Thanks! 

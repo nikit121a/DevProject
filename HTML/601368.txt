@@ -1,0 +1,11 @@
+Hi,
+I'm looking for a bit of guidance.
+I'm familiar with building client applications (WinForms c#) that connect direct to SQL but am struggling to understand how I can connect to the database through a web service such as oData or some kind of restful API.
+I've been searching for over a month now with no luck. What I'm hoping is you would be able to explain the dev express tools I would need to use and perhaps provide a very basic demo that I can then pull apart to help understand the process and transition from directly connected applications.
+I currently have a solution with 3 projects. 
+Project 1 is the SQL database project, I have created a simple two table database with a relationship between the two tables (parent and child). 
+Project 2 is a WinForms application (c#) with a single form. On the form is a field list of the two columns in the parent table of the database mentioned in project 1 and a data grid for table two.
+Project 3 is supposed to be for some kind of web API service but that isn't going very well. I've been using the dev extreme WCF  oData template for this using the build from current database option (after I deployed project 1 to a test SQL server).
+My intention was that I would be able to deploy project 3 to an IIS server in my DMZ and then run the client application from a remote location over the internet using the service address. Each time I try to add the service under the references node of the project solution tree I get an error but I'm fairly certain I've not actually made the correct service yet.
+Much appreciated
+Kevin 

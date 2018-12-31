@@ -1,0 +1,3 @@
+We recently decided documents must open in new windows so users can look at other data for the document they are composing. After opening a new window using <a target="_blank" ... /> in IE 11, the user gets this error on DXR.axd (93027,4) and fails to load the document:
+SCRIPT5007: Unable to get property 'OnCalendarFinishAnimation' of undefined or null reference
+ In this example, the only code that is different from where it worked before is the layout page. The view and the partials are literally the same files. Understanding what I need to correct on the attached layout is my top priority so it works in IE. None of these errors occur in Chrome, so it seems to be an issue of additional resources.

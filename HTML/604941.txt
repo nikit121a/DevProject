@@ -1,0 +1,4 @@
+Hi team!
+I have a DocumentManager control  with table layout; I create some CustomHeaderButtons programmatically:
+But I want to show button images only on mouse hover on these buttons. And when mouse pointer is not on the button, no icon should be shown. Is this possible? 
+Thank you 

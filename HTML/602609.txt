@@ -1,0 +1,4 @@
+Hi,
+When I compile sample reporting project which is created by project wizard, the satellite  dlls automatically are being copied to the bin directory. This case is not true for an other existing project which is not created by project wizard. What is the mechanism of copying satellite dlls automatically under bin directory? I searched the web.config files and compared them but I coudn't find the problem.
+Thanks for all
+Ali, 

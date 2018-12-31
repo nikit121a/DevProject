@@ -1,0 +1,5 @@
+Hi,
+I am trying to change the text (bound) existing column in gridview with an hyperlink without changing the columnEdit as HyperLink.
+On click of the data, it should navigate to the URL. OpenLink event in RepositoryItemHyperLinkEdit is getting triggered on 3rd click and the browser is not getting opened on the click event.
+Please check and let me know.Attached the sample project.
+ 

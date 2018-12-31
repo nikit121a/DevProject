@@ -1,0 +1,14 @@
+
+
+When the solution described in the 
+ article is implemented, the following error occurs at run time: 
+.
+To reproduce this issue, do the following:
+1. Copy the class from the 
+ ticket and add it to the Main Demo project. Remove unnecessary reference properties from the class.
+2. Decorate the LoggerMetingKey structure with the TypeConverter attribute as demonstrated in the example provided here: 
+.
+3. Open the LoggerMeting_ListView View in the Model Editor, and change the 
+ property to 
+.
+4. Open the corresponding ListView at run time.

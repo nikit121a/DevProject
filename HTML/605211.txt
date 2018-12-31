@@ -1,0 +1,6 @@
+Hi,
+Just Updated to latest version of Visual Studio  15.5.6
+Toolbox has gone for 17.2.5 when I run the app and ask to repair install it will not accept my username and password even though I know they are correct.
+I have gone from a registered install to a trial with 1 day left.
+Cheers,
+Luke 

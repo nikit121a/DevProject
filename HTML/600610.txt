@@ -1,0 +1,16 @@
+Hello, I have a low priority issue that I thought I'd ask.
+When i load a grid, the first row should be yellow.  The first row has the focus.
+When you leave the row, the row is not yellow.  The other rows which should be yellow are colored just fine.  Something about the first row or the fact that it's selected???
+Any thoughts would be greatly appreciated!!  
+Here is the code:
+ Private Sub GridView1_RowStyle(sender As Object, e As DevExpress.XtraGrid.Views.Grid.RowStyleEventArgs) Handles GridView1.RowStyle
+        Dim myView As DataGridView = TryCast(sender, DataGridView)
+        If e.RowHandle > 0 Then
+            Dim myrow As DataRow = GridView1.GetDataRow(e.RowHandle)
+            If IsNothing(myrow) Then Exit Sub
+            If NullBoolCheck(myrow("IsDir")) = True Then
+                e.Appearance.BackColor = Color.Yellow
+            End If
+        End If
+    End Sub
+ 

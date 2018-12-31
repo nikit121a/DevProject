@@ -1,0 +1,3 @@
+Now I have a requirement to implement logic similar to this:
+I also tried to implement ExpendoObject like this. . but no luck ..
+Please guide. 

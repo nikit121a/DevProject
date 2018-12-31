@@ -1,0 +1,4 @@
+Hi, 
+Is there a way to open files from the clients file explorer (C:\)?  We are using a cloud based storage app, but its visible in our file explorer.     
+thanks, 
+Ah 

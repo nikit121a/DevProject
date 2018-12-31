@@ -1,0 +1,6 @@
+Hello
+I am trying to use  DisplayImageChecked and DisplayImageUnchecked but the images are not displaying.
+Without those settings the standard check box was being displayed (refer attachment). The image url's were created by navigating from the properties.
+With or without an image the filtering on the column works correctly.
+How can I get the images to display?
+ 

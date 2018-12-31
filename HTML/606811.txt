@@ -1,0 +1,6 @@
+Hi,
+When we edit a cell in DxDataGrid the user needs to tab out or press enter for the change to be updated in the data source.
+Is there a way for the data source to get updated when the user edits and moves out of the cell (without pressing enter etc)?
+Thanks,
+Charu
+ 

@@ -1,0 +1,7 @@
+Hi, I am using <Dx-Calendar> in my Angular 4 application. This calendar works fine in English language. My requirement is to display this calendar in  " THAI "  in some of my component. But I am unable to convert this calendar in THAI calendar. Is there any way to do so? Do I need to install/download other dependencies to achieve this. Please reply with some working sample/demo. 
+Please refer below code for calendar I am using and refer attached screen shot what we are expecting to do:-
+
+
+
+
+Thanks and Regards

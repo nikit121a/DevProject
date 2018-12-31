@@ -1,0 +1,2 @@
+Hi,
+     for Datagrid we used "onToolbarPreparing" function to push custom items to it, Please provide your suggestions to add custom items like datagrid in pivotgrid.

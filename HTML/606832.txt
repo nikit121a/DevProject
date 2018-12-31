@@ -1,0 +1,5 @@
+I found a very similar problem for Version 17.1.4 of the ExcelDataSource:
+DevExpress WinForms 17.1.4
+ExcelDataSource - Date values are converted to integer when values of the first row are used as field names.
+How i can i Load the Data as string or avoid the exception?
+Thanks in advance

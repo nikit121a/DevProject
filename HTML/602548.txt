@@ -1,0 +1,5 @@
+To reproduce issue:
+1. Using RDP log-in to remote machine and run app created using Office2010Black Theme.
+2. Disconnect session.
+3. Connect to the same session.
+There is now title on main window bar .

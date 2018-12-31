@@ -1,0 +1,13 @@
+Hello,
+The methods "StoreToIniFile"  and "RestoreFromIniFile" is not working in some situations.
+Steps to reproduce de problem (with the attached sample project):
+1 - Open the application;
+2 - Right-click in "Grand Total" and select "Sort "cxPivotGrid1Field2" by This Column"  as you can see in the attached image "step2.png";
+3 -  Click in "Button1";
+4 - Close the application;
+5 - Open the application;
+6 - Click in "Button2 ";
+Now, the layout should be restored, but, it not occurs. 
+Could you help me with this case?
+Thank you.
+Alexandre da Silva. 

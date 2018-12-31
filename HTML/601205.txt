@@ -1,0 +1,2 @@
+Hello,
+I have a scenario where I have an event that happens every day but participants change. For example, weekday work shift from 8 am to 5 pm with 400 employees. List of employees changes from day to day due to employees taking leave, moving to a different shift, etc. I thought that the most intuitive way to handle it is to create recurring event and change resources for each occurance. Since it is not possible, what is the best way to achieve it besides creating separate event for each day? 

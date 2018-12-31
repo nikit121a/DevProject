@@ -1,0 +1,2 @@
+When there is tabbable content inside of a dx-gallery such as a button, if the user tabs through the content they will begin selecting items that are not part of the current view of the gallery. When the user begins selecting these "off the view" elements, the layout breaks.
+See the plunker above for an example.

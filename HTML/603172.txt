@@ -1,0 +1,4 @@
+Hi,
+I am trying to use ExtraGrid in a  WCF project. I have taken grid object and directly trying to export it without showing on form. In this case Multi line functionality is not working while if grid is shown on a form and then exported, it is working fine.
+Please suggest. Sample code is attached. ( To check result please call function ExportGrid.ExportGriddata(true) with both true and false parameters in programme.cs)
+Thanks. 

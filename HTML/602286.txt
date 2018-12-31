@@ -1,0 +1,3 @@
+My treelist does not admit 100% width of the container. I need it to assume the size of the LayoutGroup.
+See attachment for better understanding.
+TKS

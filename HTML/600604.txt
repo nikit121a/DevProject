@@ -1,0 +1,13 @@
+Hello!
+cxGrid displays a table of 59 fields and 1000 rows. 
+GridMode = True; 
+DataSet is TClientDataSet;
+The program uses the code of the following construction:
+I go through all the records in the table to get the value of one of the fields.
+If I highlight several entries, then there is no problem. But if you select several dozen records, then "
+" returns nil.
+After analyzing the sources, the problem in the file "cxGridCustomTableView" in the code:
+All due to the fact that 
+returned -1.
+After analyzing the function GetSelectedRowIndex found out that this is due to "CompareBookmarks" (see the attached file). 
+ 

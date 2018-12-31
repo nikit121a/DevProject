@@ -1,0 +1,6 @@
+Hi Andrey,
+Thanks for providing the solution. 
+It meets my  requirement.
+Just wonder to know how to display the float window at the center and block the background for being accessible when it is in float state.
+Thanks,
+Abhayashis

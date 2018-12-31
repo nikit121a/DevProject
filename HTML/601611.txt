@@ -1,0 +1,2 @@
+Maybe I can scroll to the item I need?
+I will explain: I have 500 files in the folder, I do not want to increase the count of files on the page (default 300). How can I make a scrol up to 400 files for example(by name),so that it is visible?

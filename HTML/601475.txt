@@ -1,0 +1,3 @@
+Hi, I attached the simple app to demonstrate this behavior. Just run the app and you will see clipped edit associated with the last LayoutControlItem.  
+Thanks for help.
+Mira 

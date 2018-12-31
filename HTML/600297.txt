@@ -1,0 +1,1 @@
+Can you point me to an example of how to control read-only on the client that allows the user to select items in the ribbon's combos and then re-enable the document after making the correct selections?

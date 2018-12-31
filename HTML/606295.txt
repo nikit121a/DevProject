@@ -1,0 +1,2 @@
+
+There are also pushed links to controllers which I couldn't remove. "I" controller can be seen below chosen "C" class. Is it possible to remove it?

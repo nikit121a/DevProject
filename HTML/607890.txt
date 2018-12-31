@@ -1,0 +1,6 @@
+helo,
+i have a problem.
+when i create role navigation permission, appears error while saving data.
+how to handle it.??
+screenshoot, see attachment.
+thank you.

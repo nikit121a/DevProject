@@ -1,0 +1,5 @@
+Hi,
+I am wondering if you know of a way for me to create small preview images of XtraReports that can be displayed within a GalleryControl?  I would like to present a gallery of Report Preview icons to help my users determine which reports to print.  Ideally this would be "live" and reflect any recent updates to report templates.   Maybe it's possible to print every report with sample data and quickly export the report to an image that can then be added to my gallery.
+Please let me know if you are aware of a solution.
+Thanks,
+Joel 

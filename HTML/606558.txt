@@ -1,0 +1,12 @@
+Hi,
+inital item in SelectBox is not visible, when value is provided by MVC (.Value("20306"). From the developer console I see the returned JSON data.
+If I add local .OnInitialized("function (e) { e.component.option('value', 20306) }") 
+then the item is visible. 
+For example, I will have a EditForm (dxPopup dialog with dynamic form loading from the server) with a lot of  SelectBox widgets. The model
+for this EditForm has all the data that is needed to bind initial data. In the current situtation, there will be server request for each widget on the form,
+who has initial data..... Each widget has more than 5000 records in the database, so MVC API call is required, there is no way for static array data. 
+I was playing with the idea to generate some static data on the server side and still keeping MVC call when typing in SelectBox, but of course there is no option to set selectedItem (readonly)..., e.component.option('value', 20306) makes server request.
+So what do you think, will that be possible in the future? See bellow.
+Best regards, 
+Uros
+ 

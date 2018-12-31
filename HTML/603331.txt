@@ -1,0 +1,9 @@
+Hi,
+Our PivotGrid control uses   Async Mode (AssociatedObject.SetDataSourceAsync(AsyncDataSource, OnDataChangedCompleted);) .  Data source is a DataTable.
+we set datasoure and fields are created using attached behavior.  We have bound and unbound fields.
+A jing screencast of the application is attached.
+ When the report is loaded, the control displays unbound fields as "error"
+once we invoke the expression editor on any unbound field (in this example all three test fields are unbound)
+all unbound fields are re-evaluated and display corrects itself.
+In debugging we see an exception  that is probably the cause of it.  Relevant call stack and exception details are attached as well.
+Could you help us  

@@ -1,0 +1,4 @@
+I need to change the default property of Find panel in grid view.
+Instead of having a clear button separately  can we change any property so the "X" button is in the find panel textbox.
+Screenshot attached.
+Screenshot taken from XtraGrid -> Run Designer UI. 

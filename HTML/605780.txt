@@ -1,0 +1,9 @@
+
+Hi Marina, 
+The "solution" you are referencing is 8 years old and the code being used does not match the examples provided in the demos. I am working on resolving the same issue and despite upwards of 10 articles on it, everyone keeps pointing to that same 8 year old response. 
+In the current Demo, the grid export buttons are not inside a ASPxPopupMenu with a unique ID that can be referenced as a control for the PostBackTrigger. The commands are listed like so:
+
+
+
+I've tried a number of things such as clicking an asp:Button programatically within the ClientSideEvent "ToolbarItemClick" to calling a GridViewExport control from the code behind on the OnToolbarItemClick event. I've also tried the custom command thing using e.usePostBack=true; and still no dice. Nothing seems to work but as soon as I comment out the UpdatePanel everything works fine and I get my exported file. 
+I would appreciate a more current or complete answer on how to export the grid when it is inside an UpdatePanel. I only make a big deal out of this because there are free tools utilizing javascript where export seems to work flawlessly - UpdatePanel or not. 

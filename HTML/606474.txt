@@ -1,0 +1,4 @@
+Hello,
+How to change the default height of  dxDataGrid when no data is present and also the text displayed?
+Thanks
+Balinder 

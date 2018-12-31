@@ -1,0 +1,6 @@
+Hi,
+I am getting error 'Request header field DXScript is not allowed by Access-Control-Allow-Headers in preflight response.' when trying to call '
+.
+I am attaching sample solution to reproduce this. Can you please check?
+Thanks,
+Parvej 

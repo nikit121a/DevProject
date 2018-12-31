@@ -1,0 +1,5 @@
+Hello,
+I use in a layoutcontrol in a winforms application.
+Is it possible to create an aspformlayout from controllayout xml?
+Is it possible to create an aspformlayout directly in a webpage?
+thank you 

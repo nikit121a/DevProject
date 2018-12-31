@@ -1,0 +1,5 @@
+Dear DevExpress,
+How Can I Apply Dynamic Docking using DockLayoutManager using MVVM ? 
+Can you please provide me with examples or if there is a tutorial.
+Thanks in advance,  
+Regards, 

@@ -1,0 +1,7 @@
+
+as you can see in my question i set the SettingsHeaderFilter.Mode
+but that doesnt work because he shows header filter list without ranges.
+that due the problem that we only set the displaytekst in your answer .
+this happens in the page.init handler
+
+

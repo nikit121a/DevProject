@@ -1,0 +1,9 @@
+
+                                To display an image or text in the resource header, create a custom template and assign it to the 
+ property. 
+The 
+ object has no property that contains an associated image, so use 
+ to obtain an image when necessary.
+The resulting application is shown below.
+
+                            

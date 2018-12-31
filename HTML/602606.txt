@@ -1,0 +1,1 @@
+Is there a way to change the value of a select box programmatically (with javascript function) without triggering the OnValueChanged event?

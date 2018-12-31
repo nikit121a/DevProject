@@ -1,0 +1,12 @@
+Hi again,
+ 
+This issue is related to issue 
+. We found that the Chart Designer is not suited for our end-users. 
+Our preferred approach is to supply the users with the ability to switch SeriesTemplate using a combo-box. 
+ 
+In the attached project I'd like to be able to switch between AreaFullStackedSeries2D, BarSideBySideSeries2D and LineSeries2D using the combo-box. I was hoping it would be possible to use the XYDiagram2D.SeriesItemTemplateSelector for this. But I haven't been able to get it to work.
+ 
+Can you please help me out here?
+Regards
+Petter Ballandby
+ 

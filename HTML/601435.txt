@@ -1,0 +1,5 @@
+Hello Support Team,
+While selecting picture using Inline Picture command in ASPXRichEdit, control, how to fire client / server side event to some work around for picture resize, since you guys don't have auto fit contextual menu feature.
+Please provide the solution.
+Thanks, 
+Srini 

@@ -1,0 +1,4 @@
+Hi there,
+On a DxDataGrid, is there a way to  set remote operations (like filtering and sorting) on some columns and have these operations done locally for some other columns of the same table ?
+Thank you
+ 

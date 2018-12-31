@@ -1,0 +1,10 @@
+  One or more rows are selected
+The selected rows can be non-contiguous
+The user has selected the rows by:Clicking on a row header (or multiple rows while holding the control key) or
+Selecting one or more data cells (possibly non-contiguous)
+    
+  Selected rows
+The values for each field in the row header area.
+  
+  
+ 

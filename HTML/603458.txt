@@ -1,0 +1,8 @@
+Hi,
+In a DBTableGrid I have two columns of Property "DateEdit" . Both also show time.
+Of the two only date and time of Enddatetime can be changed. 
+After the user pressed on the OK-button in the dateedit-editor, the entered date must be validated.  Column Enddatetime  must always be after  Startdatetime.
+If the date/time is not valid I want to keep the inplace DateEdit-editor open or re-open it (see attached image).
+The code below does place the editor in the column, but it doesn't show the DateEdit-editor.
+ Ideally when pressing the OK-button in de DateEdit-editor the date will be validated and if not valid a errormessage is shown and the editor remains open.
+Thanks! 

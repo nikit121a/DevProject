@@ -1,0 +1,6 @@
+Hello,
+I am after the best way to highlight a cell when one of its underlying component (list of item from datasource where this cell is made from) is flagged .
+Any direction you would recommand ?
+I am afraid that creating a drilldown data source in a customDrawCell call back will be very slow.
+Thx
+ 

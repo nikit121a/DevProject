@@ -1,0 +1,5 @@
+Hi,
+I am trying to create a chart in a spreadsheet with 2 series using C#.
+But how do I create one "ChartType.ScatterLine" serie and one "ChartType.ScatterLineMarkers" serie in the same chart?
+The property "SeriesType" is readonly
+Regards Torben

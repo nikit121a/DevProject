@@ -1,0 +1,4 @@
+Hello,
+I have great problems with the report designer in DevExpress V17.  As you can see in the video, after assigning a style, the designer is blocked and I have to close my application in the task manager.
+Additional info: I use the ReportsModule and ReportsModuleV2 both in my application. 
+Do you have any suggestions? 

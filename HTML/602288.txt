@@ -1,0 +1,8 @@
+I have CustomNodeFilter that works more or less according to design:
+with FilterMode="Extended" 
+
+
+
+
+If a level 0 node is showing then all its children are showing.  This is the behavio I want for the first column but no other. See the the attached image. You can see its not wha tis desired in a different column.
+How can restrict the conditions in the CUstomNodeFIlter to a single column?  I have a feeling this isn't the right spot.

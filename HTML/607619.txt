@@ -1,0 +1,5 @@
+Hi Kirill,
+The Editing works know great. If you try to sort the a column you got a Exception "DevExpress.Data.Helpers.InconsistencyDetectedException" in DevExpress.Data.v17.1.dll" . I checked the database of double entries and there aren't any. Maybe this is a new ticket. I found such cases in T569116 and T478749 and much more, but didn't help me. 
+I checked the first Project I sent you 
+ and this also has the exception. May also a binding is not correct. I tried, but I don't know what the problem is. I can't debug it.
+Greetings Fredy 

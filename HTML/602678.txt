@@ -1,0 +1,4 @@
+Hi. i have a backing table with some 'obsolete' values i cannot remove because used in the past. Those values are flagged as old.
+In my XTragrid i have a repositorylookupedit populating from this table (ID - NAME). I want those values to be correctly shown in the grid but i do not want user to be able to see them  from popup and not even when typing in editor. I already managed to 'hide' them from popup using measureitem in a repositorycomboedit but there too user could select it by typing.
+Any suggestion ? 
+Thanks

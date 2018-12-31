@@ -1,0 +1,3 @@
+Hi, i've found another problem related to previous: header filters on datetime fields seems to not be working well. When i pick many values from the options pivot grid shows no data. 
+I attach two images to show this behaviour.
+ 

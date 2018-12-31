@@ -1,0 +1,3 @@
+Regarding the Bootstrap Default Upload Control's demo at the following url: 
+Can you please explain how to display the uploaded file list that appears after the user has already selected a file and then clicks the upload button.  The uploaded file list in the demo then appears and displays the name of the uploaded file as a hyperlink to the image and the uploaded file's size.  
+I can see that there is JS code calling methods on a  dxbsDemo object but what object is that?  I don't see any code in the demo aspx file which adds any type of uploaded files container to that page.  Can you please provide the complete code for a working demo of the Bootstrap Upload Control that includes displaying an uploaded files list?  

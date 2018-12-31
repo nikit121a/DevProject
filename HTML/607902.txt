@@ -1,0 +1,8 @@
+Dear Support,
+Hello ,
+I want to format Summary with background.  like if Remaining quantity is less than Total Quantity then background should be RED 
+if both are equal then should be GREEN.
+How can i do this in my grid summary. please take a look on Code snippet.
+Hope to hear you soon.
+Regards
+ 

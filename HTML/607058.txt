@@ -1,0 +1,2 @@
+
+1.  if EndValue contains negative value - user can't move marker (e.g. StartValue = 0 EndValue = -100 ).  If EndValue is positve - it works 

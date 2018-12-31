@@ -1,0 +1,6 @@
+Hello,
+We'd like to grant an user the permission to read, edit and delete report records (and use the report generator) via the security system.
+There's no report-type visible in the role-view so how can we grant the user the permission?
+Of course we don't want to give them the administrator role.
+Thank you
+Denise

@@ -1,0 +1,3 @@
+I am working with the PivotCustomizationExtension and the only way I have been able to get it to work is by using the Splitter widget to render both the CustomizationExtension and PivotGrid together on one page. But when I use the settings.FullscreenMode = true it locks the page down and I am unable to horizontally or vertically scroll throughout the page itself. Within the splitter the  PivotGrid side allows for scrolling but the CustomizationExtension does not allow the user to scroll down. Here is the code for the splitter:
+ How can I use the fullscreen mode and still allow the user to scroll within the page?
+Thanks 

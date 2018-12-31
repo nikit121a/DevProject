@@ -1,0 +1,20 @@
+Hello,
+We are using custom dictionary  in code for spell check . However when you click on Spell Check button, dialogue box doesn't enable Add button. Could you please let us know how to enable it? This is the code we have.
+    Dim oDictionaries As New List(Of DevExpress.XtraSpellChecker.ISpellCheckerDictionary)
+   Dim HunspellDictionary2 As DevExpress.XtraSpellChecker.HunspellDictionary = New DevExpress.XtraSpellChecker.HunspellDictionary()
+            HunspellDictionary2.Culture = New System.Globalization.CultureInfo("")
+            HunspellDictionary2.Culture = New System.Globalization.CultureInfo("")
+            HunspellDictionary2.DictionaryPath = IO.Path.Combine(Application.StartupPath, "Dictionaries\en_US.dic")
+            HunspellDictionary2.GrammarPath = IO.Path.Combine(Application.StartupPath, "Dictionaries\en_US.aff")
+            oDictionaries.Add(HunspellDictionary2)
+            Dim engCulture As New CultureInfo("en-us")
+            Dim dictionary As New SpellCheckerISpellDictionary(IO.Path.Combine(Application.StartupPath, "Dictionaries\american.xlg"), IO.Path.Combine(Application.StartupPath, "Dictionaries\english.aff"), engCulture)
+            dictionary.AlphabetPath = IO.Path.Combine(Application.StartupPath, "Dictionaries\EnglishAlphabet.txt")
+            dictionary.CaseSensitive = True
+            dictionary.Load()
+            oDictionaries.Add(dictionary)
+Dim customDictionary As New SpellCheckerCustomDictionary(IO.Path.Combine(Application.StartupPath, "Dictionaries\CustomEnglish.dic"), engCulture)
+            customDictionary.CaseSensitive = True
+            customDictionary.Load()
+            oDictionaries.Add(customDictionary)
+SpellChecker1.Dictionaries.AddRange(oDictionaries) 

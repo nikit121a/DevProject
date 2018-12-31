@@ -1,0 +1,6 @@
+Hi,
+I'm having a problem with the penultimate version of devexpress components in Windows Server 2003 32 bits.
+After searching in your support center I saw that before there was a similar fixed issue:
+I'm providing the exception's call stack:
+Thank you
+  

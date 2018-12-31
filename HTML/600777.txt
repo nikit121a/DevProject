@@ -1,0 +1,8 @@
+I'm using ReportV2 and I load my report this way:
+Is there a way to get the instance of the report that is going to be previewed? The reason is that my ReceptionReport has some public properties that have to be set before showing the report. 
+I tried this but of course the instance is not the one created with ShowPreview
+I looked at ReportDataSourceHelper.BeforeShowPreview but I'm not sure this is the right way for me because the values I need to set are known only in my controller that contains PrintReceptionAction_Execute event.
+I tried to find a solution but nothing found so far. Any suggestion would be appreciated.
+Thanks
+ 
+ 

@@ -1,0 +1,10 @@
+Good Morning,
+Original Thread:
+I did a customer demo of their product in beta. Drawing on the PDF is working well as is other functionality - except rendering speed.
+There was a thought presented in the above thread about a background mode for the PDFViewer - but nothing definitive.
+I am now receiving pressure from my customer to speed up and smooth out the PDF rendering for AutoCAD drawings - their bread-n-butter.
+Any suggestions, tweaks, or ideas would certainly be appreciated.
+Also - if DevExpress is in the process of modifying the PDFViewer to address this issue - but is not ready yet for release - I would appreciate knowing that. I can use that to take some heat off of me and but us both some time.
+Thank you!
+Sincerely and respectfully,
+Dave

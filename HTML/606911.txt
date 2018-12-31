@@ -1,0 +1,5 @@
+Hi,
+I noticed that by default i can tab between the panels of SplitContainerControl. Is there a way to disable that?
+I just want to tab between the controls of a panel and not to jump to other panel on tabbing.
+Thanks.
+Aman 

@@ -1,0 +1,3 @@
+I have the following routine to read Binary columns (BLOB) from an Oracle Database and concatenate the binary data into a Memory Stream and then open the Memory Stream using the ASPxRichEdit field.
+Only the first column of Rich Text data is displayed in the RichEdit field.  Even though the Memory Stream length shows a total length for both columns.
+The binary columns in the database include rich text data and can be opened individually using the Open method using a single binary column.  

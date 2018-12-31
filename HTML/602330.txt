@@ -1,0 +1,6 @@
+I'm using the 'ChartControl' to display a strip chart of our analog data acquisition results. I'm using a 'LineSeriesView' type of line.
+We often have gaps in our data stream and I want there to be an empty gap in the chart plot. I'm accomplishing this by creating separate series points. However, I want all the series to be the same color and I'm not sure how to accomplish this. Here's my code for creating a new series:
+ 
+ I set the line color on the second line but it doesn't seem to do anything. Take a look at the attached screen shot.
+Thanks,
+Aaron

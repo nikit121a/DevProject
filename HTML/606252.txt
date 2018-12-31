@@ -1,0 +1,5 @@
+I want to have MaskType = DateTimeAdvancingCaret by default every time I use a DateEdit control.
+How can I achieve this?
+in C#.
+Thank you
+ 

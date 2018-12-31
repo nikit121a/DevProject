@@ -1,0 +1,4 @@
+Hi,
+In the attached screenshot, how we can hide NavBar group icon the highlighted in the attached screenshot?
+Regards,
+Anil 

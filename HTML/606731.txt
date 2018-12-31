@@ -1,0 +1,18 @@
+Hi everybody.
+ I am using devExtreme with Angular 5.
+Works great!
+But I do concern a little tabout the bundle size after building for production using the the command:
+I have tried to be carefull with the imports and not to write sth like "import.. from 'devextreme-angular'.
+Instead i tried to import to the lowest level e.g:
+..
+import { DxPieChartModule } from 'devextreme-angular/ui/pie-chart';
+import { DxTabsModule } from 'devextreme-angular/ui/tabs';
+import { DxRadioGroupModule } from 'devextreme-angular/ui/radio-group';
+import { WsHorizontalTimelineComponent } from './ws-horizontal-timeline/ws-horizontal-timeline.component';
+-- 
+But the webpack analyszer shows me that the js-Script source ist still huge.
+It seems like devExtreme always loads the hole js-files.
+(you can see it on the left side of the attached image, 2.64MB).
+Is there any way to reduce the bundle for the devExtreme components size further?
+Thank you!
+ 

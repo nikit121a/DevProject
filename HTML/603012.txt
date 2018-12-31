@@ -1,0 +1,2 @@
+I would like to make my app coherent with all the others Android and iOS app when the back button is pressed and the selected view is root.
+I did succeed to remove the exit behaviour from the app but now when the back button is pressed nothing happen . I would like that when it is pressed the app is placed in the background 

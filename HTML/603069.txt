@@ -1,0 +1,6 @@
+Hello,
+I have two DateTime in a split pane.
+The  DateTime is closed from the right border. The drop down right side isn't displayed. 
+Is it possible to shift the drop down to the left ?
+If the width of the pane is reduced. The drop down is truncated both side.
+Is it possible to display completely the drop down? 

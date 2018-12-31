@@ -1,0 +1,4 @@
+This is the part I do not understand.
+Nowhere in my code I used DockLayoutManager , yet this exception is thrown. I wonder if it is something in the DialogBoxService or richeditcontrol and I am not closing it properly? I have 3 buttons for the dialog box, 2 of them closes the dialog box. If I click the one that doesn't, everything is fine. If I click either of the 2 buttons that closes the window or the X at top right, the application would enter the break mode.
+I copy  the code from the example in the documentation, and the code works fine with textbox or richtextbox. It only happens when I use richeditcontrol.
+Thank you very much for all the help. 

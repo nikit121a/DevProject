@@ -1,0 +1,4 @@
+Hello
+When exporting a databound Gridview, the data does not appear in the XLS file. The column headers are present, but without any data underneath them. I am unable to find a solution to this problem.
+The Gridview is being  populated from a LINQ query code-side. That query is then set as the Datasource to populate the gridview. The data shows up on-page, just not in the file that is downloaded.
+Above is the code I am using for the export. it triggers after an export button is clicked.

@@ -1,0 +1,6 @@
+Hi
+I'm trying to use a Scheduler component in an ASP.NET Core MVC partial view and I'm getting this error: "Cannot use a lambda expression as an argument to a dynamically dispatched operation without first casting it to a delegate or expression tree type", 
+What am I doing wrong?
+My partial view:
+The error is shown in ".Editing" and ".Resources".
+Regards

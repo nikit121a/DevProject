@@ -1,0 +1,4 @@
+Hello,
+Is it possible to obtain the row number of the selected row(s) in a spreadsheet so I can read the value of the cells? (vb.net)
+Best regards,
+Wim Veugelers 

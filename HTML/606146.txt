@@ -1,0 +1,8 @@
+Hi,
+We are using the PrintableControlLink to print a pivotGrid.  (see code below)
+This had been working without issue till recently - I'm guessing it was the update to 17.2.5 tht broke it.  
+the error message is: All rectangle borders must have the same thickness.  In addition, any border can have a zero thickness, which means the border is invisible.
+Could it be related to T595414? 
+I need a quick fix for this as it is affecting production code. 
+Regards
+Habib

@@ -1,0 +1,7 @@
+Hello,
+Starting from DevExtreme 17.x version the filters by date are broken, here is an example:
+This happens because the Grid adds apostrophes to the date parameters:
+The workaround is to disable the feature:
+ 
+The question is :
+How does the new parsing work? The article says that it fixes bad browser parsing, could you please provide a couple of examples? 

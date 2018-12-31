@@ -1,0 +1,8 @@
+Hi , 
+I Have added new grid column to grid control 
+ Dim Newcol As New DevExpress.XtraGrid.Columns.GridColumn
+Then I have declare one RepositoryItemLookupEdit  to populate my dataset column 
+and when i run the code  i was able to select the item from grid control but when i have move mouse from that cell it vanishes.  Please provide sample for the same version 15.1.
+ 
+Also please let me know how can i get the selected items ID?
+ 

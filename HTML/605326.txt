@@ -1,0 +1,4 @@
+please look at the screenshot: 
+missing properties column "prognose":
+- displayformat (currency 0.00 )
+- colors from assigned stylesheet

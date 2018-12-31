@@ -1,0 +1,4 @@
+I notice that when scroll down in table, Excel will shows table header on range header(A, B, C, ....), but Spreadsheet control treat as normal cells and scrolled up. Please see my attached pictures, compare areas in red boxes.
+How can I make spreadsheet control acts like  Excel ?
+ Thank you !
+ 

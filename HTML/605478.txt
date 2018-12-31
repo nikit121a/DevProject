@@ -1,0 +1,14 @@
+Hi support ,
+I tried to pass parameter  from server side to ASPxDocumentViewer like this:
+C# 
+ protected void Page_Load(object sender, EventArgs e)
+        {
+            int varId = int.Parse(Session["ID"].ToString());
+                        
+            XtraReport1 report = new XtraReport1();
+            report.Parameters["Parameter1"].Value = varId;
+            ASPxDocumentViewer1.Report = report;
+        }
+ 
+But its not work and give me this message (Object reference not set to an instance of an object.)
+thanks  

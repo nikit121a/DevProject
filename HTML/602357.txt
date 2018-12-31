@@ -1,0 +1,5 @@
+The Guest Names field requires a Facility and Facility Type to be selected.  
+When Facility is selected, it populates the Facility Type.
+But when Facility Type is selected, I expect for it to populate the Guest Names field but javascript errors are displaying.  
+The one thing that is different from this WebService and the others, is that this one requires 2 parameters (Facility and Facility Type(Service)) instead of one.
+Thanks 

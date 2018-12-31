@@ -1,0 +1,12 @@
+Greetings,
+How to display an image in AspxGridview conditionally (using code behind)? I want to concatenate to another column. for eg: if status is approved then display an icon image next to TITLE column. see below code
+<dx:ASPxGridView ID="GridView1" runat="server" AutoGenerateColumns="False" KeyFieldName="ID">
+    <Columns>
+        <dx:GridViewDataTextColumn FieldName="Title">
+            <DataItemTemplate>
+                <dx:ASPxHyperLink ID="ASPxHyperLink1" runat="server" CssClass="txtTitleHead" Text='<%#Bind("Title") %>' NavigateUrl='<%# CreateURLQueryString(Eval("ServerUrl"),Eval("ID")) %>' />
+            </DataItemTemplate>
+        </dx:GridViewDataTextColumn>
+    </Columns>
+</dx:ASPxGridView>
+ 

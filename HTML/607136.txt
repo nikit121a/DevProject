@@ -1,0 +1,10 @@
+Hello,
+using all the great new features in versions 17.2.x of Winforms controls, I am currently making our desktop application DPI-aware. Our app behaves well in many different DPI scenarios in Windows 10. However, I realized some misbehavior when running the app on a Remote Desktop session on Windows Server 2016 or 2012. This does not happen if the RDP session runs on a Windows 10 host.
+For demonstration purposes, I used your  Ribbon form template and made it DPI aware by adding a manifest file. 
+When running the demo locally on Windows 10 (Surface pro 4 with 200% display scaling), everything is fine.
+When running the demo in a RDP session hosted by another Windows 10 computer, it's also fine (see first screenshot). 
+When running the demo in a RDP session hosted by Windows Server 2012 or 2016, the default skin font size is not scaled which results in unreadable text. Conventional Winforms controls are not affected.
+Could you give me some advice about this or do you know a workaround? It is essential for us to host our application in a professional Remote desktop environment using High DPI settings.
+ 
+Thanks in advance.
+Gerhard 

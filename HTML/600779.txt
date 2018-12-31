@@ -1,0 +1,7 @@
+Team,
+Apologies, when the merge is enabled the focused row back color setting not working.
+PFA .
+We have an aspxgridview with 2 columns, GroupIndex  = 0 and 1. But when we have the setting like
+the style 
+is not working. How can we get it done ? 
+Thanks in advance!

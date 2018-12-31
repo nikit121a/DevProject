@@ -1,0 +1,10 @@
+Greetings. 
+I am looking for a way to help me achieve a way to rearrange rows, almost like how the drag and drop feature does but a little differently. also making the move as intuitive as possible for a user. 
+I have a treelist with a structured treelike datasource. 
+what I hope to achieve is a way to move rows using the keyboard. I.E => 
+focus a row. Hit Ctrl + arrow up and down, showing previews of new position of the row.
+The trick would be to:
+Hide the focused row and display a preview of a new row position (such as underneath the 'new focused row, as the focused cell would move with arrowstrokes) without triggering various updateevents in the form before the new location is chosen and the Ctrl button is released. 
+I was concidering using simply the OptionsView.ShowPreview feature to achieve this. But im sure there is a better way to do this, that I havent thought of, hence I ask for advice. 
+Let me know if anything isnt clear. 
+Erik

@@ -1,0 +1,2 @@
+We are facing an issue where the chart legend disappears when we have a grouped field (GroupInterval set by datetime) on the X axis. 
+We have 3 fields in the chart- Cost, Date (groupedfield), and Item. If we set the Cost to be Y-axis, Item to be X-axis and Date(groupfield) to be legend then it works. But if we set Item to be legend and Date(groupfield) to be X-axis, then the legend is not displayed. 

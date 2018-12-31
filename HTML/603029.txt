@@ -1,0 +1,3 @@
+I'm switch from the TabControl to the DocumentManager. currently when the users right click on a tab header we show a couple of menu options.
+see attached.
+I want to add a 'Close All' and a  'Close report of <Type>' options.

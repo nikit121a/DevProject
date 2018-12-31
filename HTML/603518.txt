@@ -1,0 +1,9 @@
+Hello.
+I have checked several topics, but don't found any regarding object permissions merging.
+My steps to reproduce:
+- I have Administrators and Default default roles. 
+- Default role has read rights for own user only (defined with OBjectPerimission with criteria). 
+- if I add both roles to a user, then I can't see another user, although I have no RolesMergingMode.GrantedInAllRoles because I am on 17.2.4 yet.
+In other words I have access for all users in Administrators role, but Default role is denied it by ObjectPermissions.
+ 
+So looks like it works only fot type permissions, althought it is looks logically for me: if I have one role with granted access to an object and another one role denied it, then for RolesMergingMode.GrantedInAnyRole I should have Allow access, instead of deny (like it done for types permissions).

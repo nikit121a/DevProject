@@ -1,0 +1,7 @@
+H?,
+How can i get or set multiview item count.   (  as
+ )
+i do not  find add method to the items. 
+i think that i will add  a div which has class of  
+ in to a div which has class  
+ 

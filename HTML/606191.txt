@@ -1,0 +1,5 @@
+I have a Report bound to an object with some detail reports on it. I want to hide a detail report if the list of objects bound to it is empty or null.
+In the designer i have this code:
+However the formatting rule is ignored, and the detail report is always print, no matter is empty or not.
+Also, I Have take noticed thaht, despite i have created the formating rules thru the designer, after close and reopen the desing view. The list of formatting rules is empty, despite the still present on the designer code.
+Please see the attached captures 

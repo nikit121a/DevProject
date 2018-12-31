@@ -1,0 +1,5 @@
+
+Hi,
+I want a graph pen thikness  less than 1, is there any wayout to draw graph using own pen where we can set pen width explicitly.  
+Please help urgent.
+PFA

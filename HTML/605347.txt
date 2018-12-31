@@ -1,0 +1,7 @@
+Dear all
+I have an issue with the TcxGrid and i have attached a screenshot to show my problem.
+The grid has 65 records and  Grid.DataController.recordCount = 65.  An access error randomly occures  at  the  the line :
+                                                                                                       RecordNumber   =   5 and recordCount = 65
+What do i do wrong ?
+Thank in  advance for your help.
+ 

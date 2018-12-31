@@ -1,0 +1,5 @@
+Hi,
+We are working on a large XAF web project. Some time ago we migrated from XAF 16.2.6 to 17.2.3 and are getting a particular problem with the detail view heading i.e. the default property of the object currently in view. When we navigate to next or previous object the heading does not change ,the first time,even though the data in detail view has changed. The change only happen  on the second click which means the heading does not belong to the data in view. This is causing us major issues when users are using navigation actions and it was working perfectly fine in the previous version. Nothing has changed since the upgrade related to navigation or view refreshing.
+This issue is only happening in this project and when we created another project to check the issue wasn't there so we will not be able to provide a sample project. Is there anything else we can provide or check to resolve this issue or can you think of any reason by the description mentioned above?
+Any help will be appreciated.
+Thank you 

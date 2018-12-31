@@ -1,0 +1,10 @@
+If you include a dash character in an HTML Editor's control name, the Insert Image dialog will hang with a "Loading" spinner. The attached demo project should demonstrate the issue well enough.
+This was previously working in an older release that we used, 14.2.6, so the issue originated somewhere between then and the current 17.2 release. Please note that we really do need this behavior to work correctly. In our application, we uniquely identify controls with GUIDs, which contains dash characters.
+As near as I can tell from browser debugging, it invokes a startup script in a DevExpress control that when evaluated, fails to parse the control name as it sees the "-1" as a mathematical expression. In the case of the demo, the clientside JavaScript line that causes the error is:
+If instead it was wrapped as a variable in the browser's window object like below, I 
+it would work correctly, but I don't have access to modify the DevExpress startup script to really find out:
+Steps to reproduce:
+1)  Build and run the attached reproduction case.
+2)  Press the Insert Image button on the HTML Editor's toolbar.
+3) A "Loading" panel never disappears, and the browser debugger reports an "invalid or unexpected token" syntax error.
+4) Adjust the HTMLEditorPartialView file to change the control's name from "TestHtmlEditor-1" to "TestHtmlEditor", and it should work as you'd expect. 

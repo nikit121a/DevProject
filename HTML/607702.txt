@@ -1,0 +1,4 @@
+On server-side, how can I get the 
+max value of the visual range. The property I've accessed below only returns the value 1. (Is it saying 100% of the visual range??).
+I'm trying to set a ASPxDateEdit based on the actual max value of the swift plot diagram's x-axis. Thank you.
+ 

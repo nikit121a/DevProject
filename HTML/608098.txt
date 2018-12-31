@@ -1,0 +1,3 @@
+I am getting the error in the application I generate with XAF. I am using an existing SQL Server database. Please advise.,
+Thanks
+ 

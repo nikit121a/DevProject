@@ -1,0 +1,6 @@
+We have a descendant of RepositoryItemGridLookUpEdit (and GridLookUpEdit).  This has worked well for several version of your product.  After updating to 17.2.5 we are receiving a NullReferenceException on a line that sets the ActiveFilterCriteria of the gridview.
+view.ActiveFilterCriteria = new BinaryOperator("ValidEntry", true, BinaryOperatorType.Equal);
+this works fine in all previous versions.
+I've attached a cut back sample project  to demonstrate the issue.
+Thanks,
+Drew 

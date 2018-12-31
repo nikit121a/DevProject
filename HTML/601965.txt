@@ -1,0 +1,6 @@
+Hi,
+I am using DevExtreme MVC.
+I need to show DataGrid in Popup control. 
+The Popup will be open after page loaded, and DataGrid data should load inside the Popup Control.
+Could you please show sample how to do it using MVC?
+I am stuck on whether should use ContentTemplate, or any other way of doing? Please help as I can't find any example of doing

@@ -1,0 +1,5 @@
+Hi DevExpress !
+Please see the attached project. It simulates the creation of a form based on a LayoutControl, in my real application.
+The layout is rather complex, but in my tests it takes about 1,7 s to 1,8 s to build. 
+Is there something I can do to speed up the whole thing ? 
+Thank you.

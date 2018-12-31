@@ -1,0 +1,6 @@
+Hello XAF Team,
+I implemented this example in my Project and need additional information about New Item Row,
+When I create a new record via New Action , opened DetailView's BO type is CustomTypePermission object and ExportState property is visible and assignable.
+When I create a new record via New Item Row, created object type is PermissionPolicyTypePermissionObject and upcasted ExportState property is visible but not assignable.
+How can I manage New Item Row  created BO type?
+Thanks for your interest. 

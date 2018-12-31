@@ -1,0 +1,7 @@
+Hello 
+When I want to print a sheet I get the following message in a new tab of the browser.
+({'error': {'message': 'Callback request failed due to an internal server error.'}})
+Other options like download file work fine
+See attachment for Bin ddl
+Best regards 
+Wim Veugelers

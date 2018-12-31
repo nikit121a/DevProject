@@ -1,0 +1,10 @@
+Hello
+We are get ting an extra icon on some ASPxPopupControls with v17.2.4.
+In the attached PDF there is the generated popup, the code definition and the generated HTML for the ASPxPopupControl (popLinkedTags) in v17.1.7 (our current production version) and v17.2.4.  The only difference I can see is in the generated HTML.
+In v17.1.7 we get:
+Whereas in v17.2.4 we get:
+I have also included another ASPxPopupControl (v17.2.4) from the same page and that is displaying correctly.
+The extra icon does not perform any function.
+Can you please advise a resolution.
+Cheers
+James

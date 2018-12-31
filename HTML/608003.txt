@@ -1,0 +1,6 @@
+Hi,
+I have a banded grid layout, which shows three rows in the header of the grid.
+Is there a way to remove/hide one of the rows shown in the header?
+I've attached a screen-shot of the row I'd like to hide.
+Regards
+   Jono 

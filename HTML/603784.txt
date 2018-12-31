@@ -1,0 +1,7 @@
+If a user has a cell with a formula that results in a TRUE value or a FALSE value then copying and pasting that cell will result in an error on Excel. The error is a  "Problem During Load" with the Table.
+To reproduce the problem do the following:
+1. Open the VCL demo application
+2. Enter "=TRUE" into a cell without the inverted commas.
+3. Copy the cell
+4. Paste the cell into Excel
+The problem is happening because in TdxSpreadSheetXMLSSWriter.WriteCellData, there is no condition to handle boolean values so they get written as "True" or "False". Excel expects a 1 or 0 here for the value of the cell.

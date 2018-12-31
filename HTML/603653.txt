@@ -1,0 +1,4 @@
+Hi,
+I have a dxdatagrid, and I use a filter row.
+How can I disable the filter row for a specific column.
+ 

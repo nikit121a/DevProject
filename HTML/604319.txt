@@ -1,0 +1,33 @@
+Hi
+I want use a combobox in the search panel of my gridview. The combobox values are from an Enum. Here the partial code in the gridview settings:
+            //get list of entries for search panel
+            var resManager = App_Enums.ResourceManager;
+            var enumType = typeof(RegistrationCurrentOrAll);
+            var enumValues = Enum.GetValues(enumType).Cast<object>();
+            Dictionary<int, string> searchPanelValues = new Dictionary<int, string>();
+            foreach (var actEnum in enumValues)
+            {
+                searchPanelValues.Add((int)actEnum, PrestaEnumHelper.GetResourceValueForEnumValue(actEnum, resManager));
+            }
+            settings.SettingsSearchPanel.ColumnNames = "";
+            settings.SettingsSearchPanel.CustomEditorName = "Search_Data";
+            //settings.SettingsText.SearchPanelEditorNullText = App_Views.SearchInParts;
+            settings.Settings.ShowTitlePanel = true;
+            settings.SetTitlePanelTemplateContent(c => {
+                Html.DevExpress().ComboBox(cbSearch =>
+                {
+                    cbSearch.Name = "Search_Data";
+                    cbSearch.SelectedIndex = 0;
+                    cbSearch.Properties.TextField = "Value";
+                    cbSearch.Properties.ValueField = "Key";
+                    cbSearch.Properties.ValueType = typeof(int);
+                }).BindList(searchPanelValues).Render();
+                //place other controls here
+            });
+In the controller i have an action GetPartial:
+        public ActionResult GetPartial(string PartialViewName, string Search_Data)
+But i receive only a value if the parameter Search_Data is from type string. But i define in the combobox settings the Key as ValueField. Should my search not passe an integer to the controller?
+What do i wrong?
+Best regards
+Widi
+        {

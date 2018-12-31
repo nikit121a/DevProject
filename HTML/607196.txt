@@ -1,0 +1,15 @@
+Hi,
+I have a Devextreme Datagrid using popup editor in my project.  I used columns and then forms item group  to arrange the layout.  I have arranged my controls as follows;
+item#1 - Textbox but disabled
+ item#2 - Lookup control
+ item#3 - Lookup control
+ item#4 - Lookup control
+ item#5 - Textbox but enabled
+etc, etc.... 
+When i clicked edit or add(+)  button , I need to press tab in keyboard so the first enabled item (item#2 lookup) will have the focus.
+ Can someone help me so that when the edit page loaded it will automatically focus on the first enabled control which is the lookup control.
+I tried also this code in OnEditorPrepared  >>>>   e.component.focus(e.component.getCellElement(rowindex, <columntofiocus>))
+but no luck.
+I attached  my .cshtml file so you can check.
+Thanks,
+Simon 

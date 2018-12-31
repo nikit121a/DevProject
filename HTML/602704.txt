@@ -1,0 +1,2 @@
+ I am trying to set the filter for the OpenFileDialog that appears from the BehaviorManager, but nothing the filter option for the Behavior Item doesnt seem to impact the OpenFileDialog. How do I apply a filter to the BehaviorManager? I expect it to use a format such as the snippet below.
+ 

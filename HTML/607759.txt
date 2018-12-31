@@ -1,0 +1,5 @@
+I believe I found a bug in the layout algorithm of the LayoutControl. If the layout item whose label is the longest character-wise is not the longest width-wise, layout of the input control fails. It doesn't happen always and I'm afraid I can't invest more time in finding the specific circumstances.
+It happens when 
+is set and 
+.
+So on the off chance that I made a mistake, here is XAML code that produces this error.

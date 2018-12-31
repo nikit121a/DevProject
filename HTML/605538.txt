@@ -1,0 +1,7 @@
+Hi, I have a search panel in my gridview.
+If I search for some text and leave my page, when I come back using the browser's back button I find the gridview not filtered and the search panel containing the text previosly searched.
+This would not be a problem, but if I type another text or if a try to clear the panel, an error occours.
+what is the best approach to avoid this behavior?
+you can find attached an example.
+Thank you as always for your support.
+Max

@@ -1,0 +1,3 @@
+Hello,
+I want to drag a row from TableView and drop it on a usercontrol next to it. But I don't want row dissappear from TableView.
+How can I do it?

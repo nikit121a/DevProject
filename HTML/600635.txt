@@ -1,0 +1,7 @@
+in delphi 10.2
+I want to use a VCL component
+The TRIAL version has an executable file size of 14MB.
+I bought a genuine product and compiled it, and I get over 100MB!
+Is there a way to reduce the size of the executable file?
+ 
+Of course, the first cxGrid only compiles with over 80mb.

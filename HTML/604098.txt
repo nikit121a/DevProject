@@ -1,0 +1,4 @@
+The appointment tooltip is not shown when hovering the mouse cursor over an appointment in Google Chrome. In Firefox however this behaves as expected. I tested this with 
+What could be the cause of this?
+Thanks.
+NB. This behavior was introduced in my application after upgrading from v17.1.8 to 17.2.5. In v17.1.8 it works correctly in all browsers 

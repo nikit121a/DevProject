@@ -1,0 +1,2 @@
+We use DevExtreme's dxDataGrid and want to have the single row selection capability, but without cell's rectangle. Also, we need to have the possibility to use keyboard to move selection up and down in data grid.
+Is this possible?

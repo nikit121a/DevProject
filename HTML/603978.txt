@@ -1,0 +1,3 @@
+Hello,
+How can i place one row, like FilterRow in cxGrid and how can i hook events, changed values on this row?
+I want make filtering in TcxDBTreeList .

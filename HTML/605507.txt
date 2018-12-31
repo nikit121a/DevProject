@@ -1,0 +1,12 @@
+I've spent all day so far trying to achieve what frankly should be out of the box functionality!
+I want to save a grid control's layout to a single file. End user's cannot be expected to save separate files for the main view and every detail view in the grid control.
+I have worked through you documentation and dozens of posts dating back over six years  and I cannot this working.
+Attached is a  modified sample of yours  where I'm trying to use the recommended method. I want it to work how the normal separate file export works but to create a single file.
+The sample only contains 1 grid but this shouldn't matter to get it working.
+Test steps
+1: Run progam
+2: Drag columns a, b, and c out of the grid (hiding them)
+ 3: Click the save button
+4: Close and reopen program
+5: Click the load button
+6: See how the columns that should be hidden are not hidden but are moved. 

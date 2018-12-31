@@ -1,0 +1,3 @@
+Ok, it's working. Thanks.
+But when I tried to used more complex columns I cannot paging. See modified example.
+I made list with 11 items and set PageSize to 5 items.

@@ -1,0 +1,7 @@
+Hey guys, I have created a very simple project to test out some of your controls. I have tested some date controls, textboxes, etc. They all work well. I was interested in using your form control as it makes creating a data entry screen much easier. However, whenever I put a form control onto my view, it just loads the view forever. 
+ I am using ASP core 2 Razor Pages.
+This solution was created by, creating a ASP Core 2 project, then I right clicked the project and in the context menu selected "Add DevExtreme to the project". I followed the instructions in there and changed _ViewStart to: @{
+    Layout = "_DevExtremeLayout";
+}
+Here is my pages code:
+and here is the code behind:

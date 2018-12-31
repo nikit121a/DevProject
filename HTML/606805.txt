@@ -1,0 +1,27 @@
+1.  if EndValue contains negative value - user can't move marker (e.g. StartValue = 0 EndValue = -100 ).  If EndValue is positve - it works 
+2.  Bar should be drawn from 0.  (See attachment)
+----------------------
+Our XAML:
+<dxga:LinearGaugeControl ...>
+    <dxga:LinearGaugeControl.Scales>
+        <dxga:LinearScale x:Name="PART_LinearScale"
+                          StartValue="{TemplateBinding StartValue}"
+                          EndValue="{TemplateBinding EndValue}"
+                          ...>
+            ...
+            <dxga:LinearScale.Markers>
+                <dxga:LinearScaleMarker Value="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=MarkerValue, Mode=TwoWay}"
+                                        Visible="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=IsMarkerVisible}"
+                                        IsInteractive="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=IsMarkerInteractive}"
+                                        Options="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=MarkerOptions}">
+                    <dxga:LinearScaleMarker.Animation>
+                        <dxga:IndicatorAnimation Duration="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=MarkerAnimationDuration}"
+                                                 EasingFunction="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=MarkerAnimationEasingFunction}"/>
+                    </dxga:LinearScaleMarker.Animation>
+                </dxga:LinearScaleMarker>
+            </dxga:LinearScale.Markers>
+            
+            
+        </dxga:LinearScale>
+    </dxga:LinearGaugeControl.Scales>
+</dxga:LinearGaugeControl>

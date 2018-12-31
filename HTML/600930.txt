@@ -1,0 +1,10 @@
+Hello,
+I am trying to create a button to allow the user to create a new report with report Wizard. It supposes to worked As follow:
+- After button click event, program will check if the there is any working report
+       - if no working report exist, invoke a report wizard to create new report
+       - if there is one working report, ask if the user want to save the report before proceed further. 
+I could achieve this with my code attached below. However, It will give me an error when I trying to review the report user print preview as below:
+This report wizard invoked is different from the one invoked from build-in "Create New" here:
+How could I invoke this updated report Wizard instead?
+Thank you!!
+ 

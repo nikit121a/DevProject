@@ -1,0 +1,1 @@
+When I add a fa icon to a button, the button event won't fire if I click directly on the icon? How can we make the button click event fire when the icon inside the button is clicked?

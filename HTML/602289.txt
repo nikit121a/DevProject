@@ -1,0 +1,4 @@
+Hi,
+I am trying to loop through a spreadsheet control .
+I need to get individual values from a column  then do some math and put the results on the a different column on the same row
+If i may get an example on how to do that please 

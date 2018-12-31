@@ -1,0 +1,7 @@
+We are having page with grid and edit layout for the grid is using model edit for the selected record. When we save the entered value in the edit layout. We are validating the same and showing message box. We are not able to retain the edit layout in model mode with value once the message box is loaded. The user have to click the grid edit again to enter the value. How do we retain the value after the message box.
+
+
+
+
+
+

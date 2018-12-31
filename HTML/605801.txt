@@ -1,0 +1,7 @@
+I was update my DevExpress components from version 13.2 to 17.2 
+and have many problems.
+One of them in my Web Application.
+A window opens with an extra part of the address in the address bar.
+but it should lool like this
+Also I can not enter information into any element in the window
+  

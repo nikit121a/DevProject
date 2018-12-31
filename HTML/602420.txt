@@ -1,0 +1,4 @@
+Hello Team,
+I am using StackedBar view to display information and I am trying to place the axis labels at the end of the bar instead of on the axis. Please suggest a way to achieve this. 
+Please find attached screenshot for more info. Also below is the code snippet, I am using stacked bar as a series template:
+ 

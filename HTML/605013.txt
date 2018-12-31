@@ -1,0 +1,12 @@
+Hi guys!
+I've faced an issue that I cannot change an item in virtual mode of XtraTreeList .
+Please see the attached project.
+Steps to reproduce:
+1. Run the solution
+2. Click on the "Change item"  button.
+Expected result:
+"aaa 2"  should be displayed
+Actual result:
+"aaa"  remains
+Please pay attention to additional pieces of code in the simpleButton2_Click method: 
+Some strange things happen if the first line remains uncommented.

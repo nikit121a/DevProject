@@ -1,0 +1,9 @@
+Hi Support, 
+I have varbinary(MAX) field in SQL table and want to display image in xtraReport with xrPictureBox.
+I have tried a way from this 
+, but image not display..
+Display varbinary data like:
+0x128B08DA41663B41BBFC2829752DCF962DFFD8FFE17BD045786966000049492A00080000000D000001040001000 bla bla bla..
+How to display varbinary (max) field in xtraReport with xrPictureBox? Or there is another way?
+Please help me..
+Thank you

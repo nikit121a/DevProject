@@ -1,0 +1,4 @@
+Do you have devexpress aspxgridview save client layout to a cookie on button click example 
+It seems all the examples I find are MVC.
+Kind regards,
+Dan 

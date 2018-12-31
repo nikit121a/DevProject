@@ -1,0 +1,4 @@
+Both of the above dialog's do not filter the display of existing files based on the filter applied. This seems to be intermittent as though some caching is occurring.
+I've switched from zip to XML files and the dialogs are now displaying both  types of file.
+My code is here. Am I not setting the filter correctly? Also see the attached images
+ 

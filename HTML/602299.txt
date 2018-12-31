@@ -1,0 +1,13 @@
+Hi!
+this "cellElement.hide" Works fine until 17.2.4 version..
+- but in this version doesn't Works more.. some idea??
+pivot.option({
+            onCellPrepared: function (e) {
+                if (e.area === "column" && e.cell.type === "GT" && e.cell.dataIndex === undefined) {
+                    // JRH-EJRUG-449
+                    // alert('<%= nlabel%>');
+                    if ('<%= nlabel%>' == 'sim') {e.cellElement.hide(); }
+                }
+                defaultCellPrepared(e);
+follow xml!
+ 

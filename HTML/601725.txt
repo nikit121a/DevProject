@@ -1,0 +1,33 @@
+We are referring to code example
+We have following toolbar buttons
+        settings.Toolbars.Add(t =>
+        {
+            t.EnableAdaptivity = true;
+            t.Items.Add(commanditem =>
+            {
+                commanditem.Name = "GetPackingData";
+                commanditem.Text = "Get Packing Data";
+                commanditem.Image.IconID = IconID.DataDatabase16x16office2013;
+            });
+            t.Items.Add(exportitem =>
+            {
+                exportitem.Name = "EmailExportToXLSX";
+                exportitem.Text = "Export and Email to XLSX";
+                exportitem.Image.IconID = IconID.ExportExporttoxlsx16x16office2013;
+            });
+            t.Items.Add(commanditem =>
+            {
+                commanditem.Name = "Approve";
+                commanditem.Text = "Approve Data";
+                commanditem.Image.IconID = IconID.ActionsApply16x16office2013;
+            });
+            t.Items.Add(GridViewToolbarCommand.ShowCustomizationWindow);
+        });
+        settings.ClientSideEvents.ToolbarItemClick = "OnToolbarItemClick";
+    function OnToolbarItemClick(s, e) {
+        if (e.item.name == 'GetPackingData')
+            PackingDataGridView.PerformCallback();
+        else if (e.item.name == 'Approve')
+            onApproveClick(s, e);
+    }
+I am happy the way client side handler works, however for EmailExportToXLSX we want server-side call (may be using javascript), so we can export grid to xlsx and email to logged in user. How can we achieve this? 

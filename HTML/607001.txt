@@ -1,0 +1,9 @@
+In my GridView, I cannot get all the detail buttons to show enabled.  
+I have 2 child tables (Child and OtherChild) linked to the parent table (Parent), and I have rows in all three tables.  The detail buttons only enable when there are rows in the first child table.
+In my example, row 3 (Cherry) only has child rows in the OtherChild table, and the detail button in the GridView shows as disabled.  When I click on it, it shows the rows in the linked rows in the OtherChild table.
+Run my sample app.  The detail buttons enabled/disabled states are:
+Row 1: Apple         Enabled    OK
+Row 2: Banana      Enabled    OK
+Row 3: Cherry        Disabled   Wrong  should be Enabled
+Row 4: Durian        Disabled    OK
+Row 5: Egg Plant   Enabled    OK

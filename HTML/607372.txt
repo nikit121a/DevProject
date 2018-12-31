@@ -1,0 +1,9 @@
+This was a strange on to find but here is the scenario.
+I have a number of bootstrapbuttons styled with css to just show font awesome icons.
+When I have these inside an update panel the button doesn't fire
+When I add text to the button and the cursor is over the text when the button is clicked it fires, if it is over the icon it doesn't fire.
+code as below as a demo shows the issue
+It is important I get this issue corrected. Please can you help
+Regards
+Liam
+ 

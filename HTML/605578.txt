@@ -1,0 +1,7 @@
+Dear DevExpress Team
+I got to update the value OrderID of an Entity "Order_Details" which is the PrimaryKey. The whole is in ServerMode. The OrderID is connected to the "ShipName".  In the sample if you press there the button "Edit" it opens a DXWindow for editing. In this Moment in the file EntityServerModerCRUDBehaviorDB.cs Method  "EditRow()" the EntityKey will be get from the Grid.CurrentItem. If you close the DXWindow I use this EntityKey again in the Method "OnEditRowDialogClosed  " to ApplyCurrentValues and save after the changes with SaveChanges(). I also change the ObjectState to EntityState.Modified. - Didn't help.
+The Problem is I got an Exception which says the OrderID is a part of the key and you can't change it. I tried to DeleteObject and AddObject after. I also couldn't delete it. If you try to delete it straight from the Table by pressing delete it works. - but in OnEditRowDialogClosed doesn't.
+What I'm doing wrong? Please help me. I have no clue where is the point.
+Thanks a lot for your help
+Fredy
+ 

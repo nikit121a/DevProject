@@ -1,0 +1,10 @@
+Hi,
+I am using the DxDataGrid component in an Angular app, to display some information, most of which is calculated "on-the-fly". This means that most cells in the DxDataGrid do not have fixed values - they have a dxTemplate set, which is calling a function in the components' source file. The component whose markup contains the DxDataGrid has its' change detection strategy set to 
+.
+The markup looks something like this:
+The 
+method simply returns a string:
+Now, whenever 
+ - namely the click event on the heading - all values in the cells in the DxDataGrid are being recalculated and the 
+function is being called. Since the event fired (clicking the heading) does in NO way affect the data displayed in the DxDataGrid, I see no reason for the values to be recalculated.
+Is this the intended behaviour of the component? If it is, is there a way to prevent the values from being recalculated? Since I'm trying to display quite a lot of data, I would like the cells to be redrawn/recalculated only when the data bound to the DxDataGrid actually changes.

@@ -1,0 +1,2 @@
+Hi Guys,
+see attached screenshot - if the displaytext for the corresponding column contains linebreaks, without DirectX it is painted correctly without linebreak in the grouping - but when DirectX is enabled, the group row will also paint the linebreak. can this be fixed?

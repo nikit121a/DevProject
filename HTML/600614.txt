@@ -1,0 +1,15 @@
+Hi,
+I need to implement a 2 dimensional way to colect data from gridview
+The scenario is: 
+Article A with two sizes M and L and two colors white and black
+Article B with two sizes  S and M and two colors red and blue
+The grid would be like this:
+Article A (master)
+                  White        Black
+     M             2                1
+     L              3                0
+Article B (master)
+                  Red           Blue
+     S             2                1
+     M             3                0
+What's the best aproach to achieve this knowing the detail (sizes and colors)  may vary from article to article?

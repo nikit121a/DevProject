@@ -1,0 +1,5 @@
+Hi Dev Team,
+I  have a problem with Pivot Grid.
+In some cases, pivot doesn't show scrollbars. If I have a long rows, the columns with data don't visible in the screen, so I can't scroll.
+I have attached a video, in my situation, the rows are lengh 20-50 chars.
+Thanks. 

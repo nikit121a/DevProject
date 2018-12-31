@@ -1,0 +1,13 @@
+Hi,
+the async server list implementation seems to have an internal refresh problem. 
+I am able to reproduce this problem in the "DataGrid Entity Framework" Demo (as you can see in video, which is located in the zip file).
+I have also attached a simple demo in which it is easier to reproduce this issue.
+- Start the Application
+- Enter 1244 in the AutoFilter Row of the column "Key".
+- Mark the string  1244 in the AutoFilter Row and remove it with ctrl+x.
+- Scroll to the end of the list
+- Ctrl+v in the auto filter  column "Key" => Wrong Data
+- When you now move the mouse cursor over the Key Column Header, the grid refresh the data and the correct data is shown (you can see this behavior in the video too).
+Enable AllowScrollAnimation seems to work as a temporary workaround, but I'm not sure how good this really works.
+Kind regards,
+Jonathan Wilhelm

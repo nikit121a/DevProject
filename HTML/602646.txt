@@ -1,0 +1,1 @@
+I want to have a filtering feature which could be passed into SQL query without having to show all data into the grid first, it means before a query being activated. Is it possible to get the FilterBuilder component runs without cxGridTableView and get the query filter string which could embedded into SQL Query?

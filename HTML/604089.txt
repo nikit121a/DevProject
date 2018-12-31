@@ -1,0 +1,6 @@
+Hi,
+the following entries in the web.config wasn't updated from 17.2.3 to 17.2.5:
+Only this entry was ok:
+ It's ok? 
+regards 
+Jan 

@@ -1,0 +1,7 @@
+Hello
+We are using Devexpress mail client application to connect to Inbox we are trying to connect to inboxes. Now when we want to switch between inboxes and load the other mailbox folders we are reloading folder variable in viewmodel, which is fine. But the treeview dosent refresh but only shows up when be minimize the navbar and open it again.  
+So as a work around used the below ticket method to close and expand the navbar back. But unfortunately this is also not working. even thou the property changes but the navbar dosent close or open .
+With regard to this ticket 
+Please advise
+Thanks
+ 

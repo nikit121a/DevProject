@@ -1,0 +1,10 @@
+Hi,
+I am new to your dashboard contro l.
+I've prepared a webForms project with DashBoardViewer and DashBoardDesigner.
+In addition I have 2 files:
+DataSource file in Json format with the name data.txt
+xml dashboard configuration file with the name xml.xml
+On Page Load I want to set the dashboards definitions and dataSource to the content of these 2 files.
+Please advise how to do it
+Thanks
+ 

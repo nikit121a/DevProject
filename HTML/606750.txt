@@ -1,0 +1,4 @@
+Error occurred when trying to evaluate the "onExecute" event of the Registration_DetailView$View_Signaturecomponent:
+ SignaturePad is not defined
+appPlayer.js:10 Operation: d {expr: "window.showSignaturePad($model, 'Signature');", errorVariableName: ""}
+appPlayer.js:10 Logic: {logic: {…}}

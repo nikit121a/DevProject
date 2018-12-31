@@ -1,0 +1,7 @@
+I have the following code:
+
+
+
+This seems to correctly set my spreadsheet cell as a hyperlink but how do I set the hyperlink to an email link?
+I need to be able to set the "EMail Address" value that i would set in Excel's "Edit Hyperlink" dialog
+Simon

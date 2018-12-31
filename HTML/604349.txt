@@ -1,0 +1,3 @@
+I'm create documents by adding a control. However the DocumentName doesn't get set. Also setting it in code doesn't work either.
+see attached sample.  Hitting ControlNames print out the details
+ 

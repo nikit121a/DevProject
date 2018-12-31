@@ -1,0 +1,4 @@
+The question is the same as this 
+ but the solution ReportStatut.Saved do not work. Check the picture
+So may technology change in 6 years and it need another solution.
+N.B. i tried with ReportStatut.Saved value too, but it do not change anything.

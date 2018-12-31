@@ -1,0 +1,6 @@
+Hi,
+We have aspxgridview with customized batch update.
+grvAssignPeriods.PerformCallback("BatchUpdate");
+We want to turn on the Context menu for the same but with overridden functionality. The context menu only show New\Edit\Delete , on selection of the menu item one ASPxPopupControl has to be open with not only the current grid columns , some additional database columns too. How can we achieve this.
+Can you please share some example links from which we can start with .
+Thanks in advance! 

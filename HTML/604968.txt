@@ -1,0 +1,21 @@
+Hello,
+I had implemented  a popupform from PopupGridLookUpEditForm.
+My code is
+  public class myLookupPopupForm : PopupGridLookUpEditForm {
+            public myLookupPopupForm(myCheckLookup ownerEdit)
+                : base(ownerEdit) {
+                this.fShowOkButton = true;
+                View.OptionsView.ShowHorizontalLines = DefaultBoolean.False;
+                View.OptionsView.ShowVerticalLines = View.Columns.Count > 2 ? DefaultBoolean.True : DefaultBoolean.False;
+                View.OptionsView.ShowIndicator = false;
+                View.OptionsSelection.MultiSelect = true;
+                View.OptionsView.ShowColumnHeaders = View.Columns.Count > 2;
+                View.BorderStyle = BorderStyles.NoBorder;
+                View.MouseDown += new MouseEventHandler(View_MouseDown);
+                View.KeyDown += new KeyEventHandler(View_KeyDown);
+                View.CustomDrawCell += new RowCellCustomDrawEventHandler(View_CustomDrawCell);
+            }
+  .......
+After upgrade the properties ShowHorizontalLines, ShowVerticalLines, CustomDrawCell  not exists, because view is now ColumnView and not GridView.
+What can I do.
+ 

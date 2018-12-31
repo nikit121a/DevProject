@@ -1,0 +1,11 @@
+Hi,
+I invoke a PopupMenu when I right click on a node. I would like to change the caption of a subitem's button at runtime when I click on it.
+My PopupMenu has the following structure:
+Button
+Subitem -->  Button
+                       Off
+I need to change the caption of the button "Off" in "On" when I click on it.
+I can do it for the "first level" of the popup menu but I don't know how to change the caption for the buttons inside the subitem. 
+Attached you find a sample.
+Cordially,
+Gianluigi 

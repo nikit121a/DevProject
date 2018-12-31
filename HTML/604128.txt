@@ -1,0 +1,8 @@
+
+Hi Nadezhda,
+This is indeed what I would like to do. 
+The example you refer to helped me more or less to achieve my goal. But i have 2 remarks:
+- Why does dragging not work when the detail mode is 'Embedded'
+see example attached
+Best regards
+Steven

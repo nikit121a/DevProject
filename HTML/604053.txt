@@ -1,0 +1,9 @@
+Hello support team,
+I faced the same problem and I agree to Pablo Leon that this is not the way it should be. Not after 4 years of knowing the problem. It is obvious that end users want to create a list of items for further processing and (at least in large tables) also use the filter to find the desired items. It's a very unusual behahiour of the grid to clear selection on setting a filter.
+Where is your problem to implement the expected behaviour (at least as an option)? You show a workaround, so it should be possible to implement it in standard grid.
+Btw, I tried to use the workaround and noticed the following issues:
+- LookAndFeel is not considered, instead Windows system color settings are used
+- The check colum caption is hard coded and not automatically localized like in standard grid
+- The checkbox in column header ("select all") cannot be hidden or disabled like in standard grid
+Taking this into account the workaraound is no substitute for a real implementation and not an acceptable solution for the problem. I, and I think many other developers, would be happy if you would think about this once more.
+Thank you.

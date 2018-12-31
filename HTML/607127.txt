@@ -1,0 +1,19 @@
+We are using PivotGrid control and below is my xaml which I defined.
+XAML:
+<dxpg:PivotGridControl Grid.Row="1" x:Name="MainPivotGrid"
+                             CustomCellDisplayText="MainPivotGrid_CustomCellDisplayText" >
+        private void MainPivotGrid_CustomCellDisplayText(object sender, PivotCellDisplayTextEventArgs e)
+        {
+            try
+            {
+                var pivotGridDataSource = PivotGridControl.GetData(MainPivotGrid).PivotDataSource;
+                PivotGridNativeDataSource ds = pivotGridDataSource as PivotGridNativeDataSource;
+                var dataController = ds.DataController;
+            }
+          
+        }
+We are using dataController in order to get ExpressionEvaluator as below. 
+ExpressionEvaluator evaluator = dataController.CreateExpressionEvaluator(filter, true, out evaluatorCreateException);        
+But when we upgraded to 17.1, we are getting  dataController as null but it was working in 15.1.
+Can you please let me know, how do we get ExpressionEvaluator from PivotGridControl inside a CustomCellDisplayText event handler?
+   

@@ -1,0 +1,11 @@
+In a RibbonForm without an application menu, dragging the application button out of the ribbon causes stop of the Ribbon visual updates.
+Steps to reproduce:
+1. Create a new RibbonForm project.
+2. Add couple of hoverable items to the  ribbon (for instance: buttons).
+3. Run the app.
+4.  Try do drag the application menu button out of the Ribbon (place the cursor over application button, press LMB, move the cursor below the ribbon, release LMB).
+5. Move the mouse over the Ribbon items.
+Expected result:
+Items indicate they're hovered 
+Actual result:
+Items don't indicate they're hovered 

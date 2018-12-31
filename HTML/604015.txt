@@ -1,0 +1,7 @@
+Hi there,
+I have a navigation pane with several tabpages.
+On one of the pages is a treelist.
+The treelist is populated by a datatable before the form is being shown.
+As long as the treelist has not been visible in the interface = the tabpage with the treelist has not been selected, I cannot set nodes checked and AllNodesCount  = 0.
+As soon as the treelist has been displayed, everything is fine, .CheckAll() works and AllNodesCount  too.
+Please advise. 

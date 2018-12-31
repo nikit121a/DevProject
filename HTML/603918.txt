@@ -1,0 +1,1 @@
+AllowFocusedRow is set to true and the delete button in toolbar is still disabled.  How should I resolve this problem?

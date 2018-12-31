@@ -1,0 +1,3 @@
+Hi,
+I have updated my application to v17.2 but getting error for most of the controls. I had raised other tickets also related to this but couldn't fix  the issue, hence raising new ticket by adding sample app to reproduce issues. Open browser console to see js error also press 'Add New Row' button to add new row in grid.
+Please verify and let me know the fixes. 

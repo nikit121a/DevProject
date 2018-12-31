@@ -1,0 +1,3 @@
+Hi
+I am using the scheduler component, and somtimes it seems that the horisontal scrollbar in the viewTimeGrid View does not show up. It is most likely to happen when only one or two ressource is shown. Is there any way to 'force' it to be allways shown, or is there any other way to solve the problem?
+unfortunately it is not possible to show a screenshot as the scrolbar is 'smart' and autohides itself.

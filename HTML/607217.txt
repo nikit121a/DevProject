@@ -1,0 +1,7 @@
+I have attached a sample that contains a dummy select Statement with 3 lines.
+The report shows a detail part (property "Keep Together" is set to true)
+containing a table with 2 columns (a number and a richt text )
+and a Group Header for that table with property "Repeat every page" is set to true.
+If the text shown in rich text element exceeds the lenght of a page, the Group Header is printed on the first page without any contents of the Detail band.
+Is there any property that should be set to prevent this behaviour?
+ 

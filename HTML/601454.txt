@@ -1,0 +1,4 @@
+
+Hi, 
+Good evening, I have an extra concern; Once the App application is already created to make the project executable it can be exported to * .IPA or * .APK files. Well, this project is being created to be consumed in Android or IOS Operating Systems. 
+Thanks for your support

@@ -1,0 +1,22 @@
+I have an interesting situation.  
+I have a form that has the following
+   SplitControl
+         Panel1
+             PivotGrid
+         Panel2 
+             ButtonBar (with all the Chart controls ) 
+             ChartControl
+I am trying to duplicate some of this on a UserControl - and I am running into an issue
+When I have
+UserControl
+   SplitControl
+         Panel1
+             PivotGrid
+         Panel2 
+             ChartControl
+         
+and then right click on the Chart Control - use the quick action button in the upper right - and choose Bar Manager.   
+It does not place the ButtonBar  in the Panel2 - but at the top of the UserControl.  Which is NOT where I want it :) 
+So - I am wondering how I can get the button bar to dock in the Panel2 at the top???  Which is where I have it in the original form.  The attached screen shot shows how the current form looks.   
+Is it possible to dock the buttonbar in the Panel2 of the SplitControl (which is how it is in the main form)
+Bradley  

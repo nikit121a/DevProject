@@ -1,0 +1,8 @@
+I am having an issue with the LookUpEdit object. It appears that the object, when set with a displayMember "String" and a ValueMember "String"....and a DataView is attached as the datasource. Mostly it works fine and as expected....however It does not appear to change from one selection to another when the ValueMember text is the same.
+For example
+I pull a list of UserName(DisplayMember)  and Email Address(ValueMember)
+Two of the users have their email set to DepartmentsGenericEmail@me.com
+ When I am on a user I cannot select any user with the same Value for its valuemember. While I can click on the entry and it will show in the list, clicking or choosing those entries will be ignored.
+Is there any way to allow normal behavior when changing from one selection to another even if their Value Member's Value is the same? 
+Thanks,
+Jesse 

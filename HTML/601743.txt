@@ -1,0 +1,20 @@
+Hi,
+ I am using the PivotGrid and i need to use head bands in PivotArea.ColumnArea.
+Eg:
+var settings = new PivotGridSettings();
+            settings.Fields.Add(field =>
+            {
+                field.Area = PivotArea.ColumnArea;
+                field.AreaIndex = 2;
+                field.FieldName = "Rx";
+                field.Caption = "Rx";
+            });
+            settings.Fields.Add(field =>
+            {
+                field.Area = PivotArea.ColumnArea;
+                field.AreaIndex = 2;
+                field.FieldName = "Indicator";
+                field.Caption = "Indicator";
+            });
+In the gridview i simply use settings.Columns.AddBand. How can i achieve the same behaviour in pivot?
+Regards, 

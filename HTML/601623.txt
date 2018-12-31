@@ -1,0 +1,8 @@
+Hello,
+I have a question about the Office 2016 Colorful skin.
+I hav ea project where I use components from a different vendor.
+In there skin the backcolor of Office 2016 is white.
+There I want to have Office 2016 Colorful skin with a white backcolor.
+All backgrounds of Windows, panels etc which are light grey at the moment should be white.
+What is the easiest way to achieve this?
+ 

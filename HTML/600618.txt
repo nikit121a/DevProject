@@ -1,0 +1,10 @@
+We are using a dxFileUploader in a popup. The user type a description and click "Select file" button. For iPad/iOS, the file browser/action does not show up when user click the file button (nothing happen when the button is clicked). For all the other platforms the code is working fine, the file browser/action is shown (works for desktop-browsers, Andrioid tablet, also work when tested in DevExtreme Simulator, even for iOS).
+Do you have any idea why the code works "everywhere", except from iOS/iPad?
+Here is the html (knockout):
+
+
+
+  
+In javascrip, bound to:
+
+

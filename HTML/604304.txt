@@ -1,0 +1,12 @@
+Hello 
+Today I upgraded from WinForms to Universal (and from 17.2.3 to 17.2.5).  I have a project that was developed using the old version - and when I open it and upgrade the project to the new version of DevExpress.  (as I would expect)
+ 
+I can open the project and Build it.  However, when I try to run it - I get the error message shown in the attachment. 
+ 
+Any thoughts as to why this might be?  The PDB files from my understanding contain debugging information.  When I installed the new version/upgrade - I choose to install all options - including source code (although I do not really need it).  
+When I re-install without Source - I get a different error (see image "NoSource"")
+However, I seem to be able to open a new project and run it (basically a blank form) - even if I deliberately generate an exception - it all works as expected on the basically blank form.  
+thoughts?    
+Bradley 
+ 
+ 

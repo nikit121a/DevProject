@@ -1,0 +1,16 @@
+Hello,
+I have a api that returns Unix time stamp dates, can DevExtreme convert the unix timestamps to normal format and for fill the column filter function properly. I was able to use
+<div id="gridContainer" dx-data-grid="dataGridOptions" dx-item-alias="file"></div>
+<script id="gridRow" type="text/html">
+<tbody>
+<tr class="dx-row">
+<td>{{file.data.Description}}</td>
+<td>{{file.data.Version}} </td>
+<td>{{file.data.DateCreated * 1000 | date: "MM/dd/yyyy"}}</td>
+<td>{{file.data.DateUpdated}}</td>
+<td>{{file.data.Size}}</td>
+</tr>
+</tbody>
+</script>
+but when I use the column and search 
+   its still searching  for the time stamp

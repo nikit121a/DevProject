@@ -1,0 +1,5 @@
+Hi
+I have a project ASP.NET CORE 2 MVC. I want to show the SCHEDULER component in a POPUP window when I do a click on a DATEBOX.
+How can I achieve this?
+Regards
+ 

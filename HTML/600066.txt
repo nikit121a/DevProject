@@ -1,0 +1,4 @@
+Our inherited XRSubReport is not working since the Update 17.2.5. With Update 17.2.4 it works fine.
+We set the e.Cancel property in the OnBeforePrint event to true. After MyBase.OnBeforePrint the property is  reseted to false.
+It seems to appear only on PageFooterBands.
+I attached the example project. 

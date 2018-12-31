@@ -1,0 +1,3 @@
+Team,
+How can we set the Active and Inactive tab color when the theme is applied.
+Thanks in advance! 

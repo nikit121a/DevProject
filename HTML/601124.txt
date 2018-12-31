@@ -1,0 +1,5 @@
+Hello,
+our company provide a Visual Studio Extension that uses UI elements from DevExpress (WPF). We discovered problems if the extension user uses a second extension with another DevExpress version than ours (e.g. Code Review Assistant with DevExpress 14.2). If both extensions are used we are not able to open our dialogs with DevExpress. No exception or error message is displayed. As an experiment we removed all DevExpress Control from one dialog and the problem disappears. 
+Is this issue known? Are there any solutions?
+Best regards 
+Christian

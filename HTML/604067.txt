@@ -1,0 +1,6 @@
+Hello,
+I have GridLookUpEdit that should validate its value after one Enter key press. I managed to write code that handles key press while bypassing GridLookUpEdit's popup window:
+And the binding for edit value looks like this:
+So updating source object should happen only after validation. Now, the problem is - DoValidate method in KeyDown event doesn't seem to cause validation in this case. EditValue changes correctly, but it still doesn't update source object - at least not until second key press, which is what I want to avoid here. Could you please tell me, how can I solve this issue?
+Piotr
+ 

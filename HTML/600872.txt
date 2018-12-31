@@ -1,0 +1,2 @@
+The BingSearchDataProvider displays a list of results which you can click on to select a search result. How can I make a custom search data provider which calls my own web service and then displays the results and works in the same way as the BingSeachDataProvider? 
+The examples given do not show a list of results and leave a progress wheel spinning within the search text box.

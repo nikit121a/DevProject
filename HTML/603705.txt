@@ -1,0 +1,6 @@
+Hi,
+We are working on multiple websites for related desktop applications, one is already built with DevExpress MVC 5 and other is being built with DevExtreme and Angular 5. We used the in-built theme Youthful and has built the menubar for the existing website. We need to duplicate the same look and feel for DevExtreme website too, but we found the Youthful theme missing from here.
+Is there any way to use those themes in DevExtreme. Or can I build something similar through theme builder.
+Also note that both of these applications are desktop applications, so would want the widgets to render correctly on the UI.
+Can you please guide me. Attaching screenshots of the UI which I want to mimic.
+ 

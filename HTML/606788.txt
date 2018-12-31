@@ -1,0 +1,14 @@
+Hello!
+I am trying to copy/paste data from/into my grid. I have a custom type for the cell values(containing different properties, using CustomDisplayText event for displaying). 
+however now I also have to adapt copy/paste to be able to modify my grid by CTRL+C/CTRL+V or equivalent.
+So I followed the instructions found on:
+Currently I have these  options set on my gridView:
+ now when I select cells across multiple rows and copy it to the clipboard, everything seems to be fine. Pasting it into e.g. excel yields the expected result(copying also the formatting, using the ToString Method of object stored in the cell for the text).
+I tried to handle the ClipboardRowPasting event to copy the values like that: 
+I get 1 event per row copied, containing all destination columns with the ToString value of my custom object. 
+So far so good. 
+I update my values using the row number i get from (ClipboardRowPastingEventArgs)e.RowHandle for the first row.
+But for every following event(1 for each row copied), the RowHandle I get for the Event stays the same(so I keep overwriting the same row over and over again).
+Is there a way I can increase the row handle, or do I have to trigger row validation or something to get the next row on the next event?
+A better way of doing it would be to add a custom copy/paste mode for my custom object(so i can serialize/deserialize the object), So I don't have to rely on the ToString method. But I don't know if that is even possible at the moment.
+thanks in advance for your help.

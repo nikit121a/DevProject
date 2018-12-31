@@ -1,0 +1,3 @@
+Sizing a Docking Panel (horizontally) doesn't repaint correctly.
+E.g. start the demo: "WinForms" - "Ribbon And Menu" - "Photo Viewer " and then size any dock panel or container horizontally - you'll see, that many gray lines are printed while dragging the panel size - they only disappear once you release the mouse.
+This odd behavior  is new in v17.2.5.

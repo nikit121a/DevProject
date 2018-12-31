@@ -1,0 +1,4 @@
+Hello,
+I have problem with exporting DevExpress reports from preview to PDF files. In the preview, all info displays properly but when I export the reports to PDF files some info on the report got truncated. I have Acrobat Reader XI.
+See the attached screenshot for details. Could you please advise how to handle it to avoid info truncated when exporting it to PDF file?  
+Thanks. 

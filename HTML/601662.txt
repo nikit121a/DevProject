@@ -1,0 +1,7 @@
+Hello,
+I am using a LayoutPanel.CaptionTemplate to display a custom Caption in a LayoutPanel.
+I want to have only a text as Caption when the LayoutPanel is collapsed.
+When the LayoutPanel is expanded I want to have also a button near the text in Caption ( I don't want to see the button when the LayoutPanel is collapsed).
+I attached the sample. Can you correct it to work as expected?
+Best regards,
+Radu Olteanu 

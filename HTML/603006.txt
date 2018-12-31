@@ -1,0 +1,6 @@
+Hello, 
+    In the sample application attached with this post, DevExpress::XtraBars::Ribbon::RibbonForm is used.
+I am facing an issue with the form's title text. The ribbon form's title text disappears whenever the form is 
+maximized and reappears when its size is changed from maximized state to a smaller size.
+Thanks & Regards,
+Georgy Daniel 

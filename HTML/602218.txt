@@ -1,0 +1,4 @@
+Hi,  
+Good morning, I have a big problem and I can not find a way to solve it, I had created a solution with an ASPxPivotGrid control which has an UpdatePanel and the ScriptManager; when it was done with version 14.1.6 everything worked correctly the project was updated to version 17.1.4 and now it can not be pivoted or filtered because it generates the error attached to the image. 
+It was necessary to update to this version because scroll is needed both horizontally and vertically of the above described control and version 14 does not have this property, now I see myself at the crossroads of why this error is generated and I have a ScriptManager at the beginning of the page and two UpdatePanel, but I do not know why it says that one of them is not registered  
+Thanks for your timely help. 

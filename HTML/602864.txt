@@ -1,0 +1,5 @@
+Hi,
+I have a web page embedded with a Report Viewer.
+I would like to know how to pass parameters to the Report Viewer using URL.  I am using C#.
+Please send me sample code to carry such task.
+Thank you 

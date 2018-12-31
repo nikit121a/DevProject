@@ -1,0 +1,2 @@
+Hi Uriah,
+I'm aware of that option but it hides PersistentAlias properties which do work with the DashboardViewDataSourceFillService so it is of no use to us.  If that option would include these properties it would be a good solution.

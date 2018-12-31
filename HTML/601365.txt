@@ -1,0 +1,7 @@
+I have few domain components: Customers, Persons and Memos
+Memo:
+Customers:
+and when I run app there all is ok ai can add many memos to Customers, but i? want add Memos to Customers and Persons and many other DCs in future ...
+then I add IMemos interface to IPerson :
+and when I run application I get error:
+?how to fix it ?

@@ -1,0 +1,8 @@
+Hello,
+We are having problems with the MVC Dashboard.
+We followed the tutorials with a new project and it worked.
+When we transported that to our main project, the dashboard is not configured properly.
+Could you help us figure it out, please?
+Attached is a screenshot of the problem.
+Code below
+ 

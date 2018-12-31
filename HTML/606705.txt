@@ -1,0 +1,1 @@
+Hello. I need to implement additional rendering over DiagramShape(SVG) at run time. Those. for example, one event (element state validation ) occurs and the icons (or strokes with the specified color) of its state are displayed on top of DiagramShape (SVG) elements. I'm trying add my own Adorner but DiagramShape has no AdornerLayer. How I can do this?

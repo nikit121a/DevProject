@@ -1,0 +1,13 @@
+I want to put a button in a dxLayoutgroup (taken from the HybridApp demo).
+The buttons height is 35Pixel, the dxLayoutcontrol that is placed on a cxGroupbox is 60 pixels.
+Even with that height, the dxLayoutcontrol shows scrollbars.
+In the designer it can be seen that the dxLayoutItem is not much bigger then the button.
+The dxLayoutgroup is much higher, it needs some space for the caption.
+However, turning off the caption does not free the unused space.
+Deleting the text does not help too.
+In my case I would need to make the Layoutgroup much bigger than the buttons height to eliminate the scrollbars.
+The screenshot shows the visible caption, setting visible to false removes just the text, but does not change the height and positions.
+Changing the height manually is not possible.
+Is it really a design decision that a Layoutgroup claims that much space ?
+Regards
+Gerhard Sachs

@@ -1,0 +1,7 @@
+Hi, 
+iam trying to change color of work time cells to darker. i found any solution, but it doesnt work for me. 
+In first step, i create resources like that 
+And as is found, in next step i change ResourceColorSchme
+ But nothing happends. Work times are still colored by default "darker" color, derived from color which i set  ( resource.Color = color;) 
+Can you help me please ? 
+Thanks Ale? 

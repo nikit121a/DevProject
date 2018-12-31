@@ -1,0 +1,13 @@
+I am using DevExtreme dxDateBox and I have to use custom date format (dd.mm.yyyy).
+As I have learned I must use external libraries like Globalize. I have looked it up and I find it to time consuming and because I am buying DevExtreme I would like to see a simple documentation about it from you and also an example how to use it.
+Do you have a simple documentation which explains how to use it and an example.
+Thanks, Einar
+itemType: "group",
+ items: [{
+ dataField: "Fr?",
+ editorType: "dxDateBox",
+ displayFormat: "dd.mm.yyyy",
+ value: "now",
+ editorOptions: {
+ width: "100%"
+     }

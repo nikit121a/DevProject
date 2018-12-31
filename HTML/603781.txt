@@ -1,0 +1,4 @@
+Hi guys,
+I am trying to perform a bestfit when my Pivotgrid is sorted, is there an event for this?
+Many thanks,
+Joe 

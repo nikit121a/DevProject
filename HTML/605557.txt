@@ -1,0 +1,3 @@
+Hi,
+I got a Pivotgrid with a TrackBar as RepositoryItem. I need to set the Trackbar Properties: TickFrequency, LargeChange and SmallChange based on my underlying objects data.
+How can this be achieved? I created a screenshot and marked two different items.

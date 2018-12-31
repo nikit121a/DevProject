@@ -1,0 +1,1 @@
+Is it possible to generate a Total Series line in a Web Chart using the Grand Total Values found in a Pivot Grid?

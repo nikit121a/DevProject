@@ -1,0 +1,3 @@
+I have a simple XRLabel on a report which visibility depends on a condition. Up to 17.2.4 the label got hidden if I set e.Cancel = true; in the BeforePrint event. After update to 17.2.5 the label stays visible although e.Cancel == true...
+Is this a bug?
+ 

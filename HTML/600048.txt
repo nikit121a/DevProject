@@ -1,0 +1,7 @@
+Hi, 
+Is it possible to add value to ASPxTokenBox via javascript ? 
+Example for textbox : 
+how if i wanted to add value to ASPxTokenBox  ? 
+Regards,
+Calvin
+ 

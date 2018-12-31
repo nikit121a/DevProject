@@ -1,0 +1,5 @@
+Hi
+I have large GridView with many columns so that it is bigger than the windows size.  My problem with this is that when I scroll to the very right and edit a cell (Scrolling1.png), after hitting the save button it sets the scrollbar position to the very left and very top (Scrolling2.png).
+I want that the scrollbar is kept on the same position so that I can continue to work on other columns without scrolling back every time
+Regards
+Patrick 

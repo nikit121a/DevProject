@@ -1,0 +1,4 @@
+Hi,
+I am an inexperienced person on ASP.NET MVC. I have to take a project. I 'm hooked here because I want to query GridView data with a button via the values from gridlookup. When I press the button, I need to return the query and display the gridview result.
+Best regards;
+Mustafa Cagri Altindal. 

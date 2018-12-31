@@ -1,0 +1,1 @@
+When trying to modify the criteria for an XAF Datasource in the dashboard module I can't use function operators such as CurrentUserId().

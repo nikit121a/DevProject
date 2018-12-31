@@ -1,0 +1,11 @@
+Hello,
+After Up-gradation from 17.2.4 to 17.2.5 there are several error in Global page: The code is in below:
+==================================================
+
+
+
+
+=========================================== 
+this code was worked in azure Environment in previous version (17.2.4v) perfectly. But now It's showing the errors which I attached as zip file.
+ Please find the attachment.
+Thanks,

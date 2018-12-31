@@ -1,0 +1,7 @@
+Please see attached image:
+When editing a data grid row - a lookup field is loaded with new values during  onEditorPrepared event - 
+The lookup (called "Type") shows the key/ID instead of the text value .
+If I  click on the lookup the simply lose focus (click off) on this lookup - the correct text value appears.
+How my lookup is initialized:
+Javascript for initial lookup data source:
+ 

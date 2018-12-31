@@ -1,0 +1,9 @@
+I have data which represents counts per cohort per hour of the day.
+The hour of the day is just represented in the data as a number from 0-23.
+I have successfully modified the axis label, using 
+chartOptions.argumentAxis.label.customiseText to return my required string, and configuring it inside onWidgetCreated.
+In addition, I want to format the tooltip heading on the chart to display the hour the same way....
+See the attached image.
+Examples I have found indicate how to format a series value, but that isn't what I want to change - all the series display fine in the tooltip.
+How can I modify just the "x-axis heading" part of the tooltip?
+ 

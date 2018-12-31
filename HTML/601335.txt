@@ -1,0 +1,6 @@
+Hi,
+Finding that there was no French translation for the SchedulerControl componant, I used your localization tool to translate and downloaded the resulting archive (Attachment).
+Although I see my translations in source folder, I cannot see my french translations for the SchedulerControl only. I unzipped this archive in bin\fr folder
+ of my application and in bin\Debug folder of each wpf modules (configuration used). 
+Regards,
+ 

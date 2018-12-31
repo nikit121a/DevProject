@@ -1,0 +1,5 @@
+Hi, I updated my operating system with the latest Windows updates this week, and the Toaster notifications which used to work perfectly, and not appearing anymore.
+I don't getting any errors or warnings as far as I can see and even while stepping through the code everything seems fine.
+ I'm not the only user here who is experiencing this after the updates. We were on DevExpress 16.2 before and have now upgraded to 17.2.5 but it did not make a difference. My colleague update his Windows first (while still on DevExpress 16.2) and I updated Dev Express to latest first, before installing the latest Windows updates and we both only experienced the Toaster Notification issue after the Windows Update.
+I even tried to write a smaller piece of Toaster test code to see if  I can find an issue, but it behaves the same.
+It there perhaps a fix or workaround that I can use to the the notifications to display? 

@@ -1,0 +1,10 @@
+Hello,
+   I have an Excel data source. I would like to display it. However, Excel is not significat, it's only example. So, I can display it using SpreadSheetControl. It's fine, but too complicated to process the data programatically, it is either user unfriendly or even impossible.
+   My goal is to sort both rows and columns by some criteria. Maybe I can sort rows by specified column data, but columns sorting seems to be impossible or very unfriendly using SpreadSheetControl.
+    So, I am thinking about my own data model. I will load data to my data model, e.g. then I can transform the data by specified criteria and later save modified data back to the data source or do any other operation. The data are in matrix form 
+.
+   The problem is, how to display it in GUI?  There is unknown count of columns or rows. So, I think clasiccal GridView is impossible to use it (cannot define columns in design time etc.).
+   Please, help. Thank you very much in advance.
+   Best Regards,
+     Radim 
+PS: One of the goals is to sort the data in both dimensions and  then set custom background color to selected cells.

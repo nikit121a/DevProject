@@ -1,0 +1,8 @@
+I am using Devexpress XtraReports MVC.
+Assume I have a Master-Detail report where I list many Orders (Main Report) and Order Details (designed as Subreport).The report layout has the Orders listed and under each order record,  there is a list of Order Details (designed a s Subreport) The report list thousands of oders with 4-5 order details for each order.
+I set my own method for
+, so I can handle the 
+event and do the required jobs. But this event is fired once for the main report and once for the subreport (if the subreport is designed as a seperate report and linked to the main report as a subreport).
+I want to ask whether it is possible to call
+or other event when a Order Detail is is about to be printed. The reason for this is, I do not want to fetch all the OrderDetail data into memory and let the XtraReports find the correct  Order Details for the Order from the memory but I want it to go to database and fetch the related Order Details and fills the dataset with them. If there is an event for such, I can fill DataSource by myself.
+Thanks

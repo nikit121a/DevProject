@@ -1,0 +1,1 @@
+How do you set up the number of rows and columns in a spreadsheet? For example, I just want to display 100 lines, and other empty lines do not need to be displayed. What should I do? 

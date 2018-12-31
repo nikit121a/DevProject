@@ -1,0 +1,12 @@
+Hi,
+I am trying to create class from where I can show notification messages.
+Placed a custom template in the file App.xaml
+And created a class 
+All code are from examples from your website.
+If I run the code I get the message "Value cannot be null. Parameter name : dependencyObject"
+Have the feeling that I need to set the template to make it all work but can't find the correct example to show me how to do it.
+Can you please tell me if it is even possible and if so help me with example code that shows me how to create a custom notificatie with a custom template in C#.
+Thanks in advance.
+Kind regards,
+Ernst Jan.
+ 

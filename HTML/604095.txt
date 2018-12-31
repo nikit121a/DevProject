@@ -1,0 +1,2 @@
+I have a parent form which has multiple field in, one of which is WKNO,  When I select a drop down in a one to many relationship I would like the value of the wkno in the dropdown to auto fill the WKNO in the parent.  Can you please advise how this is done?
+Vin 

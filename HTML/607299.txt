@@ -1,0 +1,9 @@
+Hi all,
+I'm using LayoutGoroup and LayoutPanel in one view.
+I set a Caption for each panel but I don't found how to reduce size of it.
+After reading other tickets in your support center, there is a lot of sample to set the color, the fontfamily but how to change its height ?
+I attached a picture with huge empty space at the top and the bottom.
+And see below how I use it
+My goal is to get more place for the content.
+Thanks in advance for your help.
+Johan 

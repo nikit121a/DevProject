@@ -1,0 +1,2 @@
+I am evaluating rewriting one of our DevExpress Winforms Apps to a Windows 10 App.  It's a Mapping Application.  I am trying to migrate our custom map provider over and I cannot seem to get it to work.  We have this working for WinForms so I'm not sure what I'm missing.  I've noticed there are a few overridable methods on the Winforms platform that I cannot implement for a Win 10 App but these don't seem like important methods that could be causing the issue.
+Do you have a working example of a custom provider for the Win10 Map Control?

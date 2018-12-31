@@ -1,0 +1,2 @@
+I set the format to "M/dd/yy", but the DateTime value in the box displays both the date and the time. Attached are images of (1) the design time settings, and (2) the runtime display.
+Attached is the form as displayed at runtime. I'll send a comment or new ticket with an image of the design time settings. 

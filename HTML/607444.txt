@@ -1,0 +1,11 @@
+Hi,
+I have a basic winforms project with the dev express datagrid, a binding navigator, and a bindingsource. I'm retrieving data from SQL server 2016 via an oData service.
+The data is returned to the datagrid as expected but when I edit the values I'm unable to write them back to the database.
+Before using oData, I would have bound the grid to the binding source which in tern was bound to a table adapater and that to the SQL database.
+To write changes back to the SQL database I would have used something like;
+When using oData (which is very new to me). I'm unable to achieve the same and my changes are not written back to the database;
+Would it be possible to get a simple example of how to write data back to a SQL database via oData v4.
+Many thanks
+Kevin
+ 
+ 

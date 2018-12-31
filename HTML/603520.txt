@@ -1,0 +1,7 @@
+Hello how could I make the Grid menu "TcxGridPopupMenu"
+I was the same size as the Grid source it's connected to?
+would have to be something roughly like this :
+
+
+
+

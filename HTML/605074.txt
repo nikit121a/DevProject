@@ -1,0 +1,8 @@
+Hi,
+I have a  table in the sheet and i set a formula using some column off the table (button1)
+Then i delete the Table for change the datasourse, and create the "same" table.  (button2)
+Then 2 things happens:
+1 -  the formula is change to a wrong address
+2 - one row is insert at the botton of the new table.
+How can i avoid this situation?
+Thanks

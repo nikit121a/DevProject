@@ -1,0 +1,3 @@
+Still no news about an chartwizard for WPF?
+The WinForms chartwizard is supereasy for end-users to use, compared to the WPF chart-wizard  designer, which seems more targeted to developers than to end-users (both in design and distribution).
+ 

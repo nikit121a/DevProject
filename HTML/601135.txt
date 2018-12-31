@@ -1,0 +1,2 @@
+Hi ,
+As both column header data and grid data are looking same so i want to highlight or bold the  column header . how i can do that  

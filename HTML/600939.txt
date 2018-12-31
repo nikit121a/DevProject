@@ -1,0 +1,10 @@
+Hi, 
+This issue was not found in v17.1.6. I attached a sample to illustrate the issue i found.  The case is a little bit complicated in order to reproduce it.
+1. Click the 'Click me first' BUTTON
+2. Select a row from the top data-grid. You will see the selectedRowKeys was printed at the bottom of the page.
+3. Click the 'Click me after select a row in the data grid' BUTTON
+ 4. Select  a row from the top data-grid again. You will see nothing was printed at the bottom of the page, but i can get the correct value from console by $('#grid').dxDataGrid('instance').option('selectedRowKeys')
+(You may try to switch the row selection multiple times. It will restore to normal after certain amount of retry.) 
+If i don't follow the steps above, the dataGrid row selection seems to be normal...
+If i removed the TabPanel from the page, the dataGrid also seems to be normal...
+ 

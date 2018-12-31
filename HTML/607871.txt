@@ -1,0 +1,149 @@
+Why dont recognize this property 
+ i.Items.Add(GridViewToolbarCommand.ExportToPdf);
+leave this message "GridViewToolbarCommand dont contains a definition for ExportToPdf"
+thanks
+this the code of the view
+@using System.Web.Mvc
+@using DevExpress.Web.Mvc.
+@Html.DevExpress().GridView(settings =>
+{
+    // Settings
+    settings.Name = "gvSummary";
+    settings.CallbackRouteValues = new { Controller = "ExtraTime", Action = "ExtraHoursSummaryPartial" };
+    settings.CustomBindingRouteValuesCollection.Add(GridViewOperationType.Paging, new { Controller = "ExtraTime", Action = "GridPagingAction" });
+    settings.CustomBindingRouteValuesCollection.Add(GridViewOperationType.Filtering, new { Controller = "ExtraTime", Action = "GridFilteringAction" });
+    settings.Settings.ShowGroupPanel = false;
+    settings.Settings.ShowFilterRow = true;
+    settings.Width = Unit.Percentage(100);
+    settings.ControlStyle.Border.BorderWidth = 0;
+    settings.Toolbars.Add(toolbar =>
+    {
+        toolbar.Enabled = true;
+        toolbar.Position = GridToolbarPosition.Top;
+        toolbar.ItemAlign = GridToolbarItemAlign.Right;
+        toolbar.Items.Add(i =>
+        {
+            i.Text = "Export to";
+            i.Image.IconID = DevExpress.Web.ASPxThemes.IconID.ActionsDownload16x16office2013;
+            i.BeginGroup = true;
+            i.Items.Add(GridViewToolbarCommand.ExportToPdf);
+            i.Items.Add(GridViewToolbarCommand.ExportToDocx);
+            i.Items.Add(GridViewToolbarCommand.ExportToRtf);
+            i.Items.Add(GridViewToolbarCommand.ExportToXls).Text = "Export to XLS(DataAware)";
+            i.Items.Add(exportitem =>
+            {
+                exportitem.Name = "CustomExportToXLS";
+                exportitem.Text = "Export to XLS(WYSIWYG)";
+                exportitem.Image.IconID = DevExpress.Web.ASPxThemes.IconID.ExportExporttoxls16x16office2013;
+            });
+            i.Items.Add(GridViewToolbarCommand.ExportToXlsx).Text = "Export to XLSX(DataAware)";
+            i.Items.Add(exportitem =>
+            {
+                exportitem.Name = "CustomExportToXLSX";
+                exportitem.Text = "Export to XLSX(WYSIWYG)";
+                exportitem.Image.IconID = DevExpress.Web.ASPxThemes.IconID.ExportExporttoxlsx16x16office2013;
+            });
+        });
+        toolbar.Items.Add(i =>
+        {
+            i.BeginGroup = true;
+            i.SetTemplateContent(c =>
+            {
+                Html.DevExpress().ButtonEdit(s =>
+                {
+                    s.Name = "search";
+                    s.Properties.NullText = "Search...";
+                    s.Properties.Buttons
+                        .Add()
+                        .Image.IconID = DevExpress.Web.ASPxThemes.IconID.FindFind16x16gray;
+                }).Render();
+            });
+        });
+    });
+    settings.ClientSideEvents.ToolbarItemClick = "OnToolbarItemClick";
+    settings.SettingsBehavior.AllowSelectByRowClick = true;
+    settings.CommandColumn.ShowClearFilterButton = true;
+    // Columns
+    settings.KeyFieldName = "Id_HRMS";
+    settings.Settings.VerticalScrollBarMode = ScrollBarMode.Auto;
+    settings.Settings.VerticalScrollableHeight = 100;
+    settings.SettingsBehavior.AllowFocusedRow = true;
+    //settings.SettingsPager.Mode = GridViewPagerMode.ShowAllRecords;
+    settings.EnableRowsCache = false;
+    settings.Settings.VerticalScrollBarMode = ScrollBarMode.Visible;
+    settings.Settings.VerticalScrollableHeight = 500;
+    settings.SettingsAdaptivity.AdaptivityMode = GridViewAdaptivityMode.HideDataCells;
+    settings.SettingsAdaptivity.AllowOnlyOneAdaptiveDetailExpanded = true;
+    settings.EditFormLayoutProperties.SettingsAdaptivity.AdaptivityMode = FormLayoutAdaptivityMode.SingleColumnWindowLimit;
+    settings.EditFormLayoutProperties.SettingsAdaptivity.SwitchToSingleColumnAtWindowInnerWidth = 600;
+    settings.Columns.Add(col =>
+    {
+        col.Caption = "No Empleado";
+        //col.MinWidth = 70;
+        //col.Width = 100;
+        col.FieldName = "EmployeeNumber";
+        col.Width = 100;
+        col.AdaptivePriority = 1;
+    });
+    settings.Columns.Add(col =>
+    {
+        col.Caption = "Nombre del Empleado";
+        col.FieldName = "FullName";
+        //col.MinWidth = 200;
+        //col.Width = 250;
+        col.Width = 100;
+        col.AdaptivePriority = 2;
+    });
+    settings.Columns.Add(col =>
+    {
+        col.Caption = "Ubicaci?n";
+        //col.MinWidth = 200;
+        //col.Width = 300;
+        col.FieldName = "Location";
+        col.Width = 100;
+        col.AdaptivePriority = 3;
+    });
+    settings.Columns.Add(col =>
+    {
+        col.Caption = "Horas Grabadas";
+        col.FieldName = "TotalHours";
+        //col.MinWidth = 70;
+        //col.Width = 100;
+        col.Width = 100;
+        col.AdaptivePriority = 4;
+    });
+    settings.Columns.Add(col =>
+    {
+        col.Caption = "Horas Aut.Jefe";
+        col.FieldName = "TotalHoursBoss";
+        //col.MinWidth = 70;
+        //col.Width = 100;
+        col.Width = 100;
+        col.AdaptivePriority = 5;
+    });
+    settings.Columns.Add(col =>
+    {
+        col.Caption = "Horas Gerencia";
+        col.FieldName = "TotalHoursManager";
+        //col.MinWidth = 70;
+        //col.Width = 100;
+        col.Width = 100;
+        col.AdaptivePriority = 6;
+    });
+    settings.Columns.Add(col =>
+    {
+        col.Caption = "Horas RRHH";
+        col.FieldName = "TotalHoursRrhh";
+        //col.MinWidth = 70;
+        //col.Width = 100;
+        col.Width = 100;
+        col.AdaptivePriority = 7;
+    });
+    settings.Settings.ShowFooter = true;
+    settings.SettingsDetail.AllowOnlyOneMasterRowExpanded = false;
+    settings.SettingsDetail.ShowDetailRow = true;
+    settings.SetDetailRowTemplateContent(c =>
+    {
+        Html.RenderAction("ExtraHoursDetailPartial", new { CustomerID = DataBinder.Eval(c.DataItem, "Id_HRMS") });
+    });
+}).BindToCustomData(Model).GetHtml()

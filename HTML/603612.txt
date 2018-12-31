@@ -1,0 +1,7 @@
+We are preparing to move our project to ver 17.2, so we are allready on version 16.1 and i think there is a bug in version17.2 ASPxScheduler control.
+First time at initialization binding when  event DataBinding is fired but it doesn't fire a 
+ event!
+So on large data models (your sample!), where internal sql variables values are ini tialized in 
+ event is rising SQL error. I think this is a bug, then every DataBind should fire a 
+ event before executing ResourceDataSource and AppointmentDataSource queries.
+Sa?a 

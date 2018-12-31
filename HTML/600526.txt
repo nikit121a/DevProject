@@ -1,0 +1,14 @@
+Hello, Team!
+ There is a problem with date occuring rules. DashboardDesigner doesn't change "DateType" parameter in a dashboard layout. If I change the parameter manually by a notepad, it works, but the component can't change it.
+Example manually changed rule:
+<GridItemFormatRule Name="Rule 1" DataItem="DataItem4" DataItemApplyTo="DataItem4">
+          <FormatConditionDateOccuring 
+>
+            <AppearanceSettings AppearanceType="Purple" />
+          </FormatConditionDateOccuring>
+</GridItemFormatRule>
+I attached the sample to show the problem, try to change the rule by the editor, it doesn't work. 
+Also it is easy to reproduce in your's dashboard demos, for example here: 
+1) add grid item
+2) add "Date"column 
+3) add some  DateOccuring rule - it doesn't work :-(

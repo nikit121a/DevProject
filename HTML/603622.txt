@@ -1,0 +1,7 @@
+Hi,
+We are using your beautiful MVC Dashboard and we have a question regarding the Export functionality.
+We are using a grid from which we export the data in an Excel file. When the data is too big, a notification message is shown indicating that not all data was loaded in order to improve performance. So we are wondering, at this point or in this case,  when we click the Export button,  would all data be exported from the database? Or only the data visible in the UI?
+It looks like upon clicking the Export button, the data will be retrieved again from the database, but we are not sure whether it retrieves data that matches the data visible in the UI.
+Another question is whether it is possible to export data in CSV format
+Thank you,
+Best, Fadi 

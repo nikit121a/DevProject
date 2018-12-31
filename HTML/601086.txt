@@ -1,0 +1,6 @@
+Good day.
+My site runs fine on IE, Chrome. But it does not run on any iOS platform - Safary on MAC or iPhone.
+This browser retruns an error (see attached screanshots).
+I use ASPxPivotGrid, ASPxGridLookup, ASPxPopupControl  & ASPxGridView on my page.
+Please, help me to solve this problem.
+Thanks. 

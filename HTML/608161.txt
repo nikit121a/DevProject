@@ -1,0 +1,6 @@
+I have a model class:
+This is set to the model in my page and my form looks like (from intellisense)
+But the field is coming through as blank.
+If I change the items to items.AddSimple().DataField("modelId")  then it loads the data but doesn't send it back up with the form submission.
+Is this intended behaviour?  Am I going about this  wrong?
+Incidentally the standard asp net @Html.TextBoxFor(m => m.ModelID)  works.

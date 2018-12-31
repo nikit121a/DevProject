@@ -1,0 +1,8 @@
+Hello we have the following configuration:
+A SpreadsheetControl where we binded the SelectionChanged with a Checking function in our ViewModel to verify the validity of the selection by the user.
+In some case the checking display a warning pop-up.
+When we validate the pop-up the mouse is stucked in the selection state and the selection keep changing. 
+We identified the problem to be the following:
+The MouseUp event is never received by the SpreadSheetControl as it occurs on the pop-up.
+We looked up for a SelectionFinished event or something similar. The goal was to do the checking only at the end of the selection and not dynamically.  But we didn't found one. 
+As a consequence we are looking for a way to stop the Selection programmatically before displaying the pop-up. Is there a way to do so, without having to raise a MouseUp event ?

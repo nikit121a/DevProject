@@ -1,0 +1,2 @@
+is it possible to load the NavBar once ?
+After starting the application I would not load the navbar anymore when I change view, is it possible ? 

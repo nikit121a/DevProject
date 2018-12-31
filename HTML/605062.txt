@@ -1,0 +1,4 @@
+Hi,
+I have prepared little sample which illustrate my problem: I load XMl Data in the report designer with this code:
+Then the XML gets changed an I reload them with this code:
+My Problem: The new Field in the Extendend XML  doe not show up in the field List

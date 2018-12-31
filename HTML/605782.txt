@@ -1,0 +1,5 @@
+
+Hello!
+I can't open Model Editor.
+One or more errors were encountered while loading the designer. The errors are listed below. Fixing some of the errors may require code or model changes.
+Can not convert type  "string" to "VSLangProj.prjOutputType"

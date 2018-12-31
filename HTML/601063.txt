@@ -1,0 +1,5 @@
+Hello DevExpress,
+I have a dashboard for testing purposes, which contains allmost all dashboard elements for testing purposes. I think 4x4 dahsboard items where every item  is different configured. And there are also the four different map types. By clicking on the dashboard export function, the application hangs.
+After I attached the debugger I found out it was because of a deadlock, which I think occures in the export rendering routines of the map controls. 
+Within the textfile I provided the callstack of the main thread and futher down all threads, including their callstacks. 
+ 

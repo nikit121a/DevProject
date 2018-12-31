@@ -1,0 +1,3 @@
+In the application that we've been building we've been using code like the following for editor popups in grids
+ Works fine when running with ng build. However, when trying to do a production build (ng build --prod), we are getting a litany of errors like:
+What do we need to do to make this work with a production Angular build? 

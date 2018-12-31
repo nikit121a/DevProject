@@ -1,0 +1,4 @@
+I have a number of forms in my app which are simple XtraForms and don't need a RibbonControl on them. They do however need a STATUSBAR on them (to show some simple status text and a size-grip for the form) so at the moment I'm just using a native Windows StatusBar.
+The problem?
+The Windows StatusBar looks bad with DevEx skinning, so what I really need is a RibbonStatusBar but without a RibbonControl (which is overkill for these small forms).
+I appreciate the we can't have a stand-alone RibbonStatusBar, but please can you tell me how to best "approximate" this with your other controls (e.g. a PanelControl, a LabelControl and something showing a sizing grip for the form)?

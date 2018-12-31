@@ -1,0 +1,1 @@
+After upgrading from 15.2 to 17.2 version of Devexpress Grid, column with currency / number format fields values of 0 / 0.00 are getting converted to blank values. Earlier they used to get printed correctly.

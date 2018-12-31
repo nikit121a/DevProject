@@ -1,0 +1,5 @@
+Hi,
+ I have a CardView with custom cards/item layout. I also have the SearchPanel enabled so cards can be filtered. This worked well with v16.1.x, but since I upgraded to v17.2.5 the search panel does not work anymore. A callback is made, but I get the same results back as if I wouldn't have started a search.
+Attached is a sample project to show the issue. Two CardViews, one with default cards (search works), one with a custom template (search not working). Otherwise no differences.
+Do I need to add some special settings which weren't needed before?
+ 

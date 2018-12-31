@@ -1,0 +1,3 @@
+I have placed a XRPageInfo in PageFotter band with the property RunningBand set to a groupheader.
+The GroupHeader used is printed on say each 3 or 4  page but both the current page and the page total is not reset, so say I'm printing 1325 pages, the page footer on page 543 writes "543/1325" but should have indicated "3/4" (assuming the controlling groupband was printed 3 pages before and a new groupband will be printed in  2 pages).
+ 

@@ -1,0 +1,2 @@
+Is there a way to view a PDF in the viewer, then open it in Adobe Acrobat, add markup and then save? When I do this, I get the attached error (the file is in use). I imagine that because the PDF is being viewed in the devexpress viewer, that it is "in use".
+Is there any way around this? My users need full adobe features to markup documents, but ideally would be doing this from the devexpress viewer (using a button that opens the file in Adobe Acrobat). 
